@@ -65,7 +65,7 @@
               </p>
             </label>
             
-            <!-- comment the following div out if you do not want to display the Greek keyboard -->
+            <!-- comment the following div out if you do not want to display the Greek keyboard
             <div id="keyboard_box">
               <ul id="keyboard">
                 <li class="letter">α</li>
@@ -180,9 +180,11 @@
                 <li class="letter">*</li>
                 <li class="delete">⇐</li>
               </ul>
-            </div>
+            </div> -->
             
-            <h4>Date <span id="date-slider-label"></span></h4>
+            <h4>
+              <i18n:text i18n:key="search_date">Date</i18n:text> 
+              <span id="date-slider-label"></span></h4>
             <div id="date-slider-widget" data-range-min="-500" data-range-max="1600" data-value-min="-200" data-value-max="1400" data-step="25" data-label-prefix="" data-label-suffix="A.D." data-field-name="origin_date" />
           </form>
           <!-- List of currently applied facets. -->

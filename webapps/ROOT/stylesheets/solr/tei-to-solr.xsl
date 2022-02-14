@@ -46,6 +46,37 @@
     </field>
   </xsl:template>
   
+  <xsl:template match="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:rs[@type='script']" mode="facet_script_type">
+    <field name="script_type">
+      <xsl:value-of select="."/>
+    </field>
+  </xsl:template>
+  
+  <xsl:template match="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:rs[@type='execution']" mode="facet_execution">
+    <field name="execution">
+      <xsl:value-of select="."/>
+    </field>
+  </xsl:template>
+  
+  <xsl:template match="//tei:text/tei:body/tei:div/tei:ab/tei:rs[@type='date']" mode="facet_date_in_text">
+    <field name="date_in_text">
+      <xsl:value-of select="."/>
+    </field>
+  </xsl:template>
+  
+  <xsl:template match="//tei:text/tei:body/tei:div//tei:ab/tei:rs[@type='pn']" mode="facet_khanmetoba">
+    <field name="khanmetoba">
+      <xsl:value-of select="."/>
+    </field>
+  </xsl:template>
+  
+  <xsl:template match="//tei:text/tei:body/tei:div/tei:ab/tei:rs[@type='curse']" mode="facet_curse">
+    <field name="curse">
+      <xsl:value-of select="."/>
+    </field>
+  </xsl:template>
+  
+  
   <!-- This template is called by the Kiln tei-to-solr.xsl as part of
        the main doc for the indexed file. Put any code to generate
        additional Solr field data (such as new facets) here. -->
@@ -61,6 +92,12 @@
     <xsl:call-template name="field_mentioned_institutions"/>
     <xsl:call-template name="field_mentioned_divinities"/>
     <xsl:call-template name="field_person_name"/>
+    <xsl:call-template name="field_script_type"/>
+    <xsl:call-template name="field_execution"/>
+    <xsl:call-template name="field_date_in_text"/>
+    <xsl:call-template name="field_khanmetoba"/>
+    <xsl:call-template name="field_curse"/>
+    
   </xsl:template>
   
   <xsl:template name="field_inscription_type">
@@ -77,6 +114,31 @@
   
   <xsl:template name="field_person_name">
     <xsl:apply-templates mode="facet_person_name" select="//tei:text/tei:body/tei:div[@type='edition']" />
+  </xsl:template>
+  
+  <xsl:template name="field_script_type">
+    <xsl:apply-templates mode="facet_script_type" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:rs[@type='script']">
+    </xsl:apply-templates>
+  </xsl:template>
+  
+  <xsl:template name="field_execution">
+    <xsl:apply-templates mode="facet_execution" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:rs[@type='execution']">
+    </xsl:apply-templates>
+  </xsl:template>
+  
+  <xsl:template name="field_date_in_text">
+    <xsl:apply-templates mode="facet_date_in_text" select="//tei:text/tei:body/tei:div/tei:ab/tei:rs[@type='date']">
+    </xsl:apply-templates>
+  </xsl:template>
+  
+  <xsl:template name="field_khanmetoba">
+    <xsl:apply-templates mode="facet_khanmetoba" select="//tei:text/tei:body/tei:div//tei:ab/tei:rs[@type='pn']">
+    </xsl:apply-templates>
+  </xsl:template>
+  
+  <xsl:template name="field_curse">
+    <xsl:apply-templates mode="facet_curse" select="//tei:text/tei:body/tei:div/tei:ab/tei:rs[@type='curse']">
+    </xsl:apply-templates>
   </xsl:template>
 
 </xsl:stylesheet>

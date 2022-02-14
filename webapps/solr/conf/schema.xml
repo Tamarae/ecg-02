@@ -107,6 +107,16 @@
         compatibility is not guaranteed.  Names with both leading and
         trailing underscores (e.g. _version_) are reserved.
    -->
+   
+   <!-- ECG ფასეტები -->
+   <field name="inscription_category" required="false" indexed="true" multiValued="true" stored="true" type="string"/>
+   <field name="script_type" required="false" indexed="true" multiValued="true" stored="true" type="string"/>
+   <field name="execution" required="false" indexed="true" multiValued="true" stored="true" type="string"/>
+   <field name="date_in_text" required="false" indexed="true" multiValued="true" stored="true" type="string"/>
+   <field name="khanmetoba" required="false" indexed="true" multiValued="true" stored="true" type="string"/>
+   <field name="curse" required="false" indexed="true" multiValued="true" stored="true" type="string"/>
+   <field name="decoration" required="false" indexed="true" multiValued="true" stored="true" type="string"/>
+   
 
    <field indexed="true" multiValued="false" name="document_type"
           required="false" stored="true" type="string" />

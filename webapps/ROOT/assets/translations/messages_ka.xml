@@ -135,12 +135,21 @@
   <message key="facet-origin_place">წარმომავლობა</message>
   <message key="facet-support_material">მასალა</message>
   <message key="facet-inscription_category">ტექსტის კატეგორია:  </message>
-  <message key="facet-script_type">ანბანი</message>
+  <message key="facet-script_type">დამწერლობა</message>
   <message key="facet-execution">შესრულების ტექნიკა</message>
   <message key="facet-khanmetoba">ხანმეტობა და ჰაემეტობა</message>
   <message key="facet-date_in_text">თარიღი ტექსტში</message>
   <message key="facet-curse">წყევლის ფორმულები</message>
   <message key="facet-decoration">დეკორი</message>
+  <message key="facet-source_repository">დაცულია</message>
+  <message key="facet-support_object_type">ობიექტის ტიპი</message>
+  <message key="facet-inscription_type">წარწერის ტიპი</message>
+  <message key="facet-origin_date_evidence">დათარიღების საფუძველი</message>
+  <message key="facet-mentioned_places">მოხსენიებული ადგილები</message>
+  <message key="facet-mentioned_divinities">მოხსენიებული წმინდანები</message>
+  <message key="facet-found_provenance">აღმოჩენის ადგილი</message>
+  
+
 
 
   <!-- გამოცემის გვერდი  iospe-->
