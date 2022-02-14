@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">1010-1033 წწ. მელქისედეკ კათალიკოსის სადიდებელი</title>
+                <editor xml:lang="ka">გიორგი ოთხმეზური</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <idno type="filename">ECG214</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                    დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            დმანისი
+                        </collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სადიდებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                <objectType>ბალავარის ქვა</objectType>
+                                <material>ქვა</material>
+                            </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>წარწერა შესრულებულია ტრაპეზის ქვის დას. სადგამზე</p>
+                                    <dimensions unit="cm">
+                                        <height>760</height>
+                                        <width>600</width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli_k" style="inscribed">
+                                <p xml:lang="ka"><rs type="execution">კიდურწერტილოვანი</rs> <rs type="script">კუთხოვანი ასომთავრული</rs></p>
+                                <dimensions unit="mm">
+                                    <height>40-60-15</height>
+                                </dimensions>        
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>დმანისი</origPlace>
+                            <origDate>1010-1033</origDate>
+                        </origin>
+                        <provenance type="observed">
+                            <placeName type="modernspot">საჯა(საჭე)</placeName>
+                        </provenance>
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    
+      <!-- 
+    <facsimile>
+        <surface>
+            <graphic url="tskise_01.jpg">
+                <desc xml:lang="ka">წყისეს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile> -->
+    
+    <text>
+    <!-- 
+    1. ქ(რისტ)ე, ად(ი)დე მ(ელ)ქ(ი)ზ(ედე)კ ქა(რ)თ
+    2. ლ(ი)სა კ(ათა)ლ(ი)კ(ოზ)ი ქ(ორონიკონი) იყო...
+     -->
+        
+        <body>
+            
+            <div type="bibliography">
+                
+                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>104-105</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
+            </div>
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+    
+                    <ab>
+                        <lb n="1"/><persName type="divine" ref="divine.xml#iesous"><name nymRef="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></name></persName> <w lemma="ადიდებს"><expan><abbr>ად</abbr><ex>ი</ex><abbr>დე</abbr></expan></w> 
+                                   <persName type="clergy" ref="clergy.xml#melqisedek"><name nymRef="მელქისედეკ"><expan><abbr>მ</abbr><ex>ელ</ex><abbr>ქ</abbr><ex>ი</ex><abbr>ზ</abbr><ex>ედე</ex><abbr>კ</abbr></expan></name></persName> <placeName nymRef="ქართლ"><expan><abbr>ქა</abbr><ex>რ</ex><abbr>თ
+                       <lb n="2" break="no"/>ლ</abbr><ex>ი</ex><abbr>სა</abbr></expan></placeName> <roleName nymRef="კათალიკოზ"><expan><abbr>კ</abbr><ex>ათა</ex><abbr>ლ</abbr><ex>ი</ex><abbr>კ</abbr><ex>ოზ</ex><abbr>ი</abbr></expan></roleName> 
+                        <rs type="date"><w lemma="ქორონიკონი"><expan><abbr>ქ</abbr><ex>ორონიკონი</ex></expan></w> <w lemma="არის">იყო</w> <gap reason="lost" extent="unknown" unit="character"/></rs>
+                        
+                    </ab>
+            </div>
+            
+            <div type="translation"/>
+            
+            <div type="commentary">
+                <p> დმანისის ნაქალაქარზე გადმოტანილია დიდი ზომის ბალავარის ქვა, რომელზეც ცენტრში სადგარზე აღმართული ე.წ. გოლგოთის ჯვარია გამოსახული. 
+                    ჯვრის მარჯვნივ ამოკვეთილია 2სტრ. განკვეთილობის ნიშნები არ ახლავს. ქარაგმის ნიშნად გამოყენებულია სწორი, მოგრძო, განივი, კიდურწერტილოვანი ხაზი.
+                    დაზიანება: წარწერის დასასრული, სადაც ქორონიკონის აღმნიშვნელი გრაფემები იყო ამოღარული, უკვალოდაა გადაშლილი. 
+                    წარწერის დათარიღებაწინა გამოცემებში: 1010-1033წწ., მელქისედეკ I-ის ზეობის ხანა. (ზ, ბ, ო).
+                    წარმოდგენილ გამოცემაში გაზიარებულია მოცემული დათარიღება.
+                    
+                </p>
+            </div>
+
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+

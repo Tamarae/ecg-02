@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">სავედრებელი წარწერა თეოდორესი</title>
+                 <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                 <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG522</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            თორის წარწერების კორპუსი
+                        </collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material>ქვა</material>
+                                   <objectType> ფასადი</objectType>
+                                        <dimensions unit="cm">
+                                        <width>10</width>
+                                        <height>39</height>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="1">
+                                        <dimensions unit="cm">
+                                            <width> 5,5</width>
+                                            <height>3,5</height>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli">წარწერა შესრულებულია ასომთავრულით, განკვეთილობის ნიშნები არ აქვს,ქარაგმად გამოყენებულია მოკლე განივი ხაზი.
+                                <width>3,5</width>
+                                <height>2,5</height>
+                                 </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>თელოვანის წმინდა ელიას ეკლესია, სავედრებელი წარწერა თეოდორესი</origPlace>
+                                <origDate>X-XI ს.</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">. თელოვანის წმინდა ელიას ეკლესია, სავედრებელი წარწერა თეოდორესი</placeName>
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">თელოვანის წმინდა ელიას ეკლესია, სავედრებელი წარწერა თეოდორესი
+                            <placeName type="modernSpot">თელოვანის წმინდა ელიას ეკლესია, სავედრებელი წარწერა თეოდორესი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2020-01-16" who="papidze">გარე ანოტირება, პირთა სახელების, წარწერის სრული კოდირება  შესრულდა 2020 წლის ციფრული ეპიგრაფიკის სასწავლო კურსის ფარგლებში.</change>
+        </revisionDesc>
+    </teiHeader>
+    <!-- წარწერის ფოტოდოკუმენტაცია -->
+    <facsimile>
+        <surface>
+            <graphic url="ECG522.jpg">
+                <desc xml:lang="ka">სავედრებელი წარწერა თეოდორესი</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+           <div type="bibliography">
+               
+                <p><bibl n="1"><ref target="#b130">დევი ბერძენიშვილი, 1985:46</ref></bibl></p>
+                 <p><bibl n="2">დევი ბერძენიშვილი, 1987:38</bibl></p>
+                   <p><bibl n="3">თამაზ გოგოლაძე, 2014:104</bibl></p>
+            
+           </div>
+            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">     
+              <!--ქ(რისტე), შ(ეიწყალ)ე თ(ეოდორ)ე-->
+                <ab>
+                    <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
+                               <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w>
+                               <persName type="local" key="თეოდორე"><expan><abbr>თ</abbr><ex>ეოდორ</ex><abbr>ე</abbr></expan></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ka"/>
+            <div type="apparatus" xml:space="preserve"/>
+            <div type="commentary"><p>წარწერა დაზიანებული არ არის, თავიდან ბოლომდე გარკვევით იკითხება</p>
+                 <p>წარწერის დათარიღების საფუძველი: შესრულებულია ასომთავრული დამწერლობით. </p>
+            </div>
+
+         </body>
+    </text>
+</TEI>

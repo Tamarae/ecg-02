@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka"> წარწერა ხატის გადმოსვენების შესახებ</title>
+                 <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG518</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            თორის წარწერების კორპუსი
+                        </collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material>ქვა</material>
+                                   <objectType> აღსავლის კარი</objectType>
+                                        <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="1">
+                                        <dimensions unit="cm">
+                                            <width> 3,3</width>
+                                            <height>5,5</height>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli">წარწერა შესრულებულია ნუსხურით, განკვეთილობოს ნიშნები არ აქვს, ქარაგმად გამოყენებულია სწორი განივი ხაზი.
+                                <width>2,05</width>
+                                <height>0,2-0,3</height>
+                                 </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ფოთოლეთის ეკლესია, სავედრებელი წარწერა კვირიკესი</origPlace>
+                                <origDate>XI ს.</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">. ფოთოლეთის ეკლესია, წარწერა ხატის გადმოსვნების შესახებ</placeName>
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">ფოთოლეთის ეკლესია, წარწერა ხატის გადმოსვენების შესახებ
+                            <placeName type="modernSpot">ფოთოლეთის ეკლესია, წარწერა ხატის გადმოსვენების შეხახებ</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2020-01-16" who="papidze">წარწერის სრული კოდირება, გარე ანოტირება, პირთა სახელების, ლემების მითითება, ბიბლიოგრაფია.</change>
+        </revisionDesc>
+    </teiHeader>
+    <!-- წარწერის ფოტოდოკუმენტაცია -->
+    <facsimile>
+        <surface>
+            <graphic url="ECG518.jpg">
+                <desc xml:lang="ka">წარწერა ხატის გადმოსვენების შესახებ</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+           <div type="bibliography">
+               
+                <p><bibl n="1">გიორგი გაგოშიძე<ptr target="bibliography.xml#b130"/>,<citedRange>134</citedRange>2020</bibl></p>
+            
+           </div>
+            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">   
+              <!--ხ(ა)ტი მ(ო)ვ(ი)და-->
+                <ab>
+
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ka"/>
+            <div type="apparatus" xml:space="preserve"/>
+            <div type="commentary"><p>წარწერა დაზიანებული არ არის. თავიდან ბოლომდე გარკვევით იკითხება</p>
+                 <p>წარწერის დათარიღების საფუძველი: შესრულებულია სწორი ეპიგრაფიკული ნუსხურით.  </p>
+            </div>
+
+         </body>
+    </text>
+</TEI>

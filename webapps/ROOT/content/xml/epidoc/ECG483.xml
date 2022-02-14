@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>გუდავას რაბაისა და ნუგამწირას წარწერა</title>
+                <editor>ლია ახალაძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
+                 <idno type="filename">ECG483</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            გუდავა
+                        </collection>
+                    </msIdentifier>
+                     <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სავედრებელი</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material>ქვა</material>
+                                   <objectType>ლოდი</objectType>
+                                        <dimensions unit="cm">
+                                            <width>75</width>
+                                            <height>45</height>
+                                            <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="4">
+                                        <dimensions/>
+                                    </layout>
+                                </layoutDesc>
+                                 </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli">
+                                ოთხსტრიქონიანი <rs type="script">ასომთავრული</rs> წარწერა, განკვეთილობის ნიშანი - ორწერტილი, ქარაგმის ნიშანი: სწორი, პატარა, განივი ხაზი.
+                            </handNote>
+                            <handNote>
+                                   <height/>
+                                 </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <addName>სამმაგი წიწვოვანორნამენტიანი ჩარჩო</addName>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>გუდავა</origPlace>
+                                <origDate/><!-- აღმწერი მიიჩნევს, რომ წარწერა XV-XVI საუკუნეებით შეიძლება დავათარიღოთ  -->
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">გუდავა</placeName>
+                                <rs type="circumstances"/>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">
+                            <placeName type="modernSpot">გუდავა</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2019-05-26" who="skhulukhia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, ბმულის დაკავშირება გარე კონტროლირებად ლექსიკონთან</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url=".jpg">
+                <desc xml:lang="ka">გუდავას რაბაისა და ნუგამწირას წარწერა</desc>
+                 <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="principalEdition">
+            </div>
+
+            <!-- სულსა რაბ[(ა)ის] / შ(ეუ)ნდ(ვნე)ს ღ(მერთმა)ნ და მეუ[(ღლეს)]ა მისა ნუგამწი/რას შ(ეუ)ნდ(ვნე)ს ღ(მერთმა)ნ -->
+            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve" >
+                <ab>
+                    <lb n="1"/><w lemma="სულ">სულსა</w>
+                        <persName><name nymRef="რაბაი"><expan><abbr>რაბ</abbr><supplied reason="lost" precision="medium"><ex>ა</ex><abbr>ის</abbr></supplied></expan></name></persName>
+                    <lb n="2"/><w lemma="უნდობს"><expan><abbr>შ</abbr><ex>ეუ</ex><abbr>ნდ</abbr><ex>ვნე</ex><abbr>ს</abbr></expan></w>
+                            <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> და
+                            <w lemma="მეუღლე"><expan><abbr>მეუ</abbr><supplied reason="lost" precision="medium"><ex>ღლეს</ex></supplied><abbr>ა</abbr></expan></w>
+                    <lb n="3"/><w lemma="მისი">მისა</w> <persName><name nymRef="ნუგამწირა">ნუგამწი
+                    <lb n="4" break="no"/>რას</name></persName>
+                            <w lemma="უნდობს"><expan><abbr>შ</abbr><ex>ეუ</ex><abbr>ნდ</abbr><ex>ვნე</ex><abbr>ს</abbr></expan></w>
+                            <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ka"><p>რაბაის სულს და მის მეუღლეს ნუგამწირას შეუნდოს ღმერთმან</p></div>
+            <div type="apparatus" xml:space="preserve"/>
+            <div type="commentary"><p>წარწერა შესრულბულია რუხი ფერის მოგრძო ოთხკუთხედ ქვის ლოდზე.
+                ქვის ზედა მარჯვენა კუთხის მოტეხვის გამოდაზიანებულია წარწერის პირველი და მეორე სტრიქონების ბოლო ნაწილი.
+                გამოცემები:(142.141); (158.370); (66.27)</p>
+            </div>
+
+         </body>
+    </text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>საფარის მიძინების ტაძრის წარწერა ეკლესიის მაკურთხებელი მაცხოვრის რელიეფზე</title>  
+                <editor>ვალერი სილოგავა</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG128</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>საფარა</collection>
+                    </msIdentifier>
+                      <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სავედრებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="3">წარწერა სამსტრიქონიანია.
+                                   იგი შესრულებულია სიუჟეტიანი ფილის ფრაგმენტზე. მასზე შემორჩენილია ტახტზე დაბრძანებული მაცხოვრის გამოსახულება, 
+                                რომელსაც მარცხენა ხელში დაკეცილი კოდექსი უჭირავს, ხოლო მარჯვენა ხელით ეხება (აკურთხებს) ბაზილიკური ტაძრის (ძალზე ფრაგმენტულად შემორჩენილის) სახურავს.
+                                ფილის ზედა კიდეში განმარტებითი წარწერების ფრაგმენტებია. როგორც ჩანს, საფარის მიძინების ტაძრის ერთ-ერთ კედელში თავის დროზე ჩასმული იყო 
+                                X ს-ის რელიეფი ტაძრის მაკურთხებელი მაცხოვრის გამოსახულებით და შესაბამისი წარწერებით, რომელთაგან დღეს მხოლოდ ეს ფრაგმენტი შემორჩა
+                                       <dimensions unit="cm">
+                                         <width/>
+                                         <height/> 
+                                        </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
+                                   <height unit="cm"/> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>საფარის მონასტრის მიძინების ტაძარი</origPlace>
+                                 <origDate notBefore-custom="900" notAfter-custom="1000" precision="medium" 
+                                    evidence="context" datingMethod="#julian">X AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">საფარის მონასტრის მიძინების ტაძარი</placeName>
+                                <!-- "41.602116, 43.031036"--> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/> 
+                                <rs type="monuList"/>
+                            </provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">საფარის მონასტრის მიძინების ტაძარი</placeName>
+                                <idno type="invNo"/>
+                            </provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg128.jpg">
+                <desc xml:lang="ka">საფარის მიძინების ტაძრის წარწერა ეკლესიის მაკურთხებელი მაცხოვრის რელიეფზე</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>           
+          <div type="bibliography">
+              
+       <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
+              
+            </div>
+     
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--  "იჳ 
+                               [ქე]
+                              [სიო]ნი"-->                                           
+                                
+                <ab>
+<lb n="1"/><w lemma="იესუ"><expan><abbr>ი</abbr><ex>ესო</ex><abbr>ჳ</abbr></expan></w>
+<lb n="2"/><w lemma="ქრისტე"><expan><supplied reason="lost"><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></supplied></expan></w>  
+<lb n="3"/><w lemma="სიონ"><supplied reason="lost">სიო</supplied>ნი</w>    
+                 </ab>
+               </div>
+
+
+              
+         <div type="translation" xml:lang="ka">
+             <p>იესუ ქრისტე... სიონი</p>
+         </div>    
+                             
+               <div type="commentary">
+                <p>საფარის მონასტერი ძველი დროიდანვე სხვადასხვა დანიშნულების 12 ნაგებობისაგან შედგებოდა. მათ შორის არის მიძინების ტაძარი.
+                   ვალერი სილოგავას აზრით, საფარის რელიეფზე ისეთივე სიუჯეტი ყოფილა წარმოდგენილი ეკლესიის მაკურთხებელი მაცხოვრის გამოსახულებით და შეიძლება ქტიტორის თუ
+                   ქტიტორთა სახელების აღნიშვნით, რომლებიც არ შემორჩენილა, როგორიც ოპიზის 923-937 წწ. დათარიღებულ ცნობილ რელიეფზეა (ნ. ალადაშვილი, რელიეფი ოპიზიდან აშოტ კურაპალატის
+                   გამოსახულებით, საქ. მეც. აკად. მოამბე, ტ. XV, N7, 1954,  473-478).
+                   ჯერ კიდევ ივანე ჯავახიშვილის დროიდან ცნობილია, რომ „სიონი ქართულად „ბაზილიკასა“ ჰნიშნავდა“ (ივანე ჯავახიშვილი, მასალები ქართველი ერის მატერიალური კულტურის 
+                   ისტორიისათვის, I, მშენებლობის ხელოვნება ძველ საქართველოში, თბ, 1948, 77). ხოლო გ. ჩუბინაშვილმა ამ ტერმინს ცალკე ნარკვევი მიუძღვნა მის ცნობილ მონოგრაფიაში
+                   ბოლნისის სიონის შესახებ. მისი დასკვნით, მთავარია არა ის, რომ იგი არქიტექტურული ტერმინია, რაც, ალბათ, უფრო შემთხვევითია და ნაკარნახევია ამ სახელის იერუსალიმური ეკლესიის
+                   ბაზილიკური ფორმით, არამედ ის, რომ იგი ყოველთვის მიემართება ღმრთისმშობლის (და თვით ღმრთისმშობლის მიძინების) სახელზე აგებულ ტაძრებს 
+                   (Н. Г. Чубинашвили, Болнисский сион, ენიმკის მოამბე, IX, 1940,  83-85). 
+                   ვალერი სილოგავა მიიჩნევს, რომ საფარაში ყველა ეს პირობა სახეზეა - აქ არის ღვთისმშობლის მიძინების სახელზე აგებული X ს-ის ტაძარი, აქ აღმოჩნდა რელიეფის ფრაგმენტი, რომელზე
+                   გამოსახულ ეკლესიას, წარწერის მიხედვით, სიონი ეწოდება. ამდენად, ამ რელიეფის წარწერების წარმოდგენილი აღდგენები სავსებით საფუძვლიანია. ქართულ ეპიგრაფიკაში
+                   ცნობილია სხვა შემთხვევაც, როდესაც ბაზილიკური ტაძარი განმარტებულია, როგორც „სიონი“. ესაა XI საუკუნის ფრესკული კომპოზიცია ოთხთა ეკლესიის საკურთხეველში 
+                   (ვ. სილოგავა, კ. შენგელია, ტაო-კლარჯეთი, თბ. 2006,  758, ტაბ. 134). 
+                   აქ გვირგინოსან ღვთისმშობელს ხელში უჭირავს ბაზილიკური ტაძარი, რომელიც საღებავით მიწერილი თანადროული წარწერით განმარტებულია, როგორც „სიონი“. 
+                 </p> 
+            </div>
+        </body>
+    </text>
+</TEI>

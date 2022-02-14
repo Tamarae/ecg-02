@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="ka">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">
+                    ბორჯომის ხეობა. ფოთოლეთის წმიდა გიორგის ეკლესია, სავედრებელი წარწერა მნათესი, XI ს.
+                </title>
+                <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
+                
+            </titleStmt>
+            <publicationStmt>
+                 <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">
+                 ECG501
+                 </idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            თორის წარწერების კორპუსი
+                        </collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                   <objectType></objectType>
+                                        <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="2">
+                                        <dimensions unit="cm">
+                                            <width>8</width>
+                                            <height>98,3</height>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli">სწორი ეპიგრაფიკული ნუსხური შერეული ასომთავრული ასო-ნიშნებით.
+                                წარწერას განკვეთილობის ნიშანი არ ახლავს და ქარაგმად გამოყენებულია სწორი განივი ხაზი.
+                                <width>1-2</width>
+                                <height>1,1-4,7</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ბორჯომის ხეობა. ფოთოლეთის წმიდა გიორგის ეკლესია</origPlace>
+                                <origDate>XI AD</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">ბორჯომის ხეობა. ფოთოლეთის წმიდა გიორგის ეკლესია</placeName>
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">
+                            <placeName type="modernSpot">ბორჯომის ხეობა. ფოთოლეთის წმიდა გიორგის ეკლესია</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2019-12-21" who="Tchanturia">
+                წარწერის სრული კოდირება, გარე ანოტირება, პირთა სახელების, ლემების მითითება, ბიბლიოგრაფია,ბმულებით დაკავშირება გარე კონტროლირებად ლექსიკონთან.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!-- წარწერის ფოტოდოკუმენტაცია -->
+    <facsimile>
+        <surface>
+            <graphic url="ecg500.jpg">
+                <desc xml:lang="ka">სავედრებელი წარწერა მნათესი</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+           <div type="bibliography">
+               
+                <p><bibl n="1">თამაზ გოგოლაძე,თორის ხეობის ეპიგრაფიკული კორპუსი<ptr target="bibliography.xml#b234"/>,<citedRange>47-49 </citedRange>2019</bibl></p>
+                <p><bibl n="2">თამაზ გოგოლაძე, ირაკლი გელაშვილი, ნინო ხარშილაძე, ფოთოლეთის ეკლესიის ნაკაწრი წარწერები და მათი ისტორიულ-წყაროთმცოდნეობითი ანალიზი<ptr target="bibliography.xml#b130"/>,<citedRange>256-257 </citedRange>2016-2017</bibl></p>
+                <p><bibl n="3">თამაზ გოგოლაძე,ირაკლი გელაშვილი,ნინო ხარშილაძე,ფოთოლეთის ეკლესიის ნაკაწრი წარწერები და მათი ისტორიულ-წყაროთმცოდნეობითი ანალიზი<ptr target="bibliography.xml#b130"/>,<citedRange>142-144 </citedRange>2014</bibl></p>
+            
+           </div>
+            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">     
+                        <!--ღ(მერ)თმ(ა)ნ ნუ შეუდნეს ცოდვანი მნ{ა}თესა, | რ{ომე}ლ ცხოარ არს-->
+                <ab>
+                    <lb n="1"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერ</ex><abbr>თმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
+                               <w lemma="ნუ">ნუ</w>
+                               <w lemma="შეუნდობს">შეუდნეს</w>
+                               <w lemma="ცოდვა">ცოდვანი</w>
+                               <roleName nymRef="მნათე"><expan><abbr>მნ</abbr><ex>ა</ex><abbr>თესა</abbr></expan></roleName>
+                    <lb n="2"/><w lemma="რომელ"><expan><abbr>რ</abbr><ex>ომე</ex><abbr>ლ</abbr></expan></w>
+                               <w lemma="ცხოარ">ცხოარ</w>
+                               <w lemma="არს">არს</w>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ka"/>
+            <div type="apparatus" xml:space="preserve"/>
+            <div type="commentary"><p>წარწერიანი ქვა დაზიანებულია. პირველი გრაფემა "Ⴖ" ქვის დაზიანებულ ნაწილშია მოთავსებული და
+                ფრაგმენტულად იკითხება. ასევე ფრაგმენტულადაა შემორჩენილი I სტრიქონის XVIII გრაფემა "Ⴀ".</p>
+                 <p>წარწერის დათარიღების საფუძველი: სწორი ეპიგრაფიკული ნუსხური, რომელშიც შერეულია ასომთავრული გრაფემები.</p>
+            </div>
+
+         </body>
+    </text>
+</TEI>

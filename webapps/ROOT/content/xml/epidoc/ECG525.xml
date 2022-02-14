@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>სავედრებელი წარწერა კჳრიკესი</title>
+                 <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                 <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG525</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            თორის წარწერების კორპუსი
+                        </collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material>ქვა</material>
+                                   <objectType> თეთრი საღებავით შეთეთრებული სატრაპეზო ქვა</objectType>
+                                        <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="1">
+                                        <dimensions unit="cm">
+                                            <width> 5,5-4,5</width>
+                                            <height>3,5-2,5</height>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli">წარწერა შესრულებულია ნუსხურით, განკვეთილობის ნიშნები არ აქვს,ქარაგმად გამოყენებულია მოკლე განივი ხაზი.
+                                <width>3</width>
+                                <height>1,8</height>
+                                 </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>გუჯარეთის ხეობა, თელოვანის წმინდა ელიას ეკლესია, წარწერა კჳრიკესი</origPlace>
+                                <origDate>X-XI ს.</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">.გუჯარეთის ხეობა, თელოვანის წმინდა ელიას ეკლესია, წარწერა კჳრიკესი</placeName>
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">გუჯარეთის ხეობა, თელოვანის წმინდა ელიას ეკლესია, წარწერა კჳრიკესი
+                            <placeName type="modernSpot">გუჯარეთის ხეობა, თელოვანის წმინდა ელიას ეკლესია, წარწერა კჳრიკესი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2020-01-16" who="papidze">გარე ანოტირება, პირთა სახელების, წარწერის სრული კოდირება  შესრულდა 2020 წლის ციფრული ეპიგრაფიკის სასწავლო კურსის ფარგლებში.</change>
+        </revisionDesc>
+    </teiHeader>
+    <!-- წარწერის ფოტოდოკუმენტაცია -->
+    <facsimile>
+        <surface>
+            <graphic url="ECG525.jpg">
+                <desc xml:lang="ka">სავედრებელი წარწერა კჳრიკესი </desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+           <div type="bibliography">
+               
+                <p><bibl n="1">წარწერა გამოცემული არ არის<ptr target="bibliography.xml#b"/><citedRange></citedRange>2020</bibl></p>
+
+            
+           </div>
+            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">     
+              <!--კ (ჳრიკ)ე-->
+                <ab>
+                    <lb n="1"/><persName type="local" key="კჳრიკე"><expan><abbr>კ</abbr><ex>ჳრიკ</ex><abbr>ე</abbr></expan></persName>
+
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ka"/>
+            <div type="apparatus" xml:space="preserve"/>
+            <div type="commentary"><p>წარწერა დაზიანებული არ არის, თავიდან ბოლომდე გარკვევით იკითხება, თუმცა სატრაპეზო ქვა გადაღებილია თეთრი ფერის საღებავით. მიუხედავად ამისა, წარწერა გარკვევით იკითხება.</p>
+                 <p>წარწერის დათარიღების საფუძველი:წარწერა შესრულებულია ნუსხური დამწერლობით. წარწერის გრაფემების მოხაზულობიდან გამომდინარე, მას ფართო ქრონოლოგიური ჩარჩოთი X-XI საუკუნეებით ვათარიღებთ.  </p>
+            </div>
+
+         </body>
+    </text>
+</TEI>

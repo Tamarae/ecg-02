@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>პეტრიკოპულის წარწერა</title>
+                <editor>ვალერი სილოგავა</editor>
+            </titleStmt>
+            <publicationStmt>
+                 <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG490</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            ლიხნის ტაძარი
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სავედრებელი</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material/>
+                                   <objectType>ტაძრის კედელი</objectType>
+                                        <dimensions unit="cm">
+                                        <width>35</width>
+                                        <height>5</height>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="1">
+                                        წარწერა მოთავსებულია ლიხნის ტაძრის ქორედის თაღის მარცხენა კიდესთან ახლოს
+                                        <dimensions/>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="gardamavali mxedruli">
+                                ერთსტრიქონიანი <rs type="script">გარდამავალი მხედრული</rs> წარწერა, განკვეთილობის ნიშნები არ ახლავს; ქარაგმის ნიშანი - განივი, სწორი ხაზი.
+                            </handNote>
+                            <handNote>
+                                   <height unit="cm">1-4,5</height>
+                                 </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ლიხნის ტაძარი</origPlace>
+                                <origDate>XI</origDate><!-- აღმწერი ათარიღებს ასე, თვითონ წარწერაზე არ არის თარიღი -->
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">ლიხნის ტაძარი</placeName>
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">
+                            <placeName type="modernSpot">ლიხნის ტაძარი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2019-05-20" who="skhulukhia"> ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, ბმულის დაკავშირება გარე კონტროლირებად ლექსიკონთან</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url=".jpg">
+                <desc xml:lang="ka">პეტრიკოპულის წარწერა</desc>
+                 <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!-- მე, პ(ე)ტ(რი)კოპული, მონაი ქ(რისტ)ესი -->
+            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><w lemma="მე">მე</w> <persName type="local" key="პეტრიკოპული"><expan><abbr>პ</abbr><ex>ე</ex><abbr>ტ</abbr><ex>რი</ex><abbr>კოპული</abbr></expan></persName> 
+                    <w lemma="მონა">მონაი</w> <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ესი</abbr></expan></w>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ka"><p>მე ვარ პეტრიკოპული, ქრისტეს მონა</p></div>
+            <div type="apparatus" xml:space="preserve"/>
+            <div type="commentary"><p>ლიხნის ტაძრის პეტრიკოპულის წარწერა თარიღდება მე-11 საუკუნის 60-იანი წლებით, წარწერა შესრულებულია ძალიან მუქი წითელი საღებავით(სინგურით).
+            არსებობს მოსაზრება, რომ პეტრიკოპული შეიძლება სულაც არ აღნიშნავდეს საკუთარ სახელს და ნიშნავდეს პეტრიკის ვაჟს</p></div>
+            
+            
+            <div type="bibliography" subtype="principalEdition">
+                
+                    <p><bibl type="publication" subtype="principal" xml:lang="ka">
+                     
+                     </bibl></p>
+                
+            </div>
+         </body>
+    </text>
+</TEI>

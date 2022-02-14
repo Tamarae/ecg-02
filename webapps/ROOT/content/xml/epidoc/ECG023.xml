@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ზემო ნიქოზის ღვთაების ტაძრის საამშენებლო წარწერა ეპისკოპოსისა</title>
+                <title xml:lang="en">Deity Church of Zemo Nikozi, building inscription of the Bishop </title>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <editor xml:lang="en">Nodar Shoshiashvili</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG023</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                   <msIdentifier>
+                        <collection>ზემო ნიქოზი</collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო</seg>
+                            <seg xml:lang="en">Building</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Stone</material>
+                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">Facade</objectType>
+                                <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="3"> 
+                                        <seg xml:lang="ka">წარწერა 3 სტრიქონიანია. იგი ამოკვეთილია ტაძრის სამხრეთის ფასადის ზემო აღმოსავლეთ კუთხეში, კარნიზის ქვემოთ, 
+                                    კედლის წყობის სწორკუთხა ქვაზე. ქვის დადაბლებულ ფონზე გარშემო უვლის იმავე ქვის რელიეფური ჩარჩო.</seg>
+                                        <seg xml:lang="en">Three line inscription. Engraved on the south facade of the church on the top right angle, 
+                                            beneath the cornice, on the rectangular stone along the wall. The embossed frame surrounds the lowered background of the stone.</seg>
+                                        <dimensions unit="cm">
+                                            <width>32</width>
+                                            <height>20</height>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>                               
+                            <handNote script="asomtavruli" style="embossed">
+                                <seg xml:lang="ka"><rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
+                                <seg xml:lang="en">Embossed Asomtavruli inscription</seg>
+                                <height>4,5-6</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>
+                                <seg xml:lang="ka">ზემო ნიქოზი, ღვთაების ტაძარი</seg>
+                                <seg xml:lang="en">Zemo Nikozi, Diety church</seg>
+                                </origPlace>
+                                <origDate notBefore-custom="0900" notAfter-custom="1000" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">X AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type="ancientFindspot">
+                                <seg xml:lang="ka">ზემო ნიქოზი, ღვთაების ტაძარი</seg>
+                                <seg xml:lang="en">Zemo Nikozi, Diety church</seg>
+                                </placeName> 
+                                <!--  "42.199704, 43.958037"-->
+                                <rs type="circumstances"/> 
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                             <provenance type="observed">
+                            <placeName type="modernSpot">
+                                <seg xml:lang="ka">ზემო ნიქოზი, ღვთაების ტაძარი</seg>
+                                <seg xml:lang="en">Zemo Nikozi, Diety church</seg>
+                            </placeName>
+                            <idno type="invNo"/>
+                        </provenance>                 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+     <revisionDesc><change when="2019-11-05" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <surface>
+            <graphic url="ecg023.jpg">
+                <desc xml:lang="ka">ზემო ნიქოზის ღვთაების ტაძრის საამშენებლო წარწერა ეპისკოპოსისა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+         <div type="bibliography">
+                        
+              <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი<ptr target="bibliography.xml#b101"/>, <citedRange> 187-188</citedRange></bibl></p>
+              <p><bibl n="2">ივანე მეგრელიძე, სტალინირის და ზემო ნიქოზის სიძველეები<ptr target="bibliography.xml#b83"/>, <citedRange> 54</citedRange></bibl></p>
+              <p><bibl n="3">Р. Меписавили, В. Цинцадзе, Архитектура нагорной части исторической провинции Грузии – Шида Картли<ptr target="bibliography.xml#b50"/>, <citedRange>12</citedRange></bibl></p>
+            
+            </div> 
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--  "† [ამენ მქლ] ეპი
+                            სკპზმნ აღვ
+                            შნე წჲ ეკლსჲ"-->
+                                 
+                <ab>
+                   <lb n="1"/>† <w lemma="ამენ"><supplied reason="lost">ამენ</supplied></w> 
+                        <persName type="clergy" key="მიქაელ ნიქოზელი ეპისკოპოსი"><name nymRef="მიქაელ"><supplied reason="lost"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>აე</ex><abbr>ლ</abbr></expan></supplied></name></persName> 
+                        <roleName><w lemma="ეპისკოპოს"><expan><abbr>ეპი
+                   <lb n="2" break="no"/>სკ</abbr><ex>ო</ex><abbr>პ</abbr><ex>ო</ex><abbr>ზმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w></roleName> 
+                            <w lemma="აშენება"><expan><abbr>აღვ</abbr>
+                   <lb n="3" break="no"/><ex>ა</ex><abbr>შ</abbr><ex>ე</ex><abbr>ნე</abbr></expan></w> 
+                    <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ჲ</abbr></expan></w> 
+                    <w lemma="ეკლესია"><expan><abbr>ეკლ</abbr><ex>ე</ex><abbr>ს</abbr><ex>ია</ex><abbr>ჲ</abbr></expan></w>
+                  </ab>
+             
+            </div>
+                
+            <div type="translation">
+                <p xml:lang="ka">ამენ. მიქაელ ეპისკოპოსმა აღვაშენე წმიდა ეკლესია.</p>
+                <p xml:lang="en">
+                    Amen. I, Bishop Michael, built this holy church.
+                </p>
+            </div>
+            
+            <div type="apparatus"/>
+                               
+            
+            <div type="commentary">
+                <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #95. წარწერას განკვეთილობის ნიშნები არ ახლავს. სიტყვები ერთმანეთისგან დაცილებულია. ქარაგმის ნიშანი - მოკლე, სწორი, განივი ხაზი.
+                პალეოგრაფიული ნიშნები: გრაფემების გაკუთხოვანება, სიტყვების დაცილება, რელიეფურობა.</p>
+                <p xml:lang="en">
+                    According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #95. The inscription does not contain any mark of separation. There are spaces between the words. 
+                    The abbreviation mark - short, straight, horizontal line. Paleographic data: square shaped graphemes, space between the word, embossed.
+                </p>
+            </div>                 
+         </body>
+    </text>
+</TEI>

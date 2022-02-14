@@ -1,0 +1,36 @@
+[INFO ] 2022-02-14 15:14:37,032 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-14 15:14:37,094 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-14 15:15:48,092 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-14 15:15:48,112 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-14 15:16:03,455 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-14 15:16:03,474 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-14 15:19:34,072 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-14 15:19:34,084 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-14 15:20:22,713 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-14 15:20:22,744 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-14 15:37:13,496 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-14 15:37:13,513 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-14 15:37:47,616 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-14 15:37:47,627 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-14 15:38:20,019 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-14 15:38:20,028 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-14 15:38:35,744 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-14 15:38:35,754 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-14 15:40:10,027 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-14 15:40:10,040 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-14 22:40:47,655 [Thread-1] Closing org.springframework.web.context.support.XmlWebApplicationContext@17ef0c6d: display name [WebApplicationContext for namespace 'openrdf-http-server-servlet']; startup date [Sun Feb 13 15:58:12 GET 2022]; root of context hierarchy
+[INFO ] 2022-02-14 22:40:47,659 [Thread-1] Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6e605c34: defining beans [messageSource,adunaAppVersion,adunaAppConfig,adunaWebappNavigation,adunaWebappCommonValuesInserter,adunaWebappMessageInserter,adunaWebappNavigationInserter,filenameViewController,viewResolver,adunaWebappSystemUrlMapping,adunaWebappSystemOverviewController,adunaWebappLoggingOverviewController,adunaWebappSystemInfoController,openrdfRepositoryManager,scopedTarget.openrdfRepositoryInterceptor,openrdfRepositoryInterceptor,openrdfProtocolUrlMapping,openrdfRepositoryListUrlMapping,openrdfRepositoryUrlMapping,openrdfServerHomeUrlMapping,openrdfHandlerExceptionResolver,openrdfProtocolController,openrdfRepositoryListController,openrdfRepositoryController,openrdfRepositoryContextsController,openrdfRepositoryNamespacesController,openrdfRepositoryNamespaceController,openrdfRepositorySizeController,openrdfRepositoryStatementsController,openrdfRepositoryGraphController]; root of factory hierarchy
+[INFO ] 2022-02-14 22:44:30,691 [main] Logback logging API implementation is configured.
+[INFO ] 2022-02-14 22:44:31,195 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 814 ms
+[INFO ] 2022-02-14 22:45:49,022 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-14 22:45:49,159 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-14 22:46:26,336 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-14 22:46:26,370 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-14 22:46:57,604 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-14 22:46:57,623 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-14 22:47:01,350 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-14 22:47:01,370 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-14 22:55:31,834 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-14 22:55:31,877 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-14 22:57:58,982 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-14 22:57:59,015 [repositories/kiln] Request for query -1227659729 is finished

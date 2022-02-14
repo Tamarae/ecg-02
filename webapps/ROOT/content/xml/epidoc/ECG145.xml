@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ბაგრატ მეფისა და მარიამ დედოფლის წარწერა</title>
+                <editor>ვალერი სილოგავა</editor>
+                <editor>მარი ბროსე</editor>
+                <editor>ექვთიმე თაყაიშვილი</editor>
+                <editor>ნიკო ბერძენიშვილი</editor>
+                <editor>ვ. ცისკარიშვილი</editor>
+                <editor>ი. გვარამაძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელობის სახელმწიფო უნივერსიტეტი</authority>
+                <idno type="filename">ECG145</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                    დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                    <collection>კუმურდო</collection>
+                    </msIdentifier>
+                     
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მემორიალური</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp">ფასადი</objectType>
+                                <material ref="https://www.eagle-network.eu/voc/objtyp/lod/1402">ქვა</material>
+                                <dimensions unit="cm">
+                                    <height/>
+                                    <width/>
+                                </dimensions>
+                            </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><p>ტექსტი განლაგებულია ფასადის 6 ფილაზე</p>
+                                
+                                   <dimensions unit="cm">
+                                    <height>64</height>
+                                    <width></width>
+                                    <depth></depth>
+                                </dimensions>
+                                </layout>
+
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli">
+                                ასომთავრული წარწერა, კიდურწერტილოვანი, განივი სწორი ხაზი
+                                <dimensions unit="cm">
+                                    <height>13.5-14</height>
+                                </dimensions>        
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>კუმურდო</origPlace>
+                            <origDate notBefore="1027" notAfter="1072"></origDate>
+                        </origin>
+                        <provenance type="observed" when="2017-06-30">კუმურდოს საკათედრო ტაძარი
+                            <rs type="circumstences">წარწერის ფოტოდოკუმენტაცია გაკეთდა 2017 წლის 30 ივნისს, 
+                                ილიას სახელმწიფო უნივერსიტეტის ეპიგრაფიკის სამაგისტრო კურსის დასკვნითი ექსპედიციის ფარგლებში</rs>
+                        </provenance>
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    
+        <!-- 
+    
+        
+    <facsimile>
+        <surface>
+            <graphic url="tskise_01.jpg">
+                <desc xml:lang="ka">წყისეს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    -->
+    
+    <text>
+        <!-- 
+    1.[&#10013;
+    2.ადიდენ
+    3.ღმერთმან
+    4.ბაგრატ
+    5.მეფე
+    6.და
+    7.დედაი 
+    8.მა]თი მ(ა)რ(ია)მ  დ(ე)დ(ო)ფ(ა)ლი 
+    9.აღეშ(ჱ)ნა
+    10.შტ(ო)ჲ
+    11.ესე მ(ე)ფ(ო)ბ(ა)სა მათსა
+    12.მღდ(ე)ლთმ(ო)ძღ(უ)რ(ო)ბ(ა)ს
+    13.ზ(ო)ს(ი)მე კ(უ)მ(უ)რდო(ე)ლის(ა)სა -->
+        
+        <body>
+            
+             <div type="bibliography">
+                <p>
+                    <bibl n="1">ვალერი სილოგავა, კუმურდო, <citedRange>59-60</citedRange>, თბილისი 1994<ptr target="bibliography.xml#b198"/></bibl>
+                </p>
+                
+                
+                <p>
+                    <bibl n="2">M. Brosset, Rapports sur un voyage archeologique dans la Georgie et dans l'Armenie execute en 1847-1848
+                        V. II <citedRange>171</citedRange>St. Petersburg, 1850 <ptr target="bibliography.xml#b189"/>
+                    </bibl>
+                </p>
+                 
+                 <p>
+                    <bibl n="3">
+                        ვ. ცისკარიშვილი, ჯავახეთის ეპიგრაფიკა, როგორც საისტორიო წყარო, <citedRange>21</citedRange>, თბილისი, 1959<ptr target="bibliography.xml#b200"/>
+                    </bibl>
+                </p>
+                 
+                 <p>
+                    <bibl n="4">
+                        И.П. Ростомов, Аxалкалакский уъезд в арxеологическом отношении, <citedRange>90</citedRange>, 1898<ptr target="bibliography.xml#b199"/>
+                    </bibl>
+                </p>
+                 
+                 <p>
+                    <bibl n="5">
+                        Е.С. Такайшвили, Христианские памятники, <citedRange>41</citedRange>, Москва, 1909<ptr target="bibliography.xml#b153"/>
+                    </bibl>
+                </p>
+                 
+                 <p>
+                    <bibl n="6">
+                        ნ. ბერძენიშვილი, ჯავახეთის 1933 წლის ექსპედიციის დღიური, იხ. მისი "საქართველის ისტორიის საკითხები", ისტორიული გეოგრაფია, ტ. I, <citedRange>134</citedRange>
+                        თბილისი, 1964<ptr target="bibliography.xml#b201"/>
+                    </bibl>
+                </p>
+                 
+                 <p>
+                     <bibl n="7">ივანე ჯავახიშვილი, მასალები ქართველი ერის მატერიალური კულტურის ისტორიისათვის, ტ. I, <citedRange>186</citedRange>
+                        თბილისი, 1946<ptr target="bibliography.xml#b205"/>
+                    </bibl>
+                 </p>
+                 
+                  <p>
+                        <bibl n="8">И.А Джавахов, Терминй искусств и главнейшие сведения о памиатниках  искусства и материалной културы в древнегрузинской литературе, 
+                        <citedRange>27</citedRange>, Тифлись, 1914<ptr target="bibliography.xml#b206"/>
+                        </bibl>
+                    </p>
+                 
+                 
+             </div>
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/>&#10013;
+                    <lb n="2"/><w lemma="ადიდებს"><supplied reason="lost">ადიდენ</supplied></w>
+                    <lb n="3"/><w lemma="ღმერთ"><supplied reason="lost">ღმერთმან</supplied></w>
+                    <lb n="4"/><persName type="local" key="ბაგრატ IV" ref="http://www.nplg.gov.ge/wikidict/index.php/ბაგრატ_IV_(საქართველოს_მეფე)"><supplied reason="lost">ბაგრატ</supplied>
+                    <lb n="5"/><roleName nymRef="მეფე"><w lemma="მეფე"><supplied reason="lost">მეფე</supplied></w></roleName></persName>
+                    <lb n="6"/><w lemma="და"><supplied reason="lost">და</supplied></w>
+                    <lb n="7"/><w lemma="დედა"><supplied reason="lost">დედა</supplied></w> 
+                    <lb n="8"/><w lemma="მათ"><supplied reason="lost">მა</supplied>თი</w>
+                    <lb n="9"/><persName type="local" key="მარიამ დედოფალი [სენექერიმ არწრუნის ასული, გიორგი I-ის მეუღლე, ბაგრატ IV-ის დედა]" ref="https://en.wikipedia.org/wiki/Mariam_of_Vaspurakan"><expan><abbr>მ</abbr><ex>ა</ex><abbr>რ</abbr><ex>ია</ex><abbr>მ</abbr></expan> <roleName nymRef="დედოფალ"><expan><abbr>დ</abbr><ex>ე</ex><abbr>დ</abbr><ex>ო</ex><abbr>ფ</abbr><ex>ა</ex><abbr>ლი</abbr></expan></roleName></persName> <w lemma="აღშენდა"><expan><abbr>აღეშ</abbr><ex>ჱ</ex><abbr>ნა</abbr></expan></w>
+                    <lb n="10"/><w lemma="შტო"><expan><abbr>შტ</abbr><ex>ო</ex><abbr>ჲ</abbr></expan></w> 
+                    <lb n="11"/><w lemma="ეს">ესე</w> <w lemma="მეფობა"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w> <w lemma="მათ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>თსა</abbr></expan></w> 
+                    <lb n="12"/><persName type="local" key="ზოსიმე კუმურდოელი"><roleName nymRef="მღვდელთმოძღვარ"><expan><abbr>მღვდ</abbr><ex>ე</ex><abbr>ლთმ</abbr><ex>ო</ex><abbr>ძღ</abbr><ex>უ</ex><abbr>რ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ა</ex>><abbr>სა</abbr></expan></roleName>
+                    <lb n="13"/><name nymRef="ზოსიმე"><expan><abbr>ზ</abbr><ex>ო</ex><abbr>ს</abbr><ex>ი</ex><abbr>მე</abbr></expan></name> <roleName nymRef="კუმურდოელი"><expan><abbr>კ</abbr><ex>უ</ex><abbr>მ</abbr><ex>უ</ex><abbr>რდო</abbr><ex>ე</ex><abbr>ლის</abbr><ex>ა</ex><abbr>სა</abbr></expan></roleName></persName>
+                </ab>
+
+            </div>
+            
+
+            <div type="translation"/>
+            
+            <div type="commentary">
+                <p>წარწერა პელეოგრაფიული ნიშნებით  XIს-ისაა. ტექსტის შემორჩენილ ნაწილში დასახელებული მარიამ დედოფალი შეიძლება იყოს მხოლოდ სენაქერიმ სომეხთა მეფის ასული,
+                    გიორგი I-ის (1014-1027) პირველი მეუღლე და ბაგრატ IV-ის (1027-1072) დედა მარიამი. 
+                    წარწერა ე.თაყაიშილმა და როგორც ჩანს მასზე დაყრდნობით ვ.ცისკარიშვილმა, რელიეფური ასოებით შესრულებულად მიიჩნიეს, მაშინ, როდესაც ის ქვის ფილებზეა ამოკვეთილი. 
+                    წარწერას ამჟამად დასაწყისი აკლია,
+                    შეიძლება იგი ბოლოშიც ნაკლული იყოს, რადგან ტექსტის უკანასკნელი ასო ამოკვეთილია თავდაპირველი ფილების კიდეზე, ხოლო მის შემდეგ ჩასმული ფილები ახალია, 
+                    ტაძრის თანამედროვე  რესტავრაციის დროინდელი. 
+                </p>
+
+            </div>
+
+        </body>
+    </text>
+</TEI>

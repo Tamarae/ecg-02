@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">მცხეთის ჯვრის მოსახსენებელი სტეფანოს ქართლის პატრიკიოსისა</title>
+                <title xml:lang="en">Jvari Monastery, Memorial of Stephen, Patrikios of Kartli</title>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <editor xml:lang="en">Nodar Shoshiashvili</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG026</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                   <msIdentifier>
+                        <collection>მცხეთა</collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en">Memorial</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2.html">ქვა</material>
+                                     <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2.html">Local stone</material>
+                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483.html">ფასადი</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483.html">Facade</objectType>
+                                <dimensions unit="cm">
+                                        <width>87/101</width>
+                                        <height>138</height>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="6"> 
+                                      <seg xml:lang="ka">წარწერა 6 სტრიქონიანია. ექვსივე სტრიქონი თითქმის დაუზიანებლად არის მოღწეული.
+                                      წარწერა მდებარეობს ჯვრის ტაძრის აღმოსავლეთ ფასადის ცენტრალურ ბარელიეფზე, არაწესიერი სწორკუთხედის ფორმის ფილაზე,
+                                   რომელსაც გარს უვლის რელიეფური ჩარჩო, თავზე ლავგარდანით. ფილაზე გამოკვეთილია კომპოზიცია:
+                                   en face  მდგარი ქრისტე და მის წინ მუხლმოდრეკილი სტეფანოსი. წარწერა განთავსებულია სტეფანოსის თავს ზემოთ, თავისუფალ არეზე.</seg>
+                                        <seg xml:lang="en">
+                                            Six line inscription. All of the lines are preserved without any damage. The inscription is located on the central bas-relief of the east facade of the Jvari Monastery church, on the plaque shaped as an irregular rectangle which is encircled by an embossed frame with a cornice on top. 
+                                            The illustration consists of: image of Christ en face and Stephen on his knees in front of him. The inscription is placed above Stephen’s head, on an empty area.  
+                                        </seg>
+                                        <dimensions unit="cm">
+                                            <width>36</width>
+                                            <height>43</height>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <seg xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა.</seg>
+                                <seg xml:lang="en">Engraved Asomtavruli inscription.</seg>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <seg xml:lang="ka">რელიეფური ჩარჩო, თავზე ლავგარდანით.</seg>
+                                <seg xml:lang="en">Relief frame</seg>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>
+                                    <seg xml:lang="ka">ჯვრის მონასტერი, მცხეთა</seg>
+                                    <seg xml:lang="en">Jvari Monastery, Mtskheta</seg>
+                                </origPlace>
+                                <origDate notBefore-custom="0595" notAfter-custom="0605" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">595-605 AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863840">
+                                    <seg xml:lang="ka">ჯვრის მონასტერი, მცხეთა</seg>
+                                    <seg xml:lang="en">Jvari Monastery, Mtskheta</seg>
+                                </placeName>
+                               <!--  "41.838634, 44.734011"--> 
+                                <rs type="circumstances"/>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                             <provenance type="observed">
+                            <placeName type="modernSpot">
+                                    <seg xml:lang="ka">ჯვრის მონასტერი, მცხეთა</seg>
+                                    <seg xml:lang="en">Jvari Monastery, Mtskheta</seg>
+                            </placeName>
+                            <idno/>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+       <revisionDesc><change when="2019-11-06" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+           ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface>
+            <graphic url="ecg026.jpg">
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/27/">მცხეთის ჯვრის მოსახსენებელი სტეფანოს ქართლის პატრიკიოსისა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+ 
+    <text>
+        <body>
+             <div type="bibliography">
+                
+              <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი<ptr target="bibliography.xml#b101"/>, <citedRange> 159-160</citedRange></bibl></p>
+              <p><bibl n="2">M. Brosset, Explications, Mémoire de l'Academie Impériale des Sciences<ptr target="bibliography.xml#b18"/></bibl></p>
+              <p><bibl n="3">M. Brosset, Rapports I<ptr target="bibliography.xml#b21"/></bibl></p>
+              <p><bibl n="4">J. Bartholomaei, Letter, M. Brosset, Bibliographie analytique des oeuvres de Marie-Felicité Brosset<ptr target="bibliography.xml#b16"/>, <citedRange>79</citedRange></bibl></p>
+              <p><bibl n="5">თედო ჟორდანია, ქრონიკები და სხვა მასალა საქართველოს ისტორიისა და მწერლობისა<ptr target="bibliography.xml#b77"/>, <citedRange> 61</citedRange></bibl></p>
+              <p><bibl n="6">А. Натроев, Мцхета и его собор Светицховели<ptr target="bibliography.xml#b35"/>, <citedRange>18</citedRange></bibl></p>
+              <p><bibl n="7">ჯაჭვის წმ. ჯვრის მონასტერი<ptr target="bibliography.xml#b118"/>, <citedRange> 23</citedRange></bibl></p>
+              <p><bibl n="8">ექვთიმე თაყაიშვილი, ჯვრის მონასტრის წარწერები<ptr target="bibliography.xml#b71"/></bibl></p>
+              <p><bibl n="9">ივანე ჯავახიშვილი, ახლად აღმოჩენილი უძველესი ქართული ხელნაწერები და მათი მნიშვნელობა მეცნიერებისათვის<ptr target="bibliography.xml#b85"/></bibl></p>
+              <p><bibl n="10">გიორგი ჩუბინაშვილი, რამოდენიმე თავი ქართული ხელოვნების ისტორიიდან<ptr target="bibliography.xml#b66"/>,<citedRange> 162</citedRange></bibl></p>
+              <p><bibl n="11">I. Sauer, Kreuzcirche bei Mzchet (Georgien) in ihrer geschichtlicgen Bedeutung<ptr target="bibliography.xml#b130"/>,<citedRange>pg. 607-612</citedRange></bibl></p>
+              <p><bibl n="12">აკაკი შანიძე, ძველი ქართულის ქრესტომათია<ptr target="bibliography.xml#b59"/></bibl></p>
+              <p><bibl n="13">გიორგი ჩუბინაშვილი, ქართული ხელოვნების ისტორია<ptr target="bibliography.xml#b131"/>,<citedRange> 108-109</citedRange></bibl></p>
+              <p><bibl n="14">ქართული არქიტექტურის გზები, მოხსენება გ. ჩუბინაშვილისა და ნ. სევეროვის, წაკითხული სრულიად საქართველოს საბჭოთა არქიტექტორების პირველ ყრილობაზე 1936 წლის 21 თებერვალს<ptr target="bibliography.xml#b132"/>,<citedRange> 26</citedRange></bibl></p>
+              <p><bibl n="15">შ. ამირანაშვილი, ქართული ხელოვნების ისტორია<ptr target="bibliography.xml#b114"/>,<citedRange> 168</citedRange></bibl></p>
+              <p><bibl n="16">Н. Г. Чубинашвили, Памятники типа Джвари<ptr target="bibliography.xml#b47"/>,<citedRange>142-143</citedRange></bibl></p>
+              <p><bibl n="17">ილია აბულაძე, ქართული წერის ნიმუშები, პალეოგრაფიული ალბომი<ptr target="bibliography.xml#b88"/>,<citedRange> 4-5</citedRange></bibl></p>
+              <p><bibl n="18">ქართული ენის ისტორიული ქრესტომათია<ptr target="bibliography.xml#b112"/>,<citedRange> 2</citedRange></bibl></p>
+              <p><bibl n="19">M. Tarchnišvili, Les récentes découverstes épigraphiques et litteraires en géorgien<ptr target="bibliography.xml#b24"/>,<citedRange>252</citedRange></bibl></p>
+              <p><bibl n="20">I. Molitor, MIA CSCO<ptr target="bibliography.xml#b15"/></bibl></p>
+              <p><bibl n="21">კორნელი კეკელიძე, ქართული ლიტერატურის ისტორია<ptr target="bibliography.xml#b91"/></bibl></p>
+              <p><bibl n="22">W. Djobadze, The sculptures on Eastern Facade of the Holy Cross of Mtzkhetâ<ptr target="bibliography.xml#b33"/>,<citedRange>114</citedRange></bibl></p>
+              <p><bibl n="23">შალვა ამირანაშვილი, ქართული ხელოვნების ისტორია<ptr target="bibliography.xml#b114"/></bibl></p>
+              <p><bibl n="24">Ш. Я. Амиранашвили, Вклад Грузии в сокровищницу художественной культуры<ptr target="bibliography.xml#b133"/></bibl></p>
+              <p><bibl n="25">Ш. Я. Амиранашвили, История грузинского искусства<ptr target="bibliography.xml#b56"/></bibl></p>
+              <p><bibl n="26">Пути грузинской архитектуры<ptr target="bibliography.xml#b134"/></bibl></p>
+              <p><bibl n="27">ალ. გამყრელიძე, ქართული დამწერლობის უძველესი ნიმუშები<ptr target="bibliography.xml#b62"/>, <citedRange>20</citedRange></bibl></p>
+              <p><bibl n="28">ილ. აბულაძე, ქართული წერის ნიმუშები, პალეოგრაფიული ალბომი<ptr target="bibliography.xml#b89"/>, <citedRange>12-13</citedRange></bibl></p>
+              <p><bibl n="29">კორნელი დანელია, ზურაბ სარჯველაძე, ქართული პალეოგრაფია<ptr target="bibliography.xml#b92"/>, <citedRange> 32</citedRange></bibl></p>
+           
+            </div>  
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--  “[ჯ]ო მაც
+                              ხოვრისა
+                              ო სტეფანო
+                              ს ქართლისა 
+                              პატრი
+                              კიოსი შე” -->
+                                 
+                <ab>
+                   <lb n="1"/><w lemma="ჯუარ"><expan><supplied reason="lost"><abbr>ჯ</abbr></supplied><ex>უარ</ex><abbr>ო</abbr></expan></w> 
+                            <w lemma="მაცხოვარ">მაც
+                    <lb n="2" break="no"/>ხოვრისა
+                    <lb n="3" break="no"/>ო</w> <persName type="local" key="სტეფანოს ქართლისა პატრიკიოსი"><name nymRef="სტეფანოს ქართლისა პატრიკიოსი">სტეფანო
+                    <lb n="4" break="no"/>ს</name> <placeName nymRef="ქართლ"><w lemma="ქართლ">ქართლისა</w></placeName>
+                    <lb n="5"/><roleName nymRef="პატრიკიოს"><w lemma="პატრიკიოს">პატრი
+                    <lb n="6" break="no"/>კიოს</w></roleName></persName> <w lemma="შეწყალება"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w>
+                </ab>
+             
+            </div>
+                
+            <div type="translation">
+                <p xml:lang="ka">ჯუარო მაცხოვრისაო, სტეფანოს ქართლისა პატრიკიოსი შეიწყალე.</p>
+                <p xml:lang="en">Holy cross of our Savior, have mercy on Stephen, Patrikios of Kartli.</p>
+            </div>
+            
+            <div type="apparatus" xml:space="preserve"/>
+            
+            <div type="commentary">
+                <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით # 68. ივ. ჯავახიშვილის აზრით, წარწერა VI საუკუნის ბოლოს არის ამოკვეთილი.
+               იგი წერს, რომ ვახუშტის სტეფანოზ I ერისმთავრობის თარიღად 600-619 წწ. აქვს მიღებული.
+                  ეკლესიის ნამდვილი აღმშენებელნი სტეფანოზ ქართლისა პატრიკიოსი და დემეტრე ჳპატოსი ძმები ყოფილან (მოქცევაჲ ქართლისაჲ II, 724).
+                  სტეფანოზ I, ფულების პირველი ჯგუფის მიხედვით, 590-591 წ. ქართლის მთავრად შეიძლება ვიგულისხმოთ. დაახლოებით 604-605 წ., უკვე 606 წლამდე, 
+                  აღმოსავლეთ საქართველოს მთავართა სათავეში სტეფანოსი აღარა ჩანს. პატრიკიოსობის მიღება მას მხოლოდ ბიზანტიის კეისრისგან შეეძლო იმ დროს,
+                  როდესაც აღმოსავლეთ საქართველო ბიზანტიის მეფის მფარველობის ქვეშ მოექცა, ე.ი. 591-604 წწ. შუა. ამ დროს უნდა მიეღოს დემეტრეს ჳპატოსობაც. 
+                  აქედან გამომდინარე ეს წარწერები დაახლოებით იმავე ხანას, VI ს. უკანასკნელ ათეულს უნდა ეკუთვნოდეს.
+                </p>
+                
+                <p xml:lang="en">
+                    According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #68. Iv. Javakhishvili considers that the inscription can be dated to the end of the VI century. 
+                    He specifies that the historian Vakhushti has assigned 600-619 years for Stephen the I serving as Patrikios. The builder of the churches, Stephen the Patrikios of Kartli, 
+                    appears to be the brother of Demetrius Hypatos (source: Conversion of Kartli (chronicle) II, 724). 
+                    Stephen the I, on the basis of the minted coins of the period - 590-591 can be regarded the ruler of Kartli. 
+                    His name disappears as a ruler of east Georgia from approx. 604-605, till 606 year. He could have received the rank of Patrikios only from the Caesar of 
+                    Byzantium during the period when the east part of Georgia was under the domain of Byzantine empire i.e. 591-604 years. Demetrius Hypatos should have received his rank during the same period of time. Thus, the inscriptions should belong to the same period of the last decades of the VI century. 
+                </p>
+            </div>
+                   
+           </body>
+    </text>
+</TEI>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>რუშას წარწერა</title>
+                <editor>ვალერი სილოგავა</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG469</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            წკელიკარი
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/2">ადგილობრივი ქვა</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1483">ფილა ფასადზე</objectType>
+                                        <dimensions unit="cm">
+                                        <width>24</width>
+                                        <height>24</height>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="3">
+                                        <dimensions unit="cm">
+                                            <width>5</width>
+                                            <height>7,5</height>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="nuskhuri" style="inscribed">
+                                <rs type="execution">ამოკვეთილი</rs>, 3 სტრიქონიანი, <rs type="script">ნუსხური</rs> წარწერა. ქარაგმის ნიშანი: სწორი, განივი ხაზი. განკვეთილობის ნიშნები არ ახლავს
+                                   <height min="2" max="8">2-7-8</height>
+                                 </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>წკელიკარი</origPlace>
+                                <origDate>XI AD</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">წკელიკარი</placeName>
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">
+                            <placeName type="modernSpot">წკელიკარი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2019-06-21" who="LP">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, ბმულებით დაკავშირება გარე კონტროლირებად ლექსიკონთან</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg469.jpg"></graphic>
+            <desc xml:lang="ka">რუშას წარწერა</desc>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+            </div>
+           <!-- წ(მიდა)ო გ(იორგ)ი,
+           შ(ეიწყალ)ე რუშა;
+           მ(ეო)ხ ეყ(ავ) წ(ინაშ)ე ქ(რისტ)ეს[ა] -->
+
+
+            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><w><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> <persName ref="attestedperson.xml#person13"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></persName>
+                    <lb n="2"/><w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> <persName ref="attestedperson.xml#person18">რუშა</persName>
+                    <lb n="3"/><w lemma="მეოხ"><expan><abbr>მ</abbr><ex>ეო</ex><abbr>ხ</abbr></expan></w> <w lemma="ეყავ"><expan><abbr>ეყ</abbr><ex>ავ</ex></expan></w> <w lemma="წინაშე"><expan><abbr>წ</abbr><ex>ინაშ</ex><abbr>ე</abbr></expan></w> <persName><expan><persName ref="attestedperson.xml#person19"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ეს</abbr><supplied reason="lost">ა</supplied></expan></persName></expan></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ka"><p>წმინდაო გიორგი შეიწყალე რუშა, შუამავალი იყავი ქრისტეს წინაშე</p></div>
+            <div type="apparatus" xml:space="preserve"/>
+            <div type="commentary"><p>წარწერა შესრულებულია ღრმა კვეთით. მეორე და მესამე სტრიქონის დასაწყისში ასოები დაზიანებულია. როგორც ჩანს, ფილის მარჯვენა მხარეს ჩამოჭრილი უნდა იყოს სტრიქონთა დასასრული ასოებიც.</p></div>
+
+         </body>
+    </text>
+</TEI>

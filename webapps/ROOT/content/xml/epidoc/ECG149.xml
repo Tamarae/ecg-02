@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ამბა პავლე მანგლელის სააღაპე წარწერა</title>
+                     <editor>ვალერი სილოგავა</editor>
+                    <editor>მარი ბროსე</editor>
+                    <editor>ექვთიმე თაყაიშვილი</editor>
+                    <editor>ნიკო ბერძენიშვილი</editor>
+                    <editor>ვ. ცისკარიშვილი</editor>
+                    <editor>ი. გვარამაძე</editor>
+                    
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
+                <idno type="filename">ECG149</idno>
+                <availability> <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>კუმურდო</collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc><support> 
+                                <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1402">მარცხენა ანაყოლის ზედა რიგში ჩასმული იყო ფილა</objectType>
+                                <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                <dimensions> 
+                                    <width>36,5</width> 
+                                    <height>50</height>
+                                </dimensions>
+                            </support></supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                <dimensions unit="cm"> 
+                                    <width/> 
+                                    <height/>
+                                </dimensions>
+                            </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli">
+                                განკვეთილობის ნიშნები არ ახლავს; ქარაგმის ნიშანია განივი სწორი ხაზი
+                                <dimensions/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>კუმურდო</origPlace>
+                            <origDate>XI</origDate>
+                        </origin>
+                        <provenance type="found" when="1980">
+                            <placeName>კუმურდო,კუმურდოს მონასტერი</placeName>
+                            <rs type="circumstances">დაკარგული წარწერიანი ფილა აღმოჩნდა, ტაძრის დასავლეთ კედლი ჩამორღვევის შედეგად, ნაშალ ქვებში. ამ დროს აქ ტაძრის გაწმენდით სამუშაოებს ატარებდა თსუ ახალგაზრდა მეცნიერთა და სტუდენტთა ჯგუფი პ.მარგველაშვილის ხელმძღვანელობით.</rs>
+                            <rs type="contex"></rs>
+                        </provenance> 
+                        <provenance type="observed">
+                            <placeName>კუმურდოს საკათედრო ტაძარი</placeName>
+                            <rs type="circumtances">წარწერა დაკარგულია, შესაბამისად 2017 წლის 30 ივნისს, ილიას სახელმწიფო უნივერსიტეტის ეპიგრაფიკის სამაგისტრო კურსის დასკვნითი ექსპედიციის ფარგლებში ვერ მოხდა მისი ფოტოდოკუმენტირება ვერ მოხერხდა.</rs>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <text>
+        <!--
+        1.იანვრ(ი)ს[ა] [-სა]
+        2.ამბა პა[ვ]
+        3.ლესი აღ(ა)პ[ი]
+        4.მ(ან)გ(ლე)ლისი ღ(მერთმა)ნ მის
+        5.დღ(ი)სა ჟ(ა)მ(ი)სწ(ი)რვ[(ა)ი]
+        6.და ლ(ო)ცვ(ა)ი შ[ე]
+        7.აწ(ი)ენ ვ(ი)ნ ა[რა]
+        8.გ(ა)რდაიჴა[დ
+        9.ოს] ღ(მერთმა)ნ მის[გ(ა)ნ]
+        10.იძიენ ა[(მე)ნ]
+        -->
+        <body> 
+            
+             <div type="bibliography">
+                <p>
+                    <bibl n="1">ვალერი სილოგავა, კუმურდო, <citedRange>70-71</citedRange>, თბილისი 1994<ptr target="bibliography.xml#b198"/></bibl>
+                </p>
+                
+                
+           
+                 <p>
+                    <bibl n="3">
+                        ვ. ცისკარიშვილი, ჯავახეთის ეპიგრაფიკა, როგორც საისტორიო წყარო, <citedRange>22</citedRange>, თბილისი, 1959<ptr target="bibliography.xml#b200"/>
+                    </bibl>
+                </p>
+                 
+               
+                 
+                 <p>
+                    <bibl n="5">
+                        Е.С. Такайшвили, Христианские памятники, <citedRange>41</citedRange>, Москва, 1909<ptr target="bibliography.xml#b153"/>
+                    </bibl>
+                </p>
+                 
+                 <p>
+                    <bibl n="6">
+                        ნ. ბერძენიშვილი, ჯავახეთის 1933 წლის ექსპედიციის დღიური, იხ. მისი "საქართველის ისტორიის საკითხები", ისტორიული გეოგრაფია, ტ. I, <citedRange>134</citedRange>
+                        თბილისი, 1964<ptr target="bibliography.xml#b201"/>
+                    </bibl>
+                </p>
+    
+             </div>
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+
+            <ab>
+                <lb n="1"/><w lemma="იანვარ"><expan><abbr>იანვრ</abbr><ex>ი</ex><abbr>ს</abbr></expan><supplied reason="lost" precision="high"><abbr>ა</abbr></supplied></w> 
+                <supplied reason="lost" precision="low"><num>სა</num></supplied>
+                <lb n="2"/><persName type="local" key="პავლე ამბა მანგლელი"><roleName nymRef="amba">ამბა</roleName> პა<supplied reason="lost" precision="low">ვ</supplied>
+                <lb n="3" break="no"/>ლესი</persName> <w lemma="აღაპ"><expan><abbr>აღ</abbr><ex>ა</ex><abbr>პ</abbr><supplied reason="lost" precision="high"><abbr>ი</abbr></supplied></expan></w> 
+                <lb n="4"/><roleName nymRef="მანგლელი"><w lemma="მანგლელ"><expan><abbr>მ</abbr><ex>ან</ex><abbr>გ</abbr><ex>ლე</ex><abbr>ლისი</abbr></expan></w></roleName> <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> <w lemma="მის">მის</w>
+                <lb n="5"/><w lemma="დღე"><expan><abbr>დღ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w> <w lemma="ჟამისწირვა"><expan><abbr>ჟ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ი</ex><abbr>სწ</abbr><ex>ი</ex><abbr>რვ</abbr><supplied reason="lost" precision="high"><ex>ა</ex><abbr>ი</abbr></supplied></expan></w> 
+                <lb n="6"/><w>და</w> <w lemma="ლოცვა"><expan><abbr>ლ</abbr><ex>ო</ex><abbr>ცვ</abbr><ex>ა</ex><abbr>ი</abbr></expan></w> <w lemma="შეწევნა"><expan><abbr>შ</abbr><supplied reason="lost" precision="high"><abbr>ე</abbr></supplied>
+                <lb n="7" break="no"/><abbr>აწ</abbr><ex>ი</ex><abbr>ენ</abbr></expan></w> <rs type="curse"><w lemma="ვინ"><expan><abbr>ვ</abbr><ex>ი</ex><abbr>ნ</abbr></expan></w> <w lemma="არ">ა<supplied reason="lost" precision="low">რა</supplied></w>
+                <lb n="8"/><w lemma="იჴდის"><expan><abbr>გ</abbr><ex>ა</ex><abbr>რდაიჴა</abbr><supplied reason="lost" precision="low"><abbr>დ
+                <lb n="9" break="no"/>ოს</abbr></supplied></expan></w> <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> <w lemma="მის"><expan>მის<supplied reason="lost" precision="high"><abbr>გ</abbr><ex>ა</ex><abbr>ნ</abbr></supplied></expan></w>
+                 <lb n="10"/><w lemma="იძია">იძიენ</w> <w lemma="ამენ"><expan><abbr>ა</abbr><supplied reason="lost" precision="high"><ex>მე</ex><abbr>ნ</abbr></supplied></expan></w></rs>
+            </ab>
+            
+        </div>
+         
+            
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>
+                </ab>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+                <div type="commentary">
+                <p></p>
+            </div>
+        
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">
+                    გუჯარეთის ხეობა. ტყემლოვანის ეკლესია, კვირიკეს სავედრებელი წარწერა, X-XI სს.
+                </title>
+                 <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                 <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">
+                 ECG496
+                 </idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            თორის წარწერების კორპუსი
+                        </collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material>ქვა</material>
+                                   <objectType>არქიტრავი</objectType>
+                                        <dimensions unit="cm">
+                                        <width>45</width>
+                                        <height>97</height>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        <dimensions unit="cm">
+                                            <width>7</width>
+                                            <height>45</height>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli"><rs type="script">მდივან-მწიგნობრული მხედრული</rs>.
+                                წარწერაში ქარაგმად გამოყენებულია სწორი განივი და მარცხნიდან მარჯვნივ ზევით აწეული სწორი ხაზი.
+                                <width>1,7-6</width>
+                                <height>0,3-4,5</height>
+                                 </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>გუჯარეთის ხეობა. ტყემლოვანის ეკლესია</origPlace>
+                                <origDate>X-XI AD</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">გუჯარეთის ხეობა. ტყემლოვანის ეკლესია</placeName>
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">გუჯარეთის ხეობა. ტყემლოვანის ეკლესია.
+                            <placeName type="modernSpot">გუჯარეთის ხეობა. ტყემლოვანის ეკლესია</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2019-12-16" who="Tchanturia">
+                წარწერის სრული კოდირება, გარე ანოტირება, პირთა სახელების, ლემების მითითება, ბიბლიოგრაფია.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!-- წარწერის ფოტოდოკუმენტაცია -->
+    <facsimile>
+        <surface>
+            <graphic url="ecg496.jpg">
+                <desc xml:lang="ka">კვირიკეს სავედრებელი წარწერა</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+           <div type="bibliography"> <!-- არ ემთხვევა ბიბლიოგრაფიას, სილოგავას 1987 წლის ნაშრომი არ იძებნება -->
+               
+                <p><bibl n="1">თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი<ptr target="bibliography.xml#b234"/>,<citedRange>39-40 </citedRange>2019</bibl></p>
+                <p><bibl n="2">ვალერი სილოგავა,<ptr target="bibliography.xml#b130"/>,<citedRange>24 </citedRange>1987</bibl></p>
+                <p><bibl n="3">თამაზ გოგოლაძე, ბორჯომის ხეობის ისტორიული და ხუროთმოძღვრული ძეგლები (გზამკვლევი)<ptr target="bibliography.xml#b241"/>,<citedRange>95 </citedRange>2014</bibl></p>
+            
+           </div>
+            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">     
+                        <!--ქ. უ(ფალო)(?) ყო(ვე)ლ<ი>ნი (?) წ(ინაშ)ე (შენსა) (ა)იგო(?), შ(ეიწყალ)ე კ(ჳრიკ)ე-->
+                <ab>
+                    <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტე</ex></expan></w>
+                               <w lemma="უფალ"><expan><abbr>უ</abbr><ex>ფალო</ex></expan></w>
+                               <w lemma="ყოველ"><expan><abbr>ყო</abbr><ex>ვე</ex><abbr>ლ</abbr><ex>ი</ex><abbr>ნი</abbr></expan></w>
+                               <w lemma="წინაშე"><expan><abbr>წ</abbr><ex>ინაშ</ex><abbr>ე</abbr></expan></w>
+                               <supplied reason="lost">შენსა</supplied>
+                               <w lemma="აგებს"><expan><ex>ა</ex><abbr>იგო</abbr></expan></w>
+                               <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w>
+                               <persName type="local" key="კჳრიკე"><expan><abbr>კ</abbr><ex>ჳრიკ</ex><abbr>ე</abbr></expan></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ka"/>
+            <div type="apparatus" xml:space="preserve"/>
+            <div type="commentary"><p>წარწერა დაზიანებული არ არის. ტექსტი თავიდან ბოლომდე გარკვევით იკითხება.</p>
+              
+            </div>
+
+         </body>
+    </text>
+</TEI>

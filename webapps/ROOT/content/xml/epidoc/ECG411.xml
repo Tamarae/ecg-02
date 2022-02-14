@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ვერცხლის ფირფიტა</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG411</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ლაგურკა</collection>                
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents> 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/115">ვერცხლი</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">ფირფიტა</objectType>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                         ნივთი წარმოადგენს ხეზე დაკრულ ოქროში დაფერილ ვერცხლის ფირფიტას, რომლის ცენტრშიც იჯდებოდა ჯვარი, ხოლო ირგვლივ ასევე ჩასმული უნდა 
+                                         ყოფილიყო 8 გამოსახულება ბერძნული წარწერებით. 
+                                         წარწერა გამოსახულების ორივე მხარეზეა.
+                                    <dimensions unit="cm">
+                                        <width>21,5</width>
+                                        <height>30</height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote> 
+                                ამოტვიფრული წარწერები (გამოსახულ პირთა დასახელება) მთავრულია. სახელები ძირითადად არაა შემოკლებული.
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>ცალკეული გამოსახულებები ამოცვენილია, მაგრამ პირველადი სახის წარმოდგენა ძნელი არ არის. კუთხის
+                                გამოსახულებები რგოლებშებმულია და, როგორც ჩანს, მათი გაღება შეიძლებოდა (ამ კარების ზომაა 6 x 4 სმ). ზედა კუთხეების შუაში 
+                                გამოსახულებები უფრო პატარა ზომისაა, ხოლო კიდეებთან გამოსახულებები - დიდი და მდგომარე ფიგურებია.</decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace></origPlace>
+                                <origDate notBefore-custom="1001" notAfter-custom="1200" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">XI-XII AD</origDate>
+                              </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">ლაგურკა</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                         
+                            <provenance type="observed">
+                            <placeName type="modernSpot">ლაგურკის სეიფი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg411.jpg">
+                <desc xml:lang="ka">ვერცხლის ფირფიტა ლაგურკადან</desc>
+                <desc xml:lang="en">Silver slab from Lagurka</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 87</citedRange></bibl></p>
+                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 46-47</citedRange></bibl></p>
+                
+             </div>    
+
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!--    Ο | Α | ΓΙ | Ο | C || Π | Ε | ΤΡ | Ο | C   ὁ ἅγιος Πέτρος
+                                Ο | Π | ΡΩ | ΦΗ | ΤΙ | C ||  Η | Λ | Ι | Α | C    ὁ προφήτης Ἠλίας 
+                                Α | ΙΩ | Ο | ΠΡ | Ο || Δ | ΡΟ | Μ | Ο | C    ὁ ἅ[γιος] Ἰω[άννης] ὁ πρόδρομος 
+                                Ο | Α | ΓΙ | Ο | C || Π | Α | V | Λ | Ο | C    ὁ ἅγιος Παῦλος 
+                                Μ | Ι || Χ | Α | ΗΛ Μιχαήλ 
+                                Γ | Α || Β | ΡΙ | ΗΛ Γαβριήλ 
+                                Α | Κ | ΩΝ | CΤ | Α | Ν || Τ | Ι | Ν | Ο | C    ὁ ἅ[γιος] Κωνσταντῖνος 
+                                Η | Α | ΓΙ | Α || Ε | ΛΕ | Ν | Η     ἡ ἁγία Ἑλένη 
+                                                                                                -->
+                     
+            
+         <div type="textpart" subtype="section" n="1">
+         <ab>
+             <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="ἅγιος">ἅγιος</w> <name nymRef="Πέτρος">Πέτρος</name></persName>
+         </ab>    
+          </div>
+                <div type="textpart" subtype="section" n="2">
+           <ab>
+             <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="προφήτης">πρ<choice><reg>ο</reg><orig>ω</orig></choice>φήτ<choice><reg>η</reg><orig>ι</orig></choice>ς</w> <name nymRef="Ἠλίας">Ἠλίας</name></persName>
+           </ab>  
+         </div>
+                <div type="textpart" subtype="section" n="3">
+         <ab>
+             <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="ἅγιος"><expan><abbr>ἅ</abbr><ex>γιος</ex></expan></w> 
+              <name nymRef="Ἰωάννης"><expan><abbr>Ἰω</abbr><ex>άννης</ex></expan></name> <w lemma="ὁ">ὁ</w> <w lemma="πρόδρομος">πρόδρομος</w></persName>
+         </ab>    
+          </div>
+                <div type="textpart" subtype="section" n="4">
+         <ab>
+             <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="ἅγιος">ἅγιος</w> <name nymRef="Παῦλος">Παῦλος</name></persName>
+         </ab>    
+          </div>
+                <div type="textpart" subtype="section" n="5">
+         <ab>
+             <persName type="saint"><name nymRef="Μιχαήλ">Μιχαήλ</name></persName>
+         </ab>    
+          </div>
+                <div type="textpart" subtype="section" n="6">
+         <ab>
+             <persName type="saint"><name nymRef="Γαβριήλ">Γαβριήλ</name></persName>
+         </ab>    
+          </div>
+                <div type="textpart" subtype="section" n="7">
+         <ab>
+             <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="ἅγιος"><expan><abbr>ἅ</abbr><ex>γιος</ex></expan></w>  <name nymRef="Κωνσταντῖνος">Κωνσταντῖνος</name></persName>
+         </ab>    
+          </div>
+                <div type="textpart" subtype="section" n="8">
+         <ab>
+             <persName type="saint"><w lemma="ἡ">ἡ</w> <w lemma="ἁγία">ἁγία</w> <name nymRef="Ἑλένη">Ἑλένη</name></persName>
+         </ab>    
+          </div>
+                
+            </div>
+            
+            <div type="translation" subtype="section" n="1" xml:lang="ka">
+                <p>წმიდა პეტრე </p>
+            </div>
+            <div type="translation" subtype="section" n="2" xml:lang="ka">
+                <p>წინასწარმეტყველი ელია</p>
+            </div>
+            <div type="translation" subtype="section" n="3" xml:lang="ka">
+                <p>წმიდა იოანე წინამორბედი</p>
+            </div>
+            <div type="translation" subtype="section" n="4" xml:lang="ka">
+                <p>წმიდა პავლე</p>
+            </div>
+            <div type="translation" subtype="section" n="5" xml:lang="ka">
+                <p>მიქაელი</p>
+            </div>
+            <div type="translation" subtype="section" n="6" xml:lang="ka">
+                <p>გაბრიელი</p>
+            </div>
+            <div type="translation" subtype="section" n="7" xml:lang="ka">
+                <p>წმიდა კონსტანტინე</p>
+            </div>
+            <div type="translation" subtype="section" n="8" xml:lang="ka">
+                <p>წმიდა ელენე</p>
+            </div>
+            
+            
+                           <!-- კრიტიკული აპარატი -->
+            <div type="apparatus" xml:space="preserve">                                   
+              <head>კრიტიკული აპარატი</head>
+              <p><app><lem></lem>
+              <rdg></rdg>
+              </app></p>
+            </div>
+           
+            <div type="commentary">
+                <p>ნამუშევარი აშკარად ბერძნულია.</p>
+                <p>წარწერები (ერთი ტიპისაა ყველა) პალეოგრაფიული და ენობრივი მონაცემებით ზოგადად ბიზანტიური ხანის შუა პერიოდით შეიძლება დათარიღდეს. ხელოვნებათმცოდნეთა 
+                აზრით, ეს ბიზანტიური ხატია.</p>
+                <p>წარწერებში სიტყვა ὁ ἅγιος დაწერილია შემოკლებით (Α), როგორც ჩანს, ადგილის ეკონომიისათვის. შეიმჩნევა იტაციზმი (ὁ πρωφητις), ο და ω-ს მონაცვლეობა (πρωφητις), 
+                    არის სახელის შემოკლების ერთი შემთხვევა (ΙΩ). ნაწერი წიგნიერი ბიზანტიური ბერძნულია.</p>
+            </div>
+         </body>
+    </text>
+</TEI>
+
+
+

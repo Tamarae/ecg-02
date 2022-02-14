@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">უმ ლეისუნის იოანე ეპისკოპოსის წარწერა</title>
+                <title xml:lang="en">Umm Leisun inscription</title>
+                
+                <editor xml:lang="ka">ჯონ ზელიგმანი</editor>
+                <editor xml:lang="en">Zeligman</editor>
+                
+                <editor xml:lang="ka">იანა ჩეხანოვეცი</editor>
+                <editor xml:lang="en">Yana Tchekhanovets</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
+                <idno type="filename">ECG1006</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>ისრაელი</country>
+                         <collection>იერუსალიმი</collection>
+                    </msIdentifier> 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material xml:lang="ka" ref="www.eagle-network.eu/voc/material/lod/2">კირქვა</material> 
+                                    <material xml:lang="en" ref="www.eagle-network.eu/voc/material/lod/2">Limestone</material> 
+                                   <objectType xml:lang="ka">საფლავის ქვა</objectType> 
+                                    <dimensions unit="cm"> 
+                                        <width/>
+                                         <height/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="5">
+                                   <dimensions unit="cm">
+                                       <width></width>
+                                       <height></height>
+                                   </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა.
+                                <dimensions unit="cm"/>
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/> 
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>უმ ლეისუნი, იერუსალიმი</origPlace>
+                                <origDate>V-IV AD</origDate>
+                            </origin>
+                        <provenance type="found" when="2002">
+                            <placeName xml:lang="ka">იერუსალიმი</placeName>
+                            <placeName xml:lang="en">Jerusalem</placeName>
+                            <!--  -->
+                            <rs type="monuList">იერუსალიმი</rs>
+                            <rs type="circumstances" xml:lang="ka">2002 წელს, 1996 წლის გათხრების განახლების შემდეგ, ბიზანტიური პერიოდის ქართული მონასტერი აღმოაჩინეს.</rs>
+                            <rs type="circumstances" xml:lang="en">discovered in 2002, after the renewal of 1996 excavation, 
+                                at a Georgian monastery of the Byzantine period, in the neighborhood of Umm Leisun, 4.5 km southeast of the Old City of Jerusalem.</rs>
+                            
+                            <rs type="context" xml:lang="ka">წარწერა აღმოჩნდა პოლიქრომული მოზაიკის იატაკის ქვეშ სამარხში.</rs>
+                            <rs type="context" xml:lang="en">found in a burial crypt under the polychrome mosaic floor.</rs>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+    </teiHeader>
+
+    <facsimile>
+        <surface>
+            <graphic url="ecg1006.jpg">
+                <desc xml:lang="ka" ref="paleography.iliauni.edu.ge/digipal/page/17/">უმ ლეისუნის წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+            
+         <div type="bibliography">
+                           
+                    <p><bibl n="1">A Georgian Monastery from the Byzantine Period at Khirbat Umm Leisun, Jerusalem, <ptr target="bibliography.xml#b120"/> <citedRange>145–180</citedRange></bibl></p>
+                    <p><bibl n="2"></bibl></p>
+                
+              </div>
+            
+              <div type="edition" xml:lang="ka" xml:space="preserve" ana="mtavruli">
+                        <!-- 
+                        ესესამარხოჲ
+                        იოჰანეფოჳრ
+                        ტაველეპისკოპო
+                        სისაჲქართვე
+                        ლისაჲ -->
+
+
+             <ab>
+                        <lb n="1"/><w lemma="ესე">ესე</w> <w lemma="სამარხ">სამარხოჲ</w>
+                        <lb n="2"/><persName type="clergy" key="იოვანე ფურტაველი ეპისკოპოსი"><name nymRef="იოჰანე">იოჰანე</name></persName> <placeName nymRef="ფურტავი"><name nymRef="ფურტაველ">ფოჳრ
+                        <lb n="3" break="no"/>ტაველ</name></placeName> <roleName nymRef="ეპისკოპოს">ეპისკოპო
+                        <lb n="4" break="no"/>სისაჲ</roleName> <persName type="ethnic" nymRef="ქართველ">ქართვე
+                        <lb n="5" break="no"/>ლისაჲ</persName>
+             </ab>
+             
+            </div>
+            
+            <div type="translation" xml:lang="ka">
+               <p>ეს სამარხი (არის) იოანე ფურტაველი ეპისკოპოსის, ქართველისა</p>
+            </div>
+            
+
+            
+            <div type="commentary" xml:lang="ka">
+                <p>არც ერთ არქეოლოგიურ ობიექტზე ეთნონიმ „ქართველის“ გამოყენების ამაზე ადრიანი შემთხვევა არ გვხვდება არც საქართველოში და არც წმინდა მიწაზე.</p>
+            </div>
+            <div type="commentary" xml:lang="en">
+                <p>the earliest known example for an ethnonym ႵႠႰႧႥႤႪႨ (kartveli i.e. Georgian) on any archaeological artifact, both in the Holy Land and in Georgia.</p>
+            </div>
+                   
+
+            
+         </body>
+    </text>
+</TEI>

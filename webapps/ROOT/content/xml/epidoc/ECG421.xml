@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ჭედური ხატი</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG421</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>დოლი</collection>                
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material></material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/123">ხატი</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        ხატზე გამოსახულია ღვთისმშობელი ყრმითა და მთავარანგელოზებით, ხატი ჭედურია ჭედურივე წარწერებით. წარწერები ხატის სამ ადგილას არის მოთავსებული.
+                                    <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote> 
+                               ჭედური წარწერები ხატზე მთავრულია, არის შემოკლებები, ქარაგმები, დიაკრიტიკული ნიშნები, ლიგატურა.
+                                <height unit="cm" precision="medium">4,5-12</height>
+                                <width unit="cm" precision="medium">1,9-2</width>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace></origPlace>
+                                <origDate notBefore-custom="1001" notAfter-custom="1200" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">XI-XII AD</origDate>
+                              </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">დოლი</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                        
+                            <provenance type="observed">
+                            <placeName type="modernSpot">სოფ. დოლი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg421.jpg">
+                <desc xml:lang="ka">ჭედური ხატი დოლიდან</desc>
+                <desc xml:lang="en">Repousse icon from Doli</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 91</citedRange></bibl></p>
+                
+            </div>
+
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!--  ΜΪΧ Μιχ[αήλ]
+                        ΓΑΒ ΡΪ ΗΛ Γαβριήλ
+                        ΙC ΧC  Ἰ[ησοῦ]ς Χ[ριστό]ς -->
+                     
+            
+         <div type="textpart" subtype="section" n="1">
+         <ab>
+             <persName type="saint"><name nymRef="Μιχαήλ"><expan><abbr>Μιχ</abbr><ex>αήλ</ex></expan></name></persName> 
+         </ab>    
+          </div> 
+                <div type="textpart" subtype="section" n="2">
+         <ab>
+              <persName type="saint"><name nymRef="Γαβριήλ">Γαβριήλ</name></persName>
+         </ab>    
+          </div> 
+                <div type="textpart" subtype="section" n="3">
+         <ab>
+              <persName type="divine"><name nymRef="Ἰησοῦς"><expan><abbr>Ἰ</abbr><ex>ησοῦ</ex><abbr>ς</abbr></expan></name> <name nymRef="Χριστός"><expan><abbr>Χ</abbr><ex>ριστό</ex><abbr>ς</abbr></expan></name></persName>
+         </ab>    
+          </div>
+                
+            </div>
+            
+            <div type="translation" subtype="section" n="1" xml:lang="ka">
+                <p>მიქაელი</p>
+            </div>
+            <div type="translation" subtype="section" n="2" xml:lang="ka">
+                <p>გაბრიელი</p>
+            </div>
+            <div type="translation" subtype="section" n="3" xml:lang="ka">
+                <p>იესუ ქრისტე</p>
+            </div>
+            
+            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app><lem></lem>
+              <rdg></rdg>
+              </app></p>
+            </div>
+           
+            <div type="commentary">
+                <p>დათარიღება ხდება ასოთა მოხაზულობის, შემოკლებათა, ქარაგმათა და ლიგატურის ტიპის მიხედვით.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

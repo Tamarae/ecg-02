@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ცაიშის ბერძნული წარწერა</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG319</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                           ცაიში
+                        </collection>
+                    </msIdentifier>                  
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სავედრებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>  
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="http://www.eagle-network.eu/voc/material/lod/48">მარმარილო</material>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/100">სვეტი</objectType>
+                                   </support>
+                                   </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        <p>ღვთისმშობლის ტაძარში, სადაც რამდენიმე სამშენებლო ფენაა გარჩეული, საკურთხევლის წინ სიმეტრიულად დგას 4 მრგვალი მარმარილოს სვეტი. მაყურებლისთვის 
+                                        მარჯვენა ცენტრალურ სვეტზე (რომელსაც კაპიტელი არ აქვს), ძირიდან 170 სმ-ზე მოთავსებულია ბერძნული წარწერა.</p>
+                                        <p>სტრიქონის დასაწყისის ქვემოთ შეინიშნება წარწერის კვალი, თითქოს Κ ან Α (ე.ი. ყოფილა II სტრიქონი, უფრო მოკლე I-ზე). მის ქვემოთ გამოსახულია ჯვარი.</p>
+                                    <dimensions unit="cm">
+                                        <width>42</width>
+                                        <height>4,5</height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                <p>სვეტზე მოთავსებულია დაუდევრად გამოყვანილი, ამოკაწრული ბერძნული ასომთავრული წარწერა. ასოები სხვადასხვა ზომისა: სტრიქონის დასაწყისში უფრო მომცრო, ხოლო 
+                                შემდეგ - უფრო დიდი.</p>
+                                <p>წარწერა დათარიღებულია პალეოგრაფიული ნიშნების (ასოთა მოხაზულობა, იტაციზმი, ο და ω-ს აღრევა) მიხედვით.</p>
+                                   <height unit="cm" precision="medium"></height>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ცაიში</origPlace>
+                                <origDate notBefore="0501" notAfter="0700" evidence="lettering" datingMethod="#julian">VI-VII AD</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">ცაიში</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                
+                            <provenance type="observed">
+                            <placeName type="modernSpot">ცაიში</placeName>, ღვთისმშობლის ტაძარი
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg319.jpg">
+                <desc xml:lang="ka">ცაიშის სვეტი</desc>
+                <desc xml:lang="en">Pillar of Tsaishi</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 104</citedRange></bibl></p>
+                
+            </div>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!-- Κ[ύρι]ε σῶσον τοὺς Βασιλίς (Βασηλης) [καὶ]...
+                                                                 -->
+                     
+            
+
+         <ab>
+             <w lemma="κύριος"><expan><abbr>κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></w> <w lemma="σῴζω">σ<choice><corr>ῶ</corr><sic>ο</sic></choice>σον</w> <w lemma="ὁ">τοὺς</w> <persName><name nymRef="Βασίλης">Βασιλίς</name></persName> <w lemma="καί"><supplied reason="lost">καὶ</supplied></w> <gap reason="omitted" extent="unknown"/>
+         </ab>    
+             
+         
+            </div>
+            
+                
+            <div type="translation" xml:lang="ka">
+                <p>უფალო აცხოვნე ბასილი (და...)</p></div>
+            
+           <div type="apparatus" xml:space="preserve">
+              <head>კრიტიკული აპარატი</head>
+               <p><app><lem>Βασιλίς</lem>
+               <rdg resp="თინათინ ყაუხჩიშვილი">Βασηλης</rdg>
+               </app></p>
+            </div>
+           
+            <div type="commentary">        
+                <p>არტიკლი τοὺς მრ. რიცხვშია, მას მხოლოდ ერთი სახელი მოსდევს, ქვემოთ კი II სტრიქონის კვალია. ამდენად უნდა ვიფიქროთ, რომ იქნებოდა კიდევ ერთი სახელი მაინც იმისა, 
+                ვინც უფალს ცხონებას შესთხოვდა. სახელი Βασιλις მოსალოდნელი ბრალდებითი ბრუნვის ნაცვლად სახელობით ბრუნვაშია. ეს შეცდომა გვაფიქრებინებს იმას, რომ შემსრულებელმა 
+                ბერძნული კარგად არ იცის.</p>
+              </div>
+        </body>
+    </text>
+</TEI>
+
+
+
+

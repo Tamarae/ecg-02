@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>იკვის წმ. გიორგის ეკლესიის წარწერა</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG425</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="fragmentary">
+                   <msIdentifier>
+                        <collection>იკვი</collection>                
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material></material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/178">ფრესკა</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        იკვის წმ. გიორგის XI ს-ის ეკლესიაში შემორჩენილია XII-XIII სს-ის ფრესკები. გუმბათში, ზემო რეგისტრში ამაღლების სცენიდან დაცულია 12 
+                                        მოციქულის გამოსახულება, ხოლო მის ქვემოთ, ჩრდილოეთისა და სამხრეთის მხარეებში, ორ სარკმელს შორის ჯვარცმის ფრაგმენტები (Н. И. 
+                                        Толмачевская, Фрески древней Грузии, Тифлис, 1931.  11) შეიძლება ერთი არის ჯვარცმა, ხოლო მეორე გარდამოხსნა. ჩრდილოეთის მხარეზე 
+                                        შემორჩენილია ჯვრის ზედა ჰორიზონტალური ნაწილი, რომელზეც არის წარწერა; სამხრეთის მხარეზე ასევე ჯვრის ზედა ნაწილზეც იკითხება წარწერა.                                     
+                                    <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote> 
+                                ფრესკაზე წარწერები შესრულებულია ასომთავრული ბერძნულით. 
+                                ასოთა ამგვარი მოხაზულობა (α, λ, δ - ზემოთ, მარცხნივ დამატებითი შტრიხით; β, ω...) გვხვდება ბიზანტიური ხანის შუა პერიოდისათვის (X-XIII სს.).
+                             <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace></origPlace>
+                                <origDate notBefore-custom="1101" notAfter-custom="1300" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">XII-XIII AD</origDate>
+                              </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">იკვის წმ. გიორგის ეკლესია</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                        
+                            <provenance type="observed">
+                            <placeName type="modernSpot">იკვის წმ. გიორგის ეკლესია</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg425.jpg">
+                <desc xml:lang="ka">იკვის წმ. გიორგის ეკლესიის ფრესკა</desc>
+                <desc xml:lang="en">Fresco in the Ikvi Church of St. George</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 203-204</citedRange></bibl></p>
+                
+            </div>
+
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!--  ΙΟΒΑCΙΛΕVCTDΩ...  Ἰ[ησοῦς] ὁ βασιλεὺς τ[ῆς] δόξης 
+                        ΙΟΒΑCΙΛΕVCTDΩ...  Ἰ[ησοῦς] ὁ βασιλεὺς τ[ῆς] δόξης -->
+                     
+            
+         <div type="textpart" subtype="section" n="1">
+         <ab>
+             <persName type="divine"><name nymRef="Ἰησοῦς"><expan><abbr>Ἰ</abbr><ex>ησοῦς</ex></expan></name></persName> <w lemma="ὁ">ὁ</w> <w lemma="βασιλεύς">βασιλεὺς</w> 
+             <w lemma="ὁ"><expan><abbr>τ</abbr><ex>ῆς</ex></expan></w> <w lemma="δόξα">δ<choice><reg>ό</reg><orig>ω</orig></choice><supplied reason="subaudible">ξης</supplied></w>
+         </ab>    
+          </div> 
+                <div type="textpart" subtype="section" n="2">
+         <ab>
+              <persName type="divine"><name nymRef="Ἰησοῦς"><expan><abbr>Ἰ</abbr><ex>ησοῦς</ex></expan></name></persName> <w lemma="ὁ">ὁ</w> <w lemma="βασιλεύς">βασιλεὺς</w> 
+             <w lemma="ὁ"><expan><abbr>τ</abbr><ex>ῆς</ex></expan></w> <w lemma="δόξα">δ<choice><reg>ό</reg><orig>ω</orig></choice><supplied reason="subaudible">ξης</supplied></w>
+         </ab>    
+          </div> 
+                
+            </div>
+            
+            <div type="translation" subtype="section" n="1" xml:lang="ka">
+                <p>იესუ მეუფე დიდებისა</p>
+            </div>
+            <div type="translation" subtype="section" n="2" xml:lang="ka">
+                <p>იესუ მეუფე დიდებისა</p>
+            </div>
+            
+            <div type="apparatus" xml:space="preserve">                                                               <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app><lem></lem>
+              <rdg></rdg>
+              </app></p>
+            </div>
+           
+            <div type="commentary">
+                <p>ფორმულა: ὁ βασιλεὺς τῆς δόξης - ჩვეულებრივია. ამ წარწერის თავისებურებაა წინ Ι, რაც სხვა, ანალოგიურ წარწერებში არ გვხვდება.</p>
+                <p>ფრესკებს ხელოვნებათმცოდნენი ძირითადად XII-XIII სს-ით ათარიღებენ. ცხადია, ფრესკები და მათზე გამოყვანილი წარწერები თანადროულია.</p>
+                </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ხუნზახის XII წარწერა დაღესტნიდან</title>
+                <editor xml:lang="ka">შაჰბან ჰაფიზოვი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG375</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ხუნზახი</collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">ფრაგმენტი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents> 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="2">წარწერა ორსტრიქონიანია
+                                        <dimensions unit="cm">
+                                         <width></width>
+                                         <height></height> 
+                                          </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                                <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ნუსხურნარევი ასომთავრული</rs> წარწერა
+                                <height/> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ხუნზახი, დაღესტანი</origPlace>
+                                <origDate notBefore-custom="1200" notAfter-custom="1400" 
+                                    evidence="lettering historical context" datingMethod="#julian">XIII-XIV AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">ხუნზახი, დაღესტანი</placeName>
+                                <!-- "42.547389, 46.706797"--> 
+                                <rs type="circumstances"></rs>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                 <placeName type="modernSpot" ref="http://www.museum.ru/M1205">დაღესტნის სახელმწიფო მუზეუმი</placeName>
+                                <idno type="invNo"/></provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+      <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    
+   <facsimile>
+        <surface>
+            <graphic url="ecg375.jpg">
+                <desc xml:lang="ka">ხუნზახის XII წარწერა დაღესტნიდან</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>           
+       <div type="bibliography">
+           
+   <p><bibl n="1">შაჰბან ჰაფიზოვი, ქართული, ქართულ-ხუნძური და ხუნძური წარწერები მთიან ხუნძეთში (დაღესტანი)<ptr target="bibliography.xml#b141"/>, <citedRange> 127</citedRange></bibl></p>
+             
+          </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--გა
+                            ჲ-->                                                       
+            
+
+                <ab>
+                   <lb n="1"/><gap reason="lost" extent="unknown" unit="chars"></gap>გა<gap reason="lost" extent="unknown" unit="chars"></gap>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="chars"></gap>ჲ<gap reason="lost" extent="unknown" unit="chars"></gap>
+                </ab>
+         </div>
+            
+         <div type="translation" xml:lang="ka"/>
+            
+            <div type="apparatus" xml:space="preserve"/>
+              
+            <div type="commentary">
+                <p>დაღესტნის სახელმწიფო ისტორიულ მუზეუმში ინახება ქვის ნამტვრევი, რომელზეც გამოსახულია სამი ასო. 
+                           შაჰბან ჰაფიზოვი წარწერას გარკვეული პირობითობით XIII-XIV საუკუნეებს აკუთვნებს. 
+                                    პირველი ორი ნუსხური ასო განლაგებულია ზედა სტრიქონზე და მკაფიოდ იკითხება როგორც გა მარცვალი, 
+                                    ხოლო ქვედა სტრიქონზე გამოსახული ასომთავრული ასოს იდენტიფიკაცია საძნელოა - იგი უფრო ჲ უნდა იყოს. 
+                                    ეს მონაცემები საკმარისი არ არის წარწერის ტექსტის გასახსნელად.</p>                
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>კირქვის ოთხკუთხა ბერძნულწარწერიანი სტელა</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG333</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                           სოხუმი
+                        </collection>
+                    </msIdentifier>                   
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">ეპიტაფია</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>  
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="http://www.eagle-network.eu/voc/material/lod/66">კირქვა ?</material>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/91">საფლავის სტელა</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="9">
+                                        სტელაზე გამოყვანილია 9 სტრიქონიანი ბერძნული წარწერა. იგი ძირითადად კარგად იკითხება (დაზიანებულია თავში I-II სტრიქონები, ბოლოს – VIII-IX სტრიქონები, 
+                                რომლებიც შეძლებისდაგვარად აღდგენილია).  
+                                      <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                წარწერა მაინცდამაინც საგანგებოდ გამოყვანილი ასოებით არ არის შესრულებული. ძირითადად ასოები მსხვილია. მაგ., ο და θ თითქმის მრგვალია. ε–ს სამივე 
+                                ჰორიზონტალური ხაზი ტოლი აქვს. ასევეა σ–ც, α, δ და λ ერთი ტიპისაა. ν – ფართოა. გამორჩეულია ω, რომელიც გვხვდება სამჯერ და სამივეჯერ ერთნაირია – 
+                                ვერტიკალური ხაზები შედარებით დაბალია, ერთმანეთისგან დაშორებული, ხოლო მათი შემაერთებელი ქვედა ხაზი შუაში ჩატეხილი, ოდნავ ამოწეული და ასევე 
+                                დაბალი. ასევე გამორჩეულია κ (გვხვდება ორჯერ), რომლის მარჯვენა მხარე სამკუთხედია, ფართოდ გაშლილი გრძელი ხაზებით. ρ არ გამოირჩევა თავისი 
+                                მოხაზულობით. მთლიანად მოხაზულობით მსგავსი წარწერა არ გვხვდება აქამდე გამოქვეყნებულ წარწერებში. ამდაგვარი ასოები (განსაკუთრებით ω–ს მოხაზულობა) 
+                                გვაქვს შემდეგ ძეგლებში; C, Ε, Ν, Ρ ბევრ წარწერაშია ასეთი მოხაზულობის II ს–დან და შემდეგაც, VI ს–შიც.
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>სოხუმი</origPlace>
+                                <origDate notBefore="0301" notAfter="0500" precision="medium" evidence="lettering" datingMethod="#julian">წარწერის საერთო სტილის, ასოთა მოხაზულობისა და ენობრივი მონაცემების საფუძველზე 
+                                    სოხუმის წარწერა უნდა დათარიღდეს IV-V სს–ით AD.</origDate>
+                                <p>მარმარილოს ფილაზე ხერსონესიდან, რაც დათარიღებულია III ს–ით, გვაქვს ω ასეთი მოხაზულობის: W, სხვა ასოები არ გამოირჩევა, გარდა α და λ–სი, რომელთაც 
+                                ზემოთკენ აქვთ აშვერილი მარჯვენა ხაზები. საფლავის წარწერა ამისოდან, დათარიღებული ზოგადად რომაული ხანით. ასეთია W, E (არის ორი ლიგატურაც: KC და AN). 
+                                ამისოდანვე – W, C, E, A (თარიღი მოცემულია არაა); ამისოდანვეა ფოთლით დაბოლოებული წარწერა, რაც გვიანრომაულ, ადრექრისტიანულ ხანებში გვხვდება, სადაც 
+                                წერია W, E. ნეოკლაუდიოპოლისიდან არის ორი თარიღიანი წარწერა, სადაც W და სოხუმის წარწერის სხვა ასოთა მსგავსი ასოებია – ერთი 193–4 წწ. და მეორე 282–83 წწ. 
+                                ამასიის წარწერაში W და Α მსგავსი მოხაზულობისაა, თარიღი ზოგადადაა მოცემული – იმპერიის ეპოქის. საბერძნეთიდან გვაქვს 262–63 წწ. წარწერა, სადაც A, E, C–ს 
+                                გვერდით არის W, სიცილიიდან საფლავის წარწერაში არის W (მსგავსია Κ, Α, Ν, Ε), დათარიღებულია წარწერა IV ს–ით. იტალიიდან IV-V სს. წარწერაში აღსანიშნავია 
+                                ΑΥΡ (ავრელიუსისათვის) და Κ ასეთი მოხაზულობისაა, სირაკუზის ეპიტაფიაში, რაც IV-V სს–ით თარიღდება, მრგვალი, მსხვილი ასოებია, ასეთია Ο, მსგავსია Κ–ც.</p>
+                                    </origin>
+                            <provenance type="found" when="1991">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/857107">სოხუმი</placeName> 
+                                <rs type="circumstances">სტელა აღმოჩენილია სოხუმის ძველი ციხის ტერიტორიაზე არქეოლოგიური გათხრების შედეგად. არქეოლოგმა მ. გუმბამ გათხარა ნაგებობა (ეკლესია?), 
+                                რომლის სამხრეთ–აღმოსავლეთ მონაკვეთში ჩაშენებული იყო კირქვის (?) ოთხკუთხა სტელა.</rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                       
+                            <provenance type="observed">
+                            <placeName type="modernSpot"></placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg333.jpg">
+                <desc xml:lang="ka">სოხუმის საფლავის სტელა, 1991</desc>
+                <desc xml:lang="en">Grave stele, Sukhumi, 1991</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 372–374</citedRange></bibl></p>
+                
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!-- Χ[ριστὸ]ς πολλά[κις]
+                            κρείων ἐνθ[ά]
+                            δε κατάκει
+                            ται Ὀρέστη[ς]
+                            στρατιώτ[ης]
+                            λε[γ]εων[ά]
+                            ρις θαρ[αλ]
+                            αρις ἀνέγ[νων] / ἀνέγ[νωοσα]
+                            μολεῖ[ν] / μέλει
+                                                                     -->
+
+         <ab>
+             <lb n="1"/><persName type="divine"><name nymRef="Χριστός"><expan><abbr>Χ</abbr><ex>ριστό</ex><abbr>ς</abbr></expan></name></persName> <w lemma="πολλάκις">πολλά<supplied reason="lost">κις</supplied></w>
+             <lb n="2"/><w lemma="κρείων">κρ<choice><reg>εί</reg><orig>ι</orig></choice>ων</w> <w lemma="ἐνθάδε">ἐνθ<supplied reason="lost">ά</supplied>
+             <lb n="3" break="no"/>δε</w> <w lemma="κατάκειμαι">κατάκ<choice><reg>ει</reg><orig>ι</orig></choice>
+             <lb n="4" break="no"/>ται</w> <persName><name nymRef="Ὀρέστης">Ὀρέστη<supplied reason="lost">ς</supplied></name></persName>
+             <lb n="5"/><roleName nymRef="στρατιώτης"><w lemma="στρατιώτης">στρατιώτ<supplied reason="lost">ης</supplied></w></roleName>
+             <lb n="6"/><roleName nymRef="λεγεωνάρις"><w lemma="λεγεωνάρις">λε<supplied reason="lost">γ</supplied>εων<supplied reason="lost">ά</supplied>
+             <lb n="7" break="no"/>ρις</w></roleName> <w lemma="θαρραλέος">θαρ<supplied reason="lost">αλ</supplied></w>
+             <lb n="8"/><del rend="erasure">αρις</del> <w lemma="ἀναγιγνώσκω">ἀνέγ<supplied reason="lost">νων</supplied></w>
+             <lb n="9"/><w lemma="βλώσκω">μολεῖ<supplied reason="lost">ν</supplied></w>
+            </ab>    
+             
+         
+            </div>
+                
+            <div type="translation" xml:lang="ka">
+                <p>ქრისტე მრავლისშემძლე (/ყოველთა მეუფე ?). აქ განისვენებს ორესტე ჯარისკაცი ლეგიონერი მამაცი (?) გარწმუნებთ (ან – გთხოვთ) მოხვიდეთ (ან – იზრუნოთ) (იგულისხმება – 
+                საფლავთან მოხვიდეთ, საფლავზე იზრუნოთ).</p>
+            </div>
+            
+           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app loc="8"><lem>ἀνέγνων</lem>
+              <rdg resp="თ. ყაუხჩიშვილი">ἀνέγνωοσα</rdg>
+              </app></p>
+              <p><app loc="9"><lem>μολεῖν</lem>
+              <rdg resp="თ. ყაუხჩიშვილი">μέλει</rdg>
+              </app></p>
+            </div>
+           
+            <div type="commentary">
+                <p>ენობრივი თვალსაზრისით სოხუმის წარწერაში აღსანიშნავია: დიფთონგების მონოფთონგიზაცია: ει–ι (κρείων||κρίων; κατάκειται||κατακιτε). –ιος დაბოლოება იძლევა ις–ს 
+                (λεγεωνάρις=λεγεωνάριος–ს, ან λεγιονάρις).</p>
+            </div>
+          </body>
+    </text>
+</TEI>
+
+
+

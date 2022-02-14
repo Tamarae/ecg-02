@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>წილკნის ღვთისმშობლის ხატი</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG432</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            წილკანი
+                        </collection>
+                        </msIdentifier> 
+                        <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სადიდებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>                 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material></material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/123">ხატი</objectType>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                      წილკნის ღვთისმშობლის ხატი მიჩნეულია ქართული ხელოვნების ძეგლად. ღვთისმშობელი ყრმით (ცენტრალური ნაწილი ხატის) ცვილოვანი ფერწერითაა 
+                                      შესრულებული (ენკაუსტიკა). შარავანდები - მინანქრებიანია. ყრმის თავზე ფირფიტაა ზედ ჭედური წარწერით; ღვთისმშობელს მარჯვენა მხარსა და კისერს 
+                                      შორის წითელი საღებავით აქვს წარწერა; ხატის ჩარჩოზე 3 მხარეს არის მედალიონები (მინანქრიანი და ჭედური). ხოლო IV მხარეს, ქვემოთ 3 სტრიქონად 
+                                      ქართული ასომთავრული წარწერა (მთავარეპისკოპოსის, ბართოლომეოსის ღვაწლის აღნიშვნით). ზემოთა არშიაზე შემორჩენილია 2 მედალიონი, მინანქრიანი 
+                                      (დიამ. 6 სმ.). მათზე გამოსახულების ორსავე მხარეს სიგრძივ არის სახელთა აღნიშვნა (მარჯვენა და მარცხენა მედალიონებზე); ხატის მარცხენა ჩარჩოზე 
+                                      შემორჩენილთაგან ზემოთა მედალიონს (დიამ. 6 სმ.) აქვს წარწერა ორსავე კიდეზე სიგრძივ; მარჯვენა მხარეს წარწერის სიმეტრიულად არის მედალიონი 
+                                      (დიამ. 6 სმ.) წარწერით, ასევე კიდეებზე სიგრძივ; მუზეუმის სეიფში დაცულია 2 მედალიონი (დიამ. 3,3, სმ.), რომლებზედაც მსხვილად, თეთრი 
+                                      მინანქრით გამოყვანილია ბერძნული ასოები. ეს მედალიონებიც ოდესღაც ამკობდა წილკნის ღვთისმშობლის ხატს. 
+                                            <dimensions unit="cm">
+                                                <width/>
+                                                <height/>
+                                                <depth/>
+                                            </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote> 
+                                 <height/>
+                                 <width/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>წილკანი</origPlace>
+                                <origDate notBefore-custom="1101" notAfter-custom="1200" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">XII AD</origDate>
+                              </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">წილკნის ღვთისმშობლის ეკლესია</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                        
+                            <provenance>
+                            <placeName type="modernSpot">წილკანი</placeName>
+                            <idno/>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg432.jpg">
+                <desc xml:lang="ka">წილკნის ღვთისმშობლის ხატი</desc>
+                <desc xml:lang="en">Tsilkani icon of the Holy Mother of God</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 285-286</citedRange></bibl></p>
+                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 276</citedRange></bibl></p>
+                
+            </div>
+
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!-- ΙC ΙΧ  Ἰ[ησοῦ]ς Χ[ριστό]ς 
+                        ΜΗΠ VΘ  μ[ήτ]ηρ θ[εο]ῦ  
+                        Ο Θ Ε Ο Δ Ω Π Ο Γ   Ὁ Θεόδορος
+                        Ο Θ Ε Ο Δ Ω Π Ο ς   Ὁ Θεόδορος 
+                        Ο Δ Α Μ Ι Α Ν    ὁ [ἅγιος] Δαμιανός 
+                        Ο Π  Ν Τ  Ε Η Μ   ὁ [ἅγιος] Π[α]ντ[ελ]εήμ[ων] 
+                        ΜΗΡ ΘΥ   μ[ήτ]ηρ θ[εο]ῦ-->
+                     
+            
+         <div type="textpart" subtype="section" n="1">
+         <ab>
+            <persName type="divine"><name nymRef="Ἰησοῦς"><expan><abbr>Ἰ</abbr><ex>ησοῦ</ex><abbr>ς</abbr></expan></name> <name nymRef="Χριστός"><expan><abbr>Χ</abbr><ex>ριστό</ex><abbr>ς</abbr></expan></name></persName>
+         </ab>    
+          </div> 
+                <div type="textpart" subtype="section" n="2">
+         <ab>
+            <w lemma="μήτηρ"><expan><abbr>μ</abbr><ex>ήτ</ex><abbr>η<choice><reg>ρ</reg><orig>π</orig></choice></abbr></expan></w> <w lemma="θεός"><expan><abbr>θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan></w>
+         </ab>    
+          </div> 
+                <div type="textpart" subtype="section" n="3">
+         <ab>
+            <w lemma="ὁ">ὁ</w> <persName><name nymRef="Θεόδορος">Θεόδο<choice><reg>ρ</reg><orig>π</orig></choice>ο<choice><reg>ς</reg><orig>γ</orig></choice></name></persName>
+         </ab>    
+          </div> 
+                <div type="textpart" subtype="section" n="4">
+         <ab>
+           <w lemma="ὁ">ὁ</w> <persName><name nymRef="Θεόδορος">Θεόδο<choice><reg>ρ</reg><orig>π</orig></choice>ος</name></persName>
+         </ab>    
+          </div> 
+                <div type="textpart" subtype="section" n="5">
+         <ab>
+           <w lemma="ὁ">ὁ</w> <w lemma="ἅγιος"><supplied reason="subaudible">ἅγιος</supplied></w> <persName><name nymRef="Δαμιανός">Δαμιαν<supplied reason="subaudible">ός</supplied></name></persName>
+         </ab>    
+          </div> 
+                <div type="textpart" subtype="section" n="6">
+         <ab>
+            <w lemma="ὁ">ὁ</w> <w lemma="ἅγιος"><supplied reason="subaudible">ἅγιος</supplied></w> <persName><name nymRef="Παντελεήμων">Π<supplied reason="subaudible">α</supplied>ντ<supplied reason="subaudible">ελ</supplied>εήμ<supplied reason="subaudible">ων</supplied></name></persName>
+         </ab>    
+          </div> 
+                <div type="textpart" subtype="section" n="7">
+         <ab>
+            <w lemma="μήτηρ"><expan><abbr>μ</abbr><ex>ήτ</ex><abbr>ηρ</abbr></expan></w> <w lemma="θεός"><expan><abbr>θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan></w>
+         </ab>    
+          </div> 
+                
+            </div>
+            
+            <div type="translation" subtype="section" n="1" xml:lang="ka">
+                <p>იესუ ქრისტე</p>
+            </div>
+            <div type="translation" subtype="section" n="2" xml:lang="ka">
+                <p>დედა ღმრთისა</p>
+            </div>
+            <div type="translation" subtype="section" n="3" xml:lang="ka">
+                <p>[წმ.] თევდორე (სტრატილატი)</p>
+            </div>
+            <div type="translation" subtype="section" n="4" xml:lang="ka">
+                <p>[წმ.] თევდორე (ტირონი)</p>
+            </div>
+            <div type="translation" subtype="section" n="5" xml:lang="ka">
+                <p>წმ. დამიანე</p>
+            </div>
+            <div type="translation" subtype="section" n="6" xml:lang="ka">
+                <p>წმ. პანტელეომონი</p>
+            </div>
+            <div type="translation" subtype="section" n="7" xml:lang="ka">
+                <p>დედა ღმრთისა</p>
+            </div>
+            
+            <div type="apparatus" xml:space="preserve">                                                               <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app><lem></lem>
+              <rdg></rdg>
+              </app></p>
+            </div>
+           
+            <div type="commentary">
+                <p>ყურადღებას იპყრობს „ქრისტეს“ დაწერილობა, ტრადიციული XC-ს მაგიერ არის IX, თუ PX- ე.ი. შემოკლება ხდება სხვაგვარად, თანაც გადაადგილებულია ასოთა თანრიგი. ღვთისმშობლის 
+                წარწერაშიც ასოები გადაადგილებულია - შებრუნებულია ასოთა თანრიგი. შესაძლოა ტრადიციული ნორმების დარღვევა ქართველ ოსტატზე მიუთითებდეს, ან ოსტატის შეცდომაზე (ტრაფარეტი 
+                ვერ მოიხმარა), მაგრამ აღსანიშნავია, რომ ერთ ხატზე 2 ასეთი ერთი ტიპის თავისებურებაა.</p>
+                <p>ყველა ეს ბერძნულწარწერიანი მედალიონი, ისევე, როგორც ღვთისმშობლისა და ყრმის შარავანდები XII საუკუნით არის დათარიღებული და მიჩნეულია ბიზანტიურ ნახელავად (ხატი 
+                    შემკობილია ჭედური ფირფიტებით, რომელთაც ქართული მთავრული წარწერები აქვს).</p>
+                <p>ბერძნული წარწერები (გარდა ქრისტესა და ღვთისმშობლის სახელთა აღნიშვნისა), რაიმე თავისებურებას არ იჩენენ. ამგვარი წარწერები XI-XIII სს-ში ჩვეულებრივია.</p>
+                </div>
+        </body>
+    </text>
+</TEI>

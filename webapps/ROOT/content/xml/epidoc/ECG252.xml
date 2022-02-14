@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ვარძაგარას საზღვრის მანიშნებელი წარწერა და იოვანეს მოსახსენებელი</title>
+                <editor xml:lang="ka">გიორგი ოთხმეზური</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <idno type="filename">ECG252</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/"> 
+                        დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            დმანისი
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საზღვრის მანიშნებელი წარწერა</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType xml:lang="ka">ფასადი</objectType>
+                                    <material xml:lang="ka" ref="https://www.eagle-network.eu/voc/material/lod/2">ოთხკუთხა ცალპირმოსწორებული ქვა</material>
+                                    <dimensions>
+                                        <width/>
+                                        <height/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="4">
+                                       ეკლესიის დას. ფასადის ოთხკუთხა ცალპირმოსწორებულ ქვაზე ამოკვეთილი იყო ორი წარწერა.
+                                        ორსაფეხურიან კვარცხლბეკზე მდგარი ჯვრის რელიეფური გამოსახულების გარშემოა ამოკვეთილი პირველი 4
+                                        სტრიქონიანი წარწერა. ჯვრის გამოსახულება და წარწერა თაღოვან ჩარჩოშია ჩასმული.
+                                        წინა წარწერის ქვემოთ, იმავე ქვაზე, ჯვრის ქვედა მარცხენა კუთხესთან, მსგავსი ხელით 
+                                        ამოღარულია 2 სტრიქონიანი წარწერა.
+                                    <dimensions unit="cm">
+                                        <width>31.6-17</width>
+                                        <height>30-15</height>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc change="hands">
+                            <handNote script="asomtavruli">
+                                <rs type="script">ასომთავრული</rs> წარწერები. პირველ წარწერაში განკვეთილობის ნიშანია: ორწერტილი. ნახმარია მხოლოდ ერთხელ (III სტრ.). 
+                                   ქარაგმის ნიშანი: კიდურწერტილოვანი, ზოგჯერ კლაკნილი, ზოგჯერ კი სწორი, მოკლე განივი ხაზი. მეორე წარწერას 
+                                   განკვეთილობის ნიშნები არ ახლავს. ქარაგმის ნიშანი: განივი, მოკლე, სწორი ხაზი.
+                                <dimensions unit="cm">
+                                    <height>3,5-5,6</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                გამოსახულია ორსაფეხურიან კვარცხლბეკზე მდგარი რელიეფური ჯვარი.
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>ჰამამლუ (ძვ. ვარძაგარა), ზღუდის წმ. გრიგოლის ეკლესია</origPlace>
+                            <origDate notBefore="1191" notAfter="1210">XII-XIII AD</origDate>
+                        </origin>
+                        <provenance type="observed">
+                            <placeName type="modernSpot"></placeName>
+                            <rs type="circumstances"/>
+                            <idno>სემ (სსმ) - 737</idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    
+    <!-- 
+    <facsimile>
+        <surface>
+            <graphic url="tskise_01.jpg">
+                <desc xml:lang="ka">წყისეს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile> -->
+    
+    <text>
+        <!--
+        1.წ(მიდა)ჲ გრ(ი)გ(ო)ლ
+        2.ზღ(უდი)ს(ა)ჲ, მცვ(ე)ლი
+        3.ვ(ა)რძ(ა)გარ(ი)სთა
+        4.მზღვრ(ი)სა
+        -->
+        <body>
+            
+            <div type="bibliography">
+                
+                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>153-157</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
+                <p><bibl n="2">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>34</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
+                <p><bibl n="3">დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>155</citedRange> თბილისი, 2014<ptr target="bibliography.xml#b213"/></bibl></p>
+                <p><bibl n="4">რ. მეფისაშვილი,კიდევ ერთხელ ბოლნისისა და დმანისის ძეგლების შესახებ, თბილისი, ძეგლის მეგობარი, 1971
+                    <citedRange>17-31</citedRange><ptr target="bibliography.xml#b221"/></bibl></p>
+                <p><bibl n="5">ლ. მუსხელიშვილი, თორელთა გენეალოგიის გარკვევის ცდა ჰამამლუს XII საუკუნის წარწერებთან დაკავშირებით, თბილისი 1940
+                    <citedRange>55-57</citedRange><ptr target="bibliography.xml#b224"/></bibl></p>
+                <p><bibl n="6">გიორგი ოთხმეზური, XII-XIII საუკუნეების მიჯნის ქართული ლიპიდარული წარწერები, როგორც საისტორიო წყარო, 
+                    საქართველოს ისტორიის წყაროები, VI, თბილისი, მეცნიერება, 1981, <citedRange>90</citedRange><ptr target="bibliography.xml#b226"/>
+                </bibl></p>
+            </div>
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+            <div type="textpart" subtype="fragment" n="1">
+            <ab>
+                <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ჲ</abbr></expan></w>
+                           <name nymRef="გრიგოლ"><expan><abbr>გრ</abbr><ex>ი</ex><abbr>გ</abbr><ex>ო</ex><abbr>ლ</abbr></expan></name>
+                <lb n="2"/><w lemma="ზღუდე"><expan><abbr>ზღ</abbr><ex>უდი</ex><abbr>ს</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></w>
+                           <w lemma="მცველ"><expan><abbr>მცვ</abbr><ex>ე</ex><abbr>ლი</abbr></expan></w>
+                <lb n="3"/><placeName nymRef="ვარძაგარა"><expan><abbr>ვ</abbr><ex>ა</ex><abbr>რძ</abbr><ex>ა</ex><abbr>გარ</abbr><ex>ი</ex><abbr>სთა</abbr></expan></placeName>
+                <lb n="4"/><w lemma="მზღვარ"><expan><abbr>მზღვრ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w>    
+              </ab> 
+                  </div>
+                <div type="textpart" subtype="fragment" n="2">
+            <ab>
+                <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
+                           <w lemma="წყალობა"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w>
+                <lb n="2"/><persName type="local" key="იოვანე"><expan><abbr>ი</abbr><ex>ოვან</ex><abbr>ე</abbr></expan></persName> 
+                </ab> 
+                  </div>
+            </div>
+
+
+                <div type="translation"/>
+                
+                <div type="commentary">
+                     <p>სოფ. ჰამამლუდან 1 კმ-ზე, აღმ-სკენ, მდ. ყარა-სუს მარჯვენა ნაპირზე, ძველი
+                        ნასახლარის განაპირას იდგა გალავნით შემოზღუდული მცირე ერთნავიანი ეკლესია,
+                        რომელზეც გამოსახული იყო 4 წარწერა. ორ-ორი თითო ქვაზე. ერთ ქვაზე ამოკვეთილი
+                        წარწერები ერთი ხელითაა შესრულებული, ხოლო მეორე ქვაზე
+                        მათგან და ერთმანეთისაგან რამდენადმე განსხვავებული ხელით. ეკლესია
+                        ადგილობრივმა ბოროტმოქმედებმა დაანგრიეს 1964 წ-ს. წარწერიანი ქვები ვ.
+                        ჯაფარიძემ ჩამოიტანა თბილისში. დაცულია საქართველოს ეროვნულ მუზეუმში. 
+                        წარწერის დათარიღება წინა გამოცემებში: 1) ლ. მუსხელიშველი 1190/1191 წწ-ის ახლო
+                        პერიოდით ათარიღებს, 2) დ. ბერძენიშვილი, ნ. შოშიაშვილი და გ. ოთხმეზური -
+                        თამარის მეფობის პერიოდით. 
+                        წარწერის დათარიღების საფუძველი: 1) შინაარსი - თამარის სადიდებელ წარწერაში კახა ერისთავის მოხსენიება მიუთითებს, 
+                        რომ წარწერა შესრულებულია გამრეკელ თორელის გარდაცვალების (1191 წ.) შემდგომ, კახას
+                        საგვარეულოს უფროსობის პერიოდში, ზედა ზღვარი - თამარის ზეობის დასასრული; 2)
+                        პალეოგრაფიული ნიშნები არ ეწინააღმდეგება ჰამამლუს სხვა წარწერების ამავე დროით
+                        დათარიღებას. 
+                        დაზიანება: ქვის ზედაპირი მცირედ გადარეცხილია, თუმცა ტექსტის ამოკითხვა მაინც კარგად ხერხდება.
+                        პირველი წარწერის მეორე სტრიქონზე ლ. მუსხელიშვილი კითხულობს: ზღჳსა მცველი, მესამეზე - ურჩთა. 
+                        გიორგი ოთხმეზური სხვა გამოცემებში მეორე სტრიქონზე კითხულობს: ზ(ღვრი) ს(ა)ჲ, მესამეზე - ვრძ (ვარძიის?) 
+                        {ა}გ(ა)რ(ა)[კ]თა</p>
+                </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ციხისუბნის ასვათის წარწერა</title>
+                <editor>ვალერი სილოგავა</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG115</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ციხისუბანი</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">პოეზია</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">რუხი ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width>116</width>
+                                        <height>68</height>
+                                        <depth>45</depth>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="9">წარწერა ცხრასტრიქონიანია. იგი ამოკვეთილია ფილის წინა მხარეს, მარჯვენა ნაწილში. 
+                                   ტექსტის დასაწყისში და ქვის ზედაპირის მარცხენა ნაწილში დასმულია სამკუთხა სადგარზე მოთავსებული ჯვრები - სულ სამი. 
+                                   ქვის ქვედა კიდის ატკეცვის გამო წარწერის მერვე სტრიქონის მარჯვენა ნახევარში ლექსის ბოლო ნაწილი დაღუპულია
+                                        <dimensions unit="cm">
+                                         <width/>
+                                         <height/> 
+                                          </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
+                                  <height>2-4</height>
+                                  </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ციხისუბანი, ადიგენის მუნიციპალიტეტი</origPlace>
+                                 <origDate evidence="internal-date" precision="high" datingMethod="#julian">1103 AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot" when="1984">ციხისუბანი, ადიგენის მუნიციპალიტეტი</placeName>
+                                <!-- "41.718087, 42.608082"--> 
+                                <rs type="circumstances">წარწერიანი ქვის ფილა 1980-იან წლების დასაწყისში აღმოჩნდა სოფელ ციხისუბნის მცხოვრების ერმილე შავაძის 
+                                    საცხოვრებელი სახლის ქვედა სართულში. აქ იგი გადმოუტანიათ დიდი ხნის წინათ, ისე რომ სახლის პატრონს აქ გადმოსვლისას ასევე დახვედრია.
+                                    ქვის ფილა სახლის პირველი სართულის კედლის წყობაში თავდაღმა იყო ჩასმული. მაშასადამე, ხელმეორედ იგი გამოიყენეს, როგორც სამშენებლო მასალა
+                                    (კედლის კუთხის ქვა). ქვის ბლოკის წინა მხარე გათლილია ოთხკუთხედად. ზედა მარცხენა კუთხე გადატეხილია. ქვის უკანა მხარე, რომლითაც იგი კედელში იქნებოდა 
+                                ჩადგმული, დაუმუშავებელია. წარწერიანი ქვა 1985 წელს გადატანილ იქნა ახალციხის მუზეუმში</rs>
+                                <rs type="context"></rs>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot" ref="http://museum.ge/">სამცხე-ჯავახეთის მუზეუმი</placeName>
+                                <idno type="invNo">5138</idno>
+                            </provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg115.jpg">
+                <desc xml:lang="ka">ციხისუბნის ასვათის წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+         <div type="bibliography">
+               
+     <p><bibl n="1">ვალერი სილოგავა, რუსთაველური ლექსი-წარწერა სამცხიდან (1103 წ.)<ptr target="bibliography.xml#b158"/>, <citedRange> 182-191</citedRange></bibl></p>
+     <p><bibl n="2">ვალერი სილოგავა, სამცხე-ჯავახეთის ისტორიული მუზეუმის ქართული ეპიგრაფიკული ძეგლები, კატალოგი-გზამკვლევი<ptr target="bibliography.xml#b150"/>, <citedRange> 24-25</citedRange></bibl></p>
+            
+            </div>
+  
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--"ქე შე ასვთ ძმნი მს
+                             ნი ავაგე ესე კოშკე
+                             ბი: დავდგი: ლაგამა
+                             დ მტერთათს: ყლგნ დსა
+                             ხედვდ ყვლთა მრავლფ
+                             ერთთს: შბდ შჰვდ: და საწთ
+                             რდ: ლხენდ: ადამს ერთათს
+                             და გოლიათდ [....] 
+                             ქრკი იყ: ტკგ"--> 
+                                                            
+                <ab>
+                   <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr></abbr></expan></w> 
+                                <w lemma="შეწყალება"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> 
+                                <name nymRef="ასვათ"><expan><abbr>ასვ</abbr><ex>ა</ex><abbr>თ</abbr></expan></name> 
+                                <w lemma="ძმა"><expan><abbr>ძმ</abbr><ex>ა</ex><abbr>ნი</abbr></expan></w> 
+                                <w lemma="მისი"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ს
+                   <lb n="2" break="no"/>ნი</abbr></expan></w> 
+                                <w lemma="აგება">ავაგე</w> 
+                                <w lemma="ესე">ესე</w> 
+                                <w lemma="კოშკ">კოშკე
+                    <lb n="3" break="no"/>ბი</w>
+                                    <w lemma="დადგმა">დავდგი</w>
+                                    <w lemma="ლაგამ">ლაგამა
+                    <lb n="4" break="no"/>დ</w> 
+                                    <w lemma="მტერ"><expan><abbr>მტერთათ</abbr><ex>ჳ</ex><abbr>ს</abbr></expan></w> 
+                                    <w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოვე</ex><abbr>ლგ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
+                                    <w lemma="დახედვა"><expan><abbr>დ</abbr><ex>ა</ex><abbr>სა 
+                    <lb n="5" break="no"/>ხედ</abbr><ex>ა</ex><abbr>ვ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> 
+                                    <w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ო</ex><abbr>ვ</abbr><ex>ე</ex><abbr>ლთა</abbr></expan></w> 
+                                    <w lemma="მრავალფერ"><expan><abbr>მრავ</abbr><ex>ა</ex><abbr>ლფ
+                    <lb n="6" break="no"/>ერთ</abbr><ex>ა</ex><abbr>თ</abbr><ex>ჳ</ex><abbr>ს</abbr></expan></w> 
+                                    <w lemma="შუება"><expan><abbr>შ</abbr><ex>უე</ex><abbr>ბ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> 
+                                    <w lemma="შაჰვა"><expan><abbr>შ</abbr><ex>ა</ex><abbr>ჰვ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
+                                    <w lemma="და">და</w> 
+                                    <w lemma="საწუთრ"><expan><abbr>საწ</abbr><ex>უ</ex><abbr>თ
+                    <lb n="7" break="no"/>რ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> 
+                                     <w lemma="ლხენა"><expan><abbr>ლხენ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
+                                     <name nymRef="ადამ"><expan><abbr>ადამ</abbr><ex>ი</ex><abbr>ს</abbr></expan></name> 
+                                    <w lemma="ერ"><expan><abbr>ერთათ</abbr><ex>ჳ</ex><abbr>ს</abbr></expan></w>
+                    <lb n="8"/>და 
+                                <w lemma="გოლიათ"><expan><abbr>გოლიათ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> 
+                                <w lemma="ნაგებ"><supplied reason="lost">ნაგები</supplied></w>
+                                <w lemma="მიუვალ"><supplied reason="lost">მიუვალია</supplied></w>
+                                <w lemma="მტერ"><expan><supplied reason="lost"><abbr>მტერ</abbr></supplied><abbr>თ</abbr><ex>ა</ex><abbr>თ</abbr><ex>ჳ</ex><abbr>ს</abbr></expan></w>
+                    <lb n="9"/><rs type="date"><w lemma="ქრონიკონი"><expan><abbr>ქრ</abbr><ex>ონი</ex><abbr>კ</abbr><ex>ონ</ex><abbr>ი</abbr></expan></w> 
+                                      <w lemma="ყოფა"><expan><abbr>იყ</abbr><ex>ო</ex></expan></w> 
+                                        <num value="323">ტკგ</num></rs>
+                  </ab>
+               </div>
+            
+         <div type="translation" xml:lang="ka">
+             <p>ქრისტე, შეიწყალე ასვათ და ძმანი მისნი.
+                 ავაგე ესე კოშკები, დავდგი ლაგამად მტერთათჳს
+                 ყოველგან დასახედავად, ყოველთა მრავალფერთათჳს,
+                 შუებად, შაჰვად და საწუთრად, ლხენად ადამის ერთათჳს
+                 და გოლიათად [ნაგები მიუვალია მტერ]თათჳს. 
+                        ქრონიკონი იყო ტკგ (323). </p>
+         </div>    
+                             
+               <div type="commentary">
+                <p>წარწერაში გამოყენებულია ორწერტილი განკვეთილობის ნიშნად. ქარაგმის ნიშანი - განივი, სწორი ხაზი. წარწერის ბოლო, თარიღის აღმნიშვნელი სტრიქონი
+                ამოკვეთილია დანარჩენი ტექსტის მარცხნივ, ფილის თავისუფალ ზედაპირზე და სრული, დაუზიანებელი სახითაა მოღწეული (ქრონიკონი 323. 323+780=1103). 
+                ლექსის მეოთხე სტრიქონი ვალერი სილოგავას პირობითი აღდგენაა, იგი ტექსტის საერთო შინაარსსა და მასში მიღებულ სალექსო ზომას ეყრდნობა. შესაძლებელია აღდგენის სხვა ვარიანტიც. 
+                წარწერა თავისი შინაარსით საამშენებლოა და კოშკების აგების ფაქტს გადმოგვცემს. ვინმე ასვათს ქვაბლიანისწყლის ხეობაში, ციხისუბნის მიდამოებში აუგია სათვალთვალო
+                („ყოველგან დასახედავად“) კოშკები სხვადასხვა („მრავალფერთათჳს“) მტრების შემოსევებისა თუ თავდასხმების შესაჩერებლად და მოსაგერიებლად („ლაგამად მტერთათჳს“).
+                წარწერა განსაკუთრებულია იმით, რომ იგი გადმოცემულია თექვსმეტმარცვლიანი შაირით, რომელსაც „რუსთაველური“ ეწოდება. ციხისუბნის წარწერა-ლექსში
+                ეს საზომი გამოყენებულია „ვეფხისტყაოსნამდე“ ასი წლით ადრე.
+                პალეოგრაფიული თავისებურებანი: ასო ო-ს დაწერილობა ნუსხური მოხაზულობით, დონის ორნაირი გადმოცემა: მრგვალ წრეზე მაღალი ყელით დაკავშირებული განივი ხაზით
+                - უმეტეს შემთხვევაში აქ დონი ასეთი მოხაზულობისაა და ოთხ შემთხვევაში - განუსხურებისაკენ მიდრეკილებით. ყურადღებას იქცევს ასევე მანის გადმოცემა
+                ასოს ტანის დარჩენილ ნაწილებთან შედარებით წაგრძელებული ზედა განივი ხაზით, საერთოდ, წარწერაში ჯერ კიდევ არ გვაქვს ხვეული ხელის ან შეწიაღების მაგალითები.
+                ასომთავრული ასოები ოდნავ წაგრძელებული მოხაზულობისაა. ცალკე ყურადღებას იქცევს დასაწყისში დასმული ნიშანი: სამკუთხედზე აღმართული ჯვარი. ჯვრის დასმა 
+                ტექსტების დასაწყისში ჩვეულებრივია, მაგრამ იმ სახით დასმა, როგორიც ამ წარწერაშია, სხვაგან არსად გვხვდება. ჯვარი შედის წარწერის პირველი სიტყვის შემადგენლობაში, 
+                როგორც სიტყვა ქრისტეს პირველი ასო. ასეთი ჯვარი ფილაზე კიდევ ორია. 
+                წარწერაში მოხსენიებული ასვათი, ვალერი სილოგავას აზრით, უნდა იყოს ამხეს საუმარგის, ბერძენის, ქობულის, პაზარიჱლის, გაბრიელის და ასვათის წარწერაში მოხსენიებული
+                ასვათი, ეს წარწერაც ციხისუბნის წარწერის თანადროულია. ახვეს წარწერაში ჩამოთვლილი სხვა პირები შეგვიძლია მივიჩნიოთ ციხისუბნის წარწერაში სახელების აღუნიშნავად
+                დასახელებულ ასვათის ძმებად.</p>                
+            </div>
+        </body>
+    </text>
+</TEI>

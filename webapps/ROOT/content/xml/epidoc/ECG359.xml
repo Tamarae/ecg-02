@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>შაჰნაზირის დავითის წარწერა II</title>
+                <editor>ვალერი სილოგავა</editor>
+                <editor>ლეონ მელიქსეთ-ბეგი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG359</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>შაჰნაზარი</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>  
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1338">ბალავარი</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout>წარწერა შესრულებულია ერთ ქვაზე ოთხ სვეტად. I-სა და II სვეტში 7 სტრიქონია, III-ში - 9, IV-ში კი - 8
+                                           <dimensions unit="cm">
+                                             <width/>
+                                             <height/> 
+                                      </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
+                                   <height unit="cm" precision="high"></height> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>შაჰნაზარის ზემო ეკლესია, სომხეთი</origPlace>
+                                <origDate evidence="lettering" datingMethod="#julian">1245-1247 AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">შაჰნაზარის ზემო ეკლესია, სომხეთი</placeName> 
+                                <!-- "41.201302, 44.226978"-->
+                                <rs type="circumstances">წარწერა ამოკვეთილია სოფელ შაჰნაზარის ზემო ეკლესიის ეზოში ბალავრის ქვაზე, 
+                                    რომელიც ამჟამად ვარდაპედ ვარდანიანის საფლავზე დევს.
+                                ლეონ მელიქსეთ-ბეგის ცნობით, წარწერა გადმოტანილია სოფელ ირღანჩაიდან</rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">შაჰნაზარის ზემო ეკლესია, სომხეთი</placeName>
+                                <idno type="invNo"/>
+                            </provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-12-17" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <!--<facsimile>
+        <surface>
+            <graphic url="ecg359.jpg">
+                <desc xml:lang="ka">შაჰნაზირის დავითის წარწერა II</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>-->
+    <text>
+        <body>
+     <div type="bibliography">
+               
+<p><bibl n="1">ვალერი სილოგავა, ცნობები და შენიშვნები სომხეთის ქართული ეპიგრაფიკული ძეგლების გამოცემის შესახებ<ptr target="bibliography.xml#b168"/>, <citedRange> 142-175</citedRange></bibl></p>
+<p><bibl n="2">ლეონ მელიქსეთ-ბეგი, ლორე-ტაშირის ქართული ეპიგრაფიკა<ptr target="bibliography.xml#b162"/>, <citedRange> 309-327</citedRange></bibl></p>
+<p><bibl n="3">პარუირ მურადიანი, სომხეთის ქართული წარწერები, წყაროთმცოდნეობითი გამოკვლევა (სომხურ ენაზე)<ptr target="bibliography.xml#b166"/>, <citedRange> 5-256</citedRange></bibl></p>                                     
+               
+            </div>
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--სხ            წსა                   ჟთა         და 
+                            ღთა          იოვა                  ოკნ         ვი   
+                            დამე          ნე ნთმ                რო         თმე
+                            ოხები         ცემლისათა             სოდ        ფობა
+                            თაწდს        და ესე                 ადე         საშე
+                            ღთმშ        წაბ[ა]ლა                დოფ         აწიე
+                            ბ[ლთა]      ვარი                   ლის         ნღ
+                                                                თოი         ნ
+                                                                ს
+                        -->                                                                            
+            
+         <div type="textpart" subtype="column" n="1">
+                <ab>
+                <lb n="1"/><w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ელითა</ex></expan></w>
+                <lb n="2"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთისაჲ</ex><abbr>თა</abbr></expan></w> 
+                <lb n="3"/>და 
+                           <w lemma="მეოხება">მე
+                <lb n="4" break="no"/>ოხები
+                <lb n="5" break="no"/>თა</w> 
+                        <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მი</ex><abbr>დ</abbr><ex>ი</ex><abbr>ს</abbr><ex>ა</ex></expan></w>
+                <lb n="6"/><w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr><ex>ი</ex><abbr>სმშ</abbr><ex>ო</ex>
+                <lb n="7" break="no"/><abbr>ბ</abbr><supplied reason="lost"><ex>ე</ex>ლ<ex>ისაჲ</ex><abbr>თა</abbr></supplied></expan></w>
+                    
+                 </ab>
+               </div>
+           
+           <div type="textpart" subtype="column" n="2">
+                <ab>
+                <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდი</ex><abbr>სა</abbr></expan></w>
+                <lb n="2"/><name>იოვა
+                <lb n="3" break="no"/>ნე</name> 
+                        <w lemma="ნათლისმცემელ"><expan><abbr>ნ</abbr><ex>ა</ex><abbr>თ</abbr><ex>ლის</ex><abbr>მ
+                <lb n="4" break="no"/>ცემ</abbr><ex>ე</ex><abbr>ლისა</abbr><ex>ჲ</ex><abbr>თა</abbr></expan></w>
+                <lb n="5"/><w lemma="დადება"><expan><abbr>დ</abbr><ex>აიდვ</ex><abbr>ა</abbr></expan></w> 
+                            <w lemma="ესე">ესე</w>
+                <lb n="6"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდ</ex><abbr>ა</abbr></expan></w> 
+                           <w lemma="ბალავარ">ბ<supplied reason="lost">ა</supplied>ლა
+                <lb n="7" break="no"/>ვარი</w>
+                    </ab>
+               </div>
+            
+                <div type="textpart" subtype="column" n="3">
+                <ab>
+                <lb n="1"/><w lemma="ჟამ"><expan><abbr>ჟ</abbr><ex>ამ</ex><abbr>თა</abbr></expan></w>
+                <lb n="2"/><w lemma="უკან"><expan><abbr>ო</abbr><ex>ჳ</ex><abbr>კ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
+                <lb n="3"/><name nymRef="რუსუდან"><expan><abbr>რო</abbr><ex>ჳ</ex>
+                <lb n="4" break="no"/><abbr>სო</abbr><ex>ჳ</ex><abbr>დ
+                <lb n="5" break="no"/>ა</abbr><ex>ნ</ex></expan></name> 
+                        <roleName><w lemma="დედოფალ"><expan><abbr>დე
+                <lb n="6" break="no"/>დოფ
+                <lb n="7" break="no"/>ლის</abbr><ex>ა</ex>
+                <lb n="8" break="no"/><abbr>თო</abbr><ex>ჳ</ex><abbr>ი
+                <lb n="9" break="no"/>ს</abbr></expan></w></roleName>
+                 </ab>
+               </div>
+                
+                <div type="textpart" subtype="column" n="4">
+                <ab>
+                <lb n="1"/><name nymRef="დავით">და
+                <lb n="2" break="no"/>ვი
+                <lb n="3" break="no"/>თ</name> 
+                    <w lemma="მეფობა">მე
+                <lb n="4" break="no"/>ფობა
+                <lb n="5" break="no"/>სა</w> 
+                        <w lemma="შეწევნა">შე
+                <lb n="6" break="no"/>აწიე
+                <lb n="7" break="no"/>ნ</w>
+                        <w lemma="ღმერთ"><expan><abbr>ღ</abbr>
+                <lb n="8" break="no"/><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>                  
+                 </ab>
+               </div>
+            </div>
+              
+            <div type="apparatus" xml:space="preserve"/>
+                                
+                  
+         <div type="translation" xml:lang="ka">
+             <p>სახელითა ღმრთისაჲთა, წმიდა ღვთისმშობლისა და იოანე ნათლისმცემლის მეოხებით დაიდვა ეს წმიდა ბალავარი ჟამთა უკან რუსუდან დედოფლისათვის, დავითის მეფობას
+             შეეწიე, უფალო.</p>
+         </div>    
+                             
+            <div type="commentary">
+                <p>წარწერა 1964 წელს შეისწავლა და გამოსცა ლეონ მელიქსეთ-ბეგმა. 
+                                   1977 წელს გამოაქვეყნა პარუირ მურადიანმა, ხოლო 1980 წელს მისეული შესწორებებით - ვალერი სილოგავამ.
+                    ბალავრის ქვაზე ამოკვეთილი ტექსტი ლეონ მელიქსედ-ბეგმა ორ სხვადასხვა დამოუკიდებელ წარწერად მიიჩნია. ასევე, ორ წარწერად მიიჩნია იგი პარუირ მურადიანმა
+                და თავის წიგნში სხვადასხვა ნომრით შეიტანა. ამის საფუძველს მკვლევრებს ის აძლევდა, 
+                რომ წარწერის მეორე ნაწილი წინმიმავალი ტექსტის მარცხნივ არის ამოკვეთილი. თუმცა, ვალერი სილოგავას აზრით, ეს გამოწვეული უნდა ყოფილიყო წარწერის შემსრულებლის მიზნით,
+                ტექსტის ძირითადი, უმთავრესი ნაწილი მოეთავსებინა ბალავრის ქვის ცენტრში, ხოლო მისი გაგრძელება კი ამოეკვეთა ფილის თავისუფალ მარცხენა მხარეს. მსგავსი შემთხვევები ქართულ 
+                ეპიგრაფიკაში სხვაგანაც დასტურდება. პარუირ მურადიანი ვარაუდობს, რომ წარწერა შესრულებული უნდა იყოს რუსუდან დედოფლის სიცოცხლეში, 1237-1245 წლებში, და მისი
+                ავტორი უნდა ეკუთვნოდეს იმ წრეებს, რომლებიც რუსუდანისა და მისი შვილის, დავითის, მეფობის კანონიერებას უჭერდნენ მხარს. ამ აზრის გასაბათილებლად ვალერი სილოგავა წერს, რომ
+                რუსუდანის მეფობის კანონიერებაში არც არავის შეჰპარვია ეჭვი არასდროს, ხოლო რაც შეეხება დავითს, იგი ჯერ კიდევ 1230 წელს, რუსუდანის გარდაცვალებამდე 15 წლით ადრე,
+                აკურთხეს რუსუდანის თანამოსაყდრედ. რაც შეეხება წარწერის დათარიღებას, ვალერი სილოგავას მიაჩნია, რომ იგი შესრულებულია რუსუდან დედოფლის გარდაცვალების („ჟამთა უკან“),
+                1245 წლის შემდგომ, იმ დროს, როდესაც მის ძეს, დავითს „მეფობის შეწევნა“ სჭირდება. როდის შეიძლებოდა ყოფილიყო ეს? ვალერი სილოგავას აზრით, 1245-47 წლებში, რუსუდანის
+                გარდაცვალებასა და დავითის, როგორც მეფედ დამტკიცებულის, ურდოდან საქართველოში დაბრუნებას შორის (ურდოში დავითი 1242/43-1247 წლებში იმყოფებოდა).</p>                
+            </div>
+        </body>
+    </text>
+</TEI>

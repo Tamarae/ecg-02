@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ტად-რაალის ქართული-ხუნძური წარწერა დაღესტნიდან</title>
+                <editor xml:lang="ka">ტოგო გუდავა, შაჰბან ჰაფიზოვი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG388</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ხუნძი</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სავედრებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType>ჯვარი</objectType>
+                                    <material ref="https://www.eagle-network.eu/voc/material/lod/66">კირქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width>10</width>
+                                        <height>14</height>
+                                        <depth>4</depth>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="13">წარწერა ცამეტსტრიქონიანია. იგი გამოკვეთილია კირქვის ჯვარზე.
+                                        ზემო ნაწილის მარჯვენა მხარე დაზიანებულია, ქვედა ნაწილი გადატეხილია, 
+                                    მაგრამ ნატეხი შენახულია. ჯვარს კიდეებზე უვლის არშია (ორი პარალელური ღარი), ცენტრში კი მრგვალი ორნამენტია გამოყვანილი. 
+                                    პატარა მრგვალი ორნამენტია აგრეთვე ზემო და მარჯვენა კიდეზე. 
+                                        <dimensions unit="cm">
+                                         <width></width>
+                                         <height></height> 
+                                          </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ნუსხურნარევი ასომთავრული</rs> 
+                                და <rs type="script">ნუსხური</rs> წარწერა
+                                   <height></height> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ხუნძი, დაღესტანი</origPlace>
+                                <origDate notBefore-custom="1300" notAfter-custom="1400" 
+                                    evidence="lettering historical context" datingMethod="#julian">XIV AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot" when="1950">ხუნძი, დაღესტანი</placeName>
+                                <!-- "42.542408, 46.704604"--> 
+                                <rs type="circumstances">ორენოვანი წარწერა (ქართულ - ხუნძური) ნაპოვნია 1950 წელს ისტორიის მასწავლებელ დიბირ ათაევის მიერ 
+                                                    ზედ ხუნზახთანვე (მის ჩრდილოეთით) ტად-რაალში, სადაც, როგორც ჩანს, წინათ ქრისტიანული სასაფლაო ყოფილა</rs>
+                                <rs type="context"></rs>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">ხუნძი, დაღესტანი</placeName>
+                                <idno type="invNo"/></provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+   <facsimile>
+        <surface>
+            <graphic url="ecg388.jpg">
+                <desc xml:lang="ka">ტად-რაალის ქართული-ხუნძური წარწერა დაღესტნიდან</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+     <div type="bibliography">
+                
+                    <p><bibl n="1">ტოგო გუდავა, ორი წარწერა (ქართული და ქართულ - ხუნძური) დაღესტნიდან<ptr target="bibliography.xml#b142"/>, <citedRange> 185-197</citedRange></bibl></p>
+                    <p><bibl n="2">შაჰბან ჰაფიზოვი, ქართული, ქართულ-ხუნძური და ხუნძური წარწერები მთიან ხუნძეთში (დაღესტანი)<ptr target="bibliography.xml#b141"/>, <citedRange> 110-111</citedRange></bibl></p>
+                 
+            </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--  ჯრ[ი]
+                              ქესი
+                            [?] წო ა
+                            [თორმ]ეტ
+                            ნო მო
+                            ციქო
+                            ლნო შ
+                            ე ე[ვი]
+                            [..]ბ(ე?) (რ?)  ი
+                            (ტ ?) (ა ?) თიმა
+                            ლატაწ
+                            ობეგ ან
+                            ოო -->                                                       
+         
+                <ab>
+                   <lb n="1"/><w lemma="ჯუარ"><expan><abbr>ჯ</abbr><ex>უა</ex><abbr>რ</abbr><supplied reason="lost">ი</supplied></expan></w>
+                    <lb n="2"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ესი</abbr></expan></w>
+                    <lb n="3"/><!-- <gap reason="lost" extent="unknown" unit="chars"></gap>  -->
+                            <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> 
+                            <w lemma="ათორმეტ">ა
+                    <lb n="4" break="no"/><supplied reason="lost">თორმ</supplied>ეტ
+                    <lb n="5" break="no"/>ნო</w> 
+                            <w lemma="მოციქულ"><expan><abbr>მო
+                    <lb n="6" break="no"/>ციქო</abbr><ex>ჳ</ex>
+                    <lb n="7" break="no"/><abbr>ლნო</abbr></expan></w> 
+                                <w lemma="შეწყალება"><expan><abbr>შ</abbr>
+                    <lb n="8" break="no"/><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> 
+                                <roleName nymRef="ერისთავ"><w lemma="ერისთავ"><expan><abbr>ე</abbr><ex>რისთა</ex><supplied reason="lost"><abbr>ვი</abbr></supplied></expan></w></roleName>
+                    <lb n="9"/>
+                            ბ<supplied reason="lost" cert="low">ერ</supplied>ი
+                    <lb n="10"/><supplied reason="lost" cert="low">ტა</supplied> 
+                            თიმა
+                    <lb n="11" break="no"/>ლატა წ
+                    <lb n="12" break="no"/>ო ბეგ 
+                        <w lemma="ამინ"><expan><abbr>ა</abbr><ex>მე</ex><abbr>ნ</abbr></expan></w>
+                    <lb n="13"/><w lemma="უფალ"><expan><abbr>ო</abbr><ex>ჳფალ</ex><abbr>ო</abbr></expan></w>
+                </ab>
+               </div>
+            
+         <div type="translation" xml:lang="ka">
+             <p>ჯვარი ქრისტესი. [..] წმიდაო ათორმეტნო მოციქულნო, შეიწყალე ერისთავი [?] ბ[ერ?]ი[ტა?] თიმალატა წო ბეგ, ამინ უფალო.</p>
+         </div>  
+            
+            <div type="apparatus" xml:space="preserve"/>
+      
+            <div type="commentary">
+                <p>წარწერაში ნახმარია განკვეთილობის ნიშნები და ქარაგმები.
+                    გამომცემლის აზრით, თუ ევი მართლაც ერისთავს ნიშნავს, მაშინ მოსალოდნელია მომდევნო სიტყვა ამ ერისთავის სახელი ყოფილიყო 
+                  (ამ სიტყვის ბოლო ნაწილი ჩანს ბერიტა თუ ბირიტა. ისიც შესაძლოა, რომ ტა ადგილობითი ბრუნვის ნიშანი იყოს). 
+                   საინტერესოა სიტყვა თიმალატაწობეგ. ტოგო გუდავას აზრით, ეს ხუნძური წინადადებაა და სამ სიტყვად იშლება: თიმალატა წობ ეგ. 
+                   აქ გადმოცემული უნდა იყოს დღევანდელი ხუნძურის ლ'იმალატა წაობ ლ'ეგი, რაც ნიშნავს „ბავშვებზე წყალობა დადევი“ (ე.ი. ბავშვები შეიწყალე). 
+                   პირველ სიტყვაში ხუნძური ყრუ ფშვინვიერი სპირანტი ლ' გადმოცემულია თ–თი. ქართულს ლ' ბგერა (და მისი შესატყვისი ნიშანი) არა აქვს, 
+                   ამდენად მისი თ-თი გადმოცემა შეიძლება აიხსნას აკუსტიკური სიახლოვით (ლ' გამოთქმაში დაახლოებით თლ-ს უდრის). 
+                   ხუნძურის ანწუხურ დიალექტში ლ' იძლევა კიდეც თ-ს, მაგრამ, გამომცემლის აზრით, ძნელია დავუშვათ, რომ წინათ ასეთი მოვლენა გვქონდა ხუნძახშიც (სადაც წარწერაა ნაპოვნი). 
+                   ლ' ამავე თ-თია გადმოცემული არნ. ჩიქობავას მიერ გამოქვეყნებულ წარწერაშიც 
+                  (არნ. ჩიქობავა. ქართულ-ხუნძური წარწერა XIV საუკუნის დაღისტნიდან. სსრკ მეცნ. აკად. საქართველოს ფილიალის მოამბე ტ.1, N4, 1929. 323):
+                   თეგი – ლ'ე - გი. ლ'იმალატა მრავლობითი რიცხვის ლოკატიური ბრუნვის ფორმაა. ამ სიტყვის სახელობითია ლ'იმერ, მრავლობით რიცხვში - ლ'იმალ. 
+                   თანამედროვე ხუნძური ნორმის მიხედვით, წარწერაში უნდა გვქონოდა ლ'იმალაზდა (ლ'იმალ – მრ. რიცხვის სახელობითი+ა ჩანართი ხმოვანი+ზ ერგატივის ნიშანი, 
+                   რომელიც ირიბ ბრუნვებში გადაყვება, და I სერიის ლოკატიური ბრუნვის ნიშანი). მაგრამ წარწერაში დადასტურებული ფორმა (თიმალატა) საყურადღებო სწორედ იმითაა,
+                   რომ აქ ზ არ ჩანს, ხოლო ლოკატიური ბრუნვის ნიშნად და-ს ნაცვლად - ტა გამოდის. არც ერთი ეს მოვლენა შემთხვევითი არაა: 
+                   წარწერის ამომჭრელმა, თუ პირველ ასოს (თ-ს) არ მივიღებთ მხედველობაში, აქ ზუსტად გადმოსცა ხუნძახური დიალექტური ფორმა ლ'იმალატა. 
+                   ერგატივისეული ზ-ს დაკარგვა (მრ.რიცხვში) ხუნძახურისათვის ბუნებრივია ამჟამადაც საერთოდ და კერძოდ ამ სიტყვაში. ხუნძახური ნორმაა დაცული 
+                   ლოკატიური ბრუნვის ნიშნის გადმოცემაშიც, სალიტერატურო ხუნძურისაგან განსხვავებით ხუნძურში ჩვეულებრივია -ტა სუფიქსიანი ფორმები 
+                   (დიტა „ჩემზე“, ნუხტა „გზაზე“, განჭიტა ქვაზე) იგი უცხო არაა რიგი სხვა (უპირატესად სამხრული) დიალექტებისათვისაც. 
+                   ეს ფაქტი საინტერესოა ხუნძური ენის ისტორიისათვისაც. ჩანს, ლოკატივის ნიშნად ტ–ს გამოყენება, ასევე ერგატივისეული ზ-ს უქონლობა 
+                   საკმაოდ ხანგრძლივი ისტორიის მქონე მოვლენებია, ტ შესაძლოა უფრო ძველიც იყოს დ-ზე. მეორე სიტყვა წობ წყალობას ნიშნავს. ხუნძურში წ გემინირებულია (წоობ), 
+                   ქართულში იგი გემინირებულ თანხმოვანთა უქონლობის გამო გადმოცემულია სათანადო მარტივი თანხმოვნით. 
+                   ეს სიტყვა ასევეა წარმოდგენილი არნ. ჩიქობავას მიერ გამოქვეყნებულ წარწერაში 
+                   (არნ. ჩიქობავა. ქართულ-ხუნძური წარწერა XIV საუკუნის დაღისტნიდან. სსრკ მეცნ. აკად. საქართველოს ფილიალის მოამბე ტ.1, N4, 1929. 322–323). 
+                   მესამე სიტყვა ლ'ეგი „დადევ“ (პრდ. „დაგედოს“) ნატვირთი კილოს ფორმაა ზმნისა ლ'ეზე დადება. წარწერაში ეს სიტყვა ძლიერ დამახინჯებულია: 
+                   აკლია თავკიდური თანხმოვანი ლ' (რომელიც თ-ს სახით უნდა ყოფილიყო წარმოდგენილი) და ბოლოკიდური ხმოვანი ი (–გი ფორმანტის ნაწილი). 
+                   არნ. ჩიქობავას მიერ გამოცემულ წარწერაში ეს სიტყვა უკეთაა დაცული, იქ თეგი იკითხება. წჾობ ლ'ეგი ბუნებრივი ხუნძური გამოთქმაა, ობიექტი,  
+                   ვის წყალობასაც, შესთხოვენ (უფალს), ამჟამადაც - ტა [და]იან ლოკატიურ ბრუნვაში ისმის. ხუნძურ ნაწილში არ გვხვდება ქარაგმა და გაყოფის ნიშნები. 
+                   
+                   შაჰბან ჰაფიზოვი წარწერას ამგვარად აშინაარსებს: „ჯვარი ქრისტესი, წმიდაო ათორმეტნო მოციქულნო, 
+                   შეიწყალენ ერისთავი, ზედა... ბერი, შვილებს წალობა ეყოს. ამინ, უფალო!</p>                
+            </div>
+        </body>
+    </text>
+</TEI>

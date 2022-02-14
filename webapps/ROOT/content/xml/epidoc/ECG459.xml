@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ანუხვა, გიორგი ბასილის ძის წარწერა ქვაჯვრის სვეტზე</title>
+                <editor>ვალერი სილოგავა</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
+                 <idno type="filename">ECG459</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            ანუხვა
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სავედრებელი</seg> 
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="www.eagle-network.eu/voc/material/lod/66.html">კირქვა</material>
+                                   <objectType>თეთრი კირქვა</objectType> 
+                                        <dimensions unit="cm">
+                                        <width>28</width>
+                                        <height>220</height>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="10">
+                                        ათსტრიქონიანი წარწერა.
+                                    <dimensions unit="cm">
+                                    </dimensions>
+                                     <width>23,5</width>
+                                        <height>31</height>
+                                        <depth></depth>
+                                    </layout>  
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                               ათსტრიქონიანი ასომთავრული წარწერა; განკვეთილობის ნიშანი ტექსტს არ ახლავს, თუ არ ჩავთვლით, რომ ციფრის აღმნიშვნელი გ-ს (მეშვიდე სტრიქონი) ორივე მხარეს ორწერტილები ზის. წარწერის ბოლოს დასასრულის ნიშნად დასმულია სამი წერტილი - განლაგებული მარცხნივ წაწვეტებული სამკუთხედის სახით; ქარაგმის ნიშანი: კიდურწაისრული, განივი ხაზი.
+                              <rs type="execution">ამოკვეთილი</rs> <rs type="script">ასომთავრული</rs> <rs type="execution" key="arrow">კიდურწაისრული</rs>
+                            </handNote>
+                            <handNote>
+                                <height>3,5-2,5</height>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                             სვეტი გათლილია ოთხკუთხად, უხვად არის მოჩუქურთმებული გეომეტრიული და სტილიზებული მცენარეული ორნამენტით და როგორც ჩანს, ჯვრის ჩასადგმელ სტელას წარმოადგენდა.
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ანუხვა</origPlace>
+                                <origDate>XX საუკუნის 30-იანი წლები AD</origDate> 
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">ანუხვა</placeName>
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                            <provenance type="observed">
+                            <placeName type="modernSpot">დ. გულიას სახელობის აფხაზეთის ისტორიული მუზეუმი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2019-06-06" who="TS">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, ბმულებით დაკავშირება გარეკონტროლირებად ლექსიკონებთან</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg459.jpg">
+                <desc xml:lang="ka">ანუხვა, გიორგი ბასილის ძის წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="bibliography">
+            </div> 
+            
+            <!--  ქ(რისტ)ე, შ(ე)Ωწყ(ა)ლე მ(ი)ქ(აე)ლ, ა(მე)ნ. -->
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ე</ex><abbr>წყ</abbr><ex>ა</ex><abbr>ლე</abbr></expan></w> <persName><name nymRef="მიქაელ"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>აე</ex><abbr>ლ</abbr></expan></name></persName> <w lemma="ამინ"><expan><abbr>ა</abbr><ex>მე</ex><abbr>ნ</abbr></expan></w>
+                    <lb n="2"/>
+                    </ab>
+            </div>
+            <div type="translation" xml:lang="ka"><p>ქრისტევ, შეიწყალე მიქაელი, ამინ.</p></div>
+            
+            <div type="apparatus" xml:space="preserve"/>
+            
+            <div type="commentary"><p>ამჟამად სვეტის ქვედა კიდე მოტეხილია; უმნიშვნელოდ არის დაზიანებული, აგრეთვე, სვეტის ზოგიერთი სხვა ნაწილიც; გეომეტრიული ჩუქურთმები სტელას ოთხ რეგისტრად ჰყოფენ, გიორგი ბასილის ძის სამშენებლო წარწერა ამოკვეთილია ქვემოდან პირველ-მეორე რეგისტრში. გამოცემები:1) А. К. Кация, Памятники архитектуры, 1967 , таб. IX, рис. 2) ქწკ, II, gv. 30-31, N5. 3) თ. მიბჩუანი, აფხაზეთის მატ. კულტურის ძეგლები,  50-51 (ქწკ, II, N5-ის მიხ.). 4) Л. Ааладзе, Епиграфические памятники Абхазии, с. 364, N1. </p></div>
+            
+            
+            
+                    
+         
+    </body>
+</text>
+</TEI>

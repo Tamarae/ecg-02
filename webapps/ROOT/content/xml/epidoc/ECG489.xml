@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> -->
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>მარიამის წარწერა წმ. ეკატერინეს ხატზე</title>
+                <editor>ვალერი სილოგავა</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
+                 <idno type="filename">ECG489</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>წებელდა</collection> <!-- კოლექციის საერთო სახელებზე ვართ შესათანხმებელი-->
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სავედრებელი</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/115">ვერცხლი</material>
+                                    <objectType>ხატი</objectType> <!-- არ იძებნება -->
+                                        <dimensions unit="cm">
+                                        <width>18</width>
+                                        <height>15</height>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout wtittenLines="2">
+                                        <dimensions unit="cm">
+                                            <width/>
+                                            <height/>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtvaruli" style="embossed">წარწერა ასომთავრული ანბანით არის შესრულებული რელიეფურად. განკვეთილობის ნიშანი: რელიეფური ორწერტილი ყოველი სიტყვის შემდეგ.</handNote>
+                            <rs type="execution" key="arrow">კიდურწაისრული</rs>
+                            <height unit="cm">0,6-0,7</height>
+                       </handDesc>
+                        <decoDesc>
+                            <decoNote>მოოქრული ვერცხლის ჭედურ ხატზე გამოსახულია წმნიდანის გამოსახულებ, რომელსაც ორივე მხარეს სხვადასხვა მოყვენილობის მსხვილი ვარდულების თითო რიგი დაუყვება. ვარდულების წვრილი რიგით დაფარულია ხატის ჩარჩოს სამი მხარე</decoNote>
+                        </decoDesc>
+                        </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>წებელდა</origPlace>
+                                <origDate>XI AD</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">წებელდა</placeName>
+                                <rs type="circumstances">ხატის ფრაგმენტები ნაპოვნია 1886 წელს წებელდის ახლოს აღმოჩენილ დიდ ეკლესიაში პრ. უვაროვას მიერ </rs> <!-- დიდი ეკლესიაო პირდაპირ ასე ეწერა და გადმოვიტანე მეც. )) -->
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">
+                            <placeName type="modernSpot">ხატის ამჟამინდელი ადგილსამყოფელი უცნობია</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-07-5" who="TG">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან.</change></revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                <ab>
+                    <!-- წ(მიდა)ო ეკ(ა)ტერინე მფარვ[ელ] მე|ქმ(ე)ნ სულითა მარიამს, ამენ-->
+                    <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> <persName><expan><abbr>ეკ</abbr><ex>ა</ex><abbr>ტერინე</abbr></expan></persName> <w lemma="მფარველი">მფარვ<supplied reason="lost">ელ</supplied></w> <w lemma="ექმნა"><expan><abbr>მე
+                    <lb n="2" break="no"/>ქმ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w> <w lemma="სული">სულითა</w> <persName>მარიამს</persName> <w lemma="ამინ">ამენ</w>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ka">წმინდაო ეკატერინე, დამიფარე სულითა, ამინ</div>
+            <div type="apparatus" xml:space="preserve"> </div>
+            <div type="commentary">ხატის ამჟამინდელი ადგილსამყოფელი უცნობია, მაგრამ პრ. უპოვარას გამოქვეყნებული აქვს მისი კარგი ხარისხის ფოტო, რომლის მიხედვითაც შემოგვრჩა მისი აღწერილობა. ხატის ცენტრალურ ნაწილში წარმოდგენილია წმ. ეკატერინეს გამოსახულება, მთელი ტანით. ხატი დაზიანებულია - ცენტრალური ნაწილის მთელს სიგანეზე ჭედურობა მოგლეჯილია.</div>
+
+
+
+            <div type="bibliography" subtype="principalEdition">
+                
+                    <p><bibl type="publication" subtype="principal" xml:lang="ka">
+                      <author>
+                          <persName>
+                            <forename></forename>
+                            <surname></surname>
+                          </persName>
+                      </author>
+                      <title/>
+                        <edition/>
+                        <pubPlace/>
+                        <publisher/>
+                        <date></date>
+                     </bibl></p>
+                
+            </div>
+         </body>
+    </text>
+</TEI>

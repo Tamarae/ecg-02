@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">პატარა სმადის ივანე მაწყვერელ ეპისკოპოსის წარწერა ეკვტერის აშენებისა</title>
+                <title xml:lang="en"></title>
+                <editor xml:lang="ka">ვალერი სილოგავა</editor>
+                <editor xml:lang="en">Valeri Silogava</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG095</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>სმადა</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო</seg>
+                            <seg xml:lang="en">Building</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">Plaque</objectType>
+                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>                                   
+                                      <dimensions unit="cm">
+                                        <width>198</width>
+                                        <height>103</height>
+                                        <depth>25</depth>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="4">წარწერა ოთხსტრიქონიანია. ფილის ცენტრში გამოყვანილია რელიეფით შესრულებული ბოლოებგაფართოვებული ჯვარი. ჯვრის განივი მკლავების ქვემოთ, ქვედა
+                                მკლავის ორივე მხარეს ამოკვეთილია წარწერა: „ჯ(უარ)ი ქ(რისტეს)ი“. ფილა სიგანეზე გაპობილია ორ ნაწილად და გაპობის ხაზი ასო „ქ“-ზე გადის.
+                                ჯვარს ზემოდან დაუყვება დაბალი რელიეფით შესრულებული ნალისებური მოყვანილობის თაღი, რომელიც ორივე ბოლოთი შეწყვილებულ, რელიეფურ
+                                ლილვებზე დგას
+                                        <dimensions unit="cm">
+                                         <width/>
+                                         <height/> 
+                                          </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                 <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
+                                <height>1,5-2</height> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>
+                                    <seg xml:lang="ka">პატარა სმადის ეკლესია</seg>
+                                    <seg xml:lang="en">Smada church</seg>
+                                </origPlace>
+                                 <origDate notBefore-custom="1460" notAfter-custom="1470" precision="medium" evidence="context" datingMethod="#julian">XV ს-ის 70-იანი წლები AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type="ancientFindspot">
+                                <seg xml:lang="ka">პატარა სმადის ეკლესია</seg>
+                                 <seg xml:lang="en">Smada church</seg>
+                                </placeName>
+                                <!-- "41.674993, 42.756785"--> 
+                                <rs type="circumstances">სოფელი პატარა სმადა მდებარეობს ადიგენის რაიონში. ამ სოფლის ეკლესიის არქიტრავის წარწერას ამ მხარის ძეგლებისათვის 
+                                ტიპური თავგადასავალი აქვს. პ. უვაროვასა და ე. თაყაიშვილის მიერ წარწერის ადგილზე შესწავლის დროს (XIX ს-ის დასასრული-XX ს-ის დასაწყისი, 1905 წლამდე),
+                                ფილა ჩასმული ყოფილა ეკლესიის შესასვლელის თავზე. ვ. ბერიძეს (1948 წლის ზაფხული) პატარა სმადის ეკლესია პერანგშემოცლილი
+                                დახვედრია, ხოლო შუაზე გაპობილი არქიტრავის წარწერიანი ფილის ერთი ნახევარი თავლის კედელში ჩასმული უპოვია და ადგილობრივ
+                                ენთუზიასტთა დახმარებით გამოუთავისუფლებია. ფილის მეორე ნახევარი თავლის კედელში შიდა მხრიდან ყოფილა ჩასმული, ამიტომ მისი გამოთავისუფლება
+                                ვერ შეძლეს (ვ. ბერიძე, სამცხის ხუროთმოძღვრება, XIII-XVI საუკუნეები, თბ.1955, 176). 1980 წლის 15 ივლისს ხელნაწერთა ინსტიტუტის ეპიგრაფიკული ექსპედიციის 
+                                წევრებმა ერთმანეთზე მიდგმული ფილის ორივე ნატეხი ნახეს 
+                                პატარა სმადის მცხოვრების, ბიკენტი ქველაძის, სახლის წინ, გზის პირას, თხრილის ნაპირზე. იმ დროისათვის უკვე დაშლილი თავლის კედლიდან გამოღებული
+                                ფილები აქ გადმოუტანიათ, თუმცა ადგილობრივი მცხოვრებნი ირწმუნებოდნენ, რომ ფილა აქვე აღმოჩნდა სოფლის სტადიონისთვის ტერიტორიის მოსწორების დროს.
+                                1985 წელს წარწერიანი ფილები ახალციხის მუზეუმში გადაიტანეს (N5157).</rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot" ref="http://museum.ge">სამცხე-ჯავახეთის მუზეუმი</placeName>
+                                <idno type="invNo">5157</idno>
+                            </provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+       <!--<facsimile>
+        <surface>
+            <graphic url="ecg095.jpg">
+                <desc xml:lang="ka">პატარა სმადის ივანე მაწყვერელ ეპისკოპოსის წარწერა ეკვტერის აშენებისა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>-->
+    <text>
+        <body> 
+           <div type="bibliography">
+          
+  <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
+  <p><bibl n="2">ვალერი სილოგავა, სამხრეთ საქართველოს წარწერების შესწავლა ხელნაწერთა ინსტიტუტის ეპიგრაფიკული ექსპედიციის მიერ<ptr target="bibliography.xml#b148"/>, <citedRange> 264-289</citedRange></bibl></p>
+  <p><bibl n="3">ვალერი სილოგავა, სამცხე-ჯავახეთის ისტორიული მუზეუმის ქართული ეპიგრაფიკული ძეგლები, კატალოგი-გზამკვლევი<ptr target="bibliography.xml#b150"/>, <citedRange> 21-22</citedRange></bibl></p>                                      
+           
+            </div>
+            
+            <div type="edition" xml:lang="ka" xml:space="preserve" ana="mtavruli">
+                
+                        <!--"† სხლთა ღთისათა აეშნა ესე წჲ ეკლსჲ [იო]
+                            ვნე მწყრლ ებსკბსა ცოჳლ
+                            კოჳესისა ზეობსა ქე გაოსნე სოლსა მშბლთა
+                            მსთასა"--> 
+
+                 <ab>
+                   <lb n="5"/>&#8224;<w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
+                                    <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თისა</abbr><ex>ჲ</ex><abbr>თა</abbr></expan></w> 
+                            <w lemma="აშენება"><expan><abbr>ა</abbr><ex>ღ</ex><abbr>ეშ</abbr><ex>ე</ex><abbr>ნა</abbr></expan></w> 
+                               <w lemma="ესე">ესე</w> 
+                                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ჲ</abbr></expan></w> 
+                                <w lemma="ეკლესია"><expan><abbr>ეკლ</abbr><ex>ე</ex><abbr>ს</abbr><ex>ია</ex><abbr>ჲ</abbr></expan></w> 
+                                  <expan><supplied reason="lost"><abbr>იო</abbr></supplied>
+                   <lb n="6" break="no"/><abbr>ვ</abbr><ex>ა</ex><abbr>ნე</abbr></expan>
+                                <persName type="local" key="იოვანე მაწყუერელი ცულკუესი"><placeName nymRef="აწყური"><expan><abbr>მ</abbr><ex>ა</ex><abbr>წყ</abbr><ex>უე</ex><abbr>რ</abbr><ex>ე</ex><abbr>ლ</abbr></expan></placeName> 
+                                 <roleName nymRef="ებისკობოზ"><expan><abbr>ებ</abbr><ex>ი</ex><abbr>სკ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ოზი</ex><abbr>სა</abbr></expan></roleName> 
+                                <w lemma="ცულკუეს">ცოჳლ
+                   <lb n="7" break="no"/>კოჳესისა</w></persName> 
+                                <w lemma="ზეობა"><expan><abbr>ზეობ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w> 
+                                <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
+                                <w lemma="განსუენება"><expan><abbr>გა</abbr><ex>ნ</ex><abbr>ო</abbr><ex>ჳ</ex><abbr>ს</abbr><ex>უე</ex><abbr>ნე</abbr></expan></w> 
+                                <w lemma="სულ"><expan><abbr>სო</abbr><ex>ჳ</ex><abbr>ლსა</abbr></expan></w> 
+                                <w lemma="მშობელ"><expan><abbr>მშ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლთა</abbr></expan></w>
+                   <lb n="8"/><w lemma="მისნი"><expan><abbr>მ</abbr><ex>ი</ex><abbr>სთასა</abbr></expan></w>
+                
+                   </ab>
+               </div>      
+         <div type="translation">
+             <p xml:lang="ka">† ღმერთის სახელით აშენდა ეს წმინდა ეკლესია იოანე მაწყვერელი ეპისკოპოსის, ცულკუესის, ზეობის დროს. ქრისტე, განუსვენე მათი მშობლების სულებს.</p>
+         </div>    
+                             
+               <div type="commentary">
+                <p  xml:lang="ka">პატარა სმადის ეკლესიის ყოფილ არქიტრავზე ამოკვეთილია ორი წარწერა: პირველი მოსახსენებელია - „ამა ეკლესიის აღმშენებელთა“ ერისთავის შაბურისძისა
+                და მაწყვერელ მთავარეპისკოპოს შიოსი. ამ წარწერის ტექსტის ნაწილია თარიღის აღმნიშვნელი „ქრონიკონს რმიე“ (155+1312=1467 წელი), ამოკვეთილი 
+                ნახევარწრიულად განლაგებული წარწერის ტექსტის მარცხენა მხარეს, ოღონდ განივად, ჰორიზონტალურად. მეორე წარწერა, ასევე, ცალკე, დამოუკიდებელი ტექსტია და
+                მასში აღნიშნულია, რომ „აღეშენა ესე წმიდაჲ ეკლესიაჲ იოვანე მაწყუერელ ებისკობოზისა ცალკუესისა ზეობასა“. მაშასადამე, ეკლესიის აღმშენებელნი
+                ყოფილან, ერთი მხრივ, შიო მაწყვერელი და ერისთავი შაბურისძე, ხოლო მეორე მხრივ - იოვანე მაწყუერელი ცულკუესი. ვალერი სილოგავა გამოთქვამს
+                ვარაუდს, რომ „ცულკუესი“ შეიძლება იყოს დაკავშირებული იოვანე მაწყვერელის საერო ცხოვრების პერიოდთან, როდესაც მას ამ სახელით უფრო იცნობდნენ.
+                ასევე, ცოტა გაუგებარია მაშენებელთა ორი ჯგუფის დასახელება (მეორეში მხოლოდ ერთი პირია - იოვანე მაწყვერელი), რაც შეიძლება ეკლესიის მშენებლობის 
+                ორ პერიოდს ასახავდეს ორი სხვადასხვა მაწყვერელი მღვდელმთავრის დროს.</p>                
+            </div>
+        </body>
+    </text>
+</TEI>

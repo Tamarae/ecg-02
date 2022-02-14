@@ -1,0 +1,32 @@
+[INFO ] 2021-11-23 23:18:06,429 [main] Logback logging API implementation is configured.
+[INFO ] 2021-11-23 23:18:06,828 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 1203 ms
+[INFO ] 2021-11-23 23:18:14,977 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:18:31,974 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:18:38,923 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:18:40,709 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:18:42,527 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:18:44,780 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:18:47,052 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:20:34,865 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:21:04,547 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:21:16,917 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:25:31,328 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:36:02,534 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:36:07,504 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:36:16,527 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:36:23,108 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:36:25,505 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:36:32,030 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:36:51,969 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:36:55,135 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:38:44,256 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:38:53,494 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:39:58,864 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:40:03,307 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:40:23,028 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:44:41,105 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:47:33,404 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2021-11-23 23:47:57,317 [Thread-1] Closing org.springframework.web.context.support.XmlWebApplicationContext@6b7961a1: display name [WebApplicationContext for namespace 'openrdf-http-server-servlet']; startup date [Tue Nov 23 23:18:05 GET 2021]; root of context hierarchy
+[INFO ] 2021-11-23 23:47:57,318 [Thread-1] Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@21a9a01d: defining beans [messageSource,adunaAppVersion,adunaAppConfig,adunaWebappNavigation,adunaWebappCommonValuesInserter,adunaWebappMessageInserter,adunaWebappNavigationInserter,filenameViewController,viewResolver,adunaWebappSystemUrlMapping,adunaWebappSystemOverviewController,adunaWebappLoggingOverviewController,adunaWebappSystemInfoController,openrdfRepositoryManager,scopedTarget.openrdfRepositoryInterceptor,openrdfRepositoryInterceptor,openrdfProtocolUrlMapping,openrdfRepositoryListUrlMapping,openrdfRepositoryUrlMapping,openrdfServerHomeUrlMapping,openrdfHandlerExceptionResolver,openrdfProtocolController,openrdfRepositoryListController,openrdfRepositoryController,openrdfRepositoryContextsController,openrdfRepositoryNamespacesController,openrdfRepositoryNamespaceController,openrdfRepositorySizeController,openrdfRepositoryStatementsController,openrdfRepositoryGraphController]; root of factory hierarchy
+[INFO ] 2021-11-23 23:58:04,042 [main] Logback logging API implementation is configured.
+[INFO ] 2021-11-23 23:58:04,351 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 702 ms

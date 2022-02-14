@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ლიხნის წარწერა კომეტის გამოჩენის შესახებ, 1066</title>
+                <editor xml:lang="ka">ლია ახალაძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG474</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            ლიხნი
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka"></seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material>
+                                      წითელი საღებავი
+                                   </material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/135">
+                                       კედელი
+                                   </objectType>
+                                        <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        კედელში, სადაც წარწერაა შესრულებული, ტაძრის დასავლეთის ერთ-ერთი სარკმელია გაჭრილი, საიდანაც
+                                        შემოსული სინათლით, ერთი მხრივ, წარწერა თუ კარგად იყო განათებული, მეორე მხრივ, მზის სხივებს ნაწერის წითელი მელანი გაუხუნებია.
+                                        შესრულებულია თავისებურად და უჩვეულოდ - ყოველი სიტყვის პირველ მოზრდილ ასოში ჩასმულია
+                                        ვერტიკალურად ჩამოწერილია ან გარშემო შემოწერილია ამ სიტყვის დანარჩენი მცირე ზომის ასოები.
+                                        ამჟამად მოღწეულია მხოლოდ 12 მთავრული ასო, ამათგან მათ გარშემო განლაგებული მცირე ასომთავრული ასოები
+                                        მხოლოდ სამს აქვს სრულად, ხოლო ერთს ფრაგმენტულად შერჩენილი.
+                                        <dimensions unit="cm">
+                                            <height>12</height>
+                                            <width>127</width>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                   <rs type="execution">ფრესკული</rs> <rs type="script">ასომთავრული</rs> წარწერა.
+
+                                <height unit="cm">7-9-10; 0,3-0,5-0,7</height>
+
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ლიხნი</origPlace>
+                                <origDate></origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">ლიხნის ღვთისმშობლის მიძინების ტაძარი</placeName>
+                                <rs type="circumstances">1848 წელს, მ. ბროსეს მიერ წარწერის შესწავლის დროს, წარწერა სრულად იყო მოღწეული.
+                                1886 წლის 4 თებერვალს წარწერას გაეცნო პრასკოვია უვაროვა, წარწერა უკვე დაზიანებული იყო (იხ. ფოტო)</rs>
+                                <rs type="context"></rs>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">
+                            <placeName type="modernSpot">ლიხნი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2019-05-30" who="kalkhitashvili">
+                ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, ბმულებით დაკავშირება გარე კონტროლირებად ლექსიკონთან
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+     <facsimile>
+        <surface>
+            <graphic url="ecg474.jpg">
+                <desc xml:lang="ka">ლიხნის წარწერა კომეტის გამოჩენის შესახებ, 1886 კ.ა. მიხაილოვი</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+
+            <div type="bibliography">
+                
+                    <p><bibl n="1">ლია ახალაძე ლიხნის ტაძრის ეპიგრაფიკა</bibl></p>
+                
+            </div>
+
+            <!-- Ⴕ კურთხეულ ხარ, ღმერთო, ყოვლად ყოველსა შინა.
+                ეს იქმნა დასაბამითგან წელთა ხქჲთ (1065 წ.),
+                ქორონიკონსა სვპ (1066 წ.) მეფობასა ბაგრატ გიორგის ძისასა ინდიკტიონსა
+             ლჱ, აპრილსა თვესა ვარსკვლავი გამოჩნდა, რომელ მისსა წიაღსა აღმოლიდის
+                და შინა მისსა ვითარცა შარავანდედი დიდი, მოკიდებით მასვეა. ესე იქმნა ბზობითგან აღვსებამდის -->
+
+            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                <ab>
+                      <lb n="1"/><supplied reason="lost">Ⴕ
+                          <w lemma="კურთხეულ"><expan><abbr>კ</abbr><ex>ურთხეულ</ex></expan></w>
+                          <w lemma="არს"><expan><abbr>ხ</abbr><ex>არ</ex></expan></w>
+                          <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთო</ex></expan></w>
+                          <w lemma="ყოვლად"><expan><abbr>ყ</abbr><ex>ოვლად</ex></expan></w>
+                          <w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოველსა</ex></expan></w>
+                          <w lemma="შინა"><expan><abbr>შ</abbr><ex>ინა</ex></expan></w>
+                                <expan><abbr>ე</abbr><ex>ს</ex></expan>
+                          <w lemma="არს"><expan><abbr>ი</abbr><ex>ქმნა</ex></expan></w>
+                          <rs type="date"><w lemma="დასაბამ"><expan><abbr>დ</abbr><ex>ასაბამითგან</ex></expan></w>
+                          <w lemma="წელ"><expan><abbr>წ</abbr><ex>ელთა</ex></expan></w>
+                          <num>ხქჲთ</num></rs>
+                          <rs type="date"><w lemma="ქორონიკონ">ქორონიკონსა</w>
+                          <num>სვპ</num></rs></supplied>
+                   <w lemma="მეფობა">მეფობასა</w>
+                    <name nymRef="ბაგრატ VI">ბაგრატ</name>
+                    <name nymRef="გიორგი I">გიორგის</name>
+                    <w lemma="ძე">ძისასა</w>
+                    <w lemma="ინდიკტიონ">ინდიკტიონსა</w>
+                                <num>ლჱ</num>
+                    <w lemma="აპრილ">აპრილსა</w>
+                    <w lemma="თუე"><expan><abbr>თ</abbr><ex>უე</ex><abbr>სა</abbr></expan></w>
+                    <w lemma="ვარსკვლავი">ვარსკვლავი</w>
+                    <w lemma="ჩნდება">გამოჩნდა</w>
+                    <w lemma="რომელ"><expan><abbr>რ</abbr><ex>ომელ</ex></expan></w>
+                    <w><expan><abbr>მ</abbr><ex>ისსა</ex></expan></w>
+                    <w lemma="წიაღ"><expan><abbr>წ</abbr><ex>იაღსა</ex></expan></w>
+                    <w lemma="აღმოილიდის"><expan><abbr>ა</abbr><ex>ღმოი</ex><abbr>ლი</abbr><ex>დის</ex></expan></w>
+                      <lb n="2"/><supplied reason="lost">და
+                    <w lemma="შინა"><expan><abbr>შ</abbr><ex>ინა</ex></expan></w>
+                    <w><expan><abbr>მ</abbr><ex>ისსა</ex></expan></w>
+                    <w lemma="ვითარცა"><expan><abbr>ვ</abbr><ex>ითარცა</ex></expan></w>
+                    <w lemma="შარავანდედ"><expan><abbr>შ</abbr><ex>არავანდედი</ex></expan></w>
+                    <w lemma="დიდ"><expan><abbr>დ</abbr><ex>იდი</ex></expan></w>
+                    <w><expan><abbr>მ</abbr><ex>ოკიდებით</ex></expan></w>
+                    <w><expan><abbr>მ</abbr><ex>ასვეა</ex></expan></w> <expan><abbr>ე</abbr><ex>სე</ex></expan>
+                    <w lemma="არს"><expan><abbr>ი</abbr><ex>ქმნა</ex></expan></w>
+                    <w lemma="ბზობა"><expan><abbr>ბ</abbr><ex>ზობითგან</ex></expan></w>
+                    <w lemma="აღვსება"><expan><abbr>ა</abbr><ex>ღვსებამდის</ex></expan></w></supplied>
+                </ab>
+            </div>
+
+            <div type="translation" xml:lang="ka"></div>
+            <div type="apparatus" xml:space="preserve"></div>
+            <div type="commentary">
+                <p>
+                    წარწერის ტექსტის ყველა პუბლიკაცია ეყრდნობა მ. ბროსეს გამოცემას.
+
+                </p>
+            </div>
+
+         </body>
+    </text>
+</TEI>

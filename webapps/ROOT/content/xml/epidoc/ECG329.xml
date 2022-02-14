@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ვანის ბერძნული წარწერა (I)</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG329</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                           ვანი
+                        </collection>
+                    </msIdentifier>                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სავედრებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>  
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/416">კედელი</objectType>
+                                   </support>
+                                   </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        ვანის ნაქალაქარის კარიბჭესთან, მის აღმ. ნაწილში კვარცხლბეკად ნავარაუდევი სვეტის გვერდით კედელზე ვერტიკალურად ამოკაწრულია ბერძნული წარწერა.
+                                        იგი მიწიდან 118 სმ-ით არის დაშორებული. შესრულებულია ქვემოდან V გათლილი ქვის მარცხენა მხარეზე.
+                                    <dimensions unit="cm">
+                                        <width>14.5</width>
+                                        <height>2.5</height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                ასოების სიმაღლე და სიგანე დაახლოებით ერთნაირია, გარდა Ρ-სი, რომელიც საკმაოდ გრძელია და შედარებით ვიწრო (2, 2,5 სმ, 1 სმ).
+                                არის შემოკლების ნიშანი, წერტილი (.). სტრიქონში თითო ასოა.
+                                წარწერა დათარიღებულია პალეოგრაფიული ნიშნების (გაშლილი ω, მრგვალი σ, ν-ს მოხაზულობა, α ჩატეხილი ჰასტით) მიხედვით.
+                                   <height unit="cm" precision="medium">1,5 - 2</height>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ვანის ნაქალაქარი</origPlace>
+                                <origDate notBefore="-0400" notAfter="-0201" evidence="lettering" datingMethod="#julian">IV-III BC</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863918">ვანი</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                         
+                            <provenance type="observed">
+                            <placeName type="modernSpot">ვანის ნაქალაქარი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg329.jpg">
+                <desc xml:lang="ka">კედელი ვანის კარიბჭესთან</desc>
+                <desc xml:lang="en">Wall near the city gate of Vani</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 148</citedRange></bibl></p>
+                
+            </div>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!-- ΑΡ. ΩΑΝΑCΑ
+                            ἀρ[άομαι] ὦ ἄνασ[σ]α
+                                                                 -->
+                     
+
+         <ab>
+             <w lemma="ἀράομαι">ἀρ<supplied reason="omitted">άομαι</supplied></w> <w lemma="ὁ">ὦ</w> <w lemma="ἄνασσα">ἄνασ<supplied reason="omitted">σ</supplied>α</w> 
+         </ab>    
+             
+         
+            </div>
+            
+                
+            <div type="translation" xml:lang="ka">
+                <p>გევედრები (შენ), მეუფეო.</p></div>
+            
+           <div type="apparatus" xml:space="preserve">
+              <head>კრიტიკული აპარატი</head>
+               <p><app>
+               <rdg></rdg>
+               </app></p>
+                <p><app>
+                   <rdg></rdg>
+                </app></p>
+               <p><app>
+               <rdg></rdg>
+               </app></p>
+            </div>
+           
+            <div type="commentary">
+                <p>წარწერა, როგორც ჩანს, ეხებოდა მდედრობითი სქესის იმ მეუფეს, რომლის გამოსახულებაც აქვე, გვერდით იდგა და რომელსაც წარწერის შემსრულებელი რაღაცას ევედრებოდა.</p>
+                <p>შეიძლება დავუშვათ: ΑΡ. არის შემოკლება შურისძიების ღმერთქალის Ἀρά-ს სახელის, ან შემოკლება სახელის Ἄρσανς, რაც გვხვდება ვანის სხვა წარწერებში.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+

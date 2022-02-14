@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kiln:root xmlns:i18n="http://apache.org/cocoon/i18n/2.1"
+           xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+           xmlns:xi="http://www.w3.org/2001/XInclude"
+           xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <kiln:parent>
+    <xi:include href="base.xml" />
+  </kiln:parent>
+  
+  <kiln:child>
+    <kiln:block name="title">
+      <i18n:text i18n:key="home-title">Epigraphic Corpus of Georgia</i18n:text>
+    </kiln:block>
+    
+    <kiln:block name="page-header">
+      <div class="row home">
+        
+        <div class="large-12 columns">
+          <h1>
+            <i18n:text i18n:key="home-title">Epigraphic Corpus of Georgia</i18n:text>
+          </h1>
+          
+          <div class="flex">
+            <div class="img" style="margin-left: -45px;">
+              <img src="../assets/images/home-banner-01.png" alt="img"/>
+            </div>
+            
+            <div class="sammery">
+              <p>
+                საქართველოში აღმოჩენილი ეპიგრაფიკული ძეგლებისა და ქართველ მეცნიერთა მიერ XX საუკუნის 40-იანი წლებიდან შექმნილი კრიტიკული გამოცემების, როგორც კულტურული მემკვიდრეობის დაცვისა და მათი საერთაშორისო ეპიგრაფიკული საზოგადოების კვლევის საგნად ქცევისათვის.
+                საქართველოში აღმოჩენილი ეპიგრაფიკული ძეგლების ელექტრონული გამოცემა.
+              </p>
+              
+              <span class="read-more">
+                <i18n:text i18n:key="read-more">...გაგრძელება</i18n:text>
+              </span>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+      <div>
+        
+        
+      </div>
+    </kiln:block>
+    
+    
+    
+    <kiln:block name="content-section">
+      <main class="about">
+        
+        <div class="row">
+          <div class="large-12 columns">
+            <div class="panel radius">
+              
+              <h3 class="main-title">
+                <i18n:text i18n:key="about">About Project</i18n:text>
+              </h3>
+              
+              <!-- <iframe src="https://drive.google.com/file/d/1jw7OjNBJp1FVQq3lPePRbTsmUToeZuJi/preview" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="200px" width="300px"></iframe> -->
+              
+              <dl>
+                <!-- <i18n:text i18n:key="home-text">
+                The project “The Epigraphic Corpus of Georgia” has been in progress since 2015 at the
+                Institute of Linguistic Research of Ilia State University.
+                Its aim is to document the wealthy epigraphic legacy discovered or preserved in Georgia,
+                according to the standards of EpiDoc, the digital heir to the Leiden Convention.
+
+                The first electronic publication of the Armazi Bilingual produced according to those standards
+                was prepared in 2014 by Tamar Kalkhitashvili within the framework of her MA research.
+                Because of its use of the latest approaches to digital humanities,
+                this publication merited a high score at the International Conference of Digital
+                Epigraphics organized by EAGLE (The Europeana network of Ancient Greek and Latin Epigraphy).
+
+                At this stage, the Epigraphic Corpus (head of the project: Prf. N. Doborjginidze) includes
+                the 1st-9th cc AD. Georgian, Aramaic and Greek inscriptions. The project is long term,
+                and besides the Georgian, it also aims at preparing, according to the above mentioned standards,
+                the publication of the corpora of the Urartian, Aramaic, Greek, Jewish, Arabic, Persian and Armenian inscriptions.
+              </i18n:text> -->
+                
+                <div class="large-7">
+                  <p>
+                    <i18n:text i18n:key="home-text-first">
+                      The project “The Epigraphic Corpus of Georgia” has been in progress since 2015 at the
+                      Institute of Linguistic Research of Ilia State University.
+                      Its aim is to document the wealthy epigraphic legacy discovered or preserved in Georgia,
+                      according to the standards of EpiDoc, the digital heir to the Leiden Convention.
+                    </i18n:text>
+                  </p>
+                </div>
+                
+                <div class="large-12 flex-center">
+                  <div class="large-5">
+                    <p>
+                      <i18n:text i18n:key="home-text-second">
+                        The first electronic publication of the Armazi Bilingual produced according to those standards
+                        was prepared in 2014 by Tamar Kalkhitashvili within the framework of her MA research.
+                        Because of its use of the latest approaches to digital humanities,
+                        this publication merited a high score at the International Conference of Digital
+                        Epigraphics organized by EAGLE (The Europeana network of Ancient Greek and Latin Epigraphy).
+                      </i18n:text>
+                    </p>
+                  </div>
+                  
+                  <div class="large-4">
+                    <figure class="visual-content">
+                      <img src="../assets/images/home-gif.png" alt=" "/>
+                      <figcaption>
+                        <i18n:text i18n:key="visual-content-source">
+                          source: georgian national archive
+                        </i18n:text>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+                
+                <div class="large-7">
+                  <p>
+                    <i18n:text i18n:key="home-text-third">
+                      At this stage, the Epigraphic Corpus (head of the project: Prf. N. Doborjginidze) includes
+                      the 1st-9th cc AD. Georgian, Aramaic and Greek inscriptions. The project is long term,
+                      and besides the Georgian, it also aims at preparing, according to the above mentioned standards,
+                      the publication of the corpora of the Urartian, Aramaic, Greek, Jewish, Arabic, Persian and Armenian inscriptions.
+                    </i18n:text>
+                  </p>
+                </div>
+              </dl>
+            </div>
+          </div>
+          <!-- <div class="large-12 columns">
+            footer
+          </div> -->
+        </div>
+      </main>
+    </kiln:block>
+  </kiln:child>
+</kiln:root>
+     <!--   <div class="row">
+          
+          <div class="large-4 columns">
+            
+            <div class="panel radius">
+              <p><strong>Add your files</strong></p>
+
+              <p>Put your EpiDoc XML files in webapps/ROOT/content/xml/epidoc and go to the <a
+              href="{kiln:url-for-match('local-admin-home-page', (), 0)}">admin</a> and index them for searching. Then see how
+              they are displayed
+              
+              (<a
+              href="{kiln:url-for-match('local-epidoc-index-display', ($language), 0)}">Inscriptions</a>).</p>
+            </div>
+          </div>
+          
+          <div class="large-4 columns">
+            <div class="panel radius">
+              <p><strong>Customise the templates</strong></p>
+
+              <p>Change the look of this site by modifying the templates
+              in webapps/ROOT/assets/templates. The template for this
+              page is home.xml, and it builds on the base template
+              base.xml.</p>
+            </div>
+          </div>
+          <div class="large-4 columns">
+            <div class="panel radius">
+              <p><strong>Read the documentation</strong></p>
+
+              <p>The documentation and User Guide for  
+                EFES can be found on the project's <a href="https://github.com/EpiDoc/EFES/wiki/">GitHub Wiki pages</a>. 
+                Documentation for Kiln, the platform that EFES is based on, can be found both <a
+                  href="http://kiln.readthedocs.org/en/latest/">online</a>, and in source form, in the docs directory of your
+              installation. It explains how you can modify everything
+              about your project.</p>
+            </div>
+          </div>
+          
+          
+        </div> --> 
+        
+        
+

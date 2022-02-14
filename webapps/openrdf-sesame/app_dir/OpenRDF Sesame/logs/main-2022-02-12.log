@@ -1,0 +1,34 @@
+[INFO ] 2022-02-12 23:25:48,559 [Thread-1] Closing org.springframework.web.context.support.XmlWebApplicationContext@17ef0c6d: display name [WebApplicationContext for namespace 'openrdf-http-server-servlet']; startup date [Wed Feb 09 17:42:17 GET 2022]; root of context hierarchy
+[INFO ] 2022-02-12 23:25:48,578 [Thread-1] Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6e605c34: defining beans [messageSource,adunaAppVersion,adunaAppConfig,adunaWebappNavigation,adunaWebappCommonValuesInserter,adunaWebappMessageInserter,adunaWebappNavigationInserter,filenameViewController,viewResolver,adunaWebappSystemUrlMapping,adunaWebappSystemOverviewController,adunaWebappLoggingOverviewController,adunaWebappSystemInfoController,openrdfRepositoryManager,scopedTarget.openrdfRepositoryInterceptor,openrdfRepositoryInterceptor,openrdfProtocolUrlMapping,openrdfRepositoryListUrlMapping,openrdfRepositoryUrlMapping,openrdfServerHomeUrlMapping,openrdfHandlerExceptionResolver,openrdfProtocolController,openrdfRepositoryListController,openrdfRepositoryController,openrdfRepositoryContextsController,openrdfRepositoryNamespacesController,openrdfRepositoryNamespaceController,openrdfRepositorySizeController,openrdfRepositoryStatementsController,openrdfRepositoryGraphController]; root of factory hierarchy
+[INFO ] 2022-02-12 23:26:01,608 [main] Logback logging API implementation is configured.
+[INFO ] 2022-02-12 23:26:02,376 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 1164 ms
+[INFO ] 2022-02-12 23:26:10,686 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-12 23:26:10,845 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-12 23:26:11,423 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-12 23:26:11,441 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-12 23:28:01,267 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-12 23:28:01,291 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-12 23:38:53,621 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-12 23:38:53,666 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-12 23:39:02,990 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-12 23:39:03,017 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-12 23:39:07,113 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-12 23:39:07,130 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-12 23:39:36,726 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-12 23:39:36,739 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-12 23:39:40,204 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-12 23:39:40,216 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-12 23:40:10,322 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-12 23:40:10,332 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-12 23:40:21,385 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-12 23:40:21,404 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-12 23:40:35,712 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-12 23:40:35,722 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-12 23:41:03,530 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-12 23:41:03,542 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-12 23:41:07,573 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-12 23:41:07,581 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-12 23:41:35,488 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-12 23:41:35,496 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-02-12 23:41:48,482 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-02-12 23:41:48,489 [repositories/kiln] Request for query -1227659729 is finished

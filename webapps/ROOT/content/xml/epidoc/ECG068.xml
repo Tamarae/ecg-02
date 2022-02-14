@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ბოლნისის სიონის ელია ბოლნელის წარწერა ღამისთევის დაწესების შესახებ</title>
+                <title xml:lang="en">Bolnisi Sioni Cathedral, inscription of Elia of Bolnisi</title>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <editor xml:lang="en">Nodar Shoshiashvili</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <idno type="filename">ECG068</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ბოლნისი</collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en">Memorial</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1338">კარის ბალავარი</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1338">Door base</objectType>
+                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">მწვანე ქვა</material>
+                                     <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
+                                    <dimensions unit="cm">
+                                        <height>20</height>
+                                        <width>65</width>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="8">
+                                    <seg xml:lang="ka">წარწერა რვასტრიქონიანია, რომელიც ამოღარულია ბოლნისის ტაძრის სამხრეთი კარის ბალავრის ქვაზე.</seg>
+                                    <seg xml:lang="en">Eight line inscription is engraved on the stone of the south door foundation of Bolnisi Cathedral.</seg>
+                                    <dimensions unit="cm">
+                                        <height>45</height>
+                                        <width>107</width>
+                                    </dimensions>
+                                   </layout>
+                            </layoutDesc>
+                        </objectDesc>                     
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <seg xml:lang="ka"><rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
+                                <seg xml:lang="en">Engraved Asomtavruli inscription</seg>
+                                <height unit="cm">3</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>                
+                    <history>
+                        <origin>
+                            <origPlace ref="https://memkvidreoba.gov.ge/objects/immovable/immovableObject?id=24984">
+                                <seg xml:lang="ka">ბოლნისის სიონი</seg>
+                                <seg xml:lang="en">Bolnisi Sioni</seg>
+                            </origPlace>
+                           <origDate notBefore="0400" notAfter="0600">IX AD</origDate>
+                        </origin>
+                        
+                        <provenance type="found" when="1937">
+                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">
+                                <seg xml:lang="ka">ბოლნისის სიონი</seg>
+                                <seg xml:lang="en">Bolnisi Sioni</seg>
+                            </placeName>
+                            <!-- 41.389081, 44.512551 --> 
+                            <rs type="monuList"/>
+                            <rs type="circumstances">
+                                <seg xml:lang="ka">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში, 
+                                9 კმ. მანძილზე ქ. ბოლნისიდან სამხრეთით, 1 კმ. მანძილზე სოფ. ბონის-ხაჩინიდან. 
+                                წარწერა ბოლნისის სიონის ტერიტორიაზე 1937 წელს აღმოაჩინა კულტურულ ძეგლთა
+                            დაცვის კომიტეტის მიერ მოწყობილმა არქეოლოგიურმა ექსპედიციამ, რომელსაც ლევან მუსხელიშვილი ხელმძღვანელობდა.</seg>
+                                <seg xml:lang="en">Bolnisi Sioni Cathedral is located in Kvemo Kartli, 9 km away from city Bolnisi to the south, 1 km distance from the village Bonis-Khachini. The inscription was discovered during the archaeological expedition held by the Cultural Heritage Preservation Committee supervised by Levan Muskhelishvili in 1937.</seg>
+                            </rs>
+                            <rs type="context"/>                
+                        </provenance>
+                        <provenance type="observed">
+                            <placeName type="modernSpot">
+                                <seg xml:lang="ka">ბოლნისის სიონი</seg>
+                                <seg xml:lang="en">Bolnisi Sioni</seg>
+                            </placeName>
+                            <idno type="invNo"/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg068.jpg">
+                <desc xml:lang="ka">ბოლნისის სიონის ელია ბოლნელის წარწერა ღამისთევის დაწესების შესახებ</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile> 
+    <text>
+        <body>
+        <div type="bibliography">
+     
+     <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები<ptr target="bibliography.xml#b101"/>, <citedRange> 248-250</citedRange></bibl></p>
+     <p><bibl n="2">კორნელი დანელია, ზურაბ სარჯველაძე, ქართული პალეოგრაფია<ptr target="bibliography.xml#b92"/>, <citedRange> 20-21</citedRange></bibl></p>
+     <p><bibl n="3">M. Brosset, Explications<ptr target="bibliography.xml#b18"/>, <citedRange>420-421</citedRange></bibl></p>
+     <p><bibl n="4">M. Brosset, Lettres de M. Bartholomaei, relatives aux auntiquités géorgienns<ptr target="bibliography.xml#b20"/>, <citedRange>323-325</citedRange></bibl></p>
+     <p><bibl n="5">J. Bartholomaei, Letter, M. Brosset, Bibliographie analytique des oeuvres de Marie-Felicité Brosset<ptr target="bibliography.xml#b16"/>, <citedRange>132</citedRange></bibl></p>
+     <p><bibl n="6">ლევან მუსხელიშვილი, ბოლნისი<ptr target="bibliography.xml#b93"/>, <citedRange> 329-341</citedRange></bibl></p>
+     <p><bibl n="7">Н. Г. Чубинашвили, Болнисский сион<ptr target="bibliography.xml#b45"/>, <citedRange>74-75</citedRange></bibl></p>
+         
+            </div>
+        
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">  
+                             
+                    <!--  ქ(რისტე) ს[(ა)ხ(ე)ლ(ი)თა ღ(მრთისაჲ)თა მ(ა)მ(ი)სა], ძისა დ(ა) ს(უ)ლ(ი)ს(ა) წ(მი)დ(ისაჲთ)ა მ(ეო)ხ(ები)თა 
+                    წ(მი)დ(ი)სა ღ[(მრთი)სმშ(ო)ბ(ე)ლ(ი)ს(აჲ)]თა წ(მიდი)სა გრ(იგო)ლ(ი)ს(აჲ)თა მე გლ(ა)ხ(ა)კმ(ა)ნ 
+                    ელია ბ(ოლ)ნ(ელ)ჲ მღ(დელ)თმ(ო)ძ(ღურა)დ ღ(ი)რს ვ(ი)ქ(მე)ნ საყდ(ა)რსა წ(მიდი)სა გ(რი)გ(ო)ლ(ისა)სა დ
+                    ა ამას საყდ(არ)ს(ა) ღ(ა)მ(ის)თ(ე)ვ(ა)ჲ არა დ(ე)ბ(უ)ლ (ი)ყ(ო) კ(ჳ)რ(ი)ს ძ(ა)ლ(ი)თა მე 
+                    დ(ავ)დ(ე)ვ და ზ(ედ)აშე ღ(ა)მ(ის) მ(თეველთა)თჳს ს(ა)გ(ა)ლ(ობელა)დ ღ(მრთის)ა. ად(იდე)ნ ღ(მერთმა)ნ დ(ავი)თ მ(ამ)ფა(ლი)
+                    და შვ(ი)ლ(ნი) მა(თნი) და აბ(უ)ლ მ(ამ)ფა(ლი). და აწ ვინ შ(ემდ)გ(ომა)დ ჩ(ე)მ(ს)ა ესე 
+                    ღ(ა)მ(ი)სთ(ევა)ჲ და ზ(ედა)შჱ ამ(ი)ს ეკლ(ე)ს(იისა)გ(ა)ნ და ფ(ი)ჩ(ო)ს(ან)თა {გან} შ(ე)ც(უა)ლ(ო)ს შ(ე)ჩ(უე)ნ(ე)ბ(უ)ლ 
+                    მცა არს ღ(მრთი)ს(ა)გ(ა)ნ დ(ა) მ(ი)ს ს(ა)ყ(დრისაგა)ნ. ვ(ი)ნ ესე ა(ღ)ჴ(ო)ც(ო)ს კ(ა)ნ(ო)ნს(ა) ქ(უჱ)შ(ე)მცა არ[ს].-->
+    
+<ab>   
+<lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
+           <w lemma="სახელ"><expan><abbr>ს</abbr><supplied reason="lost"><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ი</ex><abbr>თა</abbr></supplied></expan></w>
+           <w lemma="ღმერთ"><supplied reason="lost"><expan><abbr>ღ</abbr><ex>მრთისაჲ</ex><abbr>თა</abbr></expan></supplied></w> 
+            <w lemma="მამა"><supplied reason="undefined"><expan><abbr>მ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ი</ex><abbr>სა</abbr></expan></supplied></w> 
+           <w lemma="ძე">ძისა</w> 
+            <expan><abbr>დ</abbr><ex>ა</ex></expan> 
+           <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლ</abbr><ex>ი</ex><abbr>ს</abbr><ex>ა</ex></expan></w> 
+           <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მი</ex><abbr>დ</abbr><ex>ისაჲთ</ex><abbr>ა</abbr></expan></w> 
+           <w lemma="მეოხება"><expan><abbr>მ</abbr><ex>ეო</ex><abbr>ხ</abbr><ex>ები</ex><abbr>თა</abbr></expan></w> 
+<lb n="2"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მი</ex><abbr>დ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w> 
+            <w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><supplied reason="lost"><ex>მრთი</ex><abbr>სმშ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ი</ex><abbr>ს</abbr><ex>აჲ</ex></supplied>თა</expan></w> 
+            <w  lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდი</ex><abbr>სა</abbr></expan></w> 
+            <name nymRef="გრიგოლ"><expan><abbr>გრ</abbr><ex>იგო</ex><abbr>ლ</abbr><ex>ი</ex><abbr>ს</abbr><ex>აჲ</ex><abbr>თა</abbr></expan></name> 
+            <w lemma="მე">მე</w> 
+            <w lemma="გლახაკ"><expan><abbr>გლ</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ა</ex><abbr>კმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
+<lb n="3"/><persName type="local" key="ელია ბოლნელი"><name nymRef="ელია">ელია</name> 
+            <roleName nymRef="ბოლნელი"><w lemma="ბოლნელ"><expan><abbr>ბ</abbr><ex>ოლ</ex><abbr>ნ</abbr><ex>ელ</ex><abbr>ჲ</abbr></expan></w></roleName> </persName>
+            <roleName nymRef="მღვდელმოძღვარი"><w lemma="მღვდელმოძღვარ"><expan><abbr>მღ</abbr><ex>დელ</ex><abbr>თმ</abbr><ex>ო</ex><abbr>ძ</abbr><ex>ღურა</ex><abbr>დ</abbr></expan></w></roleName> 
+            <w lemma="ღირს-ყოფა"><expan><abbr>ღ</abbr><ex>ი</ex><abbr>რსვ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>მე</ex><abbr>ნ</abbr></expan></w>
+            <w lemma="საყდარ"><expan><abbr>საყდ</abbr><ex>ა</ex><abbr>რსა</abbr></expan> </w>
+            <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდი</ex><abbr>სა</abbr></expan></w>
+            <name nymRef="გრიგოლ"><expan><abbr>გ</abbr><ex>რი</ex><abbr>გ</abbr><ex>ო</ex><abbr>ლ</abbr><ex>ისა</ex><abbr>სა</abbr></expan></name> 
+              დ
+<lb n="4" break="no"/>ა <w lemma="ესე">ამას</w> 
+             <w lemma="საყდარ"><expan><abbr>საყდ</abbr><ex>არ</ex><abbr>ს</abbr><ex>ა</ex></expan></w>
+             <w lemma="ღამისთევა"><expan><abbr>ღ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ის</ex><abbr>თ</abbr><ex>ე</ex><abbr>ვ</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></w> 
+             <w lemma="არა">არა</w> <w lemma="დება"><expan><abbr>დ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>უ</ex><abbr>ლ</abbr></expan></w> 
+             <w lemma="ყოფნა"><expan><ex>ი</ex><abbr>ყ</abbr><ex>ო</ex></expan></w> 
+             <w lemma="კვირა"><expan><abbr>კ</abbr><ex>ჳ</ex><abbr>რ</abbr><ex>ი</ex><abbr>ს</abbr></expan></w> 
+             <w lemma="ძალ"><expan><abbr>ძ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
+            <w lemma="მე">მე</w>       
+<lb n="5"/><w lemma="დადება"><expan><abbr>დ</abbr><ex>ავ</ex><abbr>დ</abbr><ex>ე</ex><abbr>ვ</abbr></expan></w> 
+             და
+            <w lemma="ზედა"><expan><abbr>ზ</abbr><ex>ედ</ex><abbr>აშე</abbr></expan></w> 
+             <w lemma="ღამე"><expan><abbr>ღ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ის</ex></expan></w> 
+             <w lemma="მთეველ"><expan><abbr>მ</abbr><ex>თეველთა</ex><abbr>თჳს</abbr></expan></w> 
+             <w lemma="საგალობელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>გ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ობელა</ex><abbr>დ</abbr></expan></w> 
+             <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთის</ex><abbr>ა</abbr></expan></w> 
+             <w lemma="დიდება"><expan><abbr>ად</abbr><ex>იდე</ex><abbr>ნ</abbr></expan></w> 
+             <w lemma=""><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> 
+             <persName type="local" key="დავით მამფალი"><name nymRef="დავით"><expan><abbr>დ</abbr><ex>ავი</ex><abbr>თ</abbr></expan></name> 
+              <roleName nymRef="მამფალი"><w lemma="მამფალ"><expan><abbr>მ</abbr><ex>ამ</ex><abbr>ფა</abbr><ex>ლი</ex></expan></w></roleName> </persName>
+<lb n="6"/>     და 
+            <w lemma="შვილ"><expan><abbr>შვ</abbr><ex>ი</ex><abbr>ლ</abbr><ex>ნი</ex></expan></w> 
+             <w lemma="მათი"><expan><abbr>მა</abbr><ex>თნი</ex></expan></w> 
+                და
+             <persName type="local" key="აბულ მამფალი"><name nymRef="აბულ"><expan><abbr>აბ</abbr><ex>უ</ex><abbr>ლ</abbr></expan></name> 
+             <roleName nymRef="მამფალი"><w lemma="მამფალ"><expan><abbr>მ</abbr><ex>ამ</ex><abbr>ფა</abbr><ex>ლი</ex></expan></w></roleName></persName>
+                და 
+                <w lemma="აწ">აწ</w> 
+                <w lemma="ვინ">ვინ</w> 
+             <w lemma="შემდგომად"><expan><abbr>შ</abbr><ex>ემდ</ex><abbr>გ</abbr><ex>ომა</ex><abbr>დ</abbr></expan></w> 
+             <w lemma="ჩემი"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მ</abbr><ex>ს</ex><abbr>ა</abbr></expan></w> 
+            <w lemma="ესე">ესე</w> 
+<lb n="7"/><w lemma="ღამისთევა"><expan><abbr>ღ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ი</ex><abbr>სთ</abbr><ex>ევა</ex><abbr>ჲ</abbr></expan></w> 
+            <w lemma="და">და</w> <w lemma="ზედა"><expan><abbr>ზ</abbr><ex>ედა</ex><abbr>შჱ</abbr></expan></w> 
+            <w lemma="ესე"><expan><abbr>ამ</abbr><ex>ი</ex><abbr>ს</abbr></expan></w> 
+            <w lemma="ეკლესია"><expan><abbr>ეკლ</abbr><ex>ე</ex><abbr>ს</abbr><ex>იისა</ex><abbr>გ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
+                და 
+            <w lemma="ფიჩოსან"><expan><abbr>ფ</abbr><ex>ი</ex><abbr>ჩ</abbr><ex>ო</ex><abbr>ს</abbr><ex>ან</ex><abbr>თა</abbr><supplied reason="lost"><abbr>გან</abbr></supplied></expan></w> 
+            <w lemma="შეცვლა"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ც</abbr><ex>უა</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ს</abbr></expan></w> 
+            <w lemma="შეჩვენებულ"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ჩ</abbr><ex>უე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>უ</ex><abbr>ლ
+<lb n="8" break="no"/>მცა</abbr></expan></w> <w lemma="არს">არს</w> 
+               <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთი</ex><abbr>ს</abbr><ex>ა</ex><abbr>გ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
+               <w lemma="და"><expan><abbr>დ</abbr><ex>ა</ex></expan></w> 
+               <w lemma="იგი"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ს</abbr></expan></w> 
+               <w lemma="საყდარ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ყ</abbr><ex>დრისაგა</ex><abbr>ნ</abbr></expan></w> 
+               <w lemma="ვინ"><expan><abbr>ვ</abbr><ex>ი</ex><abbr>ნ</abbr></expan></w> 
+                <w lemma="ესე">ესე</w> <w lemma="აღჴოცა"><expan><abbr>ა</abbr><ex>ღ</ex><abbr>ჴ</abbr><ex>ო</ex><abbr>ც</abbr><ex>ო</ex><abbr>ს</abbr></expan></w> 
+                <w lemma="კანონ"><expan><abbr>კ</abbr><ex>ა</ex><abbr>ნ</abbr><ex>ო</ex><abbr>ნს</abbr><ex>ა</ex></expan></w> 
+                <w lemma="ქუეშე"><expan><abbr>ქ</abbr><ex>უჱ</ex><abbr>შ</abbr><ex>ე</ex><abbr>მცა</abbr></expan></w> <w lemma="არს">არ<supplied reason="undefined">ს</supplied></w>
+                  </ab>                                                    
+                </div>
+        
+            <div type="translation">
+                <p  xml:lang="ka"> ქრისტე, მამა ღმერთის, ძისა და სული წმიდის სახელით, 
+                    წმიდა ღმრთისმშობელისა და წმიდა გრიგოლის მეოხებით, მე გლახაკი
+                    ელია ბოლნელი ღირსი გავხდი წმიდა გრიგოლის საყდრის მღდელთმოძღვრობის.
+                    ამ საყდარში ღამისთევა არა იყო დაწერებული. კჳრის ძალით მე 
+                    დავაწესე და ზედაშე ღამისმთეველთათვის ღვთის საგალობლად. 
+                    ადიდოს ღმერთმა დავით მამფალი და მისი შვილები და აბულ მამფალი. და ამიერიდან ვინც ჩემ შემდგომ ეს 
+                    ღამისთევა და ზედაშჱ ამ ეკლესიისა და ფიჩოსანთათვის შეცვალოს, შეჩუენებულ იყოს 
+                    ღმრთისაგან და საყდრისაგან. ვინც ეს მოშალოს, კანონით დაისაჯოს.</p>   
+                
+                <p xml:lang="en">
+                    Christ, in the name of the Father and the Son and the Holy Spirit, by the aid of the Holy Theotokos and St Gregory, I, humble Elia of Bolnisi became worthy of priesthood at the church of St Gregory. There was no midnight service ordained in this church. I prescribed it for Sundays and distribute the communion wine for chanting to God. May God glorify Lord David and his sons and Lord Abul. From now on, whoever after me decides to cancel this midnight service or changes the communion wine of this church for monks may be condemned by God and by the church. Whoever abolishes it, must be punished by the law 
+                </p>
+                
+                     </div>                                                               
+            
+            <div type="apparatus" xml:space="preserve">             
+                <p><app loc="3"> <lem> ბოლნელ </lem>
+                 <rdg resp="ლევან მუსხელიშვილი">ბოლნელმაჲ</rdg>
+                    <rdg resp="მარი ბროსე">ვინაჲ</rdg>
+                 </app></p>                                     
+                    </div>
+           
+            <div type="commentary">
+                <p  xml:lang="ka"> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #137. წარწერას განკვეთილობის ნიშნები არ ახლავს, 
+                    მაგრამ სიტყვები ერთმანეთისაგან დაცილებულია (რამდენიმე შემთხვევაში სიტყვები შეერთებულია ერთმანეთთან,
+                    ან ერთი სიტყვა გაყოფილია ორ ნაწილად). დაქარაგმებულია მრავალი სიტყვა (სხვადასხვა წესით, მათ შორის, ბოლოკვეცილით), 
+                    ზოგჯერ კი დაუქარაგმებელია ისეთი სიტყვა, რომლის დაქარაგმებაც მოსალოდნელი იყო. ქარაგმის ნიშნად გამოყენებულია საშუალო ზომის სწორი, განივი ხაზი.
+               წარწერის დათარიღების პალეოგრაფიული საფუძველია: Ⴁ, Ⴗ, Ⴘ - გახსნილი რკალებით; Ⴄ, Ⴅ, Ⴊ, Ⴂ - დამატებითი, მარცხნივ გაზიდული ხაზებით; Ⴂ - რთული ფეხით;
+                </p>
+                <p xml:lang="en">
+                    According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #137. The inscription does not contain any mark of separation but there are spaces between the words (in some of the cases words are joined, or one word is split into two parts). Multiple words have the abbreviation marks (with different signs, including ბოლოკვეცილით), some words that were expected to be shorten by abbreviation, are remained without abbreviation mark. The abbreviation mark is a medium size horizontal line. The inscription is dated according to the paleographic data: Ⴁ, Ⴗ, Ⴘ with open arch; Ⴄ, Ⴅ, Ⴊ, Ⴂ have additional horizontal line leaned to the left; Ⴂ has a complex foot.
+                </p>
+             </div>      
+        </body>
+    </text>
+</TEI>

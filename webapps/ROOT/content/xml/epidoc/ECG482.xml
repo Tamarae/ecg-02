@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ოზბეგ დადიანის წარწერა</title>
+                <editor>ვალერი სილოგავა</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG482</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                           ჭლოუ
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მემორიალური</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/2">ადგილობრივი ქვა</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1483">ფილა ფასადზე</objectType>
+                                        <dimensions unit="cm">
+                                        <width>100</width>
+                                        <height>71</height>
+                                        <depth>8</depth>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="3">
+                                        <dimensions/>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli" style="embossed">
+                                <rs type="execution">რელიეფური</rs>, 3 სტრიქონიანი, <rs type="script">ასომთავრული</rs> წარწერა. განკვეთილობის ნიშანი: ერთი მსხვილი რელიეფური წერტილი ორ ადგილას. ქარაგმის ნიშნები არ ახლავს.
+                                   <height min="13" max="14.5">13-14,5</height>
+                                 </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                ფილას გვერდებიდან და ზემოდან შემოუყვება რელიეფური ჩარჩო, რომლის ზედა კუთხეებში რელიეფური პალმეტებია მოთავსებული.
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ჭლოუ</origPlace>
+                                <origDate notBefore="1445" notAfter="1452">1445-1452 AD</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">ს. ჭლოუს ეკლესიის ნანგრევები</placeName>
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">
+                            <placeName type="modernSpot">დ. გულიას სახელობის აფხაზეთის ისტორიული მუზეუმი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2019-05-30" who="LP">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, ბმულებით დაკავშირება გარე კონტროლირებად ლექსიკონთან</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.22.jpg"></graphic>
+            <desc xml:lang="ka">ოზბეგ დადიანის წარწერა</desc>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+
+            <!-- ე(რისთავ)თა ერ(ის)თ(ა)ვი
+                 მ(ა)ნ(და)ტ(ურ)თუხ(უ)ც(ე)სი დ(ა)დ(ია)ნ ოზბ(ეგ)ს
+                 შ(ეუნდვე)ნ ღ(მერთმა)ნ
+            -->
+
+            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><persName ref="attestedperson.xml#person17"><roleName><w lemma="ერისთავთ-ერისთავი"><expan><abbr>ე</abbr><ex>რისთავ</ex><abbr>თა</abbr></expan> <expan><abbr>ერ</abbr><ex>ის</ex><abbr>თ</abbr><ex>ა</ex><abbr>ვი</abbr></expan></w>
+                    <lb n="2"/><w lemma="მანდატურთუხუცესი"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ნ</abbr><ex>და</ex><abbr>ტ</abbr><ex>ურ</ex><abbr>თუხ</abbr><ex>უ</ex><abbr>ც</abbr><ex>ე</ex><abbr>სი</abbr></expan></w></roleName> <expan><abbr>დ</abbr><ex>ა</ex><abbr>დ</abbr><ex>ია</ex><abbr>ნ</abbr></expan> <expan><abbr>ოზბ</abbr><ex>ეგ</ex><abbr>ს</abbr></expan></persName>
+                    <lb n="3"/><w lemma="შეუნდობს"><expan><abbr>შ</abbr><ex>ეუნდვე</ex><abbr>ნ</abbr></expan></w> <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ka"><p>ერისთავთ-ერისთავს, მანდატურთუხუცესს ოზბეგ დადიანს შეუნდე ღმერთო</p></div>
+            <div type="apparatus" xml:space="preserve"/>
+            <div type="commentary"><p>ფილა გაპობილია ორ, თითქმის თანაბარ ნაწილად: ჩამომტვრეულია მისი ქვედა მარჯვენა კუთხე. როგორც ფილის ჩარჩოდან ჩანს, მას ქვემოდან სხვა ფილა ჰქონდა მიდგმული და შეიძლება ორივე ერთად საფლავის ქვა იყო. წარწერა შესრულებულია ადგილ-ადგილ ხვეული დამწერლობით.</p></div>
+            <div type="bibliography" subtype="principalEdition">
+                
+                    <p><bibl type="publication" subtype="principal" xml:lang="ka">
+                      <author>
+                          <persName>
+                            <forename></forename>
+                            <surname></surname>
+                          </persName>
+                      </author>
+                      <title/>
+                        <edition/>
+                        <pubPlace/>
+                        <publisher/>
+                        <date></date>
+                     </bibl></p>
+                
+            </div>
+         </body>
+    </text>
+</TEI>

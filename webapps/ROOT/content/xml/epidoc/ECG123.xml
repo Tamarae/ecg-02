@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>საფარის წმ. საბას ტაძრის გიორგი მალეს წარწერა</title>
+                <editor>ვალერი სილოგავა</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG123</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>საფარა</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სავედრებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="1">წარწერა ერთსტრიქონიანია
+                                        <dimensions unit="cm">
+                                         <width/>
+                                         <height/> 
+                                        </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asmotavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა, კიდურწაისრული
+                                   <height/> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>საფარის მონასტრის წმ. საბას ტაძარი</origPlace>
+                                 <origDate notBefore-custom="1200" notAfter-custom="1300" precision="medium"
+                                    evidence="context" datingMethod="#julian">XIII AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">საფარის მონასტრის წმ. საბას ტაძარი</placeName>
+                                <!-- "41.602116, 43.031036"--> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"></rs>
+                                <rs type="monuList"/>
+                            </provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">საფარის მონასტრის წმ. საბას ტაძარი</placeName>
+                                <idno type="invNo"/>
+                            </provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+   <!-- <facsimile>
+        <surface>
+            <graphic url="ecg123.jpg">
+                <desc xml:lang="ka">საფარის წმ. საბას ტაძრის გიორგი მალეს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile> -->
+    <text>
+        <body>                    
+            <div type="bibliography">
+                 
+    <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
+               
+            </div>
+ 
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!-- "ოო ღთ შეწირნ კრნი ესე ვა მწჳლლნი ქურვსნი მწრისა გი მალესგნ შენდვნ ღნ "--> 
+                                                            
+           
+                <ab>
+                   <lb n="1"/><w lemma="უფალ"><expan><abbr>ო</abbr><ex>ჳფალ</ex><abbr>ო</abbr></expan></w> 
+                              <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერ</ex><abbr>თ</abbr><ex>ო</ex></expan></w> 
+                              <w lemma="შეწირვა"><expan><abbr>შე</abbr><ex>ი</ex><abbr>წირ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w> 
+                              <w lemma="კარ"><expan><abbr>კ</abbr><ex>ა</ex><abbr>რნი</abbr></expan></w> 
+                              <w lemma="ესე">ესე</w> 
+                              <w lemma="ვითარცა"><expan><abbr>ვ</abbr><ex>ითარც</ex><abbr>ა</abbr></expan></w> 
+                              <w lemma="მწულილ"><expan><abbr>მწ</abbr><ex>ო</ex><abbr>ჳლ</abbr><ex>ი</ex><abbr>ლნი</abbr></expan></w> 
+                              <w lemma="ქურივ"><expan><abbr>ქურ</abbr><ex>ი</ex><abbr>ვ</abbr><ex>ი</ex><abbr>ს</abbr><ex>ა</ex><abbr>ნი</abbr></expan></w> 
+                              <w lemma="მწირ"><expan><abbr>მწ</abbr><ex>ი</ex><abbr>რისა</abbr></expan></w> 
+                              <name nymRef="გიორგი"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></name> 
+                              <w lemma="მალე"><expan><abbr>მალეს</abbr><ex>ა</ex><abbr>გ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
+                              <w lemma="შენდობა"><expan><abbr>შე</abbr><ex>მი</ex><abbr>ნდვ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w>
+                              <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
+                   </ab>
+               
+            </div>   
+            
+         <div type="translation" xml:lang="ka">
+             <p>უფალო ღმერთო, შეიწირე ეს კარები, როგორც მწულილი ქვრივისა, მწირ გიორგი მალესაგან, შემინდოს ღმერთმა.</p>
+         </div>    
+                             
+               <div type="commentary">
+                <p>საფარის მონასტერი ძველი დროიდანვე სხვადასხვა დანიშნულების 12 ნაგებობისაგან შედგებოდა. მათ შორის მთავარია წმ. საბას
+                   სახელობის ტაძარი, აგებული ბექა სამცხის სპასალარისა და მანდატურთუხუცესის მიერ XIII-XIV სს. მიჯნაზე. საფარაში ამაზე ძველი ეკლესიაც არსებობს, X ს-ის
+                   ღვთისმშობლის მიძინების სახელობის ტაძარი, რომელსაც ჩრდილოეთიდან მიდგმული აქვს ზემოხსენებული წმ. საბას ტაძარი.
+                   საფარის წმ. საბას ტაძრის დასავლეთის შესასვლელის დიდი ზომის არქიტრავზე ქვემოდან ზემოთ
+                                ერთმანეთის თანმიმდევრობით ამოკვეთილია სამი წარწერა-საბუთი. ზემოდან პირველი წარწერა არის ოქროპირ გაბეცასძის მიერ ეკლესიის 
+                                ქვის ფილებით გადასახურად 120 ბოტინატის შეწირვის შესახებ, მეორე - იოვანე ღვიას შვილის წარწერა, 
+                                ხოლო მესამე - გიორგი მალეს წარწერა კარის შეწირვის შესახებ.
+                  გიორგი მალეს წარწერის მიხედვით, გიორგი მალეს ტაძრისათვის შეუწირავს კარნი. იგი უფალს სთხოვს, ეს კარნი ისე შეიწირე, „ვითარცა მწულილნი ქურივისანიო“.
+                ვალერი სილოგავას აზრით, „მწულილნი ქურივისანი“ ალუზიაა სახარებისეული იგავისა (მრ. 12,4; ლკ. 21,1-4). სახარების აღნიშნულ მუხლებში
+                მოთხობილია ქვრივი გლახაკი დედაკაცის შესახებ, რომელმაც იერუსალიმის ტაძარს ორი წვრილი მონეტა შესწირა, ხოლო მაცხოვარმა, რომელიც იქვე იდგა მოწაფეებთან
+                ერთად და „ხედვიდა“, როგორ სწირავდნენ ტაძარს მდიდრები, ქვრივი დედაკაცის შეწირულება ყოველთა მდიდართა მიერ შეწირულ „ფრიადთა უფროჲსად“
+                შეწირულად მიიჩნია, რადგან მათ „ნამეტნავისაგან მათისა დადვეს შესაწირავსა“, ხოლო ქვრივმა - „ნაკლულოვანებისაგან თჳსისა ყოველი, რაჲცა აქუნდა“. იგავის აზრია:
+                ქვრივმა ორი წვრილი მონეტის სახით ყველა სხვა მდიდარზე მეტი შეწირა, რადგან უკანასკნელი საარსებო რაც გააჩნდა, იგი გაიღო, ხოლო მდიდრებმა, რაც
+                ზედმეტი გააჩნდათ, იგი შეწირეს ტაძარს. იმ მდიდარი შეწირულობის ფონზე, როდესაც ოქროპირ გაბეცასძე 120 ბოტინატს სწირავს საფარას, 
+                ხოლო იოვანე ღვიას შვილი დიდძალ მამულებს, გიორგი მალეს მცირე შეწირულობა - მხოლოდ კარები გაუღია. როგორც სახარებაში, 
+                ისე წმ. საბას ტაძრის არქიტრავის წარწერებში აშკარაა შეწირულ ქონებათა უთანასწორობა, თუმცა ამით ოდნავ არ მცირდება გიორგი მალეს 
+                შეწირულების მნიშვნელობა, პირიქით, იგი აღემატება კიდეც სხვებისას თავისი გულწრფელობით და უკანასკნელი შესაწირის გაღებით, 
+                რაც მინიშნებულია სახარებისეული იგავის ალუზიური მოხმობით.</p>                
+            </div>
+        </body>
+    </text>
+</TEI>

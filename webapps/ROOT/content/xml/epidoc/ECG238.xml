@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">დაწერილი ნადის დაწესების შესახებ</title>
+                <editor xml:lang="ka">გიორგი ოთხმეზური</editor> 
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <idno type="filename">ECG238</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            დმანისი
+                        </collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">დაწერილი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType xml:lang="ka" ref="https://www.eagle-network.eu/voc/objtyp/lod/1402">ფილა</objectType>
+                                    <material xml:lang="ka" ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <dimensions>
+                                        <width/>
+                                        <height/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="6">
+                                     შესრულებული იყო ეკლესიის ქვის ფილაზე. 6 სტრიქონად.
+                                    <dimensions unit="cm">
+                                        <width>60</width>
+                                        <height>38,6</height>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli_n" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა  (მე-17 გრაფემა ლ-ანი ნუსხურად). ქარაგმისა და განკვეთილობის ნიშნები არ ახლავს.
+                                <dimensions unit="cm">
+                                    <height>3,5-6,5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>მიჯას (ჯავახის) ეკლესია</origPlace>
+                            <origDate notBefore="1050" notAfter="1200">XI-XII AD</origDate>
+                        </origin>
+                        <provenance type="observed">
+                            <placeName type="modernSpot">განთიადის XIX საუკუნის ეკლესია</placeName>
+                            <rs type="circumstances"/>
+                            <idno/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    
+          <!-- 
+    <facsimile>
+        <surface>
+            <graphic url="tskise_01.jpg">
+                <desc xml:lang="ka">წყისეს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile> -->
+    
+    
+    
+    <text>
+        <!--
+        1....ნადი (?) თუ(ი)ნიერ მ(ა)მ
+        2.[ისა] (?) ...[და]წერილი გა[ვუთავე?]...
+        3....[კ](რულ)მცა წ(მიდა)ჲ საყდ[რისაგან]...
+        4.დ(ა) ვინცა...
+        5....ათსს...
+        6....იმცა.
+        -->
+        <body>
+            
+            <div type="bibliography">
+                
+                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>135-136</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
+                 <p><bibl n="2">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>29</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
+                <p><bibl n="3">დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>147</citedRange> თბილისი, 2014<ptr target="bibliography.xml#b213"/></bibl></p>
+              
+            </div>
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+
+            <ab>
+                <lb n="1"/>
+                           <w lemma="ნად">ნადი</w>                                      
+                           <w lemma="თუინიერ"><expan><abbr>თუ</abbr><ex>ი</ex><abbr>ნიერ</abbr></expan></w> 
+                           <w lemma="მამა"><expan><abbr>მ</abbr><ex>ა</ex><abbr>მ</abbr> 
+               <lb n="2" break="no"/><supplied reason="lost" precision="low"><abbr>ისა</abbr></supplied></expan></w> 
+                           
+                           <w lemma="წერა"><supplied reason="lost" precision="low">და</supplied>წერილი</w> 
+                           <w lemma="გათავება">გა<supplied reason="lost" precision="low">ვუთავე</supplied></w> 
+                           
+               <lb n="3"/>
+                           <rs type="curse"><w lemma="კრულ"><expan><supplied reason="lost" precision="medium"><abbr>კ</abbr></supplied><ex>რულ</ex><abbr>მცა</abbr></expan></w> 
+                           <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ჲ</abbr></expan></w> 
+                           <w lemma="საყდარ">საყდ<supplied reason="lost" precision="medium">რისაგან</supplied></w> 
+                           
+               <lb n="4"/><w lemma="და"><expan><abbr>დ</abbr><ex>ა</ex></expan></w> 
+                          <w lemma="ვინ">ვინცა</w> 
+                          
+               <lb n="5"/>
+                          <w lemma="ათ">ათსს</w>                      
+                          
+               <lb n="6"/>
+                          <orig n="unresolved">იმცა</orig></rs>           
+                          
+                </ab>
+             
+            </div>
+
+               
+                <div type="translation"/>
+                
+                <div type="commentary">
+                    <p>შესრულებული იყო სოფ. მიჯას (ჯავახი) ეკლესიის ქვის ფილაზე.
+                        მოგვიანებით სოფ. მიჯადან მოსახლეობა გადასახლებულა სოფ. განთიადში, სადაც
+                        წაუღიათ მიჯას ეკლესიის ეს და სხვა წარწერიანი ქვები და მე-19 საუკუნის
+                        ეკლესიის იატაკში ჩაუშენებიათ. დღეს მიჯას წარწერიანი ქვები განთიადის ეკლესიის
+                        იატაკიდან ამოლაგებულია და ეკლესიის ეზოში ღია ცის ქვეშ აწყვია. 
+                        დაზიანება: წარწერიანი ქვა ბოლო რამდენიმე წელია ღია ცის ქვეშ დევს, რის გამოც გამოქარვისა
+                        და გადარეცხვის შედეგად, ისედაც დაზიანებული წარწერა კიდევ უფრო რთულად,
+                        ფრაგმენტულად იკითხება. თავ-ბოლო ნაკლული. აკლია სტრიქონების კიდეებიც.
+                        წარწერის დათარიღების საფუძველი: პალეოგრაფიულად თანადროული უნდა იყოს ივანე
+                        ლომსიანიძის წარწერისა. 
+                        დ. ბერძენიშვილი I სტრიქონზე კითხულობს სიტყვებს: ...ნ ადიდონ ღმერთმან, III-ზე - იმცა, წმიდაჲსა ყ(ოვლისა
+                        საოხა)დ, V-ზე - (მოუშალოს კრულია) ღმრთისაგან..., VI-ზე - (ნაწ)ილიმცა...;
+                        გ. ოთხმეზური 2016 წლის გამოცემაში I სტრიქონზე კითხულოვს სიტყვას: თჳნიერ,
+                        IV-ზე - (შეცვალოს), VI-ზე - (რისხვა)ვმცა (ღმერთი)</p>
+                </div>
+
+        </body>
+    </text>
+</TEI>

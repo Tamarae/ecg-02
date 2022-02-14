@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>წარწერა მთავარი კარიბჭის თავზე</title>
+                <editor></editor>
+            </titleStmt>
+            <publicationStmt>
+                 <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <idno type="filename">ECG537</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>საქართველო</country>
+                        <region>კახეთი</region>
+                          <settlement>საგარეჯოს მუნიციპალიტეტი</settlement>
+                         <collection>დავით-გარეჯი</collection>
+                    </msIdentifier>
+                     <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material ref="www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                   <objectType>ფასადი</objectType>
+                                    <dimensions unit="cm">
+                                        <width/>
+                                         <height/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="4">4 სტრიქონიანი წარწერა ამოკაწრულია წმ. დავითის მთავარი კარიბჭის თავზე.
+                                   <dimensions unit="cm">
+                                       <width>98</width>
+                                        <height>35</height>
+                                   </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <rs type="script">ასომთავრული</rs>, განკვეთილობის ნიშნად იხმარება სამწერტილი, სიტყვები დაქარაგმებულია.
+                                <dimensions unit="cm"/>
+                                <height>3,4-8,4</height>
+                                 </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>დავით გარეჯის მონასტერი</origPlace>
+                                <origDate>1695 წ.</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName>
+                                    დავით გარეჯი
+                                </placeName>             <!-- სტოაორგში ვერ ვპოულობ გარეჯის მონასტრის ლინკს -->
+                                <rs type="circumstances"/>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">
+                            <placeName/>
+                            <idno/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <!--
+
+    <facsimile>
+        <surface>
+            <graphic url="tskise_01.jpg">
+                <desc xml:lang="ka">წყისეს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+
+    -->
+    <text>
+        <body>
+
+            <div type="bibliography">
+                
+                    <p><bibl n="1">გარეჯის ეპიგრაფიკული ძეგლები, <citedRange>80</citedRange></bibl></p>
+                    <p><bibl n="2">მღვდელმონაზონი კალისტრატე, <citedRange>4-5</citedRange></bibl></p>
+                
+            </div>
+
+            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
+                        <!--
+                            გ(ა)ნმიხუენით მე ბჭენი | სიმ(ა)რთლისანი, შევიდე მ(ა)ს შ(ინ)ა
+                            დ[ა] აუ|ვარო უ(ფალს)ა - ესე არს ბჭე უ(ფლ)ის(ა)ჲ და | მ(ა)რთ(ა)ლნი
+                            შევლენ ამ(ა)ს შ(ინ)ა. ქ(ორონი)კ(ონ)სა ტპგ ჻
+                            .  -->
+             <ab>
+                 <lb n="1" /><w lemma="განხუმა"><expan><abbr>გ</abbr><ex>ა</ex><abbr>ნმიხუენით</abbr></expan></w>
+                              <w lemma="მე">მე</w>
+                              <w lemma="ბჭე">ბჭენი</w>
+                 <lb n="2"/><w lemma="სიმართლე"><expan><abbr>სიმ</abbr><ex>ა</ex><abbr>რთლისანი</abbr></expan></w>
+                              <w lemma="შესლვა">შევიდე</w>
+                              <w lemma="მას"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ს</abbr></expan></w>
+                              <w lemma="შინ"><expan><abbr>შ</abbr><ex>ინ</ex><abbr>ა</abbr></expan></w>
+                              დ<supplied reason="undefined" >ა</supplied> 
+                              <w lemma="ავლა">აუ<supplied reason="undefined">ო       <!-- აქ „ო“ იმიტომ გამოვყავი ასე, რომ მკვლევარს აქვს ამოკითხული წინა შემთხვევის მსგავსად. -->
+                 <lb n="3" break="no"/>ვარო</supplied></w>
+                              <w lemma="უფალი"><expan><abbr>უ</abbr><ex>ფალს</ex><abbr>ა</abbr></expan></w>
+                              <w lemma="ესე">ესე</w>
+                              <w lemma="არს">არს</w>
+                              <w lemma="ბჭე">ბჭე</w>
+                              <w lemma="უფალი"><expan><abbr>უ</abbr><ex>ფლ</ex><abbr>ის</abbr><ex>ა</ex><supplied reason="undefined">ჲ</supplied></expan></w> <!-- აქ იოტაა დამატებული მლვლევარის მიერ -->
+                              და
+                 <lb n="4"/><w lemma="მართალ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>რთ</abbr><ex>ა</ex><abbr>ლნი</abbr></expan></w>
+                               <w lemma="ვლა">შევლენ</w>
+                               <w lemma="ამას"><expan><abbr>ამ</abbr><ex>ა</ex><abbr>ს</abbr></expan></w>
+                               <w lemma="შინ"><expan><abbr>შ</abbr><ex>ინ</ex><abbr>ა</abbr></expan></w>
+                               <rs type="date"><w lemma="ქრონიკონ"><expan><abbr>ქ</abbr><ex>ორონი</ex><abbr>კ</abbr><ex>ონ</ex><abbr>სა</abbr></expan></w>
+                               <num value="123">ტპგ</num></rs> ჻    <!-- ჩაწერე რეალური რიცხვითი მნიშვნელობა -->
+                   </ab>
+
+            </div>
+
+            <div type="translation" xml:lang="ka">
+            </div>
+
+            <div type="apparatus"/>
+
+            <div type="commentary">
+                 <p>გ ა მ ო ც: [9] მღვდელმონაზონი კალისტრატე, 1884 წ.  4-5 (მხედრ. ტრანსკრ.; ფოტო) (კ);
+                     [15] პ. ცხვილოელი, 1895,  3 (წარწერის ნაწილის მხედრ. ტრანსლიტ.) (ც);
+                     [7] ე. თაყაიშვილი, 1916, N597 (მხედრ. ტრანსლიტ.) (თ);
+                     [24] Г. N. Чубинашвили, 1948,  99 (დედნ. შრიფ.) (ჩ);
+                     [5] თ. ბარნაველი, 1962,  47 (დედნ. შრიფ.; მხედრ. ტრანსლიტ.) (ბ).</p>
+            </div>
+
+         </body>
+    </text>
+</TEI>

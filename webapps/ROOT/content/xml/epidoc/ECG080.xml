@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ზარზმის ივანე სულასძის წარწერა ეგუტერის აშენებისა</title>
+                <title xml:lang="en">Inscription from Zarzma of Ivane son of Sula</title>
+                <editor xml:lang="ka">ვალერი სილოგავა</editor>
+                <editor xml:lang="en">Valeri Silogava</editor>
+                
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG080</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ზარზმა</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო</seg>
+                            <seg xml:lang="en">Building</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType  xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფილა</objectType>
+                                   <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">Plaque</objectType>
+                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material> 
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material> 
+                                      <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="10">
+                                        <seg xml:lang="ka">წარწერა ათსტრიქონიანია</seg>
+                                        <seg xml:lang="en">Ten line inscriptionTen line inscription</seg>
+                                        <dimensions unit="cm">
+                                         <width/>
+                                         <height/> 
+                                          </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                <seg xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
+                                <seg xml:lang="en">Engraved Asomtavruli inscription.</seg>
+                                   <height/> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace ref="https://memkvidreoba.gov.ge/objects/immovable/immovableObject?id=24646">
+                                   <seg xml:lang="ka">ზარზმის მონასტერი</seg>
+                                    <seg xml:lang="en">Zarzma Monastery</seg>
+                                </origPlace>
+                                 <origDate precision="high" datingMethod="#julian">980 AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">
+                                    <seg xml:lang="ka">ზარზმის მონასტერი</seg>
+                                    <seg xml:lang="en">Zarzma Monastery</seg>
+                                </placeName>
+                                <!-- "41.679888, 42.653828"--> 
+                                <rs type="circumstances"/>
+                                <rs type="context">
+                                    <seg xml:lang="ka">ივანე სულასძის წარწერა თავის დროზე ამოკვეთილი უნდა ყოფილიყო არქიტრავის მონუმენტურ ქვის ფილაზე</seg>
+                                    <seg xml:lang="en">The inscription of Ivane son of Sula was engraved on monumental architrave of the stone plaque </seg>
+                                </rs>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                          <placeName type="modernSpot">
+                              <seg xml:lang="ka">ზარზმის მონასტერი</seg>
+                              <seg xml:lang="en">Zarzma Monastery</seg>
+                          </placeName>
+                        <idno type="invNo"/>
+                      </provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+     <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg080.jpg">
+                <desc xml:lang="ka">ზარზმის ივანე სულასძის წარწერა ეგუტერის აშენებისა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body> 
+            <div type="bibliography">
+                
+             <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
+             <p><bibl n="2">ვალერი სილოგავა, სამცხე-ჯავახეთის ისტორიული მუზეუმის ქართული ეპიგრაფიკული ძეგლები, კატალოგი-გზამკვლევი<ptr target="bibliography.xml#b150"/>, <citedRange> 16-17; 51-52</citedRange></bibl></p>
+                                                       
+            </div>       
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--  "†სხლთა ღითა და წსა ღთსმ
+                                შობლისა მხბთა მე ივნე ძემნ სოლ
+                                სმნ აღვაშნე წჲ ეგტრი მას ჟმ
+                                სა ოდს საბრძნთს გადგა სკ
+                                ლიაროსი დავთ კრპლტი ადდნ
+                                ღნ ოშჳლა წთა მფთა და ჩნ
+                                ყნი ლაშქარს წაგლნნა სკლია
+                                როსი გავქციეთ მე მს ქყნსა რ
+                                ლსა ჰქნ ხარსანანი ადგილსა რლ
+                                სა ჰქნ სარვენისნი მონ ესუენა ტახტი..."--> 
+                                                            
+                <ab>
+                   <lb n="1"/>&#8224;<w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
+                                     <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთ</ex><abbr>ი</abbr><ex>საჲ</ex><abbr>თა</abbr></expan></w> 
+                                     და 
+                                     <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდი</ex><abbr>სა</abbr></expan></w> 
+                                     <w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr><ex>ი</ex><abbr>სმ
+                   <lb n="2" break="no"/>შობ</abbr><ex>ე</ex><abbr>ლისა</abbr></expan></w> 
+                                <w lemma="მეოხება"><expan><abbr>მ</abbr><ex>ეო</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
+                                <w lemma="მე">მე</w> 
+                                <persName type="local" key="ივანე სულას ძე [ზარზმის ეკუდერის მაშენებელი]"><name nymRef="ივანე"><expan><abbr>ივ</abbr><ex>ა</ex><abbr>ნე</abbr></expan></name> 
+                                <w lemma="ძე"><expan><abbr>ძემ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
+                                <name nymRef="სულა"><expan><abbr>სო</abbr><ex>ჳ</ex><abbr>ლ</abbr><ex>ა</ex>
+                   <lb n="3" break="no"/><abbr>სმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></name></persName> 
+                                    <w lemma="აშენება"><expan><abbr>აღვაშ</abbr><ex>ე</ex><abbr>ნე</abbr></expan></w> 
+                                    <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ჲ</abbr></expan></w> 
+                                    <w lemma="ეგუტერ"><expan><abbr>ეგ</abbr><ex>უ</ex><abbr>ტ</abbr><ex>ე</ex><abbr>რი</abbr></expan></w> 
+                                    <w lemma="იგი">მას</w> 
+                                    <w lemma="ჟამ"><expan><abbr>ჟ</abbr><ex>ა</ex><abbr>მ
+                   <lb n="4" break="no"/>სა</abbr></expan></w> 
+                                    <w lemma="ოდეს"><expan><abbr>ოდ</abbr><ex>ე</ex><abbr>ს</abbr></expan></w> 
+                                    <placeName nymRef="საბერძნეთ"><expan><abbr>საბ</abbr><ex>ე</ex><abbr>რძნ</abbr><ex>ე</ex><abbr>თს</abbr></expan></placeName> 
+                                    <w lemma="გადგომა">გადგა</w> 
+                                    <persName type="local" key="ბარდა სკლიაროსი" ref="https://en.wikipedia.org/wiki/Bardas_Skleros"><name nymRef="სკლიაროს">სკ
+                   <lb n="5" break="no"/>ლიაროსი</name></persName> 
+                                    <persName type="local" key="დავით III კურაპალატი" ref="http://georgianencyclopedia.ge/index.php/დავით_III"><name nymRef="დავით"><expan><abbr>დავ</abbr><ex>ი</ex><abbr>თ</abbr></expan></name>
+                                    <roleName nymRef="კურაპალატ"><expan><abbr>კ</abbr><ex>უ</ex><abbr>რ</abbr><ex>ა</ex><abbr>პ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ა</ex><abbr>ტი</abbr></expan></roleName></persName>  
+                                    <w lemma="დიდება"><expan><abbr>ად</abbr><ex>ი</ex><abbr>დ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w>
+                   <lb n="6"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> 
+                                <w lemma="შუელა"><expan><abbr>ო</abbr><ex>ჳ</ex><abbr>შ</abbr><ex>ო</ex><abbr>ჳ</abbr><ex>ე</ex><abbr>ლა</abbr></expan></w> 
+                                    <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>თა</abbr></expan></w> 
+                                    <roleName nymRef="მეფე"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფ</abbr><ex>ე</ex><abbr>თა</abbr></expan></roleName> 
+                                    <w lemma="და">და</w> 
+                                    <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნ</abbr></expan></w>
+                   <lb n="7"/><w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოველ</ex><abbr>ნი</abbr></expan></w> 
+                                     <w lemma="ლაშქარ">ლაშქარს</w> 
+                                     <w lemma="წარვლენა"><expan><abbr>წა</abbr><ex>რ</ex><abbr>გ</abbr><ex>უავ</ex><abbr>ლ</abbr><ex>ი</ex><abbr>ნნა</abbr></expan></w> 
+                                    <persName type="local" key="ბარდა სკლიაროსი" ref="https://en.wikipedia.org/wiki/Bardas_Skleros" ><name nymRef="სკლიაროს">სკლია
+                   <lb n="8" break="no"/>როსი</name> </persName>
+                                   <w lemma="გაქცევა"><expan><abbr>გავ</abbr><ex>ა</ex><abbr>ქციეთ</abbr></expan></w> 
+                                   <w lemma="მე">მე</w> 
+                                   <w lemma="მას"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ს</abbr></expan></w> 
+                                   <w lemma="ქუეყანა"><expan><abbr>ქ</abbr><ex>უე</ex><abbr>ყ</abbr><ex>ა</ex><abbr>ნ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w> 
+                                   <w lemma="რომელ"><expan><abbr>რ</abbr>
+                   <lb n="9" break="no"/><ex>ომე</ex><abbr>ლსა</abbr></expan></w> 
+                                    <w lemma="რქმევა"><expan><abbr>ჰ</abbr><ex>რ</ex><abbr>ქ</abbr><ex>ჳა</ex><abbr>ნ</abbr></expan></w> 
+                                     <placeName nymRef="ხარსანანი">ხარსანანი</placeName> 
+                                    <w lemma="ადგილ">ადგილსა</w> 
+                                    <w lemma="რომელ"><expan><abbr>რ</abbr><ex>ომე</ex><abbr>ლ
+                   <lb n="10" break="no"/>სა</abbr></expan></w> 
+                                     <w lemma="რქმევა"><expan><abbr>ჰ</abbr><ex>რ</ex><abbr>ქ</abbr><ex>ჳა</ex><abbr>ნ</abbr></expan></w> 
+                                     <placeName nymRef="სარვენისნი">სარვენისნი</placeName> 
+                                     <w lemma="მუნ"><expan><abbr>მო</abbr><ex>ჳ</ex><abbr>ნ</abbr></expan></w> 
+                                     <w lemma="დასუენება">ესუენა</w> 
+                                     <w lemma="ტახტი">ტახტი</w> 
+                                    <!--   <gap reason="lost" extent="unknown" unit="lines"/>-->
+                   </ab>
+               </div>         
+         
+            <div type="translation" xml:lang="ka">
+             <p xml:lang="ka">† ღვთის სახელით და წმინდა ღვთისმშობლის მეოხებით, მე, ივანე სულას ძემ, ავაშენე წმინდა ეკუდერი. იმ დროს, როდესაც საბერძნეთში
+                 განდგა სკლიაროსი, დავით კურაპალატი ადიდოს ღმერთმა, უშველა წმინდა მეფეებს და ჩვენ ყველანი სალაშქროდ წარგვავლინა. სკლიაროსი გავაქციეთ. 
+             მე იმ ქვეყანაში, რომელსაც ჰქვია ხარსანანი და ადგილს, რომელსაც ჰქვია სარვენისნი, იქ ესვენა ტახტი...</p>
+                <p xml:lang="en">
+                    In the name of God and with the aid of Mary, mother of Jesus, I, Ivane son of Sula built this holy chapel. When Skleros was resigned in Greece, God glorify David Kurapalates as he helped the holy Kings and we all started for the war. We defeated Skleros. I, in the country that is called Kharsanan and another place that is called Sarvenis, there this throne was placed...
+                </p>
+         </div>    
+                             
+               <div type="commentary">
+                <p xml:lang="ka">ზარზმის მონასტერი ადიგენის მუნიციპალიტეტში მდებარეობს. ივანე სულასძის წარწერა თავისი შინაარსითა და მნიშვნელობით 
+                    სცილდება საქართველოს ფარგლებს და ბიზანტიის იმპერიის ისტორიის ფაქტს - 979 წელს საიმპერატორო კარის წინააღმდეგ
+                ცნობილი სარდლის, ბარდა სკლიაროსის, აჯანყებას ეხმიანება. წარწერის ავტორი, ივანე სულას ძე, როგორც ჩანს, ჩორჩნელთა ფეოდალური სახლის წარმომადგენელი, მონაწილე 
+               ყოფილა იმ 12 ათასიანი მხედრული ლაშქრისა, რომელიც დავით კურაპალატმა წარავლინა თორნიკეს სარდლობით და საიმპერატორო კარის თხოვნით ბარდა სკლიაროსის წინააღმდეგ.
+                ამ ლაშქრობაში მოპოვებული „ნატყუენავით“ ივანე სულას ძეს „წმინდა ეგტერი“, ე. ი. თავისი და მისი ოჯახის სამარხავი აუშენებია. 
+                წარწერა მასში დასახელებული ანთროპონიმებითა და ტოპონიმებითაც არის საინტერესო. კერძოდ, იქ ორგზის იხსენიება სკლიაროსი, ასევე, დავით კურაპალატი, 
+                თვით წარწერის ტექსტის მთავარი გმირი - ივანე სულას ძე. დასახელებულია საბერძნეთი, „ქუეყანა ხარსანანი“, „ადგილი სარვენისნი“ და სხვ.
+                წარწერის პირველმა ნახევარმა თავდაპირველი სახით მოაღწია ჩვენამდე. სამწუხაროდ, წარწერის მეორე ნახევარი ძლიერ დაზიანდა, შემორჩენილია მხოლოდ სტრიქონთა
+                დასაწყისები. </p>
+                   <p xml:lang="en">Zarzma Monastery is located in Adigeni Municipality. The inscription of Ivane son of Sula mentions the revolt which happened against the famous general Bardas Skleros in Byzantine Empire, beyond the borders of Georgia in 979. The author of the inscription Ivane son of Sula must be from the feudal family of Chorchans. He served in 12 000 men large military forces that David Kurapalates sent to fight against Bardas Skleros by the request of the royal family of the emperor of Byzantine. The head of the Georgian army was General Tornike Eristavi. Ivane the son of Sula seems to have built the holy chapel for his family and himself with the rewards he received in the war. The inscription is notable for its anthroponymes and toponymes. Skleros is mentioned twice, David Kurapalates and the author of the inscription Ivane son of Sula. Two locations from Greece are named: “the county Kharsanan” and “place of Sarvenis”. Only the first part of the inscription is survived, the second part is damaged and contains only the beginnings of the lines. </p>
+          </div>
+        </body>
+    </text>
+</TEI>

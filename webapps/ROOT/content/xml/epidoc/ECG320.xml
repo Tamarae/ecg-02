@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ნოქალაქევის კერამიკული ჭურჭლის სახელური</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG320</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                           ნოქალაქევი
+                        </collection>
+                    </msIdentifier>                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მემორიალური</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>  
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material>კერამიკა</material>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1780">ჭურჭლის სახელური</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="3">
+                                        <p>ჭურჭლის სახელურზე არის სინოპური დამღა ბერძნული წარწერით.</p>
+                                      <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>                              
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                <p></p>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ნოქალაქევი</origPlace>
+                                <origDate notBefore="-0400" notAfter="-0301" evidence="lettering" datingMethod="#julian">IV BC</origDate>
+                                </origin>
+                            <provenance type="found" when="1986">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/857041">ნოქალაქევი</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                           <provenance type="observed">
+                            <placeName type="modernSpot"></placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg320.jpg">
+                <desc xml:lang="ka">ჭურჭლის სახელური ნოქალაქევიდან, 1986</desc>
+                <desc xml:lang="en">Vessel handle from Nokalakevi, 1986</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 134</citedRange></bibl></p>
+                
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!-- ΒΟΡΥΟΣΑΣΤΥ
+                            ΝΟΜΟΥ
+                            ΦΟΡΜΙ
+
+                                                -->
+                     
+            
+         <ab>
+             <lb n="1"/><persName><name nymRef="Βορυς">Βορυος</name></persName> <roleName nymRef="ἀστυνόμος"><w lemma="ἀστυνόμος">ἀστυ
+             <lb n="2" break="no"/>νόμου</w></roleName>
+             <lb n="3"/><persName><name nymRef="Φορμίων"></name>Φορμί<supplied reason="subaudible">ωνος</supplied></persName>
+            </ab>    
+             
+         
+            </div>
+                
+            <div type="translation" xml:lang="ka">
+                <p>ბორის ასტინომის ფორმიონისა</p>
+            </div>
+            
+           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app>
+              <rdg></rdg>
+              </app></p>
+             </div>          
+            <div type="commentary">
+                <p>დათარიღება ხდება ასოებთა მოხაზულობისა და სინოპური ანალოგიური დამღების მიხედვით.</p>
+                 </div>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+

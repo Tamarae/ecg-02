@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>საამშენებლო წარწერა თეოდორესი</title>
+                <editor>გიორგი ოთხმეზური</editor>
+                <editor>ვალერი სილოგავა</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <idno type="filename">ECG222</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/"> 
+                        დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            დმანისი
+                        </collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო</seg>
+                            <seg xml:lang="en">Building</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/100">ცრუ სვეტი</objectType>
+                                    <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <dimensions>
+                                        <width/>
+                                        <height/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="7">
+                                        ეკლესიის ინტერიერში, მთავარი ტაძრის ჩრდილოეთ კედლის ე. წ. ცრუ სვეტის შელესილობაზე ამოკვეთილია 7 სტრიქონიანი წარწერა.
+                                    <dimensions unit="cm">
+                                        <width>80</width>
+                                        <height>55</height>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli_n" style="inscribed">
+                               <p xml:lang="ka"><rs type="script">ნუსხურნარევი ასომთავრული</rs> წარწერა. ბოლო (VII) სტრ-ში 2-ჯერ გვხვდება <rs type="script">განუსხურებისაკენ მიდრეკილი</rs> გრაფემა ლ. ქარაგმის ნიშნად
+                               გამოყენებულია მოკლე, სწორი ხაზი. განკვეთილობის ნიშნები არ გვხვდება.</p>
+                                <dimensions unit="cm">
+                                    <height>3-8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                წარწერას გარშემო შემოუყვება ჩაღრმავებული კანტი, რომელიც მართკუთხა ფორმისაა და ერთიანობაში წარწერას გარკვეულ ჩარჩოში აქცევდა.
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>ამბარლო, წმ. ელია წინასწარმეტყველის სახელობის ეკლესია</origPlace>
+                            <origDate>1032 AD</origDate>
+                        </origin>
+                        <provenance type="observed">
+                            <placeName type="modernSpot">ამბარლო, წმ. ელია წინასწარმეტყველის სახელობის ეკლესია</placeName>
+                            <rs type="circumstances"/>
+                            <idno/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    
+    <!-- 
+    
+        
+    <facsimile>
+        <surface>
+            <graphic url="tskise_01.jpg">
+                <desc xml:lang="ka">წყისეს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    -->
+    
+    <text>
+        <!--
+        1.სახ(ელი)თა ღ(მრთის)ჲ
+        2.თა და მ
+        3.ე(ო)ხ(ე)ბითა წ(მიდის)ა
+        4.[ღ](მრ)თ(ი)სმ(შობელისაჲ)თა მ
+        5.[ე] თ(ევდორ)ე ღ(ი)რ(ს) (ვი)ქმ(ე)ნ
+        6.ა(ღშენე)ბ(ა)დ წ(მიდის)ა ს(ა)ყ(დრი)სა
+        7.(სა)ლ[ო(ცველა)დ] ს(უ)ლ(ი)ს(ა) ჩ(ე)მ(ი)სა
+        -->
+        <body>
+            
+            <div type="bibliography">
+                
+                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>114-115</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
+              
+                <p><bibl n="2">ვ. სილოგავა, ქვემო ქართლის წარწერები<citedRange>242</citedRange>, თბილისი, 2000<ptr target="bibliography.xml#b218"/></bibl></p>
+                <p><bibl n="3">დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>108</citedRange> თბილისი, 2014<ptr target="bibliography.xml#b213"/></bibl></p>
+                 <p><bibl n="4">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>243</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
+            </div>
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+            <ab>
+                <lb n="1"/><w lemma="სახელ"><expan><abbr>სახ</abbr><ex>ელი</ex><abbr>თა</abbr></expan></w>                                 
+                          <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთის</ex><abbr>ჲ</abbr>
+                <lb n="2" break="no"/><abbr>თა</abbr></expan></w>
+                          და
+                          <w lemma="მეოხება"><expan><abbr>მ
+                <lb n="3" break="no"/>ე</abbr><ex>ო</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ბითა</abbr></expan></w>
+                          <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდის</ex><abbr>ა</abbr></expan></w>
+                <lb n="4"/><w lemma="ღმრთისმშობელ"><expan><supplied reason="lost" precision="medium"><abbr>ღ</abbr></supplied><ex>მრ</ex><abbr>თ</abbr><ex>ი</ex><abbr>სმ</abbr><ex>შობელისაჲ</ex><abbr>თა</abbr></expan></w>  
+                          <w lemma="მე">მ
+                <lb n="5" break="no"/><supplied reason="lost" precision="medium">ე</supplied></w>     
+                          <persName type="local" key="თევდორე [ამბარლოს მაშენებელი]"><expan><abbr>თ</abbr><ex>ევდორ</ex><abbr>ე</abbr></expan></persName>        
+                          <w lemma="ღირს"><expan><abbr>ღ</abbr><ex>ი</ex><abbr>რ</abbr><ex>ს</ex></expan></w>
+                          <w lemma="ქმნა"><expan><ex>ვი</ex><abbr>ქმ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w>        
+               <lb n="6"/><w lemma="შენება"><expan><abbr>ა</abbr><ex>ღშენე</ex><abbr>ბ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
+                          <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდის</ex><abbr>ა</abbr></expan></w>
+                          <w lemma="საყდარ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ყ</abbr><ex>დრი</ex><abbr>სა</abbr></expan></w>
+               <lb n="7"/><w lemma="ლოცვა"><expan><ex>სა</ex><abbr>ლ</abbr><supplied reason="lost" precision="medium"><abbr>ო</abbr><ex>ცველა</ex><abbr>დ</abbr></supplied></expan></w>   
+                          <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლ</abbr><ex>ი</ex><abbr>ს</abbr><ex>ა</ex></expan></w>   
+                          <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w>
+                </ab>
+            </div>
+
+
+        
+            
+                <div type="translation"/>
+                
+                <div type="commentary">
+                    <p>დაზიანება: წარწერის ქვედა მარცხენა ნაწილი გაბზარულია. გარდა ამისა ამ ნაწილში წარწერის ზედაპირი და
+                        კიდეები გაცვეთილია, რის გამოც IV-VII სტრიქონების პირველი რამდენიმე გრაფემა
+                        ცუდად იკითხება. წ
+                        არწერის დათარიღების საფუძველი: შინაარსისა და პალეოგრაფიული
+                        ნიშნების მიხედვით წარწერა ამავე ეკლესიის სამხრ. მინაშენის თეოდორეს
+                        საამშენებლო წარწერის თანადროულია. 
+                        ვ. სილოგავა მეექვსე სტრიქონში სიტყვას
+                        შემდეგნაირად კითხულობს: (ა)ღ(შენება)დ, მეშვიდეში - [სალოცველა]დ</p>
+                </div>
+            
+        </body>
+    </text>
+</TEI>

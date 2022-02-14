@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bibliography</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoding according to the TEI P4 Guidelines</p>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+      <listBibl>
+      
+                <!-- ECG -->
+                
+          <bibl type="book" xml:id="b1"><bibl type="abbrev">არქიმანდრიტი იოანე ღრიმეცი, 1863</bibl>
+  
+                     <title>Описание монастырей Ахпатского и Санагинского</title> <author>архим. Иоанн Крымский</author> <pubPlace>СПБ</pubPlace> <date>1863</date>
+                     <!--  <title>აღწერილობა ჰაღბატის და სანაჰინის მონასტრებისა</title> <author><forename>არქიმანდრიტი იოანე</forename> <surname>ღრიმეცი</surname></author> <pubPlace>პეტერბურგი</pubPlace> <date>1863</date> --> 
+               </bibl>
+
+                <bibl xml:id="b2"><bibl type="abbrev">ერზნეკეანცი, 1886</bibl>
+             <title>Հնախօսական տեղագրութիւն Հաղբատայ աշխարհահռչակ վանից սրբոյ Նշանի</title> <author>Գործ Ռոստոմ բեգ Երզնկեաց Հաղբատեցւոյ</author> <pubPlace>Վաղարշապատ</pubPlace> <date>1886</date>
+                 <!--  <title>არქეოლოგიური აღწერა ჰაღბატის საქვეყნოდ ცნობილი სურბ ნშანის სავანისა</title> <author>როსტომ ბეგ ერზნკეანცი</author> ვაღარშაპატი,1886--> 
+               </bibl>
+
+                <bibl xml:id="b3"><bibl type="abbrev">ჯალალიანცი, 1882</bibl>
+                <title>Ճանապարհորդութիւն ի Մեծ Հայաստան</title> <author>աշխատասիրութեամբ Սարգիս վարդապետի Ջալալեանց</author> <date>1841</date> <pubPlace>Տփխիս</pubPlace>
+                 <!--  <title>მოგზაურობა დიდ სომხეთში</title>, ვარდაპეტ სარგის ჯალალიანცის გამოკვლევით, 1841წელს, ნაწილი პირველი 1882, თბილისი--> 
+               </bibl>
+
+                <bibl xml:id="b4"><bibl type="abbrev">კოსტანიანცი, 1913</bibl>
+             <title>Վիմական տարեգիր, ցուցակ ժողովածոյ արձանագրութեանց հայոց</title> <author>Կ.Կոստանեանց</author> <pubPlace>Ս.Պետերբուրգ</pubPlace> <date>1913</date>
+                  <!--<title>ქვაზე წარწერები, სომხური წარწერების აღწერილობის კრებული</title>, შეადგინა კ.კოსტანიანცმა, პეტერბურგი, 1913  -->
+               </bibl>
+
+                <bibl xml:id="b5"><bibl type="abbrev">ლალაიანი, 1901</bibl>
+                    <title>Բորչալուի գաւառ</title> <author>Ե.Լալայան</author> <!--  Ազգագրական հանդէս գիրք  7-8, --><pubPlace>Թիֆլիս </pubPlace><date>1901</date>
+               </bibl>
+
+                <bibl xml:id="b6"><bibl type="abbrev">დარჩიაშვილი, 2010</bibl>
+                  <title>ძიებანი ქართულ-სომხური ურთიერთობების ისტორიიდან</title> <author><forename>შანშე</forename> <surname>დარჩიაშვილი</surname></author> <pubPlace>თბილისი</pubPlace> <date>2010</date>
+               </bibl>
+
+                <bibl xml:id="b7"><bibl type="abbrev">ოთხმეზური, 2018</bibl>
+                 <title>ქვემო ქართლის ეპიგრაფიკული კორპუსი</title> <author><forename>გიორგი</forename> <surname>ოთხმეზური</surname></author> <pubPlace>თბილისი</pubPlace> <date>2018</date>
+               </bibl>
+          
+          <bibl xml:id="b190">
+              <bibl type="abbrev">ორბელი, 1965</bibl>
+              <author>Հ. Ա. Օրբելի</author>
+              <title>Դիվան հայ վիմագրության</title> Պ.1, Երևան 1965
+          </bibl>
+          
+
+                <bibl xml:id="b8"><bibl type="abbrev">ხურცილავა, 2016</bibl>
+                 <title>About the old georgian inscriptions from Bir El-Qutt in Jerusalem</title> <author><forename>Besik</forename> <surname>Khurtsilava</surname></author> <!--  Journal " Istoriani",--> <pubPlace>August</pubPlace> <date>2014</date>
+               </bibl>
+
+         <bibl xml:id="b9"><bibl type="abbrev">ბრაუნდი, 1994</bibl>
+                  <author>David Braund</author>, <title>Georgia in Antiquity. A History of Colchis and Transcaucasian Iberia 550 BC – AD 562</title>. Oxford 1994
+               </bibl>
+               
+                <bibl xml:id="b10"><bibl type="abbrev">ბრაუნდი, 1993</bibl>
+                  <author>David Braund</author>, <title>Zeitschrift für Papyrologie Epigraphik</title>, King Flavius Dades, 1993
+               </bibl>
+
+
+                <bibl xml:id="b11"><bibl type="abbrev">ლანგი, 1966</bibl>
+                  <author>David Lang</author> <title>The Georgian</title>, London, 1966
+               </bibl>
+
+                <bibl xml:id="b12"><bibl type="abbrev">დეეტერსი, 1955</bibl>
+                  <author>G. Deeters</author> <title>Das Alter der georgischen Schrift</title>: or. Chr. Band 39. Vierte Serie. Dritter Band, 1955
+               </bibl>
+
+
+       <!-- <bibl xml:id="b13">D. Lang. The Georgian, London, 1966</bibl>-->     
+               
+                <bibl xml:id="b14"><bibl type="abbrev">ბერძენიშვილი, 1964</bibl>
+                  <author>დავით ბერძენიშვილი</author>, <title>ბოლნისის ისტორიული გეოგრაფიის საკითხები</title>, საქართველოს ისტორიული გეოგრაფიის კრებული, II, 1964
+               </bibl>
+               
+          <bibl xml:id="b15"> <bibl type="abbrev">MIA CSCO Vol 166</bibl>
+                  <author>I. Molitor</author> <title>MIA CSCO</title>. Vol 166. Subsidia, 10
+               </bibl>
+
+                <bibl xml:id="b16"><bibl type="abbrev">ბართოლომეი, 1887</bibl>
+                  <author>J. Bartholomaei</author>, <title>Letter, M. Brosset, bibliographie analytique des oeuvres de Marie-Felicité Brosset</title>. Membre de L’Académie Jmperiale des Sciences se Saint Petersbourg. 1824-1879. SPbg. 1887
+               </bibl>
+          
+          
+          <bibl xml:id="b193">
+              <bibl type="abbrev">ბასმაჯიანი, 1931</bibl>
+              <author>Կ.Յ. Բասմաջեան</author>
+              <title>
+                  Հայերէն արձանագրութիւնք Անւոյ , Բագնայրի և Մարմաշինու
+              </title> Պարիս, 1931
+          </bibl>
+
+
+         <bibl xml:id="b17"><bibl type="abbrev">ბროსე, 1838</bibl>
+                   <author>M. Brosset</author>, 
+                   <title>Explications,  Mémoire de l'Academie Impériale des Sciences St.Pétersbourg</title>, 
+                   VI série, Livre 4-5, St.Pétersbourg, 1838
+               </bibl>
+                
+               
+         <bibl xml:id="b18"><bibl type="abbrev">ბროსე, 1840</bibl>
+                   <author>M. Brosset</author>, 
+                   <title>Explications: Mémoire de l'Academie Impériale des Sciences St.Pétersbourg</title>. 
+                   VI série.t. IV, 1840
+               </bibl>
+                
+               
+         <bibl xml:id="b19"><bibl type="abbrev">ბროსე, 1856</bibl>
+                   <author>M. Brosset</author>, 
+                   <title>Letres dn M. Bartholomaei relatives aux auntiquites géorgienns</title>: 
+                   MA, t. II, liv. 1. SPb.1856
+               </bibl>
+                
+               
+         <bibl xml:id="b20"><bibl type="abbrev">ბროსე, 1854</bibl>
+                   <author>M. Brosset</author>, 
+                   <title>Lettres de M. Bartholomaei, relatives aux auntiquités géorgienns</title>, 
+                   Bulletin hist. philolog. de l'Academie des Sciences de St.-Pétersbourg, XI, St.-Pétersbourg, 1854
+               </bibl>
+                
+               
+         <bibl xml:id="b21"><bibl type="abbrev">ბროსე, 1851</bibl>
+                  <author>M. Brosset</author>, <title>Rapports I.</title></bibl>
+               
+         <bibl xml:id="b22"><bibl type="abbrev">ბროსე, 1851</bibl>
+            <author>M. Brosset</author>, <title>Rapports VI.</title></bibl>
+          
+          <bibl xml:id="b189"><bibl type="abbrev">ბროსე, 1850</bibl>
+              <author>Brosset M.F.</author>
+              <title>Voyage arheologigue en Transcaucasie</title> St.Petersb. 1850 </bibl> 
+                 
+              
+               
+         <bibl xml:id="b23"><bibl type="abbrev">თარხნიშვილი, 1964</bibl>
+            <author>M. Tarchnišvili</author>, <title>Le soulévement de Bardas Skléros</title>: BK. Vol XVII-XVIII, 45-46. Paris, 1964</bibl>
+               
+         <bibl xml:id="b24"><bibl type="abbrev">თარხნიშვილი, 1950</bibl>
+            <author>M. Tarchnišvili</author>, <title>Les récentes découverstes épigraphiques et litteraires en géorgien</title>, Le Muséon, LXIII, 3-4, Louvain, 1950</bibl>
+
+               
+         <bibl xml:id="b25"><bibl type="abbrev">სანაძე, </bibl>
+            <author>Manana Sanadze</author>, <title>Mirian  the First Christian King of Kartli (Eastern Georgian Kingdom) and the Issue of His Descent</title></bibl>
+          
+        
+               
+         <bibl xml:id="b26"><bibl type="abbrev">ჩუბინაშვილი, 1964</bibl>
+            <author>N. Tchubinachvili</author>. <title>Gáscension de la Croix</title>: BK, vol XVII-XVIII (#45-46), Paris 1964</bibl>
+
+               
+         <bibl xml:id="b27"><bibl type="abbrev">ვებერი, </bibl>
+            <author>Ursula Weber</author>, <title>Prosopographie des Sasanidenreiches im 3. Jahrhundert n.Chr</title>. </bibl>
+
+               
+         <bibl xml:id="b28"><bibl type="abbrev">ტილმანი, 2009</bibl>
+            <author>Teun Tieleman</author>, <author>Annette Merz</author> <title>The Letter Of Mara Bar Sarapion In Context</title>: Proceedings Of The Symposium Held At Utrecht University, 10-12 December 2009 (Culture And History Of The Ancient Near East). Brill; 2012</bibl>
+
+              
+         <bibl xml:id="b29"><bibl type="abbrev">ნიკოლაიშვილი, 2015</bibl>
+            <author>Vakhtang Nikolaishvili</author>, <title>Historical Topography of Greater Mtskheta</title></bibl>
+
+               
+         <bibl xml:id="b30"><bibl type="abbrev">კორბო, 1955</bibl>
+            <author>Virjilio Corbo</author>, <title xml:lang="it">Gli scavi di Kh. Siyar el-Ghanam (Campo dei Pastori) e i monasteri dei dintorni</title>, Gerusalemme, 1955 </bibl>
+               
+         <bibl xml:id="b31"><bibl type="abbrev">თარხნიშვილი, </bibl>
+            <author>M. Tarchnishvili</author>, <title xml:lang="it">Le iscrizioni di Bir el-Qutt</title></bibl>
+              
+         <bibl xml:id="b32"><bibl type="abbrev">კორბო, 1953</bibl>
+            <author>Virjilio Corbo</author>, <author>M. Tarchnishvili</author>, <title xml:lang="it">La Terra Santa</title>, Ierusalem, 1953, #28</bibl>
+
+               
+         <bibl xml:id="b33"><bibl type="abbrev">ჯობაძე, 1960</bibl>
+            <author>W. Djobadze</author>, <title>The sculptures on Eastern Facade of the Holy Cross of Mtzkhetâ</title>, Or. Chr. B. 44. Vierf Serie. Achter Band. 1960</bibl>
+
+               
+         <bibl xml:id="b34"><bibl type="abbrev">ამირანაშვილი, 1928</bibl>
+            <author>А. Амиранашвили</author>, <title>Греческие надписи Музея Грузии</title>, საქართველოს მუზეუმის მოამბე, IV</bibl>
+
+               
+         <bibl xml:id="b35"><bibl type="abbrev">ნატროევი, 1900</bibl>
+            <author>А. Натроев</author>, <title>Мцхета и его собор Светицховели</title>, 1900</bibl>
+
+               
+         <bibl xml:id="b36"><bibl type="abbrev">ბერიძე, 1976</bibl>
+            <author>В. Беридзе</author>, <title>Грузинская архитектура с древнейших времен до начала ΧΧ века</title>, 1976</bibl>
+
+               
+         <bibl xml:id="b37"><bibl type="abbrev">ლატიშევი, 1904</bibl>
+            <author>В. В. Латышев</author>, <title>Заметки о каваказских надписях, Известия Императорской Археологической Комиссии</title>, 1904</bibl>
+
+               
+         <bibl xml:id="b38"><bibl type="abbrev">ლატიშევი, 1922</bibl>
+            <author>В. Латышев</author>, <title>Заметки по греческой эпиграфике</title> Известия Российской Академии Истории Материальной культуры, 1922</bibl>
+
+               
+         <bibl xml:id="b39"><bibl type="abbrev">ლექვინაძე, 1973</bibl>
+            <author>В. Леквинадзе</author>, <title>Монументальные памятники Западной Грузии I-VII вв</title>, 1973, 30</bibl>
+
+               
+         <bibl xml:id="b40"><bibl type="abbrev">საძაგელოვი, 1898</bibl>
+            <author>Г. Садзагелов-Ивериели</author> <title>Описание Никозкой Михайло-архангельской церкви в Карталинии</title>, 1898</bibl>
+
+               
+         <bibl xml:id="b41"><bibl type="abbrev">ელნიცკი, 1964</bibl>
+            <author>Л. А. Ельницкий</author>, ВДИ, <title>О малоизученных или утраченных греческих и латинских надписях Закавказья</title>, 1964</bibl>
+               
+         <bibl xml:id="b42"><bibl type="abbrev">ელნიცკი, 1958</bibl>
+            <author>Л. А. Ельницкий</author>, <title>О малоизученных или утреченных греческих и латинских надписях Закавказья</title>, ВДИ, 1958</bibl>
+
+               
+         <bibl xml:id="b43"><bibl type="abbrev">ტრაპში, 1960</bibl>
+            <author>М. М. Трапш</author>, Труды АБНИИ <title>Некоторые итоги раскопок Цебелдинских некрополей в 1960-1962 гг</title>., 1963</bibl>
+
+               
+         <bibl xml:id="b45"><bibl type="abbrev">ჩუბინაშვილი, 1940</bibl>
+            <author>Н. Г. Чубинашвили</author>, <title>Болнисский сион</title>, აკად. ნიკო მარის სახელობის ენის, ისტორიისა და მატერიალური კულტურის ინსტიტუტის მოამბე, IX, 1940</bibl>
+               
+         <bibl xml:id="b46"><bibl type="abbrev">ჩუბინაშვილი, 1971</bibl>
+            <author>Н. Г. Чубинашвили</author>, <title>Зедазени, Кликис-Джвари, Гвиара</title>: ქხ,7–A, 1971 (10, შენიშვ. 7, ნაწყვეტის მხედრ. ტრანსკრ. და რუს.)</bibl>
+               
+         <bibl xml:id="b47"><bibl type="abbrev">ჩუბინაშვილი, 1948</bibl>
+            <author>Н. Г. Чубинашвили</author>, <title>Памятники типа Джвари</title>, 1948</bibl>
+               
+         <bibl xml:id="b48"><bibl type="abbrev">ჩუბინაშვილი, 1972</bibl>
+            <author>Н. Г. Чубинашвили</author>, <title>Хандиси</title>, 1972</bibl>
+
+               
+         <bibl xml:id="b49"><bibl type="abbrev">მურადიანი, 1968</bibl>
+            <author>П. Мурадян</author>, <title>Армянская надпись храма Джвари</title>, ВОН АН Арм. ССР 2(297), Ереван, 1968</bibl>
+
+               
+         <bibl xml:id="b50"><bibl type="abbrev">მეფისაშვილი, 1975</bibl>
+            <author>Р. Меписашвили</author>, <author>В. Цинцадзе</author>, <title>Архитектура нагорной части исторической провинции Грузии – Шида Картли</title>, 1975</bibl>
+
+               
+         <bibl xml:id="b51"><bibl type="abbrev">ყაუხჩიშვილი, 1957</bibl>
+            <author>Т. С. Каухчишвили</author>, <title>Греческая надпись на сухумском светильнике</title>, Труды Абнии, 1957, XXVIII</bibl>
+               
+         <bibl xml:id="b52"><bibl type="abbrev">ყაუხჩიშვილი, 1958</bibl>
+            <author>Т. С. Каухчишвили</author>, <title>Эпиграфические новости из Грузи</title>, ВДИ, 1958, 4</bibl>
+
+               
+         <bibl xml:id="b53"><bibl type="abbrev">უვაროვა, 1902</bibl>
+            <author>П. С. Уварова</author>  Археология. <title>Коллекции Кавказского музея (Museum Caucasicum)</title>, т. V, Тифлис, 1902.</bibl>
+
+               
+         <bibl xml:id="b54"><bibl type="abbrev">ძიძიგური, 1968</bibl>
+            <author>Ш. В. Дзидзигури</author>, <title>Грузинский язык, Краткий обзор</title>. 1968</bibl>
+
+               
+         <bibl xml:id="b56"><bibl type="abbrev">ამირანაშვილი, 1963</bibl>
+            <author>Ш. Я. Амиранашвили</author>, <title>История грузинского искусства</title>. М., 1963</bibl>
+
+               
+         <bibl xml:id="b57"><bibl type="abbrev">შანიძე, 1975</bibl>
+            <author>აკაკი შანიძე</author>, <title>ბოლნისის წარწერები</title>, „ნობათი“, ჟურნალ „ცისკრის“ დამატება, N1,1975</bibl>
+               
+         <bibl xml:id="b58"><bibl type="abbrev">შანიძე, 1946</bibl>
+            <author>აკაკი შანიძე</author>, <title>ხუნამისის წარწერის განმარტებისათვის</title>, სმამ. ტომი VII, #4, 1946</bibl>
+               
+         <bibl type="book" xml:id="b59"><bibl type="abbrev">შანიძე, 1935</bibl>
+            <author>აკაკი შანიძე</author>, <title>ძველი ქართულის ქრესტომათია ლექსიკონითურთ</title>, სახელმწიფო უნივერსიტეტის გამომცემლობა,  ტფილისი 1935</bibl>
+               
+         <bibl xml:id="b60"><bibl type="abbrev">შანიძე, 1922</bibl>
+            <author>აკაკი შანიძე</author>, <title>ნაშთები III პირის ობიექტური პრეფიქსის ხმარებისა ხმოვნების წინ ქართულ ზმნაში</title>: ტფილისის უნივერსიტეტის მოამბე, #2, 1922/23</bibl>
+               
+         <bibl xml:id="b61"><bibl type="abbrev">შანიძე, 1957</bibl>
+            <author>აკაკი შანიძე</author>, <title>ქართული ენის სტრუქტურისა და ისტორიის საკითხები, I,</title> 1957</bibl>
+
+
+               
+         <bibl xml:id="b62"><bibl type="abbrev">გამყრელიძე, 1967</bibl>
+            <author>ალ. გამყრელიძე</author>, <title>ქართული დამწერლობის უძველესი ნიმუშები</title>, „ძეგლის მეგობარი“, 10-11, 1967</bibl>
+
+               
+         <bibl xml:id="b63"><bibl type="abbrev">დიღმელაშვილი</bibl>
+            <author>ქეთევან დიღმელაშვილი</author>, <title>არმაზციხე (ბაგინეთი)</title></bibl>
+
+               
+         <bibl xml:id="b64"><bibl type="abbrev">გობეჯიშვილი, 1952</bibl>
+            <author>გ. გობეჯიშვილი</author>, <title>არქეოლოგიური გთხრები საბჭოთა საქართველოში</title>, საქართველოს სსრ მეცნიერებათა აკადემიის გამომცემლობა, 1952</bibl>
+
+               
+         <bibl type="book" xml:id="b65"><bibl type="abbrev">ბოჭორიძე, 1929</bibl>
+            <title>რაჭის ისტორიული ძეგლები</title> <author><forename>გიორგი</forename> <surname>ბოჭორიძე</surname></author>  საქართველოს მუზეუმის მოამბე V ტფილისი 1929</bibl>
+
+               
+         <bibl xml:id="b66"><bibl type="abbrev">ჩუბინაშვილი, 1926</bibl>
+            <author>გიორგი ჩუბინაშვილი</author>, <title>რამოდენიმე თავი ქართული ხელოვნების ისტორიიდან</title> 1926</bibl>
+
+               
+         <bibl xml:id="b67"><bibl type="abbrev">წერეთელი, 1960</bibl>
+            <author>გიორგი წერეთელი</author>, <title>უძველესი ქართული წარწერები პალესტინიდან</title>, საქართველოს სსრ მეცნიერებათა აკადემიის გამომცემლობა, 1960</bibl>
+
+               
+         <bibl xml:id="b68"><bibl type="abbrev">ბრაუნდი, 2014</bibl>
+            <author>დევიდ ბრაუნდი</author>, <title>საქართველო ანტიკურ ხანაში კოლხეთისა და ამიერკავკასიის იბერიის ისტორია ძვ.წ. 550-ახ.წ. 562</title>, ბათუმი, 2014</bibl>
+
+               
+         <bibl xml:id="b69"><bibl type="abbrev">ბაქრაძე, 1987</bibl>
+            <author>დიმიტრი ბაქრაძე</author>, <title>არქეოლოგიური მოგზაურობა გურიასა და აჭარაში</title>, ბათუმი, საბჭოთა აჭარა, 1987</bibl>
+          
+       
+
+               
+         <bibl xml:id="b70"><bibl type="abbrev">თაყაიშვილი, 1907</bibl>
+            <author>ექვთიმე თაყაიშვილი</author>, <title>არხეოლოგიური მოგზაურობანი და შენიშვნანი</title>, წ. I, 1907</bibl>
+               
+         <bibl xml:id="b71"><bibl type="abbrev">თაყაიშვილი, 1914</bibl>
+            <author>ექვთიმე თაყაიშვილი</author>, <title>ჯვრის მონასტრის წარწერები</title>, გაზეთი „სახალხო ფურცელი“, #32, 1914</bibl>
+               
+         <bibl xml:id="b72"><bibl type="abbrev">თაყაიშვილი, 1913</bibl>
+            <editor>ექვთიმე თაყაიშვილი</editor> <title>ძველი საქართველო</title>, საქართველოს საისტორიო და საეთნოგრაფიო საზოგადოების კრებული, ტფილისი, ელექტრო მბეჭდავი სტამბა სპირიდონ ლოსაბერიძის, 1913-1914, III, 36</bibl>
+
+   <!-- NB შესამოწმებელია, არ იძებნება წარწერაში -->  <bibl xml:id="b73"><author>ვ. ლატიშევი</author>, <title>JosPE II</title>, 1890, 223</bibl>
+
+         <bibl xml:id="b74"><bibl type="abbrev">ლექვინაძე, 1979</bibl>
+                  <author>ვ. ლექვინაძე</author>, ქართული საბჭოთა ენციკლოპედია, <title>ვაშნარი</title>, 1979, 4</bibl>
+
+         <bibl xml:id="b75"><bibl type="abbrev">სილოგავა, 1970</bibl>
+                  <author>ვალერი სილოგავა</author>, <title>ეპიგრაფიკული ეტიუდები</title>, თსუშ. ტ. X, 1970</bibl>
+               
+         <bibl xml:id="b76"><bibl type="abbrev">სილოგავა, 1972</bibl>
+            <author>ვალერი სილოგავა</author>, <title>ქართული სამართლის ძეგლები დასავლეთ საქართველოს ლაპიდარულ წარწერებში</title>: „მაცნე“, ის. 1972. #4. (146 მხედრ. ტრანსკრ.)</bibl>
+              
+         <bibl xml:id="b119"><bibl type="abbrev">სილოგავა, 2004</bibl>
+            <author>ვალერი სილოგავა</author>, <title>სამეგრელო-აფხაზეთის ქართული ეპიგრაფიკა</title></bibl>
+               
+         <bibl xml:id="b122"><bibl type="abbrev">სილოგავა, 2002</bibl>
+            <author>ვალერი სილოგავა</author>, <title>სათხის წარწერები</title>, ეპიგრაფიკა. ჯავახეთი, ისტორია და თანამედროვეობა. ახალციხე. 2002</bibl>
+               
+         <bibl xml:id="b77"><bibl type="abbrev">ჟორდანია, 1892</bibl>
+            <author>თედო ჟორდანია</author>, <title>ქრონიკები და სხვა მასალა საქართველოს ისტორიისა და მწერლობისა</title>, წ. I, 1892</bibl>
+
+               
+         <bibl xml:id="b78"><bibl type="abbrev">ყაუხჩიშვილი, 1967</bibl>
+             <author>თინათინ ყაუხჩიშვილი
+             </author>, <title>მუზეუმის მოამბე, კაზრეთის ბერძნული წარწერა</title>, 1967, XXVII-B</bibl>
+               
+         <bibl xml:id="b79"><bibl type="abbrev">ყაუხჩიშვილი, 1982</bibl>
+            <author>თინათინ ყაუხჩიშვილი</author>, <title>წილკნის აკლდამის ბერძნული წარწერა</title>, მაცნე, 1982, 2</bibl>
+               
+         <bibl xml:id="b80"><bibl type="abbrev">ყაუხჩიშვილი, 1951</bibl>
+            <author>თინათინ ყაუხჩიშვილი</author>, <title>ბერძნული წარწერები საქართველოში</title>, თბილისი, საქ. სსრ მეცნ. აკად. გამომცემლობა, 1951</bibl>
+               
+         <bibl xml:id="b81"><bibl type="abbrev">ყაუხჩიშვილი, 1999</bibl>
+            <author>თინათინ ყაუხჩიშვილი</author>, <title>საქართველოს ბერძნული წარწერების კორპუსი</title>, თბილისი, ლოგოსი, 1999, ტ. II აღმოსავლეთ საქართველო</bibl>
+               
+         <bibl xml:id="b82"><bibl type="abbrev">ყაუხჩიშვილი, 2004</bibl>
+            <author>თინათინ ყაუხჩიშვილი</author>, <title>საქართველოს ბერძნული წარწერების კორპუსი</title>, მე-2 შესწორებული და შევსებული გამოცემა, თბილისი, ლოგოსი, 2004</bibl>
+          
+          <bibl xml:id="b194"><bibl type="abbrev">ყაუხჩიშვილი, 1976</bibl>
+              <author>თინათინ ყაუხჩიშვილი</author>
+              <title> საქართველოს ისტორიის ძველი ბერძნული წყაროები</title>
+          </bibl>
+          
+          <bibl xml:id="b195"><bibl type="abbrev">ყაუხჩიშვილი, 1967</bibl>
+              <author>თინათინ ყაუხჩიშვილი</author>
+              <title>ვანის ბერძნული წარწერები</title> "მეცნ. აკად. მოამბე", XLVIII, I, თბილისი, 1967              
+          </bibl>
+          
+          <bibl xml:id="b196"><bibl type="abbrev">ყაუხჩიშვილი, 1987</bibl>
+              <author>თინათინ ყაუხჩიშვილი</author>     
+              <title>ვანის ბერძნული წარწერა ბრინჯაოს ფილაზე</title> "ქართული წყაროთმცოდნეობა", VII, თბილისი, 1987.
+          </bibl>
+          
+          <bibl xml:id="b197"><bibl type="abbrev">ყაუხჩიშვილი, 1988</bibl>
+              <author>თინათინ ყაუხჩიშვილი</author> 
+              <title>Греческая надпись на бронзовой плите из Вани</title> "Проблемы древней истории Причерноморья", Тбилиси, 1988
+          </bibl>
+              
+         <bibl xml:id="b83"><bibl type="abbrev">მეგრელიძე, 1952</bibl>
+            <author>ივანე მეგრელიძე</author>, <title>სტალინირის და ზემო ნიქოზის სიძველეები</title>, სტალინირის სახელმწიფო პედაგოგიური ინსტიტუტის შრომები. ტ. I,  1952</bibl>
+
+               
+         <bibl xml:id="b84"><title>იბერია-კოლხეთი. საქართველოს კლასიკური და ადრემედიევური პერიოდის არქეოლოგიურ-ისტორიული კვლევანი</title>. საქართველოს ეროვნული მუზეუმი, ოთარ ლორთქიფანიძის არქეოლოგიური ცენტრი. #11 თბილისი 2015</bibl>
+
+               
+         <bibl xml:id="b85"><bibl type="abbrev">ჯავახიშვილი, 1922</bibl>
+            <author>ივანე ჯავახიშვილი</author>, <title>ახლად აღმოჩენილი უძველესი ქართული ხელნაწერები და მათი მნიშვნელობა მეცნიერებისათვის</title>, ტფილისის უნივერსიტეტის მოამბე, #2 1922/23.</bibl>
+               
+         <bibl xml:id="b86"><bibl type="abbrev">ჯავახიშვილი, 1926</bibl>
+            <author>ივანე ჯავახიშვილი</author>, <title>ქართული დამწერლობათმცოდნეობა ანუ პალეოგრაფია</title>, 1926</bibl>
+               
+         <bibl xml:id="b87"><bibl type="abbrev">ჯავახიშვილი, 1949</bibl>
+            <author>ივანე ჯავახიშვილი</author>, <title>ქართული დამწერლობათმცოდნეობა ანუ პალეოგრაფია</title>, 1949</bibl>
+
+               
+         <bibl xml:id="b88"><bibl type="abbrev">აბულაძე, 1949</bibl>
+            <author>ილია აბულაძე</author>, <title>ქართლი წერის ნიმუშები, პალეოგრაფიული ალბომი</title>, 1949</bibl>
+               
+         <bibl xml:id="b89"><bibl type="abbrev">აბულაძე, 1973</bibl>
+            <author>ილია აბულაძე</author>, <title>ქართლი წერის ნიმუშები, პალეოგრაფიული ალბომი</title>, 1973</bibl>
+
+         <bibl xml:id="b90"><bibl type="abbrev">კეკელიძე, 1960</bibl>
+                  <author>კორნელი კეკელიძე</author>, <title>ბოლნისის ტაძრის წარწერების ინტერპრეტაციისათვის: ეტიუდები</title>, VI, 1960</bibl>
+        
+         <bibl xml:id="b91"><bibl type="abbrev">კეკელიძე, 1960</bibl>
+                  <author>კორნელი კეკელიძე</author>, <title>ქართული ლიტერატურის ისტორია</title>, I, 1960, ტაბ. II.</bibl>
+
+         <bibl type="book" xml:id="b92"><bibl type="abbrev">სარჯველაძე, დანელია, 1997</bibl>
+                  <title>ქართული პალეოგრაფია</title> 
+             <author>
+                 <forename>ზურაბ</forename> 
+                 <surname>სარჯველაძე</surname>
+             </author> 
+             <author>
+                 <forename>კორნელი</forename> 
+                 <surname>დანელია</surname>
+             </author>
+                  <publisher>„ნეკერი“</publisher> <date>1997</date>
+               </bibl>
+          
+          <bibl xml:id="b192">
+              <bibl type="abbrev">სარგისიანი, 1864</bibl>
+              <author>Ներսես Սարգիսեան</author>
+              <title>
+                  Տեղագրութիւնք ի Փոքր և ի Մեծ Հայս
+              </title> Վենետիկ, 1864
+          </bibl>
+
+         <bibl xml:id="b93"><bibl type="abbrev">მუსხელიშვილი, 1938</bibl>
+                  <author>ლევან მუსხელიშვილი</author>, ბოლნისი, ენიმკის მოამბე III, 1938</bibl>
+
+         <bibl xml:id="b94"><bibl type="abbrev">რჩეულიშვილი, 1948</bibl>
+                  <author>ლ. რჩეულიშვილი</author>, <title>ქართული ხუროთმოძღვრების სამი უცნობი ძეგლი</title>, „ქართული ხელოვნება“, #2, 1948</bibl>
+
+         <bibl xml:id="b95"><bibl type="abbrev">ლორთქიფანიძე, 1976</bibl>
+                  <author>ოთარ ლორთქიფანიძე</author>, <title>ვანი, არქაული და „არქაიზირებული“ საბეჭდავი ბეჭდები</title>, 1976, II</bibl>
+          
+          
+        
+         <bibl xml:id="b96"><bibl type="abbrev">თარხნიშვილი, 1954</bibl>
+                  <author>მიხეილ თარხნიშვილი</author>, <title>ახლად აღმოჩენილი ქართველთა მონასტერი ბეთლემში</title>, „ბედი ქართლისა“, 1954, #16.</bibl>
+
+         <bibl xml:id="b97"><bibl type="abbrev">ალადაშვილი, 1969</bibl>
+                  <author>ნ. ალადაშვილი</author>, <title>„ჯვრის ამაღლების“ თემა ქართულ ხელოვნებაში</title>, „ძეგლის მეგობარი“, 17, 1969</bibl>
+
+               <bibl xml:id="b98"><bibl type="abbrev">ჯანბერიძე, 1965</bibl>
+                  <author>ნ. ჯანბერიძე</author>, <title>ქართული არქიტექტურის ძეგლები</title>, 1965</bibl>
+
+                <bibl xml:id="b99"><bibl type="abbrev">შოშიაშვილი, 1958</bibl>
+                  <author>ნოდარ შოშიაშვილი</author>, <title>ნაქალაქარი ურბნისი</title>: „ცისკარი“, #4, 1958</bibl>
+               
+                <bibl xml:id="b100"><bibl type="abbrev">შოშიაშვილი, 1965</bibl>
+                    <author>ნოდარ შოშიაშვილი</author>, <title>ურბნისის ძველი ქართული წარწერები: პალეოგრაფიული ძიებანი</title>. I, 1965</bibl>
+               
+                <bibl xml:id="b101"><bibl type="abbrev">შოშიაშვილი, 1980</bibl>
+                    <author>ნოდარ შოშიაშვილი</author>, <title>ქართული წარწერების კორპუსი, ლაპიდარული წარწერები</title>, თბილისი 1980, ტ. I</bibl>
+
+                <bibl xml:id="b102"><bibl type="abbrev">ინგოროყვა, 1941</bibl>
+                   <author>პავლე ინგოროყვა</author>, ენიმკის მოამბე, <title>ქართული დამწერლობის ძეგლები ანტიკური ხანისა</title>, 1941, X</bibl>
+               
+                <bibl xml:id="b103"><author>პავლე ინგოროყვა</author>, მუზეუმის მოამბე, <title>„...მოქცევაჲ ქართლისაჲ“ და იბერიის მეფეთა სია, XI</title></bibl>
+
+                <bibl xml:id="b104"><bibl type="abbrev">ზაქარაია, 1965</bibl>
+                   <author>პარმენ ზაქარაია</author>, <title>ნაქალაქარ ურბნისის ხუროთმოძღვრება</title>, 1965</bibl>
+
+                <bibl xml:id="b105"><bibl type="abbrev">მაკალათია, 1928</bibl>
+                   <author>სერგი მაკალათია</author>, მუზეუმის მოამბე, <title>1920–1924 წწ. საქართველოში აღმოჩენილი ზოგიერთი ნეკროპოლის დათარიღებისათვის</title>, 1928, IV</bibl>
+
+                <bibl xml:id="b106"><bibl type="abbrev">ყაუხჩიშვილი, 1943</bibl>
+                   <author>სიმონ ყაუხჩიშვილი</author>, აკადემიის მოამბე, <title>მცხეთა-სამთავროს ახლად აღმოჩენილი ბერძნული წარწერა</title>, 1943, IV</bibl>
+               
+                <bibl xml:id="b107"><bibl type="abbrev">ყაუხჩიშვილი, 1941</bibl>
+                    <author>სიმონ ყაუხჩიშვილი</author>, აკადემიის მოამბე, <title>არმაზში აღმოჩენილი ბერძნული წარწერები</title>, 1941, I</bibl>
+               
+                <bibl xml:id="b108"><bibl type="abbrev">ყაუხჩიშვილი, 1941</bibl>
+                   <author>სიმონ ყაუხჩიშვილი</author>, თბილისის უნივერსიტეტის შრომები, <title>ნოსირის ბერძნული წარწერა</title>, 1941, XVIII</bibl>
+               
+          <bibl xml:id="b109"><bibl type="abbrev">ქართლის ცხოვრება, ტ. II</bibl>
+                    <editor>სიმონ ყაუხჩიშვილი</editor>, <title>ქართლის ცხოვრება, ტ. II</title></bibl>
+
+                <bibl xml:id="b110"><bibl type="abbrev">ჯანაშია, 1949</bibl>
+                   <author>სიმონ ჯანაშია</author>, <title>ფეოდალური რევოლუცია საქართველოში</title>. შრომები, I, 1949</bibl>
+
+                <bibl xml:id="b111"><bibl type="abbrev">ბაქრაძე, 1953</bibl>
+                   <title>საქართველოს სახელმწიფო მუზეუმის ქართული ეპიგრაფიკული ძეგლების კატალოგი</title>, შედგენილი და დასაბეჭდად მომზადებული ა. ბაქრაძისა და ს. ბოლქვაძის მიერ. 1953. (19, #16, ტაბ. IV, 2 (დედნ. შრიფ.; მხედრ. ტრანსკრ.; ფოტო)</bibl>
+
+                <bibl xml:id="b112"><bibl type="abbrev">შანიძე, იმნაიშვილი, 1949</bibl>
+                   <title>ქართული ენის ისტორიული ქრესტომათია</title>. ტ. I. V-X საუკუნეების ძეგლები. გამოსცა, ტაბულები და ლექსიკონი დაურთო ივ. იმნაიშვილმა, ა. შანიძის რედაქციით. 1949</bibl>
+
+                <bibl xml:id="b113"><bibl type="abbrev">ამირანაშვილი, 1958</bibl>
+                   <author>შალვა ამირანაშვილი</author>, <title>ბოლნისის  ტაძრის აგების თარიღის დაზუსტებისათვის</title></bibl>
+               
+                <bibl xml:id="b114"><bibl type="abbrev">ამირანაშვილი, 1944</bibl>
+                    <author>შალვა ამირანაშვილი</author>, <title>ქართული ხელოვნების ისტორია</title>, 1, 1944</bibl>
+
+                <bibl xml:id="b115"><bibl type="abbrev">მესხი, 1973</bibl>
+                   <author>შოთა მესხია</author>, <title>საქართველოს ისტორიის ნარკვევები</title>, თბილისი, საბჭოთა საქართველო, 1973, II</bibl>
+
+                <bibl xml:id="b116"><bibl type="abbrev">ძიძიგური, 1969</bibl>
+                   <author>შოთა ძიძიგური</author>, <title>ქართული ენის თავგადასავალი</title>, 1969</bibl>
+
+                <bibl xml:id="b117"><bibl type="abbrev">ნუცუბიძე, 1959</bibl>
+                   <author>შალვა ნუცუბიძე</author>, <title>პალესტინის ახალი გათხრები და ქართული კულტურის საკითხები</title>, „მნათობი“, #1 1959</bibl>
+               
+          <bibl xml:id="b118"><bibl type="abbrev">„მოგზაური“, #1, 1901</bibl>
+                    <title>ჯაჭვის წმ. ჯვრის მონასტერი</title>, „მოგზაური“, #1, 1901</bibl>
+               
+                <bibl xml:id="b120"><bibl type="abbrev">ზელიგმანი, 2015</bibl>
+                    <author>J. Seligman</author>, <title>A Georgian Monastery from the Byzantine Period at Khirbat Umm Leisun, Jerusalem</title> <date>2015</date> </bibl>
+               
+                <bibl xml:id="b121"><bibl type="abbrev">ჩეხანოვეცი, 2014</bibl>
+                    <author>Y. Tchekhanovets</author>,  2014 <title>Iohane, Bishop of Purtavi and Caucasian Albanians in the Holy Land</title></bibl>
+               
+                <bibl xml:id="b123"><bibl type="abbrev">ბაგატი, 1969</bibl>
+                    <author>B. Bagatti</author>, <title>Excavations in Nazareth. I: From the Beginning till the XII Century</title> (SBF. Collectio Maior 17), Jerusalem 1969</bibl>
+               
+                <bibl xml:id="b124"><bibl type="abbrev">ალექსიძე, 2011</bibl>
+                    <author>ზაზა ალექსიძე</author>, <title>ლუვრი, სინას მთა, ნაზარეთი: ეპიგრაფიკული ეტიუდები</title>, 
+                    ქრისტიანული კავკასია, ისტორიულ-ფილოლოგიური ძიებანი, ტ.2, ხელნაწერთა ეროვნული ცენტრი თბილისი, 2011</bibl>
+          
+          <bibl xml:id="b185"><bibl type="abbrev">ალექსიძე, 1987</bibl>
+              <author>ზაზა ალექსიძე</author>, <title>ატენის სიონის სომხური წარწერები</title>, 
+              ეპიგრაფიკული ძეგლები და ხელნაწერთა მინაწერები, თბილისი, 1978</bibl>
+          
+          
+          <bibl xml:id="b188"><bibl type="abbrev">ალიშანი, 1890</bibl>
+              <author>Ղևոնդ Ալիշան</author>
+              <title>Այրարատ</title>Վենետիկ, 1890</bibl>
+          
+          <bibl xml:id="b191"><bibl type="abbrev">ალიშანი, 1881</bibl>
+              <author>Ղևոնդ Ալիշան</author>
+              <title>
+                  Շիրակ, Տեղագրութիւն պատկերացոյց
+              </title> Վենետիկ, 1881
+          </bibl>
+              
+                <bibl xml:id="b125"><bibl type="abbrev">მგალობლიშვილი, 2015</bibl>
+                   <author>Tamar Mgaloblishvili</author> <title>The Inscription from Khirbat Umm Leisun, and Georgian Presence in the Holy Land</title></bibl>
+               
+                <bibl xml:id="b126"><bibl type="abbrev">მგალობლიშვილი, 2006</bibl>
+                    <author>Tamar Mgaloblishvili</author> 2006–2007. <title>An Unknown Georgian Monastery in the Holy Land</title></bibl>
+               
+                <bibl xml:id="b127"><bibl type="abbrev">მგალობლიშვილი, 2014</bibl>
+                    <author>Tamar Mgaloblishvili</author> <title>How Mtskheta Turned into the Georgians’ New Jerusalem</title></bibl>
+               
+                <bibl xml:id="b128"><bibl type="abbrev">ბარნაველი, 1957</bibl>
+                   <author>თეიმურაზ ბარნაველი</author>, <title>ატენი სიონის წარწერები</title>, თბილისი, 1957</bibl>
+               
+                <bibl xml:id="b129"><bibl type="abbrev">გელაშვილი, გოგოლაძე, 2015</bibl>
+                    <author>ირაკლი გელაშვილი</author>, <author>თამაზ გოგოლაძე</author>, <title>X-XI საუკუნეების უცნობი წარწერა მოხისი სამების ეკლესიიდან</title>, 2015</bibl>
+                
+                <bibl xml:id="b130"><bibl type="abbrev">საუერი, 1931</bibl>
+                    <author>I. Sauer</author> <title>Kreuzkirche bei Mzchet (Georgien) in ihrer geschichtlichen Bedeutung</title> RQ, 39, <date>1931</date></bibl>
+                
+                <bibl xml:id="b131"><bibl type="abbrev">ჩუბინაშვილი, 1936</bibl>
+                   <author>გიორგი ჩუბინაშვილი</author>, <title>ქართული ხელოვნების ისტორია</title>, ტ. I, 1936</bibl>
+               
+                <bibl xml:id="b132"><bibl type="abbrev">ჩუბინაშვილი, 1936</bibl>
+                    <title>ქართული არქიტექტურის გზები</title>, მოხსენება გ. ჩუბინაშვილი და ნ. სევეროვი, წაკითხული სრულიად საქართველოს საბჭოთა არქიტექტორების პირველ ყრილობაზე 1936 წლის 21 თებერვალს, 1936</bibl>
+              
+                <bibl xml:id="b133"><bibl type="abbrev">ამირანაშვილი, 1963</bibl>
+                    <author>Ш. Я. Амиранашвили</author>,<title>Вклад Грузии в сокровищницу художественной культуры</title>, 1963</bibl>
+               
+          <bibl xml:id="b134"><bibl type="abbrev">ჩუბინაშვილი, 1936</bibl>
+             
+              <author>Н. Г. Чубинашвили</author>
+              <title>Пути грузинской архитектуры</title>, Тбилиси, 1936 
+          </bibl>
+               
+                <bibl xml:id="b135"><bibl type="abbrev">მუსხელიშვილი, 1941</bibl>
+                    <author>ლევან მუსხელიშვილი</author>, <title>არქეოლოგიური ექსკურსიები მაშავრის ხეობაში</title>, 1941</bibl>
+               
+                <bibl xml:id="b136"><bibl type="abbrev">ამირანაშვილი, 1968</bibl>
+                    <author>ჯ. ამირანაშვილი</author>,<title>ადრეფეოდალური ხანის ქართული არქიტექტურისა და რელიეფური ქანდაკების ძეგლები</title>, 1968</bibl>  
+               
+                <bibl xml:id="b137"><bibl type="abbrev">პატარიძე, 1984</bibl>
+                    <author>რამაზ პატარიძე</author>, <title>ბოლნისის ტაძრის სამშენებლო წარწერები</title>: „მნათობი“, 1984, #1</bibl>
+               
+                <bibl xml:id="b138"><bibl type="abbrev">მჭედლიშვილი, 1984</bibl>
+                    <author>ბ. მჭედლიშვილი</author>, <title>ბოლნისის სიონის დათარიღებისათვის</title>: მაცნე (ისტ. და არქეოლოგ. სერია), 1984, #3</bibl>
+               
+                <bibl xml:id="b139"><bibl type="abbrev">ყიფიანი, 2011</bibl>
+                    <author>გურამ ყიფიანი</author>, <title>ბოლნისის სიონის უძველესი წარწერა</title>: ბიზანტიოლოგია საქართველოში - 3, 2011</bibl>
+               
+                <bibl xml:id="b140"><bibl type="abbrev">მაჭავარიანი, 1985</bibl>
+                    <author>ელენე მაჭავარიანი</author> <title>ბოლნისის სიონის საამშენებლო წარწერა</title>, 1985</bibl>
+               
+                <bibl xml:id="b141"><bibl type="abbrev">ჰაფიზოვი, 2017</bibl>
+                    <author>შაჰბან ჰაფიზოვი</author>, <title>ქართული, ქართულ-ხუნძური და ხუნძური წარწერები მთიან ხუნძეთში(დაღესტანი)</title>, ქართული უნივერსიტეტის შრომები, III, გამომცემლობა „ქართული უნივერსიტეტი“, თბილისი, 2017, გვ. 106-157</bibl>
+               
+                <bibl xml:id="b142"><bibl type="abbrev">გუდავა, 1954</bibl>
+                    <author>ტოგო გუდავა</author>, <title>ორი წარწერა (ქართული და ქართულ - ხუნძური) დაღესტნიდან</title>, მასალები საქართველოსა და კავკასიის ისტორიისათვის, საქართველოს სსრ მეცნიერებათა აკადემიის გამომცემლობა, თბილისი, 1954, ნაკვ. 30</bibl>
+               
+                <bibl xml:id="b143"><bibl type="abbrev">ჩიქობავა, 1940</bibl>
+                    <author>არნოლდ ჩიქობავა</author>, <title>ქართულ-ხუნძური წარწერა XIV საუკუნის დაღისტნიდან</title>, სსრკ მეცნიერებათა აკადემიის საქართველოს ფილიალის მოამბე, თბილისი, 1940, ტ.I, №4</bibl>
+               
+                <bibl xml:id="b144"><bibl type="abbrev">სილოგავა, 1980</bibl>
+                    <author>ვალერი სილოგავა</author>, <title>ყარსის ციხის ერთი ქართული წარწერა</title>, საქართველოს სსრ მეცნიერებათა აკადემიის მაცნე (ისტორიის, არქეოლოგიის, ეთნოგრაფიისა და ხელოვნების ისტორიის სერია), თბილისი, 1980, I</bibl>
+               
+                <bibl xml:id="b145"><bibl type="abbrev">გვერდწითელი, 1987</bibl>
+                    <author>რუსუდან გვერდწითელი</author>, <title>ანჩისხატის ბაზილიკის სამშენებლო წარწერა</title>, მნათობი, თბილისი, 1987, I</bibl>
+               
+                <bibl xml:id="b146"><bibl type="abbrev">გაბაშვილი, 1967</bibl>
+                    <author>ციალა გაბაშვილი</author>, <title>ზედა ვარძიის „კიდურყვავილოვანი“ წარწერა</title>, ძეგლის მეგობარი, თბილისი, 1967, 10-11</bibl>
+               
+                <bibl xml:id="b147"><bibl type="abbrev">ონიანი, 1967</bibl>
+                    <author>შერმადინ ონიანი</author>, <title>ვანის ქვაბთა ორი პოეტური წარწერა</title>, ძეგლის მეგობარი, თბილისი, 1967, 10-11</bibl>
+              
+                <bibl xml:id="b148"><bibl type="abbrev">სილოგავა, 1983</bibl>
+                   <author>ვალერი სილოგავა</author>, <title>სამხრეთ საქართველოს წარწერების შესწავლა ხელნაწერთა ინსტიტუტის ეპიგრაფიკული ექსპედიციის მიერ</title>, მრავალთავი, 1983, 10, გვ. 264-289</bibl>
+               
+                <bibl xml:id="b149"><bibl type="abbrev">სილოგავა, 2013</bibl>
+                    <author>ვალერი სილოგავა</author>, <title>სამცხის ლაპიდარული ეპიგრაფიკა, ახალციხისა და ტაო-კლარჯეთის ეპარქია</title>, ზარზმის მონასტრის აღორძინების ფონდი „ზარზმის სავანე“, თბილისი, 2013</bibl>
+               
+                <bibl xml:id="b150"><bibl type="abbrev">სილოგავა, 2000</bibl>
+                    <author>ვალერი სილოგავა</author>, <title>სამცხე-ჯავახეთის ისტორიული მუზეუმის ქართული ეპიგრაფიკული ძეგლები</title>, კატალოგი-გზამკვლევი, ახალციხე, 2000</bibl>
+              
+                <bibl xml:id="b151"><bibl type="abbrev">სილოგავა, 1997</bibl>
+                    <author>ვალერი სილოგავა</author>, <title>ხეოთის ახალაღმოჩენილი წარწერები, მესხეთი (საისტორიო კრებული)</title>, I, თბილისის უნივერსიტეტის გამომცემლობა, ახალციხე, 1997</bibl>
+               
+                <bibl xml:id="b152"><bibl type="abbrev">ბერიძე, 1955</bibl>
+                    <author>ვახტანგ ბერიძე</author>, <title>სამცხის ხუროთმოძღვრება, XIII-XVI საუკუნეები</title>, საქართველოს სსრ მეცნიერებათა აკადემიის გამმცემლობა, თბილისი, 1955</bibl>
+               
+                <bibl xml:id="b153"><bibl type="abbrev">თაყაიშვილი, 1909</bibl>
+                    <author>E. Такаишвили</author>, <title>Xристианские Памятники</title>, MAK,12, Moсква, 1909</bibl>
+               
+                <bibl xml:id="b154"><bibl type="abbrev">ჩუბინაშვილი, 1959</bibl>
+                    <author>Г.Н. Чубинашвили</author>, <title>Грузинское чеканное искусство</title>, Сабчота Сакартвело, Тб. 1959</bibl>
+               
+                <bibl xml:id="b155"><bibl type="abbrev">ჯავახიშვილი, 1996</bibl>
+                    <author>ივანე ჯავახიშვილი</author>, <title>ქართული დამწერლობათმცოდნეობა ანუ პალეოგრაფია</title>, თხზულებანი, IX, ნაკ. I, „მეცნიერება“, თბილისი, 1996</bibl>
+               
+                <bibl xml:id="b156"><bibl type="abbrev">სილოგავა, 2013</bibl>
+                    <author>ვალერი სილოგავა</author>, <title>საფარის ხუროთმოძღვრები</title>, ახალციხისა და ტაო-კლარჯეთის ეპარქია, ზარზმის მონასტრის აღორძინების ფონდი „ზარზმის სავანე“, თბილისი, 2013</bibl>
+               
+                <bibl xml:id="b157"><bibl type="abbrev">სილოგავა, 2006</bibl>
+                    <author>ვალერი სილოგავა</author>, <title>ახალი ეპიგრაფიკული მასალა სამცხე-ჯავახეთის ისტორიულ მუზეუმში</title>, თსუ მესხეთის ფილიალი, შრომები, ჰუმანიტარულ მეცნიერებათა სერია, I, ახალციხე-თბილისი, 2006</bibl>
+               
+                <bibl xml:id="b158"><bibl type="abbrev">სილოგავა, 2013</bibl>
+                    <author>ვალერი სილოგავა</author>, <title>რუსთაველური ლექსი-წარწერა სამცხიდან (1103 წ.)</title>, ახალციხისა და ტაო-კლარჯეთის ეპარქია, ზარზმის მონასტრის აღორძინების ფონდი „ზარზმის სავანე“, თბილისი, 2013</bibl>
+               
+                <bibl xml:id="b159"><bibl type="abbrev">გაფრინდაშვილი, 1951</bibl>
+                    <author>გივი გაფრინდაშვილი</author>, <title>უცნობი წარწერა ვარძიაში</title>, საქართველოს სსრ მეცნიერებათა აკადემიის მოამბე, XII, თბილისი, 1951</bibl>
+               
+                <bibl xml:id="b160"><bibl type="abbrev">ალექსიძე, 2016</bibl>
+                    <author>ზაზა ალექსიძე</author>, <title>ლუვრი - ახტალა</title>, ქრისტიანული კავკასია, ისტორიულ-ფილოლოგიური ძიებანი, ტ. 3, ხელნაწერთა ეროვნული ცენტრი, თბილისი, 2016</bibl>
+               
+                <bibl xml:id="b161"><bibl type="abbrev">თაყაიშვილი, 1901</bibl>
+                    <author>Е. Такаишвили</author>, <title>Грузинския надписы Ахталы</title>, Сборник материалов для описания местностей и племен Кавказа, вып. 29, 1901</bibl>
+               
+                <bibl xml:id="b162"><bibl type="abbrev">მელიქსეთ-ბეგი, 1964</bibl>
+                    <author>ლეონ მელიქსეთ-ბეგი</author>, <title>ლორე-ტაშირის ქართული ეპიგრაფიკა</title>, თბილისის სახელმწიფო უნივერსიტეტის შრომები, ტ. 108, 1964</bibl>
+               
+                <bibl xml:id="b163"><bibl type="abbrev">ერიცოვი, 1872</bibl>
+                    <author>А. Эрицов</author>, <title>Монастырь Ахтала</title>, Кавказская старина, I, 1872</bibl>
+               
+                <bibl xml:id="b164"><bibl type="abbrev">ჯოჯუა, გაგოშიძე, 2013</bibl>
+                    <author>თემო ჯოჯუა</author>, <author>გიორგი გაგოშიძე</author>, <title>ქობაირის, ჰნევანქისა და ახტალის მონასტრების ქართული ლაპიდარული წარწერები</title>, ისტორიისა და ეთნოლოგიის ინსტიტუტის შრომები, XII-XIII, თბ. 2012-2013, გვ. 258-331</bibl>
+               
+                <bibl xml:id="b165"><bibl type="abbrev">ასათიანი, კალანდია, 2011</bibl>
+                    <author>ქეთი ასათიანი</author>, <author>გიორგი კალანდია</author>, <title>ქობერის მონასტრის ქართული წარწერები</title>, Artpalace, სამეცნიერო-პოპულარული ჟურნალი, საქართველოს თეატრის, მუსიკის, კინოსა და ქორეოგრაფიის სახელმწიფო მუზეუმი, 3 (01), 29.07.2011</bibl>
+              
+                <bibl xml:id="b166"><bibl type="abbrev">მურადიანი, 1977</bibl>
+                    <author>პარუირ მურადიანი</author>, <title>სომხეთის ქართული წარწერები</title>, წყაროთმცოდნეობითი გამოკვლევა (სომხურ ენაზე), Armeno-Georgica, ტ. I, ერევნის უნივერსიტეტის გამომცემლობა, ერევანი, 1977</bibl>
+               
+                <bibl xml:id="b167"><bibl type="abbrev">სილოგავა, 1990</bibl>
+                    <author>ვალერი სილოგავა</author>, <title>ეპიგრაფიკული ეტიუდები და შენიშვნები</title>, საქართველოს სსრ მეცნიერებათა აკადემიის მაცნე, ისტორიის, ეთნოგრაფიისა და ხელოვნების ისტორიის სერია, IV, თბილისი, 1990, გვ. 79-119</bibl>
+               
+                <bibl xml:id="b168"><bibl type="abbrev">სილოგავა, 1980</bibl>
+                    <author>ვალერი სილოგავა</author>, <title>ცნობები და შენიშვნები სომხეთის ქართული ეპიგრაფიკული ძეგლების გამოცემის შესახებ</title>, საქართველოს სსრ მეცნიერებათა აკადემიის მაცნე, ენისა და ლიტერატურის სერია, II, თბილისი, 1980</bibl>
+          
+          
+                <bibl xml:id="b198"><bibl type="abbrev">სილოგავა, 1994</bibl>
+                    <author>ვალერი სილოგავა</author>, <title>კუმურდო, ტაძრის ეპიგრაფიკა</title>, თბილისი 1994
+                </bibl>
+
+          
+               
+                <bibl xml:id="b169"><bibl type="abbrev">მელიქსეთ-ბეგი, 1927</bibl>
+                   <author>ლეონ მელიქსეთ-ბეგი</author>, <title>ქობერი და მისი სომხური და ქართული წარწერები</title>, ჟურნალი "ტფილისის უნივერსიტეტის მოამბე", VII, თბილისი, 1927</bibl>
+               
+                <bibl xml:id="b170"><bibl type="abbrev">ბროსე, 1851</bibl>
+                    <author>M. Brosset</author>, <title>Rapports sur un Voyage Archéologiqye dans la Géorgia et dans l'Academie</title>, Exécute en 1847-1848, Memmbre de l'Academie Impériale des Sciences, Avec un Altas de 45 planches lithographiées (Sankt-Pétersbourg), 1851</bibl>
+               
+                <bibl xml:id="b171"><bibl type="abbrev">ჟორდანია, 1897</bibl>
+                    <author>თედო ჟორდანია</author>, <title>ქრონიკები და სხვა მასალა საქართველოს ისტორიისა და მწერლობისა</title>, შეკრებილი, ქრონოლოგიურად დაწყობილი და ახსნილი თ. ჟორდანიას მიერ (1213 წლიდამ 1700 წლამდე), წ. II, 1897</bibl>
+               
+                <bibl xml:id="b172"><bibl type="abbrev">მესხია, 1979</bibl>
+                    <author>შოთა მესხია</author>, <title>საშინაო პოლიტიკური ვითარება და სამოხელეო წყობა XII საუკუნის საქართველოში</title>, თბილისი, 1979</bibl>
+                
+                <bibl xml:id="b173"><bibl type="abbrev">ბერძენიშვილი, 2000</bibl>
+                   <author>დევი ბერძენიშვილი</author>, <title>დმანისხევი</title>, დმანისი, II, თბილისი, 2000</bibl>
+                
+                <bibl xml:id="b174"><bibl type="abbrev">სილოგავა, 2008</bibl>
+                   <author>ვალერი სილოგავა</author>, <title>ქობერის ეპიტაფია-ლექსი</title>, ქართული ენა, ენციკლოპედია, თბილისი, 2008</bibl>
+                
+                <bibl xml:id="b175"><bibl type="abbrev">შანიძე, 1959</bibl>
+                   <author>А. Г. Шанидзе</author>, 
+                   <title>Грузинская надпись XIII века в сел. Кош (Армянская ССР)</title>, 
+                   საქართველოს სსრ მეცნიერებათა აკადემიის ხელნაწერთა ინსტიტუტის მოამბე, ტ. I, საქართველოს სსრ მეცნიერებათა აკადემიის გამომცემლობა, თბილისი, 1959</bibl>
+               
+                <bibl xml:id="b176"><bibl type="abbrev">მელიქსეთ-ბეგი, 1928</bibl>
+                  <author><forename>ლეონ</forename> <surname>მელიქსეთ-ბეგი</surname></author>
+                  <title>ჩრდილო მხარეთა სომეხთა მოძღვარნი და მათი ვინაობა</title> სომეხ-ქართველთა ურთიერთობის საკითხებთან დაკავშირებით (ცდა ისტორიულ ლიტერატურული გამოკვლევისა), ტფილისი, 1928
+               </bibl>
+              
+               
+               
+               
+                <bibl xml:id="b177"><bibl type="abbrev">ჩუბინაშვილი, 1967</bibl>
+                  <author>Г. Чубинашвили</author>
+                  <title>Разыскания по армянской архитектуре</title>, Тбилиси, 1967
+               </bibl>
+               
+                <bibl xml:id="b178"><bibl type="abbrev">ბერძენიშვილი, 2006</bibl>
+                  <author>დევი ბერძენიშვილი</author>, 
+                  <title>დებედის ხეობის ისტორიული გეოგრაფიისათვის</title>, დმანისი, V, თბილისი, <date>2006</date>
+               </bibl>
+                
+                <bibl xml:id="b179"><bibl type="abbrev">ჩუბინაშვილი, 2015</bibl>
+                   <title>ხცისის ეკლესიის წარწერები</title> <author>გიორგი ჩუბინაშვილი</author>
+               </bibl>
+               
+                <bibl xml:id="b180"><bibl type="abbrev">ზედილიცი, 1872</bibl>
+                   <title>Изследование древных гробниц близ сел. Мцхета</title> 
+                   <author>Н. Зейдлиц</author> Известия Кавказского отдела Русского географического общество. 1872 г. Т.1
+               </bibl>
+         <bibl xml:id="b181"><bibl type="abbrev">ბაქრაძე, 1864</bibl>
+            <title>Д. З. Бакрадзе</title> 
+            <author>Сванетия</author>
+         </bibl>
+         
+         <bibl xml:id="b182"><bibl type="abbrev">პრივალოვა, 1980</bibl>
+            <title>Роспись Тимотесубани</title> 
+            <author>Е. П. Привалова</author>
+         </bibl>
+         
+         
+         <bibl xml:id="b183"><bibl type="abbrev">მუსხელიშვილი, 1941</bibl>
+             <author>ლევან მუსხელიშვილი</author> 
+             <title>უკანგორის ისტორიული ნაშთები</title>, 
+             ენიმკის მოამბე, ტ X, 1941
+         </bibl>
+         
+         
+         
+         <bibl xml:id="b184"><bibl type="abbrev">თაყაიშვილი, 1914</bibl>
+            <title>არხეოლოგიური მოგზაურობანი და შენიშვნანი</title> 
+            <author>ექვთიმე თაყაიშვილი</author>
+         </bibl>
+          
+          <bibl xml:id="b186"><bibl type="abbrev">შუბითიძე, 2012</bibl>
+              <title>ქართული ციხესიმაგრეები და ეკლესია მონასტრები</title> 
+              <author>ვ. შუბითიძე</author>
+          </bibl>
+         
+          <bibl xml:id="b199"><bibl type="abbrev">როსტომოვი, 1898</bibl>
+              <title>Аxалкалакский уъезд в арxеологическом отношении</title> 
+              <author>И.П. Ростомов</author>, 1898
+          </bibl>
+          
+          <bibl xml:id="b200"><bibl type="abbrev">ცისკარიშვილი, 1959</bibl>
+              <title>ჯავახეთის ეპიგრაფიკა, როგორც საისტორიო წყარო</title> 
+              <author>ვ. ცისკარიშვილი</author>, 1959
+          </bibl>
+          
+          <bibl xml:id="b201"><bibl type="abbrev">ბერძენიშვილი, 1964</bibl>
+              <author>ნ. ბერძენიშვილი</author>, 
+              <title>ჯავახეთის 1933 წლის ექსპედიციის დღიური</title> იხ. მისი "საქართველის ისტორიის საკითხები", ისტორიული გეოგრაფია, ტ. I, 1964
+          </bibl>
+         
+          <bibl xml:id="b202"><bibl type="abbrev">გვარამაძე, 1982</bibl>
+              <author>ი. გვარამაძე</author>, 
+              <title>"დროება" არქეოლოგიური შენიშვნები</title> N150, 1982
+          </bibl>
+         
+          <bibl xml:id="b203"><bibl type="abbrev">ბერიძე, 1967</bibl>
+              <author>ვ. ბერიძე</author>, 
+              <title>ძველი ქართველი ოსტატები,</title> თბილისი, 1967Вопросы истории искусства
+          </bibl>
+          
+          <bibl xml:id="b204"><bibl type="abbrev">ჩუბინაშვილი, 1970</bibl>
+              <author>ვ. ბერიძე</author>, 
+              <title>ძველი ქართველი ოსტატები,</title> თბილისი, 1967Вопросы истории искусства
+          </bibl>
+          
+          <bibl xml:id="b205"><bibl type="abbrev">ჯავახიშვილი, 1946</bibl>
+              <author>ივანე ჯავახიშვილი</author>, 
+              <title>მასალები ქართველი ერის მატერიალური კულტურის ისტორიისათვის,</title> თბილისი, 1946
+          </bibl>
+          
+          <bibl xml:id="b206"><bibl type="abbrev">ჯავახიშვილი, 1914</bibl>
+              <author>ივანე ჯავახიშვილი</author>, 
+              <title>Термини искусств и главнейшие сведения о памятниках искусства и материальной културы в древнегрузинской литературе,</title> Тифлись, 1914
+          </bibl>
+
+            <bibl xml:id="b207"><bibl type="abbrev">ალექსიძე, 2012</bibl>
+                <author>ზაზა ალექსიძე</author>
+                <title>ადრექრისტიანული საეკლესიო კომპლექსი დმანისთან</title>, თბილისი, 2012
+                
+            </bibl>
+          
+          <bibl xml:id="b208"><bibl type="abbrev">ჯაფარიძე, 1970</bibl>
+              <author>ვ. ჯაფარიძე</author>
+              <title>ქართული ხელოვნებისა და დამწერლობის ახლად აღმოჩენილი უძველესი ძეგლები ქვემო ქართლიდან</title>
+              
+          </bibl>
+          
+          <bibl xml:id="b209"><bibl type="abbrev">ჯაფარიძე, 1971</bibl>
+              <author>ვ. ჯაფარიძე</author>
+              <title>გათხრები დმანისსა და მის მიდამოებში</title>, 1971
+              
+          </bibl>
+          
+          <bibl xml:id="b210"><bibl type="abbrev">ჯაფარიძე, 1971</bibl>
+              <author>ვ. ჯაფარიძე</author>
+              <title>დმანისის არქეოლოგიური ექსპედიციის 1969 წლის მუშაობის მოკლე ანგარიში</title>, 1971
+              
+          </bibl>
+          
+          <bibl xml:id="b211"><bibl type="abbrev">ჩუბინაშვილი, 1972</bibl>
+              <author>Н. Чубинашвили</author>
+              <title>Проблема рельефа на приморе одной группй грузинских стел последней четверди V века VI и первой половины VII века</title>, 1972
+              
+          </bibl>
+          
+          <bibl xml:id="b212"><bibl type="abbrev">თაყაიშვილი, 1913</bibl>
+              
+              <author>Е. Такайсшвили</author>
+              <title>Археологические екскурсии разыскания и заметки</title>, 1913
+              
+          </bibl>
+          
+          
+          <bibl xml:id="b213"><bibl type="abbrev">ბერძენიშვილი, 2014</bibl>
+              <author>დევი ბერძენიშვილი</author>
+              <title>ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან</title>
+          </bibl>
+        
+          <bibl xml:id="b214"><bibl type="abbrev">კოპალიანი, 1998</bibl>
+              <author>ჯ. კოპალიანი</author>
+              <title>წარწერიანი არქეოლოგიური მასალა ქვემო ქართლის წარწერების ნაქალაქარის შიდა ციხიდან</title>თბლისი, 1998
+          </bibl>
+        
+          <bibl xml:id="b215"><bibl type="abbrev">ბაქრაძე, 1959</bibl>
+              <author>ა. ბაქრაძე</author>
+              <title>თრიალეთისა და ატენის ეპიგრაფიკული ძეგლები, როგორც ისტორიული წყარო</title>
+          </bibl>
+          
+          <bibl xml:id="b216"><bibl type="abbrev">ოთხმეზური, 2016</bibl>
+              <author>გიორგი ოთხმეზური</author>
+              <title>დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი)</title>, 2016
+          </bibl>
+        
+          <bibl xml:id="b217"><bibl type="abbrev">რჩეულიშვილი, 1994</bibl>
+              <author>ლ. რჩეუშვილი</author>
+              <title>ქართული ხელოვნების ისტორიის ნარკვევები</title>, 1994
+          </bibl>
+          
+          <bibl xml:id="b218"><bibl type="abbrev">სილოგავა, 2000</bibl>
+              <author>ვ. სილოგავა</author>
+              <title>ქვემო ქართლის წარწერები</title>, კრებ. „დმანისი“, II, 2000
+          </bibl>
+          
+          <bibl xml:id="b219"><bibl type="abbrev">ჯაფარიძე, 1982</bibl>
+              <author>ვ. ჯაფარიძე</author>
+              <title>ადრეული შუა საუკუნეების არქეოლოგიური ძეგლები ქვემო ქართლიდან (დმანისის არქეოლოგიური ექსპედიციის მასალების მიხედვით)</title>
+          </bibl>
+        
+          <bibl xml:id="b220"><bibl type="abbrev">მუსხელიშვილი, 1938</bibl>
+              <author>ლ. მუსხელიშვილი</author>
+              <title>დმანისი (ქალაქის ისტორია და ნაქალაქარის აღწერა)</title>, შოთა რუსთაველის ეპოქის მატერიალური კულტურის ძეგლები, თბილისი, 1938
+          </bibl>
+          
+          <bibl xml:id="b221"><bibl type="abbrev">მეფისაშვილი, 1971</bibl>
+              <author>რ. მეფისაშვილი</author>
+              <title>კიდევ ერთხელ ბოლნისისა და დმანისის ძეგლების შესახებ</title>, ძეგლის მეგობარიძეგლის მეგობარი, 1971
+          </bibl>
+          
+          <bibl xml:id="b222"><bibl type="abbrev">ბაქრაძე, 1954</bibl>
+              <author>აკაკი ბაქრაძე</author>
+              <title>ქართული ეპიგრაფიკა, როგორც ისტორიული წყარო (V-VIII სს.)</title>
+              დისერტაცია: ისტორიულ მეცნიერებათა კანდიდატის სამეცნიერო ხარისხის მოსაპოვებლად
+              თბილისი, 1954
+          </bibl>
+          
+          <bibl xml:id="b223"><bibl type="abbrev">კოჭლამაზაშვილი, 2017</bibl>
+              <author></author>
+              <title>ლიპარიტის უბნის ეკლესიის წარწერა</title>, კრებ. ქრისტიანულ არქეოლოგიური ძიებანი
+              IX, თბილისი, 2016-2017
+          </bibl>
+          
+          <bibl xml:id="b224"><bibl type="abbrev">მუსხელიშვილი, 1940</bibl>
+              <author>ლ. მუსხელიშვილი</author>
+              <title>თორელთა გენეალოგიის გარკვევის ცდა ჰამამლუს XII საუკუნის წარწერებთან დაკავშირებით</title>
+          </bibl>
+          
+          <bibl xml:id="b225"><bibl type="abbrev">შოშიაშვილი, 1966</bibl>
+              <author>ნ. შოშიაშვილი</author>
+              <title>თორელთა ფეოდალური სახლის ისტორია და შოთა რუსთაველი</title> კრებ. „შოთა რუსთაველი“, თბილისი, 1966
+          </bibl>
+          <bibl xml:id="b226"><bibl type="abbrev">ოთხმეზური, 1981</bibl>
+              <author>გიორგი ოთხმეზური</author>
+              <title>XII-XIII საუკუნეების მიჯნის ქართული ლიპიდარული წარწერები, როგორც საისტორიო წყარო, </title>
+                  საქართველოს ისტორიის წყაროები, VI, თბილისი, მეცნიერება, 1981
+          </bibl>
+          
+          <bibl xml:id="b227"><bibl type="abbrev">ბერძენიშვილი, 1964</bibl>
+              <author>დევი ბერძენიშვილი</author>, 
+              <title>დმანელი ამირას უცნობი წარწერა ფინეზაურის ხეობიდან</title>, თბილისი 1964
+          </bibl>
+          
+          <bibl xml:id="b228"><bibl type="abbrev">ჯაფარიძე, 1974</bibl>
+              <author>ვ. ჯაფარიძე</author>,
+              <title> შუა საუკუნეების ერთი ისტორიულ-არქეოლოგიური ძეგლი ნაქალაქარ დმანისის გუბერნიაში (საყდრისქედის ეკლესია)</title>,
+                  ფეოდალური საქართველოს არქეოლოგიური ძეგლები, I, თბილისი 1974
+          </bibl>
+          
+          <bibl xml:id="b229"><bibl type="abbrev">ბერძენიშვილი, 2000</bibl>
+              <author>დევი ბერძენიშვილი</author>,
+              <title> ჯავახეთი, ისტორიულ ხუროთმოძღვრული გზამკვლევი</title>, თბილისი 2000
+          </bibl>
+          
+          <bibl xml:id="b230"><bibl type="abbrev">სილოგავა, 1993</bibl>
+              <author>ვალერი სილოგავა</author>
+              <title>, თორელთა ფეოდალური სახლის ერთი მემორიალური ძეგლი (ახალდაბის წარწერა)</title>, მუშაობის გეგმა და მოხსენებათა თეზისები
+          </bibl>
+          
+          <bibl xml:id="b231"><bibl type="abbrev">თაყაიშვილი, 1929</bibl>
+              <author>ექვთიმე თაყაიშვილი</author>,
+              <title> სომხით-საორბელოს ძეგლების წარწერები</title>, ჟურნ. კავკასიონი, პარიზი 1929
+          </bibl>
+          
+          <bibl xml:id="b232"><bibl type="abbrev">მამარდაშვილი, 1994</bibl>
+              <author>მ. მამარდაშვილი</author>
+              <title>, ხელის გამოსახულებიანი წარწერიანი სტელა გომარეთიდან, თბილისი 1994</title>
+          </bibl>
+          
+          <bibl xml:id="b233"><bibl type="abbrev">ბერძენიშვილი, 1998</bibl>
+              <author>დევი ბერძენიშვილი</author>
+              <title>, ეროვნული კულტურული მემკვიდრეობის პროგრამა</title>,საანგარიშო კრებული, თბილისი 1998
+          </bibl>
+          
+          <bibl xml:id="b234"><bibl type="abbrev">გოგოლაძე, 2019</bibl>
+              <author>თამაზ გოგოლაძე</author>
+              <title>თორის ხეობის ეპიგრაფიკული კორპუსი</title>
+          </bibl>
+          
+          <bibl xml:id="b235"><bibl type="abbrev">ბერძენიშვილი, 1987</bibl>
+              <author>დევი ბერძენიშვილი</author>
+              <title>, არქიტექტურულ-ისტორიული გზამკვლევი "გუჯარეთი"</title>
+          </bibl>
+        
+          <bibl xml:id="b236"><bibl type="abbrev">მაკალათია, 1957</bibl>
+              <author>სერგი მაკალათია</author>
+              <title>ბორჯომის ხეობა (ისტორიულ-ეთნოგრაფიული ნარკვევი)</title>
+          </bibl>
+          
+          <bibl xml:id="b237"><bibl type="abbrev">კაკაბაძე, 1966</bibl>
+              <author>სარგის კაკაბაძე</author>
+              <title>რუსთაველი და მისი ვეფხისტყაოსანი</title>
+          </bibl>
+          
+          <bibl xml:id="b238"><bibl type="abbrev">ზედგინიძე, 1977</bibl>
+              <author>გიორგი ზედგენიძე</author>
+              <title>თორელ-ჯავახთა და ჯაყელ-მესხთა სამამულო მფლობელობის შესახებ ბორჯომის ხეობაში</title>,
+                  კრებულში: კრებული მიძღვნილი აკადემიკოს ივანე ჯავახიშვილის დაბადების 100 წლისთავისადმი
+          </bibl>
+          
+          <bibl xml:id="b239"><bibl type="abbrev">ბერძენიშვილი, 1985</bibl>
+              <author>დევი ბერძენიშვილი</author>
+              <title>, ნარკვევები საქართველოს ისტორიული გეოგრაფიიდან (ზემო ქართლი – თორი, ჯავახეთი)</title>
+          </bibl>
+          
+          <bibl xml:id="b240"><bibl type="abbrev">ბერძენიშვილი, 1987</bibl>
+              <author>დევი ბერძენიშვილი</author>
+              <title>, არქიტექტურულ-ისტორიული გზამკვლევი "გუჯარეთი"</title>
+          </bibl>
+          
+          <bibl xml:id="b241"><bibl type="abbrev">გოგოლაძე, 2014</bibl>
+              <author>თამაზ გოგოლაძე</author>
+              <title>, ბორჯომის ხეობის ისტორიული და ხუროთმოძღვრული ძეგლები (გზამკვლევი)</title>
+          </bibl>
+          
+          <bibl xml:id="b242"><bibl type="abbrev">გოგოლაძე, 2014</bibl>
+              <author>თამაზ გოგოლაძე</author>
+              <title>ფოთოლეთის ეკლესიის ნაკაწრი წარწერები და მათი ისტორიულ-წყაროთმცოდნეობითი ანალიზი</title>
+          </bibl>
+        
+          <bibl xml:id="b243"><bibl type="abbrev">აბულაძე, 1983</bibl>
+              <author>ვლადიმერ აბულაძე</author>
+              <title>, ბორჯომის ხეობის წარსული და აწმყო</title>
+          </bibl>
+          <bibl xml:id="b244"><bibl type="abbrev">აბულაძე, 1964</bibl>
+              <author>ვლადიმერ აბულაძე</author>
+              <title>, საავალიშვილოს ისტორიიდან</title>
+          </bibl>
+          
+          <bibl xml:id="b245"><bibl type="abbrev">ჯავახიშვილი, 1949</bibl>
+              <author>ივანე ჯავახიშვილი</author>
+              <title>ქართველი ერის ისტორია</title>, წიგნი III
+          </bibl>
+          
+          <bibl xml:id="b246"><bibl type="abbrev">ბერძენიშვილი, 1964</bibl>
+              <author>ნიკო ბერძენიშვილი</author>
+              <title>საქართველოს ისტორიის საკითხები</title>, წიგნი I
+          </bibl>
+          
+          <bibl xml:id="b247"><bibl type="abbrev">შოშიაშვილი, 1966</bibl>
+              <author>ნოდარ შოშიაშვილი</author>
+              <title>შოთა რუსთაველი, ისტორიულ-ფილოლოგიური ძიებანი</title>
+          </bibl>
+          <bibl xml:id="b248"><bibl type="abbrev">სილოგავა, 2000</bibl>
+              <author>ვალერი სილოგავა</author>
+              <title>შრომების კრებული</title>, ტ. II
+          </bibl>
+          
+          <bibl xml:id="b249"><bibl type="abbrev"></bibl>
+              <author></author>
+              <title></title>
+          </bibl>
+          <bibl xml:id="b250"><bibl type="abbrev"></bibl>
+              <author></author>
+              <title></title>
+          </bibl>
+          
+          <bibl xml:id="b251"><bibl type="abbrev"></bibl>
+              <author></author>
+              <title></title>
+          </bibl>
+          <bibl xml:id="b252"><bibl type="abbrev"></bibl>
+              <author></author>
+              <title></title>
+          </bibl>
+          
+          <bibl xml:id="b253"><bibl type="abbrev"></bibl>
+              <author></author>
+              <title></title>
+          </bibl>
+          
+          <bibl xml:id="b254"><bibl type="abbrev"></bibl>
+              <author></author>
+              <title></title>
+          </bibl>
+          
+          <bibl xml:id="b255"><bibl type="abbrev"></bibl>
+              <author></author>
+              <title></title>
+          </bibl>
+          <bibl xml:id="b256"><bibl type="abbrev"></bibl>
+              <author></author>
+              <title></title>
+          </bibl>
+          
+          <bibl xml:id="b257"><bibl type="abbrev"></bibl>
+              <author></author>
+              <title></title>
+          </bibl>
+        
+   </listBibl>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>გრიგოლ გალატოზთუხუცესის წარწერა</title>
+                <editor>ლია ახალაძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
+                 <idno type="filename">ECG470</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            დიხაზურგა
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სავედრებელი</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material ref="www.eagle-network.eu/voc/material/lod/66.html">კირქვა</material>
+                                   <objectType>თეთრი კირქვის ფილა</objectType>
+                                        <dimensions unit="cm">
+                                        <width>45-45</width>
+                                        <height>25-8</height>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="4">
+                                        ღრმა კვეთით შესრულებული ოთხსტრიქონიანი წარწერის პირველი სტრიქონი მოთავსებულია ჯვრის ვრტიკალური მკლავების ზემოთ, ხოლო მომდევნო ბოლო სამი სტრიქონი – ჯვრის მარჯვენა უბეში, ვერტიკალურ და მარჯვენა ჰორიზონტალურ მკლავებს შორის.
+                                    <dimensions unit="cm">
+                                    </dimensions>
+                                     <width>2,5-3</width>
+                                        <height>27</height>
+                                        <depth></depth>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="mkhedruli" style="inscribed">
+                               ოთხსტრიქონიანი მხედრული წარწერა; განკვეთილობის ნიშანი: ორწერტილი ყოველი სიტყვის შემდეგ; მეორე სტრიქონის დასაწყისში ჰორიზონტალურად განლაგებული (...); ქარაგმის ნიშანი: მორკალური, განივი ხაზი; ასოებს გადასმული აქვს მოწითალო ფერის საღებავი;
+                              <rs type="execution">ამოკვეთილი</rs> <rs type="script">მხედრული</rs>
+                            </handNote>
+                            <handNote>
+                                <height>2-4-6-11</height>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>დიხაზურგა</origPlace>
+                                <origDate>XI საუკუნე AD</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">დიხაზურგის სასაფლაო</placeName>
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">
+                            <placeName type="modernSpot">გალის მხარეთმცოდნეობის მუზეუმი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2019-05-30" who="TS">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, ბმულებით დაკავშირება გარეკონტროლირებად ლექსიკონებთან</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg1007.jpg">
+                <desc xml:lang="ka">გრიგოლ გალატოზთუხუცესის წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!-- ქ. გრ(ი)გოლს, გ(ა)ლ(ა)ტ(ო)სთუხ(უ)ცე(ს)ს, შ(ეუნდ)ოს ღ(მერთმ)ან, ა(მე)ნ.
+                 -->
+            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><persName ref="attestedperson.xml#person4"><expan><abbr>ქ. გრ</abbr><ex>ი</ex><abbr>გოლს</abbr></expan></persName> <roleName><expan><abbr>გ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ა</ex><abbr>ტ</abbr><ex>ო</ex><abbr>სთუხ</abbr><ex>უ</ex><abbr>ცე</abbr><ex>ს</ex><abbr>ს</abbr></expan></roleName>
+                    <lb n="2"/><w lemma="უნდობს"><expan><abbr>შ</abbr><ex>ეუნდ</ex><abbr>ოს</abbr></expan></w> <w lemma="ღმერთი"><expan><abbr>ღ</abbr><ex>მერთმ</ex><abbr>ან</abbr></expan></w> <w lemma="ამინ"><expan><abbr>ა</abbr><ex>მე</ex><abbr>ნ</abbr></expan></w>
+                    </ab>
+                </div>
+            <div type="translation" xml:lang="ka"><p>ქ. გრიგოლს, გალატოსთუხუცესს, ღმერთმა შეუნდოს, ამინ.</p></div>
+
+            <div type="apparatus" xml:space="preserve"/>
+
+            <div type="commentary"><p>ფილის გვერდები ჩამოტეხილია, ხოლო მისი წინა პირის ზედა ნაწილი მორკალურად არის გათლილი. ფილის შუაში გამოსახულია მაღალი რელიეფით შესრულებული, ბოლოებგამსხვილებული ჯვარი (43-29 სმ). მისი ზედა მკლავი მარცხენა მხარეს ჩამოტეხილია. ჯვრის მარცხენა მხარეს, ჰორიზონტალურ და ვერტიკალურ მკლავებს შორის, წარმოდგენილია ასევე მაღალი რელიეფით. მამაკაცს ხელები ვედრების ნიშნად ჯვრისკენ აქვს მიმართული. გამოც.: 1) М. Джанашвили, От Ново-Сенак ,1907 с. 18 (ჯ). 2) ქწკ, II,  83, N69. 3) Дж. Гамахария Б. Гогия Абхазия с. 812, N1; 4) Л. Ахаладзе Епиграфческие памятники Абхзии с. 366</p></div>
+
+
+
+            <div type="bibliography" subtype="principalEdition">
+                
+                    <p><bibl type="publication" subtype="principal" xml:lang="ka">
+                      <author>
+                          <persName>
+                            <forename></forename>
+                            <surname></surname>
+                          </persName>
+                      </author>
+                      <title/>
+                        <edition/>
+                        <pubPlace/>
+                        <publisher/>
+                        <date></date>
+                     </bibl></p>
+                
+            </div>
+
+    </body>
+</text>
+</TEI>

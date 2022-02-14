@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ატენის სიონის წარწერა</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+                <editor>И. Помяловский</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG292</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                <msIdentifier>
+                        <collection>
+                           ატენი
+                        </collection>
+                    </msIdentifier>              
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სავედრებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents> 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">ქვა</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="6">
+                                        <p>ატენის სიონის, ანუ ღვთისმშობლის ტაძრის სამხრეთ ფასადზე, სამხრეთ მკლავის აღმ. კედელზე, ქვემოდან 130 სმ-ის სიმაღლეზე დევს ქვა, რომელსაც 
+                                           დაახლოებით აქვს კვადრატული ფორმა.  ქვაზე ზემოთ 1 სტრიქონი ქართულია, ხოლო ქვემოთ გამოყვანილია ბერძნული წარწერა, ამჟამად მეტისმეტად დაზიანებული,
+                                           ხშირად განზრახ.</p>
+                                    <dimensions unit="cm">
+                                        <width>30</width>
+                                        <height>34</height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                              <p>წარწერა დაუდევრადაა შესრულებული, ასოები ქვემოთა 2 სტრიქონში უფრო მსხვილია, 1-4 სტრიქონში - წვრილი.</p>
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ატენი</origPlace>
+                                <origDate notBefore-custom="0701" notAfter-custom="0900" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">VIII-IX AD</origDate>
+                              </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">ატენი</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                  
+                            <provenance type="observed">
+                            <placeName type="modernSpot">ატენის სიონი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>  
+  <facsimile>
+        <surface>
+            <graphic url="ecg292.jpg">
+                <desc xml:lang="ka">ატენის სიონი</desc>
+                <desc xml:lang="en">Ateni Sioni</desc>
+            </graphic>
+        </surface>
+    </facsimile>  
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 197</citedRange></bibl></p>
+                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 191-193</citedRange></bibl></p>
+                    <p><bibl n="3">И. Помяловский, Сборник греческихъ и латинскихъ надписей<ptr target="bibliography.xml#b156"/>, <citedRange> 59-60</citedRange></bibl></p>
+                
+            </div>
+
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!--  ΚΕ ΒΟΗΘΤΟΥC ΔΟΥΛΟΥCΟΥΟΝ ...ΝΟΜΑ  ...ΑΘ... ΕΓΗ  ΝΟCΚΗ   †Μ   
+                            Κ[ύρι]ε βοήθ[ει] τοὺς | δούλου[ς] σου | ὧν [τὰ ὀ]νόμα[τα] | ...αθ [κύρι]ε γι | νώσκεις |  †Μ -->
+                     
+            
+         <ab>
+             <lb n="1"/><w lemma="κύριος"><expan><abbr>κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></w> <w lemma="βοηθέω"><expan><abbr>βοήθ</abbr><ex>ει</ex></expan></w> <w lemma="ὁ">τ<hi rend="ligature">οὺ</hi>ς</w>
+             <lb n="2"/><w lemma="δοῦλος">δ<hi rend="ligature">ού</hi>λ<hi rend="ligature">ου</hi><supplied reason="subaudible">ς</supplied></w> <w lemma="σός">σ<hi rend="ligature">ου</hi></w>
+             <lb n="3"/><w lemma="ὅς"><choice><reg>ὧ</reg><orig>ο</orig></choice>ν</w> <w lemma="ὁ">τὰ</w> <w lemma="ὄνομα"><supplied reason="lost">ὀ</supplied>νόμα<supplied reason="lost">τα</supplied></w>
+             <lb n="4"/><unclear>...αθ</unclear> <w lemma="κύριος"><expan><supplied reason="lost"><abbr>κ</abbr><ex>ύρι</ex></supplied><abbr>ε</abbr></expan></w> <w lemma="γιγνώσκω">γ<choice><reg>ι</reg><orig>η</orig></choice>
+             <lb n="5" break="no"/>ν<choice><reg>ώ</reg><orig>ο</orig></choice>σ<supplied reason="omitted">κ</supplied><choice><reg>ει</reg><orig>η</orig></choice>ς</w> 
+             <lb n="6"/><g type="cross">&#10013;</g> <unclear>Μ</unclear>
+          </ab>    
+             
+         
+            </div>
+                
+            <div type="translation" xml:lang="ka">
+                <p>უფალო, შეეწიე მონათა შენთა, რომელთა სახელებია... უფალო შენ უწყი (ყოველი?)</p>
+            </div>
+            
+           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app><lem></lem>
+              <rdg></rdg>
+              </app></p>
+            </div>
+           
+            <div type="commentary">
+                <p>დათარიღების საფუძველია ასოთა მოხაზულობა (კუთხეებში ჩაღრმავებები, ნაკლებ მომრგვალებული σ და ε, აბსოლუტურად მრგვალი ο, α ჩატეხილი შუა ხაზით, μ გრძელი 
+                    შუა ხაზით, სისტემატიურად ლიგატურა ου-ს ხმარება) და ენობრივი მონაცემები (შემოკლებანი, იტაციზმი (γηνοσκης), ο და ω-ს აღრევა (ον? და γηνοσκης), ორი 
+                    მეზობელი σ-დან ერთის ამოვარდნა). ასოთა მოხაზულობის თვალსაზრისით მას უჭირავს საშუალო ადგილი ვაშნარისა და ახალი ათონის ბერძნულ წარწერებს შორის. 
+                    არის საინტერესო შემოკლება: βοηθ.</p>
+                <p>ატენის ტაძრის ბერძნული წარწერის შესახებ ლიტერატურაში არის ასეთი ცნობა: Dubois de Montpéreux, Voyage... v. III, p.214-215 (1839) წერს: "Une inscription 
+                grecque porte une date, cette date est exprimée par un M, mille, qui est a peu près celle de la mort de Bagrat II:, Муравьев; Грузия и Армения, III,  105 
+                ფასადის შესახებ წერს: "... здесь имеются надписи на гречкском и армянском языках"; Бакрадзе, Кавказ...  37 ემოწმება ამ ცნობას. უფრო დაწვრილებით წერს: Brosset, 
+                Rspports, IV, 24: J'ai copié restes d'une inscription grecque dont M Dubois avait fait une copie toute semblable à la mienne: ΚΕ Β ΗΘΤΟΥC | Δ... ΟΥCΟΝ | 
+                ...ΟΥΝΜΑ | ΑΘ ΚΕΓΗ | ΝΟCΚΗC | +Ν. პომიალოვსკის (Сборник греческихъ и латинскихъ надписей,  59-60) მოჰყავს ყველა ეს ცნობა და უმატებს (უშუალოდ ბროსეს ცნობას): 
+                "Вероятно это таже надпись, которую имел в виду Дюбуа... В ней можно разорвать; κ(ύρι)ε, β[ο]ήθ[ει] τους δ[ούλ]ους σου [ὧ]ν?... ὀν[ό]μα[τ]α?... κ(ύρι)ε 
+                γινώσκεις"...</p>
+                <p>წარწერის I სტრიქონზე ადგილია, მაგრამ არ ჩანს, რომ ასო ყოფილიყოს; II სტრიქონზე საკმარისად დიდი ადგილია, მაგრამ მოჩანს მხოლოდ მკრთალად დაზიანებული ΟΥΛ; 
+                    III სტრიქონზე დიდი ადგილი სულ ამონგრეულია; IV სტრიქონზე შესაძლებელია იყო ერთი მოკლე სახელი (მონათაგან - ერთისა).</p>
+            </div>
+         
+         </body>
+    </text>
+</TEI>
+
+
+
+
+

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ნოქალაქევის კერამიკული ფილა</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG322</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                           ნოქალაქევი
+                        </collection>
+                    </msIdentifier>                   
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">განმარტებითი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>  
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material>კერამიკა</material>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="3">ფილაზე გამოსახულ წრეში და წრის მარჯვნივ მოთავსებულია ბერძნული წარწერა, რომელიც ფილის გამოწვამდეა გამოყვანილი.
+                                        წრის გარეთაც მოთავსებულია ასოები.
+                                      <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>                                
+                                ზედა სტრიქონი ნუსხურითაა ნაწერი, შემდეგი ორი სტრიქონი - მთავრულით.
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                <p></p>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>ფილაზე არის 18,5 სმ დიამეტრის წრიული ორნამენტი</decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ნოქალაქევი</origPlace>
+                                <origDate notBefore="0501" notAfter="0700" evidence="lettering" datingMethod="#julian">VI-VII AD</origDate>
+                                </origin>
+                            <provenance type="found" when="1973">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/857041">ნოქალაქევი</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                           <provenance type="observed">
+                            <placeName type="modernSpot"/>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg322.jpg">
+                <desc xml:lang="ka">ნოქალაქევის კერამიკული ფილა, 1973</desc>
+                <desc xml:lang="en">Ceramic bowl from Nokalakevi, 1973</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 133</citedRange></bibl></p>
+                
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!-- η κ β υ
+                                Κ.ΡΙΗΕΘ
+                                ΤΥΟ
+                                
+                                καταρρυὲς (καταρρυτὸν) ἠεῖδος 
+                                θεατύος
+
+                                                -->
+                     
+            
+
+         <ab>
+             <lb n="1"/><unclear>η κ β υ</unclear>
+             <lb n="2"/><w lemma="καταρρυής">καταρρ<choice><corr>υ</corr><sic>ι</sic></choice>ὲς</w> <w lemma="ἠεῖδος">ἠεῖδος</w>
+             <lb n="3"/><w lemma="θεατύος"><supplied reason="subaudible">θεα</supplied>τύος</w>
+             </ab>    
+             
+         
+            </div>
+                
+            <div type="translation" xml:lang="ka">
+                <p>მომდინარე მხურვალება. (ამისი) შესამოწმებელი (ადგილი)</p>
+            </div>
+            
+           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app loc="2"><lem>καταρρυές</lem>
+              <rdg resp="თინათინ ყაუხჩიშვილი">καταρρυτόν</rdg>
+              </app></p>
+             </div>
+           
+            <div type="commentary">
+                <p>ფილა როგორც ჩანს, იყო აბანოს ნაწილი და ეფარა სარეგულაციო ადგილას გამტარ მილს.</p>
+                <p>დათარიღება ხდება ცალკეული ასოების მოხაზულობისა და საერთო სტილის მიხედვით.</p>
+                 </div>
+        </body>
+    </text>
+</TEI>
+
+
+
+

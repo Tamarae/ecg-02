@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">სავედრებელი წარწერა ხარებასი</title>
+                <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG521</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            თორის წარწერების კორპუსი
+                        </collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material>ქვა</material>
+                                   <objectType> ღია ნაცრიფერი ქვა</objectType>
+                                        <dimensions unit="cm">
+                                        <width>37</width>
+                                        <height>40</height>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="1">
+                                        <dimensions unit="cm">
+                                            <width> 7</width>
+                                            <height>19</height>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli">წარწერა შესრულებულია ასომთავრულით, განკვეთილობის ნიშნები არ აქვს, ქარაგმად გამოყენებული სწორი განივი ხაზი.
+                                <width>5,5-4</width>
+                                <height>3-2</height>
+                                 </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ფოთოლეთის ეკლესია, სავედრებელი წარწერა კვირიკესი</origPlace>
+                                <origDate>XI ს.</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">. ფოთოლეთის ეკლესია, სავედრებელი წარწერა კვირიკესი</placeName>
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">გუჯარეთის ხეობა, ვარდევანის ეკლესია
+                            <placeName type="modernSpot">გუჯარეთის ხეობა, ვარდევანის ეკლესია</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2020-01-16" who="papidze">გარე ანოტირება, პირთა სახელების, წარწერის სრული კოდირება  შესრულდა 2020 წლის ციფრული ეპიგრაფიკის სასწავლო კურსის ფარგლებში.</change>
+        </revisionDesc>
+    </teiHeader>
+    <!-- წარწერის ფოტოდოკუმენტაცია -->
+    <facsimile>
+        <surface>
+            <graphic url="ECG521.jpg">
+                <desc xml:lang="ka">სავედრებელი წარწერა ხარებასი</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+           <div type="bibliography">
+               
+                <p><bibl n="1">წარწერა გამოცემული არ არის<ptr target="bibliography.xml#b130"/>,<citedRange></citedRange>2020</bibl></p>
+            
+           </div>
+            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">     
+              <!--ქ(რისტე), შ(ეიწყალ)ე ხ(ა)რ(ე)ბ(ა)ჲ-->
+                <ab>
+                    <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
+                               <w lemma="იწყალებს"> <expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w>
+                               <persName type="local" key="ხარება"> <expan><abbr>ხ</abbr>ა<ex>რ</ex>ე<abbr>ბ</abbr>ა</expan>ჲ</persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ka"/>
+            <div type="apparatus" xml:space="preserve"/>
+            <div type="commentary"><p>წარწერა დაზიანებულია. წარწერა ბოლონაკლულია, თუმცა გადარჩენილი წარწერის ტექსტი თავიდან ბოლომდე გარკვევით იკითხება.</p>
+                 <p>წარწერის დათარიღების საფუძველი:წარწერა შესრულებულია ასომთავრული დამწერლობით. </p>
+            </div>
+
+         </body>
+    </text>
+</TEI>

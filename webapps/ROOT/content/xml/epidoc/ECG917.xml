@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ჭყონდიდის წარწერა მაცხოვრის გამოსახულების გარშემო</title>
+                <editor>ვალერი სილოგავა</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG917</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                           ჭყონდიდი
+                        </collection>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/416">კედელი</objectType>
+                                   </support>
+                                   </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                    <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                    </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა.
+                                   <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+
+                           <origin>
+                                <origPlace>ჭყონდიდი</origPlace>
+                                <origDate>X AD</origDate>
+                            </origin>
+
+                        <provenance type="found" when="1937">
+                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">ჭყონდიდი</placeName>
+                            <!--  -->
+                            <rs type="monuList">ჭყონდიდი</rs>
+                            <rs type="circumstances"></rs>
+                            <rs type="context"/>
+                        </provenance>
+
+                        <provenance type="observed">
+                            <placeName type="modernSpot">ჭყონდიდი</placeName>
+                             <idno type="invNo"/>
+                        </provenance>
+
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <!--
+
+    <facsimile>
+        <surface>
+            <graphic url="tskise_01.jpg">
+                <desc xml:lang="ka">წყისეს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+
+    -->
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
+
+                       <!--   ი(ეს)უ ქ(რისტ)ე
+                        მე ვყო ც(ა)დ ჴელი ჩ(ე)მი ვფუცო მ(ა)რჯ(უე)ნესა ჩ(ე)მსა და ვთქ(უ)ა ცხ(ოვე)ლ ვარ მე უკ(უნისამდ)ე-->
+
+
+                 <ab>
+                        <lb n="1"/><persName type="divine" ref="divine.xml#iesous"><name nymRef="იესუ"><expan><abbr>ი</abbr><ex>ეს</ex><abbr>უ</abbr></expan></name></persName>
+                        <persName type="divine" ref="divine.xml#iesous"><name nymRef="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></name></persName>
+                        <lb n="2"/><w lemma="მე">მე</w> <w lemma="ჰყოფს">ვ
+                        <lb n="3" break="no"/>ყო</w>
+                        <lb n="4"/><w lemma="ცა"><expan><abbr>ც</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
+                        <lb n="5"/><w lemma="ჴელ">ჴე
+                            <lb n="6" break="no"/>ლი</w>
+                        <lb n="7"/><w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მი</abbr></expan></w>
+                        <lb n="8"/><w lemma="იფიცებს">ვფუ
+                            <lb n="9" break="no"/>ცო</w>
+                        <lb n="10"/><w lemma="მარჯუენე"><expan><abbr>მ</abbr><ex>ა</ex><abbr>რჯ
+                        <lb n="11"/></abbr><ex>უე</ex><abbr>ნესა</abbr></expan></w>
+                        <lb n="12"/><w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მსა</abbr></expan></w>
+                        <lb n="13"/>და <w lemma="ამბობს"><expan><abbr>ვ
+                            <lb n="14" break="no"/>თქ</abbr><ex>უ</ex><abbr>ა</abbr></expan></w>
+                        <lb n="15"/><w lemma="ცხოველ"><expan><abbr>ცხ</abbr><ex>ოვე</ex><abbr>ლ</abbr></expan></w>
+                        <lb n="16"/><w lemma="არის">ვა
+                            <lb n="17" break="no"/>რ</w> <w lemma="მე">მე</w>
+                        <lb n="18"/><w lemma="უკუნის"><expan><abbr>უკ</abbr><ex>უნისამდ</ex><abbr>ე</abbr></expan></w>
+
+                 </ab>
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="ka">
+                <p/>
+            </div>
+
+           <div type="apparatus" xml:space="preserve"/>
+
+            <div type="commentary">
+                <p/>
+            </div>
+
+            <div type="bibliography">
+                
+                     <p><bibl n="1">ვალერი სილოგავა, სამეგრელო-აფხაზეთის ქართული ეპიგრაფიკა <ptr target="bibliography.xml#b119"/>, <citedRange>53-54</citedRange></bibl></p>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

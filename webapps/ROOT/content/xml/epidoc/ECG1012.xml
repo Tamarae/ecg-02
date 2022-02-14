@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.0/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.0/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>აბრაამ სარას ძის ამულეტი</title>
+                <editor>ნისიან ბაბალიკაშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG289</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                <msIdentifier>
+                        <collection>
+                           მცხეთა
+                        </collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">ამულეტი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/131">ოქრო</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/147">ფირფიტა</objectType>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        
+                                    <dimensions unit="cm">
+                                        <width>5,8</width>
+                                        <height>2,8</height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                <height unit="cm">5,8</height>
+
+                                  </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>მცხეთა</origPlace>
+                                <origDate>I</origDate>
+                              </origin>
+                            <provenance type="found" when="1982">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/857034">მცხეთა</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                        
+                            <provenance>
+                            <placeName type="modernSpot">საქართველოს ეროვნული მუზეუმი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+     <!-- 
+    
+        
+    <facsimile>
+        <surface>
+            <graphic url="tskise_01.jpg">
+                <desc xml:lang="ka">წყისეს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    -->
+    <text>
+        <body>
+            <div type="bibliography">
+                 
+                    <p><bibl>
+                        <author>
+                          <persName>
+                            <forename>კონსტანტინე</forename>
+                            <surname>წერეთელი</surname>
+                          </persName>
+                      </author>
+                      <title level="m" type="main">მცხეთის არამეული ამულეტი</title>
+საქართველოს ებრაელთა ისტორიულ-ეთნოგრაფიული მუზეუმის შრომები. თბილისი, 2006. ტ.4,  192-247
+                     </bibl></p>
+                
+            </div>
+            <div type="edition" xml:lang="he" xml:space="preserve">
+                
+                        <!-- קמיע טב לאברהם בר ש
+רה לאנש ביתיה חתמא
+דין דחתם שלמה מלכא
+[ד]לית נזק אב[ר]הם בר שרה
+ולא כל אנשי ביתיה בנא ו
+כקמי אל אדר [מלא] מלא לאברהם 
+דיהי אל סמר בכול - יומא
+אנת נסיס פלט וסום
+טיבו וברז יד סום אליה
+[ו]יסף צב מרי-ניח בשום
+אלין מלאכיה אנה חתי[ם]
+וקמע דלא ישלוט
+באברהם בר שרה לא   
+חרשין ולא עובד ביש
+ולא אסירין ולא כרובין
+ולא שיד ולא שדני ולא
+כל מזיק ביש לא ישלטן
+באברהם בר שרה מן
+יומא דנן ועד לעלם 
+אמן אמן סלה קום וקום [יקים/וקים]
+מעשה יד רחם ואין בהם 
+ממש אלף בית גימל דלת
+הי וא זין חית טית יוד 
+כף למד מם נון סמך ע
+פי צדי קוף רש שין
+תו ויאמר יעקב כאשר
+ראם מחנה אלהים זה 
+ויקרא שם המקום
+ההוא מחנים.
+
+ტექსტის ტრანსლიტერაცია
+
+1. qmyʻ ṭb lʾbrhm br ś
+2. rh lʾnš bytyh ḥtmʾ
+3. dyn dḥtm šlmh mlkʾ
+4. /d/lyt nzq ʾb/r/hm br śrh
+5. wlʾ kl ʾnšy bytyh bnʾ w
+6. kqmy ʾl ʾdr mlʾ /mlʾ/ lʾbrhm
+7. dyhy ʾl smr bkwl-yawmʾ
+8. ʾnt nsys plṭ wswm
+9. tybw wbrz yd swm ʾlyh
+10. /w/ysp ṣb mry nyḥ bšwm  
+11. ʾlyn mlʾkyh ʾnh ḥty/m/
+12. wqmʻ dlʾ yšlwṭ
+13. bʾbrhm br śrh lʾ
+14. ḥršyn wlʾ ʻwbd byš
+15. wlʾ ʾsyryn wlʾ krwbyn
+16. wlʾ šyd wlʾ šdny wlʾ
+17. kl mzyq byš lʾ yšlṭn
+18. bʾbrhm br śrh mn
+19. ywmʾ dnn wʻd lʻlm
+20. ʾmn ʾmn slh qwm wqwm (yqym/wqym)
+21. mʻśy yd rḥm wʾyn bhm
+22. mmš ʾlp byt gyml dlt
+23. hy wʾ zyn ḥyt ṭyt ywd
+24. kp lmd mm nwn smk ʻ/yn/
+25. py ṣdy qwp rš šyn
+26. tw wyʾmr yʻqb kʾšr
+27. rʾm mḥnh ʾlhym zh 
+28. wyqrʾ šm hmqwm
+29. hhwʾ mḥnym.-->
+
+                     <ab>
+                        
+                     </ab>    
+             
+         
+            </div>
+                
+            <div type="translation" xml:lang="ka">
+                <p>1. [ეს არის] კეთილი ამულეტი აბრაჰამ სარას ძისთვის,
+2. მისი ოჯახის წევრებისათვის, ეს [არის] ბეჭედი,
+3. რომლითაც დაბეჭდა სოლომონ მეფემ [ბოროტი სულები],
+4. რათა არ ევნოს აბრაჰამ სარას ძეს,
+5. და [არც] არავის მისი ოჯახის წევრებიდან ჩვენ წინაშე და,
+6. როგორც ადრეც, შეასრულა [სიტყვა] ღმერთმა ძლიერმა აბრაჰამის მიმართ,
+7. რომ [იგი] იქნებოდა ღმერთი დამცველი [მისი] მუდამ.
+8. შენ შეჭირვებული [ხარ]. განდევნე [ბოროტი სულები], გააკეთე
+9. სიკეთე და ფარულად (საიდუმლოდ) დაადე ხელი მას! 
+10. [და] კვლავ (კიდევ უფრო) განამტკიცე სამართლიანი [საქმე],
+11. სახელითა ამ ანგელოზებისა მე ვბეჭდავ
+12. და ვკრავ [ბოროტ სულს], რათა [მან] არ იბატონოს მასზე,
+13. აბრაჰამ სარას ძეზე არ [იყოს],
+14. ჯადო და ავი საქმე
+15. და არც შეკრულნი (მოჯადოებულნი), და არც ქერუბიმნი.
+ 16. და არც ეშმაკი და არც ეშმაკეული და არც
+17. არავითარი ბოროტი დემონი, და არ ექნებათ [მათ] ძალა,
+18. აბრაჰამ სარას ძეზე
+19. დღეიდან უკუნისამდე!
+20. ამენ, ამენ, სელა! აღდეგ და აღასრულე 
+21. ნამოქმედარი მოწყალებისა! და არ არის მათში.
+22. სუბსტანცია. ალეფ, ბეთ, გიმელ, დალეთ,
+23. ჰე, ვა, ზაინ, ხეთ, ტეთ, იოდ,
+24. ქაф, ლამედ, მემ, ნუნ, სამეხ [აინ],
+25. ფე, ცადე, კოф, რეშ, შინ,
+26. თავ. და თქვა იოკობმა, როდესაც
+27. იხილა ისინი: „ღმერთის ბანაკია ეს“.
+28. და უწოდა სახელი ადგილსა
+29. მას მახანაიმ.</p>
+
+            </div>
+            
+           <div type="apparatus" xml:space="preserve">  
+            </div>
+           
+            <div type="commentary">
+                <p></p>
+            </div>
+         </body>
+    </text>
+</TEI>
+
+
+
+
