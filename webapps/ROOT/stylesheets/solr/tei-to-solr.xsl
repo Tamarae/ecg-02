@@ -40,9 +40,28 @@
     </field>
   </xsl:template>
   
+  
+  <xsl:template match="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace" mode="facet_origin_place">
+    <field name="origin_place">
+      <xsl:value-of select="."/>
+    </field>
+  </xsl:template>
+  
   <xsl:template match="tei:persName/tei:name[@nymRef]" mode="facet_person_name">
     <field name="person_name">
       <xsl:value-of select="@nymRef"/>
+    </field>
+  </xsl:template>
+  
+  <xsl:template match="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/placeName[@type='ancientFindspot']" mode="facet_found_provenance">
+    <field name="found_provenance">
+      <xsl:value-of select="."/>      
+    </field>
+  </xsl:template>
+  
+  <xsl:template match="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:material" mode="facet_support_material">
+    <field name="support_material">
+      <xsl:value-of select="."/>
     </field>
   </xsl:template>
   
@@ -92,6 +111,11 @@
     <xsl:call-template name="field_mentioned_institutions"/>
     <xsl:call-template name="field_mentioned_divinities"/>
     <xsl:call-template name="field_person_name"/>
+    
+    <xsl:call-template name="field_found_provenance"/>
+    <xsl:call-template name="field_origin_place"/>
+    <xsl:call-template name="field_support_material"/>
+    
     <xsl:call-template name="field_script_type"/>
     <xsl:call-template name="field_execution"/>
     <xsl:call-template name="field_date_in_text"/>
@@ -114,6 +138,18 @@
   
   <xsl:template name="field_person_name">
     <xsl:apply-templates mode="facet_person_name" select="//tei:text/tei:body/tei:div[@type='edition']" />
+  </xsl:template>
+  
+  <xsl:template name="field_found_provenance">
+    <xsl:apply-templates mode="facet_found_provenance" select="/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/placeName[@type='ancientFindspot']"/>
+  </xsl:template>
+  
+  <xsl:template name="field_origin_place">
+    <xsl:apply-templates mode="facet_origin_place" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace"/>
+  </xsl:template>
+  
+  <xsl:template name="field_support_material">
+    <xsl:apply-templates mode="facet_support_material" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:material"/>
   </xsl:template>
   
   <xsl:template name="field_script_type">
