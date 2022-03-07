@@ -22,7 +22,7 @@
     </add>
   </xsl:template>
   
-    <xsl:template match="tei:summary/@corresp" mode="facet_inscription_type">
+  <xsl:template match="//tei:summary/seg" mode="facet_inscription_type">
     <field name="inscription_type">
       <xsl:value-of select="."/>
     </field>
@@ -39,7 +39,7 @@
       <xsl:value-of select="@key"/>
     </field>
   </xsl:template>
-  
+ 
   
   <xsl:template match="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace" mode="facet_origin_place">
     <field name="origin_place">
@@ -53,7 +53,17 @@
     </field>
   </xsl:template>
   
-  <xsl:template match="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/placeName[@type='ancientFindspot']" mode="facet_found_provenance">
+  
+  
+  
+  <xsl:template match="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/objectType" mode="facet_support_object_type">
+    <field name="support_object_type">
+      <xsl:value-of select="."/>
+    </field>
+    
+  </xsl:template>
+  
+  <xsl:template match="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName/tei:seg" mode="facet_found_provenance">
     <field name="found_provenance">
       <xsl:value-of select="."/>      
     </field>
@@ -115,6 +125,7 @@
     <xsl:call-template name="field_found_provenance"/>
     <xsl:call-template name="field_origin_place"/>
     <xsl:call-template name="field_support_material"/>
+    <xsl:call-template name="field_support_object_type"/>
     
     <xsl:call-template name="field_script_type"/>
     <xsl:call-template name="field_execution"/>
@@ -125,7 +136,7 @@
   </xsl:template>
   
   <xsl:template name="field_inscription_type">
-    <xsl:apply-templates mode="facet_inscription_type" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:summary/@corresp"/>
+    <xsl:apply-templates mode="facet_inscription_type" select="//tei:summary/seg"/>
   </xsl:template>
   
   <xsl:template name="field_mentioned_institutions">
@@ -141,7 +152,7 @@
   </xsl:template>
   
   <xsl:template name="field_found_provenance">
-    <xsl:apply-templates mode="facet_found_provenance" select="/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/placeName[@type='ancientFindspot']"/>
+    <xsl:apply-templates mode="facet_found_provenance" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName/tei:seg"/>
   </xsl:template>
   
   <xsl:template name="field_origin_place">
@@ -151,6 +162,11 @@
   <xsl:template name="field_support_material">
     <xsl:apply-templates mode="facet_support_material" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:material"/>
   </xsl:template>
+  
+  <xsl:template name="field_support_object_type">
+    <xsl:apply-templates mode="facet_support_object_type" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/objectType"/>
+  </xsl:template>
+  
   
   <xsl:template name="field_script_type">
     <xsl:apply-templates mode="facet_script_type" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:rs[@type='script']">

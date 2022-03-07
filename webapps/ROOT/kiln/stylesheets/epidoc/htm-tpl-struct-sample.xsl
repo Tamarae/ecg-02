@@ -405,7 +405,7 @@
               <span>&#160;</span>
               <xsl:choose>
                 <xsl:when test="contains(@url,'http')">
-                  <a target="_blank"><xsl:attribute name="href"><xsl:value-of select="@url"/></xsl:attribute>[Open image]</a>
+                  <a target="_blank" href="{@url}">[Open image]</a>
                 </xsl:when>
                 <xsl:otherwise>
                   <xsl:apply-templates select="." />
@@ -463,7 +463,7 @@
     </xsl:if>
   </xsl:template>
   
-  <!-- external links -->
+  <!-- external links 
   <xsl:template match="t:*[starts-with(@ref, 'http')]|t:ref[starts-with(@target, 'http')]|t:ref[starts-with(@corresp, 'http')]">
     <xsl:choose>
       <xsl:when test="starts-with(@ref, 'http')">
@@ -490,9 +490,9 @@
     </xsl:choose>
   </xsl:template>
   
-  <!-- <ptr/> in bibliographic references; to be adapted to link @target to full bibliographic reference -->
-  <xsl:template match="t:ptr[ancestor::t:bibl][@target]">
+  <ptr/> in bibliographic references; to be adapted to link @target to full bibliographic reference -->
+  <!-- <xsl:template match="t:ptr[ancestor::t:bibl][@target]">
     <xsl:value-of select="translate(@target, '#', '')"/>
-  </xsl:template>
+  </xsl:template>-->
   
 </xsl:stylesheet>

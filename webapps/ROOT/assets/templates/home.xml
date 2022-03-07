@@ -107,7 +107,12 @@
                   
                   <div class="large-4">
                     <figure class="visual-content">
-                      <img src="../assets/images/home-gif.png" alt=" "/>
+                     <!--  <img src="../assets/images/home-gif.png" alt=" "/>--> 
+                      <iframe width="360" height="215" 
+                        src="https://www.youtube.com/embed/c0KkYJRkWgk?controls=0&amp;start=180" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                        gyroscope; picture-in-picture"></iframe>
+                      
                       <figcaption>
                         <i18n:text i18n:key="visual-content-source">
                           source: georgian national archive

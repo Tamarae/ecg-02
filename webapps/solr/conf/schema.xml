@@ -116,6 +116,7 @@
    <field name="khanmetoba" required="false" indexed="true" multiValued="true" stored="true" type="string"/>
    <field name="curse" required="false" indexed="true" multiValued="true" stored="true" type="string"/>
    <field name="decoration" required="false" indexed="true" multiValued="true" stored="true" type="string"/>
+  <!--  <field name="inscription_collection" required="false" indexed="true" multiValued="true" stored="true" type="text_general"/> -->
    
 
    <field indexed="true" multiValued="false" name="document_type"
