@@ -5,11 +5,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ამფორა</title>
-                <editor>თინათინ ყაუხჩიშვილი</editor>
+                <title xml:lang="ka">ამფორა ეშერიდან</title>
+                <title xml:lang="en">Amphor form Eshera</title>
+                <editor xml:lang="ka">თინათინ ყაუხჩიშვილი</editor>
+                <editor xml:lang="en">Tinatin Kaukhchishvili</editor>
             </titleStmt>
             <publicationStmt>
-                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+               <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
                  <idno type="filename">ECG286</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
@@ -21,7 +24,7 @@
                 <msDesc>
                     <msIdentifier>
                             <collection>
-                                სამთავრო
+                                აფხაზეთი
                             </collection>
                     </msIdentifier>
                     <msContents>
@@ -33,12 +36,16 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>                             
-                                   <material ref="https://www.eagle-network.eu/voc/material/lod/131">თიხა</material>
-                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/17">ამფორა</objectType></support></supportDesc>
+                                   <material xml:lang="ka" ref="https://www.eagle-network.eu/voc/material/lod/131">თიხა</material>
+                                    <material xml:lang="en" ref="https://www.eagle-network.eu/voc/material/lod/131">Clay</material>
+                                   <objectType xml:lang="ka" ref="https://www.eagle-network.eu/voc/objtyp/lod/17">ამფორა</objectType>
+                                     <objectType xml:lang="en" ref="https://www.eagle-network.eu/voc/objtyp/lod/17">Amphor</objectType>
+                                </support></supportDesc>
                                 <layoutDesc>
                                     <layout>
-                                        იმპორტული შავფიგურიანი, 60 სმ სიმაღლის მთლიანად მოხატული ამფორის ერთ-ერთ (საბრძოლო მომზადების) სცენას, 
-                                        ყურების შუა ნაწილის დონეზე, ზემოდან 17 სმ-ზე, მხედრის თავზე, 6 სმ-ის სიგრძეზე აქვს ბერძნული წარწერა. 
+                                        <seg xml:lang="ka">იმპორტული შავფიგურიანი, 60 სმ სიმაღლის მთლიანად მოხატული ამფორის ერთ-ერთ (საბრძოლო მომზადების) სცენას, 
+                                        ყურების შუა ნაწილის დონეზე, ზემოდან 17 სმ-ზე, მხედრის თავზე, 6 სმ-ის სიგრძეზე აქვს ბერძნული წარწერა. </seg>
+                                        <seg xml:lang="en"></seg>
                                         <dimensions unit="cm">
                                         <width>6</width>
                                         <height></height>
@@ -58,18 +65,28 @@
                     </physDesc>
                     <history>
                             <origin>
-                                <origPlace>ეშერა</origPlace>
+                                <origPlace>
+                                    <seg xml:lang="ka">ეშერა</seg>
+                                    <seg xml:lang="en">Eshera</seg>
+                                </origPlace>
                                 <origDate notBefore-custom="-0600" notAfter-custom="-0501" precision="medium" 
                                     evidence="lettering" datingMethod="#julian">VI BC</origDate>
                               </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot" ref="hhttps://pleiades.stoa.org/places/857107">ეშერა</placeName> 
+                                <placeName type ="ancientFindspot" ref="hhttps://pleiades.stoa.org/places/857107">
+                                <seg xml:lang="ka">ეშერა</seg>
+                                    <seg xml:lang="en">Eshera</seg>
+                                
+                                </placeName> 
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
                             </provenance>                       
                             <provenance type="observed">
-                            <placeName type="modernSpot">სოხუმის მუზეუმი</placeName>
+                            <placeName type="modernSpot">
+                                <seg xml:lang="ka">სოხუმის მუზეუმი</seg>
+                                <seg xml:lang="en">Sokhumi State Museum</seg>
+                            </placeName>
                             <idno>N АБМ 78-7</idno>
                         </provenance>
                     </history>                   
@@ -85,7 +102,7 @@
         <surface>
             <graphic url="ecg286.jpg">
                 <desc xml:lang="ka">ეშერის ამფორა</desc>
-                <desc xml:lang="en">Amphora from Esheri</desc>
+                <desc xml:lang="en">Amphora from Eshera</desc>
             </graphic>
         </surface>
     </facsimile>
@@ -104,28 +121,23 @@
                         -->
                      
          <ab>
-             <persName><name nymRef="Νίκον">Ν<supplied reason="subaudible">ί</supplied>κον</name></persName>
+             <persName type="local" key="ნიკონი (Νίκον)">Ν<supplied reason="subaudible">ί</supplied>κον</persName>
          </ab>    
              
          
             </div>
                 
-            <div type="translation" xml:lang="ka">
-                <p>ნიკონ</p>
+            <div type="translation">
+                <p xml:lang="ka">ნიკონ</p>
+                <p xml:lang="en">Nikon</p>
             </div>
-            
-           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p><app><lem></lem>
-              <rdg></rdg>
-              </app>></p>
-            </div>
+
            
             <div type="commentary">
-                <p>წარწერის ასოებს შორის მანძილი არ აღემატება 1 სმ-ს.</p>
-                <p>საფიქრებელია, რომ არის მხედრის საკუთარი სახელი (Νικονίδας, Νικόνομος, Νικόνοος; Νίκων, Νικωνίδης, Νικώνυμος) ან νικάω ზმნიდან წარმოებული რაიმე ფორმა 
-                (νικάω - ვძლევ).</p>
-                <p>დათარიღებას მიუთითებს ასოთა (ძირითადად ν-ს) მოხაზულობა, თვით ამფორის არქეოლოგიური და ხელოვნებათმცოდნეობითი თვალსაზრისით შესწავლა.</p>
+                <p xml:lang="ka">წარწერის ასოებს შორის მანძილი არ აღემატება 1 სმ-ს.
+                    საფიქრებელია, რომ არის მხედრის საკუთარი სახელი (Νικονίδας, Νικόνομος, Νικόνοος; Νίκων, Νικωνίδης, Νικώνυμος) ან νικάω ზმნიდან წარმოებული რაიმე ფორმა 
+                (νικάω - ვძლევ).
+                დათარიღებას მიუთითებს ასოთა (ძირითადად ν-ს) მოხაზულობა, თვით ამფორის არქეოლოგიური და ხელოვნებათმცოდნეობითი თვალსაზრისით შესწავლა.</p>
             </div>
          </body>
     </text>

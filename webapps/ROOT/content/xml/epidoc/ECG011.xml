@@ -81,7 +81,9 @@
                             <origDate notBefore="-0300" notAfter="-0201" evidence="lettering" precision="high">III BC</origDate>
                         </origin>
                         <provenance type="found" when="1985">
-                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863918">ვანი</placeName>
+                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863918">
+                                <seg xml:lang="ka">ვანი</seg>
+                            </placeName>
                             <rs type="monuList"/>
                             <rs type="circumstances" xml:lang="ka">ნაპოვნია 1985 წელს</rs>
                             <rs type="circumstances" xml:lang="en">Found in 1985</rs>
@@ -195,14 +197,14 @@
                             ἀσίτοις (? πᾶσι τοῖς)
 -->
                               <ab>
-                                <lb n="1"/><w lemma="ὁ">ὁ</w> <w lemma="σώφρων">σώ<supplied reason="lost">φρων</supplied></w> ? –ος ὠ
+                                <lb n="1"/>ὁ <w lemma="σώφρων">σώ<supplied reason="lost">φρων</supplied></w> ? –ος ὠ
                                 <lb n="2"/><w lemma="ὁ">τῷ</w> <w lemma="πᾶς">παντὶ</w> <w lemma="ὅσιος">ὅσι<supplied reason="lost">ια</supplied></w>
                                 <lb n="3"/><w lemma="ἅπτω">ἅπτοντα</w>
                                 <lb n="4"/><orig n="unresolved">ν</orig> <w lemma="ὁ">ὁ</w> <w lemma="τάφος">τάφος</w> <orig n="unresolved">σ</orig>
                                 <lb n="5"/><w lemma="ἀπολείπω"><supplied reason="lost">ἀ</supplied>πολειφθῆναι</w>
                                 <lb n="6"/><orig n="unresolved">πον</orig> <w lemma="ἔχω">ἔχειν</w> <orig n="unresolved">α</orig>
-                                <lb n="7"/><w>ουσι</w> <w lemma="ὁ">τοὺς</w> <w lemma="ἔκγονος">ἐκγόνους</w> <w lemma="καί">καὶ</w>
-                                <lb n="8"/><w lemma="ποιέω"><supplied reason="lost">ποι</supplied>οῦντας</w> <w lemma="ὁ">τοὺς</w> <w lemma="ὁ">τὴν</w> <w lemma="αὐτός">αὐτῶν</w>
+                                <lb n="7"/><w>ουσι</w> <w lemma="ὁ">τοὺς</w> <w lemma="ἔκγονος">ἐκγόνους</w> καὶ
+                                <lb n="8"/><w lemma="ποιέω"><supplied reason="lost">ποι</supplied>οῦντας</w> τοὺς τὴν <w lemma="αὐτός">αὐτῶν</w>
                                 <lb n="9"/><orig n="unresolved">ους</orig> <w lemma="ἐν">ἐν</w> <w lemma="ὁ">τοῖς</w> <w lemma="γράφω">γεγραμμέ<supplied reason="lost">νοις</supplied></w>
                                 <lb n="10"/><w lemma="χαράσσω">χαραχθεῖσα</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὴν</w> <w lemma="στήλη">στήλην</w>
                                 <lb n="11"/><w lemma="μηδέ">μηδὲ</w> <w><supplied reason="lost">...</supplied>ανοις</w> <w lemma="μηδέ">μηδὲ</w> <w lemma="ἀνεπιχείρητος"><supplied reason="lost">ἀνεπιχει</supplied>ρήτοις</w>

@@ -5,11 +5,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ნოქალაქევის კერამიკული ჭურჭლის სახელური</title>
-                <editor>თინათინ ყაუხჩიშვილი</editor>
+                <title xml:lang="ka">ნოქალაქევის კერამიკული ჭურჭლის სახელური</title>
+                <title xml:lang="en">Nokalakewi. Sinopean amphora stamp, ca. 305-280 B.C.</title>
+                <editor xml:lang="ka">თინათინ ყაუხჩიშვილი</editor>
+                <editor xml:lang="en">Tinatin Kaukhchishvili</editor>
             </titleStmt>
             <publicationStmt>
-                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
                  <idno type="filename">ECG320</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
@@ -35,23 +38,27 @@
                             <supportDesc>
                                 <support>                             
                                    <material>კერამიკა</material>
-                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1780">ჭურჭლის სახელური</objectType></support></supportDesc>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1780">ჭურჭლის სახელური</objectType>
+                                </support>
+                            </supportDesc>
                                 <layoutDesc>
                                     <layout writtenLines="3">
-                                        <p>ჭურჭლის სახელურზე არის სინოპური დამღა ბერძნული წარწერით.</p>
+                                        <p xml:lang="ka">ჭურჭლის სახელურზე არის სინოპური დამღა ბერძნული წარწერით.</p>
+                                        <p xml:lang="en">Greek stamp on the handle of Sinopean amphora</p>
                                       <dimensions unit="cm">
-                                        <width></width>
-                                        <height></height>
-                                        <depth></depth></dimensions>
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                      </dimensions>
                                     </layout>
                                 </layoutDesc>
                         </objectDesc>                        
                         <handDesc>
                             <handNote>                              
-                                <height unit="cm" precision="medium"></height>
-                                <width unit="cm" precision="medium"></width>
-                                <p></p>
-                                  </handNote>
+                                <height unit="cm"/>
+                                <width unit="cm"/>
+                  
+                           </handNote>
                         </handDesc>
                         <decoDesc>
                             <decoNote/>
@@ -59,18 +66,26 @@
                     </physDesc>
                     <history>
                             <origin>
-                                <origPlace>ნოქალაქევი</origPlace>
+                                <origPlace ref="https://pleiades.stoa.org/places/857041">
+                                    <seg xml:lang="ka">ნოქალაქევი</seg>
+                                    <seg xml:lang="en">Nokalakevi</seg>
+                                </origPlace>
                                 <origDate notBefore="-0400" notAfter="-0301" evidence="lettering" datingMethod="#julian">IV BC</origDate>
                                 </origin>
                             <provenance type="found" when="1986">
-                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/857041">ნოქალაქევი</placeName> 
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/857041">
+                                <seg xml:lang="ka">ნოქალაქევი</seg>
+                                    <seg xml:lang="en">Nokalakevi</seg>
+                                </placeName> 
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
                             </provenance> 
                            <provenance type="observed">
-                            <placeName type="modernSpot"></placeName>
-                            <idno></idno>
+                            <placeName type="modernSpot">
+                                
+                            </placeName>
+                            <idno/>
                         </provenance>
                     </history>                   
                 </msDesc>
