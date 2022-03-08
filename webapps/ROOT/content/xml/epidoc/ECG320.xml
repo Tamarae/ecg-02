@@ -107,26 +107,24 @@
                      
             
          <ab>
-             <lb n="1"/><persName><name nymRef="Βορυς">Βορυος</name></persName> <roleName nymRef="ἀστυνόμος"><w lemma="ἀστυνόμος">ἀστυ
+             <lb n="1"/><persName type="local" key="ბორის ასტინომოსი (Βορυς ἀστυνόμος)"><name nymRef="Βορυς">Βορυος</name></persName> <roleName nymRef="ἀστυνόμος"><w lemma="ἀστυνόμος">ἀστυ
              <lb n="2" break="no"/>νόμου</w></roleName>
-             <lb n="3"/><persName><name nymRef="Φορμίων"></name>Φορμί<supplied reason="subaudible">ωνος</supplied></persName>
+             <lb n="3"/><persName type="local" key="ფორმიონი (Φορμίων)">Φορμί<supplied reason="lost">ωνος</supplied></persName>
             </ab>    
              
          
             </div>
                 
-            <div type="translation" xml:lang="ka">
-                <p>ბორის ასტინომის ფორმიონისა</p>
+            <div type="translation">
+                <p xml:lang="ka">ბორის ასტინომის ფორმიონისა</p>
+                <p xml:lang="en"></p>
             </div>
             
-           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p><app>
-              <rdg></rdg>
-              </app></p>
-             </div>          
+       
             <div type="commentary">
-                <p>დათარიღება ხდება ასოებთა მოხაზულობისა და სინოპური ანალოგიური დამღების მიხედვით.</p>
+                <p xml:lang="ka">დათარიღების საფუძველია ასოებთა მოხაზულობა და სინოპური ანალოგიური დამღები.</p> 
+                <p xml:lang="en">Φορμί(ονος), ed.pr. [stamps of the magistrate Βόρυς I are well-represented in Sinope itself (Y.Garlan, Les timbres céramiques sinopéens sur amphores et sur tuiles trouvés à Sinope [Paris 2004] nos. 177-187), Histria (N.Conovici, Histria VIII.2 nos. 57-62) and Kallatis 
+                    (A.Avram, N.Conovici, G.Poenaru Bordea, Dacia 34 [1990] 117); combination with the potter’s name seems new, Kantor].</p>
                  </div>
         </body>
     </text>

@@ -1166,3 +1166,8 @@
 127.0.0.1 -  -  [08/Mar/2022:12:06:49 +0000] "GET /assets/images/favicon.png HTTP/1.1" 200 20299 
 127.0.0.1 -  -  [08/Mar/2022:12:06:53 +0000] "GET /images/ecg077-thumb.jpg HTTP/1.1" 500 15884 
 127.0.0.1 -  -  [08/Mar/2022:12:06:55 +0000] "GET /assets/images/favicon.png HTTP/1.1" 200 20299 
+127.0.0.1 -  -  [08/Mar/2022:12:24:46 +0000] "GET /en/inscriptions/ECG011.html HTTP/1.1" 200 20341 
+127.0.0.1 -  -  [08/Mar/2022:12:24:47 +0000] "GET /assets/images/favicon.png HTTP/1.1" 200 20299 
+127.0.0.1 -  -  [08/Mar/2022:12:25:14 +0000] "GET /en/inscriptions/ECG301.html HTTP/1.1" 200 14119 
+127.0.0.1 -  -  [08/Mar/2022:12:25:14 +0000] "GET /images/ecg301-thumb.jpg HTTP/1.1" 500 15884 
+127.0.0.1 -  -  [08/Mar/2022:12:25:16 +0000] "GET /assets/images/favicon.png HTTP/1.1" 200 20299 
