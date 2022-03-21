@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ფრესკული წარწერა წმ. მარინეს გამოსახულებასთან</title>
+                <editor>ლია ახალაძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
+                 <idno type="filename">ECG468</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            წკელიკარი
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">ფრაგმენტი</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="www.eagle-network.eu/voc/material/lod/2.html">ქვა</material>
+                                   <objectType>ქვა</objectType> 
+                                        <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        
+                                    <dimensions unit="cm">
+                                    </dimensions>
+                                     <width></width>
+                                        <height></height>
+                                        <depth></depth>
+                                    </layout>  
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli" style="">
+                               
+                            </handNote>
+                            <handNote>
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                             
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>წკელიკარი</origPlace>
+                                <origDate notBefore="1000" notAfter="1100">X-XI საუკუნე AD</origDate> 
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">წკელიკარი</placeName>
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                            <provenance type="observed">
+                            <placeName type="modernSpot">წკელიკარის ტაძრის წარწერები</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2019-07-09" who="TS">მეტამონაცემების კოდირება, ბმულებით დაკავშირება გარეკონტროლირებად ლექსიკონებთან</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ucg1007.jpg">
+                <desc xml:lang="ka">ფრესკული წარწერა წმ. მარინეს გამოსახულებასთან</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!--  წ(მიდა)ჲ მარინა-->
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ჲ</abbr></expan></w> <persName ref="attestedperson.xml#person4"><w>მარინა</w></persName> 
+                    <lb n="2"/>
+                    </ab>
+            </div>
+            <div type="translation" xml:lang="ka"><p>წმინდა მარინა</p></div>
+            
+            <div type="apparatus" xml:space="preserve"/>
+            
+            <div type="commentary"><p>ტაძრის სამხრეთ ეკვდერის გაწმენდისას აღმოჩნდა რამდენიმე ქვა, რომლებზეც შემორჩენილი იყო შელესილობის ფენა ფრესკული მოხატულობით. ერთ-ერთ ქვაზე გამოსახული
+            იყო ქალის ფიგურა, რომლის თავთან ჩანდა ნიმბი: „рядам надпись асомтаврули по голубовато-серему фону" - „წა მარინა". როგორც ჩანს, ეკვდერში გამოსახული ყოფილა „წმინდა მარინასა" და კიდევ 
+            ერთი წმინდანი ქალის გამოსახულებანი, სამწუხაროდ, მეორე წმინდანი ქალის წარწერის გარჩევა ვერ მოხერხდა, რადგან ლ. შერვაშიძის მიერ გამოქვეყნებულ ტაბულაზე მხოლოდ ერთი ასომთავრული 
+            Ⴀ იკითხება. ამდენად სრული სახით მხოლოდ ერთი ფრესკული გამოსახულების განმარტებითი წარწერა შეიძლება წარმოვადგინოთ: წ(მიდა)ჲ მარინა; ფრესკაც და წარწერაც X-XI საუკუნეებიტ თარიღდება. </p></div>
+            
+            
+            
+            <div type="bibliography" subtype="principalEdition">
+                           
+                    <p><bibl type="publication" subtype="principal" xml:lang="ka">
+                      <author>
+                          <persName>
+                            <forename></forename>
+                            <surname></surname>
+                          </persName>
+                      </author>
+                      <title/>
+                        <edition/>
+                        <pubPlace/>
+                        <publisher/>
+                        <date></date>
+                     </bibl></p>
+                
+            </div>         
+
+    </body>
+</text>
+</TEI>

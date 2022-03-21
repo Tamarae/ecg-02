@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">წმ. მარიამის განმარტებითი წარწერა</title>
+                <editor xml:lang="ka">გიორგი ოთხმეზური</editor>
+                <editor xml:lang="ka">ექვთიმე თაყაიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <idno type="filename">ECG201</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                    დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით</licence>
+                </availability>
+                
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            დმანისი
+                        </collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">განმარტებითი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                <objectType ref="https://www.eagle-network.eu/voc/objtyp">ფასადი</objectType>
+                                <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                <dimensions unit="cm">
+                                    <height>400</height>
+                                    <width>635</width>
+                                </dimensions>                        
+                            </support>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout>
+                                    <p>რელიეფური ჯვრის განივი მკლავების ქვეშ ამოღარულია ასომთავრული წარწერა</p>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli">
+                                <p xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა</p> 
+                                <dimensions unit="cm"><height>8-15</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>მამულა, ღვთისმშობლის ეკლესია</origPlace>
+                            <origDate >IX-X სს.</origDate>
+                        </origin>
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    
+    
+    <!-- 
+    
+        
+    <facsimile>
+        <surface>
+            <graphic url="tskise_01.jpg">
+                <desc xml:lang="ka">წყისეს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    -->
+    
+    <text>
+        
+        <!-- 
+            1. წ(მიდ)ჲ  მ(ა)რ(ია)მ
+        -->
+        <body>
+            
+            <div type="bibliography">
+                
+                   <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>92</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
+                    <p><bibl n="2">Е. Такайсшвили, Археологические екскурсии разыскания и заметки, IV <citedRange>106</citedRange>, Тб. 1913<ptr target="bibliography.xml#b212"/></bibl></p>
+                    <p><bibl n="3">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>14</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
+            </div>
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+
+            <ab>
+                <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდ</ex></expan><abbr>ჲ</abbr></w> 
+                <lb n="2"/><name nymRef="მარიამ ღვთისმშობელი"><expan><abbr>მ</abbr><ex>ა</ex><abbr>რ</abbr><ex>ია</ex><abbr>მ</abbr></expan></name>
+            </ab>
+            
+         </div>   
+            
+             <div type="translation"/>
+            
+            <div type="commentary">
+                <p> ღვთისმშობლის ეკლესიის აღმ. ფასადზე, სარკმლის მარჯვნივ, ერთ მთლიან ქვაზე, მიწიდან 2,20 სიმაღლეზე, რელიეფური ჯვრის განივი მკლავების ქვეშ ამოღარულია
+                1 სტრ. ასომთავრული წარწერა. ქარაგმა განივი, სწორი ხაზი. 
+                დაზიანება: წარწერა სრულად არის მოღწეული.  
+                წარმოდგენილი დათარიღების საფუძველი პალეოგრაფიული ნიშნებია, მიდრეკილება განუსხურებისაკენ. </p>
+            </div>
+            
+
+        </body>
+    </text>
+</TEI>
+
+

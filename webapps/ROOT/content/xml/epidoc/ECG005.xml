@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">დრაკონტის დედოფლის წარწერა</title>
+                <title xml:lang="en">Inscription of the Queen of Drakontis</title>
+                <editor xml:lang="ka">დევიდ ბრაუნდი</editor>
+                <editor xml:lang="en">David Braund</editor>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+                <editor xml:lang="en">Tinatin Kaukhchishvili</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG005</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            მცხეთა
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">შეწირვითი</seg>
+                            <seg xml:lang="en">Donating</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material  xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/75">ქვიშაქვა</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstone</material>
+                                    <objectType  xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">Plaque</objectType>
+                                      <dimensions unit="cm">
+                                        <width>16.5</width>
+                                        <height>33</height>
+                                        <depth>8.5</depth>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="9">
+                                        <seg xml:lang="ka">ოთხად გატეხილ ფილაზე ცხრა სტრიქონად გამოყვანილია ბერძნული ასომთავრული წარწერა. ფრაგმენტების სიმაღლეებია:
+                                            11 სმ, 12.5 სმ, 9.5 სმ და 13 სმ. ფილის მარჯვენა მხარის ზემოთა მეოთხედი დაკარგულია.
+                                        </seg>
+                                        <seg xml:lang="en">
+                                            The plaque is broken in four pieces and its Greek capital letter inscription contains nine lines.
+                                            The height of the fragments are: 11 cm., 12,5 cm., 9,5 cm. And 13 cm. The upper quarter part of the right side of the plaque is lost.
+                                        </seg>
+                                      <dimensions unit="cm">
+                                         <width>16.5</width>
+                                         <height>33</height>
+                                      </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p xml:lang="ka">
+                                    ასოების კუთხეები ჩაღრმავებულია და შემდეგ არის შემაერთებელი ხაზებით დაკავშირებული.
+                                   ზედა სტრიქონები უფრო მსხვილი ასოებით და ფართოდ არის ნაწერი, ქვედა სტრიქონები - უფრო მჭიდროდ.
+                                </p>
+                                <p xml:lang="en">
+                                    The edges of the letters are deepened and connected to each other with lines later.
+                                    The upper lines are represented with larger letters, while the lower lines - with more narrow letters.
+                                    The height of the letters in the 1st line is 2,4 cm., for the 9th line - 1,1 cm.
+                                </p>
+                                   <height unit="cm" precision="high">პირველი სტრიქონის ასოთა სიმაღლე 2.4 სმ-ია, მეცხრე სტრიქონის - 1.1 სმ.</height>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>
+                                    <seg xml:lang="ka">არმაზციხე, ბაგინეთი</seg>
+                                    <seg xml:lang="en">Armatsikhe, Bagineti</seg>
+                                </origPlace>
+                                <origDate notBefore-custom="0101" notAfter-custom="0300" precision="medium"
+                                    evidence="lettering" datingMethod="#julian">II-III AD></origDate>
+                            </origin>
+                            <provenance type="found" when="1993">
+                               <placeName type ="ancientFindspot" ref="http://pleiades.stoa.org/places/863799">
+                                   <seg xml:lang="ka">არმაზციხე, ბაგინეთი</seg>
+                                   <seg xml:lang="en">Armatsikhe, Bagineti</seg>
+                               </placeName>
+                                <rs type="circumstances" xml:lang="ka">1993 წლის ივნისში მცხეთის არქეოლოგიურმა ექსპედიციამ ბაგინეთის შიდაციხის ჩრდილოეთი კარიბჭის - კლდეკარის - თავზე, მისგან 20 მეტრის დაშორებით,
+                                    მიწის ზედაპირიდან 0.1 მეტრის სიღრმეზე აღმოაჩინა სამად გატეხილი ქვიშაქვის ფილა. ფილის მარცხენა ზედა ნაწილს (ზომებით: 11×11×8.5 სმ), რომელზეც ორი სტრიქონის ნაშთია, ექსპედიციამ მოგვიანებით, 1995 წლის სექტემბერში მიაკვლია.</rs>
+                                <rs type="circumstances" xml:lang="en">The archaeological expedition of Mtskheta discovered the sandstone plaque at Kldekari- the north gate of the Bagineti castle. The stone broken into three pieces was 20 m. away from the gate, 0.1 m depth in the ground. The left parts of the plaque (sizes: 11×11×8.5 cm), that are the endings of two lines, were found later in 1995 September.</rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">
+                                <placeName type="modernSpot">
+                                    <seg xml:lang="ka">მცხეთის არქეოლოგიური ინსტიტუტი</seg>
+                                    <seg xml:lang="en">Archeological Institute of Mtskheta</seg>
+                                </placeName>
+                                <idno type="invNo">01/2-8;-69</idno>
+                            </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+
+
+    </teiHeader>
+
+   <facsimile>
+        <surface>
+            <graphic url="ecg005.jpg">
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/42/">ფილის ფრაგმენტები არმაზციხე-ბაგინეთიდან, 1993</desc>
+                <desc xml:lang="en">Fragments of a plaque from Armaztsikhe-Bagineti, 1993</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+
+    <text>
+        <body>
+
+            <div type="bibliography">
+                
+                    <p><bibl n="1"><ptr target="bibliography.xml#b134"/>David Braund, Anagranes the ΤΡΟΦΕΥΣ: the court of caucasian Iberia in the second-third centuries AD, <citedRange>23-34</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="bibliography.xml#b130"/>თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 227</citedRange></bibl></p>
+                    <p><bibl n="3"><ptr target="bibliography.xml#b131"/>თინათინ ყაუხჩიშვილი, ძველი ბერძნული წარწერების შესახებ საქართველოში, <citedRange> 27-32</citedRange></bibl></p>
+                    <p><bibl n="4"><ptr target="bibliography.xml#b132"/>თინათინ ყაუხჩიშვილი, ახალი ბერძნული წარწერები არმაზციხე-ბაგინეთიდან, <citedRange> 81-93</citedRange></bibl></p>
+                
+            </div>
+
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+
+                        <!-- ...[βασι]
+                             λέως [Ἀναγ]
+                             ράνης [τρο]
+                             φεὺ[ς καὶ ἐπί]
+                             τροπο[ς ἰδίᾳ δυ]
+                             νάμ[<ε>ι ? τὸ βαλ]
+                             ανῖον ἄρτισας
+                             ἰδίᾳ τροφίμῃ
+                             Δρακόντιδι βασ
+                             ιλίσ(σ)ῃ ἀφιέρωσεν  -->
+
+                <ab>
+                   <lb n="1"/><!--  <gap reason="lost" extent="unknown" unit="line"/>--><roleName nymRef="βασιλεύς"><w lemma="βασιλεύς"><supplied reason="lost">βασι</supplied>λέως</w></roleName> <persName type="local" key="ანაგრანესი (Ἀναγράνης)"><name nymRef="Ἀναγράνης"><supplied reason="lost">Ἀναγ</supplied>
+                   <lb n="2" break="no"/>ράνης</name></persName> <roleName nymRef="τροφεύς"><w lemma="τροφεύς"><supplied reason="lost">τρο</supplied>
+                   <lb n="3" break="no"/>φεὺ<supplied reason="lost">ς</supplied></w></roleName> <w lemma="καί"><supplied reason="lost">καὶ</supplied></w> <roleName nymRef="ἐπίτροπος"><w lemma="ἐπίτροπος"><supplied reason="lost">ἐπί</supplied>
+                   <lb n="4" break="no"/>τροπο<supplied reason="lost">ς</supplied></w></roleName> <w lemma="ἰδίᾳ"><supplied reason="lost">ἰδίᾳ</supplied></w> <w lemma="δύναμις"><supplied reason="lost">δυ</supplied>
+                   <lb n="5" break="no"/>νάμ<supplied reason="lost"><supplied reason="omitted">ε</supplied>ι</supplied></w> <!-- <gap reason="lost" extent="unknown" unit="character"/> --> <w lemma="τό"><supplied reason="lost" cert="low">τὸ</supplied></w> <w lemma="βαλανεῖον"><supplied reason="lost" cert="low">βαλ</supplied>
+                   <lb n="6" break="no"/>ανῖον</w> <w lemma="ἀρτίζω">ἄρτισας</w>
+                   <lb n="7"/><w lemma="ἰδίᾳ">ἰδίᾳ</w> <w lemma="τροφίμη">τροφίμῃ</w>
+                   <lb n="8"/><persName type="local" key="დრაკონტის დედოფალი (Δρακόντης βασίλισσα)"><name nymRef="Δρακόντης βασίλισσα">Δρακόντιδι</name></persName> <roleName type="nobility" nymRef="βασίλισσα"><w lemma="βασίλισσα">βασ
+                   <lb n="9" break="no"/>ιλί<choice><reg>σσ</reg><orig>σ</orig></choice>ῃ</w></roleName> <w lemma="ἀφιερόω">ἀφιέρωσεν</w>
+                </ab>
+               </div>
+
+
+         <div type="translation" xml:lang="ka">
+             <p>მეფის... ანაგრანესმა, მამამძუძემ და ეზოსმოძღვარმა, მოაწყო რა (?) აბანო (?) თავისი სახსრით, თავის აღზრდილ დრაკონტისს, დედოფალს, შესწირა.</p>
+             <p>მეფის ... მამამძუძემ და ეზოსმოძღვარმა გააკეთებინა თავისი საზრდელით (ან სახსრით) მიწისქვეშა გაყვანილობა (ან წყალსადენი) და აბანო (ან წყალსადენი აბანოსთვის) და
+                   შესწირა დრაკონტის დედოფალს.
+             </p>
+         </div>
+
+          <div type="translation" xml:lang="en">
+              <p>
+                  The Chief-of-the-Court and governor of the King … built these underground tubes (communications) and bath (and tubes for bath) with his own expenses and dedicated it to the Queen Drakontis.
+              </p>
+          </div>
+
+
+            <div type="apparatus" xml:space="preserve">
+             <listApp>
+                 <app loc="2">
+                    <lem resp="დევიდ ბრაუნდი"><supplied reason="lost">Ἀναγ</supplied>ράνης</lem>
+                    <rdg resp="თინათინ ყაუხჩიშვილი"><unclear reason="damage">ιανης</unclear></rdg>
+                 </app>
+                 <app loc="5">
+                    <lem resp="დევიდ ბრაუნდი"><supplied reason="lost">δυ</supplied>νάμ<supplied reason="lost"><supplied reason="omitted">ε</supplied>ι</supplied></lem>
+                    <rdg resp="თინათინ ყაუხჩიშვილი">νᾶμ<supplied reason="lost">α</supplied></rdg>
+                 </app>
+                 <app loc="6">
+                    <lem resp="დევიდ ბრაუნდი"><supplied reason="lost" cert="low">βαλ</supplied>ανῖον</lem>
+                    <rdg resp="თინათინ ყაუხჩიშვილი"><supplied reason="lost">βαλ</supplied>αν<choice><reg>εί</reg><orig>ί</orig></choice>ον</rdg>
+                 </app>
+                 <app loc="6">
+                    <lem resp="დევიდ ბრაუნდი">ἄρτισας</lem>
+                    <rdg resp="თინათინ ყაუხჩიშვილი">κτίσα<supplied reason="lost">ς</supplied></rdg>
+                 </app>
+                 <app loc="8">
+                    <lem resp="დევიდ ბრაუნდი">Δρακόντιδι</lem>
+                    <rdg resp="თინათინ ყაუხჩიშვილი">Δρακοντίδι</rdg>
+                 </app>
+             </listApp>
+            </div>
+
+
+
+            <div type="commentary" xml:lang="ka">
+                <p>წარწერაში დაცულია ბერძნული ანბანის 17 ასო, ზოგი თითოჯერ, ზოგი მეტჯერ. წარწერის ენა არის კოინე. გამართული ბერძნულით არის დაწერილი.
+                   ერთი შემთხვევაა იტაციზმის ει|ι (βαλανεῖον - βαλανίον). ერთი ς-თაა βασιλιση. კლასიკური ნორმებიდან სხვა გადახვევა არაა.
+                   წარწერა შეწირვითი ხასიათისაა. ქართულ ონომასტიკონში ქალის სახელი "დრაკონტისი" პირველად გვხვდება. იგი ბერძნული წარმოშობისაა.
+                   სტრიქონთა სიმაღლესა და ასოთა სიდიდეში განსხვავების მიზეზი შესაძლოა ფილის მდებარეობა ყოფილიყო. თუ წარწერა ზემოთ იყო მოთავსებული და წამკითხველი მას
+                   ქვემოდან შეჰყურებდა, მაშინ ბუნებრივი ჩანს ზემოთა სტრიქონების სიმსხო და ქვემოთა სტრიქონების დამცრობა. 1995 წელს ფილის ზედა ფრაგმენტისა და 1996 წელს მეორე ბერძნული წარწერის აღმოჩენის შემდეგ
+                   თ. ყაუხჩიშვილმა კორექტივები შეიტანა წარწერის პირველ წაკითხვაში. დათარიღება: ისტორიული პირების მოხსენიების საფუძველზე დევიდ ბრაუნდი წარწერას III ს-ით ათარიღებს.
+                   </p>
+            </div>
+
+            <div type="commentary" xml:lang="en">
+                <p>The inscription contains 17 letters from Greek alphabet, some of them with single usage, some - more. Inscription is in Koine; Following the language normes. One case of itacism present ει|ι (βαλανεῖον - βαλανίον).
+                Word βασιλιση has one ς. There is no other alteration from the norms. The inscription represents the act of donation. The female name “Drakontis” appears for the first time in Georgian onomasticon. The origin of the name is Greek.
+                The difference between the size and height of the letters can be caused by the location of the plaque. If the plaque was placed in a higher place and the reader would see it from the below, then the bigger size of the upper part and smaller of the lower part is natural.
+                After the discovery of the upper part of the plaque in 1995 and also after finding the second Greek inscription in 1996 T. Kaukhchishvili made remarks in interpreting the first inscription. Date: on the basis of the personal names mentioned in the inscription David Brown gives the date of III century to this inscription.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

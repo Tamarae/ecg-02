@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ქობაირის მონასტრის ეპიტაფია ივანე მანდატურთუხუცესის ასულისა და გურკენელი სულას მეუღლის თამარისა</title>
+                <editor>თემო ჯოჯუა</editor>
+                <editor>გიორგი გაგოშიძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG342</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                     <msIdentifier>
+                        <collection>ქობაირი</collection>
+                    </msIdentifier>    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">ეპიტაფია</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>  
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/91.html">ეპიტაფია</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width>79,5</width>
+                                        <height>182</height>
+                                        <depth></depth>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="4">წარწერა ოთხსტრიქონიანია. იგი ამოკვეთილია რუხი ფერის ოთხკუთხა საფლავის ქვაზე, რომელიც 
+                                        ქობაირის მონასტრის მთავარი ეკლესიის კარიბჭის
+                                        იატაკში, საფლავის ქვების აღმოსავლეთიდან პირველ რიგში, სამხრეთიდან მეორე და მეოთხე საფლავის ქვებს შორის არის ჩადგმული.
+                                        საფლავის ქვა სამ ნაწილად არის გადატეხილი, თუმცა ნაწილები ერთმანეთისაგან დაცილებული არ არის.                            
+                                      <dimensions unit="cm">
+                                         <width>44,5</width>
+                                         <height>52,5</height> 
+                                      </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
+                                   <height unit="cm" precision="high">3,5-9</height> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ქობაირის მონასტერი, სომხეთი</origPlace>
+                                <origDate notBefore-custom="1300" notAfter-custom="1500" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">XIII-XIV AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">ქობაირის მონასტერი, სომხეთი</placeName>
+                                <!-- "41.005061, 44.635086"--> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">ქობაირის მონასტერი, სომხეთი</placeName>
+                                <idno type="invNo"/></provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-12-17" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg342.jpg">
+                <desc xml:lang="ka">ქობაირის მონასტრის ეპიტაფია ივანე მანდატურთუხუცესის ასულისა და გურკენელი სულას მეუღლის თამარისა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+             <graphic url="ecg342a.jpg">
+                <desc xml:lang="ka">ქობაირის მონასტრის ეპიტაფია ივანე მანდატურთუხუცესის ასულისა და გურკენელი სულას მეუღლის თამარისა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+           </surface>
+    </facsimile> 
+    <text>
+        <body> 
+            <div type="bibliography">
+                
+         <p><bibl n="1">თემო ჯოჯუა, გიორგი გაგოშიძე, ქობაირის, ჰნევანქისა და ახტალის მონასტრების ქართული ლაპიდარული წარწერები<ptr target="bibliography.xml#b164"/>, <citedRange> 273-274</citedRange></bibl></p>
+         <p><bibl n="2">პარუირ მურადიანი, სომხეთის ქართული წარწერები, წყაროთმცოდნეობითი გამოკვლევა (სომხურ ენაზე)<ptr target="bibliography.xml#b166"/>, <citedRange> 178-179, ტაბ. XIX, სურ. 4</citedRange></bibl></p>
+         <p><bibl n="3">ქეთი ასათიანი, გიორგი კალანდია, ქობერის მონასტრის ქართული წარწერები<ptr target="bibliography.xml#b165"/>, <citedRange> 10-14</citedRange></bibl></p>
+                
+           </div>        
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!-- † ესე ს(ა)ფლ(ა)ვი ივ(ა)ნე მ(ა)ნდ
+                            ატ(უ)რთ(უ)ხ(უ)ც(ე)სისა ას(უ)ლისა და გურკენე
+                            ლისა ს(უ)ლას მეუღლისა
+                            თამ(ა)რისი. შ(ეუნდვე)ნ ღ(მერთმა)ნ--> 
+                                                           
+            
+                <ab>
+                   <lb n="1"/>&#8224;<w lemma="ესე">ესე</w> 
+                            <w lemma="საფლავ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ფლ</abbr><ex>ა</ex><abbr>ვი</abbr></expan></w> 
+                            <persName type="local" key="ივანე II მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/ივანე_(II)_მხარგრძელი"><name nymRef="ივანე"><expan><abbr>ივ</abbr><ex>ა</ex><abbr>ნე</abbr></expan></name>
+                            <roleName nymRef="მანდატურთუხუცეს"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ნდ
+                    <lb n="2" break="no"/>ატ</abbr><ex>უ</ex><abbr>რთ</abbr><ex>უ</ex><abbr>ხ</abbr><ex>უ</ex><abbr>ც</abbr><ex>ე</ex><abbr>სისა</abbr></expan></roleName></persName> 
+                                <w lemma="ასულ"><expan><abbr>ას</abbr><ex>უ</ex><abbr>ლისა</abbr></expan></w> 
+                                    და 
+                                 <persName type="local" key="სულა გურკანელი"><name nymRef="გურკენელ">გურკენე
+                    <lb n="3" break="no"/>ლისა</name>                            
+                                        <name nymRef="სულა"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლას</abbr></expan></name></persName> 
+                                        <w lemma="მეუღლე">მეუღლისა</w>                    
+                    <lb n="4"/><persName type="local" key="თამარ მხარგრძელი [ივანე II მხარგრძელის ასული, სულა გურკანელის მეუღლე]"><expan>თამ<ex>ა</ex>რისი</expan></persName> <w lemma="შენდობა"><expan><abbr>შ</abbr><ex>ეუნდვე</ex><abbr>ნ</abbr></expan></w>
+                            <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
+                    </ab>
+               </div>
+            
+         <div type="translation" xml:lang="ka">
+             <p>ეს არის საფლავი ივანე მანდატურთუხუცესის ასულის, სულა გურკენელის მეუღლის, თამარის. შეუნდოს ღმერთმან.</p>
+         </div>                  
+           
+<div type="commentary">
+<p>წარწერაში ქარაგმის ნიშნად გამოყენებულია განივი ტეხილი ხაზი. განკვეთილობის ნიშნები: ორწერტილი თითქმის ყოველი სიტყვის შემდეგ. 
+                    ტექსტის ბოლოს დასმული იყო წვერით მარჯვნივ მიმართული ისრისპირისებური ნიშანი. ტექსტში ბგერა უ,
+                    ერთ შემთხვევაში, Ⴍ-ს (ო) საშუალებით არის გადმოცემული; გვხვდება ლიგატურებისა და შეწიაღების შემთხვევები. საფლავის ქვის ზედაპირი გადაცვეთილია,
+                    რის გამოც მთელი რიგი გრაფემები გაჭირვებით იკითხება, ზოგიერთი გრაფემა კი საერთოდ აღარ განირჩევა. </p>
+                
+                <p>თემო ჯოჯუასა და გიორგი გაგოშიძის დაკვირვებით, თამარ მხარგრძელის ეპიტაფიაში „გურკენელის“ ფორმით XIII საუკუნის
+                    სამცხის ერთ-ერთი ყველაზე დაწინაურებული არისტოკრატული გვარი - გურკელელი//გურკლელი
+                უნდა იყოს მოხსენიებული. თუ ეს დაკვირვება სწორია, მაშინ გამოდის, რომ ეპიტაფიას
+                არამხოლოდ მხარგრძელთა ფეოდალური სახლის, არამედ გურკელელთა საგვარეულოს
+                ისტორიისათვისაც მნიშვნელოვან ცნობებს გვაწვდის. ეპიტაფიის ტექსტიდან, სახელდობრ,
+                ირკვევა შემდეგი:
+                1. წარწერაში მოხსენიებულია, დაახლოებით, XIII საუკუნის II ნახევარსა და XIV საუკუნის
+                I ნახევარში მოღვაწე უცნობი ისტორიული პირი - სულა გურკენელი, რომელიც ქართველი
+                ანონიმი ჟამთააღმწერლის „ასწლოვანი მატიანიდან“ კარგად ცნობილი ისტორიული პირების -
+                საქართველოს მეფეების რუსუდანისა (1223-1245 წწ.) და დავით VI ნარინის (1246-1249/1259 წწ.)
+                ამირეჯიბის ბეშქენ მახუნჯაგის ძე გურკელელისა (1240-იანი წწ.) და ამ უკანასკნელის ძმისა თუ
+                ვაჟის მურვან გურკელელის (1260-იანი წწ.) შთამომავალი უნდა იყოს.
+                2. ეპიტაფიიდან ცნობილი ხდება, რომ მანდატურთუხუცეს ივანე II მხარგრძელის ოჯახი
+                გურკელელთა საგვარეულოსთან ქორწინების გზით იყო დანათესავებული: ივანე II-ის ასული თამარი
+                სულა გურკენელის მეუღლე იყო. საგულისხმოა, რომ მხარგრძელთა და გურკელელთა
+                ფეოდალური სახლების წევრებს არამხოლოდ XIII საუკუნის II ნახევარსა და XIV საუკუნის I
+                ნახევარში, არამედ შედარებით უფრო ადრეულ პერიოდშიც ერთმანეთთან საკმაოდ ახლო კავშირურთიერთობები
+                ჰქონდათ: ივანე II მხარგრძელის მამა, შანშე I მხარგრძელი, XIII საუკუნის I ნახევარსა
+                და შუახანებში (1261/1262 წ-მდე) მანდატურთუხუცესის სახელოს ფლობდა, სულა გურკენელის ერთ-ერთ
+                ახლო წინაპარს, ბეშქენ გურკელელს კი, იმავე პერიოდში, ამირეჯიბის, ანუ მანდატურთუხუცესის
+                თანაშემწის თანამდებობა ეკავა და სწორედ შანშე I-ის ხელქვეითი მოხელე იყო.</p>            
+            </div>       
+         </body>
+    </text>
+</TEI>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>აბასთუმნის წარწერა</title>
+                <editor>ვალერი სილოგავა</editor>
+                <editor>ნოდარ შოშიაშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG101</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>აბასთუმანი</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მემორიალური</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ნაცრისფერი ქვა</material>                                   
+                                    <p>I ფილა</p> 
+                                    <dimensions unit="cm">
+                                        <width>64,5</width>
+                                        <height>28</height>
+                                        <depth>9</depth></dimensions>
+                                        <p>II ფილა</p>                                                                     
+                                    <dimensions unit="cm">
+                                        <width>42,5</width>
+                                        <height>27</height>
+                                        <depth>9,5</depth></dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="9">წარწერა ცხრასტრიქონიანია. I ფილაზე ექვსი სტრიქონია, II ფილაზე - ხუთი
+                                    <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                 </layout>                                  
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="embossed">
+                                <rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა
+                                 <height unit="cm">3</height> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>აბასთუმნის ძველი ეკლესია</origPlace>
+                                 <origDate evidence="historical context prosopography" precision="high" datingMethod="#julian">531-565 AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">აბასთუმნის ძველი ეკლესია</placeName>
+                                <!-- "41.727083, 42.838958"--> 
+                                <rs type="circumstances">ექვთიმე თაყაიშვილის ცნობით, ფილები აღმოჩნდა აბასთუმანთან (ქვაჯვარი იდგა ძველი
+                                    ეკლესიის პირდაპირ), მდინარეების: კურცხანისა და აბასთუმნის წყლის შესართავთან. ისინი XX საუკუნის დასაწყისში აბასთუმნიდან თბილისში გადმოიტანეს
+                                    და ამჟამად საქართველოს ეროვნულ მუზეუმში ინახება. კვარცხლბეკის ორ მხარეს, როგორც ჩანს, ისინი ჩამოჭრეს მათი ადვილად გადმოტანის მიზნით.</rs>
+                                <rs type="context"></rs>
+                                <rs type="monuList"/>
+                            </provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot" ref="http://museum.ge/">საქართველოს ეროვნული მუზეუმი</placeName>
+                                <idno type="invNo"/>24-25/118-119</provenance> 
+                    </history>          
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg101.jpg">
+                <desc xml:lang="ka">აბასთუმნის წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>  
+           <div type="bibliography">
+              
+      <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი<ptr target="bibliography.xml#b101"/>, <citedRange> 101-104</citedRange></bibl></p>
+      <p><bibl n="2">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
+             
+            </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--  "†[შწთა ქჱსითა] ჲვტნაე მფსა [ზე მე]
+                              [.......] ვქნ ღთნ გნ]დიდლი ნთვთ
+                              [ა ყთა ჩა ბრძნბთა ღთვდცლა მფლა
+                              არშა პტკსა და ნბთა ღთთა ქვთა ერთა
+                              ქრპლს ცხსთა [ბ]ობთ მწოლ ვიყავ და
+                              ამრთე პტსნი ჯი წა ღთსმშბსა სხლა
+                              
+                              სლცლდ ჩმდა და
+                              ძმთა ჩმთა მეო
+                              ხბსათს ყ[ლ]ა ჭრსა
+                              ამს სწთრს [დ]ა სკნს
+                              და ვნ აღკხს ლცვა მჴსნ[თ]"--> 
+            
+                
+                <div type="textpart" subtype="column" n="1">                
+                    <ab>
+                   <lb n="1"/>&#8224;<w lemma="შეწევნა"><supplied reason="lost"><expan><abbr>შ</abbr><ex>ე</ex><abbr>წ</abbr><ex>ევნი</ex><abbr>თა</abbr></expan></supplied></w> 
+                                     <w lemma="ქრისტე"><supplied reason="lost"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ჱსითა</abbr></expan></supplied></w> 
+                                <name><expan><abbr>ჲვ</abbr><ex>ს</ex><abbr>ტ</abbr><ex>ი</ex><abbr>ნ</abbr><ex>ი</ex><abbr>ა</abbr><ex>ნ</ex><abbr>ე</abbr></expan></name> 
+                                     <roleName nymRef="მეფე"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფ</abbr><ex>ი</ex><abbr>სა</abbr></expan></roleName> 
+                                     <w lemma="ზე"><supplied reason="lost">ზე</supplied></w> 
+                                        <w lemma="მე"><supplied reason="lost">მე</supplied></w>
+                   <lb n="2"/><gap reason="lost" extent="unknown" unit="chars"></gap>
+                                    <w lemma="ქმნა"><expan><supplied reason="lost"><abbr>ვ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>მე</ex><abbr>ნ</abbr></supplied></expan></w>
+                                   <w lemma="ღმერთ"><expan><supplied reason="lost"><abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr><ex>ისაგა</ex><abbr>ნ</abbr></supplied></expan></w> 
+                                   <w lemma="განდიდებულ"><supplied reason="lost"><expan><abbr>გ</abbr><ex>ა</ex><abbr>ნ</abbr>დიდ<ex>ებუ</ex>ლი</expan></supplied></w>
+                                        <w lemma="ნათესავ"><expan><abbr>ნ</abbr><ex>ა</ex><abbr>თ</abbr><ex>ესა</ex><abbr>ვთ</abbr>
+                   <lb n="3" break="no"/><supplied reason="lost">ა</supplied></expan></w>
+                                     <w lemma="ყოველ"><supplied reason="lost"><expan><abbr>ყ</abbr><ex>ოველ</ex><abbr>თა</abbr></expan></supplied></w>
+                                      <w lemma="ჩემნი"><supplied reason="lost"><expan><abbr>ჩ</abbr><ex>ემთ</ex><abbr>ა</abbr></expan></supplied></w> 
+                                     <w lemma="ბრძანება"><expan><abbr>ბრძ</abbr><ex>ა</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
+                                    <w lemma="ღმრთივდაცულ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr><ex>ი</ex><abbr>ვდ</abbr><ex>ა</ex><abbr>ც</abbr><ex>უ</ex><abbr>ლ</abbr><ex>ის</ex><abbr>ა</abbr></expan></w> 
+                                    <roleName><w lemma="მამფალ"><expan><abbr>მ</abbr><ex>ამ</ex><abbr>ფლ</abbr><ex>ის</ex><abbr>ა</abbr></expan></w></roleName>
+                   <lb n="4"/><name nymRef="არშუშა"><expan><abbr>არ</abbr><ex>შუ</ex><abbr>შა</abbr></expan></name> 
+                                <roleName nymRef="პატრიკიოს"><expan><abbr>პ</abbr><ex>ა</ex><abbr>ტ</abbr><ex>რი</ex><abbr>კ</abbr><ex>იოსი</ex><abbr>სა</abbr></expan></roleName>
+                                    და 
+                                  <w lemma="ნება"><expan><abbr>ნ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
+                                <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr><ex>ისაჲ</ex><abbr>თა</abbr></expan></w> 
+                                   <w type="ethnic"><expan><abbr>ქ</abbr><ex>ართ</ex><abbr>ვ</abbr><ex>ელ</ex><abbr>თა</abbr></expan></w> 
+                                     <roleName><w lemma="ერისთავ"><expan><abbr>ერ</abbr><ex>ის</ex><abbr>თ</abbr><ex>ავის</ex><abbr>ა</abbr></expan></w></roleName>
+                   <lb n="5"/><placeName><w lemma="ქრისეპულ"><expan><abbr>ქრ</abbr><ex>ისე</ex><abbr>პ</abbr><ex>უ</ex><abbr>ლ</abbr><ex>ი</ex><abbr>ს</abbr></expan></w></placeName> 
+                             <w lemma="ციხე"><expan><abbr>ც</abbr><ex>ი</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ს</abbr><ex>ა</ex><abbr>თა</abbr></expan></w> 
+                                <w lemma="ბოძება"><supplied reason="lost"><expan><abbr>ბო</abbr><ex>ძე</ex><abbr>ბ</abbr><ex>ი</ex><abbr>თ</abbr><ex>ა</ex></expan></supplied></w> 
+                                <w lemma="მოწუეულ"><expan><abbr>მ</abbr><ex>ო</ex><abbr>წ</abbr><ex>უე</ex><abbr>ო</abbr><ex>ჳ</ex><abbr>ლ</abbr></expan></w> 
+                                    <w lemma="ყოფა">ვიყავ</w> 
+                                    და
+                   <lb n="6"/><w lemma="აღმართვა"><expan><abbr>ა</abbr><ex>ღუ</ex><abbr>მ</abbr><ex>ა</ex><abbr>რთე</abbr></expan></w> 
+                                <w lemma="პატიოსან"><expan><abbr>პ</abbr><ex>ა</ex><abbr>ტ</abbr><ex>იო</ex><abbr>ს</abbr><ex>ა</ex><abbr>ნი</abbr></expan></w> 
+                                <w lemma="ჯუარ"><expan><abbr>ჯ</abbr><ex>უარ</ex><abbr>ი</abbr></expan></w> 
+                                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდის</ex><abbr>ა</abbr></expan></w> 
+                                <w lemma="ღვთისმშობელ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr><ex>ი</ex><abbr>სმშ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ელი</ex><abbr>სა</abbr></expan></w> 
+                                 <w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ს</ex><abbr>ა</abbr></expan></w>
+    </ab>
+</div>
+            <div type="textpart" subtype="column" n="2">
+                <ab>    
+                <lb n="7"/><w lemma="სალოცველ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ც</abbr><ex>ვე</ex><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> 
+                            <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მდა</abbr></expan></w> 
+                            და
+                   <lb n="8"/><w lemma="ძმა"><expan><abbr>ძმ</abbr><ex>ა</ex><abbr>თა</abbr></expan></w> 
+                                <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მთა</abbr></expan></w> 
+                                    <w lemma="მეოხება"><expan><abbr>მეო
+                   <lb n="9" break="no"/>ხ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ი</ex><abbr>სათ</abbr><ex>ჳ</ex><abbr>ს</abbr></expan></w> 
+                                        <w lemma="ყოველ"><expan><abbr>ყ</abbr><supplied reason="lost"><ex>ოვე</ex><abbr>ლ</abbr></supplied><ex>ს</ex><abbr>ა</abbr></expan></w> 
+                                        <w lemma="ჭირ"><expan><abbr>ჭ</abbr><ex>ი</ex><abbr>რსა</abbr></expan></w>
+                   <lb n="10"/><w lemma="ესე"><expan><abbr>ამ</abbr><ex>ა</ex><abbr>ს</abbr></expan></w> 
+                                <w lemma="საწუთრო"><expan><abbr>ს</abbr><ex>ა</ex><abbr>წ</abbr><ex>უ</ex><abbr>თრ</abbr><ex>ო</ex><abbr>ს</abbr></expan></w> 
+                                    <supplied reason="lost">დ</supplied>ა 
+                                    <w lemma="საუკუნე"><expan><abbr>ს</abbr><ex>აუ</ex><abbr>კ</abbr><ex>უ</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ს</abbr></expan></w>
+                   <lb n="11"/>და 
+                                    <w lemma="ვინ"><expan><abbr>ვ</abbr><ex>ი</ex><abbr>ნ</abbr></expan></w> 
+                                    <w lemma="აღმოკითხვა"><expan><abbr>აღ</abbr><ex>მოი</ex><abbr>კ</abbr><ex>ით</ex><abbr>ხ</abbr><ex>ო</ex><abbr>ს</abbr></expan></w> 
+                                    <w lemma="ლოცვა"><expan><abbr>ლ</abbr><ex>ო</ex><abbr>ცვ</abbr><ex>ას</ex><abbr>ა</abbr></expan></w> 
+                                    <w lemma="მოხსენება"><expan><abbr>მ</abbr><ex>ომი</ex><abbr>ჴსნ</abbr><ex>ე</ex><supplied reason="lost">თ</supplied></expan></w>
+                   </ab>
+               </div></div> 
+            
+             <div type="apparatus" xml:space="preserve">
+                                
+             <listApp>
+                 <app loc="1"> 
+                    <lem resp="ნოდარ შოშიაშვილი"><expan><supplied reason="lost">შ<ex>ე</ex>წ<ex>ევნი</ex>თა</supplied></expan></lem>
+                    <rdg resp="ვალერი სილოგავა">სახელითა</rdg>
+                 </app>   
+                 
+                 <app loc="1"> 
+                    <lem resp="ნოდარ შოშიაშვილი"><expan><supplied reason="lost">ქ<ex>რისტ</ex>ჱსითა</supplied></expan></lem>
+                    <rdg resp="ვალერი სილოგავა">ღმრთისაჲთა</rdg>
+                 </app> 
+               
+               <app loc="2"> 
+                    <lem resp="ნოდარ შოშიაშვილი"><expan><supplied reason="lost">ღ<ex>მრ</ex>თ<ex>ისაგა</ex>ნ</supplied></expan></lem>
+                    <rdg resp="ვალერი სილოგავა">></rdg>
+                 </app> 
+                 
+                 <app loc="3"> 
+                    <lem resp="ნოდარ შოშიაშვილი"><expan><supplied reason="lost">ყ<ex>ოველ</ex>თა</supplied></expan></lem>
+                    <rdg resp="ვალერი სილოგავა">შორის</rdg>
+                 </app>
+                 
+                 <app loc="3"> 
+                    <lem resp="ნოდარ შოშიაშვილი"><expan><supplied reason="lost">ჩ<ex>ემთ</ex>ა</supplied></expan></lem>
+                    <rdg resp="ვალერი სილოგავა">და</rdg>
+                 </app>
+                 
+                 <app loc="4"> 
+                    <lem resp="ნოდარ შოშიაშვილი"><expan>პ<ex>ა</ex>ტ<ex>რი</ex>კ<ex>იოსი</ex>სა</expan></lem>
+                    <rdg resp="ვალერი სილოგავა">პატრიკისაჲთა</rdg>
+                 </app>
+                 
+                 <app loc="4"> 
+                    <lem resp="ნოდარ შოშიაშვილი"><expan>ერ<ex>ის</ex>თ<ex>ავის</ex>ა</expan></lem>
+                    <rdg resp="ვალერი სილოგავა">ერისმთავრისა</rdg>
+                 </app>
+                 
+                 <app loc="5"> 
+                    <lem resp="ნოდარ შოშიაშვილი"><expan>ქრ<ex>ისე</ex>პ<ex>უ</ex>ლ<ex>ი</ex>ს</expan></lem>
+                    <rdg resp="ვალერი სილოგავა">ქრიზეპოლს</rdg>
+                 </app>
+                
+                <app loc="5"> 
+                    <lem resp="ნოდარ შოშიაშვილი"><expan>ც<ex>ი</ex>ხ<ex>ე</ex>ს<ex>ა</ex>თა</expan> 
+                                <expan><supplied reason="lost">ბ</supplied>ო<ex>ძე</ex>ბ<ex>ი</ex>თ<ex>ა</ex></expan></lem>
+                    <rdg resp="ვალერი სილოგავა">ციხისთავობათა</rdg>
+                 </app>
+                 
+                 <app loc="5"> 
+                    <lem resp="ნოდარ შოშიაშვილი"><expan>მ<ex>ო</ex>წ<ex>უე</ex>ო<ex>ჳ</ex>ლ</expan></lem>
+                    <rdg resp="ვალერი სილოგავა">მიწევნულ</rdg>
+                 </app>
+                 
+                 <app loc="6"> 
+                    <lem resp="ნოდარ შოშიაშვილი"><expan>ა<ex>ღუ</ex>მ<ex>ა</ex>რთე</expan></lem>
+                    <rdg resp="ვალერი სილოგავა">აღჰუმართე</rdg>
+                 </app>
+                 
+                 <app loc="10"> 
+                    <lem resp="ნოდარ შოშიაშვილი"><expan>ს<ex>ა</ex>წ<ex>უ</ex>თრ<ex>ო</ex>ს</expan></lem>
+                    <rdg resp="ვალერი სილოგავა">საწუთროსა</rdg>
+                 </app>
+                 
+                 <app loc="10"> 
+                    <lem resp="ნოდარ შოშიაშვილი"><expan>ს<ex>აუ</ex>კ<ex>უ</ex>ნ<ex>ე</ex>ს</expan></lem>
+                    <rdg resp="ვალერი სილოგავა">საუკუნოსა</rdg>
+                 </app>
+                 
+                </listApp>    
+            </div>
+            
+            <div type="translation" xml:lang="ka">
+             <p>† ქრისტეს შეწევნით ჲვსტინიანე მეფის ზეობის დროს მე [...] ღმრთისაგან განდიდებული ვიქმენ ნათესავთა შორის. ღვთივდაცული მამფლის არშუშა პატრიკიოსის
+                 ბრძანებითა, ღმრთისა და ქართველი ერისთავის ნებით ქრისეპულის ციხის ბოძებით მოწვეული ვიყავი და აღვმართე პატიოსანი ჯუარი წმიდა ღვთისმშობლის
+                 სახელზე ჩემთვის და ჩემი ძმებისთვის სალოცველად, ყოველი ჭირისაგან მეოხებისათვის ამ საწუთროში და საუკუნო ცხოვრებაში. 
+                 ვინც ამოიკითხოს, ლოცვაში მომიხსენეთ.</p>
+         </div>    
+                             
+               <div type="commentary">
+                <p>წარწერაში განკვეთილობისა და დაქარაგმების ნიშნები არ არის. სიტყვები ერთმანეთისაგან არ არის დაცილებული. სტრიქონები ერთმანეთისაგან გამოყოფილია 
+                    ვიწრო რელიეფური ზოლით. 
+                   წარწერაში ქრისეპულის ანონიმი ციხისთავი მოგვითხრობს მის მიერ ღვთისმშობლის სახელზე წმ. ჯვრის აღმართვის შესახებ. 
+                                    წმ. ჯვარში აქ იგულისხმება ქვაჯვარი - კვარცხლბეკი
+                                    მასში ჩასმული მაღალი (დაახ. 1,5-2 მ სიმაღლისა) ოთხკუთხა ან მრგვალი სვეტი (ზოგჯერ სადა, ზოგჯერ ორნამენტული, ზოგჯერ სიუჟეტური გამოსახულებებით, მათ შორის, 
+                                    ქტიტორის ან ქტიტორების) და ზემოთ, ამ სვეტში ჩასმული ქვის ჯვარი (უმეტესად თანაბარი ზომის მკლავებით). ციხისთავის მიერ აღმართული ამ ქვაჯვრიდან შემორჩენილია 
+                                    კვარცხლბეკიდან ჩამოჭრილი ორი თხელი ფილა რელიეფური ასომთავრული წარწერით (6 და 5 სტრიქონად).
+                                    
+                   აბასთუმნის წარწერაში ორი ისტორიული პირი მოიხსენიება: ჲვსტინიანე მეფე და მამფალი არშუშა პატრიკიოსი და ქართველთა ერისმთავარი.
+                   წარწერას მკვლევრები სხვადასხვანაირად ათარიღებენ: სარგის კაკაბაძე - VII ს. ან VIII ს-ის I ნახევარი; ა. ბაქარაძე და ს. ბოლქვაძე - VI ს.
+                   ტექსტში ჯვრის აღმართვა დათარიღებულია ჲვსტინიანეს მეფობის დროით. მეფობის წლების მიხედვით რაიმე მოვლენის დათარიღება წელთაღრიცხვის უძველეს დროს გავრცელებული
+                   ერთ-ერთი ფორმაა და აბასთუმნის წარწერაშიც ისაა გამოყენებული. ჲვსტინიანე მეფედ ბიზანტიის იმპერატორი იუსტინიანე II (685-695, 705-711) არის მიჩნეული. 
+                   იგი ორჯერ მეფობდა და რადგან უცნობია მისი მეფობის რომელ პერიოდს მიეკუთვნება ეს წარწერა, ნოდარ შოშიაშვილი მას დროის საკმაოდ დიდი მონაკვეთით - 685-711 წწ. ათარიღებეს. 
+                   წარწერის დათარიღებისას გათვალისწინებულია პალეოგრაფიული ნიშნები და ტექსტში დასახელებული ისტორიული პირების მოღვაწეობის დრო. არშუშა პატრიკიოსი, რომელიც
+                   ქართველთა ერისმთავრად იწოდება, ჯერ კიდევ ე. თაყაიშვილმა მიიჩნია „ევსტათი მცხეთელის მარტვილობაში“ დასახელებულ ქართლის მარზპან არშუშად 
+                   (E. Такаишвили,АЭРЗ, II, Тиф., 1905). მას პატრიკის ბიზანტიური ტიტულიც ჰქონია. კორნელი კეკელიძის მოსაზრებით, „ევსტათი მცხეთელის მარტვილობაში“ მოთხრობილი ამბავი
+                   განეკუთვნება ირანის შაჰის ხოსრო I ანუშირვანის (531-579) მეფობის დროს (კ. კეკელიძე, ძველი ქართული ლიტერატურის ისტორია, ტ. I, თბ. 1980,  508-515), 
+                   ე. ი. მამფალი არშუშა პატრიკიოსიც მისი თანამედროვეა. შესაბამისად, წარწერის დასაწყისში მოხსენიებული ჲვსტინიანე, რომლის ზეობითაც თარიღდება ჯვრის აღმართვა, 
+                   არის ბიზანტიის იმპერატორი იუსტინიანე I დიდი (527-565) და არა იუსტინიანე II (685-695, 705-711). ვალერი სილოგავა ორი დასახელებული მმართველის მეფობის წლების თანხვედრის
+                   გამო მიიჩნევს, რომ აბასთუმნის წარწერა ჯვრის კვარცხლბეკისა 531-565 წწ. თარიღდება. რაც შეეხება ქრიზეპოლის ციხეს, მკვლევარი მიიჩნევს, რომ ის იგივე სამცხის ოქროს ციხეა, 
+                   რომლის სახელი წარწერაში ბერძნულ-ბიზანტიური ფორმითაა გადმოცემული. წარწერაში დაქარაგმენით მოცემული ზმნა „ამრთე“ ვალერი სილოგავამ წყისის ჰაემეტური
+                   წარწერის ანალოგიით ჰაემეტური ფორმით გახსნა - აღჰუმართე. მკვლევარი ვარაუდობს, რომ საკუთრივ ჯვრის აღმმართველი 
+                   ციხისთავის სახელი, რომლითაც იწყებოდა ტექსტი, ძველ დროსვე საგანგებოდ გადაუფხეკიათ, ალბათ, მის არაკეთილმოსურნეებს მისი სახელის წაშლის მიზნით.
+                   ამიტომაც ეს ჯვარი დღეს ანონიმურია. არსებობს ვახტანგ გოილაძის მოსაზრება, რომ ჯვრის აღმმართველი შეიძლება იყოს „ვარაზ-ბაკურ აპაჲ პატრიკიოზი“.
+                   ამავე მოსაზრებით, იგი უნდა იყოს ძმა წარწერის ტექსტშივე დასახელებული არშუშა პატრიკიოსისა (ვ. გოილაძე, ბიზანტიის აღმოსავლური პოლიტიკის ასახვა ქართულ ეპიგრაფიკაში,
+                   თბ. 2008,  34). </p>
+         </div>
+        </body>
+    </text>
+</TEI>

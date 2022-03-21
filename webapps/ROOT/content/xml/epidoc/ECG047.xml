@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ბოლნისის „ლამაზი გორას“ VI/VII სს. ფრაგმენტი</title>
+                <title xml:lang="en">Bolnisi “Lamazi Gora” V/VI centuries, fragment</title>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <editor xml:lang="en">Nodar Shoshiashvili</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG047</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="fragmentary">
+                    <msIdentifier>
+                        <collection>ბოლნისი</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en">Memorial</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/30">წითელი ტუფი</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/30">Tuff</material>
+                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">Plaque</objectType>
+                                    <dimensions unit="cm">
+                                        <width>25</width>
+                                        <height>15</height>
+                                        <depth>8</depth>
+                                    </dimensions>
+                                </support></supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="1"> 
+                                       <seg xml:lang="ka">წარწერა 1 სტრიქონიანია. იგი შესრულებულია ქვაზე, რომელზეც გამოქანდაკებულია რელიეფური, ხვეული თოკის მსგავსი ჩარჩოს მედალიონში 
+                                       ჩასმული „ბოლნური ჯვარი“, მარტივი მკლავებით. ჯვრის ქვემოთ, მარჯვენა კუთხეში, შემორჩა ამოღარული ასომთავრული წარწერის ორი გრაფემა.</seg>
+                                        <seg xml:lang="en">One line inscription. The inscription is embossed on the stone that has the figure of “Bolnisi Cross” on its upper part; the cross is embedded in a medallion with a frame like braided rope. The crossbars are simple. On the bottom of the figure of the cross there are two capital letter graphemes preserved.  </seg>
+                                        <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        <depth/></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                 <seg xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
+                                <seg xml:lang="en">Engraved Asomtavruli inscription.</seg>
+                                <width/>
+                                <height/>
+                                 </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>
+                                    <seg xml:lang="ka">ლამაზი გორა, ბოლნისი</seg>
+                                    <seg xml:lang="en">Lamazi Gora, Bolnisi</seg>
+                                </origPlace>
+                                <origDate notBefore-custom="0500" notAfter-custom="0700" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">VI-VII AD</origDate>
+                            </origin>
+                            <provenance type="found" when="1959">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863760">
+                                    <seg xml:lang="ka">ლამაზი გორა, ბოლნისი</seg>
+                                    <seg xml:lang="en">Lamazi Gora, Bolnisi</seg>
+                                </placeName>
+                                <!-- "41.449801, 44.548284"-->
+                                <rs type="circumstances">
+                                    <seg xml:lang="ka">ძეგლი აღმოჩენილია ივ. ჯავახიშვილის სახელობის ისტორიის ინსტიტუტის არქეოლოგიური ექსპედიციის მიერ,
+                                    რომელსაც ი. გრძელიშვილი ხელმძღვანელობდა. ბოლნისის სიონიდან ჩრდილო-დასავლეთით, დაახლოებით 800 მეტრის დაშორებით მდებარეობს ბორცვი, 
+                                    რომელსაც ადგილობრივი მოსახლეობა „ლამაზ გორას“ უწოდებს. სწორედ ამ გორაზე ჩაატარა ექსპედიციამ გათხრები და შუა ადგილას გამოავლინა
+                                    სამეკლესიანი ბაზილიკის ნანგრევები. ვარაუდობენ, რომ ეს იყო სამონასტრო კომპლექსი, რომელსაც ეჭირა 1000 კვ.მ. ფართობი. ამ ტერიტორიაზე
+                                    აღმოჩნდა ათეული ქვაჯვარი ასომთავრული წარწერებით. ძეგლი იპოვეს 1959 წელს.</seg>
+                                    <seg xml:lang="en">The monument was discovered by the archeological expedition of Ivane Javakhishvili Institute of History supervised by I. Grdzelishvili. The hill that the locals call “Lamazi Gora” (a beautiful hill) is located 800 meters from Bolnisi Sioni Cathedral to the north-west. During the excavations of the hill the ruins of three-church basilica was found in the middle of it. The territory of the monastery could have been 1000 sq m. Up to ten stone crosses with Asomtavruli inscriptions were found in this territory. The monument was discovered in 1959</seg>
+                                </rs> 
+                                <rs type="context"></rs>
+                                <rs type="monuList"/>
+                            </provenance> 
+                             <provenance type="observed">
+                            <placeName type="modernSpot" ref="http://museum.ge/">
+                                <seg xml:lang="ka">საქართველოს ეროვნული მუზეუმი</seg>
+                                <seg xml:lang="en">National Museum of Georgia</seg>
+                            </placeName>
+                            <idno type="invNo">1183</idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+     <facsimile>
+        <surface>
+            <graphic url="ecg047.jpg">
+                <desc xml:lang="ka">ბოლნისის „ლამაზი გორას“ VI/VII სს. ფრაგმენტი</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                  
+                  <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები<ptr target="bibliography.xml#b101"/>, <citedRange> 86-87</citedRange></bibl></p>
+                 
+            </div> 
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--  "[შეიწ]ყა
+                                [ლე]"-->
+                                 
+                <ab>
+                   <lb n="1"/><gap reason="lost" extent="unknown" unit="character"></gap> <w lemma="შეწყალება"><supplied reason="lost">შეიწ</supplied>ყა 
+                   <lb n="2" break="no"/><supplied reason="lost">ლე</supplied></w><gap reason="lost" extent="unknown" unit="character"></gap>
+                 </ab>
+             
+            </div>
+                
+            <div type="translation" >
+                <p xml:lang="ka"> ...შეიწყალე.</p>
+                <p xml:lang="en">Have mercy</p>
+            </div>
+            
+            <div type="apparatus" xml:space="preserve">
+                         </div>
+            
+            <div type="commentary">
+                <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #23.</p>
+                <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #23.</p>
+            </div>                 
+         </body>
+    </text>
+</TEI>

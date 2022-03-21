@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>სათხის სააღაპე წარწერა გიორგი შაზელისძისა</title>
+                <editor>ვალერი სილოგავა</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
+                <idno type="filename">ECG1007</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>საქართველო</country>
+                        <region>სამცხე-ჯავახეთი</region>
+                         <collection>სათხე</collection>
+                    </msIdentifier>
+                     <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სააღაპე</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents> 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="www.eagle-network.eu/voc/material/lod/2">ქვა</material> 
+                                   <objectType>ფასადი</objectType> 
+                                    <dimensions unit="cm">      
+                                        <width/>
+                                         <height/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="11">
+                                   <dimensions unit="cm">
+                                       <width></width>
+                                        <height></height>
+                                   </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="nuskhuri" style="inscribed">
+                               <rs type="execution">ამოღარული</rs> <rs type="script">ნუსხური</rs>. <rs type="execution" key="dot">კიდურწერტილოვანი</rs> და <rs type="execution" key="arrow">კიდურწაისრული</rs>.
+                                
+
+                                <dimensions unit="cm"/>
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/> 
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>სათხე</origPlace>
+                                <origDate>XII–XIII</origDate>
+                            </origin>
+                                <provenance type="found" when="1872">
+                                <placeName type ="ancientFindspot">სათხის </placeName> 
+                                <rs type="circumstances">სათხის ქართულ ეკლესიას XIX საუკუნის 70–იან წლებში სამხრეთიდან მიუშენეს სომხური წმინდა დიდი ნერსეს ეკლესია. ქართული ეკლესიის სამხრეთი 
+                                    კედელი გამოიყენეს სომხური ეკლესიის ჩრდილოეთ კედლად, ე.ი. ორივე ეკლესიას ერთი საერთო კედელი ჰქონდა. ქართული ეკლესიისა სამხრეთი კედელი, როგორც სომხური 
+                                    ეკლესიისათვის უკვე შიდა კედელი, დაუფარავთ კირის სქელი ხსნარით. 1990 წლის გაზაფხულზე სომხური ეკლესიის სახურავი ჩრდილოეთ მხარეს ჩაინგრა, ამის შედეგად ნაწილობრივ 
+                                    გაშიშვლდა ქართული ეკლესიის სამხრეთი კედელი, ჩამოიშალა კირის სქელი ფენა, ზოგი ჩამორეცხა წვიმამაც და აქ დიდი ზომის ქვის ფილაზე, ამოკვეთილი აღმოჩნდა ნუსხახუცური დამწერლობით 
+                                    შესრულებული ვრცელი ქართული წარწერა 11 სტრიქონად.</rs>
+                                <rs type="context"></rs>
+                                <rs type="monuList"/>
+                                </provenance>                                
+                            <provenance type="observed">
+                            <placeName/>
+                            <idno/>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface>
+            <graphic url="ecg1007.jpg">
+                <desc xml:lang="ka">სათხის აღაპი</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+  <!-- 
+      
+    <facsimile>
+        <surface>
+            <graphic url="tskise_01.jpg">
+                <desc xml:lang="ka">წყისეს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    -->
+    <text>
+        <body>
+            <div type="edition" xml:lang="ka" xml:space="preserve" ana="nuskhuri">
+                        <!-- 
+                            Ⴕგ(იორ)გ(ი) შ(ა)ზ(ე)ლ(ი)სძ(ე)სა და ძეთა | მისთა შ(ეუნდვე)ნ ღ(მერთმა)ნ. დაიდვეს | ორი დღე აღ(ა)პი, რომე | არცა(!) ზედა (ა)შე და სეფ(ი)სკ(უ)ერი | 
+                            გამოვიდეს ბ(ა)რბ(ა)რობაი | და მეორედ მოსვლაი. ა |  მა საყრ(ა)რსა შიგ(ა)ნ მყო|ფმა ვერ(ა)ვინ და(ა)კლ(ო)ს წი|რვ(ა)ი. ჩ(უ)ენმა მომ(ა)ვალმან; 
+                            |და ვ(ი)ნცა და(ა)კლოს, კანონსა–მცა ქ(უ)ეშე არს; ამ(ე)ნ.
+                            .  -->
+
+             <ab>
+                 <lb n="1"/>Ⴕ <persName><name nymRef="გიორგი შეზალისძე"><expan><abbr>გ</abbr><ex>იორ</ex><abbr>გ</abbr><ex>ი</ex></expan> <expan><abbr>შ</abbr><ex>ა</ex><abbr>ზ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ი</ex><abbr>სძ</abbr><ex>ე</ex><abbr>სა</abbr></expan></name></persName> და <w lemma="ძე">ძეთა</w>
+                 <lb n="2"/><w lemma="მისი">მისთა</w> <w lemma="შეუნდვე"><expan><abbr>შ</abbr><ex>ეუნდვე</ex><abbr>ნ</abbr></expan></w> <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> <w lemma="დებს">დაიდვეს</w>
+                 <lb n="3"/><w lemma="ორ">ორი</w> <w lemma="დღე">დღე</w> <w lemma="აღაპ"><expan><abbr>აღ</abbr><ex>ა</ex><abbr>პი</abbr></expan></w> <w lemma="რომ">რომე</w>
+                 <lb n="4"/><w lemma="არცა">არცა</w> <w lemma="ზედაშე"><expan><abbr>ზედ</abbr><ex>ა</ex><abbr>შე</abbr></expan></w> და <w lemma="სეფისკუერ"><expan><abbr>სეფ</abbr><ex>ი</ex><abbr>სკ</abbr><ex>უ</ex><abbr>ერი</abbr></expan></w>
+                 <lb n="5"/><w lemma="გამოდის">გამოვიდეს</w> <w lemma="ბარბარობა"><expan><abbr>ბ</abbr><ex>ა</ex><abbr>რბ</abbr><ex>ა</ex><abbr>რობაი</abbr></expan></w>
+                 <lb n="6"/>და <w lemma="მეორედ მოსვლაი">მეორედ მოსვლაი</w> <w lemma="ესე">ა
+                 <lb n="7" break="no"/>მა</w> <w lemma="საყდარ"><expan><abbr>საყდ</abbr><ex>ა</ex><abbr>რსა</abbr></expan></w> <w lemma="შიგან"><expan><abbr>შიგ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> <w lemma="მყოფ">მყო
+                 <lb n="8" break="no"/>ფმა</w> <w lemma="ვერავინ"><expan><abbr>ვერ</abbr><ex>ა</ex><abbr>ვინ</abbr></expan></w> <w lemma="აკლებს"><expan><abbr>და</abbr><ex>ა</ex><abbr>კლ</abbr><ex>ო</ex><abbr>ს</abbr></expan></w> <w lemma="წირვა"><expan><abbr>წი</abbr>
+                 <lb n="9" break="no"/><abbr>რვ</abbr><ex>ა</ex><abbr>ი</abbr></expan></w> <w><expan><abbr>ჩ</abbr><ex>უ</ex><abbr>ენმა</abbr></expan></w> <w lemma="მომავალ"><expan><abbr>მომ</abbr><ex>ა</ex><abbr>ვალმან</abbr></expan></w> 
+                 <lb n="10"/>და <w lemma="ვინ"><expan><abbr>ვ</abbr><ex>ი</ex><abbr>ნცა</abbr></expan></w> <w lemma="აკლებს"><expan><abbr>და</abbr><ex>ა</ex><abbr>კლოს</abbr></expan></w> <w lemma="კანონ">კანონსამცა</w> <w lemma="ქუეშე"><expan><abbr>ქ</abbr><ex>უ</ex><abbr>ეშე</abbr></expan></w> <w lemma="არის">არს</w>
+                 <lb n="11"/><w lemma="ამენ"><expan><abbr>ამ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w>
+             </ab>
+            </div>
+            
+            <div type="translation" xml:lang="ka">
+            </div>
+            
+            <div type="apparatus" xml:space="preserve"/>
+            
+            <div type="commentary">
+            
+            </div>
+                   
+            <div type="bibliography">
+                           
+                    <p><bibl n="1"> სათხის წარწერები, ეპიგრაფიკა. ჯავახეთი, ისტორია და თანამედროვეობა, <citedRange>127–135</citedRange></bibl></p>
+                
+            </div>        
+
+         </body>
+    </text>
+</TEI>

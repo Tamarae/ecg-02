@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">მოსახსენებელი ამირა იობ მიხრიკის-ძისა</title>
+                <editor xml:lang="ka">გიორგი ოთხმეზური</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <idno type="filename">ECG254</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            დმანისი
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">სტელა</objectType>
+                                    <material xml:lang="ka" ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <dimensions>
+                                        <width>145</width>
+                                        <height>25</height>
+                                        <depth>28</depth>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="28">
+                                    მოშავო ფერის ქვის სტელა. ერთ გვერდზე ამოკვეთილია 28 სტრიქონიანი წარწერა.
+                                    <dimensions unit="cm">
+                                        <width>115</width>
+                                        <height>19</height>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="script">ასომთავრული</rs> წარწერა. განკვეთილობის ნიშნები არ ახლავს. ქარაგმის ნიშანი: კლაკნილი, განივი ხაზი. სიტყვები ერთმანეთისაგან დაცილებული არაა.
+                                <dimensions unit="cm">
+                                    <height>0,5-8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                               სტელას აქვს მომრგვალებული წახნაგები და ოთხივე გვერდზე გამოყვანილია თაღედი ჩარჩო.
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>ფინეზაურის ხეობა, საყდრისქედის ეკლესია</origPlace>
+                            <origDate notBefore="1210" notAfter="1223">XIII AD</origDate>
+                        </origin>
+                        <provenance type="observed">
+                            <placeName type="modernSpot">სემ (სსმ)-608</placeName>
+                            <rs type="circumstances">სტელა აღმოჩენილია 1962 წ-ს, ფინეზაურის ხეობაში (დმანისის მიდამოებში) იაეი-ს
+                                სამეცნიერო ექსპედიციის მიერ ისტორიულ-გეოგრაფიული დაზვერვის დროს.</rs>
+                            
+                            <rs type="context">ქვაჯვარი აღმართული იყო საყდრისქედის ეკლესიაში (დმანისიდან 3 კმ.)</rs>
+                            <idno/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <!-- 
+    <facsimile>
+        <surface>
+            <graphic url="tskise_01.jpg">
+                <desc xml:lang="ka">წყისეს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile> -->
+    
+    <text>
+        <!--
+        1.სახე
+        2.ლითა
+        3.ღ(მრთ)ის(ა)ჲთა
+        4.და შეწ(ე)ვ
+        5.ნითა ყ(ოვლა)დ
+        6.წ(მიდ)ისა ღ(მრთ)ის მშ
+        7.ობლის(ა)ჲთა
+        8.ადიდენ და 
+        9.ამყ(ა)რენ
+        10.ღ(მერთმა)ნ ძლ(იე)რი და
+        11.უძლ(ე)ვ(ე)ლი მ
+        12.ეფ(ე)თ(ა) მ(ე)ფო
+        13.ბ(ა)ჲ გ(იორგ)ისი. მე, 
+        14.მიწ(ა)მ(ა)ნ მ(ე)ფ(ო)ბისა
+        15.მ(ა)თის(ა)მ(ა)ნ იობ მი
+        16.ხრიკის ძ(ე)მ(ა)ნ დმ(ა)ნ
+        17.ის ჩ(ე)მსა ამირ(ო)ბ
+        18.(ას)ა შ(ინ)ა აღვჰ(უ)მ(ა)რ
+        19.თე ჯ(უარ)ი ესე ს(ა)ხ(ე)ლსა
+        20.ზ(ედ)ა წ(მიდ)ისა მ(ო)წ(ა)მისა
+        21.დიმიტრისა ს(ა)ლ(ო)ც
+        22.ვ(ე)ლ(ა)დ მ(ე)ფ(ო)ბისა მ(ა)თ(ი)
+        23.სა ს(ა)ჴს(ე)ნ(ე)ბლ(ა)დ ს(უ)ლი
+        24.სა ჩ(ემ)ისა. ვინცა მო
+        25.მ(ა)ვ(ა)ლთა ჟ(ა)მთა
+        26. დაწერილი ესე ა
+        27.[ღ]მ(ო)იკჲთხ(ო)თ ლ[ოც
+        28.ვ(ა)სა მ(ო)მ(ი)ჴს(ე)ნ(ე)თ].
+        -->
+        <body>
+            
+            
+            <div type="bibliography">
+                
+                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>158-159</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
+                <p><bibl n="2">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>40</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
+                <p><bibl n="3">დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>151</citedRange> თბილისი, 2014<ptr target="bibliography.xml#b213"/></bibl></p>
+                
+                <p><bibl n="4">გიორგი ოთხმეზური, XII-XIII საუკუნეების მიჯნის ქართული ლიპიდარული წარწერები, როგორც საისტორიო წყარო, 
+                    საქართველოს ისტორიის წყაროები, VI, თბილისი, მეცნიერება, 1981, <citedRange>109-110</citedRange><ptr target="bibliography.xml#b226"/>
+                </bibl></p>
+                
+                <p><bibl n="5">დევი ბერძენიშვილი, დმანელი ამირას უცნობი წარწერა ფინეზაურის ხეობიდან, თბილისი 1964,
+                    <citedRange>748</citedRange><ptr target="bibliography.xml#b227"/>
+                </bibl></p>
+                
+                <p><bibl n="6">ვ. ჯაფარიძე, შუა საუკუნეების ერთი ისტორიულ-არქეოლოგიური ძეგლი ნაქალაქარ დმანისის გუბერნიაში (საყდრისქედის ეკლესია),
+                    ფეოდალური საქართველოს არქეოლოგიური ძეგლები, I, თბილისი 1974, <citedRange>160-161</citedRange><ptr target="bibliography.xml#b228"/>
+                </bibl></p>
+                
+                <p><bibl n="7">დევი ბერძენიშვილი, ჯავახეთი, ისტორიულ ხუროთმოძღვრული გზამკვლევი, თბილისი 2000
+                    <citedRange>125</citedRange><ptr target="bibliography.xml#b229"/>
+                </bibl></p>
+                
+                <p><bibl n="8">ვალერი სილოგავა, ქვემო ქართლის წარწერები (ზოგადი მიმოხილვა), კრებ. „დმანისი“, II, თბილისი 2000,
+                    <citedRange>245</citedRange><ptr target="bibliography.xml#b218"/>
+                </bibl></p>
+                
+                
+            </div>
+            
+            
+            
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+
+            <ab>
+                <lb n="1"/>&#10013;
+                           <w lemma="სახელ">სახე                                              
+                <lb n="2" break="no"/>ლითა</w>
+                <lb n="3"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთ</ex><abbr>ის</abbr><ex>ა</ex><abbr>ჲთა</abbr></expan></w>
+                <lb n="4"/>და
+                           <w lemma="შეწევნა"><expan><abbr>შეწ</abbr><ex>ე</ex><abbr>ვ
+                <lb n="5" break="no"/>ნითა</abbr></expan></w>
+                           <w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოვლა</ex><abbr>დ</abbr></expan></w>
+                <lb n="6"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდ</ex><abbr>ისა</abbr></expan></w>
+                           <w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრთ</ex><abbr>ისმშ
+                <lb n="7" break="no"/>ობლის</abbr><ex>ა</ex><abbr>ჲთა</abbr></expan></w>
+                <lb n="8"/><w lemma="დიდება">ადიდენ</w>
+                           და
+                <lb n="9"/><w lemma="დამყარება"><expan><abbr>ამყ</abbr><ex>ა</ex><abbr>რენ</abbr></expan></w>
+                <lb n="10"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
+                            <w lemma="ძლიერ"><expan><abbr>ძლ</abbr><ex>იე</ex><abbr>რი</abbr></expan></w>
+                           და
+                <lb n="11"/><w lemma="უძლეველ"><expan><abbr>უძლ</abbr><ex>ე</ex><abbr>ვ</abbr><ex>ე</ex><abbr>ლი</abbr></expan></w>
+                            <roleName nymRef="მეფეთამეფობა"><expan><abbr>მ
+                <lb n="12" break="no"/>ეფ</abbr><ex>ე</ex><abbr>თ</abbr><ex>ა</ex></expan> 
+                            <expan><abbr>მ</abbr><ex>ე</ex><abbr>ფო
+                <lb n="13" break="no"/>ბ</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></roleName>
+                            <persName type="local" key="ლაშა-გიორგი IV" ref="http://www.nplg.gov.ge/wikidict/index.php/გიორგი_IV_ლაშა"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ისი</abbr></expan></persName>
+                            <w lemma="მე">მე</w>
+                <lb n="14"/><w lemma="მიწა"><expan><abbr>მიწ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
+                            <roleName nymRef="მეფობა"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფ</abbr><ex>ო</ex><abbr>ბისა</abbr></expan></roleName>
+                <lb n="15"/><w lemma="მათ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>თის</abbr><ex>ა</ex><abbr>მ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
+                           <persName type="local" key="იობ მიხრიკის ძე [დმანისის ამირა]">იობ</persName>
+                           <persName type="local" key="მიხრიკ [მამა იობ დმანისის ამირისა]">მი
+                <lb n="16" break="no"/>ხრიკის</persName>
+                           <w lemma="ძე"><expan><abbr>ძ</abbr><ex>ე</ex><abbr>მ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
+                           <placeName nymRef="დმანის"><expan><abbr>დმ</abbr><ex>ა</ex><abbr>ნ
+                <lb n="17" break="no"/>ის</abbr></expan></placeName>
+                          <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მსა</abbr></expan></w>
+                          <roleName nymRef="ამირობა"><expan><abbr>ამირ</abbr><ex>ო</ex><abbr>ბ</abbr>
+                <lb n="18" break="no"/><ex>ას</ex><abbr>ა</abbr></expan></roleName>
+                          <w lemma="შინა"><expan><abbr>შ</abbr><ex>ინ</ex><abbr>ა</abbr></expan></w>
+                          <w lemma="მართვა"><expan><abbr>აღვჰ</abbr><ex>უ</ex><abbr>მ</abbr><ex>ა</ex><abbr>რ
+                <lb n="19" break="no"/>თე</abbr></expan></w>
+                          <w lemma="ჯუარ"><expan><abbr>ჯ</abbr><ex>უარ</ex><abbr>ი</abbr></expan></w>
+                          <w lemma="ესე">ესე</w>
+                          <w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლსა</abbr></expan></w>
+               <lb n="20"/><w lemma="ზედ"><expan><abbr>ზ</abbr><ex>ედ</ex><abbr>ა</abbr></expan></w>
+                          <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდ</ex><abbr>ისა</abbr></expan></w>
+                          <w lemma="მოწამე"><expan><abbr>მ</abbr><ex>ო</ex><abbr>წ</abbr><ex>ა</ex><abbr>მისა</abbr></expan></w>
+               <lb n="21"/><name nymRef="დიმიტრი">დიმიტრისა</name>
+                           <w lemma="ლოცვა"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ც
+               <lb n="22" break="no"/>ვ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
+                           <roleName nymRef="მეფობა"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფ</abbr><ex>ო</ex><abbr>ბისა</abbr></expan></roleName>
+                           <w lemma="მათ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>თ</abbr><ex>ი</ex>
+               <lb n="23" break="no"/><abbr>სა</abbr></expan></w>
+                           <w lemma="ჴსენება"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ჴს</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
+                           <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლი      
+               <lb n="24" break="no"/>სა</abbr></expan></w>  
+                           <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ემ</ex><abbr>ისა</abbr></expan></w>
+                           <w lemma="ვინ">ვინცა</w>
+                           <w lemma="მომავალ"><expan><abbr>მო 
+               <lb n="25" break="no"/>მ</abbr><ex>ა</ex><abbr>ვ</abbr><ex>ა</ex><abbr>ლთა</abbr></expan></w>
+                           <w lemma="ჟამ"><expan><abbr>ჟ</abbr><ex>ა</ex><abbr>მთა</abbr></expan></w>
+               <lb n="26"/><w lemma="წერილ">დაწერილი</w>  
+                           <w lemma="ესე">ესე</w> 
+                           <w lemma="კითხვა"><expan>ა       
+               <lb n="27" break="no"/><supplied reason="lost" precision="medium"><abbr>ღ</abbr></supplied><abbr>მ</abbr><ex>ო</ex><abbr>იკჲთხ</abbr><ex>ო</ex><abbr>თ</abbr></expan></w>
+                           <w lemma="ლოცვა"><expan><abbr>ლ</abbr><supplied reason="lost" precision="medium"><abbr>ოც
+               <lb n="28" break="no"/>ვ</abbr><ex>ა</ex><abbr>სა</abbr></supplied></expan></w>
+                           <w lemma="ჴსენება"><supplied reason="lost" precision="medium"><expan><abbr>მ</abbr><ex>ო</ex><abbr>მ</abbr><ex>ი</ex><abbr>ჴს</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>თ</abbr></expan></supplied></w>
+                </ab>
+             
+            </div>
+
+            
+                <div type="translation"/>
+
+                
+                <div type="commentary">
+                    <p>
+                        დაზიანება: დაზიანებულია მხოლოდ ბოლო სტრიქონის ქვედა ნაწილი. 
+                        წარწერის დათარიღება წინა გამოცემებში: დ. ბერძენიშვილისა და ვ. ჯაფარიძის მიხედვით წარწერა XIII ს-ის I
+                        მეოთხედით (ლაშა-გიორგის ზეობის წლები) თარიღდება. 
+                        წინამდებარე დათარიღების საფუძველი: გამოცემაში გაზიარებულია ეს დათარიღება (წარწერაში მოხსენიებული
+                        მეფე ლაშა-გიორგის ზეობის წლების დაზუსტებით). 
+                        წარწერაში სხვა ავტორები რამდენიმე სიტყვას განსხვავებულად კითხულობენ: დ. ბერძენიშვილი და ვ. ჯაფარიძე
+                        პირველ სტრიქონში კითხულობენ: †.] ქ(რისტე), მესამეში - ღჳთისაჲთა, მეექვსეში -
+                        ღვთისმშობლისაჲთა, მეთერთმეტეში - მეფეთა] მეფეთ, მეთვრამეტეში - აღვჰმართე,
+                        ოცდამეშვიდე-ოცდამერვეში - ლოცვასა მომიჴსენეთ] ჩემთვის; ვ. სილოგავა კითხულობს
+                        მეექვსე სტრიქონში ღმრთისმშობელისაჲთა, მეცხრეში - [და]ამყარენ,
+                        მეთექვსმეტე-მეჩვიდმეტეში - დმანის(ს), მეჩვიდმეტე-მეთვრამეტეში - ამირობ(ას)ა,
+                        მეთვრამეტეში - აღვჰმართე</p>
+                </div>
+
+        </body>
+    </text>
+</TEI>

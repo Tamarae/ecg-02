@@ -1,0 +1,156 @@
+@import url("https://cdn.web-fonts.ge/fonts/bpg-nino-mkhedruli-book/css/bpg-nino-mkhedruli-book.min.css");
+@import url("https://cdn.web-fonts.ge/fonts/bpg-nino-elite-exp-caps/css/bpg-nino-elite-exp-caps.min.css");
+@import url("https://cdn.web-fonts.ge/fonts/bpg-le-studio-02-caps/css/bpg-le-studio-02-caps.min.css");
+@import url("https://cdn.web-fonts.ge/fonts/bpg-venuri/css/bpg-venuri.min.css");
+@import url("https://cdn.web-fonts.ge/fonts/bpg-nateli-mtavruli/css/bpg-nateli-mtavruli.min.css");
+@import url("https://cdn.web-fonts.ge/fonts/bpg-nino-elite-round-cond/css/bpg-nino-elite-round-cond.min.css");
+@import url("https://cdn.web-fonts.ge/fonts/bpg-nino-elite-cond-caps/css/bpg-nino-elite-cond-caps.min.css");
+@import url("https://cdn.web-fonts.ge/fonts/bpg-nino-mtavruli/css/bpg-nino-mtavruli.min.css");
+
+@font-face {src: url('GitHub/EFES/docs/source/fonts/GLGordeziani-Regular.ttf');}
+
+@font-face{
+    font-family:athenaruby;
+src:url('../../fonts/AthenaRuby_b018.ttf') format('truetype')
+}
+ #diplomatic *[lang="grc"]{
+      font-family: athenaruby
+  }
+
+
+.latinnum {
+    border-top: thin black solid;
+     }
+     
+.supraline {
+    border-top: thin black solid;
+     }
+     
+.previouslyread {
+    text-decoration: underline;
+     }
+     
+*[lang="la"] {
+    font-family: "GentiumAlt", "Gentium","Palatino Linotype", "Palatino", "Times New Roman", "Times", "Arial Unicode MS", serif;
+}
+
+*[lang="grc"] {
+    font-family: "Lucida Grande", "Arial Unicode MS","Galilee Unicode Gk", "New Athena Unicode", "Athena Unicode", 
+    "Palatino Linotype", "Titus Cyberbit Basic", "Cardo", "Vusillus Old Face", "Alphabetum", "Galatia SIL", 
+    "Code 2000", "GentiumAlt", "Gentium", "Minion Pro", "GeorgiaGreek", "Vusillus Old Face Italic", 
+    "Everson Mono", "Aristarcoj", "Porson", "Legendum", "Aisa Unicode", "Hindsight Unicode", "Caslon", 
+    "Verdana", "Tahoma";
+   }
+   
+      
+*[lang="ka"] {
+    font-family: "BPG Nino Mkhedruli Book", sans-serif;
+}
+   
+.textpart {
+    left: 6em;
+    line-height: 1.4;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    position: relative;
+    padding-right: 2em;
+}
+
+.textpartnumber {
+    padding-right: 0.2em;
+    position: absolute;
+    }
+    
+.linenumber {
+    left: -4em;
+    padding-right: 0.2em;
+    position: absolute;
+    }
+    
+.linenumberbroken {
+    left: -4em;
+    padding-right: 0.2em;
+    position: absolute;
+    color: red ;
+    text-decoration: blink ;
+    }
+    
+.petraeligature {
+    text-decoration: underline;
+    }
+    
+.underline {
+    text-decoration: underline;
+    }
+
+.italic {
+    font-style: italic;
+    }
+    
+h4.slimmer {
+    margin-bottom: 0.0em;
+    }    
+
+
+
+h1.iospe {
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    max-width: 165px;
+    width: 165px;
+    }
+h3.iospe {
+    color: rgb(93,138,168);
+    float: left;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    font-size: 105%;
+    max-width: 165px;
+    margin-top:0;
+    padding-top:0;
+    }
+
+h4.iospe {
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    max-width: 165px;
+    width: 165px;
+    }
+
+dl.iospe {
+    font-family: "BPG Nino Mkhedruli Book", sans-serif;
+    font-size: 13px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-left: 165px;
+    padding-top: 5px;
+    }
+
+dl.iospe dt {
+    float: left;
+    font-size: 13px;
+    font-family: "BPG Nino Mkhedruli Book", sans-serif;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    max-width: 165px;
+    vertical-align: baseline;
+    width: 165px;
+    }
+
+dl.iospe dd {
+    font-size: 13px;
+   font-family: "BPG Nino Mkhedruli Book", sans-serif;
+    margin-left: 165px;
+    vertical-align: baseline;
+    }
+
+div#edition.iospe {
+    margin-left: 100px;
+    font-family: "BPG Nino Mkhedruli Book", sans-serif;
+    }
+
+div.iospe {
+    margin-left:165px;
+    font-family: "BPG Nino Mkhedruli Book", sans-serif;
+    }

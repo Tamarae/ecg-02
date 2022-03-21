@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ზედა ვარძიის „კიდურყვავილოვანი“ წარწერა</title>
+                <editor xml:lang="ka">ციალა გაბაშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG384</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ვარძია</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სავედრებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="9">წარწერა ცხრასტრიქონიანია. იგი ამოკვეთილია
+                                სამხრეთ კარის ბალავრის ქვაზე, რელიეფური ჯვრის ორივე მხარეს
+                                        <dimensions unit="cm">
+                                         <width/>
+                                         <height/> 
+                                          </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა, <rs type="execution">კიდურყვავილოვანი</rs> ასოები
+                                   <height></height> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ვარძიის ღვთისმშობლის სახელობის ეკლესია</origPlace>
+                                <origDate notBefore-custom="900" notAfter-custom="1100" 
+                                    evidence="lettering" datingMethod="#julian">X-XI AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">ვარძიის ღვთისმშობლის სახელობის ეკლესია</placeName>
+                                <!-- "41.380842, 43.283761"--> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"></rs>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">ვარძიის ღვთისმშობლის სახელობის ეკლესია</placeName>
+                                <idno type="invNo"/></provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg384.jpg">
+                <desc xml:lang="ka">ზედა ვარძიის „კიდურყვავილოვანი“ წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>       
+            <div type="bibliography">
+                
+     <p><bibl n="1">ციალა გაბაშვილი, ზედა ვარძიის „კიდურყვავილოვანი“ წარწერა<ptr target="bibliography.xml#b146"/>, <citedRange> 31-32</citedRange></bibl></p>
+            
+               </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--  † დდო ღთსო მხ
+                        ეყვ ეესა ლპრის
+                        და შვილთა მის
+                        თა დღს მს სშნელ
+                        სა
+                        რნ გლსმოდ
+                        გნებთ აღგშე
+                        ნა წჲ ესე ეკლე
+                        სიაჲ ან.
+                        --> 
+                                                          
+                <ab>
+                   <lb n="1"/>&#8224;<w lemma="დედა"><expan><abbr>დ</abbr><ex>ე</ex><abbr>დ</abbr><ex>ა</ex><abbr>ო</abbr></expan></w> 
+                                      <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr><ex>ი</ex><abbr>ს</abbr><ex>ა</ex><abbr>ო</abbr></expan></w> 
+                                        <w lemma="მეოხ-ყოფა"><expan><abbr>მ</abbr><ex>ეო</ex><abbr>ხ</abbr>
+                   <lb n="2" break="no"/><abbr>ეყ</abbr><ex>ა</ex><abbr>ვ</abbr></expan></w> 
+                                    <roleName nymRef="ერისთავთ-ერისთავ"><expan><abbr>ე</abbr><ex>რისთავთ</ex><abbr>ე</abbr><ex>რისთავ</ex><abbr>სა</abbr></expan></roleName> 
+                                    <persName type="local" key="ლიპარიტ II (?) ბაღვაში"><expan><abbr>ლ</abbr><ex>ი</ex><abbr>პ</abbr><ex>ა</ex><abbr>რი</abbr><ex>ტ</ex><abbr>ს</abbr></expan></persName>
+                    <lb n="3"/>და 
+                                <w lemma="შვილ">შვილთა</w> 
+                                <w lemma="მისნი">მის                                   
+                    <lb n="4" break="no"/>თა</w> 
+                               <w lemma="დღე"><expan><abbr>დღ</abbr><ex>ე</ex><abbr>ს</abbr><ex>ა</ex></expan></w> 
+                                <w lemma="იგი"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ს</abbr></expan></w> 
+                                <w lemma="საშინელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>შ</abbr><ex>ი</ex><abbr>ნელ
+                    <lb n="5" break="no"/>სა</abbr></expan></w>
+                    <lb n="6"/><w lemma="რომელ"><expan><abbr>რ</abbr><ex>ომელმა</ex><abbr>ნ</abbr></expan></w> 
+                            <w lemma="გულმოდგინება"><expan><abbr>გ</abbr><ex>უ</ex><abbr>ლსმოდ
+                    <lb n="7" break="no"/>გ</abbr><ex>ი</ex><abbr>ნებ</abbr><ex>ი</ex><abbr>თ</abbr></expan></w> 
+                                <w lemma="აშენება"><expan><abbr>აღგ</abbr><ex>ი</ex><abbr>შე
+                    <lb n="8" break="no"/>ნა</abbr></expan></w> 
+                                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ჲ</abbr></expan></w> 
+                                <w lemma="ესე">ესე</w> 
+                                    <w lemma="ეკლესია">ეკლე
+                    <lb n="9" break="no"/>სიაჲ</w> 
+                                    <w lemma="ამინ"><expan><abbr>ა</abbr><ex>მე</ex><abbr>ნ</abbr></expan></w>
+                </ab>
+               </div>
+         <div type="translation" xml:lang="ka">
+             <p>† ღვთის დედაო, იმ საშინელ დღეს მეოხ-ეყავ ერისთავთ-ერისთავს ლიპარიტს და მის შვილებს, რომელმაც გულმოდგინებით აგიშენა ეს წმიდა ეკლესია, ამინ.</p>
+         </div>    
+      
+            <div type="commentary">
+                <p>ზედა ვარძიის ღვთისმშობლის სახელობის ეკლესია
+                 ვარძიის გამოქვაბულების ჩრდილო-დასავლეთით, სამიოდე კილომეტრის მანძილზე მდებარეობს.
+                 იგი ქვის ფილებითაა მოპირკეთებული და ჩუქურთმებით შემკული. 
+                    გამომცემელი მიიჩნევს, რომ ვარძიის წარწერის ასოებს ბევრი აქვთ საერთო X-XI სს. ხელნაწერთა
+                საზედაო ასოებთან. ეს მსგავსება მას აფიქრებინებს, რომ ოსტატს ზედა ვარძიის წარწერის ასოთა მოყვანილობის
+                და სამკაულის შერჩევისას ნიმუშად X-XI სს. მიჯნის ერთი ან რამდენიმე ხელნაწერი ჰქონდა აღებული.
+                წარწერაში მოხსენიებული ერისთავთ-ერისთავი ლიპარიტი კი შეიძლება ლიპარიტ რატის ძე, ანუ ლიპარიტ II იყოს.
+                წარწერაში სიტყვები ერთმანეთისაგან გამიჯნულია. 
+                </p>                
+            </div>
+        </body>
+    </text>
+</TEI>

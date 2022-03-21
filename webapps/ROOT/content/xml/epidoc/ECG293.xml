@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ვერცხლის ლანგრის ფრაგმენტი</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG293</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                <msIdentifier>
+                        <collection>
+                           ზღუდერი
+                        </collection>
+                    </msIdentifier>               
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">შეწირვითი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>   
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="http://www.eagle-network.eu/voc/material/lod/115">ვერცხლი</material>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1780">ლანგარი</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        ვერცხლის დიდი ლანგრის ფრაგმენტზე გარედან ირგვლივ იკითხება პუნქტირით გამოყვანილი ბერძნული სიტყვა.
+                                        ლანგრის ფსკერზე, შიგნით ყოფილა ასევე პუნქტირით შესრულებული წარწერა, რაც თითქმის არ იკითხება, ჩანს მკაფიოდ ერთი ასო Α.
+                                      <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ზღუდერი</origPlace>
+                                <origDate notBefore-custom="0101" notAfter-custom="0300" 
+                                    precision="medium" evidence="lettering" datingMethod="#julian">II-III AD</origDate>
+                                </origin>
+                            <provenance type="found" when="1964">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863925">ზღუდერი</placeName> 
+                                <rs type="circumstances">ნივთი მოპოვებულია არქეოლოგიური ექსპედიციის მიერ.</rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                      
+                            <provenance type="found">
+                            <placeName type="modernSpot">სახელმწიფო მუზეუმი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>  
+  <facsimile>
+        <surface>
+            <graphic url="ecg293.jpg">
+                <desc xml:lang="ka">ზღუდერის ლანგარი, 1964</desc>
+                <desc xml:lang="en">Tray from Zghuderi, 1964</desc>
+            </graphic>
+        </surface>
+    </facsimile>  
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 268</citedRange></bibl></p>
+                
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!--  ΧΑΡΙCΑΜΗΙ ἐχαρισάμην -->
+                     
+            
+         <ab>
+             <w lemma="χαρίζομαι"><supplied reason="subaudible">ἐ</supplied>χαρισάμην</w>
+         </ab>    
+             
+         
+            </div>
+                
+            <div type="translation" xml:lang="ka">
+                <p>მივუძღვენ; ვაჩუქე</p>
+            </div>
+            
+            
+           <div type="commentary">
+                <p>წარწერა, როგორც ჩანს, იმავე ტიპის იყო, როგორისაცაა ბერსუმას ლანგრის წარწერა, სამწუხაროდ დაკარგულია სახელები იმათი, ვინც აჩუქა და ვისაც აჩუქეს.</p>
+               <p>დათარიღების საფუძველია ასოთა მოხაზულობა (σ, μ; Α), საერთო სტილი და მასში დაცული ფორმულა.</p>
+            </div>
+          </body>
+    </text>
+</TEI>
+
+
+
+

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Example format for catalogue files. -->
+<catalogue xml:lang="ka">
+
+  <!-- header -->
+  <message key="ecg">სეკ</message>
+
+
+  <!-- მენიუ -->
+  <message key="menu-inscriptions">წარწერები</message>
+  <message key="menu-indices">ინდექსი</message>
+  <message key="menu-index-abbreviation">ქარაგმა</message>
+  <message key="menu-index-fragment">ფრაგმენტები</message>
+  <message key="menu-index-lemma">ლემა</message>
+  <message key="menu-index-numeral">რიცხვი</message>
+  <message key="menu-index-person_name">პირთა საძიებელი</message>
+  <message key="menu-index-symbol">სიმბოლო</message>
+  <message key="menu-index-word">სიტყვანი</message>
+  <message key="menu-index-role_name">წოდებები</message>
+  <message key="menu-index-place_name">მოხსენიებული ადგილები</message>
+
+  <message key="menu-prosopography">პროსოპოგრაფია</message>
+
+  <message key="menu-search">ძიება</message>
+  <message key="menu-admin">ადმინი</message>
+  <message key="home-title">საქართველოს ეპიგრაფიკული კორპუსი</message>
+  <message key="language">ენა</message>
+  <message key="about">პროექტის შესახებ</message>
+
+<!-- added text -->
+<message key="menu">
+  მენიუ
+</message>
+
+  <message key="home-text">საქართველოში აღმოჩენილი ეპიგრაფიკული ძეგლებისა და ქართველ მეცნიერთა მიერ XX საუკუნის 40-იანი წლებიდან შექმნილი კრიტიკული გამოცემების, როგორც კულტურული მემკვიდრეობის დაცვისა და მათი საერთაშორისო ეპიგრაფიკული საზოგადოების კვლევის საგნად ქცევისათვის, 
+    აუცილებელია თანამედროვე სტანდარტების მიხედვით შეიქმნას საქართველოში აღმოჩენილი ეპიგრაფიკული ძეგლების ელექტრონული გამოცემა - კორპუსები. პროექტის მიზანია ეპიგრაფიკული საზოგადოებისათვის ელექტრონული ეპიგრაფიკული კორპუსის გამოცემის საერთაშორისო სტანდარტების გაცნობა და ამ საკითხის გარშემო მსჯელობის დაწყება.
+    ეპიგრაფიკული და პაპიროლოგიური ტექსტების გამოცემის პირველი საერთაშორისო სტანდარტი 1931 წელს შეიქმნა და ლაიდენის კონვენციის სახელითაა ცნობილი. 2000 წლიდან ჩრდილოეთ კაროლინის უნივერსიტეტში იქმნება ერთიანი რეკომენდაციები ეპიგრაფიკული ძეგლების TEI-სა (Text Encoding Initiative) და XML-ში (Extensible Markup Language) სტრუქტურული აღწერისათვის. 
+    რეკომენდაციების ერთობლიობა დღეს EpiDoc-ის სახელითაა ცნობილი და მის განვითარებაში ყოველდღიურად არიან ჩართული ლონდონის კინგს კოლეჯის, ლაიფციგის უნივერსიტეტის ციფრული ჰუმანიტარიის მიმართულების მკვლევრები. EpiDoc-ის წესების ერთობლიობა თავდაპირველად იქმნებოდა ლაიდენის კონვენციის მიხედვით გამოცემული წყაროების ციფრული დოკუმენტირებისათვის. თუმცა დღეს EpiDoc საზოგადოება ყოველწლიურად ფართოვდება და, შესაბამისად, ციფრული გამოცემის წესებში აისახება ახალი საკვლევი ძეგლებისა და გამოცემების თავისებურებები. დღეისათვის მოქმედებს EpiDoc-ის მერვე რედაქცია. 
+    სამეცნიერო ღირებულების თანამედროვე ეპიგრაფიკული გამოცემის შექმნისათვის აუცილებელია როგორც EpiDoc საზოგადოებასთან, ასევე ევროპის ძველი ბერძნული და ლათნური ეპიგრაფიკის ქსელ EAGLE Europeana-სთან თანამშრომლობა (ქსელი შექმნილია ევროკომისიის ინფორმაციისა და კომუნიკაციის ტექნოლოგიების პოლიტიკის მხარდამჭერი პროგრამის ფარგლებში).
+    EAGLE მუშაობს EpiDoc სტანდარტის მიხედვით შექმნილი ელექტრონული გამოცემების ე.წ. Linked Data-ს (ბმულებით დაკავშირებული მონაცემები) პრინციპით გაერთიანებისათვის. არანაკლებ მნიშვნელოვანია, რომ EAGLE ცდილობს სამეცნიერო გამოცემებზე წვდომა ჩვეულებრივი მომხმარებლისათვის მაქსიმალურად გააადვილოს. EAGLE მემორანდუმის საფუძველზე თანამშრომლობს კვლევით დაწესებულებებთან და მათ მონაცემთა ბაზების გამართვაში ეხმარება; ევროპის ეპიგრაფიკოსთა საზოგადოება მობილურ აპლიკაციებს ქმნის არა მხოლოდ საკუთარი პროექტების, არამედ კვლევითი ორგანიზაციების გამოცემებისათვისაც.
+  </message>
+
+  <message key="home-text-first">
+    საქართველოში აღმოჩენილი ეპიგრაფიკული ძეგლებისა და ქართველ მეცნიერთა მიერ XX საუკუნის 40-იანი წლებიდან შექმნილი კრიტიკული გამოცემების, როგორც კულტურული მემკვიდრეობის დაცვისა და მათი საერთაშორისო ეპიგრაფიკული საზოგადოების კვლევის საგნად ქცევისათვის, აუცილებელია თანამედროვე სტანდარტების მიხედვით შეიქმნას საქართველოში აღმოჩენილი ეპიგრაფიკული ძეგლების ელექტრონული გამოცემა - კორპუსები. პროექტის მიზანია ეპიგრაფიკული საზოგადოებისათვის ელექტრონული ეპიგრაფიკული კორპუსის გამოცემის საერთაშორისო სტანდარტების გაცნობა და ამ საკითხის გარშემო მსჯელობის დაწყება.
+  </message>
+  <message key="home-text-second">
+    ეპიგრაფიკული და პაპიროლოგიური ტექსტების გამოცემის პირველი საერთაშორისო სტანდარტი 1931 წელს შეიქმნა და ლაიდენის კონვენციის სახელითაა ცნობილი. 2000 წლიდან ჩრდილოეთ კაროლინის უნივერსიტეტში იქმნება ერთიანი რეკომენდაციები ეპიგრაფიკული ძეგლების TEI-სა (Text Encoding Initiative) და XML-ში (Extensible Markup Language) სტრუქტურული აღწერისათვის. რეკომენდაციების ერთობლიობა დღეს EpiDoc-ის სახელითაა ცნობილი და მის განვითარებაში ყოველდღიურად არიან ჩართული ლონდონის კინგს კოლეჯის, ლაიფციგის უნივერსიტეტის ციფრული ჰუმანიტარიის მიმართულების მკვლევრები.
+  </message>
+  <message key="home-text-third">
+    EpiDoc-ის წესების ერთობლიობა თავდაპირველად იქმნებოდა ლაიდენის კონვენციის მიხედვით გამოცემული წყაროების ციფრული დოკუმენტირებისათვის. თუმცა დღეს EpiDoc საზოგადოება ყოველწლიურად ფართოვდება და, შესაბამისად, ციფრული გამოცემის წესებში აისახება ახალი საკვლევი ძეგლებისა და გამოცემების თავისებურებები. დღეისათვის მოქმედებს EpiDoc-ის მერვე რედაქცია. სამეცნიერო ღირებულების თანამედროვე ეპიგრაფიკული გამოცემის შექმნისათვის აუცილებელია როგორც EpiDoc საზოგადოებასთან, ასევე ევროპის ძველი ბერძნული და ლათნური ეპიგრაფიკის ქსელ EAGLE Europeana-სთან თანამშრომლობა (ქსელი შექმნილია ევროკომისიის ინფორმაციისა და კომუნიკაციის ტექნოლოგიების პოლიტიკის მხარდამჭერი პროგრამის ფარგლებში).
+    EAGLE მუშაობს EpiDoc სტანდარტის მიხედვით შექმნილი ელექტრონული გამოცემების ე.წ. Linked Data-ს (ბმულებით დაკავშირებული მონაცემები) პრინციპით გაერთიანებისათვის. არანაკლებ მნიშვნელოვანია, რომ EAGLE ცდილობს სამეცნიერო გამოცემებზე წვდომა ჩვეულებრივი მომხმარებლისათვის მაქსიმალურად გააადვილოს. EAGLE მემორანდუმის საფუძველზე თანამშრომლობს კვლევით დაწესებულებებთან და მათ მონაცემთა ბაზების გამართვაში ეხმარება; ევროპის ეპიგრაფიკოსთა საზოგადოება მობილურ აპლიკაციებს ქმნის არა მხოლოდ საკუთარი პროექტების, არამედ კვლევითი ორგანიზაციების გამოცემებისათვისაც.
+  </message>
+  <message key="visual-content-source">
+    წყარო: საქართველოს ეროვნული არქივი
+  </message>
+<!-- end of added text" -->
+
+  <message key="menu-concordances">კონკორდანსი</message>
+  <message key="menu-concordance-bibliography">ბიბლიოგრაფია</message>
+  <message key="menu-inscriptions_georgian">ქართული წარწერები</message>
+  <message key="menu-inscriptions_armenian">სომხური წარწერები</message>
+  <message key="menu-inscriptions_greek">ბერძნული წარწერები</message>
+  <message key="menu-inscriptions_hebrew">ებრაული წარწერები</message>
+  <message key="menu-inscriptions_aramaic">არამეული წარწერები</message>
+  <message key="menu-inscriptions_latin">ლათინური წარწერები</message>
+
+
+  <!-- საინდექსაციო გვერდზე -->
+  <message key="index_title">წარწერები</message>
+  <message key="index_inscription">წარწერების სრული ჩამონათვალი</message>
+  <message key="filename">ფაილი</message>
+  <message key="file_title">წარწერის სათაური</message>
+  <message key="editor">რედაქტორი/გამომცემელი:  </message>
+
+
+  <message key="index_desc">წარწერების საინდექსაციო გვერდების სანახავად მიჰყევით ბმულს</message>
+  <message key="download">შეგიძლიათ გადმოწეროთ წარწერები XML ფორმატში</message>
+
+
+  <message key="epidoc_indices">საინდექსაციო გვერდები</message>
+  <message key="indices_desc">საქართველოს ეპიგრაფიკული კორპუსის ავტომატური საინდექსაციო გვერდები</message>
+  <message key="symbols">სიმბოლოები</message>
+  <message key="symbols_desc">კვადრატული ფრჩხილით [] აღნიშნულია წარწერა, რომელშიც სიმბოლო სრულად ან ნაწილობრივაა აღდგენილი</message>
+  <message key="abbr">ქარაგმა</message>
+  <message key="abbr_ex">გახსნა</message>
+  <message key="abbr_desc">კვადრატული ფრჩხილით [] აღნიშნულია წარწერა, რომელშიც ქარაგმა სრულად ან ნაწილობრივაა აღდგენილი.
+            მიღებულია, რომ ეპიგრაფიკულ ძეგლებში დაქარაგმების ისეთივე წესები გამოიყენებოდა როგორიც ხელნაწერებში.
+           მხოლოასოიანი დაქარაგმების დროს შემოკლების მიზნით წერდნენ სიტყვის მხოლოდ დასაწყის ასოს. შუაშეკვეცილობითი დაქარაგმების დროს შესამოკლებელი სიტყვა წარმოდგენილია დასაწყისი და ბოლო ასოებით ან მარცვლებით.
+           უხმოვნო დაქარაგმების დროს შემოკლება ხდება ხმოვნების ხარჯზე.
+  </message>
+  <message key="fragments">ფრაგმენტები</message>
+  <message key="indices_tabl_lang">ენა</message>
+  <message key="indices_ref">წარწერა</message>
+  <message key="fragment_desc">კვადრატული ფრჩხილით [] აღნიშნულია წარწერა, რომელშიც სიმბოლო სრულად ან ნაწილობრივაა აღდგენილი.</message>
+  <message key="num">რიცხვი</message>
+  <message key="value">მნიშვნელობა</message>
+  <message key="num_desc">კვადრატული ფრჩხილით [] აღნიშნულია წარწერა, რომელშიც ასოს რიცხვითი მნიშვნელობა სრულად ან ნაწილობრივაა აღდგენილი.</message>
+  <message key="words">სიტყვანი</message>
+  <message key="words_desc">კვადრატული ფრჩხილით [] აღნიშნულია წარწერა, რომელშიც სიტყვა სრულად ან ნაწილობრივაა აღდგენილი.
+   
+  </message>
+  <message key="lemma">ლემების სია</message>
+  <message key="lemma_desc">კვადრატული ფრჩხილით [] აღნიშნულია წარწერა, რომელშიც ლემის რეალიზაცია სრულად ან ნაწილობრივაა აღდგენილი.</message>
+  <message key="persname">პირთა სახელები</message>
+  <message key="relation">კავშირი</message>
+  <message key="status">სტატუსი</message>
+  
+  
+  <message key="ethnic_name">ეთნიკური</message>
+  <message key="toponym">ტოპონიმი</message>
+  
+  
+  <message key="date">თარიღი: </message>
+  <message key="role_name">წოდებები</message>
+  <message key="name">სახელი</message>
+  <message key="placename">წარმომავლობა</message>
+  <message key="persname_desc">კვადრატული ფრჩხილით [] აღნიშნულია წარწერა, რომელშიც პირის სახელი სრულად ან ნაწილობრივაა აღდგენილი.</message>
+  <message key="rolename_desc">კვადრატული ფრჩხილით [] აღნიშნულია წარწერა, რომელშიც მოხელეობის სახელი სრულად ან ნაწილობრივაა აღდგენილი.</message>
+  <message key="place_name">ადგილთა საძიებელი</message>
+  <message key="placename_desc">კვადრატული ფრჩხილით [] აღნიშნულია წარწერა, რომელშიც ადგილის სახელი სრულად ან ნაწილობრივაა აღდგენილი.</message>
+  <message key="filename_desc">ქართული წარწერები</message>
+  <message key="transl_persname">თარგმანი</message>
+  <message key="title">წოდება</message>
+  <message key="bibl_c">ბიბლიოგრაფია</message>
+
+  <message key="local-search">დეტალური ძიება</message>
+  <message key="search">ძიების პარამეტრები</message>
+  <message key="search_lemma">ძიება ლემატიზებულ ტექსტში</message>
+  <message key="search_greek">ბერძნული ანბანი</message>
+  <message key="search_new">ხელახალი ძიება</message>
+  <message key="search_date">თარიღი</message>
+  <message key="facets">საძიებო კრიტერიუმები</message>
+  <message key="filtered">არჩეულია</message>
+  <message key="no-result">არაფერი მოიძებნა</message>
+  <message key="facet-origin_place">წარმომავლობა</message>
+  <message key="facet-support_material">მასალა</message>
+  <message key="facet-inscription_category">ტექსტის კატეგორია  </message>
+  <message key="facet-script_type">დამწერლობა</message>
+  <message key="facet-execution">შესრულების ტექნიკა</message>
+  <message key="facet-khanmetoba">ხანმეტობა და ჰაემეტობა</message>
+  <message key="facet-date_in_text">თარიღი ტექსტში</message>
+  <message key="facet-curse">წყევლის ფორმულები</message>
+  <message key="facet-decoration">დეკორი</message>
+  <message key="facet-source_repository">დაცულია</message>
+  <message key="facet-support_object_type">ობიექტის ტიპი</message>
+  <message key="facet-inscription_collection">წარწერის ტიპი</message>
+  <message key="facet-origin_date_evidence">დათარიღების საფუძველი</message>
+  <message key="facet-mentioned_places">მოხსენიებული ადგილები</message>
+  <message key="facet-mentioned_divinities">მოხსენიებული წმინდანები</message>
+  <message key="facet-found_provenance">აღმოჩენის ადგილი</message>
+  <message key="facet-inscription_type">წარწერის ტიპი</message>
+
+
+
+  <!-- გამოცემის გვერდი  iospe-->
+  <message key="epidoc-xslt-iospe-monument">ძეგლი</message>
+  <message key="epidoc-xslt-iospe-monument-type">ობიექტის ტიპი: </message>
+  <message key="epidoc-xslt-iospe-not-specified">არ არის მითითებული</message>
+  <message key="epidoc-xslt-iospe-material">მასალა: </message>
+  <message key="epidoc-xslt-iospe-description">აღწერა:</message>
+  <message key="epidoc-xslt-iospe-find-place">აღმოჩენის ადგილი:</message>
+  <message key="epidoc-xslt-iospe-unknown">არ არის მითითებული</message>
+  <message key="epidoc-xslt-iospe-find-circumstances">გარემოებები:</message>
+  <message key="epidoc-xslt-iospe-find-context">კონტექსტი:</message>
+  <message key="epidoc-xslt-iospe-modern-location">ამჟამინდელი მდებარეობა:</message>
+  <message key="epidoc-xslt-iospe-dimensions">ზომა: </message>
+  <message key="epidoc-xslt-iospe-institution-inventory">ინსტიტუცია და შიფრი:</message>
+  <message key="epidoc-xslt-iospe-inscribed-field">წარწერიანი ზედაპირი:</message>
+  <message key="epidoc-xslt-iospe-faces-code">აღწერა:</message>
+  <message key="epidoc-xslt-iospe-placement-text">ტექსტის მდებარეობა:</message>
+  <message key="epidoc-xslt-iospe-style-lettering">ასოთა მოხაზულობა:  </message>
+  <message key="epidoc-xslt-iospe-letterheights">ასოთა სიმაღლე:</message>
+  <message key="epidoc-xslt-iospe-text">ტექსტი</message>
+  <message key="epidoc-xslt-iospe-origin">წარმომავლობა</message>
+  <message key="epidoc-xslt-iospe-category">კატეგორია</message>
+  <message key="epidoc-xslt-iospe-date">დათარიღება</message>
+  <message key="epidoc-xslt-iospe-dating-criteria">დათარიღების საფუძველი</message>
+  <message key="epidoc-xslt-iospe-editions">გამოცემები</message>
+  <message key="epidoc-xslt-iospe-unpublished">გამოუცემელია</message>
+  <message key="epidoc-xslt-iospe-apparatus">კრიტიკული აპარატი</message>
+  <message key="epidoc-xslt-iospe-translation">თარგმანი:  </message>
+  <message key="epidoc-xslt-iospe-commentary">კომენტარი:  </message>
+  <message key="epidoc-xslt-iospe-images">ფოტო</message>
+  <message key="epidoc-xslt-iospe-handnote">ანბანი, შესრულების ტექნიკა: </message>
+  <message key="epidoc-xslt-iospe-deconote">დეკორი: </message>
+  <message key="epidoc-xslt-iospe-condition">მდგომარეობა: </message>
+  <message key="epidoc-xslt-iospe-changes">ცვლილებები ფაილში: </message>
+  <message key="epidoc-xslt-iospe-public">ციფრული გამოცემა: </message>
+  
+
+  <!-- გამოცემის გვერდი inslib -->
+  <message key="epidoc-xslt-inslib-description">აღწერა</message>
+  <message key="epidoc-xslt-inslib-unknown">უცნობია</message>
+  <message key="epidoc-xslt-inslib-text">წარწერიანი ზედაპირი: </message>
+  <message key="epidoc-xslt-inslib-letters">ასოთა მოხაზულობა</message>
+  <message key="epidoc-xslt-inslib-date">დათარიღება: </message>
+  <message key="epidoc-xslt-inslib-findspot">სადაურობა: </message>
+  <message key="epidoc-xslt-inslib-original-location">თავდაპირველი მდებარეობა:  </message>
+  <message key="epidoc-xslt-inslib-last-recorded-location">ბოლო აღწერილი მდებარეობა:  </message>
+  <message key="epidoc-xslt-inslib-repository">ამჟამინდელი მდებარეობა:  </message>
+  <message key="epidoc-xslt-inslib-edition">კრიტიკული</message>
+  <message key="epidoc-xslt-inslib-diplomatic">დიპლომატიური</message>
+  <message key="epidoc-xslt-inslib-translation">თარგმანი</message>
+  <message key="epidoc-xslt-inslib-commentary">კომენტარი</message>
+  <message key="epidoc-xslt-inslib-bibliography">ბიბლიოგრაფია:    </message>
+  <message key="epidoc-xslt-inslib-constituted-from">ამოკითხვა</message>
+  <message key="epidoc-xslt-inslib-images">ფოტო</message>
+  
+  <!-- გამოცემის გვერდი sample -->
+  
+  <message key="epidoc-xslt-sample-translation">თარგმანი</message>  
+
+
+
+
+
+  <message key="epidoc-xslt-ecg-edition">კრიტიკული</message>
+  <message key="epidoc-xslt-ecg-diplomatic">დიპლომატიური</message>
+
+</catalogue>

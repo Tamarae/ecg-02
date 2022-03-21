@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>გელათის საკურთხევლის წარწერა</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG422</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>გელათი</collection>                
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents> 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/134">მოზაიკა</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/184">მოზაიკა</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout>                                      
+                                    <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote> 
+                              ბერძნული ასომთავრული წარწერები მოზაიკითაა  შესრულებული.
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>ტაძრის საკურთხევლის კონქში მოზაიკაზე გამოხატულია ღვთისმშობელი ქრისტე-ემანუელით და აქეთ-იქით მთავარანგელოზებით.
+                               <p>მოზაიკაზე გამოხატულ მთავარანგელოზებს ორივეს ხელში უჭირავთ ლაბარი, რომელზედაც აწერია †ΑΓΙΟC (სამჯერ) /წმიდა არს, წმიდა არს, წმიდა არს/.</p></decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace></origPlace>
+                                <origDate notBefore-custom="1101" notAfter-custom="1200" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">XII AD</origDate>
+                              </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">გელათის ღვთისმშობლის ტაძარის საკურთხევლის კონქი</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                        
+                            <provenance type="observed">
+                            <placeName type="modernSpot">გელათის ღვთისმშობლის ტაძარის საკურთხევლის კონქი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg422.jpg">
+                <desc xml:lang="ka">გელათის ღვთისმშობლის ტაძრის საკურთხევლის კონქი</desc>
+                <desc xml:lang="en">Altar vault at the Gelati Church of the Mother of God</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 153</citedRange></bibl></p>
+                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 125-126</citedRange></bibl></p>
+                
+            </div>
+
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!--  ΟΑΡ ΜΗ ΜΗΡ ΘΥ ΟΑΡ ΓΑ
+                        ὁ ἀρχ[άγγελος] Μιχ[αήλ] Μ[ήτ]ηρ θ[εο]ῦ ὁ ἀρχ[άγγελος] Γαβ[ριήλ]      -->
+                     
+            
+         <div type="textpart" subtype="section" n="1">
+         <ab>
+             <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="ἀρχάγγελος"><expan><abbr>ἀ<hi rend="ligature">ρχ</hi></abbr><ex>άγγελος</ex></expan></w> <name nymRef="Μιχαήλ"><expan><abbr><hi rend="ligature">Μ<choice><reg>η</reg><orig>ι</orig></choice></hi>χ</abbr><ex>αήλ</ex></expan></name></persName>
+         </ab>    
+          </div> 
+                <div type="textpart" subtype="section" n="2">
+         <ab>
+              <w lemma="μήτηρ"><expan><abbr>Μ</abbr><ex>ήτ</ex><abbr>ηρ</abbr></expan></w> <w lemma="θεός"><expan><abbr>θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan></w>
+         </ab>    
+          </div> 
+                <div type="textpart" subtype="section" n="3">
+         <ab>
+              <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="ἀρχάγγελος"><expan><abbr>ἀ<hi rend="ligature">ρχ</hi></abbr><ex>άγγελος</ex></expan></w> <name nymRef="Γαβριήλ"><expan><abbr>Γ<hi rend="ligature">αβ</hi></abbr><ex>ριήλ</ex></expan></name></persName>
+         </ab>    
+          </div>
+                
+            </div>
+            
+            <div type="translation" subtype="section" n="1" xml:lang="ka">
+                <p>მთავარანგელოზი მიქაელი</p>
+            </div>
+            <div type="translation" subtype="section" n="2" xml:lang="ka">
+                <p>დედა ღვთისა</p>
+            </div>
+            <div type="translation" subtype="section" n="3" xml:lang="ka">
+                <p>მთავარანგელოზი გაბრიელი</p>
+            </div>
+            
+            <div type="apparatus" xml:space="preserve">                                                               <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app><lem></lem>
+              <rdg></rdg>
+              </app></p>
+            </div>
+           
+            <div type="commentary">
+                <p>გელათის ღვთისმშობლის ტაძარი აგებულია დავით აღმაშენებლის მიერ (XII ს.) მოხატულია სხვადასხვა დროს (XIII-XIV სს.) ფრესკებით, რომლებზედაც უხვად არის 
+                შემორჩენილი ქართული და ბერძნული წარწერები.</p>
+                <p>ხელოვნებათმცოდნეთა მიერ გელათის მოზაიკა (და, მაშასადამე, ზედ გამოყვანილი ბერძნული წარწერები) 1125-1130 წლებით არის დათარიღებული (შ. ამირანაშვილი, ქართული 
+                ხელოვნების ისტორია,  187. რ. მეფისაშვილი, თ. ვირსალაძე, გელათი... თბ., 1982, ტაბ. 47-50. იგი შექმნილია ბიზანტიაში განსწავლული ქართველი მხატვრის მიერ).</p>
+            </div>
+
+        </body>
+    </text>
+</TEI>
+

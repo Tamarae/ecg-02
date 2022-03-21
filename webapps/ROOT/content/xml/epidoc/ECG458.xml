@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ღუმურიში, საგდუხტ დეოფალთა დეოფლის წარწერა</title>
+                <editor>ვალერი სილოგავა</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG458</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            ღუმურიში
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/2">ადგილობრივი ქვა</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1483">ფილა ფასადზე</objectType> 
+                                        <dimensions unit="cm">
+                                        <width>36</width>
+                                        <height>31</height>
+                                        <depth>17</depth>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="4"> 
+                                        წარწერა ამოკვეთილია ჯვრის ქვედა ვერტიკალური მკლავის ორივე მხარეს.
+                                        <dimensions/>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოკვეთილი</rs>, 4 სტრიქონიანი, <rs type="script">ასომთავრული</rs> წარწერა. ქარაგმის ნიშანი: სწორი, განივი ხაზი. განკვეთილობის ნიშანი: ორწერტილი, ადგილ-ადგილ.
+                                   <height min="3" max="3.5">3-3.5</height>
+                                 </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ღუმურიში</origPlace>
+                                <origDate>XI AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">ღუმურიში</placeName>
+                                <rs type="circumstances"/>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                            <provenance type="observed">
+                            <placeName type="modernSpot">დ. გულიას სახელობის აფხაზეთის ისტორიული მუზეუმი</placeName>
+                            <idno>უცნობია</idno>
+                        </provenance>
+                    </history>                   
+              </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2019-07-09" who="LP">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, ბმულებით დაკავშირება გარე კონტროლირებად ლექსიკონთან</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg458.jpg"></graphic>
+            <desc xml:lang="ka">საგდუხტ დეოფალთა დეოფლის წარწერა</desc>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            
+            <!-- [ღმერთო, შეიწყალე ორთავე
+                ცხორებასა შინა ამის ტაძრი]სა
+                მ(ა)შ(ე)ნ(ე)ბ(ე)ლი დ(ეო)ფ(ა)ლთა
+                დ(ეო)ფ(ა)ლ[ი] ს(ა)გდ(უ)ხტ, ნ(ია)ნ(ი-
+                ა)ს ას(უ)ლი, ა(მე)ნ -->
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><supplied reason="lost">&#10013;<w lemma="ღმერთ">ღმერთო</w>, <w lemma="იწყალებს">შეიწყალე</w> <w lemma="ორ">ორთავე</w>
+                    <lb n="2"/><w lemma="ცხორება">ცხორებასა</w> <w lemma="შინა">შინა</w> <w lemma="ამის">ამის</w></supplied> <w lemma="ტაძარ"><supplied reason="lost">ტაძრი</supplied>სა</w>
+                    <lb n="3"/><w lemma="მაშენებელ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>შ</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლი</abbr></expan></w> <roleName><w lemma="დეოფალთა დეოფალ"><expan><abbr>დ</abbr><ex>ეო</ex><abbr>ფ</abbr><ex>ა</ex><abbr>ლთა</abbr></expan></w>
+                    <lb n="4"/><w lemma="დეოფალ"><expan><abbr>დ</abbr><ex>ეო</ex><abbr>ფ</abbr><ex>ა</ex><abbr>ლ</abbr><supplied reason="lost">ი</supplied></expan></w></roleName>
+                    <persName><name nymRef="დეოფალთა დეოფალ საგდუხტ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>გდ</abbr><ex>უ</ex><abbr>ხტ</abbr></expan></name>
+                    <name nymRef="ნიანია"><expan><abbr>ნ</abbr><ex>ია</ex><abbr>ნ</abbr><ex>ი</ex>
+                    <lb n="5"/><ex>ა</ex><abbr>ს</abbr></expan></name></persName> <w lemma="ასულ"><expan><abbr>ას</abbr><ex>უ</ex><abbr>ლი</abbr></expan></w> <w lemma="ამენ"><expan><abbr>ა</abbr><ex>მე</ex><abbr>ნ</abbr></expan></w>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ka"><p>ღმერთო, შეიწყალე ორივე ცხოვრებაში ამ ტაძრის ამშენებელი  დეოფალთა დეოფალი საგდუხტი, ნიანიას ასული, ამინ</p></div>
+            <div type="apparatus" xml:space="preserve"/>
+            <div type="commentary"><p>კირქვის ფილაზე გამოსახული ყოფილა რელიეფური ორნამენტირებული ჯვარი, რომლის ზედა და განივი მკლავები მომტვრეულია; დღეს სახეზეა ჯვრის ქვედა მკლავი. ფორმულა"ორთავე ცხორებასა შინა" პირობითია. რადგანაც ჩვენ არ ვიცით, რა სიდიდის ტექსტი აკლია წარწერას დასაწყისში, შეიძლება დავუშვათ, რომ ის არც იყო. აღდგენის ვარიანტი: ["ეკლესიი]სა", ["საყრდი]სა". როგორც აღინიშნა, წარწერა ამოკვეთილია ფილაზე, რომელზედაც რელიეფური ჯვარი იყო გამოსახული. ამიტომ შეიძლება დავუშვათ, რომ წარწერაში ჯვრის აღმართვის შესახებ იყო აღნიშნული და მისი ნაკლული ტექსტი შეიძლება ასეც აღვადგინოთ: [ღ(მერთ)ო, შ(ეიწყალ)ე ამ(ი)ს ჯ(უა)რი]სა მ(ა)შ(ე)ნ(ე)ბ(ე)ლი და ა.შ.</p></div>
+            <div type="bibliography" subtype="principalEdition">
+                           
+                    <p><bibl type="publication" subtype="principal" xml:lang="ka">
+                      <author>
+                          <persName>
+                            <forename></forename>
+                            <surname></surname>
+                          </persName>
+                      </author>
+                      <title/>
+                        <edition/>
+                        <pubPlace/>
+                        <publisher/>
+                        <date></date>
+                     </bibl></p>
+                
+            </div>         
+         </body>
+    </text>
+</TEI>

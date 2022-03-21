@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>გუჯარეთის ხეობა. თონეთის წმიდა გიორგის ეკლესია</title>
+                <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
+                <editor xml:lang="ka">დევი ბერძენიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                 <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">
+                 ECG531
+                 </idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            თორის წარწერების კორპუსი
+                        </collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1483"> ქვაჯვარი</objectType>
+
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="1">
+                                        <dimensions unit="cm">
+                                            <width></width>
+                                            <height></height>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli">წარწერა ნუსხურით არის შესრულებული,ასომთავრული ასოებით.
+                                  წარწერის განკვეთილობის ნიშნები არ ახლდა;ქარაგმად გამოყენებული იყო მარცხნიდან მარჯვნივ დახრილი სწორი განივი ან სწორი განივი მოკლე ხაზი;
+								  წარწერისათვის დამახასითებელია გრაფემა "ო"-ს საშუალებით ასო-ბგერა "უ"-ს გადმოცემა.
+                                <width></width>
+                                <height></height>
+                                 </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>გუჯარეთის ხეობა. თონეთის წმიდა გიორგის ეკლესია</origPlace>
+                                <origDate>XIII-XIV AD</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">გუჯარეთის ხეობა. თონეთის წმიდა გიორგის ეკლესია</placeName>
+                                <rs type="context"> 1986 წლისათვის წარწერიანი ქვაჯვარა ტაძრის ჩრდილოეთ კედლის მახლობლად იყო ჩასმული, რომელიც მომდევნო 1987 წლისათვის წაღვრის არქეოლოგიურ ბაზაში ინახებოდა.
+								ქვაჯვარაზე გამოქანდაკებული იყო ჯვარი, რომლის ქვემოთ ამოღარული იყო ძველი ქართული წარწერა;</rs>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">გუჯარეთის ხეობა. თონეთის წმიდა გიორგის ეკლესია
+                            <placeName type="modernSpot">გუჯარეთის ხეობა. თონეთის წმიდა გიორგის ეკლესია</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2020-01-17" who="asanishvili">
+               გარე ანოტირება, პირთა სახელების, წარწერის სრული კოდირება  შესრულდა 2020 წლის ციფრული ეპიგრაფიკის სასწავლო კურსის ფარგლებში.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!-- წარწერის ფოტოდოკუმენტაცია -->
+    <facsimile>
+        <surface>
+            <graphic url="ecg497.jpg">
+                <desc xml:lang="ka">სააღაპე წარწერა</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+           <div type="bibliography">
+               
+                <p><bibl n="1">თამაზ გოგოლაძე,თორის ხეობის ეპიგრაფიკული კორპუსი<ptr target="bibliography.xml#b234"/>,<citedRange>99-102</citedRange>1987</bibl></p>
+		        <p><bibl n="2">სერგი მაკალათია, ბორჯომის ხეობა<ptr target="bibliography.xml#b236"/>,<citedRange>16-17</citedRange>1957</bibl></p>
+                <p><bibl n="3"> დევი ბერძენიშვილი, ნარკვევები საქართველოს ისტორიული გეოგრაფიიდან<ptr target="bibliography.xml#b239"/>,<citedRange>45-46 </citedRange>1985</bibl></p>
+                <p><bibl n="4">დევი ბერძენიშვილი, არქიტექტურულ-ისტორიული გზამკვლევი "გუჯარეთი"<ptr target="bibliography.xml#b240"/>,<citedRange>16-18</citedRange>1987</bibl></p>
+
+		   
+           </div>
+            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">     
+                        <!--"გ(აბრიე)ლ, თ(ევდორ)ე. | ადიდოს | ღ(მერთმა)ნ სულ|ი ოქროი|სი.
+						ჩ(უე)ნ, მისთ|ა ძმა|თა თ|ევდორ{ე} | და გ{ა}ბ{რიე}ლ | ესე ბარ|ძიმი | ვამსახ|ურ{ე}თ | წმ(ი)დ(ა)სა | გ(იორგ)ის ყუდ|ევისა|სა, ა(მე)ნ".1"-->
+                <ab>
+                    <lb n="1"/><w lemma="გაბრიელ"><expan><abbr>გ</abbr><ex>აბრიე</ex><abbr>ლ</abbr></expan></w>
+					<w lemma="თევდორე"><expan><abbr>თ</abbr><ex>ევდორ</ex><abbr>ე</abbr></expan></w>
+                  <lb n="2"/>ადიდოს
+                    <lb n="3"/>ღმერთმან სულ
+                    <lb n="4" break="no"/>ი <persName type="local" key="ოქროი">ოქროი
+                    <lb n="5" break="no"/>სი</persName>
+                    <lb n="6"/><w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნ</abbr></expan></w> მისთ
+                    <lb n="7" break="no"/>ა <w lemma="თევდორე"><expan><abbr>თ
+					<lb n="8" break="no"/></abbr><ex>ევდორ</ex><abbr>ე</abbr></expan></w>
+                    <lb n="9"/>და <w lemma="გაბრიელ"><expan><abbr>გ</abbr><ex>ა</ex><abbr>ბ</abbr><ex>რიე</ex><abbr>ლ</abbr></expan></w>
+                    <lb n="10"/>ესე ბარ
+                    <lb n="11" break="no"/>ძიმი
+					<lb n="12"/><w lemma="ვამსახურეთ"><expan><abbr>ვამსახ
+					<lb n="13" break="no"/>ურ</abbr><ex>ე</ex><abbr>თ</abbr></expan></w>
+					<lb n="14"/><w lemma="წმიდასა"><expan><abbr>წმ</abbr><ex>ი</ex><abbr>დ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w>
+					<lb n="15"/><w lemma="გიორგის"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ის</abbr></expan></w> ყუდ
+                    <lb n="16"/>ევისა
+                    <lb n="17" break="no"/>სა <w lemma="ამენ"><expan><abbr>ა</abbr><ex>მე</ex><abbr>ნ</abbr></expan></w>
+
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ka"/>
+            <div type="apparatus" xml:space="preserve"/>
+            <div type="commentary"><p>წარწერა დღეისათვის დაკარგულია, დაზიანებული არ ყოფილა. წარწერის ტექსტი თავიდანვე ბოლომდე გარკვევით იკითხებოდა.</p>
+			<p> თორის წარწერათა კორპუსში გაზიარებულია წარწერის დევი ბერძენიშვილისეული დათარიღება- XIII-XIV საუკუნეები.</p>
+            </div>
+
+
+         </body>
+    </text>
+</TEI>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ტიმოთესუბნის ტაძრის გუმბათის წარწერა</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+                <editor>Е. П. Привалова</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG427</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            ტიმოთესუბანი
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material></material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/178">ფრესკა</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                       ტიმოთესუბნის ღვთისმშობლის ტაძრის ფრესკებზე მრავალი ქართული, ვრცელი ასომთავრული წარწერის გვერდით არის რაოდენობის მხრივ უმნიშვნელო ბერძნული წარწერებიც.                       
+                                       გუმბათის ცაში გამოსახულია მედალიონში მოთავსებული ჯვარი, რომლის ცენტრთანაც წერია ბერძნული წარწერა; ზემოდან I რეგისტრში აღმ-ის მხარეს 
+                                       გამოსახულია ვედრების კომპოზიცია და ირგვლივ, მთელ წრეზე 7 მთავარანგელოზი. ყველა გამოსახულებასთან არის ბერძნული წარწერა.
+                                    <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote> 
+                                წარწერები შესრულებულია მთავრულით.
+                             <height/>
+                           </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace></origPlace>
+                                <origDate notBefore-custom="1201" notAfter-custom="1300" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">XIII AD</origDate>
+                              </origin>
+                            <provenance type="found" when="1983">
+                                <placeName type ="ancientFindspot">ტიმოთესუბნის ღვთისმშობლის ტაძარი</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                         
+                            <provenance type="observed">
+                            <placeName type="modernSpot">ტიმოთესუბნის ღვთისმშობლის ტაძარი</placeName>
+                            <idno/>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg427.jpg">
+                <desc xml:lang="ka">ტიმოთესუბნის ღვთისმშობლის ტაძრის ფრესკა, 1983</desc>
+                <desc xml:lang="en">Fresco in the Timothesubani Church of the Holy Mother of God, 1983</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 231-232</citedRange></bibl></p>
+                    <p><bibl n="2">Е. П. Привалова, Роспись Тимотесубани<ptr target="bibliography.xml#b182"/><citedRange></citedRange></bibl></p>
+                
+            </div>
+       
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!--  ΙC ΧC  ΝΙΚΑ   Ἰ[ησοῦ]ς Χ[ριστό]ς νικᾷ 
+                         ΜΡ ΘΥ ΙC ΧC   ΟΠΡΟΔΡΟΜΟC ΟΑΡΧ ΡΑΦΑΕΛ ΟΑΡΧ ΡΑCΘΑΕΛ ΟΑΡΧ [Ξ]ΕCΘΑΕΛ ΟΑΡΧ ΜΙΧΑ[ΕΛ] ΟΑΡΧ ΟΡΙΑ ΟΑΡΧ CΟΡΙΕΛ ΟΑΡΧ ΓΑΒΡΙΕΛ
+                        Μ[ήτη]ρ θ[εο]ῦ  Ἰ[ησοῦ]ς Χ[ριστό]ς  ὁ πρόδρομος ὁ ἀρχ[άγγελος] Ραφαήλ ὁ ἀρχ[άγγελος] Ρασθαήλ ὁ ἀρχ[άγγελος] [Ξ]εσθαήλ ὁ ἀρχ[άγγελος] Μιχα[ήλ] 
+                        ὁ ἀρχ[άγγελος] Οὐριήλ ὁ ἀρχ[άγγελος] Σουριήλ ὁ ἀρχ[άγγελος] Γαβριήλ-->
+                     
+            
+                 <div type="textpart" subtype="section" n="1">
+                         <ab>
+                             <persName type="divine"><name nymRef="Ἰησοῦς"><expan><abbr>Ἰ</abbr><ex>ησοῦ</ex><abbr>ς</abbr></expan></name> <name nymRef="Χριστός"><expan><abbr>Χ</abbr><ex>ριστό</ex><abbr>ς</abbr></expan></name></persName>
+                          <!--   <w lemma="νικάω"><expan><ex>νι</ex><supplied reason="subaudible">κ</supplied><abbr>ᾷ</abbr></expan></w>  -->
+                         </ab>    
+                  </div> 
+                
+                 <div type="textpart" subtype="section" n="2">
+                             <ab>
+                                  <w lemma="μήτηρ"><expan><abbr>μ</abbr><ex>ήτη</ex><abbr>ρ</abbr></expan></w> 
+                                 <w lemma="θεός"><expan><abbr>θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan></w> 
+                                 <persName type="divine"><name nymRef="Ἰησοῦς"><expan><abbr>Ἰ</abbr><ex>ησοῦ</ex><abbr>ς</abbr></expan></name> <name nymRef="Χριστός"><expan><abbr>Χ</abbr><ex>ριστό</ex><abbr>ς</abbr></expan></name></persName>
+                                 <w lemma="ὁ">ὁ</w> <w lemma="πρόδρομος">πρόδρομος</w>
+                                 <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="ἀρχάγγελος"><expan><abbr>ἀρχ</abbr><ex>άγγελος</ex></expan></w> <name nymRef="Ραφαήλ">Ραφα<choice><reg>ή</reg><orig>ι</orig></choice>λ</name></persName>
+                                 <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="ἀρχάγγελος"><expan><abbr>ἀρχ</abbr><ex>άγγελος</ex></expan></w> <name nymRef="Ρασθαήλ">Ρασθα<choice><reg>ή</reg><orig>ι</orig></choice>λ</name></persName>
+                                 <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="ἀρχάγγελος"><expan><abbr>ἀρχ</abbr><ex>άγγελος</ex></expan></w> <name nymRef="Ξεσθαήλ"><supplied reason="subaudible">Ξ</supplied>εσθα<choice><reg>ή</reg><orig>ι</orig></choice>λ</name></persName>
+                                 <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="ἀρχάγγελος"><expan><abbr>ἀρχ</abbr><ex>άγγελος</ex></expan></w> <name nymRef="Μιχαήλ">Μιχα<supplied reason="subaudible"><choice><reg>ή</reg><orig>ι</orig></choice>λ</supplied></name></persName>
+                                 <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="ἀρχάγγελος"><expan><abbr>ἀρχ</abbr><ex>άγγελος</ex></expan></w> <name nymRef="Οὐριήλ">Οὐρι<choice><reg>ή</reg><orig>ι</orig></choice>λ</name></persName>
+                                 <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="ἀρχάγγελος"><expan><abbr>ἀρχ</abbr><ex>άγγελος</ex></expan></w> <name nymRef="Σουριήλ">Σουρι<choice><reg>ή</reg><orig>ι</orig></choice>λ</name></persName>
+                                 <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="ἀρχάγγελος"><expan><abbr>ἀρχ</abbr><ex>άγγελος</ex></expan></w> <name nymRef="Γαβριήλ">Γαβρι<choice><reg>ή</reg><orig>ι</orig></choice>λ</name></persName>
+                             </ab>    
+                  </div> 
+                
+            </div>
+            
+            <div type="translation" subtype="section" n="1" xml:lang="ka">
+                <p>იესუ ქრისტე ძლევაჲ</p>
+            </div>
+            <div type="translation" subtype="section" n="2" xml:lang="ka">
+                <p>დედა ღმრთისა, იესუ ქრისტე, წინამორბედი, მთავარანგელოზი რაფაელი, მთავარანგელოზი რასთაელი, მთავარანგელოზი ქსესთაელი, მთავარანგელოზი მიქაელი, 
+                მთავარანგელოზი ურიელი, მთავარანგელოზი სურიელი, მთავარანგელოზი გაბრიელი</p>
+            </div>
+            
+            <div type="apparatus" xml:space="preserve">                                                               <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app><lem></lem>
+              <rdg></rdg>
+              </app></p>
+            </div>
+           
+            <div type="commentary">
+                <p>ტიმოთესუბნის ღვთისმშობლის ტაძრის მოხატულობა XIII ს-ით არის დათარიღებული (Е. П. Привалова, Роспись Тимотесубани, Тб. 1980).</p>
+                <p>აღსანიშნავია, რომ ყველა სახელი არის ε-იანი დაბოლოებით, რაც იმას ნიშნავს, რომ დამწერისათვის აქ იყო რეალური "ე" (η-ს ხმარება ნიშნავდა იმას, რომ ის უნდა 
+                ამ დროისათვის წაეკითხათ როგორც "ი").</p>
+                <p>ὁ πρόδρομος-სთან სავარაუდოა, რომ წინ იქნებოდა ΙΩ Ἰωάννης ὁ πρόδρομος - იოანე წინამორბედი (ნათლისმცემელი).</p>
+                <p>როგორც ე. პრივალოვა შენიშნავს, რასთაელი და ქსესთაელი - მთავარანგელოზთა სახელებს პარალელი არ ეძებნება და შესაძლოა ეს არის დამახინჯება, საქართველოში 
+                ნაკლებად ცნობილი ანგელოზთა სახელებისა. ΟΡΙΑ საფიქრებელია, რომ არის Οὐριήλ (ან სხვა დაწერილობის მიხედვით - Ορι[ε]λ).</p>
+                <p>ყურადღებას იპყრობს საკურთხეველში გამოხატულ წმ. მამათა და დიაკონთა ქართულად ნაწერი ბერძნულ-ფორმა შენარჩუნებული საკუთარი სახელები: ტიმონა, პროხორონ, 
+                პარმენა, კლიმენტოს, სილიბისტროს...</p>
+                <p>პალეოგრაფიული მონაცემებიდან აღსანიშნავია ξ-ის თავისებური დაწერილობა (სიტყვაში δόξης), რაც მიუთითებს გვიან ბიზანტიურ ხანაზე. წარწერათა დათარიღება ხდება 
+                მოხატულობის თარიღის მიხედვით.</p>
+                </div>
+            
+        </body>
+    </text>
+</TEI>

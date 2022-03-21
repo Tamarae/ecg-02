@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">XI-XII სს. ფრაგმენტი</title>
+                <editor xml:lang="ka">გიორგი ოთხმეზური</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <idno type="filename">ECG235</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/"> 
+                        დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            დმანისი
+                        </collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">ფრაგმენტი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType/>
+                                    <material xml:lang="ka" ref="https://www.eagle-network.eu/voc/material/lod/2">მონაცრისფრო ქვა</material>
+                                    <dimensions>
+                                        <width/>
+                                        <height/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="1">
+                                    1 სტრიქონიანი. წარწერის ფრაგმენტი ამოკვეთილია მონაცრისფრო ფერის ქვაზე.
+                                    <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">კიდურწერტილოვანი</rs> <rs type="script">ასომთავრული</rs> წარწერა, შეიმჩნევა კიდურწაისრულობაც. ქარაგმის ნიშანი: კიდურწერტილოვანი კლაკნილი ხაზი. 
+                                განკვეთილობის ნიშანი: ორწერტილი.
+                                <dimensions unit="cm">
+                                    <height/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                ფრაგმენტზე შემორჩენილია წნული ლილვები.
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>დმანისის არქეოლოგიური ბაზა</origPlace>
+                            <origDate>XI-XII AD</origDate>
+                        </origin>
+                        <provenance type="observed">
+                            <placeName type="modernSpot">დმანისის არქეოლოგიური ბაზა</placeName>
+                            <rs type="circumstances"/>
+                            <idno/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    
+          <!-- 
+    <facsimile>
+        <surface>
+            <graphic url="tskise_01.jpg">
+                <desc xml:lang="ka">წყისეს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile> -->
+    
+    
+    <text>
+        <!--
+        1....ღ(მრთისა)ჲთა...
+        -->
+        <body>
+                
+                 <div type="bibliography">
+                
+                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>132</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
+              
+            </div>
+                
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+
+            <ab>
+                <lb n="1"/>
+                           <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთისა</ex><abbr>ჲთა</abbr></expan></w>
+                         
+                </ab>
+             
+            </div>
+
+
+           
+            
+            
+                <div type="translation"/>
+
+                
+                <div type="commentary">
+                    <p>როგორც ჩანს, წარწერა რომელიღაც ეკლესიის ან ეკლესიის ნაწილის სააღმშენებლო ან სარესტავრაციო სამუშაოს
+                        დასრულების შემდეგაა ამოკვეთილი; ამჟამად დაცულია დმანისის არქეოლოგიურ ბაზაზე.
+                        დაზიანება: წარწერა ფრაგმენტულია, თუმცა შემორჩენილი გრაფემების მიხედვით ხერხდება სიტყვის აღდგენა; 
+                        წარმოდგენილი დათარიღების საფუძველი: პალეოგრაფიული ნიშნები: კიდურწერტილოვანი და
+                        კიდურწაისრული დამწერლობა. პალეოგრაფიულად მსგავსია დიდი დმანისის წარწერისა</p>
+                </div>
+
+        </body>
+    </text>
+</TEI>

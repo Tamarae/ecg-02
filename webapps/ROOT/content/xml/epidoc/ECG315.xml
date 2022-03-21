@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ახტალის თორმეტი მოციქულის ეკლესიის წარწერა</title>
+                <editor xml:lang="ka">ზაზა ალექსიძე</editor>
+                <editor xml:lang="ka">ექვთიმე თაყაიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG315</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ახტალა</collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents> 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">ქვიშაქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width>142</width>
+                                        <height>62</height>
+                                        <depth/>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="10">წარწერა ათსტრიქონიანია. იგი მდებარეობს ახტალის დიდი ეკლესიის პირდაპირ, აღმოსავლეთის მხარეს, შემაღლებულ ადგილზე,
+                                აღმართული სამლოცველოს, თორმეტი მოციქულის სახელობის ეკლესიის დასავლეთიდან შესასვლელი კარის ბალავრის თავზე. მასზე ბევრი ქარაგმა და ლიგატურაა                                
+                                      <dimensions unit="cm">
+                                         <width>142</width>
+                                         <height>62</height> 
+                                      </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა. 
+                                დამახასიათებელია გრაფემათა შეწიაღება და ლიგატურები. დ-ონს აქვს მსხლისებური მუცელი
+                                   <height/> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ახტალა</origPlace>
+                                <origDate evidence="lettering" datingMethod="#julian" precision="high">1250</origDate>
+                            </origin>
+                            <provenance type="found" when="1872">
+                                <placeName type ="ancientFindspot">ახტალის თორმეტი მოციქულის ეკლესია, სომხეთი</placeName> 
+                                <!-- "41.150278, 44.768333"-->
+                                <rs type="circumstances">წარწერა 1872 წელს აღმოაჩინა ალექსანდრე ერიცოვმა. სწორედ მან გააკეთა წარწერის პირველი ასლიც (ამ ასლის ფოტო ამჟამად
+                                საქართველოს ეროვნულ არქივშია დაცული). 1894 წელს ამ წარწერაზე ახტალაში ექვთიმე თაყაიშვილმა იმუშავა და მოგვიანებით გამოაქვეყნა კიდეც იგი
+                                ფოტოს გარეშე. 1964 წელს წარწერა შეისწავლა და ხელახლა გამოსცა ლეონ მელიქსეთ-ბეგმა. 1977 წელს პ. მურადიანმა გამოსცა წიგნი: „ქართული წარწერები ახტალაში“.</rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">ახტალის თორმეტი მოციქულის ეკლესია, სომხეთი</placeName>
+                                <idno type="invNo"/>
+                            </provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg315.jpg">
+                <desc xml:lang="ka">ახტალის წარწერა, ფოტო დიმიტრი ერმაკოვისა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+            <graphic url="ecg315a.jpg">
+                <desc xml:lang="ka">ახტალის წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>           
+              <div type="bibliography">
+                
+    <p><bibl n="1">ზაზა ალექსიძე, ლუვრი - ახტალა<ptr target="bibliography.xml#b160"/>, <citedRange> 316-330</citedRange></bibl></p>
+    <p><bibl n="2">Е. Такаишвили, Грузинския надписы Ахталы <ptr target="bibliography.xml#b161"/>, <citedRange>138-145</citedRange></bibl></p>                                        
+    <p><bibl n="3">ლეონ მელიქსეთ-ბეგი, ლორე-ტაშირის ქართული ეპიგრაფიკა<ptr target="bibliography.xml#b162"/>, <citedRange> 311-312</citedRange></bibl></p>
+    <p><bibl n="4">А. Эрицов, Монастырь Ахтала, Кавказская старина<ptr target="bibliography.xml#b163"/></bibl></p>
+              
+            </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--  †  1. ჻ქ჻ მე, ოჳღირსი჻ და სლითა჻ სწ~ყლბელი჻ ~წ჻ პ~ე჻ ღირს ვიქმ~ნ აღშენებ~დ჻ ეგჳტ~რისა
+                                 2. ამის჻ ს~ხლსა ზ~ა წ~ა მციქ~ლთსა სადი~ბლდ მ~თდა და პ~ლ პ~ტრნთა და გმზრდ~ლთა
+                                 3. ღ~თია ჩ~თა჻ ს~მლცვლ~დ჻ და ს~ლისა ჩ~ისა სლ~ცვლსახსნბლ~დ და გ~ნვ~ჩინე ათ~რმტთა მ~ცქლთა დღს~სწლის
+                                 4. მეორე დღე: ვინაცა ჩ~სა გოჳრ~სა კ~ცი იყ~ს჻ მისისა ძ~ლსაებრ ძმ~თა გმს~ნბდეს჻ და იგი ჟამ~ მიწრვ~ბდს და მე თ~ქნთა
+                                 5. ლ~ცვთა შ~ა მმიჴ~სნბდეთ჻ და ოჳკ~თოჳ ჩ~თა: ც~დვთა მს~გებელი მმ~გს ღ~ნ჻ და ჩე~ა გ~რისა კ~ცი აღარავინ: იყოს თ~ქნ ქ~ს: მყ~რნო
+                                 6. და მზგვსნო჻ ~მ: ~წ და ყ~ნოვე ძმ~ნო: ვინცა პ~ტრნისა ავგ ათბგისა სამწირვ~ლსა ჩ~მგნით აღშ~ნბლსა ზ~ა ღირსყ~ს და აღირ
+                                 7. სოთ: პ~ლ პტ~რნთა და თ~ქნ: ჩ~იცა ს~ლი: მ~ნვე იოჳრვოს დაოჳკლ~ბლდ ჩ~თა ჴ~ლითა და ძმისწ~ლისა ჩ~ისა ილ~რნისითა აგჳშ~ნბია. და არა
+                                 8. ვინ გოჳჱმართლ~ბის: ოჳჴსნე~ბლბსა჻ ესე ჩ~მგნით გ~ნჩნლი ანოჳ ჩ~ნისა გოჳარისა კ~ცმნ ანოჳ ვინ სხ~ჲ შ~მვიდეს და დააკ
+                                 9. ლოს და შცვ~ლს შ~მცა იცვლბის შჯ~ლისგ~ნ ქ~ნთჲსა: და ც~დვთა ჩ~მთა პ~სხი მ~ნ
+                                 10. გასცეს წ~ე ღ~ა.--> 
+                                                            
+            
+                <ab>
+                <lb n="1"/> ჻&#8224;჻ 
+                    <w lemma="მე">მე</w>
+                    <w lemma="უღირს">ოჳღირსი჻</w>
+                     და 
+                    <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლითა</abbr></expan></w>჻ 
+                    <w lemma="საწყალობელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>წყ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ბელი</abbr></expan></w>჻ 
+                    <roleName nymRef="წინამძღუარ"><expan><abbr>წ</abbr><ex>ინამძღუარი</ex></expan></roleName>჻
+                    <name nymRef="პეტრე წინამძღუარ" ><expan><abbr>პ</abbr><ex>ეტრ</ex><abbr>ე</abbr></expan></name>჻
+                    <w lemma="ღირს-ყოფა"><expan><abbr>ღირს</abbr><abbr>ვიქმ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w> 
+                    <w lemma="აღშენება"><expan><abbr>აღშენებ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>჻ 
+                    <w lemma="ეგუტერ"><expan><abbr>ეგ</abbr><ex>ო</ex><abbr>ჳტ</abbr><ex>ე</ex><abbr>რისა</abbr></expan></w>
+                <lb n="2"/> <w lemma="ესე">ამის</w>჻ 
+                    <w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლსა</abbr></expan></w> 
+                    <w lemma="ზედა"><expan><abbr>ზ</abbr><ex>ედ</ex><abbr>ა</abbr></expan></w> 
+                    <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდათ</ex><abbr>ა</abbr></expan></w> 
+                    <w lemma="მოციქულ"><expan><abbr>მ</abbr><ex>ო</ex><abbr>ციქ</abbr><ex>უ</ex><abbr>ლთ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w>
+                    <w lemma="სადიდებელ"><expan><abbr>სადი</abbr><ex>დე</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> 
+                    <w lemma="იგი"><expan><abbr>მ</abbr><ex>ა</ex><abbr>თდა</abbr></expan></w> 
+                    <w lemma="და">და</w> 
+                    <w lemma="პირველ"><expan><abbr>პ</abbr><ex>ირვე</ex><abbr>ლ</abbr></expan></w> 
+                    <w lemma="პატრონ"><expan><abbr>პ</abbr><ex>ა</ex><abbr>ტრ</abbr><ex>ო</ex><abbr>ნთა</abbr></expan></w> 
+                    <w lemma="და">და</w> 
+                    <w lemma="გამზრდელ"><expan><abbr>გ</abbr><ex>ა</ex><abbr>მზრდ</abbr><ex>ე</ex><abbr>ლთა</abbr></expan></w>
+                <lb n="3"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თი</abbr><ex>ს</ex><abbr>ა</abbr></expan></w> 
+                    <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უენ</ex><abbr>თა</abbr></expan></w>჻
+                    <w lemma="სამლოცველო"><expan><abbr>ს</abbr><ex>ა</ex><abbr>მლ</abbr><ex>ო</ex><abbr>ცვ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ო</ex><abbr>დ</abbr></expan></w>჻
+                    და
+                    <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლისა</abbr></expan></w>
+                    <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ემ</ex><abbr>ისა</abbr></expan></w>
+                    <w lemma="სალოცველ-სახსენებელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ცვ</abbr><ex>ე</ex><abbr>ლსახს</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> 
+                    <w lemma="და">და</w>
+                    <w lemma="განჩინება"><expan><abbr>გ</abbr><ex>ა</ex><abbr>ნვ</abbr><ex>ი</ex><abbr>ჩინე</abbr></expan></w>
+                    <w lemma="ათორმეტ"><expan><abbr>ათ</abbr><ex>ო</ex><abbr>რმ</abbr><ex>ე</ex><abbr>ტთა</abbr></expan></w> 
+                    <w lemma="მოციქულ"><expan><abbr>მ</abbr><ex>ო</ex><abbr>ც</abbr><ex>ი</ex><abbr>ქ</abbr><ex>უ</ex><abbr>ლთა</abbr></expan></w>
+                    <w lemma="დღესასწაულ"><expan><abbr>დღ</abbr><ex>ე</ex><abbr>ს</abbr><ex>ა</ex><abbr>სწ</abbr><ex>აუ</ex><abbr>ლის</abbr></expan></w>
+                <lb n="4"/><w lemma="მეორე">მეორე</w> 
+                    <w lemma="დღე">დღე</w>
+                    <w lemma="ვინცა">ვინაცა </w>
+                    <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ემი</ex><abbr>სა</abbr></expan></w> 
+                    <w lemma="გუარ"><expan><abbr>გოჳ</abbr><ex>ა</ex><abbr>რ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w> 
+                    <w lemma="კაც"><expan><abbr>კ</abbr><ex>ა</ex><abbr>ცი</abbr></expan></w> 
+                    <w lemma="ყოფა"><expan><abbr>იყ</abbr><ex>ო</ex><abbr>ს</abbr></expan></w>
+                    <w lemma="მისი">მისისა</w> 
+                    <w lemma="ძალ"><expan><abbr>ძ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ი</ex><abbr>საებრ</abbr></expan></w> 
+                    <w lemma="ძმა"><expan><abbr>ძმ</abbr><ex>ა</ex><abbr>თა</abbr></expan></w> 
+                    <w lemma="გაჴსენება"><expan><abbr>გ</abbr><ex>ან</ex><abbr>მ</abbr><ex>იჴ</ex><abbr>ს</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბდეს</abbr></expan></w>
+                    და 
+                    <w lemma="იგი">იგი</w> 
+                    <w lemma="ჟამ"><expan><abbr>ჟამ</abbr><ex>სა</ex></expan></w>
+                    <w lemma="შეწირვა"><expan><abbr>მიწ</abbr><ex>ი</ex><abbr>რვ</abbr><ex>ე</ex><abbr>ბდ</abbr><ex>ე</ex><abbr>ს</abbr></expan></w> 
+                    და
+                    <w lemma="მე">მე</w> 
+                    <w lemma="თქუენ"><expan><abbr>თქ</abbr><ex>უე</ex><abbr>ნთა</abbr></expan></w>
+                <lb n="5"/><w lemma="ლოცვათა"><expan><abbr>ლ</abbr><ex>ო</ex><abbr>ცვ</abbr><ex>ა</ex><abbr>თა</abbr></expan></w> 
+                    <w lemma="შინა"><expan><abbr>შ</abbr><ex>ინ</ex><abbr>ა</abbr></expan></w> 
+                    <w lemma="მოჴსენება"><expan><abbr>მ</abbr><ex>ო</ex><abbr>მიჴს</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბდეთ</abbr></expan></w>჻
+                    და 
+                    <w lemma="უკუეთუ"><expan><abbr>ოჳკ</abbr><ex>უე</ex><abbr>თოჳ</abbr></expan></w> 
+                    <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ემ</ex><abbr>თა</abbr></expan></w>
+                    <w lemma="ცოდვა"><expan><abbr>ც</abbr><ex>ო</ex><abbr>დვ</abbr><ex>ა</ex><abbr>თა</abbr></expan></w> 
+                    <w lemma="მისაგებელ"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ს</abbr><ex>ა</ex><abbr>გებელი</abbr></expan></w> 
+                    <w lemma="მიგება"><expan><abbr>მ</abbr><ex>ო</ex><abbr>მ</abbr><ex>ა</ex><abbr>გ</abbr><ex>ო</ex><abbr>ს</abbr></expan></w> 
+                    <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
+                    და 
+                    <w lemma="ჩემ"><expan><abbr>ჩე</abbr><ex>მის</ex><abbr>ა</abbr></expan></w> 
+                    <w lemma="გუარ"><expan><abbr>გ</abbr><ex>უა</ex><abbr>რისა</abbr></expan></w> 
+                    <w lemma="კაც"><expan><abbr>კ</abbr><ex>ა</ex><abbr>ცი</abbr></expan></w> 
+                    <w lemma="აღარავინ">აღარავინ</w>
+                    <w lemma="ყოფა">იყოს</w> 
+                    <w lemma="თქუენ"><expan><abbr>თქ</abbr><ex>უე</ex><abbr>ნ</abbr></expan></w> 
+                    <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტე</ex><abbr>ს</abbr></expan></w>
+                    <w lemma="მოყუარე"><expan><abbr>მ</abbr><ex>ო</ex><abbr>ყ</abbr><ex>უა</ex><abbr>რ</abbr><ex>ე</ex><abbr>ნო</abbr></expan></w>
+                <lb n="6"/>და 
+                    <w lemma="მსგავს"><expan><abbr>მზგ</abbr><ex>ა</ex><abbr>ვსნო</abbr></expan></w>჻
+                    <w lemma="მამა"><expan><abbr>მ</abbr><ex>ამანო</ex></expan></w>
+                    <w lemma="წინამძღუარ"><expan><abbr>წ</abbr><ex>ინამძღუარნო</ex></expan></w> 
+                    და 
+                    <w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოველ</ex><abbr>ნოვე</abbr></expan></w> 
+                    <w lemma="ძმა"><expan><abbr>ძმ</abbr><ex>ა</ex><abbr>ნო</abbr></expan></w>
+                    <w lemma="ვინცა">ვინცა</w> 
+                    <w lemma="პატრონ"><expan><abbr>პ</abbr><ex>ა</ex><abbr>ტრ</abbr><ex>ო</ex><abbr>ნისა</abbr></expan></w> 
+                    <name nymRef="ავაგ"><expan><abbr>ავ</abbr><ex>ა</ex><abbr>გ</abbr></expan></name> 
+                    <roleName nymRef="ათაბაგ"><expan><abbr>ათ</abbr><ex>ა</ex><abbr>ბ</abbr><ex>ა</ex><abbr>გისა</abbr></expan></roleName> 
+                    <w lemma="სამწირველო"><expan><abbr>სამწირვ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ო</ex><abbr>სა</abbr></expan></w> 
+                    <w lemma="მე"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მგნით</abbr></expan></w> 
+                    <w lemma="აღშენებულ"><expan><abbr>აღშ</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>უ</ex><abbr>ლსა</abbr></expan></w> 
+                    <w lemma="ზედა"><expan><abbr>ზ</abbr><ex>ედ</ex><abbr>ა</abbr></expan></w> 
+                    <w lemma="ღირს-ყოფა"><expan><abbr>ღირსყ</abbr><ex>ო</ex><abbr>ს</abbr></expan></w>
+                    <w lemma="ღირსება">აღირ
+                <lb n="7" break="no"/>სოთ</w>
+                    <w lemma="პირველ"><expan><abbr>პ</abbr><ex>ირვე</ex><abbr>ლ</abbr></expan></w> 
+                    <w lemma="პატრონ"><expan><abbr>პ</abbr><ex>ა</ex><abbr>ტრ</abbr><ex>ო</ex><abbr>ნთა</abbr></expan></w> 
+                    და
+                    <w lemma="თქუენ"><expan><abbr>თქ</abbr><ex>უე</ex><abbr>ნ</abbr></expan></w> 
+                    <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ემ</ex><abbr>იცა</abbr></expan></w> 
+                    <w lemma="სული"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლი</abbr></expan></w>
+                    <w lemma="იგი"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ნვე</abbr></expan></w> 
+                    <w lemma="დაურვება">იოჳრვოს</w> 
+                    <w lemma="დაუკლებელ"><expan><abbr>დაოჳკლ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> 
+                    <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ემი</ex><abbr>თა</abbr></expan></w> 
+                    <w lemma="ჴელ"><expan><abbr>ჴ</abbr><ex>ე</ex><abbr>ლითა</abbr></expan></w> 
+                    და 
+                    <w lemma="ძმისწულ"><expan><abbr>ძმისწ</abbr><ex>უ</ex><abbr>ლისა</abbr></expan></w>
+                    <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ემ</ex><abbr>ისა</abbr></expan></w> 
+                    <name nymRef="ილარიონ"><expan><abbr>ილ</abbr><ex>ა</ex><abbr>რ</abbr><ex>იო</ex><abbr>ნისითა</abbr></expan></name> 
+                    <w lemma="აშენება"><expan><abbr>აგჳშ</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბია</abbr></expan></w>
+                    და 
+                    <w lemma="არავინ">არა
+                <lb n="8" break="no"/>ვინ</w> 
+                    <w lemma="მართლება"><expan><abbr>გოჳჱმ</abbr><ex>ა</ex><abbr>რთლ</abbr><ex>ე</ex><abbr>ბის</abbr></expan></w> 
+                    <w lemma="უჴსენებელ"><expan><abbr>ოჳჴს</abbr><ex>ე</ex><abbr>ნებლ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w>჻
+                    <w lemma="ესე">ესე</w> 
+                    <w lemma="მე"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მგნით</abbr></expan></w> 
+                    <w lemma="გაჩენა"><expan><abbr>გ</abbr><ex>ა</ex><abbr>ნჩ</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ი</ex><abbr>ლი</abbr></expan></w> 
+                    <w lemma="ანუ">ანოჳ</w> 
+                    <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნისა</abbr></expan></w>
+                    <w lemma="გუარ">გოჳარისა</w> 
+                    <w lemma="კაც"><expan><abbr>კ</abbr><ex>ა</ex><abbr>ცმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
+                    <w lemma="ანუ">ანოჳ</w> 
+                    <w lemma="ვინ">ვინ</w> 
+                    <w lemma="სხუა"><expan><abbr>სხ</abbr><ex>უა</ex><abbr>ჲ</abbr></expan></w> 
+                    <w lemma="შემოსვლა"><expan><abbr>შ</abbr><ex>ე</ex><abbr>მ</abbr><ex>ო</ex><abbr>ვიდეს</abbr></expan></w> 
+                    და 
+                    <w lemma="დაკლება">დააკ
+                <lb n="9" break="no"/>ლოს</w> 
+                    და 
+                    <w lemma="შეცვლა"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ცვ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ს</abbr></expan></w> 
+                    <w lemma="შეცვლა"><expan><abbr>შ</abbr><ex>ე</ex><abbr>მცაიცვლ</abbr><ex>ე</ex><abbr>ბის</abbr></expan></w>
+                    <w lemma="შჯულ"><expan><abbr>შჯ</abbr><ex>უ</ex><abbr>ლის</abbr><ex>ა</ex><abbr>გ</abbr><ex>ა</ex>ნ</expan></w> 
+                    <w lemma="ქრისტეან"><expan><abbr>ქ</abbr><ex>რისტეა</ex><abbr>ნთ</abbr><ex>ა</ex><abbr>ჲსა</abbr></expan></w>
+                    და 
+                    <w lemma="ცოდვა"><expan><abbr>ც</abbr><ex>ო</ex><abbr>დვ</abbr><ex>ა</ex><abbr>თა</abbr></expan></w> 
+                    <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მთა</abbr></expan></w> 
+                    <w lemma="პასუხ"><expan><abbr>პ</abbr><ex>ა</ex><abbr>ს</abbr><ex>უ</ex><abbr>ხი</abbr></expan></w> 
+                    <w lemma="იგი"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
+                <lb n="10"/><w lemma="გაცემა">გასცეს</w> 
+                    <w lemma="წინაშე"><expan><abbr>წ</abbr><ex>ინაშ</ex><abbr>ე</abbr></expan></w> 
+                    <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთის</ex><abbr>ა</abbr></expan></w>
+                 </ab>
+               </div>
+              
+            <div type="apparatus" xml:space="preserve">
+                                
+             <listApp>
+                 <app loc="1"> 
+                    <lem resp="ზაზა ალექსიძე"><expan>ეგ<ex>ო</ex>ჳტ<ex>ე</ex>რისა</expan></lem>
+                    <rdg resp="ექვთიმე თაყაიშვილი">ეგუტრისა</rdg>
+                     <rdg resp="პ. მურადიანი">ეგჳტრისა</rdg>
+                 </app>    
+                    
+                 <app loc="2"> 
+                    <lem resp="ზაზა ალექსიძე"><expan>სადი<ex>დე</ex>ბ<ex>ე</ex>ლ<ex>ა</ex>დ</expan></lem>
+                    <rdg resp="ექვთიმე თაყაიშვილი, ლეონ მელიქსეთ-ბეგი"><expan>სადი<ex>დე</ex>ბლ<ex>ა</ex>დ</expan></rdg>
+                  </app> 
+                 
+                 <app loc="2"> 
+                    <lem resp="ზაზა ალექსიძე"><expan>გ<ex>ა</ex>მზრდ<ex>ე</ex>ლთა</expan></lem>
+                    <rdg resp="ლეონ მელიქსეთ-ბეგი"><expan>გ<ex>ა</ex>მზდ<ex>ე</ex>ლთა</expan></rdg>
+                  </app> 
+                 
+                 <app loc="3"> 
+                    <lem resp="ზაზა ალექსიძე"><expan>ღ<ex>მ</ex>თი<ex>ს</ex>ა</expan></lem>
+                    <rdg resp="ექვთიმე თაყაიშვილი">ღირსთა</rdg>
+                    <rdg resp="ლეონ მელიქსეთ-ბეგი">თავთა</rdg>
+                     <rdg resp="პ. მურადიანი">ღირსთათა</rdg>
+                  </app> 
+                 
+                 <app loc="3"> 
+                    <lem resp="ზაზა ალექსიძე"><expan>ჩ<ex>უენ</ex>თა</expan></lem>
+                    <rdg resp="ექვთიმე თაყაიშვილი, პ. მურადიანი"><expan>ჩ<ex>ემ</ex>თა</expan></rdg>
+                  </app> 
+                 
+                 <app loc="3"> 
+                    <lem resp="ზაზა ალექსიძე"><expan>ს<ex>ა</ex>მლ<ex>ო</ex>ცვ<ex>ე</ex>ლ<ex>ო</ex>დ</expan></lem>
+                    <rdg resp="პ. მურადიანი"><expan>ს<ex>ა</ex>მლ<ex>ო</ex>ცვ<ex>ე</ex>ლ<ex>ა</ex>დ</expan></rdg>
+                  </app> 
+                 
+                  <app loc="3"> 
+                    <lem resp="ზაზა ალექსიძე"><expan>ს<ex>ა</ex>ლ<ex>ო</ex>ცვ<ex>ე</ex>ლსახს<ex>ე</ex>ნ<ex>ე</ex>ბ<ex>ე</ex>ლ<ex>ა</ex>დ</expan></lem>
+                    <rdg resp="ექვთიმე თაყაიშვილი, ლეონ მელიქსეთ-ბეგი, პ. მურადიანი"><expan>ს<ex>ა</ex>ლ<ex>ო</ex>ცვ<ex>ე</ex>ლსახს<ex>ე</ex>ნ<ex>ე</ex>ბლ<ex>ა</ex>დ</expan></rdg>
+                  </app> 
+                 
+                 <app loc="3"> 
+                    <lem resp="ზაზა ალექსიძე"><expan>გ<ex>ა</ex>ნვ<ex>ი</ex>ჩინე</expan></lem>
+                    <rdg resp="პ. მურადიანი"><expan>გ<ex>ა</ex>ნვ<ex>ა</ex>ჩინე</expan></rdg>
+                  </app> 
+                 
+                 <app loc="4"> 
+                    <lem resp="ზაზა ალექსიძე"><expan>ჟამ<ex>სა</ex></expan></lem>
+                    <rdg resp="ექვთიმე თაყაიშვილი, ლეონ მელიქსეთ-ბეგი">წესითა</rdg>
+                    <rdg resp="პ. მურადიანი"><expan>ჟამ<ex>ი</ex></expan></rdg>
+                  </app> 
+                 
+                 <app loc="4"> 
+                    <lem resp="ზაზა ალექსიძე"><expan>მიწ<ex>ი</ex>რვ<ex>ე</ex>ბდ<ex>ე</ex>ს</expan></lem>
+                    <rdg resp="პ. მურადიანი">წირვებოდეს</rdg>
+                  </app> 
+                 
+                    <app loc="5"> 
+                    <lem resp="ზაზა ალექსიძე"><expan>ოჳკ<ex>უე</ex>თოჳ</expan></lem>
+                    <rdg resp="ექვთიმე თაყაიშვილი"><expan>ოჳკ<ex>ე</ex>თოჳ</expan></rdg>
+                  </app>
+                 
+                 <app loc="5"> 
+                    <lem resp="ზაზა ალექსიძე"><expan>ჩ<ex>ემ</ex>თა</expan></lem>
+                    <rdg resp="ლეონ მელიქსეთ-ბეგი"><expan>ჩ<ex>უენ</ex>თა</expan></rdg>
+                  </app>
+                 
+                 <app loc="5"> 
+                    <lem resp="ზაზა ალექსიძე"><expan>მ<ex>ი</ex>ს<ex>ა</ex>გებელი</expan></lem>
+                    <rdg resp="ექვთიმე თაყაიშვილი">მისაგელი</rdg>
+                  </app>
+                 
+                 <app loc="5"> 
+                    <lem resp="ზაზა ალექსიძე"><expan><abbr><am><g type="chi-rho"></g></am></abbr>ქ<ex>რისტე</ex>ს</expan></lem>
+                    <rdg resp="პ. მურადიანი">ქრისტს</rdg>
+                  </app> 
+                 
+                  <app loc="6"> 
+                    <lem resp="ზაზა ალექსიძე"><expan>წ<ex>ინამძღუარნო</ex></expan></lem>
+                    <rdg resp="ექვთიმე თაყაიშვილი, ლეონ მელიქსეთ-ბეგი, პ. მურადიანი"><expan>წ<ex>მიდანო</ex></expan></rdg>
+                  </app> 
+                 
+                 <app loc="6"> 
+                    <lem resp="ზაზა ალექსიძე"><expan>ყ<ex>ოველ</ex>ნოვე</expan></lem>
+                    <rdg resp="ლეონ მელიქსეთ-ბეგი">ყოველნო</rdg>
+                  </app>
+                 
+                  <app loc="6"> 
+                    <lem resp="ზაზა ალექსიძე"><expan>ღირსყ<ex>ო</ex>ს</expan></lem>
+                    <rdg resp="ლეონ მელიქსეთ-ბეგი, პ. მურადიანი"><expan>ღირს<supplied reason="lost">ი</supplied>ყ<ex>ო</ex>ს</expan></rdg>
+                  </app>
+                 
+                 <app loc="7"> 
+                    <lem resp="ზაზა ალექსიძე"><expan>თქ<ex>უე</ex>ნ</expan></lem>
+                    <rdg resp="ლეონ მელიქსეთ-ბეგი">თქუენცა</rdg>
+                  </app>
+                 
+                   <app loc="7,8"> 
+                    <lem resp="ზაზა ალექსიძე">არა<lb n="8" break="no"/>ვინ</lem>
+                    <rdg resp="ლეონ მელიქსეთ-ბეგი">არვინ</rdg>
+                  </app>
+                 
+                 <app loc="8"> 
+                    <lem resp="ზაზა ალექსიძე"><expan>ჩ<ex>უე</ex>ნისა</expan></lem>
+                    <rdg resp="ექვთიმე თაყაიშვილი, ლეონ მელიქსეთ-ბეგი">ჩემისა</rdg>
+                   </app> 
+                 
+                 <app loc="10"> 
+                    <lem resp="ზაზა ალექსიძე">გასცეს</lem>
+                    <rdg resp="ექვთიმე თაყაიშვილი">აგოს</rdg>
+                   </app> 
+                 
+                </listApp>    
+            </div>
+            
+         <div type="translation" xml:lang="ka">
+             <p> † მე, უღირსი და სულითა საწყალობელი წინამძღვარი პეტრე, ღირსი გავხდი ამ ეგვტერის აშენებისა წმიდათა მოციქულთა სახელზე, 
+                 სადიდებელად მათდა და პირველ პატრონთა და გამზრდელთა, ღმრთისა ჩუენთა სამლოცველოდ. ჩემი სულის სალოცველ-საჴსენებელად 
+                 განვაჩინე ათორმეტთა მოციქულთა დღესასწაულის მეორე დღე. ვინც ჩემი გვარის კაცი იყოს, მისი ძალისაებრ ძმათა გამიჴსენებდეს 
+                 და ჟამს მიწირვებდეს და მე თქუენს ლოცვებში მომიჴსენებდეთ. ხოლო თუ ჩემთა ცოდვათა მისაგებელი მომაგო ღმერთმა 
+                 და ჩემი გვარის კაცი აღარავინ იყოს, თქუენ, ქრისტესმოყუარენო და მსგავსნო მამანო, წინამძღუარნო და ყოველნო ძმანო, ვინც ჩემ მიერ აშენებულ
+                 პატრონ ავაგ ათაბაგის სამწირველოს ზედა ღირს-იყოთ და აღირსოთ პირველ პატრონთა, ჩემი სულიც იურვეთ დაუკლებელად. 
+                 ჩემი და ჩემი ძმისწულის, ილარიონის, ჴელით აგჳშენებია და არავინ გუჱმართლების უჴსენებლობასა. ესე ჩემ მიერ განჩენილი გინდ ჩუენისა გვარისა კაცმან,
+                 გინდ ვინმე სხვა მოვიდეს და დააკლოს და შეცვალოს, შე-მცა-იცვლების შჯულისაგან ქრისტეანეთაჲსა და ცოდვათა ჩემთა პასუხი მან აგოს უფლის წინაშე.</p>
+         </div>    
+                             
+                
+            <div type="commentary">
+                <p> პეტრე წინამძღვრის ეს წარწერა ზაზა ალექსიძისათვის გახდა გასაღები ლუვრის წარწერის გასაშიფრად. მკვლევარი მიიჩნევს, რომ
+                    ეს ორი წარწერა, ლუვრისა და ახტალის, მოთავსებული იყო ერთმანეთის გვერდით, ჯერ პეტრეს წარწერა, ბალავრის თავზე, შემდეგ კი ილარიონის, 
+                    მის გასწვრივ. ამ მოსაზრებას ამყარებს წარწერების პალეოგრაფიული ერთგვაროვნებაც.</p>                
+            </div>
+        </body>
+    </text>
+</TEI>

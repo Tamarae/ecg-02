@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ჭყონდიდის სანათლავის საამშენებლო წარწერა, 996 წ.</title>
+                <editor>ვალერი სილოგავა</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG915</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                           ჭყონდიდი
+                        </collection>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/416">სანათლავი</objectType>
+                                   </support>
+                                   </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                    <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                    </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა.
+                                   <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+
+                           <origin>
+                                <origPlace>ჭყონდიდი</origPlace>
+                                <origDate>996</origDate>
+                            </origin>
+
+                        <provenance type="found" when="1937">
+                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">ჭყონდიდი</placeName>
+                            <!--  -->
+                            <rs type="monuList">ჭყონდიდი</rs>
+                            <rs type="circumstances"></rs>
+                            <rs type="context"/>
+                        </provenance>
+
+                        <provenance type="not-observed" subtype="destroyed">
+                            <placeName type="modernSpot"></placeName>
+                             <idno type="invNo"/>
+                        </provenance>
+
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <!--
+
+    <facsimile>
+        <surface>
+            <graphic url="tskise_01.jpg">
+                <desc xml:lang="ka">წყისეს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+
+    -->
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
+
+                        <!-- [† ადიდენ ღმერთმან ბაგრატ] მეფჱ აფხაზთა [და ქართველთა, ორთავე შინ]ა ცხ(ო)რ(ე)ბ(ა)თა აღაშენა წ(მიდა)ჲ ესე სანათლა[ვი]
+                        დ(ა)ს[აბამი]თგ(ა)ნ[თ]ა წ(ე)ლთა [ხ]ქ ქრ(ონი)კ(ონ)სა სივ-->
+
+
+                 <ab>
+                     &#8224; <supplied reason="lost"><w lemma="ადიდებს">ადიდენ</w></supplied>
+                     <supplied reason="lost"><w lemma="ღმერთ">ღმერთმან</w></supplied>
+                     <supplied reason="lost"><persName type="ka" ref="ruler.xml#bagrat3"><name nymRef="ბაგრატ III">ბაგრატ</name></persName></supplied>
+                     <roleName nymRef="მეფე">მეფჱ</roleName>
+                     <placeName type="ethnic" nymRef="აფხაზ">აფხაზთა</placeName>
+                     <supplied reason="lost">და</supplied>
+                     <supplied reason="lost"><name type="ethnic" nymRef="ქართველ">ქართველთა</name></supplied>
+                     <supplied reason="lost"><w lemma="ორ">ორთავე</w></supplied>
+                     <w lemma="შინა"><supplied reason="lost">შინ</supplied>ა</w>
+                     <w lemma="ცხორება"><expan><abbr>ცხ</abbr><ex>ო</ex><abbr>რ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ა</ex><abbr>თა</abbr></expan></w>
+                     <w lemma="აღაშენა">აღაშენა</w>
+                     <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ჲ</abbr></expan></w>
+                     <w lemma="ესე">ესე</w>
+                     <w lemma="სანათლავ">სანათლა<supplied reason="lost">ვი</supplied></w>
+                     <rs type="date"><w lemma="დასაბამითგან"><expan><abbr>დ</abbr><ex>ა</ex><abbr>ს</abbr><supplied reason="lost">აბამი</supplied><abbr>თგ</abbr><ex>ა</ex><abbr>ნ</abbr><supplied reason="lost">თ</supplied><abbr>ა</abbr></expan></w>
+                     <w lemma="წელ"><expan><abbr>წ</abbr><ex>ე</ex><abbr>ლთა</abbr></expan></w>
+                     <num value="966"><supplied reason="lost">ხ</supplied>ქ</num></rs>
+                     <rs type="date"><w lemma="ქრონიკონ"><expan><abbr>ქრ</abbr><ex>ონი</ex><abbr>კ</abbr><ex>ონ</ex><abbr>სა</abbr></expan></w>
+                     <num value="966">სივ</num></rs>
+                 </ab>
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="ka">
+                <p/>
+            </div>
+
+           <div type="apparatus" xml:space="preserve"/>
+
+            <div type="commentary"> <!-- კომენტარი მთლიანად -->
+                <p>ვ. სილოგავა: სანათლავის საამშენებლო წარწერა <ptr target="ECG916.xml"/>კალატოზ მიქაელ ოპიზარის წარწერასთან ერთად დაიღუპა XIXს-ის შუა ხანებში (1850 წ.) ტაძრის შეკეთების და მისი ფასადების ხელახალი, ზოგიერთ ადგილას ნაწილობრივი,
+                მოპირკეთების დროს.</p>
+            </div>
+
+            <div type="bibliography">
+                
+                     <p><bibl n="1">ვალერი სილოგავა, სამეგრელო-აფხაზეთის ქართული ეპიგრაფიკა <ptr target="bibliography.xml#b119"/>, <citedRange>49-51</citedRange></bibl></p>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

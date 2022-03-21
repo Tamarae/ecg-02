@@ -3,15 +3,51 @@
     padding: 20px 60px;
 } */
 /* table */
-.large-12.columns {
+.large-12.columns, .inline-container {
     padding: 0px 60px;
 }
-.large-12.columns p {
+p.inline-container {
+  background-color: #f9f9f9;
+  padding-bottom: 30px;
+}
+.tei.notes {
+    margin: 0 -60px;
+    padding: 0 60px;
     background-color: #f9f9f9;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+}
+.inline-container a {
+  color: #020cfd;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: opacity .3s;
+}
+main a {
+  color: #020cfd;
+  cursor: pointer;
+  transition: opacity .3s;
+}
+main a:hover,
+.inline-container a:hover {
+    opacity: 0.4;
+    color: #020cfd;
+}
+.tei.notes ul {
+    max-width: 600px;
+}
+.row.bibliography {
+  margin-bottom: 100px;
+}
+.row.bibliography li {
+    line-height: 30px;
+}
+.row.bibliography ul {
+    list-style-type: none;
 }
 table {
-    margin-bottom: 1.25em;
+  width: 100%;
+  margin-top: 20px;
+    margin-bottom: 100px;
     border: solid 1px transparent;
 }
 table thead  {
@@ -20,11 +56,14 @@ table thead  {
 thead {
    border-bottom: 2px solid #888;
 }
-thead .header {
+thead .header,
+thead {
    line-height: 2rem;
+   padding: 15px 20px;
 }
-table tbody tr td, table tr td {
-   padding: 15px 16px;
+table tbody tr td, table tr td,
+table thead tr th {
+   padding: 15px 20px;
    line-height: 1.8rem;
 }
 

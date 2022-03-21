@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ყარსის ციხის ქართული წარწერა</title>
+                <editor xml:lang="ka">ვალერი სილოგავა</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG382</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ყარსი</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="5">წარწერა ხუთსტრიქონიანია და მოთავსებულია შიდაციხის (ციტადელის) შესასვლელის ერთ-ერთი კოშკის კედელის
+                                        ორ ფილაზე. I ფილაზე ერთი სტრიქონია, მასზე მთლიანად
+                                        წარწერის თარიღია მოცემული, ხოლო II ფილაზე 4 სტრიქონია
+                                        <dimensions unit="cm">
+                                         <width></width>
+                                         <height></height> 
+                                          </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა, ოდნავ <rs type="execution">კიდურწაისრული</rs> ასოებით.  
+                                პირველ ერთსტრიქონიან ფილაზე ასოები მეორე ფილის ასოებთან შედარებით მოზრდილია. თუმცა შემსრულებელი ერთი უნდა იყოს
+                                   <height></height>
+                                  </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ყარსის ციხე, თურქეთი</origPlace>
+                                 <origDate evidence="internal-date" precision="high" datingMethod="#julian">1238 AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">ყარსის ციხე, თურქეთი</placeName>
+                                <!-- "40.613425, 43.090391"--> 
+                                <rs type="circumstances"> </rs>
+                                <rs type="context"></rs>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">წარწერა ყარსის ციხეზე დღეს აღარ არსებობს</placeName>
+                                <idno></idno>
+                            </provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg382.jpg">
+                <desc xml:lang="ka">ყარსის ციხის ქართული წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>  
+    <text>
+        <body>  
+            <div type="bibliography">
+                
+     <p><bibl n="1">ვალერი სილოგავა, ყარსის ციხის ერთი ქართული წარწერა<ptr target="bibliography.xml#b144"/>, <citedRange> 161-174</citedRange></bibl></p>
+              
+            </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--"ქკსა: ჳ:ნ:ჰ:
+                            ※ მე კარისა: ამირამან: რავ
+                            მალამ: ა[ღ]ვაშენე [:კოშკ]ი: ესე: მ
+                            ეფობა[სა:] როსო[დ]ა[ნი]ს[ს]ა [:]
+                            წელსა: მეფო[ობისა: მათისა: ი: ვ:]"--> 
+                                                            
+                <ab>
+                   <lb n="1"/><rs type="date"><w lemma="ქრონიკონ"><expan><abbr>ქ</abbr><ex>რონი</ex><abbr>კ</abbr><ex>ონ</ex><abbr>სა</abbr></expan></w> 
+                            <num value="458">ჳნჰ</num></rs>
+                   <lb n="2"/>※ <w lemma="მე">მე</w> 
+                             <w lemma="კარ">კარისა</w> 
+                            <roleName nymRef="ამირა">ამირამან</roleName> 
+                            <persName type="local" key="ამირა რავმალა [ყარსის ციხის მაშენებელი]">რავ                                
+                   <lb n="3" break="no"/>მალამ</persName> 
+                            <w lemma="აღშენება">ა<supplied reason="lost">ღ</supplied>ვაშენე</w> 
+                            <w lemma="კოშკ"><supplied reason="lost">კოშკ</supplied>ი</w> 
+                                <w lemma="ესე">ესე</w> 
+                                <w lemma="მეფობა">მ                             
+                   <lb n="4" break="no"/>ეფობა<supplied reason="lost">სა</supplied></w> 
+                                <persName type="local" key="რუსუდან დედოფალი" ref="https://en.wikipedia.org/wiki/Rusudan_of_Georgia"><expan><abbr>რო</abbr><ex>ჳ</ex><abbr>სო</abbr><ex>ჳ</ex><supplied reason="lost"><abbr>დ</abbr></supplied><abbr>ა</abbr><supplied reason="lost">ნი</supplied><abbr>ს</abbr><supplied reason="lost"><abbr>ს</abbr></supplied><abbr>ა</abbr></expan></persName> 
+                   <lb n="5"/><w lemma="წელ">წელსა</w> 
+                                <w lemma="მეფობა">მეფო<supplied reason="lost">ობისა</supplied></w>
+                                <w lemma="მათი">მათისა</w> 
+                               <num value="16">ივ</num>                  
+                </ab>
+               </div>
+            
+              <div type="apparatus" xml:space="preserve">
+        
+             <listApp>
+                 <app loc="1"> 
+                    <lem resp="ვალერი სილოგავა"><num value="458">ჳნჰ</num></lem>
+                    <rdg resp="ექვთიმე თაყაიშვილი">ჳნზ</rdg>
+                 </app> 
+                 
+                 <app loc="2"> 
+                    <lem resp="ვალერი სილოგავა">※</lem>
+                    <rdg resp="ექვთიმე თაყაიშვილი">></rdg>
+                     <rdg resp="დიმიტრი ბაქრაძე">...</rdg>
+                 </app> 
+                 
+                 <app loc="2"> 
+                    <lem resp="ვალერი სილოგავა">მე კარისა</lem>
+                    <rdg resp="დიმიტრი ბაქრაძე">მიკარისა</rdg>
+                  </app>
+                 
+                 <app loc="2-3"> 
+                    <lem resp="ვალერი სილოგავა">რავმალამ</lem>
+                    <rdg resp="ექვთიმე თაყაიშვილი">რაჲრალამ</rdg>
+                     <rdg resp="დიმიტრი ბაქრაძე">რაჲრაზამ</rdg>
+                  </app>
+                 
+                  <app loc="3"> 
+                    <lem resp="ვალერი სილოგავა">ა<supplied reason="lost">ღ</supplied>ვაშენე</lem>
+                    <rdg resp="ექვთიმე თაყაიშვილი, დიმიტრი ბაქრაძე">აღვშნე</rdg>
+                  </app>
+                 
+                 <app loc="3"> 
+                    <lem resp="ვალერი სილოგავა"><supplied reason="lost">კოშკ</supplied>ი ესე</lem>
+                    <rdg resp="ექვთიმე თაყაიშვილი, დიმიტრი ბაქრაძე">></rdg>
+                  </app>
+                 
+                  <app loc="4"> 
+                    <lem resp="ვალერი სილოგავა"><expan>რო<ex>ჳ</ex>სო<ex>ჳ</ex><supplied reason="lost">დ</supplied>ა<supplied reason="lost">ნი</supplied>ს<supplied reason="lost">ს</supplied>ა</expan></lem>
+                    <rdg resp="ექვთიმე თაყაიშვილი">რსდნ</rdg>
+                     <rdg resp="დიმიტრი ბაქრაძე">რსნ</rdg>
+                  </app>
+                 
+                 <app loc="5"> 
+                    <lem resp="ვალერი სილოგავა">მეფო<supplied reason="lost">ობისა</supplied> მათისა</lem>
+                    <rdg resp="ექვთიმე თაყაიშვილი, დიმიტრი ბაქრაძე">მეფ...</rdg>
+                  </app>
+                 </listApp>
+        </div>
+            
+         <div type="translation" xml:lang="ka">
+             <p>ქრონიკონსა 458, ※ მე, კარის ამირა რავმალამ ავაშენე ეს კოშკი რუსუდანის მეფობის მე-16 წელს. </p>
+         </div>    
+                             
+               <div type="commentary">
+                <p> წარწერაში განკვეთილობის ნიშნად ყოველი სიტყვის შემდგომ დასმულია ორწერტილი. ქარაგმის ნიშნად გამოყენებულია კიდურწაისრული განივი სწორი ხაზი.  
+                    ყარსის ციხის წარწერის ფრაგმენტული ტექსტი პირველად გამოსცა ვენეციელმა მხითარისტმა ნერსეს სარგისიანმა ჟურნალ „ბაზმავეპში“. ამ ჟურნალში 1863-1864 წწ.
+                გამოქვეყნდა მისი „დიდი და მცირე სომხეთის აღწერა“, რომელიც შეიცავს ავტორის მიერ 1843-1853 წწ. მოგზაურობის დროს შეკრებილი მასალების პუბლიკაციას. „აღწერა“
+                1864 წელს გამოქვეყნდა ცალკე წიგნადაც ვენეციაში (Ն. Սարգիսեան, Տեղագրութիւնք ի փոքր եւ ի մեծ Հայս, Վենետիկ, 1864,  103). 
+                ნერსეს სარგისიანის პუბლიკაციის მიხედვით, ფრაგმენტული წარწერის ქართული ტექსტი ფრანგული თარგმანით 1861 წელს გამოსცა მ. ბროსემ (M. Brosset, 
+                Inscriptions Géorgiennes et autres recueillies par le Père Nersès Sargisian, MAIS, t. VIII, N10, SPb., 1864,  21). 1881 წლის 23 ივლისს,
+                როგორც მისი საველე დღიურიდან ჩანს, წარწერა ადგილზე შეუსწავლია დ. ბაქარაძეს (კ. კეკელიძის სახელობის საქართველოს ხელნაწერთა ეროვნული ცენტრი, 
+                დ. ბაქრაძის პირადი საარქივო ფონდი, N32, 50v). იმავე წელს მან გამოაქვეყნა ცნობა ყარსის ქართულ წარწერებზე და მათ შორის
+                ამ წარწერის შესახებაც, ხოლო თვით წარწერის ტექსტი არ გამოუცია (Д. Бакрадзе, Историко-этнографический очерк Карсской области, ИКОИРГО, т. VIII, 1881, N1 202).
+                1909 წელს წარწერის ფრაგმენტული ტექსტი, მაგრამ ამ დროისათვის არსებულ პუბლიკაციებთან შედარებით მაინც უფრო შევსებული სახით გამოაქვეყნა ე. თაყაიშვილმა 
+                MAK, XII, 1909, XI). მისივე აღნიშვნით, მან ეს პუბლიკაცია მოამზადა დ. ბაქრაძის დღიურში
+                დაცული ტექსტისა და „პოდატნოი ინსპექტორის“ დავით ვასილის ძე ქუთათელაძის მიერ მისთვის გადაცემული წარწერის ტექსტის გადმოწერის მიხედვით. 
+                ამგვარად, ამჟამად არსებობს წარწერის ტექსტის ოთხი გამოცემა (ნ. სარგისიანისა - 2, მ. ბროსესი და ე. თაყაიშვილის) და ერთი 
+                გადმონაწერი (დ. ბაქრაძისა). ვალერი სილოგავას გამოცემა ნ. სარგისიანის გამოცემასა და დ. ბაქრაძის გადმოწერას ემყარება. აგრეთვე წარწერის ფოტოს, რომელიც 1875 
+                წელს ო.ა. ქურქჩიანციმ გადაიღო. ეს ფოტო აღმოჩნდა ს. ჯანაშიას სახელობის საქართველოს სახელმწიფო მუზეუმის ეთნოგრაფიის განყოფილებაში, ებგ. ვეიდენბაუმის კუთვნილი ძველი 
+                ფოტოსურათების ფონდში. სამწუხაროდ, წარწერა დღეს უკვე აღარ არსებობს.
+                იმ ადგილას, სადაც წარწერაში ქრონიკონია გადმოცემული, ჳ:ნ:ჰ:, ჰ-ში ნაგულისხმევია ჱ (780+458=1238). მსგავსი შემთხვევები სხვა წარწერებში დასტურდება, 
+                მაგალითად, ანისის 1218 წლის წარწერაში, რომელიც წარმოადგენს ეტიფანე კათალიკოსის განჩინებას ანისის მრევლისადმი 
+                (Н.Я. Марр, Надпись Епифания, католикоса Грузии, ИИАН, 1910, N17,  1433-1442) და შაჰნავაზის 1670 წლის ჭედურ წარწერაში ოქონის 
+                ჯვარცმის ხატის ბუდის კარებზე (MAK, XII, 1909,  130). ბოლო სტრიქონზე ვალერი სილოგავამ აღადგინა რიცხვი ივ (16),
+                რაც გულისხმობს რუსუდანის მეფობის მე-16 წელს. წარწერის პირველი სტრიქონიდან ვიცით, რომ კოშკი
+                ამირამ აღაშენა 1238 წელს. ცნობილია, რომ რუსუდანი გამეფდა 1222 წელს გიორგი ლაშას გარდაცვალებისათანავე.
+                მაშასადამე, თუ რუსუდანი 1222 წელს გამეფდა, 1238 წელს იქნებოდა მისი მეფობის ივ (მე-16) წელი. </p>                
+            </div>
+        </body>
+    </text>
+</TEI>

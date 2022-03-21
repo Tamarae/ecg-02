@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">აგარის (ურვალის) თეოდორეს წარწერა</title>
+                <title xml:lang="en">Agara (Urvali) inscription of Theodore</title>
+                <editor xml:lang="ka">ვალერი სილოგავა</editor>
+                <editor xml:lang="en">Valeri Silogava</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG083</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>აგარა (ურვალი)</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო</seg>
+                            <seg xml:lang="en">Building</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">Facade</objectType>
+                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>   
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>   
+                                      <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="11">
+                                        <seg xml:lang="ka">წარწერა თერთმეტსტრიქონიანია.
+                                         ეკლესიის აღმოსავლეთ ფასადის ცენტრალური სარკმლის ზემოთ ჩასმულია ფილა, რომელზედაც წარმოდგენილია რელიეფური კომპოზიცია - მთელი ტანით გამოსახული
+                                ქტიტორი ეკლესიის მოდელით ხელში ვედრების პოზით მიმართულია ფილის მარჯვენა ნაწილში გამოსახული მაცხოვრისაკენ. მაცხოვარი წარმოდგენილია მთელი ტანით,
+                                ტახტზე მჯდომარე, მაღლა შემართული მარჯვენით, რომლითაც იგი კურთხევის ნიშნად ეხება ეკლესიის მოდელს. ფილის მარჯვენა მხარეს, ქტიტორის უკან, დატოვებულია
+                                განიერი არშია (სიგანე - 17 სმ), რომელზედაც ამოკვეთილია წარწერა. ბოლო სტრიქონი, არშიის გარეთ, გრძელდება ქვემოთ, ფილის მთელ სიგანზე.</seg>
+                                        <seg xml:lang="en">Eleven line inscription. On the east facade of the church above the central window there is the embedded plaque with the embossed figure of the ktetor of the church holding the model of a church in his hand. His figure is turned towards the figure of the Savior on the right side of the plaque. The Savior is represented with his full body sitting on a throne raising his right hand. As a sign of a blessing he touches his hand to the model of the church. The inscription is carved on the right side of the plaque behind the ktetor on a margin (of the size of 17 cm). The last line is exceeding the margin till the entire length of the plaque. </seg>
+                                        <dimensions unit="cm">
+                                         <width/>
+                                         <height/> 
+                                          </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <seg xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა, კიდურწერტილოვანი, ლამაზი, თანაბარასოიანი</seg>
+                                <seg xml:lang="en">Engraved Asomtavruli inscription. Dotted on the edges, with equal letters.</seg>
+                                   <height/> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>
+                                    <seg xml:lang="ka">აგარის (ურვალის) ეკლესია</seg>
+                                    <seg xml:lang="en">Agara (Urvali) church</seg>
+                                </origPlace>
+                                <origDate notBefore-custom="900" notAfter-custom="1000" 
+                                    evidence="context" datingMethod="#julian">X AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">
+                                    <seg xml:lang="ka">აგარის (ურვალის) ეკლესია</seg>
+                                    <seg xml:lang="en">Agara (Urvali) church</seg>
+                                </placeName>
+                                <!-- "41.559454, 43.077875"--> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"></rs>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">
+                                    <seg xml:lang="ka">აგარის (ურვალის) ეკლესია</seg>
+                                    <seg xml:lang="en">Agara (Urvali) church</seg>
+                                </placeName>
+                                <idno type="invNo"/>
+                            </provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg083.jpg">
+                <desc xml:lang="ka">აგარა (ურვალის)</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile> 
+    <text>
+        <body>    
+            <div type="bibliography">
+             
+         <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
+         <p><bibl n="2">ვალერი სილოგავა, სამხრეთ საქართველოს წარწერების შესწავლა ხელნაწერთა ინსტიტუტის ეპიგრაფიკული ექსპედიციის მიერ<ptr target="bibliography.xml#b148"/>, <citedRange> 273-274</citedRange></bibl></p>
+              
+               </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--  სხლითა 
+                              ღჲთა მე
+                        თე აღვა
+                        შნე ესე
+                        სტოაჲ
+                        სლცვლდ
+                        ამისად
+                        გ[ლ]ისა ოა
+                        თდთჳს ღნ
+                        აკხნდა
+                        ყნიშვილ[ნ]ი ამის ეკლ[ესსანი შნ]--> 
+                
+                <ab>
+                   <lb n="1"/><w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლითა</abbr></expan></w> 
+                   <lb n="2"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთისა</ex><abbr>ჲთა</abbr></expan></w> 
+                            <w lemma="მე">მე</w>    
+                    <lb n="3"/><persName type="local" key="თეოდორე [აგარის მაშენებელი]"><name nymRef="თეოდორე"><expan><abbr>თ</abbr><ex>ეოდორ</ex><abbr>ე</abbr></expan></name></persName> 
+                            <w lemma="აღშენება"><expan><abbr>აღვა
+                    <lb n="4" break="no"/>შ</abbr><ex>ე</ex><abbr>ნე</abbr></expan></w> 
+                            <w lemma="ესე">ესე</w>
+                    <lb n="5"/><w lemma="სტოა">სტოაჲ</w>
+                    <lb n="6"/><w lemma="სალოცველ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ცვ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
+                    <lb n="7"/><w lemma="ესე">ამის</w>
+                             <w lemma="ადგილ"><expan><abbr>ად
+                    <lb n="8" break="no"/>გ</abbr><ex>ი</ex><supplied reason="lost"><abbr>ლ</abbr></supplied><abbr>ისა</abbr></expan></w> 
+                            <w lemma="უფალ"><expan><abbr>ო</abbr><ex>ჳფლის</ex><abbr>ა</abbr></expan></w>
+                    <lb n="9"/><persName type="local" key="თეოდორე [აგარის მაშენებელი]"><name nymRef="თეოდორე"><expan><abbr>თ</abbr><ex>ეო</ex><abbr>დ</abbr><ex>ორესა</ex><abbr>თჳს</abbr></expan></name></persName> 
+                                <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
+                    <lb n="10"/><w lemma="კურთხევა"><expan><abbr>აკ</abbr><ex>ურთ</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w>
+                                და
+                    <lb n="11"/><w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოველ</ex><abbr>ნი</abbr></expan></w> 
+                                <w lemma="შვილ">შვილ<supplied reason="lost">ნ</supplied>ი</w> 
+                                <w lemma="ესე">ამის</w> 
+                                <w lemma="ეკლესია"><expan><abbr>ეკლ</abbr><supplied reason="lost"><abbr>ესი</abbr><ex>ი</ex><abbr>სანი</abbr></supplied></expan></w> 
+                                <w lemma="შეიწყალე"><expan><abbr>შ</abbr><ex>ეიწყალე</ex><abbr>ნ</abbr></expan></w>
+                </ab>
+               </div>
+              
+            
+         <div type="translation">
+             <p xml:lang="ka">ღვთის სახელით მე, თეოდორემ, ავაშენე ეს სტოა ამ ადგილის სალოცველად უფლისა თეოდორესათვის, ღმერთმა
+           აკურთხოს და ამ ეკლესიის ყოველი შვილი შეიწყალე, [უფალო].</p>
+             <p xml:lang="en">In the name of God, I, Theodore built this stoa in this place to pray to God for Theodore, God bless and have mercy on everybody who are the children of this church [Oh, God].</p>
+         </div>    
+                             
+                
+            <div type="commentary">
+                <p xml:lang="ka">ურავლის აგარაში მოზრდილი სამონასტრო კომპლექსი ყოფილა, შემორჩენილ ნაგებობათაგან მნიშვნელოვანია ორი - ეკლესია და 
+                                სატრაპეზო. ორივეზე მოიპოვება ასომთავრული საამშენებლო წარწერები. ეკლესიის წარწერა X საუკუნისაა, ხოლო სატრაპეზოსი - XI საუკუნისა.
+                                აგარის ეკლესიის წარწერის მიხედვით, სხვა წყაროებით უცნობ ვინმე თეოდორეს აუშენებია სტოა - ეკლესიის გარშემოსავლელი. ვალერი სილოგავას აზრით, ვინაიდან წარწერიანი ფილა
+                ეკლესიის აღმოსავლეთის ფასადის სარკმლის ზემოთაა ჩასმული (იგი მისი ზედა და ქვემო ჭრილით კარგად არის მორგებული სარკმლის ღიობს, 
+                თუმცა აცდენილია სიგანით ღიობის ორივე მხარეს აყოლილ ორნამენტს), ხოლო ტაძრის გარშემო სტოა არსად ჩანს, აშკარაა, რომ იგი თავდაპირველ ადგილას არ ზის და აქ მეორედ 
+                გამოყენების შედეგად არის მოხვედრილი. ფილაზე, მარცხნივ, წარმოდგენილია ქტიტორი, მთელი ტანით, ოდნავ მარცხნივ მიბრუნებით და ეკლესიის მოდელით ხელში,
+                რომელსაც მიართმევს მარჯვნივ გამოსახულ მაცხოვარს. მაცხოვარს მაკურთხებელი მარჯვენა დარბაზული ეკლესიის სახურავზე აქვს შეხებული.
+                ვალერი სილოგავას აზრით, ეს წარწერა X საუკუნის იმ რელიეფების ჯგუფში თავსდება (ოპიზა, ბრეძა, ახაშენი, ოშკი, ჯოისუბანი, ქოროღლო, ფეთობანი, კვაისა-ჯვარი...),
+                რომლებზედაც წარმოდგენილია ქტიტორების გამოსახულება ეკლესიის მოდელით ხელში. 
+                ასეთი კომპოზიცია დამახასიათებელია სწორედ აღნიშნული დროის ქართული საეკლესიო სკულპტურისათვის.</p>          
+                <p xml:lang="en">Two buildings - a church and bell-tower are preserved from the Monastery of Agara in Urvali. Both of the buildings have the Asomtavruli inscriptions. The church can be dated to the X c and the bell-tower to XI c. According to the inscription of Agara church a person named Theodore whose identity is unknown from any other source had built this stoa - the entrance of the church. Valeri Silogava considers that the stoa has been reused as the plaque with the inscriptions is embedded along the window of the east facade (the plaque fits well to the cut of window from its up and down sides, but with its width does not suit well the ornament along the window) and there in no other stoa in the surroundings of the church. On the left part of the plaque there is the figure of the ktetor with his full body. His figure is turned to the left and he is holding the model of a church in his hand. He dedicates the church to the Savior. The Savior touches the roof of the model of the hall church with his right hand. Valeri Silogava states that this inscription follows to the X century tendency of embossed figures representing the ktetor of the church with the model of a church in their hands (in Opiza, Bredza, Akhasheni, Oshki, Joisubani, Koroghlu, Phetobani, Kvaisa - Jvari…). This artistic style is characteristic to the religious sculptures of this period of Georgia.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

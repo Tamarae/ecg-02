@@ -1,0 +1,35 @@
+[INFO ] 2022-01-03 18:03:38,471 [main] Logback logging API implementation is configured.
+[INFO ] 2022-01-03 18:03:38,785 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 624 ms
+[INFO ] 2022-01-03 18:11:30,501 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 18:20:49,365 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 18:24:52,073 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 18:25:50,226 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 18:25:58,164 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 18:26:54,530 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 18:28:39,297 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 18:29:34,973 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 18:31:09,424 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 18:32:02,008 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 18:32:20,478 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 19:23:17,973 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 19:23:20,418 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 19:24:06,983 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 19:26:19,011 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 19:26:22,621 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 19:29:30,661 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 19:29:35,900 [Thread-1] Closing org.springframework.web.context.support.XmlWebApplicationContext@6b7961a1: display name [WebApplicationContext for namespace 'openrdf-http-server-servlet']; startup date [Mon Jan 03 18:03:38 GET 2022]; root of context hierarchy
+[INFO ] 2022-01-03 19:29:35,904 [Thread-1] Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@21a9a01d: defining beans [messageSource,adunaAppVersion,adunaAppConfig,adunaWebappNavigation,adunaWebappCommonValuesInserter,adunaWebappMessageInserter,adunaWebappNavigationInserter,filenameViewController,viewResolver,adunaWebappSystemUrlMapping,adunaWebappSystemOverviewController,adunaWebappLoggingOverviewController,adunaWebappSystemInfoController,openrdfRepositoryManager,scopedTarget.openrdfRepositoryInterceptor,openrdfRepositoryInterceptor,openrdfProtocolUrlMapping,openrdfRepositoryListUrlMapping,openrdfRepositoryUrlMapping,openrdfServerHomeUrlMapping,openrdfHandlerExceptionResolver,openrdfProtocolController,openrdfRepositoryListController,openrdfRepositoryController,openrdfRepositoryContextsController,openrdfRepositoryNamespacesController,openrdfRepositoryNamespaceController,openrdfRepositorySizeController,openrdfRepositoryStatementsController,openrdfRepositoryGraphController]; root of factory hierarchy
+[INFO ] 2022-01-03 19:29:49,754 [main] Logback logging API implementation is configured.
+[INFO ] 2022-01-03 19:29:50,255 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 1129 ms
+[INFO ] 2022-01-03 19:30:01,188 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 19:30:33,748 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 19:31:10,685 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 19:31:24,463 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 19:32:31,996 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 19:56:33,157 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 19:56:54,660 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 19:57:38,761 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 19:57:45,686 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 20:12:18,097 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 20:12:33,576 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln
+[INFO ] 2022-01-03 20:19:07,697 [repositories/kiln] Client sent bad request (404): Unknown repository: kiln

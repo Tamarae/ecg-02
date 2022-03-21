@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ვანის ბერძნული წარწერა (III)</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG331</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                           ვანი
+                        </collection>
+                    </msIdentifier>                   
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka"></seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>   
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/416">კედელი</objectType>
+                                   </support>
+                                   </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        ვანის ნაქალაქარის კარიბჭის ძირითად კედელზე მიშენებული პატარა წარმართული სამლოცველოს სამხრეთ კედელზე, მხოლოდ გარედან, ზემოდან ΙΙ ქვაზე, სულ 
+                                        კიდეზე, ძირიდან 143 სმ-ზე, 14 სმ-ის სიგრძეზე ჩანს ბერძნული ასოების კვალი.
+                                    <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                <height unit="cm" precision="medium"></height>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ვანის ნაქალაქარი</origPlace>
+                                <origDate evidence="lettering" datingMethod="#julian"></origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863918">ვანი</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                     
+                            <provenance type="observed">
+                            <placeName type="modernSpot">ვანის ნაქალაქარი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg331.jpg">
+                <desc xml:lang="ka">სამლოცველოს სამხრეთი კედელი ვანის კარიბჭესთან</desc>
+                <desc xml:lang="en">Southern chapel wall near the city gate of Vani </desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 149</citedRange></bibl></p>
+                
+            </div>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!-- 
+                                 +Α+.. Ρ... ΡΛ                                -->
+                     
+
+         <ab>
+              <unclear>+Α+.. Ρ... ΡΛ </unclear>
+         </ab>    
+             
+         
+            </div>
+            
+                
+            <div type="translation" xml:lang="ka">
+                <p></p></div>
+            
+           <div type="apparatus" xml:space="preserve">
+              <head>კრიტიკული აპარატი</head>
+               <p><app>
+               <rdg></rdg>
+               </app></p>
+             </div>
+           
+            <div type="commentary">
+                <p>ცალკეული ასოების მიხედვით ვერ ხერხდება წარწერის აღდგენა. ასოთა მოხაზულობის მიხედვით თუ ვანის ნაქალაქარის კარიბჭესთან აღმოჩენილი წარწერების თანადროული არ არის, 
+                უშუალოდ მომდევნო ხანით უნდა დათარიღდეს.</p>
+                            </div>
+        </body>
+    </text>
+</TEI>
+
+
+
+

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.0/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.0/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ახალციხის ებრაული ეპიტაფია (N5)</title>
+                <editor>ნისიან ბაბალიკაშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG1024</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                <msIdentifier>
+                        <collection>
+                           ახალციხე
+                        </collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">ეპიტფია</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/131"></material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/147"></objectType>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        
+                                    <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth>
+                                    </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                <height unit="cm"></height>
+
+                                  </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ახალციხე</origPlace>
+                                <origDate></origDate>
+                              </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/857034">ახალციხე</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                        
+                            <provenance>
+                            <placeName type="modernSpot"></placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+     <!-- 
+    
+        
+    <facsimile>
+        <surface>
+            <graphic url="tskise_01.jpg">
+                <desc xml:lang="ka">წყისეს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    -->
+    <text>
+        <body>
+            <div type="bibliography">
+                 
+                    <p><bibl>
+                        <author>
+                          <persName>
+                            <forename>ნისან</forename>
+                            <surname>ბაბალიკაშვილი</surname>
+                          </persName>
+                      </author>
+                      <title level="m" type="main">ებრაული ეპიგრაფიკული ძეგლები საქართველოში</title>
+ (საკანდიდატო დისერტაცია). თბილისი. 1971
+                     </bibl></p>
+                
+            </div>
+            <div type="edition" xml:lang="he" xml:space="preserve">
+                
+                        <!-- 
+                                אשת 
+                                חיל מי ימצ''          ימצ'' - ימצ'' /א/ 
+                                ורחוק מפני''         מפני'' – מפנינים
+                                 מכרה וזה 
+                                 על קבור מרת        קבור" - קבור" /ת/
+                                 האשה כשר"           צ''ל: הכשר/ה/
+                                 שמחה בת
+                                 יצחק ש''  לש''        ש''  לש'' –  ש''/נפטר/   לש''/נת/
+                                 ה''ת''ק''ב''ן'' לחוד''       לחוד'' - לחוד''/ש/
+                                 תשרי יום ג כ''
+                                 בו והיתה מ'' ך''      מ'' ך'' -  מ''/נוחתו/ כ''/בוד/  
+                                 תנצבה ליציר''      תנצבה – תהי נפשו צרורה בצרור החיים.
+
+                        -->
+
+                     <ab>
+                            <lb n="1"/>אשת 
+                            <lb n="2"/>חיל מי ימצ''          ימצ'' - ימצ'' /א/ 
+                            <lb n="3"/>ורחוק מפני''         מפני'' – מפנינים
+                            <lb n="4"/>מכרה וזה 
+                            <lb n="5"/>על קבור מרת        קבור" - קבור" /ת/
+                            <lb n="6"/>האשה כשר"           צ''ל: הכשר/ה/
+                            <lb n="7"/>שמחה בת
+                            <lb n="8"/>יצחק ש''  לש''        ש''  לש'' –  ש''/נפטר/   לש''/נת/
+                             <lb n="9"/>ה''ת''ק''ב''ן'' לחוד''       לחוד'' - לחוד''/ש/
+                             <lb n="10"/>תשרי יום ג כ''
+                             <lb n="11"/>בו והיתה מ'' ך''      מ'' ך'' -  מ''/נוחתו/ כ''/בוד/  
+                             <lb n="12"/>תנצבה ליציר''      תנצבה – תהי נפשו צרורה בצרור החיים.
+
+
+                     </ab>    
+             
+         
+            </div>
+                
+            <div type="translation" xml:lang="ka">
+                <p>1. ʾšt 
+2. ḥyl my ymṣ - ymṣ/ʾ/
+3. wrḥwq mpny - mpnynym
+4. mkrh wzh
+5. ʻl qbwr mrt – qbwr/t/
+6. hʾšh kšr – hkšr/h/
+7. śmḥh bt
+8. yṣḥq š lš – š/npṭr lš/nt/
+9. htqbn lḥwd - lḥwdš
+10. tšry ywm g k
+11. bw whyth mx  - mx – m/nwḥtw k/bwd/  
+12. tnṣbh lyṣyr - tnṣbh – thy npšw ṣrwrh bṣrwr hḥyym
+
+1. Жену 
+2. благонравную кто найде/т/ ?
+3. Выше жемчуг/ов/
+4. цена ее. А это - /памятник/
+5. на могил/е/ госпожи,
+6. благочестивой женщины 
+7. Симхи, дочери
+8. Исаака, которая /скончалась/ го/да/
+9. 5526, месяца
+10. тишри /в/ день 3-ий /т. е.  Вторник/ 20- го
+11. числа /т. е. 5 октября 1765 г., но не во вторник, а в среду/ Да будет по/кой ее/ с/лавою/.
+12. Да б/удет/ д/уша ее/ з/авязана/ в узел жизни. Сотворени/я/.
+</p>
+
+            </div>
+            
+           <div type="apparatus" xml:space="preserve">  
+            </div>
+           
+            <div type="commentary">
+                <p></p>
+            </div>
+         </body>
+    </text>
+</TEI>

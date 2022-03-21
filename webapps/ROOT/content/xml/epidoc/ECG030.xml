@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">მცხეთის ჯვრის მოსახსენებელი თემისტიასი</title>
+                <title xml:lang="en">Jvari Monastery, Memorial of Temistias</title>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <editor xml:lang="en">Nodar Shoshiashvili</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+              <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG030</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                   <msIdentifier>
+                        <collection>მცხეთა</collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en">Memorial</seg>
+                        </summary>
+                    </msContents> 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local Stone</material>
+                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">Facade</objectType>
+                                <dimensions unit="cm">
+                                        <width>126</width>
+                                         <height>52</height>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="6"> 
+                                        <seg xml:lang="ka">წარწერა ექვსტრიქონიანია. იგი ამოღარულია ჯვრის ტაძრის სამხრეთ-დასავლეთის ფრთის კარის თავზე (შიგნიდან) ჩადგმულ ფილაზე და
+                                       დაუზიანებლად არის მოღწეული.</seg>
+                                        <seg xml:lang="en"></seg>
+                                        <dimensions unit="cm">
+                                        <width>107</width>
+                                        <height>36</height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                               <seg xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა.</seg>
+                                <seg xml:lang="en"></seg>
+                                   <height/>
+                                 </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>
+                                    <seg xml:lang="ka">ჯვრის მონასტერი, მცხეთა</seg>
+                                    <seg xml:lang="en">Jvari Monastery, Mtskheta</seg>
+                                </origPlace>
+                                <origDate notBefore-custom="0595" notAfter-custom="0605" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">595-605 AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863840">
+                                    <seg xml:lang="ka">ჯვრის მონასტერი, მცხეთა</seg>
+                                    <seg xml:lang="en">Jvari Monastery, Mtskheta</seg>
+                                </placeName> 
+                                <!--  "41.838634, 44.734011"-->
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                            <provenance type="observed">
+                            <placeName type="modernSpot">
+                                    <seg xml:lang="ka">ჯვრის მონასტერი, მცხეთა</seg>
+                                    <seg xml:lang="en">Jvari Monastery, Mtskheta</seg>
+                            </placeName>
+                            <idno/>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+      <revisionDesc><change when="2019-11-06" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+           ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+        
+    <facsimile>
+        <surface>
+            <graphic url="ecg030.jpg">
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/31/">მცხეთის ჯვრის მოსახსენებელი თემისტიასი</desc>
+                <desc xml:lang="en" ref="http://paleography.iliauni.edu.ge/digipal/page/31/">Jvari Monastery, Memorial of Temistias</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+        
+    <text>
+        <body>
+            <div type="bibliography">
+                 
+             <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი<ptr target="bibliography.xml#b101"/>, <citedRange> 165-166</citedRange></bibl></p>
+             <p><bibl n="2">А. Натроев, Мцхета и его собор Светицховели<ptr target="bibliography.xml#b35"/>, <citedRange>19</citedRange></bibl></p>        
+             <p><bibl n="3">ჯაჭვის წმ. ჯვრის მონასტერი<ptr target="bibliography.xml#b118"/>, <citedRange> 24</citedRange></bibl></p>
+             <p><bibl n="4">ექვთიმე თაყაიშვილი, ჯვრის მონასტრის წარწერები<ptr target="bibliography.xml#b71"/></bibl></p> 
+             <p><bibl n="5">აკაკი შანიძე, ძველი ქართულის ქრესტომათია<ptr target="bibliography.xml#b59"/></bibl></p>
+             <p><bibl n="6">Н. Г. Чубинашвили, Памятники типа Джвари<ptr target="bibliography.xml#b47"/>, <citedRange>75</citedRange></bibl></p>        
+             <p><bibl n="7">ივ. ჯავახიშვილი, ქართული დამწერლობათამცოდნეობა, ანუ პალეოგრაფია<ptr target="bibliography.xml#b87"/>, <citedRange> 162-163</citedRange></bibl></p>        
+             <p><bibl n="8">M. Tarchnišvili, Les récentes découverstes épigraphiques et litteraires en géorgien<ptr target="bibliography.xml#b24"/>, <citedRange>252</citedRange></bibl></p>    
+             <p><bibl n="9">I. Molitor, MIA CSCO<ptr target="bibliography.xml#b15"/></bibl></p>                  
+         
+            </div>         
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--  „წყალობითა ღჲთა და შეწევნ[ი]
+                            ითა ჯუარისაჲთა მე თემისტია მჴ
+                            ევალმან ქჱსმან, აღვაშჱნე საყო
+                            ფელი ესე საჴსენებელად სულისა 
+                            ჩემისა თავყანისაცემელად დე
+                            დათა“.  -->
+                <ab>
+                   <lb n="1"/><w lemma="წყალობა">წყალობითა</w> 
+                            <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთისა</ex><abbr>ჲთა</abbr></expan></w> 
+                             და <w lemma="შეწევნა">შეწევნ<supplied reason="lost">ი</supplied>
+                    <lb n="2" break="no"/>თა</w> 
+                            <w lemma="ჯუარ">ჯუარისაჲთა</w><w lemma="მე">მე</w> 
+                            <persName type="local" key="თემისტია"><name nymRef="თემისტია">თემისტია</name></persName> 
+                            <w lemma="მხევალ">მჴ
+                    <lb n="3" break="no"/>ევალმან</w> 
+                            <w lemma="ქრისტჱ"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ჱსმან</abbr></expan></w> 
+                            <w lemma="აშენება">აღვაშჱნე</w> 
+                                <w lemma="საყოფელ">საყო
+                    <lb n="4" break="no"/>ფელი</w> 
+                                <w lemma="ესე">ესე</w> 
+                                <w lemma="სახსენებელ">საჴსენებელად</w> 
+                                <w lemma="სულ">სულისა</w> 
+                    <lb n="5"/> <w lemma="ჩემი">ჩემისა</w> 
+                                <w lemma="თაყვანისცემა">თავყანისაცემელად</w> 
+                                <w lemma="დედა">დე
+                    <lb n="6" break="no"/>დათა</w>
+                </ab>
+             
+            </div>
+                
+            <div type="translation" >
+                <p xml:lang="ka">ღვთის წყალობით და ჯვრის დახმარებით მე, თემისტიამ, ქრისტეს მონა-ქალმა, ავაშენე ეს სამყოფელი მონაზონ ქალთა სალოცავად, ჩემი სულის მოსახსენებელად.</p>
+                <p xml:lang="en">With the mercy of God and aid of the holy cross, I, Temistia, servant of Christ, built this chamber for the prayers of the nuns, as a memorial of my soul.</p>
+            </div>
+            
+            <div type="apparatus" xml:space="preserve"/>
+            
+            <div type="commentary">
+                <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #72. ივანე ჯავახიშვილის აზრით, წარწერა VI საუკუნის ბოლოს მიეკუთვნება. მისივე აზრით, 
+                    წარწერის სიძველის დასტური პალეოგრაფიული თვალსაზრისით არის Ⴗ გრაფემის თავშეკრულობა.</p>
+                <p xml:lang="en">
+                    According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #72. Iv. Javakhishvili considers the inscription to be dated to the end of the VI century. He specifies that the paleographic data proves the early origins of the inscription: the head of the grapheme Ⴗ is closed. 
+                </p>
+            </div>
+                   
+         </body>
+    </text>
+</TEI>

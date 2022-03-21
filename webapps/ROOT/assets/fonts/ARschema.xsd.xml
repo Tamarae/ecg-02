@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- VERSION: 2012-09-17
+    AUTHOR: Joel Kalvesmaki
+    NAME: ARschema.xml
+    DESCRIPTION: Schema for AR.xml, the master database of characters in Athena Ruby.
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="athenaruby">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="glyph"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="glyph">
+    <xs:annotation><xs:documentation>A glyph in Athena Ruby 1.17</xs:documentation></xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="index"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="unicode"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ligature"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="pua"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="variant"/>
+        <xs:element ref="prodname"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="postname"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="legacyfonts"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="symbolclass"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="description"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="example"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="comment"/>
+      </xs:sequence>
+      <xs:attribute ref="use-seals" use="required"/>
+      <xs:attribute ref="use-coins" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="index" type="xs:string"/>
+  <xs:element name="unicode">
+    <xs:complexType mixed="true">
+      <xs:attribute ref="cp"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pua">
+    <xs:complexType mixed="true">
+      <xs:attribute ref="cp"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="variant">
+    <xs:complexType mixed="true">
+      <xs:attribute ref="cv"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ligature">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ligatureelement"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ligatureelement">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="unicode"/>
+      </xs:sequence>
+      <xs:attribute ref="sequence"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="prodname" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>The prodname (production name) is a mnemonic name assigned by the type
+        designer for development in FontLab and VOLT.</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="postname" type="xs:string">
+    <xs:annotation>
+      <xs:documentation> The postname is a name written to the post table of the font. These names
+        are parsed by Acrobat in PDFs that have been distilled from print streams. Such PDFs do no
+        contain the Unicode character strings of the original document, so Acrobat needs to rely on
+        parseable glyph names in order to try to reconstruct the character strings to make the PDF
+        searchable. The postnames in Athena Ruby reflect the preferred encoding of the font. For
+        example, in a document that originally contained lowercase Greek letters, the Acrobat name
+        parsing would produce uppercase mappings, the preferred Athena Ruby encoding. A postname of
+        ??????? indicates a candidate for inclusion in the Unicode standard. </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="legacyfonts">
+    <xs:annotation>
+      <xs:documentation>Mapped correspondence to older, pre-Unicode fonts created at Dumbarton Oaks.
+        Some legacy glyphs may seem incorrectly assigned. Assignments are made first semantically
+        and then by appearance. If the designer's intent is ambiguous or vague, we try to anticipate
+        how users might have used the glyph. The older fonts were in places haphazardly fashioned
+        and used, and not all glyphs in the legacy fonts have been identified as having been used in
+        a publication. This issue affects CoinInscr and Grierson.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="athena"/>
+        <xs:element ref="athena8"/>
+        <xs:element ref="coinart"/>
+        <xs:element ref="coininscr"/>
+        <xs:element ref="coingreek"/>
+        <xs:element ref="grierson"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="athena">
+    <xs:complexType mixed="true">
+      <xs:attribute ref="cp"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="athena8">
+    <xs:complexType mixed="true">
+      <xs:attribute ref="cp"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="coinart">
+    <xs:complexType mixed="true">
+      <xs:attribute ref="cp"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="coininscr">
+    <xs:complexType mixed="true">
+      <xs:attribute ref="cp"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="coingreek">
+    <xs:complexType mixed="true">
+      <xs:attribute ref="cp"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="grierson">
+    <xs:complexType mixed="true">
+      <xs:attribute ref="cp"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="symbolclass" type="xs:string"/>
+  <xs:element name="description">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="postname"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="example">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="pub"/>
+        <xs:element ref="ref"/>
+        <xs:element ref="date"/>
+        <xs:element ref="examplenote"/>
+      </xs:choice>
+      <xs:attribute ref="ex-type"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pub" type="xs:string"/>
+  <xs:element name="ref" type="xs:string"/>
+  <xs:element name="date">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="attlist.date"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="examplenote" type="xs:string"/>
+  <xs:element name="comment">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ttnote"/>
+        <xs:element ref="example"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ttnote" type="xs:string"/>
+
+  <!-- attribute groups -->
+  <xs:attributeGroup name="attlist.date">
+    <xs:attribute name="notBefore" type="xs:gYear"/>
+    <xs:attribute name="notAfter" type="xs:gYear"/>
+    <xs:attribute name="precision" type="xs:string"/>
+  </xs:attributeGroup>
+
+  <!-- attributes -->
+  <xs:attribute name="sequence" type="xs:integer"/>
+  <xs:attribute name="use-seals" default="unclassified">
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:enumeration value="unclassified"/>
+        <xs:enumeration value="unused"/>
+        <xs:enumeration value="basic"/>
+        <xs:enumeration value="extended"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="use-coins" default="unclassified">
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:enumeration value="unclassified"/>
+        <xs:enumeration value="unused"/>
+        <xs:enumeration value="basic"/>
+        <xs:enumeration value="extended"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="ex-type" type="xs:string"/>
+  <xs:attribute name="cp" type="xs:string"/>
+  <xs:attribute name="cv">
+    <xs:annotation>
+      <xs:documentation>OpenType character variant number (0-99)</xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:restriction base="xs:nonNegativeInteger">
+        <xs:maxInclusive value="99"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+</xs:schema>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI> xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ka">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ფრაგმენტი</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <idno type="filename">ECG208</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                    დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            დმანისი
+                        </collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectype>კრამიტის ფილა</objectype>
+                                <material ref="https://www.eagle-network.eu/voc/objtyp/lod/1402">ქვა</material>
+                                
+                            </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>წარწერა შესრულებულია სფეროკონუსის ფორმის კრამიტის ფილაზე</p>
+                                <dimesions unit="cm">
+                                    <height/>
+                                    <width/>
+                                    <depth/>
+                                </dimesions>
+                                </layout>
+                                
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>ნუსხური გრაფემა,ქარაგმისა და განკვეთილობის ნიშნების გარეშე</p>
+                                <dimensions unit="mm">
+                                    <height/>
+                                </dimensions>        
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>დმანისის ნაქალაქარი</origPlace>
+                            <origDate>IX-X AD</origDate>
+                        </origin>
+                        <provenance><placename>დმანისის ნაქალაქარის ტერიტორია, X ნაგებობის №2 ოთახი</placename>
+                        </provenance>
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <text><!-- 
+    1. ჯ შ ო
+     -->
+        
+        <body>
+            <div type="bibliography">
+                
+                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>99</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
+                
+                <p><bibl n="2">ჯ. კოპალიანი, წარწერიანი არქეოლოგიური მასალა დმანისის ნაქალაქარის შიდა ციხიდან, დმანისი, <cittedRange>79-80</cittedRange>, თბილისი, 1998<ptr target="bibliography.xml#b214"/></bibl></p>
+            </div>
+            
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+              
+                    <ab>
+                        <lb n="1"/> ჯ შ ო
+                        
+                        
+                    </ab>
+                 
+                
+            </div>
+            
+            <div type="translation">
+                <p/>
+                    
+                
+            </div>
+            <div type="commentary">
+                <p>აღმოჩნდა არქეოლოგიური გათხრებისას დმანისის ნაქალაქარის ტერიტორიაზე X ნაგებობის № 2 ოთახში. 
+                    დაზიანება: წარწერა სრულადაა მოღწეული.
+                    წარწერის დათარიღება წინა გამოცემაში: IX-X სს. 
+                    წარმოდგენილ გამოცემაში პალეოგრაფიული ნიშნების გათვალისწინებით, გაზიარებულია მოცემული დათარიღება. 
+                </p>
+            </div>
+
+        </body>
+    </text>
+</TEI>
+
+
+
+
+

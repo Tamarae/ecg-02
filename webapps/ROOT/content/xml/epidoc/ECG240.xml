@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">XI ს-ის II ნახ.-XII სს. წარწერის ფრაგმენტი</title>
+                <editor xml:lang="ka">გიორგი ოთხმეზური</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <idno type="filename">ECG240</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            დმანისი
+                        </collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">ფრაგმენტი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType/> 
+                                    <material xml:lang="ka" ref="https://www.eagle-network.eu/voc/material/lod/2">პერანგის ქვა</material>
+                                    <dimensions>
+                                        <width/>
+                                        <height/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="6">
+                                    შესრულებული იყო ეკლესიის პერანგის ქვაზე. 6 სტრიქონად. 
+                                    <dimensions unit="cm">
+                                        <width>43</width>
+                                        <height>41</height>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა, ქარაგმად გამოყენებულია სწორი მოგრძო ხაზი, განკვეთილობის ნიშანი არ ახლავს. 
+                                <dimensions unit="cm">
+                                    <height>3-5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>მიჯას (ჯავახის) ეკლესია</origPlace>
+                            <origDate notBefore="1050" notAfter="1200">XI-XII AD</origDate>
+                        </origin>
+                        <provenance type="observed">
+                            <placeName type="modernSpot">განთიადის XIX საუკუნის ეკლესია</placeName>
+                            <rs type="circumstances"/>
+                            <idno/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        
+        
+        
+    </teiHeader>
+    
+    <!-- 
+    
+        
+    <facsimile>
+        <surface>
+            <graphic url="tskise_01.jpg">
+                <desc xml:lang="ka">წყისეს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    -->
+    
+    <text>
+        <!--
+        1....[ხ](?)- - - ათომ...
+        2.... -ხთ მ(ა)მ(აჲ)ც აკ
+        3.[ურთხენ?]... ფ(?)ჱისხაგად...
+        4.... - ე - - - [სალო]ც(ველ)ად (?)...
+        5....[სალოცვ]ელად და... 
+        6....[ნა]ა.
+        -->
+        <body>
+            
+             <div type="bibliography">
+                
+                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>137-138</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
+             </div>
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+            <ab>
+                <lb n="1"/><orig n="unresolved"><supplied reason="lost" precision="low">ხ</supplied></orig>
+                           
+                           <orig n="unresolved">ათომ</orig> <gap reason="lost" extent="unknown" unit="character"/>
+                <lb n="2"/><orig n="unresolved">ხთ</orig>                       
+                           <w lemma="მამა"><expan><abbr>მ</abbr><ex>ა</ex><abbr>მ</abbr><ex>აჲ</ex><abbr>ც</abbr></expan></w> 
+                           <w lemma="კურთხევა">აკ
+                <lb n="3" break="no"/><supplied reason="lost" precision="low">ურთხენ</supplied></w>
+                          
+                           <w lemma=""><supplied reason="lost" precision="low">ფ</supplied>ჱისხაგად</w><gap reason="lost" extent="unknown" unit="character"/>
+                <lb n="4"/>
+                           <orig n="unresolved">ე</orig>
+                           
+                           <w lemma="ლოცვა"><expan><supplied reason="lost" precision="low"><abbr>სალო</abbr></supplied><abbr>ც</abbr><ex>ველ</ex><abbr>ად</abbr></expan></w>                                   
+                           
+                <lb n="5"/>
+                           <w lemma="ლოცვა"><supplied reason="lost" precision="medium">სალოცვ</supplied>ელად</w> 
+                           <w lemma="და">და</w> 
+                           
+                <lb n="6"/><orig n="unresolved"><supplied reason="lost" precision="medium">ნა</supplied>ა</orig>                           
+             </ab>
+             
+            </div>
+
+                <div type="translation"/>
+                
+                <div type="commentary">
+                     <p>მოგვიანებით სოფ. მიჯადან მოსახლეობა გადასახლებულა სოფ. განთიადში, სადაც
+                        წაუღიათ მიჯას ეკლესიის ეს და სხვა წარწერიანი ქვები და მე-19 საუკუნის
+                        ეკლესიის იატაკში ჩაუშენებიათ. დღეს მიჯას წარწერიანი ქვები განთიადის ეკლესიის
+                        იატაკიდან ამოლაგებულია და ეკლესიის ეზოში, ღია ცის ქვეშ აწყვია. 
+                        დაზიანება: წარწერიანი ქვა ბოლო რამდენიმე წელია ღია ცის ქვეშ დევს, რის გამოც გამოქარვისა
+                        და გადარეცხვის შედეგად, ისედაც დაზიანებული წარწერა კიდევ უფრო რთულად
+                        იკითხება. თავნაკლული. აკლია შუაშიც. 
+                        წარწერის დათარიღების საფუძველი: პალეოგრაფიულად თანადროული უნდა იყოს ივანე ლომსიანიძის წარწერისა</p>
+                </div>
+            
+           
+            
+        </body>
+    </text>
+</TEI>

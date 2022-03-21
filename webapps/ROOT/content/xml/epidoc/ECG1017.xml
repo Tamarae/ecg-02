@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.0/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.0/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ახალციხის ებრაული ეპიტფია I</title>
+                <editor>ნისიან ბაბალიკაშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG1017</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                <msIdentifier>
+                        <collection>
+                           ახალციხე
+                        </collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">ეპიტფია</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/131"></material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/147"></objectType>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        
+                                    <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth>
+                                    </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                <height unit="cm"></height>
+
+                                  </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ახალციხე</origPlace>
+                                <origDate></origDate>
+                              </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/857034">ახალციხე</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                        
+                            <provenance>
+                            <placeName type="modernSpot"></placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+     <!-- 
+    
+        
+    <facsimile>
+        <surface>
+            <graphic url="tskise_01.jpg">
+                <desc xml:lang="ka">წყისეს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    -->
+    <text>
+        <body>
+            <div type="bibliography">
+                 
+                    <p><bibl>
+                        <author>
+                          <persName>
+                            <forename>ნისან</forename>
+                            <surname>ბაბალიკაშვილი</surname>
+                          </persName>
+                      </author>
+                      <title level="m" type="main">ებრაული ეპიგრაფიკული ძეგლები საქართველოში</title>
+ (საკანდიდატო დისერტაცია). თბილისი. 1971
+                     </bibl></p>
+                
+            </div>
+            <div type="edition" xml:lang="he" xml:space="preserve">
+                
+                        <!-- טוב
+שם מש''[מן]
+טוב ויום
+המות
+מיום 
+הולדו
+                        -->
+
+                     <ab>
+                        <lb n="1"/>טוב
+                        <lb n="2"/>שם מש''[מן]
+                        <lb n="3"/>טוב ויום
+                        <lb n="4"/>המות
+                        <lb n="5"/>מיום 
+                        <lb n="6"/>הולדו
+                     </ab>    
+             
+         
+            </div>
+                
+            <div type="translation" xml:lang="ka">
+                <p>1. ṭwb
+                    2. šm mš [mn]
+                    3. ṭwb wywm
+                    4. hmwt
+                    5. mywm
+                    6. hwldw</p>
+
+            </div>
+            
+           <div type="apparatus" xml:space="preserve">  
+            </div>
+           
+            <div type="commentary">
+                <p></p>
+            </div>
+         </body>
+    </text>
+</TEI>
+
+
+
+

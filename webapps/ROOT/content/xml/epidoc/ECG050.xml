@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">პალესტინის წარწერა II</title>
+                <title xml:lang="en">Palestine inscription II</title>
+                <editor xml:lang="ka">გიორგი წერეთელი</editor>
+                <editor xml:lang="en">Giorgi Tsereteli</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG050</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>პალესტინა</collection>
+                    </msIdentifier> 
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en">Memorial</seg>
+                        </summary>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/134">მოზაიკა</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/134">Mosaic</material>
+                                   <objectType xml:lang="ka">იატაკი</objectType>
+                                    <objectType xml:lang="en">Floor</objectType>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="12"> 
+                                        <seg xml:lang="ka">წარწერა თორმეტსტრიქონიანია. პირველი რვა სტრიქონი შედარებით დაუზიანებლად არის მოღწეული, მეცხრე და მეათე სტიქონები მთლიანად დაზიანებულია, 
+                                            ხოლო მეთერთმეტე და მეთორმეტე - ნაწილობრივ დაზიანებული. იგი შესრულებულია ბეთლემის მონასტრის ეზოს მოზაიკის იატაკის დასავლეთ ნაწილში.</seg> 
+                                        <seg xml:lang="en">Twelve line inscription. First eight lines are preserved almost without any damage. The 9th and 10th lines are entirely damaged, 11th and 12th lines are partially damaged. The inscription is located on the floor of the Bethlehem monastery mosaic  in the west part of the yard.</seg>
+                                    <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                    </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="mosaic">
+                                <seg xml:lang="ka"><rs type="execution">მოზაიკური</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
+                                <seg xml:lang="en">Mosaic Asomtavruli inscription </seg>
+                                   <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>პალესტინა, იუდას უდაბნო, წმიდა თეოდორეს სახელობის ქართული მონასტერი</origPlace>
+                                <origDate notBefore-custom="0400" notAfter-custom="0430" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">V AD</origDate>
+                            </origin>
+                            <provenance type="found" when="1952">
+                                <placeName type ="ancientFindspot">პალესტინა, იუდას უდაბნო, წმიდა თეოდორეს სახელობის ქართული მონასტერი</placeName> 
+                                <!--  "31.667433, 35.166452"-->
+                                <rs type="circumstances">
+                                    <seg xml:lang="ka">1952-1953 წლებში იტალიელმა არქეოლოგმა, ვირჯილიო კორბომ, პალესტინაში, იუდას უდაბნოში, ბეთლემის მახლობლად, 
+                                    აღმოაჩინა ქართული მონასტრის ნანგრევები, სადაც მიაკვლიეს სამ ქართულ წარწერას.</seg>
+                                    <seg xml:lang="en">Palestine, Judaean Desert. Italian archeologist Virgilio Corbo discovered the ruins of the Georgian monastery named after St. Theodore near Bethlehem in the Judaean Desert, Palestine in 1952-1953 years. Three Georgian inscriptions were found in the ruins. </seg>
+                                </rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                           <provenance type="observed">
+                           <placeName type="modernSpot" ref="http://www.christusrex.org">
+                               <seg xml:lang="ka">იერუსალიმის ფრანცისკანელთა მუზეუმი (Studium Biblicum Franciscanum Museum)</seg>
+                                <seg xml:lang="en">Studium Biblicum Franciscanum Museum</seg>
+                           </placeName>
+                            <idno/>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+      <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+        
+    <facsimile>
+        <surface>
+            <graphic url="ecg50.jpg">
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/38/">პალესტინის წარწერა II</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+
+    <text>
+        <body>
+              <div type="bibliography">
+              
+                   <p><bibl n="1">გიორგი წერეთელი, უძველესი ქართული წარწერები პალესტინიდან<ptr target="bibliography.xml#b67"/>, <citedRange> 94</citedRange></bibl></p>
+                   <p><bibl n="2">კორნელი დანელია, ზურაბ სარჯველაძე, ქართული პალეოგრაფია<ptr target="bibliography.xml#b92"/>, <citedRange> 28-31</citedRange></bibl></p>
+                   <p><bibl n="3">Virjilio Corbo, M. Tarchnishvili, „La Terra Santa“<ptr target="bibliography.xml#b32"/>, <citedRange>181-186</citedRange></bibl></p>
+                  <p><bibl n="4">მიხეილ თარხნიშვილი, ახლად აღმოჩენილი ქართველთა მონასტერი ბეთლემში<ptr target="bibliography.xml#b96"/></bibl></p>
+                  <p><bibl n="5">Virjilio Corbo, Gli scavi di Kh. Siyar el-Ghanam (Campo dei Pastori) e i monasteri dei dintorni<ptr target="bibliography.xml#b30"/>, <citedRange>135-140</citedRange></bibl></p>
+              <p><bibl n="6">შალვა ნუცუბიძე, პალესტინის ახალი გათხრები და ქართული კულტურის საკითხები<ptr target="bibliography.xml#b117"/></bibl></p>
+              <p><bibl n="7">სიმონ ყაუხჩიშვილი, „ქართლის ცხოვრება“<ptr target="bibliography.xml#b109"/>, <citedRange> 061</citedRange></bibl></p> 
+              <p><bibl n="7">Besik Khurtsilava, About the old georgian inscriptions from Bir El-Qutt in Jerusalem<ptr target="bibliography.xml#b8"/></bibl></p>
+              
+                </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!-- და ძუძ
+                            ეულნი მ
+                            ათნი ბა
+                            კურ და
+                            გრიორმ
+                            იზდ და ნ
+                            აშობნი 
+                            მათნი, ქე                              
+                            შ ე ნ, 
+                            ამენ. -->
+
+                <ab>
+                   <lb n="1"/> და <w lemma="ძუძეულ">ძუძ
+                    <lb n="2" break="no"/>ეულნი</w> <w lemma="მათნი">მ
+                    <lb n="3" break="no"/>ათნი</w> 
+                            <persName type="local" key="ბაკურ [დიდი, იბერიელი]"><name nymRef="ბაკურ">ბა
+                    <lb n="4" break="no"/>კურ</name></persName> 
+                                და
+                    <lb n="5"/><persName type="local" key="გრიორმიზდ"><name nymRef="გრიორმიზდ">გრიორმ
+                    <lb n="6" break="no"/>იზდ</name></persName> 
+                            და <w lemma="ნაშობ">ნ
+                    <lb n="7"/>აშობნი</w>
+                    <lb n="8"/><w lemma="მათნი">მათნი</w> 
+                        <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
+                    <lb n="9"/><!--  <gap reason="lost" quantity="1" unit="line"></gap>-->
+                    <lb n="10"/><!--  <gap reason="lost" quantity="1" unit="line"></gap>-->
+                    <lb n="11"/><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ენ</abbr></expan>
+                    <lb n="12"/>ამენ
+                </ab>
+             
+            </div>
+                
+            <div type="translation">
+                <p  xml:lang="ka">და ძუძეულნი მათნი: ბაკურ და გრიორმიზდ და ნაშობნი მათნი, ქრისტე, შეიწყალე, ამენ.</p>
+                <p xml:lang="en">And their vassals: Bakur and Griormizd and their children, Christ, have mercy on them. Amen.</p>
+            </div>
+            
+            <div type="apparatus" xml:space="preserve"/>
+            
+            <div type="commentary">
+                <p xml:lang="ka">წარწერის პირველი პუბლიკაცია ეკუთვნის მიხეილ თარხნიშვილს. მან პალეოგრაფიული ნიშნებით ეს წარწერა VI საუკუნით დაათარიღა. 
+                    სიმონ ყაუხჩიშვილმა მიუთითა, რომ წარწერაში მოხსენიებული ბაკური პეტრე იბერის დედის მამის სახელი უნდა იყოს. 
+                    გიორგი წერეთელმა განსაკუთრებული ყურადღება მიაქცია პალესტინის წარწერებს. იგი მიიჩნევდა, რომ
+                წმიდა თეოდორეს სახელობის მონასტერი პეტრე იბერიელმა ააგო V საუკუნის 30-იან წლებში და მანვე შეამკო იგი ქართული წარწერებით, სადაც თვით მისი, 
+                მისი მამის და პაპის სახელებია მოხსენიებული. 
+               </p>
+                <p xml:lang="en">The inscription was first published by Mikheil Tarkhnishvili. He dated this inscription to the VI century according to the paleographic data. Simon Kaukhchishvili noted that the name Bakur from the inscription could be referring to the father of Peter the Iberian’s mother. Giorgi Tsereteli provided detailed analysis of the Palestine inscriptions and suggested that Peter the Iberian had built the St. Theodore Monastery in the 30s of the V century and embellished it with the Georgian inscriptions where he commemorates the names of himself, his father and his grandfather.</p>
+            </div>                   
+            
+         </body>
+    </text>
+</TEI>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ხეოთის ვაჩაჲს, გურაჲს და მირაჲს წარწერა</title>
+                <editor>ვალერი სილოგავა</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG107</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ხეოთი</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ნაცრისფერი ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width>87</width>
+                                        <height>52</height>
+                                        <depth>20</depth>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="4">წარწერა ოთხსტრიქონიანია
+                                        <dimensions unit="cm">
+                                         <width/>
+                                         <height/> 
+                                        </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli_n" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ნუსხურნარევი ასომთავრული</rs> წარწერა,
+                                    მკაფიო და ღრმა კვეთით, მოზრდილი ასოებით. მასში შერეულია ნუსხური ასოები: ო, ლ, უ
+                                   <height>3-7-8</height> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>სოფელ ხეოთის ნამონასტრალი</origPlace>
+                                <origDate notBefore-custom="900" notAfter-custom="1000"
+                                    evidence="lettering architectural context" precision="medium" datingMethod="#julian">X AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">სოფელ ხეოთის ნამონასტრალი</placeName>
+                                <!-- "41.549497, 43.108176"--> 
+                                <rs type="circumstances">1995-1996 წლებში არქეოლოგიური გათხრებისა და საკონსერვაციო სამუშაოების ჩატარების შედეგად აღმოჩნდა
+                                წარწერები ეკლესიის ნანგრევების შერჩენილი კედლების სხვადასხვა ქვაზე (9 მათგანი). ოთხი წარწერა სამრეკლოზე მანამდეც იყო ცნობილი,
+                                ორი გარეთ და ორიც მის შიგნით, ეკლესიის საკურთხეველში. როგორც ჩანს, XIV-XV საუკუნეებში სამრეკლოს აშენების დროს წარწერიანი ქვები 
+                                მეორედ გამოიყენეს და თვალსაჩინო ადგილას ჩასვეს - ეკლესიის საკურთხეველში, ერთადერთი სარკმლის ორივე მხარეს, ზედ ტრაპეზის ქვის გასწვრივ.
+                                1997 წლის მონაცემებით ვაჩაჲს, გურაჲს და მირაჲს წარწერის ფილა დევს სამრეკლოს დასავლეთ შესასვლელის მარცხნივ, იმპოსტზე, 
+                                პირით სამხრეთისაკენ.</rs>
+                                <rs type="context"></rs>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">სოფელ ხეოთის ნამონასტრალი</placeName>
+                                <idno type="invNo"/></provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+     <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg107.jpg">
+                <desc xml:lang="ka">ხეოთის ვაჩაჲს, გურაჲს და მირაჲს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>            
+            <div type="bibliography">
+              
+       <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
+       <p><bibl n="2">ვალერი სილოგავა, ხეოთის ახალაღმოჩენილი წარწერები<ptr target="bibliography.xml#b151"/>, <citedRange> 7-37</citedRange></bibl></p>       
+              
+            </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--ქე გაოსენე სო
+                            ლსა ვაჩაჲს
+                            ასა გორაჲ
+                            სასა მრასს--> 
+                                                            
+                <ab>
+                   <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
+                        <w lemma="განსუენება"><expan><abbr>გა</abbr><ex>ნ</ex><abbr>ო</abbr><ex>ჳ</ex><abbr>ს</abbr><ex>უ</ex><abbr>ენე</abbr></expan></w> 
+                            <w lemma="სულ">სოჳ
+                   <lb n="2" break="no"/>ლსა</w> 
+                          <name nymRef="ვაჩა">ვაჩაჲს
+                    <lb n="3" break="no"/>ასა</name>
+                           <name nymRef="გურა"><expan><abbr>გო</abbr><ex>ჳ</ex><abbr>რაჲ                               
+                    <lb n="4" break="no"/>სასა</abbr></expan></name> 
+                         <name nymRef="მირა"><expan><abbr>მ</abbr><ex>ი</ex><abbr>რა</abbr><ex>ჲ</ex><abbr>ს</abbr><ex>ა</ex><abbr>ს</abbr><ex>ა</ex></expan></name>
+                </ab>
+               </div>
+         <div type="translation" xml:lang="ka">
+             <p>ქრისტე, განუსვენე ვაჩაჲს, გურაჲსა და მირაჲს სულებს.</p>
+         </div>    
+                             
+                
+            <div type="commentary">
+                <p>სოფელი ხეოთი ისტორიულ სამცხეში, ახალციხიდან სამხრეთ-დასავლეთით 25 კმ-ზე, მდ. ურავლისწყლის ერთ-ერთი
+                                    შენაკადის ბუზიყლაპიას ნაპირზე მდებარეობს. აქ არის ძველი, X საუკუნის ეკლესიის ნანგრევები და XIV-XV სს. სამრეკლო. 
+                                    სამრეკლო წარმოადგენს ორსართულიან ნაგებობას. მისი პირველი სართული კუბის ფორმისაა, ხოლო მეორე - თერთმეტმალიანი ღია თაღებით 
+                                    შედგენილი ფანჩატურია. პირველი სართული ეკლესიაა. ეკლესიის ქვემოთ, ზედ დასავლეთს კართან, შიდა მხარეს,
+                                კიდევ არის ქვემოთ ჩასასვლელი, სადაც კრიპტაა - მიცვალებულთა სამარხი.
+                    წარწერაში ქარაგმის ნიშანად გამოყენებულია განივი, სწორი ხაზი. ვალერი სილოგავას აზრით, ბოლო სახელი შესაძლებელია, ასევე, 
+                  წავიკითხოთ, როგორც „მირიანისასა“. რაც შეეხება დათარიღებას, გამომცემელს მიაჩნია, რომ ვინაიდან წარწერაში
+                ასომთავრულ ანბანში შერეულია ნუსხური ასოები, რასაც ეპიგრაფიკაში ადგილი IX საუკუნიდან აქვს, შესაძლებელია ხეოთის წარწერები და ეკლესიაც IX საუკუნით დათარიღდეს. </p>                
+            </div>
+        </body>
+    </text>
+</TEI>

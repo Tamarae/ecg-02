@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">სავედრებელი წარწერა უცნობი პირისა </title>
+                <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                 <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG515</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            თორის წარწერების კორპუსი
+                        </collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/75">ქვა</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/179">კედელი</objectType>
+                                        <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="1">
+                                        <dimensions unit="cm">
+                                            <width>3</width>
+                                            <height>5,3</height>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>წარწერა შესრულებულია <rs type="script">ნუსხურ შერეული მდივან-მწიგნობრული მხედრული</rs> დამწერლობით. წარწერას განკვეთილობისა და ქარაგმების ნიშანები არ ახლავს.
+                                <width> 0,3-0,4</width>
+                                <height> 0,2-1,5</height>
+                                 </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ბორჯომის ხეობა. ფოთოლეთის წმინდა გიორგის ეკლესია</origPlace>
+                                <origDate>XI ს.</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">. ბორჯომის ხეობა. ფოთოლეთის წინდა გიორგის  ეკლესია</placeName>
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">ბორჯომის ხეობა. ფოთოლეთის წმინდა გიორგის ეკლესია
+                            <placeName type="modernSpot">ბორჯომის ხეობა. ფოთოლეთის წმინდა გიორგის ეკლესია</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2020-01-11" who="Qobuloia">გარე ანოტირება, პირთა სახელების, წარწერის სრული კოდირება  შესრულდა 2020 წლის ციფრული ეპიგრაფიკის სასწავლო კურსის ფარგლებში.</change>
+        </revisionDesc>
+    </teiHeader>
+    <!-- წარწერის ფოტოდოკუმენტაცია -->
+    <facsimile>
+        <surface>
+            <graphic url="ecg515.jpg">
+                <desc xml:lang="ka">სავედრებელი წარწერა უცნობი პირისა </desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+           <div type="bibliography">
+               
+                <p><bibl n="1">თამაზ გოგოლაძე,თორის ხეობის ეპიგრაფიკული კორპუსი<ptr target="bibliography.xml#b234"/>,<citedRange>64-65</citedRange>2019</bibl></p>
+                <p><bibl n="2"> გიორგი გაგოშიძე                                 <ptr target="bibliography.xml#b130"/>,<citedRange> 134</citedRange>1987 </bibl></p>
+            
+           </div>
+            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">     
+              <!--ქ. ხატო ღ{მრ}თ{ა} |ებისაო, შე{ი} |წყალე [...]-->
+                <ab>
+                    <lb n="1"/>  <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტე</ex></expan></w>
+                                 <w lemma="ხატ">ხატო</w>
+                                 <w lemma="ღმრთაებ"><expan> <abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr><ex>ა</ex>
+                    <lb n="2"/><abbr>ებისაო</abbr></expan></w>
+                                 <w lemma="წყალე"><expan><abbr>შე</abbr><ex>ი</ex>
+                     <lb n="3"/><abbr>წყალე</abbr></expan></w>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ka"/>
+            <div type="apparatus" xml:space="preserve"/>
+            <div type="commentary"><p>წარწერა დაზიანებული არ არის. წარწერის ტექსტის ნაწილი თავიდან ბოლომდე გარკვევით იკითხება</p>
+                 <p>წარწერის დათარიღების საფუძველი:წარწერა შესრულებულია სწორი ეპიგრაფიკული ნუსხურით. აქედან გამომდინარე, მას XI საუკუნით ვათარიღებთ   </p>
+            </div>
+
+         </body>
+    </text>
+</TEI>

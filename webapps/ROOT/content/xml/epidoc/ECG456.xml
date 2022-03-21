@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>გიორგი ქოჩოლავას წარწერა</title>
+                <editor>ლია ახალაძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
+                 <idno type="filename">ECG456</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            ილორი
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg> 
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="www.eagle-network.eu/voc/material/lod/2.html">ქვა</material>
+                                   <objectType>ქვის ფილა</objectType> 
+                                        <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="5">
+                                        ხუთსტრიქონიანი წარწერა. წარწერა მოთავსებულია ეკლესიის აღმოსავლეთ კედელში, ზემოთ, სამხრეთ-აღმოსავლეთის კიდისკენ.
+                                    <dimensions unit="cm">
+                                    </dimensions>
+                                     <width></width>
+                                        <height></height>
+                                        <depth></depth>
+                                    </layout>  
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="nuskhuri" style="inscribed">
+                               ხუთსტრიქონიანი ნუსხური წარწერა; განკვეთილობის ნიშანი: ორწერტილი; ქარაგმის ნიშანი: კიდურწერტილოვანი, სწორი, განივი ხაზი
+                              <rs type="execution">ამოკვეთილი</rs> <rs type="script">ნუსხური</rs> <rs type="execution" key="dot">კიდურწერტილოვანი</rs>
+                            </handNote>
+                            <handNote>
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                             
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace ref="pleiades.stoa.org/places/857170">ილორი</origPlace>
+                                <origDate>XI საუკუნე AD</origDate> 
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">ილორი</placeName>
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                            <provenance type="observed">
+                            <placeName type="modernSpot">ილორის წმინდა გიორგის ეკლესია</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2019-05-23" who="TS">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, ბმულებით დაკავშირება გარეკონტროლირებად ლექსიკონებთან</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ucg1007.jpg">
+                <desc xml:lang="ka">გიორგი ქოჩოლავას წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!--  წ(მიდა)ო გ(იორგ)ი, შ(ეიწყალ)ე გ(იორგ)ი ქოჩო[ლა]ვა, მღდ(ე)ლ;
+                წ(მიდა)ო გ(იორგ)ი, მფარ(ვე)ლ მექმენ დიდსა მას დღესა! -->
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> <persName ref="attestedperson.xml#person2"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></persName> <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> <persName ref="attestedperson.xml#person3"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan> <expan><abbr>ქოჩო</abbr><supplied reason="undefined" precision="medium">[ლა]</supplied><abbr>ვა</abbr></expan></persName> <roleName><w lemma="მღდელი"><expan><abbr>მღდ</abbr><ex>ე</ex><abbr>ლ</abbr></expan></w></roleName>
+                    <lb n="2"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> <persName ref="attestedperson.xml#person2"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></persName> <w lemma="მფარველი"><expan><abbr>მფარ</abbr><ex>ვე</ex><abbr>ლ</abbr></expan></w> <w>მექმენ</w> <w>დიდსა</w> <w>მას</w> <w>დღესა!</w>
+                    </ab>
+                </div>
+            <div type="translation" xml:lang="ka"><p>წმინდა გიორგი, შეიწყალე მღვდელი გიორგი ქოჩოლავა; წმინდაო გიორგი, დამიფარე იმ დიდ დღეს!</p></div>
+            
+            <div type="apparatus" xml:space="preserve"/>
+            
+            <div type="commentary"><p>ქვის ფილის ზომების აღება ვერ მოხერხდა; ფილის გადარეცხვის შედეგად ნაწერი ადგილ-ადგილ გადასულია; გამოცემები: Х. С. Бгажба, 1959, Из истории письменности, с. рис. 11 (ხ) 2) А. К. Кация Илори, 1963, с. 49-50 (ბ). 3) Х. С. Бгажба,  Из истории письменности, 1967, с. 19, рис. 10 (თ. ხაჟომიას წაკითხვით) (ხ). 4) ქწკ, II,  161, N190; ამის მიხედვით: 5) Дж. Гамахрия, Б. Гогия, Абхазия, с. 814, N18. 6) თ. მიბჩუანი, აფხაზეთის მატ. კულტურის ძეგლები,  64, N18. 7) Л. Ахаладзе, Епиграфические памятники Абхазии, с. 368, N14.</p></div>
+            
+            
+            
+            <div type="bibliography" subtype="principalEdition">
+                           
+                    <p><bibl type="publication" subtype="principal" xml:lang="ka">
+                      <author>
+                          <persName>
+                            <forename></forename>
+                            <surname></surname>
+                          </persName>
+                      </author>
+                      <title/>
+                        <edition/>
+                        <pubPlace/>
+                        <publisher/>
+                        <date></date>
+                     </bibl></p>
+                
+            </div>         
+         
+    </body>
+</text>
+</TEI>

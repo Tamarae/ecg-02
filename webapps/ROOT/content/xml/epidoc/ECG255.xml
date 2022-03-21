@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">დასავლეთ კარიბჭის საამშენებლო წარწერა მამათმთავარ თევდოსისა</title>
+                <editor xml:lang="ka">გიორგი ოთხმეზური</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <idno type="filename">ECG255</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/"> 
+                        დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით 
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            დმანისი
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType xml:lang="ka" ref="https://www.eagle-network.eu/voc/objtyp/lod/1402">პერანგის ფილა</objectType>
+                                    <material xml:lang="ka" ref="https://www.eagle-network.eu/voc/material/lod/2">მოცისფრო მომწვანო ქვა</material>
+                                    <dimensions>
+                                        <width/>
+                                        <height/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="7"> 
+                                    ტაძრის დას. კარიბჭის დას. ფასადზე, ტოლფერდა გადახურვის კარნიზის კეხსა და თაღოვან შესასვლელს შორის
+                                    გამოსახული რელიეფური, ჩუქურთმიანი ჯვრის განივი მკლავების ქვეშ (ორივე ხარეს), მოცისფრო-მომწვანო ფერის პერანგის ფილაზე,
+                                    ამოღარულია 7 სტრიქონიანი წარწერა. 
+                                    <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="აasomtavruli" style="inscribed"> 
+                                <rs type="script">ასომთავრული</rs>. ქარაგმის ნიშანი: კლაკნილი, განივი, მოკლე ხაზი. განკვეთილობის ნიშანი: წერტილი, ხანდახან სამწერტილი თითქმის ყველა სიტყვას შორის. ქარაგმის
+                                ნიშნებსა და გრაფემებზე შეიმჩნევა ოდნავი კიდურწერტილოვნება. წარწერის დასასრულს გვხვდება სიმბოლო ->. დამახასიათებელია ასოთა შეწიაღება,
+                                გვხვდება ლიგატურაც. 
+                                <dimensions unit="cm">
+                                    <height/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>წარწერას უძღვის რელიეფური ჩუქურთმიანი ჯვარი</decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>დმანისის კათედრალური ტაძარი</origPlace>
+                            <origDate notBefore="1210" notAfter="1223">XIII AD</origDate>
+                        </origin>
+                        <provenance type="observed">
+                            <placeName type="modernSpot">დმანისის კათედრალური ტაძარი</placeName>
+                            <rs type="circumstances"/>
+                            <idno/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <!-- 
+    <facsimile>
+        <surface>
+            <graphic url="tskise_01.jpg">
+                <desc xml:lang="ka">წყისეს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile> -->
+    
+    <text>
+        <!--
+        1.ს(ა)ხ(ე)ლითა || ღ(მრთისა)ჲთა და მ(ეო)ხ(ე)ბ(ი)თა || წ(მიდი)სა || ღ(მრთი)სმშ||[(ო)ბ(ე)ლ(ისაჲ)თა, და(ა)მ]ყ(ა)რ(ე)ნ ღ(მერთმა)ნ        (დასაწყისში ჯვარი ხატია)
+        2.მ(ე)ფ(ე)თა მ(ე)ფ(ო)ბ||(ა)ჲ გ(იორგ)ისი, რ(ომე)ლთა მ(იე)რ || ღ(ი)რს ვ||იქმ(ე)ნ მე || [მ][(ი)წ(ა)ჲ მ(ა)თი ...ჭ თ(ე)ვ]||დ(ო)სი მ(ამათ)მ(თავარ)ი კ
+        3.ალ(ო)ნპ(ე)ტ(ი)სძე აღშ||(ე)ნ(ე)ბ(ა)დ კ(ა)რ(ი)სბჭ(ი)სა ამის || ს(ა)დ(ი)დ(ე)ბ(ე)ლ||(ა)დ ... [მ(ე)]||ფ(ო)ბ(ი)სა მ(ა)თ(ი)სა დ[ა] 
+        4.მ(ო)ს(ა)ჴს(ე)ნ(ე)ბლად ცოდვ||ილისა ს(უ)ლისა ჩ(უე)ნისა, ბიძ(ა)ჲ||სა ჩ(ემ)ისა [ა]||ნტ(ო)ნს, მშ(ო)ბ||(ე)[ლ]თა და ... || ნთა[ს] მ(ათ)თათ(ჳ)ს,
+        5.ღ(მრთ)ისა ს(ი)ყ(უა)რ(უ)ლისათ(ჳ)ს ლ(ო)ც(უა)სა || მოგ(უი)ჴს(ე)ნ(ე)ნი[თ], რ(აჲთ)ა ღ(მერთმა)ნ || თქ(უე)ნცა || მ(ო)გ(ი)ჴს(ე)ნ||[ნე][ს] ... [ს(ა)ს(უ)ფ(ე)ვ(ე)ლსა] მ[ისს]ა. ვინცა ესე
+        6.დაწ(ე)რილი რაჲს||აც(ა) მ[ი]ზ(ე)[ზ](ი)[ს](ა)თ(ჳ)ს აღმ(ოშალო)ს ბ(რძანე)ბ(ა)||სა (?) კ[რ](უ)ლმ||ცა არ||[ს] ღ(მრთ)ისა პ[ირითა, მკვ]დ(ა)||რი და ცოცხა
+        7.ლი გ(ა)ნუჴსნ(ე)ლ(ა)დ, დ||ა ჩ(უ)ენ(ი)თ(ა)მცა ბრ(ა)ლთა მზღ||ვ(ე)ლი არს||დღ(ე)სა მ(ა)ს || გ(ა)ნკ(ი)თხ[(ვისა)სა] ... || ~ს ს(ულ)ი თ(ე)ვდ(ო)სი მ(ამათ)მ(თავრი)ს(ა)ჲ.
+        -->
+        <body>
+            <div type="bibliography">
+                
+                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>160-162</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
+                <p><bibl n="2">ლ. მუსხელიშვილი, დმანისი (ქალაქის ისტორია და ნაქალაქარის აღწერა), შოთა რუსთაველის ეპოქის მატერიალური კულტურის ძეგლები, თბილისი, 1938<citedRange>284-286</citedRange><ptr target="bibliography.xml#b222"/>   
+                </bibl></p>
+                <p><bibl n="3">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>37-38</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
+
+                <p><bibl n="4">ვალერი სილოგავა, ქვემო ქართლის წარწერები (ზოგადი მიმოხილვა), კრებ. „დმანისი“, II, თბილისი 2000,
+                    <citedRange>226</citedRange><ptr target="bibliography.xml#b218"/>
+                </bibl></p>
+                
+                <p><bibl n="5">ვ. ჯაფარიძე, ადრეული შუა საუკუნეების არქეოლოგიური ძეგლები ქვემო ქართლიდან (დმანისის არქეოლოგიური ექსპედიციის მასალების მიხედვით), <citedRange>47-48</citedRange> თბილისი, მეცნიერება, 1982 <ptr target="bibliography.xml#b219"/>
+                </bibl></p>
+                
+                <p><bibl n="6">ექვთიმე თაყაიშვილი, სომხით-საორბელოს ძეგლების წარწერები, ჟურნ. კავკასიონი, პარიზი 1929, 
+                    <citedRange>102-103</citedRange><ptr target="bibliography.xml#b231"/>
+                </bibl></p>
+
+            </div>
+                
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+
+            <ab>
+                <lb n="1"/>&#10013;                                            
+                           <w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლითა</abbr></expan></w>
+                           <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთისა</ex><abbr>ჲთა</abbr></expan></w>
+                           და
+                           <w lemma="მეოხება"><expan><abbr>მ</abbr><ex>ეო</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w>
+                           <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდი</ex><abbr>სა</abbr></expan></w>
+                           <w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრთი</ex><abbr>სმშ</abbr><supplied reason="lost"><ex>ო</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ისაჲ</ex><abbr>თა</abbr></supplied></expan></w>
+                           <w lemma="დამყარება"><expan><supplied reason="lost"><abbr>და</abbr><ex>ა</ex><abbr>მ</abbr></supplied><abbr>ყ</abbr><ex>ა</ex><abbr>რ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w>
+                           <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
+                <lb n="2"/><roleName nymRef="მეფეთამეფობა"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფ</abbr><ex>ე</ex><abbr>თა</abbr></expan> 
+                           <expan><abbr>მ</abbr><ex>ე</ex><abbr>ფ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></roleName> 
+                           <persName type="local" key="ლაშა-გიორგი IV" ref="http://www.nplg.gov.ge/wikidict/index.php/გიორგი_IV_ლაშა"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ისი</abbr></expan></persName>    
+                           <w lemma="რომელ"><expan><abbr>რ</abbr><ex>ომე</ex><abbr>ლთა</abbr></expan></w>
+                           <w lemma="მიერ"><expan><abbr>მ</abbr><ex>იე</ex><abbr>რ</abbr></expan></w>
+                           <w lemma="ღირს"><expan><abbr>ღ</abbr><ex>ი</ex><abbr>რს</abbr></expan></w>
+                           <w lemma="ქმნა"><expan><abbr>ვიქმ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w>
+                           <w lemma="მე">მე</w>                                        
+                           <w lemma="მიწა"><expan><supplied reason="lost"><abbr>მ</abbr><ex>ი</ex><abbr>წ</abbr><ex>ა</ex><abbr>ჲ</abbr></supplied></expan></w>
+                           <w lemma="მათ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>თი</abbr></expan></w>
+                                         
+                           <supplied reason="lost" precision="medium">ჭ</supplied>                             
+                           <persName type="local" key="მამათმთავარი თევდოს კალონპეტისძე"><expan><supplied reason="lost" precision="medium"><abbr>თ</abbr><ex>ე</ex><abbr>ვ</abbr></supplied><abbr>დ</abbr><ex>ო</ex><abbr>სი</abbr></expan></persName> 
+                           <roleName nymRef="მამათმთავარ"><expan><abbr>მ</abbr><ex>ამათ</ex><abbr>მ</abbr><ex>თავარ</ex><abbr>ი</abbr></expan></roleName>       
+                           <expan><abbr>კ
+               <lb n="3" break="no"/>ალ</abbr><ex>ო</ex><abbr>ნპ</abbr><ex>ე</ex><abbr>ტ</abbr><ex>ი</ex><abbr>სძე</abbr></expan>         
+                           <w lemma="შენება"><expan><abbr>აღშ</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
+                           <w lemma="კარიბჭე"><expan><abbr>კ</abbr><ex>ა</ex><abbr>რ</abbr><ex>ი</ex><abbr>სბჭ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w>
+                           <w lemma="ესე">ამის</w>
+                           <w lemma="სადიდებელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>დ</abbr><ex>ი</ex><abbr>დ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
+                           
+                           <roleName nymRef="მეფობა"><expan><supplied reason="lost" precision="medium"><abbr>მ</abbr><ex>ე</ex></supplied><abbr>ფ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ი</ex><abbr>სა</abbr></expan></roleName>
+                           <w lemma="მათ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>თ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w> 
+                           <w lemma="და">დ<supplied reason="lost" precision="medium">ა</supplied></w>
+                <lb n="4"/><w lemma="მოსაჴსენებელ"><expan><abbr>მ</abbr><ex>ო</ex><abbr>ს</abbr><ex>ა</ex><abbr>ჴს</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბლად</abbr></expan></w>  
+                           <w lemma="ცოდვა">ცოდვილისა</w>                
+                           <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლისა</abbr></expan></w>
+                           <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნისა</abbr></expan></w>
+                           <w lemma="ბიძა"><expan><abbr>ბიძ</abbr><ex>ა</ex><abbr>ჲსა</abbr></expan></w>
+                           <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ემ</ex><abbr>ისა</abbr></expan></w>          
+                           <persName type="local" key="ანტონ [ბიძა მამათმთავარ თევდოს კალონპეტისძისა]"><expan><supplied reason="omitted"><abbr>ა</abbr></supplied><abbr>ნტ</abbr><ex>ო</ex><abbr>ნს</abbr></expan></persName>
+                           <w lemma="მშობელ"><expan><abbr>მშ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ე</ex><supplied reason="lost" precision="medium"><abbr>ლ</abbr></supplied><abbr>თა</abbr></expan></w>
+                           და
+                           <orig n="unresolved">ნთა<supplied reason="omitted" precision="high">ს</supplied></orig>               
+                           <w lemma="მათ"><expan><abbr>მ</abbr><ex>ათ</ex><abbr>თათ</abbr><ex>ჳ</ex><abbr>ს</abbr></expan></w>
+                <lb n="5"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთ</ex><abbr>ისა</abbr></expan></w>            
+                           <w lemma="სიყუარულ"><expan><abbr>ს</abbr><ex>ი</ex><abbr>ყ</abbr><ex>უა</ex><abbr>რ</abbr><ex>უ</ex><abbr>ლისათ</abbr><ex>ჳ</ex><abbr>ს</abbr></expan></w>
+                           <w lemma="ლოცვა"><expan><abbr>ლ</abbr><ex>ო</ex><abbr>ც</abbr><ex>უა</ex><abbr>სა</abbr></expan></w>
+                           <w lemma="ჴსენება"><expan><abbr>მოგ</abbr><ex>უი</ex><abbr>ჴს</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ნი</abbr><supplied reason="omitted" precision="high"><abbr>თ</abbr></supplied></expan></w>
+                           <w lemma="რა"><expan><abbr>რ</abbr><ex>აჲთ</ex><abbr>ა</abbr></expan></w>                  
+                           <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> 
+                           <w lemma="თქუენ"><expan><abbr>თქ</abbr><ex>უე</ex><abbr>ნცა</abbr></expan></w> 
+                           <w lemma="ჴსენება"><expan><abbr>მ</abbr><ex>ო</ex><abbr>გ</abbr><ex>ი</ex><abbr>ჴს</abbr><ex>ე</ex><abbr>ნ</abbr><supplied reason="lost" precision="medium"><abbr>ნე</abbr></supplied><supplied reason="omitted" precision="high"><abbr>ს</abbr></supplied></expan></w>
+                           
+                           <w lemma="სასუფეველ"><expan><supplied reason="lost" precision="medium"><abbr>ს</abbr><ex>ა</ex><abbr>ს</abbr><ex>უ</ex><abbr>ფ</abbr><ex>ე</ex><abbr>ვ</abbr><ex>ე</ex><abbr>ლსა</abbr></supplied></expan></w>
+                           <w lemma="მის">მ<supplied reason="lost" precision="medium">ისს</supplied>ა</w>   
+                           <rs type="curse"><w lemma="ვინ">ვინცა</w>
+                           <w lemma="ესე">ესე</w>
+                <lb n="6"/><w lemma="წერა"><expan><abbr>დაწ</abbr><ex>ე</ex><abbr>რილი</abbr></expan></w>       
+                           <w lemma="რა"><expan><abbr>რაჲსაც</abbr><ex>ა</ex></expan></w>
+                           <w lemma="მიზეზ"><expan><abbr>მ</abbr><supplied reason="omitted" precision="high"><abbr>ი</abbr></supplied><abbr>ზ</abbr><ex>ე</ex><supplied reason="omitted" precision="high"><abbr>ზ</abbr></supplied><ex>ი</ex><supplied reason="omitted" precision="high"><abbr>ს</abbr></supplied><ex>ა</ex><abbr>თ</abbr><ex>ჳ</ex><abbr>ს</abbr></expan></w> 
+                           <w lemma="შლა"><expan><abbr>აღმ</abbr><ex>ოშალო</ex><abbr>ს</abbr></expan></w>
+                           <w lemma="ბრძანება"><expan><abbr>ბ</abbr><ex>რძანე</ex><abbr>ბ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w>
+                           <w lemma="კრულ"><expan><abbr>კ</abbr><supplied reason="omitted" precision="low"><abbr>რ</abbr></supplied><ex>უ</ex><abbr>ლმცა</abbr></expan></w>
+                           <w lemma="ყოფნა">არ<supplied reason="lost">ს</supplied></w>           
+                           <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთ</ex><abbr>ისა</abbr></expan></w> 
+                           <w lemma="პირ">პ<supplied reason="lost" precision="medium">ირითა</supplied></w> 
+                           <w lemma="მკვდარ"><expan><supplied reason="lost" precision="medium"><abbr>მკვ</abbr></supplied>დ<ex>ა</ex><abbr>რი</abbr></expan></w> 
+                           და 
+                           <w lemma="ცოცხალ">ცოცხა                 
+                <lb n="7" break="no"/>ლი</w>                                
+                          <w lemma="უჴსნელი"><expan><abbr>გ</abbr><ex>ა</ex><abbr>ნუჴსნ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> 
+                          <w lemma="და">და</w>
+                          <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უ</ex><abbr>ენ</abbr><ex>ი</ex><abbr>თ</abbr><ex>ა</ex><abbr>მცა</abbr></expan></w> 
+                          <w lemma="ბრალ"><expan><abbr>ბრ</abbr><ex>ა</ex><abbr>ლთა</abbr></expan></w> 
+                          <w lemma="მზღველ"><expan><abbr>მზღვ</abbr><ex>ე</ex><abbr>ლი</abbr></expan></w> 
+                          <w lemma="ყოფნა">არს</w> 
+                          <w lemma="დღე"><expan><abbr>დღ</abbr><ex>ე</ex><abbr>სა</abbr></expan></w> 
+                          <w lemma="მას"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ს</abbr></expan></w> 
+                          <w lemma="განკითხვა"><expan><abbr>გ</abbr><ex>ა</ex><abbr>ნკ</abbr><ex>ი</ex><abbr>თხ</abbr><supplied reason="lost" precision="medium"><ex>ვისა</ex><abbr>სა</abbr></supplied></expan></w></rs>      
+                          <g type="karagma"/><orig n="unresolved">ს</orig>                                                         
+                          <w lemma="სულ"><expan><abbr>ს</abbr><ex>ულ</ex><abbr>ი</abbr></expan></w> 
+                          <persName type="local" key="მამათმთავარი თევდოს კალონპეტისძე"><expan><abbr>თ</abbr><ex>ე</ex><abbr>ვდ</abbr><ex>ო</ex><abbr>სი</abbr></expan></persName> 
+                          <roleName nymRef="მამათმთავარ"><expan><abbr>მ</abbr><ex>ამათ</ex><abbr>მ</abbr><ex>თავარი</ex><abbr>ს</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></roleName> 
+                </ab>
+             
+            </div>
+
+
+                <div type="translation"/>
+                
+                <div type="commentary">
+                    <p>წარწერის აზომვა ვერ ხერხდება. დაზიანება: გადარეცხვისა და გამოქარვისაგან
+                        წარწერის მარჯვენა მხარე, სტრიქონების მეორე ნაწილი, უფრო კონკრეტულად კი ჯვრის
+                        მარჯვენა მხარეს არსებული ნახევრები, განსაკუთრებით გამკრთალებული და
+                        გადასულია. პირველი 3 სტრ. მეორე ნახევრების დიდი ნაწილი საერთოდ აღარ
+                        იკითხება. წარწერის დათარიღება სხვა გამოცემებში: ექ. თაყაიშვილის მიხედვით
+                        წარწერა გიორგი ბრწყინვალის დროინდელია, ვ. ჯაფარიძე 1214-1222 წელბით
+                        ათარიღებს, ვ. სილოგავა კი - 1207-1223 წწ-ით. წარწერის დათარიღების საფუძველი:
+                        წარწერაში იხსენიება მეფეთ-მეფე გიორგი, რომელიც უნდა იყოს ერთიანი საქართველოს
+                        მეფე გიორგი IV ლაშა. წარწერა საამშენებლო ხასიათისაა და მისი ზეობის წლებით
+                        უნდა დათარიღდეს. წარწერაში სხვადასხვა ავტორი რამდენიმე სიტყვას
+                        განსხვავებულად კითხულობს. ე. თაყაიშვილი პირველ სტრიქონში კითხულობს: დამყ]არნ
+                        ღ~ა, მეორე-მესამეში - აზ~ ნ პტს, მეოთხეში - ც დვილისა ს~ლსა ჩისა, ...სი
+                        მთბ..., მეხუთეში - ღ~სა, მოიბსნნეთ, მოგიბსნნეს, მეექვსეში - დაწერილი,
+                        მზეზითა... და შა ლოს, კრლცა, მეშვიდეში - ჩნთმცა, ჩვენთამცა, მზღველი არს
+                        დღესა, ...ო, მფ ძს., მ~მფ; ლ. მუსხელიშვილი პირველ სტრიქონში კითხულობს:
+                        [დაამყ]~რნ, მეორეში - [ვი]ქმნ, ეპ~კოპოსი: თვ]დსი, ეპისკოპოსი თევ]დოსი მამაი
+                        კალნაპეტის ძე, მესამეში - ს~დდბლ[ა]დ, [ღ~თ დაც~ლისა მ~ფთა მ]ფბსა, [ღმრთივ
+                        დაცულისა მეფეთა მე]ფობისა, მეოთხეში - ჩ~ისა ჩემისა, [ნათესავთ]ა :[ჩ]მთ~თს,
+                        [ჩე]მთათვის, მეხუთეში - მ~გბსნნი[თ, მეექვსეში - ს~მნ: აღ[მობოცო]ს; მეშვიდეში
+                        - ჩ~ვნთმცა, ეპკპ]~ოს~ი, ეპისკოპ]ოსი თევდოსი მამისაჲ</p>
+                </div>
+        </body>
+    </text>
+</TEI>

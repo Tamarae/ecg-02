@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>რკინის ბეჭედი მოგვთაკარიდან</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+                <editor>თ. სურგულაძე</editor> 
+                <editor>ა. სიხარულიძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG269</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>მცხეთა</collection>                
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მემორიალური</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/111">რკინა</material>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/168">ბეჭედი</objectType>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="2">
+                                      რკინის ბეჭედზე დამაგრებულია ყავისფერი სარდიონის თვალი, რომელზედაც მთელ ზედაპირზე ორ სტრიქონად გამოყვანილია ბერძნული წარწერა. 
+                                      <dimensions unit="mm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                ბერძნული წარწერა ამოჭრილია პოზიტიურად, კუთხოვანებისკენ მიდრეკილი თანაბარი ზომის ასოებით.
+                                <height/>
+                         </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>მცხეთა</origPlace>
+                                <origDate notBefore-custom="0001" notAfter-custom="0300" precision="medium" 
+                                    evidence="lettering" >I-III AD</origDate>
+                              </origin>
+                            <provenance type="found" when="1977">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863840">მცხეთა</placeName> 
+                                <rs type="circumstances">ნივთი აღმოჩენილია მცხეთაში, მოგვთაკარის გათხრებისას 1977 წელს.</rs>
+                                <rs type="context">I-III სს. სამარხთა ნივთებს შორის</rs>
+                                <rs type="monuList"/>
+                            </provenance>                         
+                            <provenance type="observed">
+                            <placeName type="modernSpot"></placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <surface>
+            <graphic url="ecg269.jpg">
+                <desc xml:lang="ka">რკინის ბეჭედი მოგვთაკარიდან, 1977</desc>
+                <desc xml:lang="en">Iron ring from Mogvtakari, 1977</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 261-262</citedRange></bibl></p>
+                    <p><bibl n="2">თ. სურგულაძე, ა. სიხარულიძე, Κυρία καλή მცხეთის მოგვთაკარიდან<ptr target="bibliography.xml#b152"/>, <citedRange> 501-504</citedRange></bibl></p>
+                
+            </div>
+           
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!--  Κυρία 
+                            καλή  -->
+                    
+                 <ab>
+                     <lb n="1"/> <w lemma="κυρία">Κυρία</w>
+                     <lb n="2"/> <w lemma="καλός">καλή</w>
+                 </ab>    
+                     
+
+            </div>
+                
+            <div type="translation" xml:lang="ka">
+                <p>ლამაზი ქალბატონი</p>
+            </div>
+            
+           <div type="apparatus" xml:space="preserve">
+            </div>
+           
+            <div type="commentary">
+                <p>დათარიღების საფუძველია ასოთა მოხაზულობა (კუთხოვანი ასოები, ხაზების დაბოლოებისას მოგრძო ჰორიზონტალური შტრიხი).</p>
+            </div>           
+        </body>
+    </text>
+</TEI>
+

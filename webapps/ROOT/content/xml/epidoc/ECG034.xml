@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ურბნისის სიონის აღდგენის წარწერა თევდორე ეპისკოპოსისა</title>   
+                <title xml:lang="en">Urbnisi Sioni church, restoration inscription of Bishop Theodoros</title>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <editor xml:lang="en">Nodar Shoshiashvili</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG034</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ურბნისი</collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მემორიალური</seg>
+                            <seg xml:lang="en">Memorial</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/75">ქვიშაქვა</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/75">Limestone</material>
+                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">Facade</objectType>
+                                       I ფილა
+                                       <dimensions unit="cm">                                                                                                                  
+                                        <height>138</height>
+                                        <width>52</width>
+                                        <depth>41</depth>
+                                        </dimensions>
+                                        II ფილა
+                                       <dimensions unit="cm">
+                                        <width>48</width>
+                                        <height>41</height>
+                                        <depth></depth>
+                                        </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="6"> 
+                                        <seg xml:lang="ka">წარწერა 6 სტრიქონიანია. იგი გამოქანდაკებულია ტაძრის სამხრეთის ფასადის კარის თავზე, სწორკუთხედად გათლილ რუხი ქვიშაქვის ორ, 
+                                    ერთმანეთის გვერდით მიდგმულ ფილაზე. თითოეული სტრიქონი იწყება მარცხენა ფილაზე და მთავრდება მარჯვენაზე.</seg>
+                                        <seg xml:lang="en">Six line inscription. The inscription is located on top of the south facade door of the church, on the neighbouring rectangular plaques of grey color sandstone. Each of the lines start on the left plaque and finish on the right plaque.</seg>
+                                        <dimensions unit="cm">
+                                            <width>90,5</width>
+                                            <height>39</height>
+                                            <depth/>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="embossed">
+                                  <seg xml:lang="ka"><rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
+                                <seg xml:lang="en">Engraved Asomtavruli inscription</seg>
+                                <height>5,5-6</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>
+                                    <seg xml:lang="ka">ურბნისის სიონი</seg>
+                                    <seg xml:lang="en">Urbnisi Sioni</seg>
+                                </origPlace>
+                                <origDate notBefore-custom="0900" notAfter-custom="1000" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">X AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863914">
+                                   <seg xml:lang="ka">ურბნისის სიონი</seg>
+                                    <seg xml:lang="en">Urbnisi Sioni</seg>
+                                </placeName>
+                                <!-- "42.010941, 43.979704"-->
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                             <provenance type="observed">
+                            <placeName>
+                                <seg xml:lang="ka">ურბნისის სიონი</seg>
+                                <seg xml:lang="en">Urbnisi Sioni</seg>
+                            </placeName>
+                            <idno/>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+       <revisionDesc><change when="2019-11-11" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+        
+    <facsimile>
+        <surface>
+            <graphic url="ecg034.jpg">
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/33/">ურბნისის სიონის აღდგენის წარწერა თევდორე ეპისკოპოსისა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+  
+    <text>
+        <body>
+               <div type="bibliography">
+                
+                     <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი<ptr target="bibliography.xml#b101"/>, <citedRange> 196-197</citedRange></bibl></p>
+                    <p><bibl n="2">M. Brosset, Rapports VI<ptr target="bibliography.xml#b22"/>, <citedRange>13-14</citedRange></bibl></p>
+                    <p><bibl n="3">ექვთიმე თაყაიშვილი, არხეოლოგიური მოგზაურობანი და შენიშვნანი<ptr target="bibliography.xml#b70"/>, <citedRange> 43</citedRange></bibl></p>
+                    <p><bibl n="4">ნოდარ შოშიაშვილი, ნაქალაქარი ურბნისი<ptr target="bibliography.xml#b99"/>, <citedRange> 138-139</citedRange></bibl></p>
+                    <p><bibl n="5">ნოდარ შოშიაშვილი, ურბნისის ძველი ქართული წარწერები<ptr target="bibliography.xml#b100"/>, <citedRange> 146-147</citedRange></bibl></p>
+                    <p><bibl n="6">ვალერი სილოგავა, ეპიგრაფიკული ეტიუდები<ptr target="bibliography.xml#b75"/>, <citedRange> 93</citedRange></bibl></p>
+                    <p><bibl n="7">პარმენ ზაქარაია, ნაქალაქარ ურბნისის ხუროთმოძღვრება<ptr target="bibliography.xml#b104"/></bibl></p>
+                
+            </div> 
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--  “ოო ღო შე თე ებსკი // ძჲ ლკსი მშბლი
+                                ას საჲ ოდს ღნ ღსმყო ას სა ებკსდ
+                                იყო ესე სნი დძბლ ოფს ზმსა ოთხნი
+                                კთხ[ნ]ი და კქი გპლ იყს სტნი ქტცი დპლ
+                                იყს და მდლა ღნ ას ყისაჲ აღშბჲ ყთა გკ
+                                [თჲ] ძალა სა მხთს ღა ყი გთავთა მქა” -->  
+                                 
+                <ab>
+                   <lb n="1"/><w lemma="უფალ"><expan><abbr>ო</abbr><ex>ჳფალო</ex><abbr>ო</abbr></expan></w> 
+                               <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთ</ex><abbr>ო</abbr></expan></w> 
+                                <w lemma="შეწყალება"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> 
+                                <persName type="local" key="თევდორე ეპისკოპოსი ლუკას ძე [ურბნისის მაშენებელი]"><name nymRef="თევდორე"><expan><abbr>თ</abbr><ex>ევდორ</ex><abbr>ე</abbr></expan></name> </persName>
+                                <roleName><w lemma="ეპისკოპოს"><expan><abbr>ებ</abbr><ex>ი</ex><abbr>სკ</abbr><ex>ოპოს</ex><abbr>ი</abbr></expan></w></roleName> 
+                                <w lemma="ძე"><expan><abbr>ძ</abbr><ex>ე</ex><abbr>ჲ</abbr></expan></w> 
+                                <persName type="local" key="ლუკა [მამა ურბნისის მაშენებელი თევდორე ეპისკოპოსისა]"><name nymRef="ლუკა"><expan><abbr>ლ</abbr><ex>უ</ex><abbr>კ</abbr><ex>აჲ</ex><abbr>სი</abbr></expan></name></persName>
+                                <w lemma="მაშჱნებელ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>შ</abbr><ex>ჱნე</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლი</abbr></expan></w>
+                        <lb n="2"/><w lemma="ესე"><expan><abbr>ა</abbr><ex>მი</ex><abbr>ს</abbr></expan></w> 
+                                  <w lemma="სიონ"><expan><abbr>ს</abbr><ex>იონის</ex><abbr>აჲ</abbr></expan></w> 
+                                  <w lemma="ოდეს"><expan><abbr>ოდ</abbr><ex>ე</ex><abbr>ს</abbr></expan></w> 
+                                  <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> 
+                                   <w lemma="ღირს-ყოფა"><expan><abbr>ღ</abbr><ex>ირ</ex><abbr>სმყო</abbr></expan></w> 
+                                   <w lemma="ესე"><expan><abbr>ა</abbr><ex>მი</ex><abbr>ს</abbr></expan></w> 
+                                   <w lemma="სიონ"><expan><abbr>ს</abbr><ex>იონის</ex><abbr>ა</abbr></expan></w> 
+                                   <roleName><w lemma="ეპისკოპოს"><expan><abbr>ებ</abbr><ex>ის</ex><abbr>კ</abbr><ex>ოპო</ex><abbr>ს</abbr><ex>ა</ex><abbr>დ</abbr></expan></w></roleName>
+                    <lb n="3"/><w lemma="ყოფა">იყო</w> 
+                                 <w lemma="ესე">ესე</w> 
+                                 <w lemma="სიონ"><expan><abbr>ს</abbr><ex>იო</ex><abbr>ნი</abbr></expan></w> 
+                                 <w lemma="დაძუელებულ"><expan><abbr>დ</abbr><ex>ა</ex><abbr>ძ</abbr><ex>უელე</ex><abbr>ბ</abbr><ex>უ</ex><abbr>ლ</abbr></expan></w> 
+                                 <w lemma="უფროჲს"><expan><abbr>ო</abbr><ex>ჳ</ex><abbr>ფ</abbr><ex>როჲ</ex><abbr>ს</abbr></expan></w> 
+                                 <w lemma="ზომა"><expan><abbr>ზ</abbr><ex>ო</ex><abbr>მ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w> 
+                                 <w lemma="ოთხ">ოთხნი</w>
+                    <lb n="4"/><w lemma="კუთხე"><expan><abbr>კ</abbr><ex>უ</ex><abbr>თხ</abbr><ex>ე</ex><supplied reason="lost"><abbr>ნ</abbr></supplied><abbr>ი</abbr></expan></w>
+                                    და 
+                                    <w lemma="კონქი"><expan><abbr>კ</abbr><ex>ონ</ex><abbr>ქი</abbr></expan></w> 
+                                    <w lemma="განპებულ"><expan><abbr>გ</abbr><ex>ან</ex><abbr>პ</abbr><ex>ებუ</ex><abbr>ლ</abbr></expan></w> 
+                                      <w lemma="ყოფა"><expan><abbr>იყ</abbr><ex>უნე</ex><abbr>ს</abbr></expan></w> 
+                                    <w lemma="სუეტ"><expan><abbr>ს</abbr><ex>უე</ex><abbr>ტნი</abbr></expan></w> 
+                                    <w lemma="ქარტოც"><expan><abbr>ქ</abbr><ex>არ</ex><abbr>ტ</abbr><ex>ო</ex><abbr>ც</abbr><ex>ისანი</ex><abbr>ი</abbr></expan></w> 
+                                    <w lemma="დამპალ"><expan><abbr>დ</abbr><ex>ამ</ex><abbr>პ</abbr><ex>ა</ex><abbr>ლ</abbr></expan></w>
+                    <lb n="5"/><w lemma="ყოფა"><expan><abbr>იყ</abbr><ex>უნე</ex><abbr>ს</abbr></expan></w> 
+                                    და 
+                                    <w lemma="მიმადლება"><expan><abbr>მ</abbr><ex>ომმა</ex><abbr>დლა</abbr></expan></w> 
+                                    <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> 
+                                    <w lemma="ესე"><expan><abbr>ა</abbr><ex>მი</ex><abbr>ს</abbr></expan></w> 
+                                    <w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოვლ</ex><abbr>ისაჲ</abbr></expan></w> 
+                                    <w lemma="აღშენება"><expan><abbr>აღშ</abbr><ex>ჱნე</ex><abbr>ბ</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></w> 
+                                    <w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოველ</ex><abbr>თა</abbr></expan></w> 
+                                    <w lemma="კეთება"><expan><abbr>გ</abbr><ex>ა</ex><abbr>კ</abbr><ex>ე</ex>
+                    <lb n="6" break="no"/><supplied reason="lost">თ</supplied><ex>ება</ex><supplied reason="lost">ჲ</supplied></expan></w> 
+                                         <w lemma="ძალ"><expan><abbr>ძალ</abbr><ex>ით</ex><abbr>ა</abbr></expan></w> 
+                                         <w lemma="სიონ"><expan><abbr>ს</abbr><ex>იონის</ex><abbr>ა</abbr></expan></w> 
+                                         <w lemma="მეოხება"><expan><abbr>მ</abbr><ex>ეო</ex><abbr>ხ</abbr><ex>ებისა</ex><abbr>თ</abbr><ex>ჳ</ex><abbr>ს</abbr></expan></w> 
+                                        <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთის</ex><abbr>ა</abbr></expan></w> 
+                                        <w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოველ</ex><abbr>ი</abbr></expan></w> 
+                                        <w lemma="გათავება"><expan><abbr>გ</abbr><ex>ა</ex><abbr>თავ</abbr><ex>ები</ex><abbr>თა</abbr></expan></w> 
+                                        <w lemma="ქმნა"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>მნი</ex><abbr>ა</abbr></expan></w>
+                </ab>
+              
+               </div> 
+            <div type="translation">
+                <p xml:lang="ka">უფალო ღმერთო, შეიწყალე თევდორე ეპისკოპოსი ლუკას ძე, ამ სიონის მაშენებელი.
+                    როდესაც ღმერთმა ღირს-მყო ამ სიონის ეპისკოპოსად, იგი ზომაზე მეტად დაძველებული იყო.
+                    ოთხივე კუთხე და კონქი - გაპობილი, ქარტოცის სვეტები - დამპალი.
+                    და მომმადლა ღმერთმა ამ ყოველივეს აშენება და გაკეთება. 
+                    სიონის ძალით, ღვთის მეოხებით ყოველივე განვასრულე. </p>
+                <p xml:lang="en">God Lord, have mercy on Bishop Theodoros son of Luke, builder of this Sioni church. When God blessed me for becoming a bishop of this church, the church was extremely damaged. All of the four sides and vaults were cracked, the columns of the attic were decayed. 
+                    And the god gave me the honor to build and repair all of these. I accomplished everything with the power of Sioni and the mercy of God.</p>
+            
+            </div>
+         
+         <div type="apparatus" xml:space="preserve">
+                 
+                <p><app loc="1"> <lem>თევდორე</lem>
+                 <rdg resp="მ. ბროსე, ე. თაყაიშვილი, ნ. შოშიაშვილი 1, პ. ზაქარაია">თეოდორე</rdg>
+                 </app></p>
+             
+                 <p><app loc="1"> <lem>ებისკოპოს</lem>
+                 <rdg resp="მ. ბროსე, ნ. შოშიაშვილი 1">ეპისკოპოსი</rdg>
+                 </app></p>
+             
+                 <p><app loc="1"> <lem>ლუკა</lem>
+                 <rdg resp="მ. ბროსე, ე. თაყაიშვილი, პ. ზაქარაია">ლაკასი</rdg>
+                 </app></p>
+                    
+                 <p><app loc="1"> <lem>მაშჱნებელ</lem>
+                 <rdg resp="მ. ბროსე, ე. თაყაიშვილი, ნ. შოშიაშვილი 1, პ. ზაქარაია">მაშენებელი</rdg>
+                 </app></p>
+             
+                  <p><app loc="2"> <lem>ესე სიონ 1</lem>
+                 <rdg resp="მ. ბროსე">საჲ</rdg>
+                 <rdg resp="ე. თაყაიშვილი">ამისსაჲ</rdg>
+                 </app></p>
+                
+                  <p><app loc="2"> <lem>ესე სიონ 2</lem>
+                 <rdg resp="მ. ბროსე">ასსა</rdg>
+                 <rdg resp="ე. თაყაიშვილი">ამისსა</rdg>
+                 </app></p>
+             
+                 <p><app loc="2"> <lem>ებისკოპოს</lem>
+                 <rdg resp="მ. ბროსე">ეპისკოპოსად</rdg>
+                      </app></p>
+             
+                 <p><app loc="3"> <lem>დაძუელებულ</lem>
+                 <rdg resp="მ. ბროსე, ე. თაყაიშვილი">დაძველებულ</rdg>
+                 </app></p>
+                
+                  <p><app loc="3"> <lem>უფროჲს</lem>
+                 <rdg resp="მ. ბროსე, ე. თაყაიშვილი">უფროს</rdg>
+                      <rdg resp="პ. ზაქარაია">უფროის</rdg>
+                 </app></p>
+             
+                   <p><app loc="4"> <lem>კონქი</lem>
+                 <rdg resp="მ. ბროსე">კათოლიკე</rdg>
+                  <rdg resp="ე. თაყაიშვილი">კანქელი?</rdg>
+                 </app></p>
+             
+                   <p><app loc="4"> <lem>განპებულ</lem>
+                 <rdg resp="მ. ბროსე, ე. თაყაიშვილი">გაპობილ</rdg>
+                  </app></p>
+                   
+                   <p><app loc="4"> <lem>ყოფა</lem>
+                 <rdg resp="მ. ბროსე, ე. თაყაიშვილი">იყვნეს</rdg>
+                  </app></p>
+             
+                    <p><app loc="4"> <lem>სუეტ</lem>
+                 <rdg resp="მ. ბროსე, ე. თაყაიშვილი">სვეტნი</rdg>
+                  </app></p>
+             
+                    <p><app loc="4"> <lem>ქარტოც</lem>
+                 <rdg resp="მ. ბროსე">ქტცი</rdg>
+                 <rdg resp="ე. თაყაიშვილი">ქატაცი?</rdg>
+                 <rdg resp="ნ. შოშიაშვილი 1, პ. ზაქარაია, ვ. სილოგავა">ქტცი?</rdg>
+                  </app></p>
+             
+                <p><app loc="4"> <lem>დამპალ</lem>
+                 <rdg resp="მ. ბროსე">დაპობილ</rdg>
+                 </app></p>
+             
+                <p><app loc="5"> <lem>ყოფა</lem>
+                 <rdg resp="მ. ბროსე, ე. თაყაიშვილი">იყვნეს</rdg>
+                  </app></p>
+             
+                <p><app loc="5"> <lem>მიმადლება</lem>
+                 <rdg resp="მ. ბროსე">მმადლა</rdg>
+                 <rdg resp="ნ. შოშიაშვილი 1, ვ. სილოგავა">მოჰმადლა</rdg>
+                     </app></p>
+                
+                <p><app loc="5"> <lem>ესე</lem>
+                 <rdg resp="მ. ბროსე">ას</rdg>
+                  </app></p>
+             
+                <p><app loc="5"> <lem>აღშენება</lem>
+                 <rdg resp="მ. ბროსე">აღშენებითა</rdg>
+                 <rdg resp="ე. თაყაიშვილი, ნ. შოშიაშვილი 1, პ. ზაქარაია, ვ. სილოგავა">აღშენებაჲ</rdg>
+                  </app></p>
+             
+             <p><app loc="5"> <lem>ყოველ</lem>
+                 <rdg resp="მ. ბროსე">-</rdg>
+                 <rdg resp="ე. თაყაიშვილი">ყოვლითა</rdg>
+                 </app></p>
+             
+             <p><app loc="5"> <lem>ყოველ</lem>
+                 <rdg resp="მ. ბროსე">-</rdg>
+                 <rdg resp="ე. თაყაიშვილი">ყოვლითა</rdg>
+                 </app></p>
+             
+             <p><app loc="5-6"> <lem>კეთება ძალ სიონ</lem>
+                 <rdg resp="მ. ბროსე">გაკრძალვასა და ...</rdg>
+                 </app></p>
+             
+             <p><app loc="6"> <lem>ძალ სიონ</lem>
+                 <rdg resp="ე. თაყაიშვილი, პ. ზაქარაია">ძალიასაჲ</rdg>
+                 <rdg resp="ნ. შოშიაშვილი 1, ვ. სილოგავა">ძალითა ღმრთისაჲთა</rdg>
+                 </app></p>
+             
+             <p><app loc="6"> <lem>მეოხება</lem>
+                 <rdg resp="მ. ბროსე">-</rdg>
+                 <rdg resp="ე. თაყაიშვილი, პ. ზაქარაია">მეოხებითა</rdg>
+                 <rdg resp="ნ. შოშიაშვილი 1">მეოჴებითა</rdg>
+                 <rdg resp="ნ. შოშიაშვილი 1, ვ. სილოგავა">მეოხებითა (ს)</rdg>
+                 </app></p>
+             
+              <p><app loc="6"> <lem>ღმერთ</lem>
+                 <rdg resp="მ. ბროსე">ღმერთსა</rdg>
+                 <rdg resp="ე. თაყაიშვილი">ღვთისათა</rdg>
+                 <rdg resp="ნ. შოშიაშვილი 1, პ. ზაქარაია, ვ. სილოგავა">ღმრთისაჲთა</rdg>
+                 </app></p>
+             
+             <p><app loc="6"> <lem>გათავება</lem>
+                 <rdg resp="მ. ბროსე">გათავეთ</rdg>
+                 </app></p>
+             
+             <p><app loc="6"> <lem>ქმნა</lem>
+                 <rdg resp="მ. ბროსე">ამ ქკსა</rdg>
+                 </app></p>
+               </div>  
+           
+        
+            <div type="commentary">
+               <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #104. პარმენ ზაქარაია წარწერას IX-X საუკუნეებით ათარიღებს. 
+               სტრიქონები ერთმანეთისგან გამოყოფილია ჰორიზონტალური, რელიეფური, პარალელური ხაზებით.
+                გარდა მე-5 და მე-6 სტრიქონებისა (როგორც ჩანს, აქ აღარ იყო საკმარისი ფართობი ხაზის გასავლებად: უკანასკნელი სტრიქონი აღარ დაეტეოდა. ამავე მიზეზით
+                ბოლო სტრიქონი იწყება არა ფილის კიდიდან, არამედ ზედა სტრიქონის მესამე ასოს გასწვრივ). ანუ მარცხენა ფილაზე გასდევს სტრიქონების გამყოფი 4 ხაზი, 
+                ხოლო მარჯვენა ფილაზე - 5 ხაზი. ხაზებს შორის მანძილია 6-6,5. წარწერას განკვეთილობისა და ქარაგმის ნიშნები არ ახლავს. სიტყვები ერთმანეთისგან არ არის დაცილებული.
+                წარწერის დათარიღების საფუძველი, პალეოგრაფიული ნიშნები: უყელო Ⴃ, გრაფემების გაკუთხოვნება, 
+                მიდრეკილება განუსხურებისაკენ: Ⴚ, Ⴊ, Ⴋ, Ⴌ. Ⴇ-ს მიდრეკილება გამხედრულებისაკენ.</p>
+                
+                <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #104. Parmen Zakaraia dated the inscription to the IX-X centuries. 
+                    The lines are separated from each other by horizontal embossed parallel lines. Except the 5th and 6th lines (it seems that there was no space left for the embossed line: 
+                    the last line of the inscription would not fit in that case. For the same reason the last line of the inscription does not start from the edge of the plaque but from the third letter of the 
+                    upper line). Thus, the left plaque has four dividing embossed lines and the right plaque has five. The distance between the lines is 6-6,5 cm. The inscription does not contain any mark of separation or abbreviation. No spaces between the words. The date of the inscription is based on the paleographic data: Ⴃ without a neck, square shape of the graphemes, tendency to the Nuskhuri alphabet: Ⴚ, Ⴊ, Ⴋ, Ⴌ. The grapheme Ⴇ has a tendency to the Mkhedruli alphabet. 
+                    
+                </p>
+            </div>        
+         </body>
+    </text>
+</TEI>

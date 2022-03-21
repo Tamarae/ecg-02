@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> -->
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ბედიის კონსტანტინე მეფეთა მეფის წარწერა</title>
+                <editor>ლია ახალაძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
+                 <idno type="filename">ECG445</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc> 
+                    <msIdentifier> 
+                        <collection>ბედია</collection>  
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მემორიალური</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <objectType ref="www.eagle-network.eu/voc/objtyp/lod/1483">ფილა</objectType> 
+                                        <dimensions unit="cm">
+                                        <width>63</width>
+                                        <height>59</height>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout wtittenLines="3">
+                                        <dimensions unit="cm">
+                                            <width/>
+                                            <height/>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtvaruli" style="incsribed">სამსტრიქონიანი ამოკვეთილი ასომთავრული წარწერა. განკვეთილობის ნიშანი: ორწერტილი ყოველი სიტყვის შემდეგ ("ნ" - ის მარცხნივ და მარჯვნივ სამი წერტილია დასმული მარჯვნივ წაწვეტებით); ქარაგმის ნიშანი: კლაკნილი, განივი ხაზი.</handNote>
+                            <height unit="cm">3-6, 5-7, 5.</height>
+                       </handDesc>
+                        </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ბედიის ტაძარი</origPlace>
+                                <origDate notBefore="1293" notAfter="1327">1293-1327</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">ბედიის ტაძარი</placeName>
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                            <provenance type="observed">
+                            <placeName type="modernSpot">ბედიის ტაძარი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc> <change when="2019-06-14" who="TG">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან.</change></revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                <ab>
+                    <!-- ადიდენ ღ(მერთმა)ნ მეფეთა 
+                        მეფე კონსტანტ(ი)ნე, ძე 
+                        დავითისი, ა(მე)ნ-->
+                    <lb n="1"/> <w lemma="ადიდებს">ადიდენ</w> <w lemma="ღმერთი"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> <roleName><w lemma="მეფე">მეფეთა</w>
+                    <lb n="2"/> <w lemma="მეფე">მეფე</w></roleName> <persName><w><expan><abbr>კონსტანტ</abbr><ex>ი</ex><abbr>ნე</abbr></expan></w></persName> <w lemma="ძე">ძე</w>
+                    <lb n="3"/> <roleName>დავითისი</roleName> <w><expan lemma="ამენ"><abbr>ა</abbr><ex>მე</ex><abbr>ნ</abbr></expan></w>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ka">ადიდე, ღმერთო, მეფეთა მეფე კონსტანტინე, დავითის ძე, ამინ.</div>
+            <div type="apparatus" xml:space="preserve"> </div>
+            <div type="commentary">დაზიანება: ნაწერი ოდნავ გადარეცხილია</div> 
+            
+            <div type="bibliography" subtype="principalEdition">
+                           
+                    <p><bibl type="publication" subtype="principal" xml:lang="ka">
+                      <author>
+                          <persName>
+                            <forename></forename>
+                            <surname></surname>
+                          </persName>
+                      </author>
+                      <title/>
+                        <edition/>
+                        <pubPlace/>
+                        <publisher/>
+                        <date></date>
+                     </bibl></p>
+                
+            </div>         
+         </body>
+    </text>
+</TEI>

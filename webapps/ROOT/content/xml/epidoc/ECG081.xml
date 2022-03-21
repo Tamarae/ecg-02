@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ფიის წმ. თეოდორეს ეკლესიის ჩქარის წარწერა</title>
+                <title xml:lang="en">The inscription of Chqari from St Theodore church of village Phia</title>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <editor xml:lang="en">Nodar Shoshiashvili</editor>
+                <editor xml:lang="ka">ვალერი სილოგავა</editor> 
+                <editor xml:lang="en">Valeri Silogava</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG081</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ფია</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო</seg>
+                            <seg xml:lang="en">Building</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType xml:lang="ka" ref="https://www.eagle-network.eu/voc/objtyp/lod/1963">ტრაპეზის ქვა</objectType>
+                                    <objectType xml:lang="en" ref="https://www.eagle-network.eu/voc/objtyp/lod/1963">Altar stele</objectType>
+                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>        
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>   
+                                      <dimensions unit="cm">
+                                        <width>40</width>
+                                        <height>115</height>
+                                        <depth>50</depth>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="6">
+                                        <seg xml:lang="ka">წარწერა ექვსსტრიქონიანია. ტრაპეზის ზედა ნაწილი ოთხივე მხარეს გამოწეულია და მასზე ამოკვეთილია წარწერის 
+                                        პირველი სტრიქონი. გამოწეული მხარის სიმაღლე - 12 სმ-ია, წარწერის ფართი 55×40.</seg>
+                                        <seg xml:lang="en">Six line inscription. All of the four sides of the upper part of the altar-steel is embossed and the first line of the inscription is there. The height of the embossed part is 12 cm, the area of the inscription 55×40.</seg>
+                                      <dimensions unit="cm">
+                                         <width>40</width>
+                                         <height>115</height> 
+                                          </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli">
+                                <seg xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
+                                <seg xml:lang="en">Engraved Asomtavruli inscription.</seg>
+                                 <height unit="cm" precision="high">4-5</height> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>
+                                    <seg xml:lang="ka">ფიის წმინდა თეოდორეს ეკლესია</seg>
+                                    <seg xml:lang="en">Phia church of St. Theodor</seg>
+                                </origPlace>
+                                <origDate datingMethod="#julian">995 AD</origDate>
+                            </origin>
+                            <provenance type="found" when="1949">
+                                <placeName type ="ancientFindspot">
+                                    <seg xml:lang="ka">ფიის წმინდა თეოდორეს ეკლესია</seg>
+                                    <seg xml:lang="en">Phia church of St. Theodor</seg>
+                                </placeName>
+                                <!-- "41.435630, 43.308379"--> 
+                                <rs type="circumstances"><seg xml:lang="ka">ნასოფლარი ფია (ასპინძის მუნიციპალიტეტი) მდებარეობს ვარძიასთან ახლოს, ხერთვისიდან 5 კმ-ში, ხოლო
+                                    ასპინძიდან 20-22 კმ მანძილზე სამხრეთით, მტკვრის მარცხენა ნაპირზე. ნასოფლარის ჩრდილო-დასავლეთით, მთის ფერდობზე, დგას მცირე ზომის
+                                    წმინდა თეოდორეს სახელობის ეკლესია. მასზე შემორჩენილია X საუკუნის 2 წარწერა, რომელთაც 1949 წელს მიაკვლია გ. გაფრინდაშვილმა.
+                                    ტრაპეზის ქვა ეკლესიის საკურთხევლის იატაკის ამოკვეთილ ბუდეში იდგა, ხოლო 1949 წელს იგი 
+                                    გ. გაფრინდაშვილმა გამოიტანა ეკლესიის ეზოში ფოტოსურათის გადასაღებად.</seg>
+                                    <seg xml:lang="en">The deserted village Phia (Aspindza Municipality) is located near Vardzia, 5 km from Khertvisi Castle, 20-22 km from Aspindza to the south, on the right side of the River Mtkvari. The small church of St Theodore is located on the north-west side of the deserted village, on a mountainside. Two inscriptions of the X century were found there in 1949 by G. Gaprindashvili. Altar-stele was embedded in the floor of the altar area, but G Gaprindashvili took it out in the yard of the church to take a photographe.</seg>
+                                </rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">
+                                    <seg xml:lang="ka">ფიის წმინდა თეოდორეს ეკლესია</seg>
+                                    <seg xml:lang="en">Phia church of St. Theodor</seg>
+                                </placeName>
+                                <idno type="invNo"/>
+                            </provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg081.jpg">
+                <desc xml:lang="ka">ფიის წმ. თეოდორეს ეკლესიის ჩქარის წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+         <div type="bibliography">
+             
+         <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი<ptr target="bibliography.xml#b101"/>, <citedRange> 269-270</citedRange></bibl></p>
+         <p><bibl n="2">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>        
+              
+            </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--  სხლითა ღთა მე ჩ
+                              ქრმნ და ძმთ
+                              ა ჩემთა დავ
+                              დგით ესე ეკლეს–
+                              ჲ ქრკნი იყო
+                              სიე--> 
+                                                            
+                <ab>
+                   <lb n="1"/><w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლითა</abbr></expan></w> 
+                                <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთისაჲ</ex><abbr>თა</abbr></expan></w> 
+                                <w lemma="მე">მე</w> 
+                                <persName type="local" key="ჩქარ"><expan><abbr>ჩ
+                   <lb n="2" break="no"/>ქ</abbr><ex>ა</ex><abbr>რმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan> </persName>
+                                <w lemma="და">და</w> 
+                                <w lemma="ძმა"><expan><abbr>ძმ</abbr><ex>ა</ex><abbr>თ
+                    <lb n="3" break="no"/>ა</abbr></expan></w> 
+                                    <w lemma="მე">ჩემთა</w> 
+                                    <w lemma="დადგმა">დავ 
+                    <lb n="4" break="no"/>დგით</w> 
+                                <w lemma="ესე">ესე</w> 
+                                <w lemma="ეკლესია"><expan><abbr>ეკლეს</abbr><ex>ია</ex>
+                    <lb n="5" break="no"/><abbr>ჲ</abbr></expan></w> 
+                               <rs type="date"><w lemma="ქრონიკონი"><expan><abbr>ქრ</abbr><ex>ონი</ex><abbr>კ</abbr><ex>ო</ex>ნი</expan></w> 
+                               <w lemma="ყოფა">იყო</w>
+                    <lb n="6"/><num value="215">სიე</num></rs>
+                </ab>
+               </div>
+              
+            
+         <div type="translation">
+             <p  xml:lang="ka">ღვთის სახელით მე, ჩქარმა, და ჩემმა ძმებმა დავდგით ეს ეკლესია, ქრონიკონი იყო 215.</p>
+             <p xml:lang="en">I, Chqari and my brothers placed this church, it was 215 according to Choronikon.</p>
+         </div>    
+                             
+                
+            <div type="commentary">
+                <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსი მიხედვით, #150.
+                    საამშენებლო წარწერა უნდა ეკუთვნოდეს ქტიტორს ან ხუროთმოძღვარს. უფრო მისაღები ვარაუდი მეორე ჩანს. 
+                    ვალერი სილოგავას აზრით, საინტერესოა, რომ წარწერაში ეკლესიის აშენების ფაქტი გადმოცემულია სიტყვით „დავდგი“ 
+                და არა „აღვაშენე“, როგორც ეს სხვა შემთხვევებშია (შეიძლება ეს გამოწვეულია იმით, რომ წარწერა ამოკვეთილია ტრაპეზის ქვაზე, რომელიც „დაიდგმებოდა“ და არა „აღეშენებოდა“).
+                წარწერა მნიშვნელოვანია პალეოგრაფიულადაც, ის თარიღიანია, ამდენად, თავისთავად დასაყრდენი წერილობითი ძეგლი უთარიღო წარწერების დათარიღებისათვის და,
+                მეორეც, მასში „ლასი“ გადმოცემულია ასომთავრული („სახელითა“ - 1 სტრქ.) და ნუსხური („ეკლესიაჲ“ - მე-4 სტრქ.) დაწერილობით - ამით
+                დოკუმენტურად, თარიღით, დადასტურებულია ასომთავრულში ნუსხური ასოების (პირველ რიგში და ყველაზე ადრე „ლასის“) შერევის ფაქტი, რომელსაც X ს-ში
+                დაწყებულად მიიჩნევდნენ. წარწერაში განკვეთილობის ნიშნები და ქარაგმები არ არის გამოყენებული. სიტყვები ერთმანეთს არ არის დაცილებული. </p>      
+                <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #150. The building inscription should belong to the ktetor or the chief ktetor of the church. The latter seems more plausible. Valeri Silogava pays attention to the fact that the inscription contains the word “placed” instead of “built” while referring to building the church as it happens in most of the cases (this might be caused by the fact that the inscription is located on the altar-stele stone that was “placed” and not “built”). The paleographic data of the inscription are noticeable, firstly, naming the date is the basis to give the date to the inscription unlike the other inscriptions without any information about the date, then, the letter L is represented with Asomtavruli (in the word “sakhelita” - 1st line) and with Nuskhuri (“eklesiai” - 4th line) - this represents mixing the Asomtavruli alphabet with Nuskhuri (in terms of the letter L earlier than any other letters) which is considered to start from the X century. The inscription does not contain the marks of separation or abbreviation. No spaces between the words. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

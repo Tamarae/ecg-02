@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">მცხეთის ჯვრის პოსტამენტის სომხური წარწერა</title>
+                <title xml:lang="en">Armenian inscription of Jvari monastery</title>
+                <editor xml:lang="ka">ზაზა ალექსიძე</editor>
+                <editor xml:lang="en">Zaza Aleksidze</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG158</idno> <!-- სომხურებისთვის დასახელების ქვეჯგუფი -->
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259"></objectType> <!-- დასაზუსტებელია ობიექტის ტიპი -->
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75"></material>  <!-- დასაზუსტებელია მასალა, სავარაუდოდ, იგივე რაც ფასადის ქართულ წარწერებში -->                                 
+                                      <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                      <dimensions unit="cm">
+                                         <width/>
+                                         <height/> 
+                                      </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                    წარწერა შესრულებულია სომხური ასომთავრულით (ერკათაგირ), ოთხი სტრიქონი, სავარაუდოდ ზედა ერთიც უნდა ყოფილიყო, წარწერა არ არის ღრმად ამოკვეთილი, 
+                                    ძლიერაა დაზიანებული, მკვლევართა ნაწილი მას წარწერად კი არა, 
+                                    გრაფიტად მიიჩნევს, აბულაძის დათარიღებით (პალეოგრაფიული, შინაარსობლივი და ისტორიული ანალიზის საფუძველზე)  
+                                    იგი VIIს-ის შემდგომ უნდა იყოს შესრულებული და არაა ამავე ქვის მეორე მხარეს  შესრულებული ქართული ასომთავრული წარწერის თანადროული 
+                                    (ქართული წარწერის თარიღის ზედა ზღვარი VIIს-ის პირველი წლებია).
+
+                                   <height unit="cm"> <!-- ხომ არ აჯობებს დაიმენშენი ჩავსვა და ზომა დაიმენშენს მივანიჭო? -->
+                                   </height>
+                                    <width/>
+                                    <depth/>
+                                    
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>
+                                    მცხეთის ჯვარი
+                                </origPlace>
+                                <origDate  datingMethod="#julian">982-986 AD</origDate> <!--evidence="lettering" ?? სანახავია დათარიღების საფუძველი-->>
+                            </origin>
+                            <provenance type="found" when="1993">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863813">
+                                    მცხეთის ჯვარი
+                                </placeName> 
+                                <rs type="circumstances"/> 
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                                
+                            <provenance type="observed" when="2016">
+                                <placeName type="modernSpot">
+                                    მცხეთის ჯვარი
+                                </placeName>
+                                <idno type="invNo"/>
+                            </provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <text>
+        <body>           
+
+            <div type="bibliography" subtype="otherPublications">
+                                            
+                    <p><bibl></bibl></p>
+                
+            </div>
+            
+   <div type="edition" xml:lang="hy" xml:space="preserve">
+                
+                        <!--     [..[ՅՍ]   Ի  ՓՐԿՈՒ[Թ՟Ի ԵՒ ՅԻՇ]
+                                ԱՏ(Ա)Կ    ՀՈԳՒ[ՈՑ ԵՒ Մ]
+                                ԱՐ(Մ)ՆՈՑ ԵՒ
+                                Թ
+
+  --> 
+                                                            
+         
+                <ab>
+                   <lb n="1"/>[..[ՅՍ]   Ի  ՓՐԿՈՒ[Թ՟Ի ԵՒ ՅԻՇ]
+                   <lb n="2"/>ԱՏ(Ա)Կ    ՀՈԳՒ[ՈՑ ԵՒ Մ]
+                   <lb n="3"/>ԱՐ(Մ)ՆՈՑ ԵՒ
+                   <lb n="4"/>Թ
+                </ab>
+               
+   </div>
+         <div type="translation">
+             <p xml:lang="ka">აღემართა ჯუარი ესე სახსნელად და სახსენებლად სულთა და ხორცთა და</p>
+         </div>    
+          <div type="translation" xml:lang="hy">
+             <p>Կանգնեցաւ խաչս այս ի փրկութ՟ի եւ յիշատակ հոգւոց եւ մարմնոց եւ Թ </p>
+         </div> 
+                               
+            <div type="apparatus" xml:space="preserve"/>
+
+            
+            
+                
+            <div type="commentary"/>           
+            
+                   
+          
+
+        </body>
+    </text>
+</TEI>

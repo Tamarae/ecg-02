@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">მითლიჰურიბის წარწერა დაღესტნიდან</title>
+                <editor xml:lang="ka">შაჰბან ჰაფიზოვი</editor>
+            </titleStmt>
+            <publicationStmt>
+               <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG378</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>მითლიჰურიბი</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType>ჯვარი</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="3">წარწერა სამსტრიქონიანია. IV სტრიქონის ორი ასოს მხოლოდ ზედა ნაწილები ჩანს.
+                                        ჯამში წარწერაში 10 ასოა წარმოდგენილი
+                                        <dimensions unit="cm">
+                                         <width></width>
+                                         <height></height> 
+                                          </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა.
+                                ლ, ბ, ხ, მ ასოების მოხაზულობა შეესაბამება ასომთავრულს
+                                   <height></height> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>სოფ. მითლიჰურიბი, შამილის რაონი, დაღესტანი</origPlace>
+                                <origDate notBefore-custom="700" notAfter-custom="1000" 
+                                    evidence="lettering historical context" datingMethod="#julian">VIII-X AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">სოფ. მითლიჰურიბი, შამილის რაონი, დაღესტანი</placeName>
+                                <!-- "42.412782, 46.509335"--> 
+                                <rs type="circumstances">შამილის რაიონის სოფელ მითლიჰურიბის სასაფლაოსთან აღმოჩენილია ჯვრის ნატეხი.
+                                    შემორჩენილია მხოლოდ მისი ფუძე, ჩამოტეხილი აქვს დიდი ნაწილი, რის გამოც მხოლოდ წარწერის ფრაგმენტი ჩანს 
+                                    </rs>
+                                <rs type="context"></rs>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">სოფ. მითლიჰურიბი, შამილის რაონი, დაღესტანი</placeName>
+                                <idno type="invNo"/></provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg378.jpg">
+                <desc xml:lang="ka">მითლიჰურიბის წარწერა დაღესტნიდან</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            
+         <div type="bibliography">
+                
+                    <p><bibl n="1">შაჰბან ჰაფიზოვი, ქართული, ქართულ-ხუნძური და ხუნძური წარწერები მთიან ხუნძეთში (დაღესტანი)<ptr target="bibliography.xml#b141"/>, <citedRange> 128-129</citedRange></bibl></p>
+                 
+            </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--(1) ხ(ა)რ(ე)ბ(ა) 
+                            “ხარება” 
+                            
+                            (2) (სუ)ლსა 
+                            “სულსა” 
+                            
+                            (3) მის(ს)ა 
+                            “მისსა”-->                                                       
+           
+                <ab>
+                   <lb n="1"/><w lemma="ხარება"><expan><abbr>ხ</abbr><ex>ა</ex><abbr>რ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ა</ex></expan></w>
+                   <lb n="2"/><w lemma="სულ"><supplied reason="lost">სუ</supplied>ლსა</w> 
+                   <lb n="3"/><w lemma="მისი"><expan><abbr>მის</abbr><ex>ს</ex><abbr>ა</abbr></expan></w> 
+                   </ab>
+               </div>
+            
+         <div type="translation" xml:lang="ka">
+             <p>გახარება მის სულს</p>
+         </div>  
+            
+            <div type="apparatus" xml:space="preserve"/>
+      
+            <div type="commentary">
+                <p>შაჰბან ჰაფიზოვი მითლიჰურიბის წარწერის ამოკითხვისას ითვალისწინებს ტ. გუდავას მიერ წაკითხული გინიჩუტლის წარწერისა („ჯუარი ქრისტესი. 
+                    უფალო, განუსვენე სულსა ჩახუტისსა“) და ჭაროდის რაიონის სოფელ მურუხში მიკვლეული წარწერის („სულსა ქოჟიგისა“ 
+                    Хапизов Ш.М. Грузинская надпись из юго-восточной Аварии. Материалы III международного конгресса кавказоведов. Тбилиси, 2013,  205-206;
+                    (ინგლისურ ენაზე);  468-470 (რუსულ ენაზე)) ტექსტებს. შაჰბან ჰაფიზოვის აზრით, მითლიჰურიბის წარწერაში მეორე სტრიქონის სამი ასო 
+                    ნაწილია სიტყვისა სულსა, რაც გულისხმობს გარდაცვლილის სულს. აქედან გამომდინარე, მესამე სტრიქონს კითხულობს,
+                    როგორც მის(ს)ა, ანუ II და III სტრიქონებზე წერია სულსა მისსა. 
+                    ხრბ-ს ხსნის, როგორც ხარება, რომელიც აღნიშნავს სახარებისეულ 
+                    ამბავს და ამ დღის აღსანიშნავ დღესასწაულს. გარდა ამისა, ამ სიტყვას აქვს კიდევ ორი მნიშვნელობა: 
+                    „გახარება, სიხარული“ და „სულის ხსნა“. მკვლევარი მიიჩნევს, რომ ამ შემთხვევაში ეს სიტყვა გამოყენებულია სწორედ 
+                    ამ ბოლო მნიშვნელობებით და აღნიშნავს სულის გახარებას ზეციურ ნათელში, ანუ ცხონებას.
+                მოსალოდნელია, რომ ტექსტი VIII-X საუკუნეებისა იყოს.</p>                
+            </div>
+        </body>
+    </text>
+</TEI>

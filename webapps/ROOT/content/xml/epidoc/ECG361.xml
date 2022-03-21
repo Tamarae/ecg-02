@@ -1,0 +1,128 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ხუნზახის X წარწერა დაღესტნიდან</title>
+                <editor xml:lang="ka">შაჰბან ჰაფიზოვი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG361</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ხუნზახი</collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents> 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType>ჯვარი</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="2">წარწერა ორსტრიქონიანია
+                                        <dimensions unit="cm">
+                                         <width/>
+                                         <height/> 
+                                        </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                                <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
+                                   <height/> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ხუნზახი, დაღესტანი</origPlace>
+                                <origDate></origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">ხუნზახი, დაღესტანი</placeName>
+                                <!-- "42.547389, 46.706797"--> 
+                                <rs type="circumstances">XX საუკუნის 80-იან წლებში მაჰომედ რაჯაბოვმა ტად-რაალის ტერიტორიაზე იპოვა ორი ქართული წარწერა. 
+                                ერთ-ერთი მათგანი შაჰბან ჰაფიზოვმა გამოაქვეყნა 2014 წელს (Хапизов Ш.М. О грузинско-аварских надписях... Вестник ДНЦ РАН. Вып. 54. Махачкала, 2014,  73).
+                                მეორე ჯვრის ნამსხვრევზე იკითხება ორ მწკრივად განლაგებული 4 ასო</rs>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName></placeName>
+                                <idno type="invNo"/>
+                            </provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+     <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface>
+            <graphic url="ecg361.jpg">
+                <desc xml:lang="ka">ხუნზახის X წარწერა დაღესტნიდან</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="bibliography">
+                
+                    <p><bibl n="1">შაჰბან ჰაფიზოვი, ქართული, ქართულ-ხუნძური და ხუნძური წარწერები მთიან ხუნძეთში (დაღესტანი)<ptr target="bibliography.xml#b141"/>, <citedRange> 127</citedRange></bibl></p>
+                 
+            </div>  
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--(1) (ჩუე?)ნო 
+                            (2) (ჯუა?)რი.-->                                                       
+            
+
+                <ab>
+                   <lb n="1"/><w lemma="ჩუენ"><supplied reason="lost" cert="low">ჩუე</supplied>ნო</w> 
+                   <lb n="2"/><w lemma="ჯუარ"><supplied reason="lost" cert="low">ჯუა</supplied>რი</w>
+                </ab>
+         </div>
+            
+         <div type="translation" xml:lang="ka">
+             <p>ჩუენო, ჯუარი</p>
+         </div>
+            
+            <div type="apparatus" xml:space="preserve"/>
+            
+            <div type="commentary"/>             
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ჰნევანქის (ძელი ჭეშმარიტი) თეოდორე მამათმთავრის წარწერა</title> 
+                <editor>ლეონ მელიქსეთ-ბეგი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG336</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ჰნევანქი</collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>  
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1483.html">ფასადი</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="5">წარწერა ხუთსტრიქონიანია
+                                        იგი შესრულებულია მონასტრის მთავარი ეკლესიის სამხრეთი კარიბჭის სამხრეთი კარის ზემოთ, რვაწვერა ჯვრის რელიეფური გამოსახულების ქვედა 
+                                ნაწილში, კედლის თითქმის მთელ სიგანეზე 
+                                      <dimensions unit="cm">
+                                         <width></width>
+                                         <height></height> 
+                                      </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
+                                   <height unit="cm" precision="high"></height> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ჰნევანქი (ძელი ჭეშმარიტი), სომხეთი</origPlace>
+                                <origDate notBefore-custom="1200" notAfter-custom="1400" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">XII-XIII AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">ჰნევანქი (ძელი ჭეშმარიტი), სომხეთი</placeName> 
+                                <!-- "40.959485, 44.585145"-->
+                                <rs type="circumstances"/>
+                                <rs type="context"/>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">ჰნევანქი (ძელი ჭეშმარიტი), სომხეთი.</placeName>
+                                <idno type="invNo"/></provenance> 
+                    </history>                   
+                </msDesc>
+                    </sourceDesc>
+                </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-12-17" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+       </teiHeader>
+     <facsimile>
+        <surface>
+            <graphic url="ecg336.jpg">
+                <desc xml:lang="ka">ჰნევანქის თეოდორე მამათმთავრის წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+          <text>
+            <body>
+        <div type="bibliography">
+                  
+ <p><bibl n="1">ლეონ მელიქსეთ-ბეგი, ლორე-ტაშირის ქართული ეპიგრაფიკა<ptr target="bibliography.xml#b162"/>, <citedRange> 309-327</citedRange></bibl></p>
+ <p><bibl n="2">პარუირ მურადიანი, სომხეთის ქართული წარწერები, წყაროთმცოდნეობითი გამოკვლევა (სომხურ ენაზე)<ptr target="bibliography.xml#b166"/>, <citedRange> 142, 294, ტაბ. XI</citedRange></bibl></p>
+ <p><bibl n="3">შოთა მესხია, საშინაო პოლიტიკური ვითარება და სამოხელეო წყობა XII საუკუნის საქართველოში<ptr target="bibliography.xml#b172"/>, <citedRange> 250</citedRange></bibl></p>
+                                                                               
+              </div>                   
+                              
+     <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--[შეწევნითა მამისაჲთა], ძისაჲთა, სულისა წმიდისაჲთა, მეოხებითა წმიდისა ღმრთისმშობელისათა და მარადის ქალწულ 
+                            მარიამისაჲთა, მეოხებითა წმიდათა წინაწარ მეტყუელთა, მოციქულთა, მღუდელმ[თავართა]
+                            აღვაშენე კარის ბჭე ესე პირველად დღეგრძელობისა[თჳს და მანდატ-
+                            ურთუხუცესისათჳს მხარგრძელთათჳს სალოცველად, თეოდორე მამათ
+                            [მთავარი მომიხ]სენეთ და ლო[ცვა ყავთ].
+                        --> 
+
+                <ab>
+                    <lb n="1"/><w lemma="შეწევნა"><supplied reason="lost">შეწევნითა</supplied></w>
+                            <w lemma="მამა"><supplied reason="lost">მამისაჲთა</supplied></w> 
+                            <w lemma="ძე"><expan><abbr>ძ</abbr><ex>ი</ex><abbr>ს</abbr><ex>აჲ</ex><abbr>თა</abbr></expan></w> 
+                            <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w> 
+                            <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდი</ex><abbr>ს</abbr><ex>აჲ</ex><abbr>თა</abbr></expan></w>
+                            <w lemma="მეოხება"><expan><abbr>მ</abbr><ex>ეო</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
+                                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდის</ex><abbr>ა</abbr></expan></w> 
+                                <w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრთი</ex><abbr>სმშ</abbr><ex>ო</ex>ბელ<supplied reason="lost">ისათა</supplied></expan></w> 
+                                <supplied reason="lost">და</supplied> 
+                                <w lemma="მარადის"><supplied reason="lost"><expan><abbr>მ</abbr><ex>არადი</ex><abbr>ს</abbr></expan></supplied></w> 
+                                <w lemma="ქალწულ"><supplied reason="lost"><expan><abbr>ქ</abbr><ex>ა</ex><abbr>ლწ</abbr><ex>უ</ex><abbr>ლ</abbr></expan></supplied></w>
+                    <lb n="2"/><name nymRef="მარიამ"><expan><supplied reason="lost"><abbr>მ</abbr><ex>ა</ex><abbr>რ</abbr><ex>ია</ex></supplied><abbr>მ</abbr><ex>ისაჲ</ex><abbr>თა</abbr></expan></name> 
+                                <w lemma="მეოხება"><expan><abbr>მ</abbr><ex>ეო</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
+                                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>თა</abbr></expan></w> 
+                                <w lemma="წინაწარმეტყუელ"><expan><abbr>წ</abbr><ex>ინა</ex><abbr>წ</abbr><ex>არმეტ</ex><abbr>ყ</abbr><ex>უელ</ex><abbr></abbr>თა</expan></w>
+                                <w lemma="მოციქულ"><expan><abbr>მ</abbr><ex>ო</ex><abbr>ც</abbr><ex>ი</ex><abbr>ქ</abbr><ex>ულ</ex><abbr>თა</abbr></expan></w> 
+                                <w lemma="მღუდელმთავარ"><expan><abbr>მღ</abbr><ex>უ</ex><abbr>დ</abbr><ex>ელ</ex><abbr>თ</abbr><supplied reason="lost">მთავართა</supplied></expan></w>
+                    <lb n="3"/><w lemma="აღშენება"><expan><supplied reason="lost"><abbr>აღ</abbr></supplied><abbr>ვ</abbr><ex>ა</ex><abbr>შ</abbr><ex>ე</ex><abbr>ნ</abbr>ე</expan></w> 
+                                <w lemma="კარი"><expan><abbr>კ</abbr><ex>ა</ex><abbr>რ</abbr><ex>ი</ex><abbr>ს</abbr></expan></w> 
+                                <w lemma="ბჭე">ბჭე</w> 
+                                <w lemma="ესე">ესე</w> 
+                                <w lemma="პირველ"><expan><abbr>პ</abbr><ex>ირველა</ex><abbr>დ</abbr></expan></w> 
+                            <w lemma="დღეგრძელობა"><expan><abbr>დღ</abbr><ex>ე</ex><abbr>გრძ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ი</ex><abbr>ს</abbr><supplied reason="lost">ათჳს</supplied></expan></w> 
+                            <supplied reason="lost">და</supplied> 
+                            <roleName nymRef="მანდატურთუხუცეს"><expan><supplied reason="lost">მანდატ
+                     <lb n="4" break="no"/>რ</supplied><abbr>თუხ</abbr><ex>უ</ex><abbr>ც</abbr><ex>ე</ex><abbr>ს</abbr><ex>ი</ex><abbr>ს</abbr><ex>ა</ex><abbr>თ</abbr><ex>ჳ</ex><abbr>ს</abbr></expan></roleName> 
+                            <name nymRef="მხარგრძელ"><expan><abbr>მხ</abbr><ex>ა</ex><abbr>რგრძ</abbr><ex>ე</ex><abbr>ლთ</abbr><ex>ა</ex><abbr>თ</abbr><ex>ჳ</ex><abbr>ს</abbr></expan></name> 
+                            <w lemma="სალოცველ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ცვ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> 
+                            <name nymRef="თეოდორე მამათმთავარი"><expan><abbr>თ</abbr><ex>ეოდორ</ex><abbr>ე</abbr></expan></name> 
+                            <roleName nymRef="მამათმთავარ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>მ</abbr><supplied reason="lost"><ex>ა</ex><abbr>თ
+                  <lb n="5" break="no"/>მთ</abbr><ex>ა</ex><abbr>ვ</abbr><ex>ა</ex><abbr>რი</abbr></supplied></expan></roleName>
+                            <w lemma="მოხსენება"><expan><supplied reason="lost">მომიხ</supplied><abbr>ს</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>თ</abbr></expan></w>
+                            და 
+                            <w lemma="ლოცვა"><expan><abbr>ლ</abbr><ex>ო</ex><abbr>ც</abbr><ex>უ</ex><abbr>ა</abbr></expan></w> 
+                            <w lemma="ქმნა"><supplied reason="lost">ყავთ</supplied></w>
+                </ab>
+               </div>
+              
+            <div type="apparatus" xml:space="preserve"/>
+
+         <div type="translation" xml:lang="ka">
+             <p> მამის, ძის და სული წმიდის შეწევნით, წმიდა ღმრთისმშობლის და მარადისქალწულ მარიამის, 
+                 წმიდათა წინაწარმეტყუელთა, მოციქულთა, მღუდელმთავართა მეოხებით, 
+                 ავაშენე ეს კარიბჭე პირველად დღეგრძელობისათვის და სალოცველად მანდატურთუხუცეს მხარგრძელთათჳს, 
+                 თეოდორე მამათმთავარი მომიხსენეთ და ლოცვა ყავთ.</p>
+         </div>    
+                             
+            <div type="commentary">
+                <p>ჰნევანქის (ძელი ჭეშმარიტი) ნამონასტრალი მდებარეობს ძორაგეტის ხეობაში, მდინარის მარჯვნივ, რკინიგზის სადგურ თუმანიანიდან
+                                სტეფანავანისკენ მიმავალი გზის პირას, ახლანდელი ძორაჰესის საგუბარს ზემოთ. სამონასტრო კომპლექსი რამდენიმე ნაგებობას შეიცავს, რომელთა შორის
+                                უძველესია ცენტრალურგუმბათიანი ჯვარის რიგის ტრიქონკი, IX საუკუნის შემდეგ არაერთგზის განახლებული. მიშენებული აქვს კარიბჭე სამხრეთის მხრიდან.
+                    ჰნევანქის მონასტერი ნანახი აქვს ვახუშტი ბატონიშვილს, რომელიც მის შესახებ წერს: 
+                    „კვალად დასავლით ამისა (ქობერისა, ლ. მ.-ბ.) არს მონასტერი ძელი ჭეშმარიტისა - მშვენიერი, ამ ბერდუჯის მდინარესა ზედა, უპყრავსთ სომეხთავე.
+                    აქა არს მაღალს კლდესა შინა ქვაბნი მრავალნი, და მას ქვაბსა შინა მდებარეობენ შიგნნი მრავალნი ძველნი, არამედ კაცთა აუსვლელობით უხმარ არიან.
+                    დასავლით ამისსა არს ციხე ლორისა და ქალაქი მცირე“ (ვახუშტი, აღწერა სამეფოსა საქართველოსა,  35).
+                    წარწერა 1964 წელს შეისწავლა და გამოსცა ლეონ მელიქსეთ-ბეგმა.
+                    მას მიაჩნია, რომ ეს ძეგლი თავდაპირველად სომეხ ანტიქალკედონიანთა კერა იყო, 
+                    შემდეგ კი, XII საუკუნიდან, ქალკედონიანთა ხელში გადასულა, რისი დასტურიცაა XII-XIII საუკუნეების 
+                    ქართული ასომთავრული წარწერები მის გარე კედლებზე. მისი აზრით, წარწერაში მოხსენიებული მანდატურთუხუცესი მხარგრძელთაგანი შეიძლება იყოს ივანე
+                    მანდატურთუხუცესი, ხოლო თეოდორე მამათმთავარი - ან ადგილობრივი სავანის მამასახლისი, ანდა ქართველთა კათალიკოსი თეოდორე, რომელიც 
+                    მამამთავრობდა 1186-1206 წლებში (თეოდორე II).
+                 </p>                
+            </div>      
+        </body>
+    </text>
+</TEI>

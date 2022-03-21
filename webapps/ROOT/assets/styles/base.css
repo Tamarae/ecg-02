@@ -88,6 +88,8 @@
 
 /* fonts */
 body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-family: 'DejaVu_Sans';
   font-weight: 200;
 }
@@ -109,6 +111,13 @@ body {
   font-family: 'GL_Gordeziani';
   font-weight: 300;
   font-style: normal;
+}
+
+
+.columns h1 {
+  font-family: 'GL_Gordeziani';
+  font-size: 3.5rem;
+  margin-bottom: 0px;
 }
 /* font sizes */
 .top-bar-section .dropdown a {

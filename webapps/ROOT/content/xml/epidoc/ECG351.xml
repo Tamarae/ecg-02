@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ქობაირის მონასტრის შაჰანშა მანდატურთუხუცესის ძის, მჴარგრძელის, და მისი თანამეცხედრის ათაბაგ-ამირსპასალარის, სადუნის ასულის ვანენის წარწერა</title>
+                <editor>ლეონ მელიქსეთ-ბეგი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG351</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                     <msIdentifier>
+                        <collection>ქობაირი</collection>
+                    </msIdentifier>        
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1483.html">ფასადი</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="12">წარწერა თორმეტსტრიქონიანია. 
+                                        იგი ამოკვეთილია მონასტრის ორსართულიანი სამრეკლო-საძვალის სამხრეთ ფასადზე, კარის მარჯვნივ (აღმოსავლეთით)                               
+                                      <dimensions unit="cm">
+                                         <width></width>
+                                         <height></height> 
+                                      </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
+                                   <height/> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ქობაირის მონასტერი, სომხეთი</origPlace>
+                                <origDate evidence="lettering" datingMethod="#julian">1295 AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">ქობაირის მონასტერი, სომხეთი</placeName>
+                                <!-- "41.005061, 44.635086"--> 
+                                <rs type="circumstances"/>
+                                <rs type="context"/>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">ქობაირის მონასტერი, სომხეთი</placeName>
+                                <idno type="invNo"/></provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-12-17" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg351.jpg">
+                <desc xml:lang="ka">ქობაირის მონასტრის შაჰანშე მანდატურთუხუცესის ძის, ბერი გიორგის, წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+           </surface>
+    </facsimile>
+    <text>
+        <body>           
+              <div type="bibliography">
+                
+  
+ <p><bibl n="1">ლეონ მელიქსეთ-ბეგი, ქობერი და მისი სომხური და ქართული წარწერები<ptr target="bibliography.xml#b169"/>, <citedRange> 60-73</citedRange></bibl></p>
+ <p><bibl n="2">M. Brosset, Rapports sur un Voyage Archéologiqye dans la Géorgia et dans l'Academie, Exécute en 1847-1848<ptr target="bibliography.xml#b170"/>, <citedRange>136, 138-140</citedRange></bibl></p>
+ <p><bibl n="3">თედო ჟორდანია, ქრონიკები და სხვა მასალა საქართველოს ისტორიისა და მწერლობისა<ptr target="bibliography.xml#b171"/>, <citedRange> 168</citedRange></bibl></p>
+ <p><bibl n="4">პარუირ მურადიანი, სომხეთის ქართული წარწერები, წყაროთმცოდნეობითი გამოკვლევა (სომხურ ენაზე)<ptr target="bibliography.xml#b166"/>, <citedRange> 176-177, 297, ტაბ. XVIII</citedRange></bibl></p>            
+ <p><bibl n="5">შოთა მესხია, საშინაო პოლიტიკური ვითარება და სამოხელეო წყობა XII საუკუნის საქართველოში<ptr target="bibliography.xml#b172"/>, <citedRange> 270</citedRange></bibl></p>       
+           
+              </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!-- ქკნსა 
+                            ხყჟთ
+                            † მწყლებითა და კცთ მყრ[ებ]ითა შნ ღისა და მცხო
+                            ვრისა ჩნისა უისა იესუის ქტთა და შწვნითა ყდ
+                            წისა მშბლისა შნისჲთა მე უღირსი შჰნშა მნდტრთხცე
+                            სისა ძე მჴრგრძლი და თნა მცხდრე ჩი ათბქისა და ამირ
+                            სპსლრისა სადუნისა ასლი ვნ[ნი] ღრს ვიქმნნით აღშენებდ
+                            სამრკლო სამრხსა ამს ჩნსა იწრბსა შა დდსა ჟმთს
+                            ა სდდბლდ სხლსა შნსა წსა და სჴსრდ და სლცვლდ სლი
+                            სა ჩნისა მცხრო და ღო ვრ გ სსბჲ და ორკრძთვე სტნჯ
+                            ვლთგნ გნგრნნ და ნუ ქვათა უნდბსა მხდვთ ად სსბისა გლს
+                            მდგნბსა--> 
+
+                <ab>
+                   <lb n="1"/><rs type="date"><w lemma="ქორონიკონ"><expan><abbr>ქ</abbr><ex>ორონი</ex><abbr>კ</abbr><ex>ო</ex><abbr>ნსა</abbr></expan></w>
+                    <lb n="2"/><num value="6899">ხყჟთ</num></rs>
+                    <lb n="3"/>&#8224;<w lemma="მოწყალება"><expan><abbr>მ</abbr><ex>ო</ex><abbr>წყ</abbr><ex>ა</ex><abbr>ლებითა</abbr></expan></w> 
+                                და 
+                                <w lemma="კაცთმოყუარება"><expan><abbr>კ</abbr><ex>ა</ex><abbr>ცთმ</abbr><ex>ო</ex><abbr>ყ</abbr><ex>უა</ex><abbr>რ</abbr><supplied reason="lost"><abbr>ებ</abbr></supplied><abbr>ითა</abbr></expan></w> 
+                                <w lemma="შენ"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w> 
+                                <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთ</ex><abbr>ისა</abbr></expan></w> 
+                                და 
+                                <w lemma="მაცხოვარ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ცხო
+                    <lb n="4" break="no"/>ვრისა</abbr></expan></w> 
+                                <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნისა</abbr></expan></w> 
+                                <w lemma="უფალ"><expan><abbr>უ</abbr><ex>ფლ</ex><abbr>ისა</abbr></expan></w> 
+                                <w lemma="იესუ">იესუის</w>
+                                <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რის</ex><abbr>ტ</abbr><ex>ესი</ex><abbr>თა</abbr></expan></w> 
+                                და 
+                                <w lemma="შეწევნა"><expan><abbr>შ</abbr><ex>ე</ex><abbr>წ</abbr><ex>ე</ex><abbr>ვნითა</abbr></expan></w> 
+                                <w lemma="ყოვლადწმიდა"><expan><abbr>ყ</abbr><ex>ოვლა</ex><abbr>დ
+                    <lb n="5" break="no"/>წ</abbr><ex>მიდ</ex><abbr>ისა</abbr></expan></w> 
+                                <w lemma="მშობელ"><expan><abbr>მშ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლისა</abbr></expan></w> 
+                                <w lemma="შენ"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ნის</abbr><ex>ა</ex><abbr>ჲთა</abbr></expan></w> 
+                                 <w lemma="მე">მე</w> 
+                                <w lemma="უღირს">უღირსი</w> 
+                                <persName type="local" key="შანშე (შაჰანშა) I მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/შანშე_(I)_მხარგრძელი"><name nymRef="შაჰნშა"><expan><abbr>შ</abbr><ex>ა</ex><abbr>ჰნშა</abbr></expan></name>
+                                <roleName nymRef="მანდატურთუხუცეს"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ნდ</abbr><ex>ა</ex><abbr>ტ</abbr><ex>უ</ex><abbr>რთ</abbr><ex>უ</ex><abbr>ხ</abbr><ex>უ</ex><abbr>ცე
+                    <lb n="6" break="no"/>სისა</abbr></expan></roleName></persName>  
+                                <w lemma="ძე">ძე</w> 
+                                <persName type="local" key="მჴარგრძელი [შანშე (შაჰანშა) I მხარგრძელის ძე]"><name nymRef="მხარგრძელ"><expan><abbr>მჴ</abbr><ex>ა</ex><abbr>რგრძ</abbr><ex>ე</ex><abbr>ლი</abbr></expan></name> </persName>
+                                და 
+                                <w lemma="თანამეცხედრე"><expan><abbr>თ</abbr><ex>ა</ex><abbr>ნამ</abbr><ex>ე</ex><abbr>ცხ</abbr><ex>ე</ex><abbr>დრე</abbr></expan></w> 
+                                <w lemma="ჩემი"><expan><abbr>ჩ</abbr><ex>ემ</ex><abbr>ი</abbr></expan></w> 
+                                <persName type="local" key="სადუნ მანკაბერდელი" ref="http://www.nplg.gov.ge/wikidict/index.php/მანკაბერდელი_სადუნ"><roleName nymRef="ათაბაგ"><expan><abbr>ათ</abbr><ex>ა</ex><abbr>ბ</abbr><ex>ა</ex><abbr>ქისა</abbr></expan></roleName>
+                                და 
+                                <roleName nymRef="ამირსპასალარ"><expan><abbr>ამირ
+                    <lb n="7" break="no"/>სპ</abbr><ex>ა</ex><abbr>ს</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ა</ex><abbr>რისა</abbr></expan></roleName> 
+                                <name nymRef="სადუნ">სადუნისა</name></persName>  
+                               <w lemma="ასულ"><expan><abbr>ას</abbr><ex>უ</ex><abbr>ლი</abbr></expan></w> 
+                                <persName type="local" key="ვანენი [სადუნ მანკაბერდელის ასული, თანამეცხედრე მჴარგრძელისა]"><name nymRef="ვანენი"><expan><abbr>ვ</abbr><ex>ა</ex><abbr>ნ</abbr><ex>ე</ex><supplied reason="lost"><abbr>ნი</abbr></supplied></expan></name> </persName>
+                                <w type="ღირსქმნა"><expan><abbr>ღ</abbr><ex>ი</ex><abbr>რსვიქმნ</abbr><ex>ე</ex><abbr>ნით</abbr></expan></w> 
+                                <w type="აღშენება"><expan><abbr>აღშენებ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
+                    <lb n="8"/><w lemma="სამრეკლო"><expan><abbr>სამრ</abbr><ex>ე</ex><abbr>კლო</abbr></expan></w>
+                                <w lemma="სამარხ"><expan><abbr>სამ</abbr><ex>ა</ex><abbr>რხ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w> 
+                                <w lemma="ესე"><expan><abbr>ამ</abbr><ex>ი</ex><abbr>ს</abbr></expan></w> 
+                                <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w> 
+                                <w lemma="იწროება"><expan><abbr>იწრ</abbr><ex>ოე</ex><abbr>ბ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w> 
+                                <w lemma="შინა"><expan><abbr>შ</abbr><ex>ინ</ex><abbr>ა</abbr></expan></w> 
+                                <w lemma="დიდსა"><expan><abbr>დ</abbr><ex>ი</ex><abbr>დსა</abbr></expan></w> 
+                                <w lemma="ჟამთა"><expan><abbr>ჟ</abbr><ex>ა</ex><abbr>მთ</abbr><ex>ა</ex><abbr>ს
+                    <lb n="9" break="no"/>ა</abbr></expan></w>
+                                <w lemma="სადიდებელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>დ</abbr><ex>ი</ex><abbr>დ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> 
+                                <w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w> 
+                                <w lemma="შენ"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w> 
+                                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდი</ex><abbr>სა</abbr></expan></w> 
+                                და 
+                                <w lemma="საჴსარ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ჴსრ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> 
+                                და 
+                                <w lemma="სალოცველ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ცვ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> 
+                                <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლი
+                    <lb n="10" break="no"/>სა</abbr></expan></w> 
+                                <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნისა</abbr></expan></w> 
+                                <w lemma="მაცხოვარ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ცხ</abbr><ex>ოვა</ex><abbr>რო</abbr></expan></w> 
+                                და 
+                                <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთ</ex><abbr>ო</abbr></expan></w> 
+                                <w lemma="ვითარ"><expan><abbr>ვ</abbr><ex>ითა</ex><abbr>რ</abbr></expan></w>
+                                გ <w lemma="სასოება"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ს</abbr><ex>ოე</ex><abbr>ბ</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></w> 
+                                და 
+                                <w lemma="ორკერძო"><expan><abbr>ორკ</abbr><ex>ე</ex><abbr>რძ</abbr><ex>ო</ex><abbr>თ</abbr><ex>ა</ex><abbr>ვე</abbr></expan></w> 
+                                <w lemma="სატანჯველ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ტ</abbr><ex>ა</ex><abbr>ნჯ
+                    <lb n="11" break="no"/>ვ</abbr><ex>ე</ex><abbr>ლთ</abbr><ex>ა</ex><abbr>გ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
+                                <w lemma="განრინებს"><expan><abbr>გ</abbr><ex>ა</ex><abbr>ნგ</abbr><ex>უა</ex><abbr>რ</abbr><ex>ი</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w> 
+                                და 
+                                <w lemma="ნუ">ნუ</w> 
+                                <w lemma="ქვა">ქვათა</w> 
+                                <w lemma="უნდობ"><expan><abbr>უნდ</abbr><ex>ო</ex><abbr>ბსა</abbr></expan></w> 
+                                <w lemma="მიხედვა"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ხ</abbr><ex>ე</ex><abbr>დ</abbr><ex>ა</ex><abbr>ვთ</abbr></expan></w> 
+                                <w lemma="არამედ"><expan><abbr>ა</abbr><ex>რამე</ex><abbr>დ</abbr></expan></w> 
+                               <w lemma="სასოება"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ს</abbr><ex>ოე</ex><abbr>ბისა</abbr></expan></w> 
+                                <w lemma="გულსმოდგინება"><expan><abbr>გ</abbr><ex>უ</ex><abbr>ლს
+                    <lb n="12" break="no"/>მ</abbr><ex>ო</ex><abbr>დგ</abbr><ex>ი</ex><abbr>ნ</abbr><ex>ეო</ex><abbr>ბ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w>
+
+                   </ab>
+               </div>
+            
+             <div type="apparatus" xml:space="preserve"/>
+            
+         <div type="translation" xml:lang="ka">
+             <p> ქორონიკონსა 6899 † მოწყალებითა და კაცთმოყურებითა შენ, ღმრთისა და მაცხოვრისა ჩუენისა უფლისა იესუ ქრისტესითა და შეწევნითა 
+                ყოვლადწმიდისა მშობლითა შენითა, მე უღირსი, შაჰნშა მანდატურთუხუცესის ძე, მჴარგრძელი, და თანამეცხედრე ჩემი ათაბაგის და 
+                ამირსპასალარის, სადუნის, ასული ვანენი, ღირსი გავხდით ამ სამრეკლო-სამარხის აშენებისა დიდი გაჭირვების ჟამს, სადიდებელად სახელისა 
+                შენისა წმიდისა და საჴსრად და სალოცველად სულისა ჩუენისა. მაცხოვარო და ღმერთო, ვითარ გ[უაქუს] სასოება, ორკერძოთავე 
+                სატანჯველთაგან განგუარინე და ნუ ქვათა უნდობსა მიხედავთ, არამედ სასოებისა გულსმოდგინებასა.</p>
+         </div>                  
+           
+            <div type="commentary"/>
+         </body>
+    </text>
+</TEI>

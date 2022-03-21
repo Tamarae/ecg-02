@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ბოლნისის „ლამაზი გორას“ ჯვარი ბარნაბასი, V/VI საუკუნე</title>
+                <title xml:lang="en">Bolnisi “Lamazi Gora” Cross of Barnaba, V/VI centuries</title>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <editor xml:lang="en">Nodar Shoshiashvili</editor>
+                
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG038</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                   <msIdentifier>
+                        <collection>ბოლნისი</collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en">Memorial fragment</seg>
+                        </summary>
+                    </msContents> 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/30">მომწვანო ტუფი</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/30">Green tuff</material>
+                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">Plaque</objectType>
+                                <dimensions unit="cm">
+                                    <height>138</height>
+                                        <width>23,5</width>
+                                        <depth>49</depth>
+                                  </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="7"> 
+                                        <seg xml:lang="ka">წარწერა 7 სტრიქონიანია. მომწვანო ტუფის სწორკუთხოვანი ფილის ზემო ნაწილზე რელიეფურად გამოქანდაკებულია პატარა სამკუთხედებისაგან 
+                                   შემდგარ მედალიონში ჩასმული „ბოლნური ჯვარი“ ბუნზე. ჯვრის მკლავები ორმაგი კონტურებითაა ამოჭრილი. ჯვრის ქვემოთ ამოკვეთილია წარწერა.</seg>
+                                        <seg xml:lang="en">Seven line inscription. The figure of “Bolnisi Cross” is embossed on a medallion shaped with small triangles that is embedded on the upper part of a green tufa rectangular plaque. The crossbars are engraved with double contours. The inscription is engraved under the cross.</seg>
+                                        <dimensions unit="cm">
+                                        <width>20</width>
+                                        <height>22</height>
+                                        <depth/>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed, embossed">
+                                <seg xml:lang="ka">წარწერა <rs type="script">ასომთავრული</rs> ანბანითაა შესრულებული. 
+                                მისი ნაწილი არის <rs type="execution">ამოღარული</rs>, ხოლო ნაწილი - <rs type="execution">რელიეფური</rs></seg>
+                                <seg xml:lang="en">Asomtavruli inscription. Part of it is engraved and part is embossed.</seg>
+                                <height>2-3</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>
+                                    <seg xml:lang="ka">ლამაზი გორა, ბოლნისის მუნიციპალიტეტი</seg>
+                                    <seg xml:lang="en">Lamazi Gora, Bolnisi</seg>
+                                </origPlace>
+                                <origDate notBefore-custom="0400" notAfter-custom="0600" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">V-VI AD</origDate>
+                            </origin>
+                            <provenance type="found" when="1959">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863760">
+                                    <seg xml:lang="ka">ლამაზი გორა, ბოლნისის მუნიციპალიტეტი</seg>
+                                    <seg xml:lang="en">Lamazi Gora, Bolnisi</seg>
+                                </placeName>
+                                <!-- "41.449801, 44.548284"-->
+                                <rs type="circumstances">ძეგლი აღმოჩენილია ივანე ჯავახიშვილის სახელობის ისტორიის ინსტიტუტის არქეოლოგიური ექსპედიციის მიერ,
+                                    რომელსაც ი. გრძელიშვილი ხელმძღვანელობდა. ბოლნისის სიონიდან ჩრდილო-დასავლეთით, დაახლოებით 800 მეტრის დაშორებით მდებარეობს ბორცვი, 
+                                    რომელსაც ადგილობრივი მოსახლეობა „ლამაზ გორას“ უწოდებს. სწორედ ამ გორაზე ჩაატარა ექსპედიციამ გათხრები და შუა ადგილას გამოავლინა
+                                    სამეკლესიანი ბაზილიკის ნანგრევები. ვარაუდობენ, რომ ეს იყო სამონასტრო კომპლექსი, რომელსაც ეჭირა 1000 კვ.მ. ფართობი. ამ ტერიტორიაზე
+                                    აღმოჩნდა ათეული ქვაჯვარი ასომთავრული წარწერებით. ძეგლი იპოვეს 1959 წელს.</rs> 
+                                <rs type="context">The monument was discovered by the archaeological expedition of Ivane Javakhishvili Institute of History supervised by I. Grdzelishvili. The hill that the locals call “Lamazi Gora” (a beautiful hill) is located 800 meters from Bolnisi Sioni Cathedral to the north-west. During the excavations of the hill the ruins of three-church basilica was found in the middle of it. 
+                                    The territory of the monastery could have been 1000 sq m. Up to ten stone crosses with Asomtavruli inscriptions were found in this territory. The monument was discovered in 1959.</rs>
+                                <rs type="monuList"/>
+                            </provenance> 
+                             <provenance type="observed">
+                            <placeName type="modernSpot" ref="http://museum.ge/">
+                                <seg xml:lang="ka">საქართველოს ეროვნული მუზეუმი</seg>
+                                <seg xml:lang="en">National Museum of Georgia</seg>
+                            </placeName>
+                            <idno type="invNo">594</idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+       <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+        
+    <facsimile>
+        <surface>
+            <graphic url="ecg038.jpg">
+                <desc xml:lang="ka">ბოლნისის „ლამაზი გორას“ ჯვარი ბარნაბასი, V/VI საუკუნე</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები<ptr target="bibliography.xml#b101"/>, <citedRange> 83-84</citedRange></bibl></p>
+                <p><bibl n="2">კორნელი დანელია, ზურაბ სარჯველაძე, ქართული პალეოგრაფია<ptr target="bibliography.xml#b92"/>, <citedRange> 23</citedRange></bibl></p>
+                <p><bibl n="3">ჯ. ამირანაშვილი, ადრეფეოდალური ხანის ქართული არქიტექტურისა და რელიეფური ქანდაკების ძეგლები<ptr target="bibliography.xml#b136"/>, <citedRange> 34-35</citedRange></bibl></p>
+               
+            </div> 
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--  "ესე ჯუარი ბარ
+                                ნაბაჲსი რნ
+                                აღმოი
+                                კითხოს 
+                                ლოცვა
+                                [სა მომი]ჴ
+                                [სენეთ]-->
+                                 
+                <ab>
+                   <lb n="1"/><w lemma="ესე">ესე</w> <w lemma="ჯუარ">ჯუარი</w> <persName type="local" key="ბარნაბაჲ"><name nymRef="ბარნაბა">ბარ
+                    <lb n="2" break="no"/>ნაბაჲსი</name></persName> 
+                                <w lemma="რომელ"><expan><abbr>რ</abbr><ex>ომელმა</ex><abbr>ნ</abbr></expan></w>
+                    <lb n="3"/><w lemma="აღმოკითხვა">აღმოი
+                    <lb n="4" break="no"/>კითხოს</w>
+                    <lb n="5"/><w lemma="ლოცვა">ლოცვა
+                    <lb n="6" break="no"/><supplied reason="lost">სა</supplied></w> 
+                              <w lemma="მოჴსენება"><supplied reason="lost">მომი</supplied>ჴ
+                    <lb n="7" break="no"/><supplied reason="lost">სენეთ</supplied></w>
+                  </ab>
+            </div>
+                
+            <div type="translation">
+                <p xml:lang="ka">ვინც ბარნაბას ეს ჯვარი ამოიკითხოს, ლოცვაში მომიჴსენეთ.</p>
+                <p xml:lang="en">Who will read this cross of Barnaba’s, commemorate me in your prayers.</p>
+            </div>
+            
+            <div type="apparatus" xml:space="preserve"/>
+                         
+            
+            <div type="commentary">
+                <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით # 18. წარწერას განკვეთილობისა და ქარაგმის ნიშნები არ ახლავს. მე-3 სტრიქონი იწყება ფილის შუა ადგილიდან. სტრიქონის
+                მარცხენა მხარეზე კი ჩანს დაზიანებისა თუ განზრახ გადაფხეკის შედეგად გადასული წარწერის რამდენიმე გრაფემების ოდნავ შესამჩნევი კვალი. ეს გასაგებს ხდის წარწერის
+                შერეული წესით ამოკვეთის მიზეზს: დაუწყიათ ამოკოდვილი ასოებით, შემდეგ განუზრახავთ ტექსტის შეცვლა. 
+                მაგრამ ძველი წარწერის გადაშლით დაზიანებულ ზედაპირზე ამოკოდვით შესრულებული გრაფემები არ გამოჩნდებოდა, ამიტომაც გააგრძელეს წარწერა რელიეფური ასოებით.
+                მე-3 სტრიქონის პირველ ნახევარზე წარწერა არ ამოუკვეთიათ ქვის ზედაპირის დაზიანების გამო.</p>
+                <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #18. The inscription does not contain any mark of separation or abbreviation. 
+                    The 3rd line starts in the middle of the plaque. On the left side of the same line there is a damage or a scratch thus some of the graphemes are hardly noticeable. That explains the reason for the difference in type of the engraving: it seems that they started to carve letters and then decided to change the text. But the damaged surface by erasing the previous letters would not be suitable for the new inscription, that’s why they continued to write with embossed letters. As for the first part of the 3rd line, it seems that they did not engrave anything on that part because of the damage to the surface. </p>
+            </div>        
+         </body>
+    </text>
+</TEI>

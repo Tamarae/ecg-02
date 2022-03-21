@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ატენის სიონის წარწერები</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename"></idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="fragmentary">
+                    <msIdentifier>
+                        <collection>ატენის სიონი</collection>                
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1483">ფილა</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        ატენის სიონის დასავლეთ კედლის სამხრეთ მონაკვეთზე ძირიდან დაახლ. 130 სმ-ზე ქვემოდან V ქვაზე შემორჩენილია რამდენიმე ასო; დასავლეთ აფსიდის 
+                                        ცენტრალურ ნაწილში ქვემოდან II ქვაზე, მიწიდან 91 სმ-ის სიმაღლეზე არის ბერძნული წარწერების ნაშთი.
+                                    <dimensions unit="cm">
+                                        <width>37,5</width>
+                                        <height>37,5</height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                <p>დათარიღების საფუძველია ასოთა მოხაზულობა (ξ, σ, η). τ-სა და †-ს მსგავსი ნიშნები მიჩნეულია ქარაგმად, ან განკვეთის ნიშნად.</p>
+                             <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace></origPlace>
+                                <origDate notBefore-custom="1101" notAfter-custom="1200" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">XII AD</origDate>
+                              </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">ატენის სიონი</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                        
+                            <provenance type="observed">
+                            <placeName type="modernSpot">ატენის სიონი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg423.jpg">
+                <desc xml:lang="ka">ატენის სიონი</desc>
+                <desc xml:lang="en">Ateni Sioni</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 197</citedRange></bibl></p>
+                
+            </div>
+
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!--  ΠΟ  Τ ...      ΚΤ εξε †σε η 
+                            Κ[ύριε] ἔξεσε η...    -->
+                     
+            
+         <div type="textpart" subtype="section" n="1">
+         <ab>
+             <unclear>ΠΟ  Τ ... </unclear>
+         </ab>    
+          </div> 
+                <div type="textpart" subtype="section" n="2">
+         <ab>
+              <w lemma="κύριος"><expan><abbr>κ</abbr><ex>ύριε</ex></expan></w> <w lemma="ξέω">ἔξεσε</w> <unclear>η...</unclear>
+         </ab>    
+          </div> 
+                
+            </div>
+            
+            <div type="translation" subtype="section" n="1" xml:lang="ka">
+                <p></p>
+            </div>
+            <div type="translation" subtype="section" n="2" xml:lang="ka">
+                <p>უფალო, გათალა... (/ამოკაწრა)</p>
+            </div>
+            
+            <div type="apparatus" xml:space="preserve">                                                               <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app><lem></lem>
+              <rdg></rdg>
+              </app></p>
+            </div>
+           
+            <div type="commentary">
+                <p>დასავლეთ კედლის წარწერა არ იშიფრება.</p>
+                <p>დასავლეთ აფსიდის ქვის წარწერას უჭირავს 11x2 სმ.</p>
+                <p>თუკი ξέω ზმნის პირველ მნიშვნელობას (გათლა) მივიღებთ, მაშინ წარწერა ქვის მთლელის გაკეთებულია.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

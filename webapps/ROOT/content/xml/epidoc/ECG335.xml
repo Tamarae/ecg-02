@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ჰნევანქის (ძელი ჭეშმარიტი) ივანე მანდატურთუხუცესისა და ამირსპასალარის ძის, სუმბატის, წარწერა</title>
+                <editor>ლეონ მელიქსეთ-ბეგი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG335</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ჰნევანქი</collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>  
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType>გუმბათი</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="9">წარწერა თერთმეტსტრიქონიანია. 
+                                        იგი შესრულებულია მონასტრის მთავარი ეკლესიის გუმბათის ყელის ზედა ნაწილის შემოყოლებაზე.
+                                        იგი, როგორც ეტყობა, მოთავსებული იყო 22 სხვადასხვა ზომის ქვაზე, რომელთაგან 
+                                ზოგიერთი, 2, 6, 16, 19, ჩამოვარდნილია და ამის გამო წარწერის შინაარსის მთლიანად აღდგენა შეუძლებელია. გარდა ამისა, დარჩენილ ქვებზეც 
+                                ზოგიერთი ასო დაზიანებულია
+                                      <dimensions unit="cm">
+                                         <width></width>
+                                         <height></height> 
+                                      </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
+                                   <height unit="cm" precision="high"></height> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ჰნევანქი (ძელი ჭეშმარიტი), სომხეთი</origPlace>
+                                <origDate notBefore-custom="1200" notAfter-custom="1400" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">XII-XIII AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">ჰნევანქი (ძელი ჭეშმარიტი), სომხეთი</placeName> 
+                                <!-- "40.959485, 44.585145"-->
+                                <rs type="circumstances"/>
+                                <rs type="context"/>                              
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">ჰნევანქი (ძელი ჭეშმარიტი), სომხეთი</placeName>
+                                <idno type="invNo"/></provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-12-17" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg335.jpg">
+                <desc xml:lang="ka">ჰნევანქის ივანე მანდატურთუხუცესისა და ამირსპასალარის ძის, სუმბატის, წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>           
+              <div type="bibliography">
+                  
+ <p><bibl n="1">ლეონ მელიქსეთ-ბეგი, ლორე-ტაშირის ქართული ეპიგრაფიკა<ptr target="bibliography.xml#b162"/>, <citedRange> 309-327</citedRange></bibl></p>
+ <p><bibl n="2">ლეონ მელიქსეთ-ბეგი, ჩრდილო მხარეთა სომეხთა მოძღვარნი და მათი ვინაობა, სომეხ-ქართველთა ურთიერთობის საკითხებთან დაკავშირებით<ptr target="bibliography.xml#b176"/>, <citedRange> 35</citedRange></bibl></p>
+ <p><bibl n="3">Г. Чубинашвили, Разыскания по армянской архитектуре<ptr target="bibliography.xml#b177"/>, <citedRange>73</citedRange></bibl></p>
+ <p><bibl n="4">პარუირ მურადიანი, სომხეთის ქართული წარწერები, წყაროთმცოდნეობითი გამოკვლევა (სომხურ ენაზე)<ptr target="bibliography.xml#b166"/>, <citedRange> 140-141, 294, ტაბ. X</citedRange></bibl></p>
+ <p><bibl n="5">შოთა მესხია, საშინაო პოლიტიკური ვითარება და სამოხელეო წყობა XII საუკუნის საქართველოში<ptr target="bibliography.xml#b172"/>, <citedRange> 13, 21</citedRange></bibl></p>
+ <p><bibl n="6">დევი ბერძენიშვილი, დებედის ხეობის ისტორიული გეოგრაფიისათვის<ptr target="bibliography.xml#b178"/>, <citedRange> 294</citedRange></bibl></p>
+                                                                          
+              </div>                     
+                              
+     <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--† სახელითა ღმრთისაჲთა, მეოხებითა 
+                        წმიდისა ღმრთისმშობელისაჲთა,
+                        შეწევნითა ყოველთა წმიდათაჲთა ღირს ვი
+                        ქმენ მე სოჳბატ 
+                        [ძე ივანე მანდატურთუხუცე]
+                        სისა და ამირსპასალარისაჲ, მეორედ განახლებად და შე
+                        მკობად დიდებულისა საყდრისა წმიდისა [ძელი ჭეშმარიტი]სასა საოხად და სა
+                        ლხინებლად სულთა ჩუენთა
+                        და მშობელთა
+                        ჩუენთათჳს და ყოველთა 
+                        მომავალთა ჩუენთათჳს საუკუნოდ. შემდგომითი შემდგომათა. ლოც[ვა ყავ]თ [სადიდებლად] ღმრთისა მოწყალისა მონისათვის. ქრონიკონი იყო ტოფ--> 
+                                                            
+ 
+                <ab>
+                    <lb n="1"/>&#8224;<w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლითა</abbr></expan></w> 
+                                <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთისა</ex><abbr>ჲთა</abbr></expan></w>
+                                <w lemma="მეოხება">მეოხებითა</w>
+                    <lb n="2"/><w lemma="წმიდა">წმიდისა</w> 
+                                <w lemma="ღმრთისმშობელ">ღმრთისმშობელისაჲთა</w>
+                    <lb n="3"/><w lemma="შეწევნა">შეწევნითა</w> 
+                                <w lemma="ყოველ">ყოველთა</w> 
+                                <w lemma="წმიდა">წმიდათაჲთა</w> 
+                                <w lemma="ღირსქმნა">ღირს-ვი
+                    <lb n="4" break="no"/>ქმენ</w> 
+                                    <w lemma="მე">მე</w> 
+                                  <name nymRef="სუბატ">სოჳბატ</name> 
+                    <lb n="5"/><supplied reason="lost">ძე</supplied> 
+                                <name nymRef="ივანე მანდატურთუხუცესი"><supplied reason="lost">ივანე</supplied></name>
+                                <roleName nymRef="მანდატურთუხუცეს"><supplied reason="lost">მანდატურთუხუცე</supplied>
+                    <lb n="6" break="no"/>სისა</roleName>
+                                    და 
+                                    <roleName nymRef="ამირსპასალარ">ამირსპასალარისაჲ</roleName> 
+                                    <w lemma="მეორე">მეორედ</w> 
+                                    <w lemma="განახლება">განახლებად</w> 
+                                    და 
+                                    <w lemma="შემკობა">შე
+                    <lb n="7" break="no"/>მკობად</w> 
+                                    <w lemma="დიდებულ">დიდებულისა</w> 
+                                    <w lemma="საყდარ">საყდრისა</w> 
+                                    <w lemma="წმიდა">წმიდისა</w> 
+                                    <w lemma="ძელ"><supplied reason="lost">ძელი</supplied></w>
+                                    <w lemma="ჭეშმარიტ"><supplied reason="lost">ჭეშმარიტი</supplied>სასა</w> 
+                                     <w lemma="საოხ">საოხად</w> 
+                                    და
+                                    <w lemma="სალხინებელ">სა
+                    <lb n="8" break="no"/>ლხინებლად</w> 
+                                <w lemma="სულ">სულთა</w> 
+                                <w lemma="ჩუენ">ჩუენთა</w>
+                    <lb n="9"/>და 
+                                <w lemma="მშობელ">მშობელთა</w>
+                    <lb n="10"/><w lemma="ჩუენ">ჩუენთათჳს</w> 
+                                და 
+                                <w lemma="ყოველ">ყოველთა</w>
+                    <lb n="11"/><w lemma="მომავალ">მომავალთა</w> 
+                                <w lemma="ჩუენ">ჩუენთათჳს</w> 
+                                <w lemma="საუკუნო">საუკუნოდ</w>
+                                <w lemma="შემდგომ">შემდგომითი</w>
+                                <w lemma="შემდგომ">შემდგომათა</w>
+                                <w lemma="ლოცვა">ლოც<supplied reason="lost">ვა</supplied></w> 
+                                <w lemma="ყოფა"><supplied reason="lost">ყავ</supplied>თ</w> 
+                                <w lemma="სადიდებელ"><supplied reason="lost">სადიდებლად</supplied></w> 
+                                <w lemma="ღმერთ">ღმრთისა</w> 
+                                <w lemma="მოწყალე">მოწყალისა</w> 
+                                <w lemma="მონა">მონისათვის</w>
+                                <rs type="date"><w lemma="ქრონიკონ">ქრონიკონი</w> 
+                                <w lemma="ყოფა">იყო</w> 
+                                 <num>ტოფ</num> </rs>      
+                 </ab>
+               </div>
+              
+            <div type="apparatus" xml:space="preserve"/>
+            
+            
+         <div type="translation" xml:lang="ka">
+             <p>† სახელითა ღმრთისაჲთა, წმიდა ღმრთისმშობლის მეოხებით, ყოველთა წმიდათა შეწევნით, ღირსი გავხდი მე, სუბატ, [ძე ივანე მანდატურთუხუცე]სისა 
+                 და ამირსპასალარისა, მეორედ განახლებად და შემკობად დიდებული საყდრის, წმიდა [ძელი ჭეშმარიტი]ს, საოხად და სალხინებლად სულთა ჩუენთა,
+                 მშობელთა ჩუენთა და ჩვენს შემდგომად მომავალთა საუკუნოდ. ილოცეთ მონისათვის მოწყალე ღმრთის სადიდებლად. ქრონიკონი იყო ტოფ.</p>
+         </div>    
+                             
+            <div type="commentary">
+                <p>ჰნევანქის (ძელი ჭეშმარიტი) ნამონასტრალი მდებარეობს ძორაგეტის ხეობაში, მდინარის მარჯვნივ, რკინიგზის სადგურ თუმანიანიდან
+                                სტეფანავანისკენ მიმავალი გზის პირას, ახლანდელი ძორაჰესის საგუბარს ზემოთ. სამონასტრო კომპლექსი რამდენიმე ნაგებობას შეიცავს, რომელთა შორის
+                                უძველესია ცენტრალურგუმბათიანი ჯვრის რიგის ტრიქონკი, IX საუკუნის შემდეგ არაერთგზის განახლებული. მიშენებული აქვს კარიბჭე სამხრეთის მხრიდან.
+                    ჰნევანქის მონასტერი ნანახი აქვს ვახუშტი ბატონიშვილს, რომელიც მის შესახებ წერს: 
+                    „კვალად დასავლით ამისა (ქობერისა, ლ. მ.-ბ.) არს მონასტერი ძელი ჭეშმარიტისა - მშვენიერი, ამ ბერდუჯის მდინარესა ზედა, უპყრავსთ სომეხთავე.
+                    აქა არს მაღალს კლდესა შინა ქვაბნი მრავალნი, და მას ქვაბსა შინა მდებარეობენ შიგნნი მრავალნი ძველნი, არამედ კაცთა აუსვლელობით უხმარ არიან.
+                    დასავლით ამისსა არს ციხე ლორისა და ქალაქი მცირე“ (ვახუშტი, აღწერა სამეფოსა საქართველოსა,  35).
+                    წარწერა ჯერ 1928 წელს, ხოლო მეორედ 1964 წელს შეისწავლა და გამოსცა ლეონ მელიქსეთ-ბეგმა.
+                    მას მიაჩნია, რომ ეს ძეგლი თავდაპირველად სომეხ ანტიქალკედონიანთა კერა იყო, 
+                    შემდეგ კი, XII საუკუნიდან, ქალკედონიანთა ხელში გადასულა, რისი დასტურიცაა XII-XIII საუკუნეების 
+                    ქართული ასომთავრული წარწერები მის გარე კედლებზე. მისი აზრით, წარწერაში დასახელებული სუბატი უნდა იყოს იგივე სუმბატი, 
+                    ან პირველი - ძე დიდი ივანე ორბელისა, დემეტრე I-ის თანამედროვე, ან მეორე - ივანე ორბელის შვილიშვილი, გიორგი III-ის თანამედროვე. 
+                 </p>                
+            </div>                
+        </body>
+    </text>
+</TEI>

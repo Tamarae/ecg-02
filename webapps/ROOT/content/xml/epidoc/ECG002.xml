@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">წილკნის აკლდამის ბერძნული წარწერა</title>
+                <title xml:lang="en">Tsilkani Tomb Greek inscription</title>
+                <editor xml:lang="ka">თინათინ ყაუხჩიშვილი</editor>
+                <editor xml:lang="en">Tinatin Kaukhchishvili</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG002</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით. <!-- ციტირების წესი -->
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            წილკანი
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო-მოსახსენებელი</seg>
+                            <seg xml:lang="en">Building memorial</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material xml:lang="ka" ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <material xml:lang="en" ref="https://www.eagle-network.eu/voc/material/lod/2">Stone</material>
+
+                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/447">აკლდამა</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/447">Tomb</objectType>
+
+                                   </support>
+                                   </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="4">
+                                        <seg xml:lang="ka">წილკნის თლილი ქვებით საგულდაგულოდ ნაგები მიწისქვეშა აკლდამის შიგნითა დასავლეთ კედელზე, რომელიც კირხსნარით არის დაფარული,
+                                            გამოყვანილია ამჟამად ძალიან დაზიანებული ბერძნული ასომთავრული წარწერა, რომელიც მარჯვნისაკენ ოდნავ შეღმართზე არის ნაწერი.
+                                            წარწერას უკავია 2,66 მ. - 2,98 მ. (ე.ი. დას. კედლის თითქმის მთელი სიგანე).
+                                        </seg>
+                                        <seg xml:lang="en">
+                                            Greek capital inscription is quite damaged, located on the left inner wall of Tsilkani underground tomb, built with slab stones.
+                                            The inscription lettered from the upper-right angle. Total area: 2,66 m. -2,98 m. (that is the entire width of the west wall).
+                                        </seg>
+                                        <dimensions unit="m">
+                                        <width>2,66 - 2,98</width>
+                                        <height/>
+                                        </dimensions>
+                                     </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <!-- საღებავით შესრულებული წარწერა -->
+
+                                <p  xml:lang="ka" n="1">წარწერა შესრულებულია წითელი და შავი საღებავებით. შთაბეჭდილება ისეთია, რომ ტექსტი თავდაპირველად წითელი ასოებით იყო შესრულებული, შავი - მეორადია (შავი ასოების შიგნიდან ზოგან გამოსჭვივის წითელი ფერი).
+                                    გარდა 4 ძირითადი სტრიქონისა და ქრიზმებისა, ბათქაშზე აქა-იქ ჩანს კვალი შავი საღებავისა, ე.ი. ჩანს, რომ ეწერა კიდევ რაღაცა იმის გარდა, რაც ახლაა დაცული.
+                                    წარწერა მთლიანად ერთბაშად არც არის შესრულებული, IV სტრიქონი მერეა მიწერილი, მაგრამ ინტერვალი დროის მხრივ დიდი არ უნდა იყოს.
+                                </p>
+                                <p xml:lang="ka" n="2">ასოები არათანაბარია, I სტრიქ. ძირითადად 11 სმ-ის სიმაღლისა, II - 10,5 სმ.,
+                                    III - 10,5 სმ. IV არათანაბარი და თითქოს უფრო წვრილი ხელით არის მიწერილი. ასოები კუთხოვანია (გამონაკლისს წარმოადგენს ქრიზმებთან გამოყვანილი ω,
+                                    რომელიც მომრგვალებულია), ტოლგვერდებიან α-ს შემაერთებელი ხაზი ჩატეხილი აქვს. წარწერა ფართოდაა ნაწერი. არ შეინიშნება შეცდომები და საშ. ბერძნულის ნორმები.
+                                    დასტურდება ერთი ლიგატური (ΜΕ-სთვის).
+                                </p>
+
+                                <p xml:lang="en" n="1">
+                                    Colors of the inscription are black and red. We presume that at first the text was done with red color and the black is secondary
+                                    (the red letters are visible within the black ones in some of the cases).
+                                    Besides the 4 main lines and christograms, there are some black color prints on the plaster, thus, there was something more written except what is given currently.
+                                    Time difference present in the main inscription as the IV line is written later, this difference in time scale may not be big.
+                                </p>
+                                <p xml:lang="en" n="2">
+                                   The letters are not equal: 1st line mainly 11 cm height, 2nd - 10,5 cm., 3rd - 10,5 cm. 4th is unequal and represented with rather narrow handwriting.
+                                   The letters are right-angled (exceptional is round shaped ω in the chrisogram), α is represented with a broken crossbar.
+                                   The entire inscription is quite wide. No grammatical mistakes or medieval Greek forms. One ligature for ΜΕ.
+                                </p>
+
+                                <height unit="cm" precision="medium">11 - 10,5</height>
+                               </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <p  xml:lang="ka" n="1">წარწერაზე არის 4 ქრიზმა: I - პირველი სტრიქონის თავზე, მარცხენა კუთხეში (Α†ω), 3 - წარწერის ქვემოთ (IV სტრიქონი ნაწილობრივ ამ ქრიზმებს შორისაა
+                                  ჩაწერილი). ამ სამიდან - ცენტრალური არის პირველი ქრიზმის მსგავსი: Α†ω; მარცხენას აკლია Α, ხოლო მარჯვენასთან მხოლოდ ჯვარია (ასოები ჩამოცვენილია).
+                                </p>
+                                <p xml:lang="en" n="1">
+                                   Inscription has 4 christograms: 1st - on top of the first line on the left side (Α†ω), 3 - below the inscription (the 4th line is partially written between these christograms).
+                                   From the three chrisograms the central is similar to the first one: Α†ω; left one misses A, and the right one only maintains the cross (letters are wiped out).
+                                   The inscription can be dated to early Christian period according to its content, text structure, shape of the letters (Α, Ε, С, Ш, Ф).
+                                </p>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>
+                                    <seg xml:lang="ka">წილკანი</seg>
+                                    <seg xml:lang="en">Tsilkani</seg>
+                                </origPlace>
+                                <origDate notBefore="0301" notAfter="0500" evidence="context-lettering" >IV-V AD</origDate>
+                                    <p xml:lang="ka">წარწერა შინაარსის, ტექსტის აგებულების, ასოთა მოხაზულობის (Α, Ε, С, Ш, Ф) საფუძველზე თარიღდება ადრექრისტიანული ხანით</p>
+                               </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">
+                                    <seg xml:lang="ka">წილკანი</seg>
+                                    <seg xml:lang="en">Tsilkani</seg>
+                                </placeName>
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">
+                            <placeName type="modernSpot">
+                                <seg xml:lang="ka">წილკანში მდებარე აკლდამა</seg>
+                                <seg xml:lang="en">Tomb in Tsilkani</seg>
+                            </placeName>
+                            <idno/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+
+
+
+        <revisionDesc>
+            <change when="2019-04-25" who="TK">ფოტო, რედაქტირება, თარგმანის კოდირება</change>
+        </revisionDesc>
+
+    </teiHeader>
+       <facsimile>
+        <surface>
+            <graphic url="ecg002.jpg">
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/manuscripts/12/">წილკნის აკლდამა, 2016</desc>
+                <desc xml:lang="en" ref="http://paleography.iliauni.edu.ge/digipal/manuscripts/12/">Tomb from Tsilkani, 2016</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                
+                    <p><bibl>
+                        
+                        <ptr target="bibliography.xml#b82"/>თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange>213-214</citedRange>
+                    </bibl></p>
+                      
+                
+            </div>
+
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+
+                        <!-- ἐγὼ Τικᾶς καὶ ἡσυ[χαστὴς
+                            ἀββ]ᾶ μου Φαρανούσης ἐποιήσαμεν
+                            [β]ωμὸν τοῦτον ἰσό[δ]ομ[ον
+                            ἑαυτοῖς] [Π]α[π]ριοῦπας (?) Ἰσδ[ιγέρδης]
+                            (?)[πρὸς δὲ καὶ ἐνθάδε κεῖνται]
+                                                             -->
+                 <ab>
+                     <lb n="1"/>ΑΩ
+                     <lb n="2"/><w lemma="ἐγώ">ἐγὼ</w> 
+                                <persName type="local" key="ტიკას (Τικᾶς)">Τικᾶς</persName> 
+                                καὶ 
+                                <roleName nymRef="ἡσυχαστής"><w lemma="ἡσυχαστής">ἡσυ<supplied reason="lost">χαστὴς</supplied></w></roleName>
+                     <lb n="3"/><roleName nymRef="ἀββᾶ"><w lemma="ἀββᾶ"><supplied reason="lost">ἀββ</supplied>ᾶ</w></roleName> <w lemma="ἐμός">μου</w> 
+                                <persName type="local" key="ამბა ფარანუსესი (ἀββᾶ Φαρανούσης)"><name nymRef="Φαρανούσης">Φαρανούσης</name></persName> <w lemma="ποιέω">ἐποιήσα<hi rend="ligature">με</hi>ν</w>
+                     <lb n="4"/><w lemma="βωμός"><supplied reason="lost">β</supplied>ωμὸν</w> <w lemma="οὗτος">τοῦτον</w> <w lemma="ἰσόδομος">ἰσό<supplied reason="lost">δ</supplied>ομ<supplied reason="lost">ον</supplied></w>
+                     <lb n="5"/><w lemma="ἑαυτοῦ"><supplied reason="lost">ἑαυτοῖς</supplied></w> 
+                                <persName type="local" key="პაპირიუპასი (Παπριοῦπας)"><name nymRef="Παπριοῦπας"><supplied reason="lost" precision="low">Π</supplied>α<supplied reason="lost">π</supplied>ριοῦπας</name></persName> 
+                                <persName type="local" key="იასდიგერდესი (Ἰσδιγέρδης)"><name nymRef="Ἰσδιγέρδης">Ἰσδ<supplied reason="lost">ιγέρδης</supplied></name></persName>
+                     <lb n="6"/><!-- <gap reason="lost" quantity="1" unit="lines"></gap>--><w lemma="πρός"><supplied reason="subaudible">πρὸς</supplied></w> <w lemma="δέ"><supplied reason="subaudible">δὲ</supplied></w> <w lemma="καί"><supplied reason="subaudible">καὶ</supplied></w> <w lemma="ἐνθάδε"><supplied reason="lost">ἐνθάδε</supplied></w> <w lemma="κεῖμαι"><supplied reason="lost">κεῖνται</supplied></w>
+                     <lb n="7"/><supplied reason="lost">Α</supplied>Ω ΑΩ <del rend="damage"><supplied reason="lost">Α</supplied></del><del rend="damage"><supplied reason="lost">Ω</supplied></del>
+                 </ab>
+            </div>
+
+            <div type="translation" xml:lang="ka">
+                <p>მე, ტიკასმა და ბერმა, ჩემმა ამბა ფარანუსესმა გავაკეთეთ ეს აკლდამა თლილი ქვებისგან ჩვენთვის. პაპრიუპასი(?) ისდიგერდესი(?) ასევე აქ განისვენებენ.</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>I, Tikas and the priest, my father Pharanuses built this tomb with slab stones. Papriupas (?) Isdigerdes (?) are also buried here.</p>
+            </div>
+
+            <div type="commentary" xml:lang="ka">
+                <p n="1">ქრიზმათა რაოდენობა წარწერებში რაიმეს განმსაზღვრელი არაა. I ქრიზმა, წარწერის თავში არის ერთგვარი აპელაცია ქრისტეს მიმართ; ქვემოთა ქრიზმებს,
+                    რომლებიც სიმეტრიულად არის ჩაფიქრებული, ერთგვარად ორნამენტის მნიშვნელობაც აქვთ, ისინი ამთავრებენ ტექსტს. ასეთი ქრიზმები გვხვდება ყველგან, ყველა დროს, სადაც
+                    ქრისტიანობა არსებობს. α და ω ქრისტეს სიმბოლოა, რაც მომდინარეობს იოანეს გამოცხადებიდან (1,8; 21,6): ἐγὼ εἰμι τὸ ἄλφα καὶ τὸ ὦ, λέγει κύριος ὁ θεός (მე ვარ ანი და ჵ, პირველი
+                    და უკანასკნელი, იტყჳს უფალი).
+                    აკლდამა საეკლესიო პირთა, ქრისტიან ღვთისმსახურთა განსასვენებელი იყო. იგი აიგეს ტიკასმა (რომელიც, როგორც ჩანს, მთავარი პირია და მას განმარტება არ სჭირდება)
+                    და ფარანუსესმა (ტიკასთან დაახლოვებულმა პირმა, ბერმა, მონასტრის წინამძღვარმა) თავისთვის. მათ შემდეგ კიდევ რამდენიმე კაცი დაკრძალულა შიგ, როგორც ჩანს, ამავე რიგის მოღვაწენი.
+
+                    სახელები, რომლებიც რეალურად არის წარწერაში (Τικᾶς, Φαρανούσης) ბერძნულ-რომაული წარმოშობის არაა (Φαρανούσης იგივე Φαρναούσης ირანული სახელებია),
+                    მაგრამ აშკარად გაბერძნულებული ფორმით არიან გადმოცემული. პირობითად აღდგენილი სახელები (Παπριοῦπας, Ἰσδιγέρδης) ასევე ირანული წყობისაა.
+                    ბერძნულად ნაწერ წილკანში დაცულ ძეგლში ირანულ სახელთა სიუხვე იბერია-ირანის კონტაქტების მაუწყებელია.</p>
+            </div>
+
+            <div type="commentary" xml:lang="en">
+                <p n="1">
+                    The number of christograms does not give any meaningful data. The 1st christogram at the beginning of the inscription is the only appellation to Christ; the christograms present symmetrically below have ornamental function, they end the text.
+                    Similar christograms are noticeable in every period of Christianity.
+                    Α and ω are the symbols of the Christ, that originates from St John, Book of Revelation (1,8; 21,6): ἐγὼ εἰμι τὸ ἄλφα καὶ τὸ ὦ, λέγει κύριος ὁ θεός (I am the Alpha and the Omega, the Beginning and the End, says the Lord God).
+
+                    The tomb is designated for the Christian priests. It was built by Tikas (who appears to be head of the monastery, no specific definition) and Pharanuses (a priest and head of the monastery, close person to Tikas). Couple of more men had been buried in the same tomb, seemingly the priests of the same rate.
+                    The names that are given in the inscription (Τικᾶς, Φαρανούσης) are not of the Greco-Roman origin (Φαρανούσης i.e. Φαρναούσης are Iranian), but apparently represented with Grecism form. The restored versions (Παπριοῦπας, Ἰσδιγέρδης) are also of Iranian structure. The quantity of Iranian names in the Greek inscriptions of Tsilkani speaks about the intense communications between Iberia and Iran.
+                </p>
+            </div>
+         </body>
+    </text>
+</TEI>

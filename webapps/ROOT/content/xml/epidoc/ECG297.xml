@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>მინის ფიალა</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+                <editor>ნ. უგრეხელიძე</editor>
+                <editor>В. В. Латышев</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG297</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                           ატენი
+                        </collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka"></seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents> 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/122">მინა</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/310">ფიალა</objectType>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        მინის ფიალა დაზიანებულია. მის გარეთა წრეზე გამოყვანილია ბერძნული წარწერა.
+                                        <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                       </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                
+                                <height/>
+
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>ფილის შუაში გამოსახულია ფარშევანგი, ხოლო ირგვლივ - გეომეტრიული ორნამენტი.</decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>სამთავრო</origPlace>
+                                <origDate notBefore-custom="0301" notAfter-custom="0500" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">IV-V AD</origDate>
+                              </origin>
+                            <provenance type="found" when="1938">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863882">სამთავრო</placeName> 
+                                <rs type="circumstances">ნივთი აღმოჩენილია სამთავროს ჩრდილო უბანზე, N24 ქვაყუთში.</rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                         
+                            <provenance type="observed">
+                            <placeName type="modernSpot">სახელმწიფო მუზეუმი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>    
+   <facsimile>
+        <surface>
+            <graphic url="ecg297.jpg">
+                <desc xml:lang="ka">ფიალა სამთავროდან, 1938</desc>
+                <desc xml:lang="en">Bowl from Samtavro, 1938</desc>
+            </graphic>
+        </surface>
+    </facsimile>   
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 269</citedRange></bibl></p>
+                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 266-267</citedRange></bibl></p>
+                    <p><bibl n="3">ნ. უგრეხელიძე, სამთავროში აღმოჩენილი მინის ჭურჭელი ფრაშევანგის გამოსახულებით<ptr target="bibliography.xml#b167"/><citedRange></citedRange></bibl></p>
+                    <p><bibl n="4">В. В. Латышев, Сборник греческих надписей христианских времен из Южной России<ptr target="bibliography.xml#b168"/>, <citedRange> 119-120</citedRange></bibl></p>         
+                
+            </div>
+         
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!-- ΠΙΕΖΗ ΗC πίε ζήσῃς   -->
+                     
+         <ab>
+             <w lemma="πίνω">πίε</w> <w lemma="ζάω">ζήσῃς</w>
+         </ab>    
+             
+         
+            </div>
+                
+            <div type="translation" xml:lang="ka">
+                <p>დალიე, იცოცხლე</p>
+            </div>
+            
+           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app><lem></lem>
+              <rdg></rdg>
+              </app>
+              <app><lem></lem>
+              <rdg></rdg>
+              </app></p>
+            </div>
+           
+            <div type="commentary">
+                <p>წარწერა მიუთითებს იმაზე, რომ ჭურჭელი სასმისია, ამგვარი სასმისები მსგავსი წარწერით ევქარისტიული დანიშნულებისა იყო ქრისტიანულ ხანაში.</p>
+                <p>ასოთა მოხაზულობის მიხედვით წარწერა გვიან რომაული, ადრე ბიზანტიური ხანით უნდა დათარიღდეს, განსაკ. გამოირჩევა ასო ζ თავისი არქაული იერით.
+                ხელნაწერებში ასეთი ζ დადასტურებულია ჩვენ წელთააღრიცხვამდელ საუკუნეებში (შდრ. V. Gardthausen, Griechische Paleographie, II. 1913. Taf. I), 
+                რაც შეეხება მინას და სხვა მაგარ საწერ მასალას, ისინი მეტ კონსერვატიულობას იჩენენ და გაცილებით უფრო გვიან შევხვდებით ასოთა ადრინდელ მოხაზულობებს. 
+                ვ. ლატიშევი კერჩის ერთ მინის ჭურჭელს, რომელსაც დიდი მსგავსება აქვს ამ მასალასთან (არა სიუჟეტის მიხედვით), IV ს-ით ათარიღებს. მის მიერ დამოწმებულ 
+                ნივთზე არის წარწერა, რომელიც ისეთივეა, როგორც სამთავროდან მოტანილი მინის ჭურჭლისა, აქ უკეთ იკითხება πιε ζησης (ე.ი. πίε ζήσῃς). სამთავროს 
+                წარწერა დაახლ. ამავე დროისა უნდა იყოს, რა დროისაც კერჩის ჭურჭელია.</p>
+            </div>           
+         </body>
+    </text>
+</TEI>
+
+
+
+
+

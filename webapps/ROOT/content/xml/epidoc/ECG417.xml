@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>შეჭედილი ჯვარი</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG417</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>წვირმი</collection>                
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/115">ვერცხლი</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/111">ჯვარი</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        შეჭედილ ვერცხლის ჯვარზე ერთი ტიპის ცალკეული გამოსახულებებია. ჯვრის მარცხენა მკლავის 3 გამოსახულებიდან შუა გამოსახულებას ორსავე მხარეს აქვს საკმაოდ გადასული ბერძნული მთავრული წარწერა. მარჯვენა მკლავის 3 
+                              გამოსახულებიდან ცენტრიდან პირველს აქვს ბერძნული მთავრული ასოებით წარწერა მარცხნივ და მარჯვნივ.
+                                    <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>                     
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace></origPlace>
+                                <origDate notBefore-custom="1101" notAfter-custom="1200" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">XII AD</origDate>
+                              </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">წვირმი</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                        
+                            <provenance type="observed">
+                            <placeName type="modernSpot">წვირმის მაცხოვრის ეკლესია</placeName>
+                            <idno>№ 15</idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg417.jpg">
+                <desc xml:lang="ka">ვერცხლის ჯვარი წვირმიდან</desc>
+                <desc xml:lang="en">Silver cross from Tsvirmi</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 89</citedRange></bibl></p>
+                
+            </div>
+ 
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!--   Α Ω Δ ΡΟ Ο    ὁ ἅ[γιος] [Ἰ]ω[άννης ὁ πρό]δρο[μ]ο[ς] 
+                               Α Μ Τ Α       ὁ ἅ[γιος] Μ[α]τ[θ]α[ῖος]   -->
+                     
+            
+         <div type="textpart" subtype="section" n="1">
+         <ab>
+             <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="ἅγιος"><expan><abbr>ἅ</abbr><ex>γιος</ex></expan></w> <name nymRef="Ἰωάννης"><supplied reason="subaudible">Ἰ</supplied>ω<supplied reason="subaudible">άννης</supplied></name>
+             <w lemma="ὁ"><supplied reason="subaudible">ὁ</supplied></w> <w lemma="πρόδρομος"><supplied reason="subaudible">πρό</supplied>δ<hi rend="ligature">ρο</hi><supplied reason="subaudible">μ</supplied>ο<supplied reason="subaudible">ς</supplied></w></persName>
+         </ab>    
+          </div> 
+                <div type="textpart" subtype="section" n="2">
+         <ab>
+             <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="ἅγιος"><expan><abbr>ἅ</abbr><ex>γιος</ex></expan></w> <name nymRef="Ματθαῖος"><expan><abbr>Μ</abbr><ex>α</ex><abbr>τ</abbr><ex>θ</ex><abbr>α</abbr><ex>ῖος</ex></expan></name></persName>
+         </ab>    
+          </div> 
+            </div>
+            
+            <div type="translation" subtype="section" n="1" xml:lang="ka">
+                <p>წმიდა იოანე წინამორბედი</p>
+            </div>
+            <div type="translation" subtype="section" n="2" xml:lang="ka">
+                <p>წმიდა მათე</p>
+            </div>
+            
+            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app><lem></lem>
+              <rdg></rdg>
+              </app></p>
+            </div>
+           
+            <div type="commentary">
+                <p>წარწერის დათარიღება ხდება პალეოგრაფიული ნიშნებით (ასოთა მოხაზულობა, ლიგატურა, შემოკლებები).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title xml:lang="ka">უკანგორი. V/VI სს. მოსახსენებელი (III)</title>
+                <title xml:lang="en">Ukangori memorial inscription of V-VI century (III)</title>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <editor xml:lang="en">Nodar Shoshiashvili</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG079</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                     დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიის ფარგლებში.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <msName type="invNo" />
+                    </msIdentifier>
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType xml:lang="ka"  ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ლორფინი</objectType>
+                                    <material xml:lang="ka"  ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <material xml:lang="en"  ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
+                                    <dimensions unit="cm">
+                                        <height>39</height>
+                                        <width>32</width>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <dimensions unit="cm">
+                                        <width>7</width>
+                                    </dimensions>
+                                    </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        
+                         <handDesc>
+                            <handNote script="asomtavruli" style="embossed">
+                               <p xml:lang="ka"><rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა.</p>
+                               <p xml:lang="en">Embossed inscription with capital letters.</p>
+                            </handNote>
+                        </handDesc>
+                        
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="ka">უკანგორი</seg>
+                                <seg xml:lang="en">Ukangori</seg>
+                            </origPlace>
+                            <origDate evidence="lettering">VI  A.D.</origDate>
+                        </origin>
+
+                        <provenance type="found" when="1937">
+                            <placeName>
+                                <seg xml:lang="ka">უკანგორი</seg>
+                                <seg xml:lang="en">Ukangori</seg>
+                            </placeName>
+                            <rs type="monuList"/>
+                             <rs type="circumstances">სოფ. უკანგორის მეორე, დანგრეული ეკლესიის მახლობლად 1937 წ. ზაფხულში ძეგლს მიაკვლია დმანისის არქეოლოგიურმა ექსპედიციამ, ლ. მუსხელიშვილის ხელმძღვანელობით. </rs>
+                        </provenance>
+                        
+                        <provenance>
+                           <placeName type="modernSpot" ref="http://museum.ge">
+                               <seg xml:lang="ka">საქართველოს ეროვნული მუზეუმი</seg>
+                               <seg xml:lang="en">National Museum of Georgia</seg>
+                           </placeName>
+                            <idno type="invNo">28</idno>
+                       </provenance>
+       
+                    </history>
+                </msDesc> 
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="bibliography" subtype="principalEdition">
+                
+                    <p><bibl type="publication" subtype="principal">
+                        <ptr target="bibliography.xml#b101"/>ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, <citedRange>91</citedRange>
+                    </bibl></p>
+                   
+                    <p><bibl n="2">ზ. სარჯველაძე, კ. დანელია, ქაული პალეოგრაფია<ptr target="bibliography.xml#b92"/>, <citedRange> 25-26</citedRange></bibl></p>
+                    <p><bibl n="3">ლ. მუსხელიშვილი, არქეოლოგიური ექსკურსიები მაშავრის ხეობაში<ptr target="bibliography.xml#b135"/>, <citedRange>8-23</citedRange></bibl></p>
+                    <p><bibl n="4">ლ. მუსხელიშვილი, უკანგორის ისტორიული ნაშთები<ptr target="bibliography.xml#b183"/>, <citedRange>159-182</citedRange></bibl></p>
+                    <p><bibl n="5">ვ. შუბითიძე, ქართული ციხესიმაგრეები და ეკლესია მონასტრები<ptr target="bibliography.xml#b92"/>, <citedRange>68</citedRange></bibl></p>
+                
+            </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve"> 
+                
+                
+                   <!-- ...უ
+                        ...ან
+                         -->
+
+            <ab>
+                  <lb n="1"/>უ
+                  <lb n="2"/>ან
+              </ab>
+
+</div>
+
+<div type="translation" xml:lang="ka"/>
+<div type="apparatus" xml:space="preserve"/>
+
+            
+            <div type="commentary">
+                 <p n="1" xml:lang="ka">ლორფინის ზედა ნაწილზე ამოკვეთილია მცენარეული ორნამენტი, ხოლო ორნამენტის ქვეშ - მცირე სამკუთხედებისაგან შედგენილ რელიეფურ ჩარჩოიან 
+                 მედალიონში ჩასმული ბოლნური ჯვარი. ჯვრის მკლავები ორმაგი კონტურებითაა შემოვლებული. ჯვრის ქვეშ ყოფილა, დადაბლებულ სწორკუთხოვან ფონზე ამოკვეთილი
+                 ორსტრიქონიანი რელიეფური წარწერა. საიდანაც შემორჩა მხოლოდ ორ-ორი გრაფემა თითოეული სტრიქონის ბოლოს.
+                დაზიანება: ქვის სირბილის გამო წარწერის ორივე სტრიქონი, გარდა ორ-ორი ბოლო გრაფემისა, მოტეხილია. 
+                წარმოდგენილი დათარიღების საფუძველი: 1. პალეოგრაფიული ნიშნები: თავშეკრული , რელიეფურობა, დუქტუსი; 2. "ბოლნური ჯვარი".</p>
+            </div>
+
+        </body>
+    </text>
+</TEI>

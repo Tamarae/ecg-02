@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ნოქალაქევის კერამიკული ხუფი</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG323</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="fragmentary">
+                    <msIdentifier>
+                        <collection>
+                           ნოქალაქევი
+                        </collection>
+                    </msIdentifier>                  
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka"></seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>  
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material>კერამიკა</material>
+                                   <objectType>ხუფი</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout>კერამიკული ხუფის 4 ფრაგმენტზე შემორჩენილია ბერძნული რელიეფური ასოები
+                                      <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>ასოები გამოყვანილია ხუფის გამოწვამდე
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                <p></p>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ნოქალაქევი</origPlace>
+                                <origDate notBefore="0501" notAfter="0700" evidence="lettering" datingMethod="#julian">VI-VII AD</origDate>
+                                </origin>
+                            <provenance type="found" when="1977">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/857041">ნოქალაქევი</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                           <provenance type="observed">
+                            <placeName type="modernSpot"></placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg323.jpg">
+                <desc xml:lang="ka">ნოქალაქევის კერამიკული ხუფი, 1977</desc>
+                <desc xml:lang="en">Ceramic lid from Nokalakevi, 1977</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 133-134</citedRange></bibl></p>
+                
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!-- ΒΕ | ΙΛ
+                            Α
+                            ΚΤV
+
+                                                -->
+                     
+
+         <ab>
+             <unclear>ΒΕ | ΙΛ</unclear>
+             <unclear>Α</unclear>
+             <unclear>ΚΤV</unclear>
+             </ab>    
+             
+         
+            </div>
+                
+            <div type="translation" xml:lang="ka">
+                <p></p>
+            </div>
+            
+           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app>
+              <rdg></rdg>
+              </app></p>
+             </div>
+           
+            <div type="commentary">
+                <p>ცალკეული ასოების მიხედვით წარწერის აღდგენა ვერ ხერხდება.</p>
+                <p>დათარიღება ხდება ასოების მოხაზულობის მიხედვით.</p>
+                 </div>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+

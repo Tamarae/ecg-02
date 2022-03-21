@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ფიალაზე დატანილი ბერძნული ლიგატურა</title>
+                <editor>დევიდ ბრაუნდი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG304</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                           საირხე
+                        </collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">ლიგატურა</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents> 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material></material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/305">ფიალა</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                         <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>საირხე</origPlace>
+                                <origDate notBefore-custom="-0400" notAfter-custom="-0301" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">IV BC</origDate>
+                              </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863878">საირხე</placeName> 
+                                <rs type="circumstances">ფიალა აღმოჩენილია საირხის N10 სამარხში.</rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                         
+                            <provenance type="observed">
+                            <placeName type="modernSpot"></placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>    
+    <facsimile>
+        <surface>
+            <graphic url="ecg304.jpg">
+                <desc xml:lang="ka">ფიალა საირხედან</desc>
+                <desc xml:lang="en">Bowl from Sairkhe</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="bibliography">
+                
+                    <p><bibl n="1">დევიდ ბრაუნდი, საქართველო ანტიკურ ხანაში: კოლხეთისა და ამიერკავკასიის იბერიის ისტორია ძვ.წ. 550-ახ.წ. 562 წლები<ptr target="bibliography.xml#b68"/>, <citedRange> 188-189</citedRange></bibl></p>
+                
+            </div>
+
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!-- ΔΤΜ -->
+                     
+            
+
+         <ab>
+             <hi rend="ligature">ΔΤΜ</hi>
+         </ab>    
+             
+         
+            </div>
+                
+            <div type="translation" xml:lang="ka">
+                <p></p>
+            </div>
+            
+           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app><lem></lem>
+              <rdg></rdg>
+              </app></p>
+            </div>
+           
+            <div type="commentary">
+                <p>საირხეში, ისევე, როგორც ვანში, ძვ.წ. V საუკუნიდან მაინც, ადგილობრივის, ბერძნულის და სპარსულის ურთიერთშერწყმის მოწმენი ვხდებით. საირხეში აღმოჩენილ ფიალაზე 
+                დატანილია ლიგატურა, რომელიც აშარად ბერძნულასოებიანია (ΔΤΜ ან შეიძლება ΔΜΤ) და ალბათ კუთვნილების აღმნიშვნელი უნდა იყოს. სამარხის ხასიათიდან, სამარხეული 
+                ინვენტარის ტიპოლოგიიდან და მდიდრულობიდან გამომდინარე, შეიძლება ითქვას, რომ როგორც ითხვისის სამარხში, ისე აქაც ბერძნული ანბანის გამომყენებელი კოლხი ელიტის 
+                წარმომადგენელი მარხია. ეს სამარხი ითხვისის მეტოსის სამარხზე გაცილებით უფრო გვიანდელია და ძვ.წ. IV საუკუნის პირველი ნახევრით არის დათარიღებული.</p>
+                
+            </div>
+         </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+

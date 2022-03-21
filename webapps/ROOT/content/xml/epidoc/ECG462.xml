@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> -->
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>სკურჩის წარწერა, XI ს.</title> 
+                <editor>ლია ახალაძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
+                 <idno type="filename">ECG462</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc> 
+                    <msIdentifier> 
+                        <collection>სკურჩა</collection>  
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka"></seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <material ref="https://www.eagle-network.eu/voc/material/lod/2">კირქვა</material> 
+                                    <objectType ref="www.eagle-network.eu/voc/objtyp/lod/1483">ფილა</objectType>
+                                        <dimensions unit="cm">
+                                        <width/> <!-- არ არის მითითებული -->
+                                        <height/> <!-- არ არის მითითებული -->
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout wtittenLines="3">
+                                        <dimensions unit="cm">
+                                            <width/> 
+                                            <height/>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="nuskhuri" style="inscribed">სამსტრიქონიანი, ასომთავრული წარწერა განთავსებულია ჯვრის მკლავებზე ორ სტრიქონად, ხოლო ჯვრის მკლავებს ქვემოთ, ორივე მხარეს, ერთ-სტრიქოდან. განკვეთილობის ნიშანი არ ახლავს, ქარაგმის ნიშანი: სწორი, განივი ხაზი.</handNote>
+                            <height/> <!-- არ არის მითითებული-->
+                       </handDesc>
+                        <decoDesc>
+                            <decoNote> ფილას ჯვარცმის გამოსახულებით ირგვლივ შემოუყვება ჩუქურთმებიანი ორნამენტი. ფილის ცენტრალურ ნაწილში წარმოდგენილია ჯვარცმა, რომლის მარჯვნივ და მარცხნივ მარიამ ღვთისმშობელი და იოანე ვედრების პოზაში არიან გამოსახული.
+                                ხოლო ჯვარცმის ზემოთ, მარჯვენა და მარცხენა კუთხეებში, მიქაელ და გაბრიელ მთავარანგელოზების რელიეფური გამოსახულებებია. ქარაგმის ნიშანი: გამოყენებულია სიტყვის შუა ნაწილების გამოტოვების მეთოდი, შუაშეკვეცილობითი დაქარაგმება.</decoNote> <!-- ქარაგმის ნიშანი: გამოყენებულია სიტყვის შუა ნაწილების გამოტოვების მეთოდი, რომელსაც ივ. ჯავახიშვილმა შუაშეკვეცილობითი დაქარაგმება უწოდა. -->
+                        </decoDesc>
+                        </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>წარჩე</origPlace>
+                                <origDate notBefore="1000" notAfter="1100">XI AD</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">კოდორის ხეობა, სკურჩის დასახლება</placeName>
+                                <rs type="circumstances"/>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                            <provenance type="observed">დაცულია დ. გულიას სახელობის აფხაზეთის სახელმწიფო მუზეუმში.</provenance>
+                            <placeName type="modernSpot"/> 
+                            <idno/>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc> <change when="2019-05-5" who="TG">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან </change></revisionDesc> <!-- აქ ჩამოვიტანო ყველგან. რედაქტირების აღსაწწრი ველი revisionDesc -->
+    </teiHeader>
+    
+    <fascimile>  
+    <surface>
+        <graphic url="ECG462.jpg"></graphic>
+            <desc xml:lang="ka">სკურჩის წარწერა</desc>
+    </surface>
+    </fascimile>    
+    
+    <text>
+        <body>
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                <ab>
+                    <!-- აჰა მ(ეუ)ფჱ | ჰურიათა | ჯ(უა)რც(უ)მ(ა)ი ქ(რისტ)ესი-->
+                    <lb n="1"/> <w>აჰა</w> <w lemma="მეუფე"><expan><abbr>მ</abbr><ex>ეუ</ex><abbr>ფჱ</abbr></expan></w>
+                    <lb n="2"/> <w>ჰურიათა</w>
+                    <lb n="3"/> <w lemma="ჯუარცმა"><expan><abbr>ჯ</abbr><ex>უა</ex><abbr>რც</abbr><ex>უ</ex><abbr>მ</abbr><ex>ა</ex><abbr>ი</abbr></expan></w> <PersName><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ესი</abbr></expan></PersName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ka">აი, უფალი ებრაელთა. ჯვარცმა ქრისტესი.</div>
+            <div type="apparatus" xml:space="preserve"/>
+            <div type="commentary"/>          
+            <div type="bibliography" subtype="principalEdition"> 
+                           
+                    <p><bibl type="publication" subtype="principal" xml:lang="ka">
+                      <author>
+                          <persName>
+                            <forename></forename>
+                            <surname></surname>
+                          </persName>
+                      </author>
+                      <title/>
+                        <edition/>
+                        <pubPlace/>
+                        <publisher/>
+                        <date></date>
+                     </bibl></p>
+                
+            </div>         
+         </body>
+    </text>
+</TEI>

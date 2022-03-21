@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:space="preserve" xml:lang="ka">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">პეტრეს და თევდორეს მოსახსენებელი</title>
+                <editor xml:lang="ka">გიორგი ოთხმეზური</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <idno type="filename">ECG199</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                    დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>დმანისი</collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                <objectType  ref="https://www.eagle-network.eu/voc/objtyp">ფასადი</objectType>
+                                <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                            </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    ეკლესიის დასავლეთ ფასადზე ასომთავრული წარწერა
+                                    <dimensions/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli">
+                                <p xml:lang="ka"><rs type="script">ასომთავრული</rs> წარწერა, განკვეთილობის ნიშნები არ ახლავს. ქარაგმის ნიშანი განივი, სწორი ხაზი</p>
+                                <p xml:lang="en"></p>
+                                <dimensions>
+                                    <height/>
+                                </dimensions>    
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>სარკინეთი</origPlace>
+                            <origDate >VIII-IX ს.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <text><!-- 
+    1.პ(ეტრ)ე || თ(ევდორ)ე
+    -->
+        <body>
+             <div type="bibliography">
+                
+                   <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>91</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
+                    
+                    
+             </div>
+            
+            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
+
+                <ab>
+                    <lb n="1"/> <persName type="local" key="პეტრე"><abbr>პ</abbr><expan><ex>ეტრ</ex><abbr>ე</abbr></expan></persName> 
+                    <persName type="local" key="თევდორე"><expan><abbr>თ</abbr><ex>ევდორ</ex><abbr>ე</abbr></expan></persName>
+                </ab>
+                
+            </div>
+            <div type="translation"/>
+
+            
+            <div type="commentary">
+                <p> წმ. ბასილი დიდის სახელობის ეკლესიის დას. ფასადზე, კარნიზის კეხიდან ქვების მეორე წყობაში, რელიეფური ჯვრის განივი მკლავების ქვეშ ამოკვეთილია 1 სტრ. ასომთავრული წარწერა(აზომვა არ ხერხდება).
+                    განკვეთილობის ნიშნები არ ახლავს. ქარაგმის ნიშანი - განივი, სწორი ხაზი. 
+                    დაზიანება: ჯვრის მარცხენა მკლავების ქვეშ ამოკვეთილი გრაფემები (თ, ე) ქვის ზედაპირის ატკეჩვის გამო გადასულია და მათი მხოლოდ მკრთალი კონტურები განირჩევა. 
+                    წარმოდგენილი დათარიღების საფუძვლები:  1) პალეოგრაფიული ნიშნები  ე- მარცხნივ გაზიდული დამატებითი განივი ხაზის გარეშე.  პ- მიდრეკილი გაკუთხოვნებისაკენ;
+                    2) წარწერა ეკლესიის აგებისა და ჯვრის გამოსახულების თანადროული უნდა იყოს. 
+                </p>
+                
+              
+                
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+

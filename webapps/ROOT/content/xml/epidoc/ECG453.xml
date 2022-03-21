@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ილორის გალატოზის წარწერა</title>
+                <editor>ლია ახალაძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
+                 <idno type="filename">ECG453</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            ილორი
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">ფრაგმენტი</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="www.eagle-network.eu/voc/material/lod/2.html">ქვა</material>
+                                   <objectType>ქვის ფილა</objectType> 
+                                        <dimensions unit="cm">
+                                        <width>59</width>
+                                        <height>35</height>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="1">
+                                        ერთსტრიქონიანი წარწერის ფრაგმენტი. წარწერა მოთავსებულია ეკლესიის აღმოსავლეთ კედელში, სამხრეთ აღმოსავლეთ კუთხესთან.
+                                    <dimensions unit="cm">
+                                    </dimensions>
+                                     <width>52</width>
+                                        <height>9-7</height>
+                                        <depth></depth>
+                                    </layout>  
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="nuskhuri" style="inscribed">
+                               ერთსტრიქონიანი ნუსხური წარწერა; განკვეთილობის ნიშნები არ ახლავს; ქარაგმის ნიშანი: სწორი განივი ხაზი
+                               <rs type="execution">ამოკვეთილი</rs> <rs type="script">ნუსხური</rs>
+                            </handNote>
+                            <handNote>
+                                <height>2-5-9</height>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                             
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace ref="pleiades.stoa.org/places/857170">ილორი</origPlace>
+                                <origDate>XI საუკუნის I მეოთხედი AD</origDate> 
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">ილორი</placeName>
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                            <provenance type="observed">
+                            <placeName type="modernSpot">ილორის წმინდა გიორგის ეკლესია</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2019-05-05" who="TS">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, ბმულებით დაკავშირება გარეკონტროლირებად ლექსიკონებთან</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ucg1007.jpg">
+                <desc xml:lang="ka">ილორის გალატოზის წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!--  წ(მიდა)ო გ(იორგ)ი ილორ(ი)საო
+                 [შ](ეიწყალ)ე გ(ა)ლ[ატოზი]-->
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> <persName ref="attestedperson.xml#person2"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></persName> <placeName><expan><abbr>ილორ</abbr><ex>ი</ex><abbr>საო</abbr></expan></placeName>
+                    <lb n="2"/><w lemma="იწყალებს"><expan><supplied reason="undefined" precision="medium">შ</supplied><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> <roleName><w lemma="გალატოზ"><expan><abbr>გ</abbr><ex>ა</ex><abbr>ლ</abbr><supplied reason="undefined" precision="medium"><abbr>ატოზი</abbr></supplied></expan></w></roleName>
+                    </ab>
+                </div>
+            <div type="translation" xml:lang="ka"><p>ილორის წმინდა გიორგი, შეიწყალე გალატოზი </p></div>
+            
+            <div type="apparatus" xml:space="preserve"/>
+            
+            <div type="commentary"><p>ა. კაციას მიერ დასახელებულ პირველ ქვაზე ამოკვეთილი ყოფილა ორი თითოსტრიქონიანი წარწერა; ზედა წარწერას ვ. სილოგავა გალატოზის წარწერით იხსენიებს; წარწერის ფილა შეთეთრებულია კირით; წარწერის დასასრული ფილის გადარეცხვის შედეგად გადასულია; ვ. სილოგავას ვარაუდით წარწერაში „გალატოზის" ნაცვლად შეიძლება ყოფილიყო „გ(აბრიე)ლ ან გ(გრიგო)ლ"; თ. ბარნაველის წაკითხვით „გალატოზის" ადგილზე იკითხება „გიორგი"; გამოცემები: (169.46), (45.159), (164.814), (113ა.62)</p></div>
+            
+            
+            
+            <div type="bibliography" subtype="principalEdition">
+                           
+                    <p><bibl type="publication" subtype="principal" xml:lang="ka">
+                      <author>
+                          <persName>
+                            <forename></forename>
+                            <surname></surname>
+                          </persName>
+                      </author>
+                      <title/>
+                        <edition/>
+                        <pubPlace/>
+                        <publisher/>
+                        <date></date>
+                     </bibl></p>
+                
+            </div>         
+         
+    </body>
+</text>
+</TEI>

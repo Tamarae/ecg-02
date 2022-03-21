@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>თეთრი ქვის საბეჭდავი მონოგრამა</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG279</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                            <collection>
+                                სამთავრო
+                            </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მონოგრამა</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/240">საბეჭდავი</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                    თეთრი ქვის პატარა საბეჭდავს გარეგნულად საწონის ფორმა აქვს და ყურგახვრეტილია. ქვედა წრიულ წახნაგზე ჩაჭდეული აქვს მონოგრამა.
+                                        <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ფაშიანთა</origPlace>
+                                <origDate notBefore-custom="-0400" notAfter-custom="-0201" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">IV-III BC</origDate>
+                              </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">ფაშიანთა</placeName> 
+                                <rs type="circumstances"/>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                         
+                            <provenance>
+                            <placeName type="modernSpot">საქართველოს მუზეუმი</placeName>
+                            <idno>№ 17-25/1</idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg279.jpg">
+                <desc xml:lang="ka">საბეჭდავი ფაშიანთადან</desc>
+                <desc xml:lang="en">Signet from Pashianta</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 266-267</citedRange></bibl></p>
+                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 268</citedRange></bibl></p>
+                
+            </div>
+ 
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!--  Θ Γ   -->
+                     
+            
+         <ab>
+             <g type="monogram">Θ Γ</g>
+         </ab>    
+             
+         
+            </div>
+                
+            <div type="translation" xml:lang="ka"/>
+            
+            
+           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app><lem></lem>
+              <rdg></rdg>
+              </app></p>
+            </div>
+           
+            <div type="commentary">
+                <p>მონოგრამა შეიცავს Θ-სა და Γ-ს. საბეჭდავის მეტად გაშიფრვა არ ხერხდება.</p>
+                <p>დათარიღების საფუძველია მსგავსი მონოგრამები, რომლებიც დადასტურებულია ძვ.წ. IV-III სს-დან. სპეციალისტთა აზრით საბეჭდავი ელინისტური ხანისაა.</p>
+            </div>
+         </body>
+    </text>
+</TEI>
+
+
+

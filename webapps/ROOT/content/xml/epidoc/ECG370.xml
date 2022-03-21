@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ხუნზახის VI წარწერა დაღესტნიდან</title>
+                <editor xml:lang="ka">შაჰბან ჰაფიზოვი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename"></idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ხუნზახი</collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents> 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType>ჯვარი</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="18">წარწერა თვრამეტსტრიქონიანია. ჯვრის მარცხენა მკლავის გვერდზე („ყუაზე“) არის გრაფიტების ნაშთები ორ სტრიქონად,
+                                    ხოლო ჯვრის მარჯვენა მკლავის „ყუაზე“ - ოთხ სტრიქონად
+                                        <dimensions unit="cm">
+                                         <width></width>
+                                         <height></height> 
+                                          </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" scribe="nuskhuri" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ნუსხურნარევი ასომთავრული</rs> წარწერა
+                                   <height></height> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ხუნზახი, დაღესტანი</origPlace>
+                                <origDate></origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName  type ="ancientFindspot" when="1971">ხუნზახი, დაღესტანი</placeName>
+                                <!-- "42.547389, 46.706797"--> 
+                                <rs type="circumstances">1970-1971 წლებში ტად-რაალში აღმოჩნდა სამი ქვა ქართული წარწერებითურთ. 
+                                    ისინი ინახება ხუნზახელი ალიბეკ კაზანბიევის სახლში. 
+                    მათგან ყველაზე ფასეულია თითქმის მთლიანად გადარჩენილი ჯვარი. ჯვრის როგორც ორივე მხარეზე, 
+                    აგრეთვე მკლავების ზედა მხარეებზე გამოსახულია ქართული წარწერები. ჯვრის წინა მხარეს ქვედა მკლავი მნიშვნელოვნადაა დაზიანებული, 
+                    რის გამოც ტექსტი აქ არ ჩანს</rs>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName>ხუნზახი, დაღესტანი</placeName>
+                                <idno type="invNo"/></provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg370.jpg">
+                <desc xml:lang="ka">ხუნზახის VI წარწერა დაღესტნიდან</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>           
+             <div type="bibliography">
+           
+   <p><bibl n="1">შაჰბან ჰაფიზოვი, ქართული, ქართულ-ხუნძური და ხუნძური წარწერები მთიან ხუნძეთში (დაღესტანი)<ptr target="bibliography.xml#b141"/>, <citedRange> 123-124</citedRange></bibl></p>
+             
+          </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--I. (1) ჯ(უა)რი 
+                    „ჯუარი“ 
+                    (2) ქ(რისტ)ე 
+                    „ქრისტე„ 
+                    (3) შ(ეიწყალ)ესა... 
+                    ქართ. “შეიწყალე”, ხუნძ. „სა...“ 
+                    (4) ...რკელ 
+                    ხუნძ. „რკელ“ 
+                                      
+                   II. (1) წ(მიდა)ოგ(იორგ)ი 
+                “წმიდაო გიორგი” 
+                (2) წ(მიდა)ო:თ(ეოდორ)ე
+                “წმიდაო თეოდორე” 
+                (3) წ(მიდა)ოყეშე 
+                “წმიდაო ყეშე” [? _ მთარგმნ.] 
+                (4) მარცხნივ: (წმიდაო)ნიკ(ო)ლ(ო)ზ 
+                “წმიდაო ნიკოლოზ” 
+                (5) ღ(მერთმა)ნ:გ(იორგ)ი 
+                “ღმერთმან გიორგი” 
+                (6) წ(მიდა)ო 
+                “წმიდაო” 
+                (7) ებ 
+                “ებ” 
+                (8) ვღ 
+                “?” 
+                
+                III. (1) ქ(რისტე _ ?)წ(მიდა)ო 
+            “ქრისტე, წმიდაო” 
+            (2) დ(იმიტრ)იწ(მიდა)ო 
+            “დიმიტრი წმიდაო” 
+            
+                IV. (1) ჯ(უა)რიქ(რისტ)ე 
+            “ჯუარი. ქრისტე” 
+            (2) ი 
+            (3) ...ქნ 
+            (4) ...ნ.-->                                                       
+            
+         <div type="textpart" subtype="section" n="1">
+                <ab>
+                   <lb n="1"/><w lemma="ჯუარ"><expan><abbr>ჯ</abbr><ex>უა</ex><abbr>რი</abbr></expan></w>                     
+                   <lb n="2"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
+                   <lb n="3"/><w lemma="შეწყალებ"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> 
+                              სა<gap reason="lost" extent="unknown" unit="chars"></gap> 
+                   <lb n="4"/><gap reason="lost" extent="unknown" unit="chars"></gap>რკელ 
+                   </ab>
+         </div> 
+            <div type="textpart" subtype="section" n="2">
+                <ab>
+                   <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w>
+                             <name nymRef="გიორგი"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></name>
+                   <lb n="2"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w>
+                                <name nymRef="თეოდორე"><expan><abbr>თ</abbr><ex>ეოდორ</ex><abbr>ე</abbr></expan></name>
+                   <lb n="3"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w>
+                                <name>ყეშე</name> 
+                   <lb n="4"/><w lemma="წმიდა"><supplied reason="lost">წმიდაო</supplied></w>
+                                <name nymRef="ნიკოლოზ"><expan><abbr>ნიკ</abbr><ex>ო</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ზ</abbr></expan></name> 
+                    <lb n="5"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
+                                <name nymRef="გიორგი"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></name> 
+                    <lb n="6"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w>
+                    <lb n="7"/>ებ 
+                    <lb n="8"/>ვღ 
+                   </ab>
+            </div>
+           <div type="textpart" subtype="section" n="3">
+                <ab>
+                   <lb n="1"/><w lemma="ქრისტე"><supplied reason="lost" cert="low"><expan><abbr>ქ</abbr><ex>რისტე</ex></expan></supplied></w>
+                              <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> 
+                   <lb n="2"/><name nymRef="დიმიტრი"><expan><abbr>დ</abbr><ex>იმიტრ</ex><abbr>ი</abbr></expan></name>
+                            <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w>
+                   </ab>
+               </div>
+          <div type="textpart" subtype="section" n="4">
+                <ab>
+                   <lb n="1"/><w lemma="ჯუარ"><expan><abbr>ჯ</abbr><ex>უა</ex><abbr>რი</abbr></expan></w> 
+                            <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
+                   <lb n="2"/>ი
+                   <lb n="3"/><gap reason="lost" extent="unknown" unit="chars"></gap>ქნ
+                   <lb n="4"/><gap reason="lost" extent="unknown" unit="chars"></gap>ნ
+                   </ab>
+         </div> 
+         
+ </div>
+            
+         <div type="translation" xml:lang="ka">
+             <p>I. ჯუარი, ქრისტე, შეიწყალე, სა (ხუნძ.), რკელ (ხუნძ.).
+                II. წმიდაო გიორგი, წმიდაო თეოდორე, წმიდაო ყეშე, წმიდაო ნიკოლოზ, ღმერთმან გიორგი, წმიდაო ებ(?).
+                III. ქრისტე, წმიდაო, დიმიტრი წმიდაო.
+                IV. ჯუარი, ქრისტე.</p>
+         </div>    
+            
+            <div type="apparatus" xml:space="preserve"/>
+      
+            <div type="commentary">
+                <p>წარწერა გამოიკვლია გ. ღამბაშიძემ (Гамбашидзе Г.Г. Грузинские надписи ХII – ХIII вв. на каменном кресте из с. Хунзах (Дагестан). 
+                    Международная научная конференция «Археология, этнология, фольклористика Кавказа». 
+                    Сборник кратких содержаний докладов. Тбилиси, 25-27 июня 2009 года. Тбилиси, 2010,  113-116). 
+                    ჯვრის უკანა მხარეს იკითხება ნაკაწრი ასომთავრული და ნუსხური ასოები. 
+                    გ. ღამბაშიძე ვარაუდობს, რომ აქ გრძელდება წინა მხარეს დაწყებული ტექსტი. მისი აზრით, პირველ სამ სტრიქონზე გამოტოვებულია სიტყვა „შეიწყალე“, 
+                    ხოლო სიტყვა „წმიდაჲ“ ქრისტეს უნდა გულისხმობდეს. შაჰბან ჰაფიზოვი თვლის, რომ ეს ვარაუდი სადავოა, ვინაიდან ავერსზე არ არის გამორჩენილი სიტყვა შეიწყალე. 
+                    გარდა ამისა, ქართულ მართლმადიდებლობაში შეწყალებას წმინდანს არ სთხოვენ, მას მხოლოდ ღმრთის წინაშე მეოხება შეუძლია, მაგრამ არა ცოდვების მიტევება. 
+                    შაჰბან ჰაფიზოვის აზრით, უფრო მოსალოდნელია ხუნზახის სხვა წარწერების ანალოგიით დავუშვათ პირველი სამი სტრიქონის წაკითხვა,
+                    როგორც სამი წმინდანის ერთად მოხსენიება: წმიდაო გიორგი, წმიდაო თეოდორე, წმიდაო ყეშე. 
+                    </p>                
+            </div>
+        </body>
+    </text>
+</TEI>

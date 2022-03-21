@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>საფარის წმ. საბას ტაძრის იოვანე ღვიას შვილის წარწერა</title>
+                <editor>ვალერი სილოგავა</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG122</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>საფარა</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">შემომწირველთა</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="7">წარწერა შვიდსტრიქონიანია
+                                       <dimensions unit="cm">
+                                         <width/>
+                                         <height/> 
+                                        </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა. კიდურწაისრული
+                                   <height/> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>საფარის მონასტრის წმ. საბას ტაძარი</origPlace>
+                                 <origDate notBefore-custom="1200" notAfter-custom="1300" precision="medium" 
+                                    evidence="context" datingMethod="#julian">XIII AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">საფარის მონასტრის წმ. საბას ტაძარი</placeName>
+                                <!-- "41.602116, 43.031036"--> 
+                                <rs type="circumstances"/>
+                                <rs type="context"/>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">საფარის მონასტრის წმ. საბას ტაძარი</placeName>
+                                <idno type="invNo"/></provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg122.jpg">
+                <desc xml:lang="ka">საფარის წმ. საბას ტაძრის იოვანე ღვიას შვილის წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body> 
+        <div type="bibliography">
+              
+  <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
+              
+            </div> 
+             
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!-- "† სხლთა ღთ შეწვთ წსა ღთამშობლით წსა სბასთა მე ინე სლკხლისა ღვსა შვლმნ დოჭრბლ
+                            მნ სრლსა ცნსა ზა მყფმნ მვჴსნე წს სბს პტრსა ცხჯრლსა მმოლი ჩმი და ოკლდ ცხთა
+                            ეკლესთა წყლით ტყთ ჭლით სეფთ ყნით ვენჴთ წსქლით ყფრთ არავინაა მცლბლი ძმასა ჩმსაცა
+                            და ეწრა მე დდი მეჭმა არ ვთლებდე სზითვოსგნ კიდე კოვნი მწნი არ დმკლენ პტრმნ მნასტრმნ
+                            მნწლემნ ვნცა მმლი ჩემი წდს სბს დკლოს ჩემთმცა ბრთ ზღვს სბს ორგლობს შგნ ამჰვლენ სლნი
+                            ამსი მეტი რაცა დწერლი ყლი მეტიალა ზმ რლ კართ ზა დამწერა აღპი გვიკოთე სკნჲ ვნ შცვლს კრლმცა
+                            ღთს პრთა"--> 
+                                                            
+            
+                <ab>
+                   <lb n="1"/>&#8224;<w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
+                            <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთისაჲ</ex><abbr>თ</abbr><ex>ა</ex></expan></w> 
+                            <w lemma="შეწევნა"><expan><abbr>შეწ</abbr><ex>ე</ex><abbr>ვ</abbr><ex>ნი</ex><abbr>თ</abbr><ex>ა</ex></expan></w> 
+                            <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდი</ex><abbr>სა</abbr></expan></w> 
+                            <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr><ex>ის</ex><abbr>ა</abbr></expan></w>
+                            <w lemma="მშობელ"><expan><abbr>მშობ</abbr><ex>ე</ex><abbr>ლი</abbr><ex>საჲ</ex><abbr>თ</abbr><ex>ა</ex></expan></w>
+                            <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდი</ex><abbr>სა</abbr></expan></w> 
+                            <name nymRef="საბა"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ბა</abbr><ex>ჲ</ex><abbr>ს</abbr><ex>ი</ex><abbr>თა</abbr></expan></name> 
+                            <w lemma="მე">მე</w> 
+                            <name nymRef="იოვანე"><expan><abbr>ი</abbr><ex>ოვა</ex><abbr>ნე</abbr></expan></name> 
+                            <w lemma="სულკურთხეულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლკ</abbr><ex>ურთ</ex><abbr>ხ</abbr><ex>ეუ</ex><abbr>ლისა</abbr></expan></w> 
+                            <name nymRef="ღვია"><expan><abbr>ღვ</abbr><ex>ია</ex><abbr>სა</abbr></expan></name> 
+                            <w lemma="შვილ"><expan><abbr>შვ</abbr><ex>ი</ex><abbr>ლმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
+                            <w lemma="დაუჭირვებელ"><expan><abbr>დ</abbr><ex>ა</ex><abbr>ო</abbr><ex>ჳ</ex><abbr>ჭ</abbr><ex>ი</ex><abbr>რ</abbr><ex>ვე</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლ    
+                   <lb n="2" break="no"/>მ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
+                            <w lemma="სრულ"><expan><abbr>სრ</abbr><ex>უ</ex><abbr>ლსა</abbr></expan></w> 
+                            <w lemma="ცნობა"><expan><abbr>ცნ</abbr><ex>ობა</ex><abbr>სა</abbr></expan></w> 
+                            <w lemma="ზედა"><expan><abbr>ზ</abbr><ex>ედ</ex><abbr>ა</abbr></expan></w> 
+                            <w lemma="მყოფი"><expan><abbr>მყ</abbr><ex>ო</ex><abbr>ფმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
+                            <w lemma="მოხსენება"><expan><abbr>მ</abbr><ex>ო</ex><abbr>ვ</abbr><ex>ა</ex><abbr>ჴს</abbr><ex>ე</ex><abbr>ნე</abbr></expan></w> 
+                            <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ს</abbr><ex>ა</ex></expan></w> 
+                            <name nymRef="საბა"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ბ</abbr><ex>ა</ex><abbr>ს</abbr></expan></name> 
+                            <w lemma="პატრონ"><expan><abbr>პ</abbr><ex>ა</ex><abbr>ტრ</abbr><ex>ონ</ex><abbr>სა</abbr></expan></w> 
+                            <placeName nymRef="ციხისჯუარ"><expan><abbr>ც</abbr><ex>ი</ex><abbr>ხ</abbr><ex>ის</ex><abbr>ჯ</abbr><ex>უა</ex><abbr>რ</abbr><ex>ე</ex><abbr>ლსა</abbr></expan></placeName> 
+                            <w lemma="მამულ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>მო</abbr><ex>ჳ</ex><abbr>ლი</abbr></expan></w>
+                            <w lemma="ჩემი"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მი</abbr></expan></w> 
+                            <w lemma="დაუკლებელ"><expan><abbr>დაო</abbr><ex>ჳ</ex><abbr>კლ</abbr><ex>ებელა</ex><abbr>დ</abbr></expan></w> 
+                            <w lemma="ციხე"><expan><abbr>ც</abbr><ex>ი</ex><abbr>ხ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w>
+                   <lb n="3"/><w lemma="ეკლესია"><expan><abbr>ეკლეს</abbr><ex>იი</ex><abbr>თა</abbr></expan></w> 
+                            <w lemma="წყალ"><expan><abbr>წყლით</abbr><ex>ა</ex></expan></w> 
+                            <w lemma="ტყე"><expan><abbr>ტყ</abbr><ex>ი</ex><abbr>თ</abbr><ex>ა</ex></expan></w> 
+                            <w lemma="ჭალა"><expan><abbr>ჭ</abbr><ex>ა</ex><abbr>ლით</abbr><ex>ა</ex></expan></w> 
+                            <w lemma="სეფა"><expan><abbr>სეფ</abbr><ex>ი</ex><abbr>თ</abbr><ex>ა</ex></expan></w> 
+                            <w lemma="ყანა"><expan><abbr>ყ</abbr><ex>ა</ex><abbr>ნით</abbr><ex>ა</ex></expan></w> 
+                            <w lemma="ვენახ"><expan><abbr>ვენ</abbr><ex>ა</ex><abbr>ჴ</abbr><ex>ი</ex><abbr>თ</abbr><ex>ა</ex></expan></w> 
+                            <w lemma="წისქვილ"><expan><abbr>წ</abbr><ex>ის</ex><abbr>სქ</abbr><ex>ვი</ex><abbr>ლით</abbr><ex>ა</ex></expan></w> 
+                            <w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოვლითა</ex></expan></w> 
+                            <w lemma="ფერ"><expan><abbr>ფ</abbr><ex>ე</ex><abbr>რ</abbr><ex>ი</ex><abbr>თ</abbr><ex>ა</ex></expan></w> 
+                            <w lemma="არავინ არის">არავინაა</w> 
+                            <w lemma="მაცილობელ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ც</abbr><ex>ი</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლი</abbr></expan></w> 
+                            <w lemma="ძმა">ძმასა</w> 
+                            <w lemma="მე"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მსაცა</abbr></expan></w>
+                   <lb n="4"/><w lemma="დაწერა"><expan><abbr>დაეწ</abbr><ex>ე</ex><abbr>რა</abbr></expan></w> 
+                            <w lemma="მე">მე</w> 
+                            <w lemma="დიდ"><expan><abbr>დ</abbr><ex>ი</ex><abbr>დი</abbr></expan></w> 
+                            <w lemma="ჭამა"><expan><abbr>მეჭ</abbr><ex>ა</ex><abbr>მა</abbr></expan></w> 
+                            <w lemma="არ">არ</w> 
+                            <w lemma="მართლება"><expan><abbr>ვ</abbr><ex>ემარ</ex><abbr>თლებ</abbr><ex>ო</ex><abbr>დე</abbr></expan></w> 
+                            <w lemma="სამზითვო"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ზითვოს</abbr><ex>ა</ex><abbr>გ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
+                            <w lemma="კიდევ">კიდე</w> 
+                            <w lemma="კუთვნილ"><expan><abbr>კო</abbr><ex>ჳთ</ex><abbr>ვ</abbr><ex>ნილ</ex><abbr>ნი</abbr></expan></w> 
+                            <w lemma="მიწა"><expan><abbr>მ</abbr><ex>ი</ex><abbr>წ</abbr><ex>ა</ex><abbr>ნი</abbr></expan></w> 
+                            <w lemma="არ">არ</w> 
+                            <w lemma="დაკლება"><expan><abbr>დ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ა</ex><abbr>კლენ</abbr></expan></w>
+                            <w lemma="პატრონ"><expan><abbr>პ</abbr><ex>ა</ex><abbr>ტრ</abbr><ex>ონ</ex><abbr>მ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
+                            <w lemma="მონასტერ"><expan><abbr>მ</abbr><ex>ო</ex><abbr>ნასტრ</abbr><ex>ისა</ex><abbr>მ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
+                   <lb n="5"/><w lemma="მონაწილე"><expan><abbr>მ</abbr><ex>ო</ex><abbr>ნ</abbr><ex>ა</ex><abbr>წ</abbr><ex>ი</ex><abbr>ლემ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
+                            <w lemma="ვინცა"><expan><abbr>ვ</abbr><ex>ი</ex><abbr>ნცა</abbr></expan></w>
+                            <w lemma="მამულ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>მ</abbr><ex>უ</ex><abbr>ლი</abbr></expan></w> 
+                            <w lemma="ჩემი">ჩემი</w> 
+                            <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მი</ex><abbr>დ</abbr><ex>ა</ex><abbr>ს</abbr><ex>ა</ex></expan></w> 
+                            <name nymRef="საბა"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ბ</abbr><ex>ა</ex><abbr>ს</abbr></expan></name> 
+                            <w lemma="დაკლება"><expan><abbr>დ</abbr><ex>აა</ex><abbr>კლოს</abbr></expan></w>
+                            <w lemma="ჩემნი"><expan><abbr>ჩემთ</abbr><ex>ა</ex><abbr>მცა</abbr></expan></w> 
+                            <w lemma="ბრალ"><expan><abbr>ბრ</abbr><ex>ალ</ex><abbr>თ</abbr><ex>ა</ex></expan></w> 
+                            <w lemma="ზღვევა"><expan><abbr>ზღ</abbr><ex>ა</ex><abbr>ვს</abbr></expan></w>
+                            <name nymRef="საბა"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ბ</abbr><ex>ა</ex><abbr>ს</abbr></expan></name>
+                            <w lemma="ორგულობა"><expan><abbr>ორგ</abbr><ex>უ</ex><abbr>ლობ</abbr><ex>ა</ex><abbr>ს</abbr><ex>ა</ex></expan></w> 
+                            <w lemma="შიგან"><expan><abbr>შ</abbr><ex>ი</ex><abbr>გ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
+                            <w lemma="ამოსვლა"><expan><abbr>ამ</abbr><ex>ო</ex><abbr>ჰვლენ</abbr></expan></w>
+                            <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლნი</abbr></expan></w>
+                   <lb n="6"/><w lemma="ამისი"><expan><abbr>ამ</abbr><ex>ი</ex><abbr>სი</abbr></expan></w> 
+                              <w lemma="მეტი">მეტი</w> 
+                              <w lemma="რაცა">რაცა</w>
+                              <w lemma="დაწერილ"><expan><abbr>დ</abbr><ex>ა</ex><abbr>წერ</abbr><ex>ი</ex><abbr>ლი</abbr><ex>ა</ex></expan></w> 
+                              <w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოვე</ex><abbr>ლი</abbr></expan></w> 
+                              <w>მეტიალა</w> 
+                              <w lemma="ზემოთ"><expan><abbr>ზ</abbr><ex>ე</ex><abbr>მ</abbr><ex>ოთ</ex></expan></w> 
+                              <w lemma="რომელ"><expan><abbr>რ</abbr><ex>ომე</ex><abbr>ლ</abbr></expan></w> 
+                              <w lemma="კარ"><expan><abbr>კართ</abbr><ex>ა</ex></expan></w> 
+                              <w lemma="ზედა"><expan><abbr>ზ</abbr><ex>ედ</ex><abbr>ა</abbr></expan></w> 
+                              <w lemma="დაწერა"><expan><abbr>დამ</abbr><ex>ი</ex><abbr>წერ</abbr><ex>ი</ex><abbr>ა</abbr></expan></w> 
+                              <w lemma="აღაპ"><expan><abbr>აღ</abbr><ex>ა</ex><abbr>პი</abbr></expan></w> 
+                              <w lemma="გაკუეთა"><expan><abbr>გ</abbr><ex>ა</ex><abbr>ვიკო</abbr><ex>ჳ</ex><abbr>თე</abbr></expan></w> 
+                              <w lemma="საუკუნო"><expan><abbr>ს</abbr><ex>აუ</ex><abbr>კ</abbr><ex>უ</ex><abbr>ნ</abbr><ex>ო</ex><abbr>ჲ</abbr></expan></w> 
+                              <w lemma="ვინ"><expan><abbr>ვ</abbr><ex>ი</ex><abbr>ნ</abbr></expan></w> 
+                              <w lemma="შეცვლა"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ცვ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ს</abbr></expan></w> 
+                              <w lemma="კრულ"><expan><abbr>კრ</abbr><ex>უ</ex><abbr>ლმცა</abbr></expan></w>
+                              <w lemma="ყოფა"><supplied reason="lost">არს</supplied></w>
+                   <lb n="7"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr><ex>ი</ex><abbr>ს</abbr><ex>ა</ex></expan></w> 
+                             <w lemma="პირ"><expan><abbr>პ</abbr><ex>ი</ex><abbr>რ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w>
+                   </ab>
+               </div>           
+         <div type="translation" xml:lang="ka">
+             <p>ღმრთის სახელით, ღვთისმშობლის, წმიდა საბას შეწევნით, მე, იოვანემ, სულკურთხეული ღვიას შვილმა, დაუჭირვებელმა, სრულ ცნობაზე მყოფმა,
+             მოვახსენე წმიდა საბას, ციხისჯუარელ პატრონს, ჩემი მამული სრულად: ციხით, ეკლესიით, წყლით, ტყით, ჭალით, სეფე ყანით, ვენახით, წისქვილით,
+             ყველაფრით, შემცილებელი არავინ არის.
+             ჩემმა ძმამაც შესწირა [მამულები], იმით მეც მისარგებლია და არ ვემართლები. 
+             მზითევში მონაყოლი მიწა არ შემიწირავს მონასტრის პატრონისთვის.
+             ვინც ჩემი შეწირული მამული წმიდა საბას დააკლოს, ჩემი ცოდვებიც ზღოს. საბას ორგულობაში ამოხდეს სული.
+             რაც დაწერილია, იმაზე მეტი მეტიალა.
+             ზემოთ, კარზე რაც დამიწერია, აღაპი დამიდგენია საუკუნო. ვინც შეცვალოს, კრულ იყოს ღმრთის პირით.</p>
+         </div>    
+                             
+               <div type="commentary">
+                <p>საფარის მონასტერი ძველი დროიდანვე სხვადასხვა დანიშნულების 12 ნაგებობისაგან შედგებოდა. მათ შორის მთავარია წმ. საბას
+                   სახელობის ტაძარი, აგებული ბექა სამცხის სპასალარისა და მანდატურთუხუცესის მიერ XIII-XIV სს. მიჯნაზე. საფარაში ამაზე ძველი ეკლესიაც არსებობს, X ს-ის
+                   ღვთისმშობლის მიძინების სახელობის ტაძარი, რომელსაც ჩრდილოეთიდან მიდგმული აქვს ზემოხსენებული წმ. საბას ტაძარი.
+                   საფარის წმ. საბას ტაძრის დასავლეთის შესასვლელის დიდი ზომის არქიტრავზე ქვემოდან ზემოთ
+                                ერთმანეთის თანმიმდევრობით ამოკვეთილია სამი წარწერა-საბუთი. ზემოდან პირველი წარწერა არის ოქროპირ გაბეცასძის მიერ ეკლესიის 
+                                ქვის ფილებით გადასახურად 120 ბოტინატის შეწირვის შესახებ, მეორე - იოვანე ღვიას შვილის წარწერა, 
+                                ხოლო მესამე - გიორგი მალეს წარწერა კარის შეწირვის შესახებ.
+                   იოვანე ღვიას შვილის წარწერა, როგორც წერილობითი ძეგლი, პალეოგრაფიულად ამოვარდნილია ქართული დამწერლობის განვითარების
+                   მაგისტრალური გზიდან - კიდურწაისრული დამწერლობა იმ სახით, როგორითაც ეს წმ. საბას ტაძრის ამ წარწერაშია, დამახასიათებელია XI 
+                   საუკუნისათვის. სხვა მხრივ, ეს წარწერა თავისი ეპოქის (XIII-XIV სს.) ძეგლია. 
+                   წარწერის მიხედვით, იოვანე წერს, რომ ჩამოთვლილი ქონება წმ. საბას პატრონ ციხისჯვარელს (ალბათ, ბექას მამას სარგისს) მოვახსენე
+                   „სრულსა ცნობასა ზედა მყოფმანო“. ეს ფორმულა, როგორც ცნობილია, ანდერძებში, რბილ საწერ მასალაზე (ეტრატი, ქაღალდი) შესრულებულ
+                   წერილობით ძეგლებში გვხვდება (მაგ., გრიგოლ სურამელი 1247/1250 წწ. დათარიღებულ ანდერძში შიომღვიმისადმი წერს: „ესე ყოველი ჩემითა ნებითა დამიწერია, 
+                   სრულითა ცნობითა, სიმრთელესა შინა ტანისა ჩემისასა“, ქართული ისტორიული საბუთების კორპუსი, I, 123:14-15), ხოლო წარწერებში უცნობია.
+                   იოვანე, მართალია, მთელ თავის ქონებას ეკლესიას სწირავს, მაგრამ მზითევში მონაყოლ მიწას, როგორც ცოლეულს, თავისთვის იტოვებს. როგორც ჩანს, რადგანაც
+                   მან მთელი მამული და ქონება ეკლესიას შესწირა, მემკვიდრე არ ჰყავდა, ხოლო ცოლეული მამული პატრონის გარდაცვალების შემდეგ ისედაც სახელმწიფო 
+                   საკუთრებაში გადადიოდა. იოანეს გარდა, თავისი ქონება ეკლესიისათვის მის ძმასაც გადაუცია („ძმასა ჩემსა დაეწერა“). ამ ცნობას მოსდევს ცოტა ბუნდოვანი
+                   გამოთქმა: „მე დიდი მეჭამა, არ ვემართლებოდე“. ბოლოს წერს მისთვის საუკუნო აღაპის დადგენის შესახებ, „რომელ კართა ზედა დამიწერიაო“. არსად ტაძრის 
+                   „კართა ზედა“ მისთვის აღაპის დღის დადგენის შესახებ არაფერია ნათქვამი. შესაძლოა, როგორც ოქროპირ გაბეცასძის წარწერაშია მოცემული, მისთვისაც შობის მარხვის 
+                   დასრულება ვივარაუდოთ. ღვიას შვილი იოვანე საკმაოდ შეძლებული ფეოდალი ყოფილა, რადგან მონასტრისათვის შეწირული დიდძალი ქონების (ციხე, ეკლესია, წყალი, 
+                   ტყე, ჭალა, სეფე ყანა, ვენახი, წისქვილი) ჩამოთვლის შემდეგ ერთგან აღნიშნავს: „ამისი მეტი, რაცა დაწერილია, ყოველი მეტიალა“, თუ, ცხადია, ეს ჩამოთვლა საბუთებში
+                   მიღებული ტრაფარეტული ფორმულის მიბაძვა-გამეორება არ არის. უცნაურია, რომ ამ წარწერა-საბუთის ტექსტში დასახელებული არ არის ის ადგილი, მისი სახელწოდება 
+                   და მდებარეობა, რომელშიც იყო ეს დიდძალი უძრავი ქონება, ღვიას შვილმა რომ შესწირა მონასტერს. არც იმის თქმა შეიძლება დანამდვილებით, ღვიას შვილი იოანეს გვარია თუ
+                   მხოლოდ მამის სახელის აღნიშვნა. ღვიასშვილის თუ ღვიასაშვილის გვარიც იმდროინდელ სამცხელ ფეოდალებში არ ჩანს. ეს გვარები ცნობილია XVI ს-ის დასაწყისის საბუთის - 
+                   „კათალიკოზის სამწყსონი თავადნი და სოფელნი სამცხე-საათაბაგოში“ მიხედვით (ქართული სამართლის ძეგლები, ტ. III, საეკლესიო საკანონმდებლო ძეგლები (XI-XIX სს.),
+                   ტექსტი გამოსცა, შენიშვნები და საძიებლები დაურთო ი. დოლიძემ, თბ., 1970,  242-244): კავკასიძენი, სამძივარნი, გოგიჩასშვილები, ბუმბულისძენი, ავალისშვილები,
+                   სლესარნი, ლონგოსძეები, ლასურისძენი და ა.შ., სულ 37 საგვარეულო, ზოგიც შემდეგში სხვაგან გადასახლებულნი და ზოგიც ამომწყდარნი. ღვიასაშვილები კი მათში არ ჩანს. 
+                </p>                
+            </div>
+        </body>
+    </text>
+</TEI>

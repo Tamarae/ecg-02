@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>საფარის წმ. საბას ტაძრის თორნიკის, ტაბარის და ლაშხის წარწერა</title>
+               <editor>ვალერი სილოგავა</editor>
+            </titleStmt>           
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                
+                 <idno type="filename">ECG124</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>საფარა</collection>
+                    </msIdentifier>                  
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">შემომწირველთა</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="2">წარწერა ორსტრიქონიანია
+                                       <dimensions unit="cm">
+                                         <width/>
+                                         <height/> 
+                                        </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა, კიდურწაისრული
+                             <height/> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>საფარის მონასტრის წმ. საბას ტაძარი</origPlace>
+                                 <origDate notBefore-custom="1200" notAfter-custom="1300" precision="medium" 
+                                    evidence="context" datingMethod="#julian">XIII AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">საფარის მონასტრის წმ. საბას ტაძარი</placeName>
+                                <!-- "41.602116, 43.031036"--> 
+                                <rs type="circumstances"/>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">საფარის მონასტრის წმ. საბას ტაძარი</placeName>
+                                <idno type="invNo"/>
+                            </provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>       
+    </teiHeader>
+  <!-- <facsimile>
+        <surface>
+            <graphic url="ecg124.jpg">
+                <desc xml:lang="ka">საფარის წმ. საბას ტაძრის თორნიკის, ტაბარის და ლაშხის წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile> -->
+    <text>
+        <body>               
+             <div type="bibliography">
+               
+   <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
+              
+            </div>
+               
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!-- "ო შნ თრკა ტბრ ლშჴ
+                              ჯრჲ შმსწრა დდ"--> 
+                                                            
+                <ab>
+                   <lb n="1"/><w lemma="უფალ"><expan><abbr>ო</abbr><ex>ფალო</ex></expan></w> 
+                              <w lemma="შეწყალება"><expan><abbr>შ</abbr><ex>ეიწყალე</ex><abbr>ნ</abbr></expan></w> 
+                              <name nymRef="თორნიკე"><expan><abbr>თ</abbr><ex>ო</ex><abbr>რ</abbr><ex>ნი</ex><abbr>კა</abbr></expan></name> 
+                              <name nymRef="ტაბარ"><expan><abbr>ტ</abbr><ex>ა</ex><abbr>ბ</abbr><ex>ა</ex><abbr>რ</abbr></expan></name> 
+                              <name nymRef="ლაშჴ"><expan><abbr>ლ</abbr><ex>ა</ex><abbr>შჴ</abbr><ex>ი</ex></expan></name>
+                   <lb n="2"/><w lemma="ჯუარ"><expan><abbr>ჯ</abbr><ex>უა</ex><abbr>რჲ</abbr></expan></w> 
+                              <w lemma="შეწირვა"><expan><abbr>შ</abbr><ex>ე</ex><abbr>მ</abbr><ex>ო</ex><abbr>სწ</abbr><ex>ი</ex><abbr>რა</abbr></expan></w> 
+                              <w lemma="დიდ"><expan><abbr>დ</abbr><ex>ი</ex><abbr>დ</abbr><ex>ი</ex></expan></w>
+                   </ab>
+               </div>   
+            
+         <div type="translation" xml:lang="ka">
+             <p>უფალო, შეიწყალე თორნიკა, ტაბარ, ლაშჴი - დიდი ჯუარი შემოსწირეს.</p>
+         </div>    
+                             
+               <div type="commentary">
+                <p>საფარის მონასტერი ძველი დროიდანვე სხვადასხვა დანიშნულების 12 ნაგებობისაგან შედგებოდა. მათ შორის მთავარია წმ. საბას
+                   სახელობის ტაძარი, აგებული ბექა სამცხის სპასალარისა და მანდატურთუხუცესის მიერ XIII-XIV სს. მიჯნაზე. საფარაში ამაზე ძველი ეკლესიაც არსებობს, X ს-ის
+                   ღვთისმშობლის მიძინების სახელობის ტაძარი, რომელსაც ჩრდილოეთიდან მიდგმული აქვს ზემოხსენებული წმ. საბას ტაძარი. 
+                   საფარის წმ. საბას ტაძრის დასავლეთის შესასვლელის დიდი ზომის არქიტრავზე ქვემოდან ზემოთ
+                                ერთმანეთის თანმიმდევრობით ამოკვეთილია სამი წარწერა-საბუთი. ზემოდან პირველი წარწერა არის ოქროპირ გაბეცასძის მიერ ეკლესიის 
+                                ქვის ფილებით გადასახურად 120 ბოტინატის შეწირვის შესახებ, მეორე - იოვანე ღვიას შვილის წარწერა, 
+                                ხოლო მესამე - გიორგი მალეს წარწერა კარის შეწირვის შესახებ. ამ სამი წარწერის გაგრძელებად, მათ მარჯვნივ, ტაძრის კედელზე, იმავე ხელით, ოღონდ
+                                უკვე კედელში ჩასმულ ქვის ფილაზე ამოკვეთლია თორნიკის, ტაბარის და ლაშხის წარწერა.
+                   თორნიკა, ტაბარ და ლაშჴის წარწერაში ტაძრის შეწირულობაზეა საუბარი. სამ დასახელებულ პირს, როგორც ჩანს, უკვე აშენებული ტაძრის გამშვენებაში 
+                   მიუღია მონაწილეობა, მათ ტაძრისათვის დიდი, ალბათ, საკურთხევლის წინ დასადგმელი, ცხადია, ჭედურობით შემკული ჯვარი შეუწირავთ. მართალია, წარწერა ენობრივად 
+                   მთლად გამართული არ არის - ზმნა („შემოსწირა“) მრავლობითის ნაცვლად მხოლობითშია დასმული, თუმცა, ვალერი სილოგავას აზრით, სამივე პირს შეეხება. ნიშანდობლივია,
+                   რომ ენობრივად ასეთივე გაუმართავია ოქროპირ გაბეცასძის წარწერა ეკლესიისათვის 120 ბოტინატის შეწირვის შესახებ, სადაც, ასევე, ზმნა ნაცვლად პირველი პირისა, მესამე პირშია
+                   („შემოსწირა“) წარმოდგენილი. საინტერესოა ტაძრისათვის ჯვრის შემწირველ პირთა სახელები: თორნიკა თორნიკეს კნინობითი ფორმაა, ტაბარ ქართულ ონომასტიკაში უცნობია, ხოლო 
+                   ლაშჴი რაჭაში გავრცელებული გვარია - ლაშხიშვილების (ძველი დაწერილობით - ლაშჴიშვილების) ეპონიმია. 
+                  </p>                
+            </div>
+        </body>
+    </text>
+</TEI>

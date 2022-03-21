@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>პენალი ბერძნული წარწერებით</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG328</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                           მცხეთა
+                        </collection>
+                    </msIdentifier>                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მემორიალური</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>  
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="http://www.eagle-network.eu/voc/material/lod/115">ვერცხლი</material>
+                                   <objectType>პენალი</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout>საწერი ხელსაწყოს სახურავის ვერცხლის გოფრირებული ნაწილი ჰორელიეფური გამოსახულებებით ბოლოვდება. ამ გამოსახულეებზე არის ბერძნული წარწერები 
+                                საგანგებოდ გამოყვანილი ასოებით.
+                                სახურავზე მოთავსებულია ოქროს ჭვირული შეჭედილობით შესრულებული ფირფიტა, რომელზედაც გამოყვანილია 2 სტრიქონად მოსევადებული წარწერა.
+                                კოლოფის II მხარეზე არის ფირფიტა, რომელზედაც 3 რიგია და თითოეულ რიგში 3-3 ფიგურაა მუზების გამოსახულებით. გამოსახულებათა ქვემოთ მოთავსებულია რომაული ხანიდან 
+               გავრცელებული ფორმის ფირფიტა ზედ მუზების სახელთა წარწერით. 
+                                      <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                               წარწერებში ორჯერ გვხვდება ლიგატურა ΝΗ.
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>მცხეთა</origPlace>
+                                <origDate notBefore="0101" notAfter="0300" precision="medium" evidence="lettering" datingMethod="#julian">II-III AD</origDate>
+                                   </origin>
+                            <provenance type="found" when="1940">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863799">მცხეთა</placeName> 
+                                <rs type="circumstances">ნივთი მოპოვებულია მცხეთაში, სვეტიცხოვლის ეზოში არქეოლოგიური გათხრებისას.</rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                       
+                            <provenance type="observed">
+                            <placeName type="modernSpot">სახელმწიფო მუზეუმი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg328_1.jpg">
+                <desc xml:lang="ka">ვერცხლის პენალი მცხეთიდან, 1940 (I)</desc>
+                <desc xml:lang="en">Silver pen-case, Mtskheta, 1940 (I)</desc>
+            </graphic>
+            <graphic url="ecg328_2.jpg">
+                <desc xml:lang="ka">ვერცხლის პენალი მცხეთიდან, 1940 (II)</desc>
+                <desc xml:lang="en">Silver pen-case, Mtskheta, 1940 (II)</desc>
+            </graphic>
+            <graphic url="ecg328_3.jpg">
+                <desc xml:lang="ka">ვერცხლის პენალი მცხეთიდან, 1940 (III)</desc>
+                <desc xml:lang="en">Silver pen-case, Mtskheta, 1940 (III)</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 367-368</citedRange></bibl></p>
+                
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!-- Μέναν[δρος] Ὅμηρος Δημοσθένης
+                               Βασιλέως Οὐστάμου || τοῦ καὶ Εὐγενίου
+
+                               Κλιώ (Κλείω) Εὐτέρπη Θαλία (Θάλεια)
+                               Μελπομένη Τερψιχόρη Ἐρατώ
+                               Πολυμνία Οὐρανία Καλλιόπη
+
+
+                                                                         -->
+                     
+            
+         <div type="textpart" subtype="section" n="1">
+         <ab>
+             <persName><name nymRef="Μένανδρος">Μέναν<supplied reason="omitted">δρος</supplied></name></persName> <persName><name nymRef="Ὅμηρος"></name>Ὅμηρος</persName> <persName><name nymRef="Δημοσθένης">Δημοσθένης</name></persName>
+            </ab>    
+             
+         </div>
+         <div type="textpart" subtype="section" n="2">
+           <ab>
+               <lb n="1"/><persName><roleName nymRef="βασιλεύς"><w lemma="βασιλεύς">Βασιλέως</w></roleName> <name nymRef="Οὔσταμος">Οὐστάμου</name></persName> 
+               <lb n="2"/><w lemma="ὁ">τοῦ</w> <w lemma="καί">καὶ</w> <persName><name nymRef="Εὐγένιος">Εὐγενίου</name></persName>
+           </ab>  
+         </div>
+                <div type="textpart" subtype="section" n="3">
+                    <ab>
+                        <lb n="1"/><persName type="divine"><name nymRef="Κλείω">Κλ<choice><corr>εί</corr><sic>ι</sic></choice>ω</name></persName> 
+                        <lb n="2"/><persName type="divine"><name nymRef="Εὐτέρπη">Εὐτέρπη</name></persName> 
+                        <lb n="3"/><persName type="divine"><name nymRef="Θάλεια">Θάλ<choice><corr>ει</corr><sic>ί</sic></choice>α</name></persName>
+                        <lb n="4"/><persName type="divine"><name nymRef="Μελπομένη">Μελπομένη</name></persName> 
+                        <lb n="5"/><persName type="divine"><name nymRef="Τερψιχόρη">Τερψιχόρη</name></persName>  
+                        <lb n="6"/><persName type="divine"><name nymRef="Ἐρατώ">Ἐρατώ</name></persName>
+                        <lb n="7"/><persName type="divine"><name nymRef="Πολυμνία">Πολυμνία</name></persName> 
+                        <lb n="8"/><persName type="divine"><name nymRef="Οὐρανία">Οὐρανία</name></persName> 
+                        <lb n="9"/><persName type="divine"><name nymRef="Καλλιόπη">Καλλιόπη</name></persName>
+                    </ab>
+                </div>
+            </div>
+                
+            <div type="translation" subtype="section" n="1" xml:lang="ka">
+                <p>მენანდრე ჰომეროსი დემოსთენე</p>
+            </div>
+            <div type="translation" subtype="section" n="2" xml:lang="ka">
+                <p>მეფე უსტამოსის და ევგენიოსისაც</p>
+                </div>
+            <div type="translation" subtype="section" n="3" xml:lang="ka">
+                <p>კილიო ევტერპე თალია
+                    მელპომენე ტერფსიქორე ერატო
+                    პოლიმნია ურანია კალიოპე</p>
+                </div>
+            
+           <div type="commentary">
+                <p>მცხეთაში, სვეტიცხოვლის ეზოში მცხეთის არქეოლოგიურმა ინსტიტუტმა გახსნა ქვასამარხი №14, სადაც დამარხულია ქალი. სამარხში აღმოჩნდა 25 დასახელების ნივთი, ძირითადად 
+                ოქრო-ვერცხლის ინვენტარი, მათ შორის ზემოხსენებული საწერი ხელსაწყო.</p>
+               <p>ხელსაწყოს სახურავის ვერცხლის გოფრირებულ ნაწილზე გვხვდება შემდეგი სახელები: მენანდრე - (ელინისტური ხანის ყველაზე პოპულარული კომედიოგრაფი), ჰომეროსი (ბერძნული ეპიკური 
+                   პოეზიის ფუძემდებელი), დემოსთენე (ანტიკურობის გამოჩენილი რიტორი).</p>
+               <p>ხელსაწყო ეკუთვნოდა მეფე უსტამოსს და ასევე ევგენიოსს, რომელიც, ალბათ, მეფის მდივანი ან მწერალი იყო.</p>
+               <p>სახელი Οὔσταμος ამ ფორმით საცნობარო ლიტერატურაში არ არის; შავი ზღვის ჩრდილო სანაპიროს წარწერებიდან დადასტურებულია სახელი Οὔστανος (პანტიკაპეიონიდან IV ს. 
+                   საფლავის სტელაზე; ტანაისიდან თიასების სიაში, 220 წ.). μ და ν-ს მონაცვლეობა მოულოდნელი არ არის. Vasmer-ი Οὔστανος-ს უკავშირებს Ὑστάνης-ს და იძლევა მის ავესტურ 
+                   ეტიმოლოგიას (lebenskräftig - სიცოცხლით, ძალღონით სავსე). Εὐγένιος - ბერძნული და დღემდე გავრცელებული სახელია საერთოდ საქართველოშიც კი და ნიშნავს - კეთილშობილს.</p>
+               <p>ვისი მეფე იყო უსტამოსი, უცნობია, უთუოდ იმისი, სადაც ეს ნივთი გაკეთდა და ვისაც ის ეკუთვნოდა.</p>
+               <p>კოლოფის მეორე მხარეზე, ფირფიტის ზემოთა რიგში გვხვდება მუზების სახელები: კლიო (ისტორიის მუზა), ევტერპე (ლირიკული პოეზიის მუზა), თალია (კომედიის მუზა); შუა რიგში: 
+               მელპომენე (ტრაგედიის მუზა), ტერფსიქორე (ცეკვის მუზა), ერატო (ეროტიკული პოეზიის მუზა); ქვემოთა რიგში: პოლიმნია (ჰიმნების მუზა), ურანია (ასტრონომიის მუზა), კალიოპე 
+               (ეპოსის მუზა). მუზების ასეთი თანმიმდევრობა თანხვდება ჰეროდოტეს „ისტორიის“ 9 წიგნად დაყოფას და თითოეული წიგნისთვის მუზის სახელის წოდებას. რამდენადაც ცნობილია, ეს 
+               ალექსანდრიელი ფილოლოგების შემოქმედებაა. როგორც ჩანს, ამ დროიდან, ასე ვთქვათ, დაკანონდა მუზების ასეთი თანმიმდევრობით გამოსახვა. მანამდე მუზების გამოხატვისას თანრიგი 
+               სხვა იყო (და მთავარ მუზად, I ადგილზე კალიოპე იყო ხოლმე).</p>
+               <p>ენის თვალსაზრისით მცხეთაში მოპოვებულ ძეგლზე აღსანიშნავია წელთაღრიცხვათა მიჯნაზე დამკვიდრებული იტაციზმი (Κλειώ||Κλιώ; Θάλεια||Θαλία). Τερψιχόρα-ს იონიური ფორმა - 
+               Τερψιχόρη. ორჯერ გვხვდება ერთი და იგივე ლიგატურა: ΝΗ (Δεμοσθένης, Μελπομένη). დაწერილობაში ამ მხრივ სხვა აღსანიშნავი არაფერია, ძირითადად დაცულია კლასიკური, ატიკური ნორმები.</p>
+               </div>
+        </body>
+    </text>
+</TEI>
+
+
+
+

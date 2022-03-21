@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ზოსიმე კუმურდოელის წარწერა</title>
+                    <editor>ვალერი სილოგავა</editor>
+                    <editor>მარი ბროსე</editor>
+                    <editor>ექვთიმე თაყაიშვილი</editor>
+                    <editor>ნიკო ბერძენიშვილი</editor>
+                    <editor>ვ. ცისკარიშვილი</editor>
+                    <editor>ი. გვარამაძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ცენტრი</authority>
+                <idno type="filename">ECG146</idno>
+                <availability> <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            კუმურდო
+                        </collection>
+                    </msIdentifier>
+                    
+                   <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მემორიალური</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support> 
+                                <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1402">სამხრეთის ფილა</objectType>
+                                <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                <dimensions/>
+                            </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="9">
+                                9 სტრიქონი, ამოკვეთილი ტაძრის სამხრეთ შესასვლელი მარჯვნივ, ქვემოდან ქვების მე-3-4 რიგში ჩასმულ ქვის ფილებზე
+                                <dimensions unit="cm"> 
+                                    <width>45</width> 
+                                    <height>51</height>
+                                </dimensions>
+                            </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli">
+                                შესრულებულია მოხდენილი, თანაბარი ზომის, კიდურწაისრული ასოებით 
+                                <dimensions unit="cm">
+                                    <height>3.5-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>კუმურდო</origPlace>
+                            <origDate notBefore="1027" notAfter="1072"></origDate>
+                        </origin>
+                        <provenance type="observed" when="2017-06-30">
+                            <placeName>კუმურდოს საკათედრო ტაძარი</placeName>
+                            <rs type="circumstances">წარწერის ფოტოდოკუმენტაცია გაკეთდა 2017 წლის 30 ივნისს, ილიას სახელმწიფო უნივერსიტეტის ციფრული ეპიგრაფიკის სამაგისტრო კურსის დასკვნითი გამოცდის ექსპედიციის ფარგლებში</rs>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    
+           <facsimile>
+        <surface>
+            <graphic url="ecg146.jpg">
+                <desc xml:lang="ka">კუმურდო, 2017</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+            
+            <graphic url="kumurdo.jpg">
+                <desc xml:lang="ka">კუმურდო, 2017</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+            
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <!--
+        1.ს(ა)ხ(ე)ლ(ი)თა ღ(მრთისაჲ)თა მე ზ(ო)ს(ი)მე კ(უმურდოელმან)
+        2.შ(ე)ვმ(ო)სე ს(ა)კ(უ)რთხ(ე)ვ(ე)ლი, ბ(ა)რძიმ
+        3.ფეხშ(უე)მი(!) ჯუ(ა)რი და შ(ე)ვ(ა)მკვე ხ(ა)ტ
+        4.ი ღ(მრ)თ(აე)ბ(ი)საჲ ჴელ(ი)თა დ(ა)ვ(ი)თისა
+        5.ჲთა დაუდ(ე)ვ სალო(ც)ვ(ე)ლ(ა)დ ბ
+        6.(ზ)ვობ(ი)სა კ(ჳ)რ(იე)ლ(ეი)ს(ო)ნ(ი)თა დ(ე)კ(ა)ნ(ო)ზი შე
+        7.[უ]ს(უე)ნ(ე)ბდ(ე)ს წ(მიდას)ა ს(ა)მ(ე)ბასა(*) შეს
+        8.უ(ე)ნ(ე)ბ(ი)თ(ა) კრ(უ)ლ(ია) ამ(ი)თ ხ(ა)ტ(ით)ა ვ(ი)ნ
+        9.შეუცვ(ა)ლ(ო)ს
+        --> 
+        <body> 
+            
+            
+             <div type="bibliography">
+                <p>
+                    <bibl n="1">ვალერი სილოგავა, კუმურდო, <citedRange>62-64</citedRange>, თბილისი 1994<ptr target="bibliography.xml#b198"/></bibl>
+                </p>
+                
+                
+                <p>
+                    <bibl n="2">M. Brosset, Rapports sur un voyage archeologique dans la Georgie et dans l'Armenie execute en 1847-1848
+                        V. II <citedRange>169-170</citedRange>St. Petersburg, 1850 <ptr target="bibliography.xml#b189"/>
+                    </bibl>
+                </p>
+                 
+                 <p>
+                    <bibl n="3">
+                        ვ. ცისკარიშვილი, ჯავახეთის ეპიგრაფიკა, როგორც საისტორიო წყარო, <citedRange>19-20</citedRange>, თბილისი, 1959<ptr target="bibliography.xml#b200"/>
+                    </bibl>
+                </p>
+                 
+                 <p>
+                    <bibl n="4">
+                        И.П. Ростомов, Аxалкалакский уъезд в арxеологическом отношении, <citedRange>9</citedRange>, 1898<ptr target="bibliography.xml#b199"/>
+                    </bibl>
+                </p>
+                 
+                 <p>
+                    <bibl n="5">
+                        Е.С. Такайшвили, Христианские памятники, <citedRange>40</citedRange>, Москва, 1909<ptr target="bibliography.xml#b153"/>
+                    </bibl>
+                </p>
+                 
+                 <p>
+                    <bibl n="6">
+                        ნ. ბერძენიშვილი, ჯავახეთის 1933 წლის ექსპედიციის დღიური, იხ. მისი "საქართველის ისტორიის საკითხები", ისტორიული გეოგრაფია, ტ. I, <citedRange>134</citedRange>
+                        თბილისი, 1964<ptr target="bibliography.xml#b201"/>
+                    </bibl>
+                </p>
+                 
+                 <p>
+                    <bibl n="7">ი. გვარამაძე, "დროება" არქეოლოგიური შენიშვნები, <citedRange>00</citedRange>, თბილისი, 1982<ptr target="bibliography.xml#b202"/></bibl>
+                </p>
+             </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+
+
+   
+            <ab>
+                <lb n="1"/><w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
+                <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთისაჲ</ex><abbr>თა</abbr></expan></w> <w lemma="მე">მე</w> 
+                <persName type="local" key="ზოსიმე კუმურდოელი"><name nymRef="ზოსიმე"><expan><abbr>ზ</abbr><ex>ო</ex><abbr>ს</abbr><ex>ი</ex><abbr>მე</abbr></expan></name> 
+                    <roleName nymRef="კუმურდოელი"><w lemma="კუმურდოელ"><expan><abbr>კ</abbr><ex>უმურდოელმან</ex></expan></w></roleName></persName>
+                <lb n="2"/><w lemma="შემოსვა"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ვმ</abbr><ex>ო</ex><abbr>სე</abbr></expan></w> 
+                <w lemma="საკურთხეველ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>კ</abbr><ex>უ</ex><abbr>რთხ</abbr><ex>ე</ex><abbr>ვ</abbr><ex>ე</ex><abbr>ლი</abbr></expan></w> 
+                <w lemma="ბარძიმ-ფეშხუმი"><expan><abbr>ბ</abbr><ex>ა</ex><abbr>რძიმ</abbr></expan> 
+                <lb n="3" break="no"/><expan><abbr>ფეხშ</abbr><ex>უე</ex><abbr>მი</abbr></expan></w> <w lemma="ჯუარ"><expan><abbr>ჯუ</abbr><ex>ა</ex><abbr>რი</abbr></expan></w> და 
+                <w lemma="შემკობა"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ვ</abbr><ex>ა</ex><abbr>მკვე</abbr></expan></w> <w lemma="ხატ"><expan><abbr>ხ</abbr><ex>ა</ex><abbr>ტ
+                <lb n="4" break="no"/>ი</abbr></expan></w> <w lemma="ღმრთაება"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr><ex>აე</ex><abbr>ბ</abbr><ex>ი</ex><abbr>საჲ</abbr></expan></w> 
+                <w lemma="ჴელ"><expan><abbr>ჴელ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> <persName><expan><abbr>დ</abbr><ex>ა</ex><abbr>ვ</abbr><ex>ი</ex><abbr>თისა
+                <lb n="5" break="no"/>ჲთა</abbr></expan></persName> <w lemma="დადება"><expan><abbr>დაუდ</abbr><ex>ე</ex><abbr>ვ</abbr></expan></w> 
+                <w lemma="სალოცველ"><expan><abbr>სალო</abbr><ex>ც</ex><abbr>ვ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> <w lemma="ბზობა"><expan><abbr>ბ</abbr>
+                <lb n="6" break="no"/><ex>ზ</ex><abbr>ვობ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w> 
+                <w lemma="კჳირიელეისონ"><expan><abbr>კ</abbr><ex>ჳ</ex><abbr>რ</abbr><ex>იე</ex><abbr>ლ</abbr><ex>ეი</ex><abbr>ს</abbr><ex>ო</ex><abbr>ნ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
+                <roleName nymRef="დეკანოზ"><w lemma="დეკანოზ"><expan><abbr>დ</abbr><ex>ე</ex><abbr>კ</abbr><ex>ა</ex><abbr>ნ</abbr><ex>ო</ex><abbr>ზი</abbr></expan></w></roleName> <w><expan><abbr>შე</abbr>
+                <lb n="7" break="no"/><supplied reason="subaudible"><abbr>უ</abbr></supplied><abbr>ს</abbr><ex>უე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბდ</abbr><ex>ე</ex><abbr>ს</abbr></expan></w> 
+                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდას</ex><abbr>ა</abbr></expan></w> <w><expan><abbr>ს</abbr><ex>ა</ex><abbr>მ</abbr><ex>ე</ex><abbr>ბასა</abbr></expan></w> <w lemma="შეცვლა"><expan><abbr>შეს
+                <lb n="8" break="no"/>უ</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ი</ex><abbr>თ</abbr><ex>ა</ex></expan></w> <rs type="curse"><w lemma="კრულ"><expan><abbr>კრ</abbr><ex>უ</ex><abbr>ლ</abbr><ex>ია</ex></expan></w> <w lemma="ეს"><expan><abbr>ამ</abbr><ex>ი</ex><abbr>თ</abbr></expan></w> <w lemma="ხატ"><expan><abbr>ხ</abbr><ex>ა</ex><abbr>ტ</abbr><ex>ით</ex><abbr>ა</abbr></expan></w> <w lemma="ვინ"><expan><abbr>ვ</abbr><ex>ი</ex><abbr>ნ</abbr></expan></w>
+                <lb n="9"/><w lemma="შეცვლა"><expan><abbr>შეუცვ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ს</abbr></expan></w></rs>
+                </ab>
+             </div>
+            
+   
+                
+                    
+
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p>ქვემოდან მეოთხე ფილა, რომელზედაც მოთავსებულია წარწერის ძირითადი ნაწილი, ნაცრისფერია, ხოლო მესამე ფილა, რომელზედაც წარწერის მეცხრე სტრიქონი, ღვინისფერია</p>
+            </div>
+          
+        </body>
+    </text>
+</TEI>

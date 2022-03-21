@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>მცხეთის ანტიოქიის ეკლესიის ქვიშაქვის სტელა</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG075</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>მცხეთა</collection>                
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო-მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="http://www.eagle-network.eu/voc/material/lod/75">ქვიშაქვა</material>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">სტელა</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="16">
+                                          სტელაზე შესრულებულია ბერძნული ასომთავრული წარწერა.  
+                                      <dimensions unit="cm">
+                                        <width>34,5</width>
+                                        <height>102</height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>                          
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>მცხეთა</origPlace>
+                                <origDate notBefore="0301" notAfter="0500" precision="medium" evidence="lettering" datingMethod="#julian">IV-V AD</origDate>                                    
+                              </origin>
+                            <provenance type="found" when="1997">
+                                <placeName type ="ancientFindspot" ref="http://pleiades.stoa.org/places/863840">მცხეთა</placeName> 
+                                <rs type="circumstances">სტელა აღმოჩენილია მცხეთის ანტიოქიის ეკლესიის რესტავრაციის დროს.</rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                         
+                            <provenance type="observed">
+                            <placeName type="modernSpot">მცხეთის არქეოლოგიური ინსტიტუტი</placeName>
+                            <idno># 01-6-XI-I</idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg075.jpg">
+                <desc xml:lang="ka">ანტიოქიის ეკლესიის სტელა, 1997</desc>
+                <desc xml:lang="en">Stele from the Antioch Church, 1997</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 230</citedRange></bibl></p>
+                
+            </div>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!-- ΑΩΑΩ (ἐγὼ ἐίμι τὸ ἄλφα καὶ τὸ ὦ)
+                            ἐποίει ὄντο
+                            ς Ἀχιλλέως
+                            ἐπὶ τῶν τεκτ
+                            όνων Αὐρελι 
+                            ος Ἀχόλιος
+                            άρχιζωγρά<ε>
+                            φος καὶ ἀρχι (?η)
+                            τέκτων ηλ(?ρ)
+                            Α ΣΑΜΗΚΑΤΜ (?ΚΜΤΗ) (?ΗΑΤΑ)
+                            ΓΕΚΥΑΧΤΑΡ (?ΓΕΟΧΔΑΤΑΡ) (?ΓΕΟΤΑΧΡΑΡ)
+                            τὴν τείχι(?σιν) μ...
+                            ΩΔΕΤ(?Υ)ΑΤΟ
+                            τῆς τελείη
+                            νμνήμης
+                            Ἀρσπακόρης
+
+                                                                 -->
+          
+         <ab>
+             <lb n="1"/><!-- <choice><abbr>ΑΩΑΩ</abbr><expan>ἐγὼ ἐίμι τὸ ἄλφα καὶ τὸ ὦ</expan></choice> -->ΑΩΑΩ
+             <lb n="2"/><w lemma="ποιέω">ἐποίει</w> <w lemma="">ὄντο
+             <lb n="3" break="no"/>ς</w> <persName><name nymRef="Ἀχιλλεύς">Ἀχιλλέως</name></persName>
+             <lb n="4"/><w lemma="ἐπι">ἐπὶ</w> <w lemma="ὁ">τῶν</w> <roleName nymRef="τέκτων"><w lemma="τέκτων">τεκτ
+             <lb n="5" break="no"/><choice><reg>όνων</reg><orig>ομων</orig></choice></w></roleName> <persName><name nymRef="Αὐρελιος">Αὐρελι
+             <lb n="6" break="no"/>ος</name> <name nymRef="Ἀχόλιος">Ἀχόλιος</name></persName>
+             <lb n="7"/><roleName nymRef="ἀρχιζωγράφος"><w lemma="ἀρχιζωγράφος">ἀρχιζωγρά
+             <lb n="8" break="no"/>φος</w></roleName> <w lemma="καί">καὶ</w> <roleName nymRef="ἀρχιτέκτων"><w lemma="ἀρχιτέκτων">ἀρχι
+             <lb n="9" break="no"/>τέκτων</w></roleName> <del rend="erasure">ηλ</del>
+             <lb n="10"/><del rend="erasure">Α</del> <del rend="erasure">ΣΑΜΗΚΑΤΜ</del>
+             <lb n="11"/><del rend="erasure">ΓΕΚΥΑΧΤΑΡ</del>
+             <lb n="12"/><w lemma="ὁ">τὴν</w> <w lemma="τείχισις">τείχι<supplied reason="lost" cert="high">σιν</supplied></w> <del rend="erasure">μ</del> <gap reason="lost" extent="unknown" unit="chars"/>
+             <lb n="13"/><del rend="erasure">ΩΔΕΤ</del>
+             <lb n="14"/><w lemma="ὁ">τῆς</w> <w lemma="τέλειος">τελείη</w>
+             <lb n="15"/><w lemma="μνήμη"><choice><reg>μνήμης</reg><orig>νμνήμης</orig></choice></w>
+             <lb n="16"/><persName><name nymRef="Ἀρσπακόρης">Ἀρσπακόρης</name></persName>
+         </ab>    
+             
+         
+            </div>
+                
+            <div type="translation" xml:lang="ka">
+                <p>მე ვარ ანი და ოჰი (იოანეს გამოცხადება, 1,8; 21,6) - გააკეთა აქილევსმა ხუროთა (უფროსი) რომ არის. ავრელიოს აქოლიოსი მხატვართუხუცესი და ხუროთმოძღვარი... ზღუდით გამაგრება (ან - 
+                კედლით შემოზღუდვა)... საბოლოო (ან - საუკუნო) ხსოვნა. არსპაკორესი.</p>
+            </div>
+            
+           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app><lem></lem>
+              <rdg></rdg>
+              </app></p>
+            </div>
+           
+            <div type="commentary">
+                <p>პალეოგრაფიული ნიშნების მიხედვით წარწერა II-IV სს-ით AD თარიღდება. სხვა რეალური მონაცემების მიხედვით IV-V სს-ით უნდა შემოვიფარგლოთ. ეს მონაცემებია: წარწერის დასაწყისში 2 ქრიზმა, რაც ქრისტეს მიმართ აპელაციაა და ტექსტებში 
+                                    ავრელიოს აქოლიოსის ხსენება, რაც ადრე სამთავროს სამაროვანზე მოპოვებული ეპიტაფიის მიხედვით კარგად ცნობილი პიროვნებაა.</p>
+                <p>ახალი სახელებია - აქილევსი, ხუროთა უფროსი და არსპაკორესი, როგორც ჩანს, ამ წარწერის ამომკვეთი, I სახელი ბერძნულია, II ირანული, მაგრამ ეს მათ ეროვნებაზე არ მიგვითითებს.</p>
+                <p>როგროც ჩანს, სტელა ჩაშენებული იყო იმ ნაგებობის კედელში, რაც აქილევსმა გააკეთა, ხოლო რაღაცა ღვაწლი ამ საქმეს ავრელიოს აქოლიოსმაც დასდო, რისთვისაც მას იხსენებენ. ძეგლი 
+                მნიშვნელოვანია ისტორიული პირების მოხსენიების თვალსაზრისით და იმითაც, რომ IV-V სს. იბერიაში ხდება საფორტიფიკაციო თუ რელიგიური ხასიათის ძეგლების აგება.</p>
+            </div>
+           </body>
+    </text>
+</TEI>
+
+
+

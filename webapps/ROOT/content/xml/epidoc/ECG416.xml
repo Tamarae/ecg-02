@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>წვირმის ხატი</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG416</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                   <msIdentifier>
+                        <collection>წვირმი</collection>                
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="https://archwort.dainst.org/de/term/2872">ვერცხლი</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/123">ხატი</objectType>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        წვირმის მაცხოვრის ეკლესიაში მთავარანგელოზების ჭედურ ქართულ ხატს (№ 9/2) ქართულ წარწერებთან ერთად აქვს ბერძნული წარწერებიც.
+                                        წარწერები მოთავსებულია გამოსახულებათა მარცხნივ და მარჯვნივ. ზემოთ მთავრული ბერძნული, ქვემოთ ქართული.
+                                        სამ სტრიქონად დაწერილ Γαβριελ-ს სიმაღლეში 3 სმ უჭირავს.
+                                    <dimensions unit="cm">
+                                        <width>43</width>
+                                        <height>44,5</height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote> 
+                              
+                                <height unit="cm" precision="medium">1-1,5</height>
+                                <width unit="cm" precision="medium">0,7</width>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace></origPlace>
+                                <origDate notBefore-custom="901" notAfter-custom="1100" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">X-XI AD</origDate>
+                              </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">წვირმი</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                       
+                            <provenance type="observed">
+                            <placeName type="modernSpot">წვირმის მაცხოვრის ეკლესია</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+                     <facsimile>
+                         <surface>
+                             <graphic url="ecg416.jpg">
+                                 <desc xml:lang="ka">წვირმის ხატი</desc>
+                                 <desc xml:lang="en">Icon from Tsvirmi</desc>
+                             </graphic>
+                         </surface>
+                     </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 88-89</citedRange></bibl></p>
+                
+            </div>
+
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!--   ΟΑΡΧ ΜΙΧ   ὁ ἀρχ[άγγελος] Μιχ[αήλ]
+                               ΟΑΡΧ ΓΑΒ ΡΙΕ Λ   ὁ ἀρχ[άγγελος] Γαβριήλ -->
+                     
+            
+ 
+         <ab>
+             <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="ἀρχάγγελος"><expan><abbr>ἀρχ</abbr><ex>άγγελος</ex></expan></w>  <name nymRef="Μιχαήλ"><expan><abbr>Μιχ</abbr><ex>αήλ</ex></expan></name></persName>
+             <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="ἀρχάγγελος"><expan><abbr>ἀρχ</abbr><ex>άγγελος</ex></expan></w>  <name nymRef="Γαβριήλ">Γαβρι<choice><reg>ή</reg><orig>ε</orig></choice>λ</name></persName>
+             
+         </ab>    
+           
+            </div>
+            
+            <div type="translation" xml:lang="ka">
+                <p>მთავარანგელოზი მიქაელი
+                მთავარანგელოზი გაბრიელი
+                </p>
+            </div>
+            
+
+           
+            <div type="commentary">
+                <p>წარწერის დათარიღება ხდება პალეოგრაფიული მონაცემების მიხედვით (სიტყვათა შემოკლება , ასოს ზედ დაწერილობა, η-ს მაგივრად ε-ის ხმარება, რაც იმას ნიშნავს, რომ 
+                    ოსტატისათვის სახელი არის "გაბრიელი" და არა "გაბრიილი").</p>
+                <p>ხატზე პირველი ΟΑΡΧ-ის ქვეშ წერია ქართული Ⴋ†Ⴊ, მეორე ΟΑΡΧ-ის ქვეშ წერია ქართული ႢႷႪ.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

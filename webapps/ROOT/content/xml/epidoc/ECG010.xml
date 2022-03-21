@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">საჰაკდუხტის სავედრებელი წარწერა</title>
+                <title xml:lang="en">Sahakdukht Inscription</title>
+                <editor xml:lang="ka">გიორგი ბოჭორიძე</editor>
+                <editor xml:lang="en">Giorgi Bochoridze</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG010</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            ზნაკვა
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სავედრებელი</seg>
+                            <seg xml:lang="en">Oration</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material xml:lang="ka">ვერცხლი</material>
+                                    <material xml:lang="en">Silver</material>
+                                   <objectType xml:lang="ka">ჯვარი</objectType>
+                                    <objectType xml:lang="en">Cross</objectType>
+                                <dimensions unit="cm">
+                                   <height>17,5</height>
+                                    <width>7,7</width>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="6">
+                                        <seg xml:lang="ka">წარწერა რვასტრიქონიანია</seg>
+                                        <seg xml:lang="en">8 line inscription</seg>
+                                     <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                       </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p xml:lang="ka"><rs type="execution">ჭედური</rs> <rs type="script">ასომთავრული</rs> წარწერა</p>
+                                <p xml:lang="en">Blacksmith’s forge, Asomtavruli inscription</p>
+                                <height/>
+                             </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>
+                                    <seg xml:lang="ka">ზნაკვა, ჯვარისას ეკლესია</seg>
+                                    <seg xml:lang="en">Znakva</seg>
+                                </origPlace>
+                                <origDate notBefore-custom="0400" notAfter-custom="0500" precision="medium"
+                                    evidence="lettering">V AD</origDate>
+                            </origin>
+                            <provenance type="found" when="1925">
+                                <placeName type ="ancientFindspot">
+                                    <seg xml:lang="ka">ზნაკვა, ჯვარისას ეკლესია</seg>
+                                    <seg xml:lang="en">Znakva, Jvarisa church</seg>
+                                </placeName>
+                                 <!--  "42.512124, 43.081598"-->
+                                <rs type="circumstances" xml:lang="ka">ძეგლი გიორგი ბოჭორიძემ იპოვა 1925 წელს რაჭაში, სოფელ ზნაკვაში, ერთ-ერთ ოჯახში. იგი 1924-25 წლებში წამოღებული იყო
+                                    ზნაკვის ჯვარისას ეკლესიიდან.</rs>
+                                <rs type="circumstances" xml:lang="en">Giorgi Bochoridze found the inscription among the village family belongings in Znakva, in Racha, in 1925. The inscription was taken from the Jvarisa Church in Znakva in 1924-25 years.</rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                             <provenance type="observed">
+                            <placeName type="moderSpot" ref="http://www.georgianmuseums.ge">
+                                <seg xml:lang="ka">ქუთაისის სახელმწიფო ისტორიული მუზეუმი</seg>
+                                <seg xml:lang="en">Kutaisi National Historical Museum</seg>
+                            </placeName>
+                            <idno/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change>
+            <change when="2021-01-01" who="TK">ბიბლიოგრაფია, ფოტო</change>
+        </revisionDesc>
+     </teiHeader>
+
+      <facsimile>
+        <surface>
+            <graphic url="ecg010.jpg">
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/22/">საჰაკდუხტის წარწერა</desc>
+                <desc xml:lang="en" ref="http://paleography.iliauni.edu.ge/digipal/page/22/">Sahakdukht Inscription</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                
+                  <p><bibl>
+                      <ptr target="bibliography.xml#b65"/>გიორგი ბოჭორიძე, რაჭის ისტორიული ძეგლები, <citedRange>173-178</citedRange>
+                  </bibl></p>
+
+                <p><bibl >
+                    
+                    <ptr target="bibliography.xml#b92"/>კორნელი დანელია, ზურაბ სარჯველაძე, ქართული პალეოგრაფია, <citedRange>24</citedRange>
+                </bibl></p> 
+        
+               
+                 <p><bibl  >
+                     <ptr target="bibliography.xml#b59"/>აკაკი შანიძე, ძველი ქართულის ქრესტომათია ლექსიკონითურთ, <citedRange>2, 107</citedRange>
+                 </bibl></p>
+                    
+                
+            </div>
+
+            <div type="edition" xml:lang="ka" xml:space="preserve" ana="mtavruli">
+
+                        <!--  "წო გლ საკჳრველ
+                                თმოქმედო შენდ
+                                ა შევედრებუ-
+                                ლი მჴლი შენი ს
+                                აჰაკდუხტ
+                                დაჲცევ ყოვ-
+                                ლისაგან ბო
+                                როტისა -->
+                <ab>
+                   <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w>
+                    <name nymRef="წმ. გრიგოლ"><expan><abbr>გ</abbr><ex>რიგო</ex><abbr>ლ</abbr></expan></name>
+                    <w lemma="საკჳრველთმოქმედ">საკჳრველ
+                    <lb n="2" break="no"/>თმოქმედო</w> <w lemma="შენ">შენდ
+                    <lb n="3" break="no"/>ა</w> <w lemma="შევედრებულ">შევედრებუ
+                    <lb n="4" break="no"/>ლი</w> <w lemma="მჴევალ"><expan><abbr>მჴ</abbr><ex>ევა</ex><abbr>ლი</abbr></expan></w>
+                                <w lemma="შენი">შენი</w> <persName type="local" key="საჰაკდუხტ"><name nymRef="საჰაკდუხტ">ს
+                    <lb n="5" break="no"/>აჰაკდუხტ</name></persName>
+                    <lb n="6"/><w lemma="დაცვა">დაჲცევ</w> <w lemma="ყოველ">ყოვ
+                    <lb n="7" break="no"/>ლისაგან</w> <w lemma="ბოროტ">ბო
+                    <lb n="8" break="no"/>როტისა</w>
+                     </ab>
+
+            </div>
+
+            <div type="translation" xml:lang="ka">
+                <p>წმიდაო გრიგოლ საკჳრველთმოქმედო, შენდა შევედრებული მჴევალი შენი საჰაკდუხტ დაიცევ ყოვლისაგან ბოროტისა.</p></div>
+
+            <div type="translation" xml:lang="en">
+                <p>
+                   Saint Grigol miraculous, protect your maidservant entrusted to you, Sahakdukht from all the evil.
+                </p>
+            </div>
+
+            <div type="apparatus" xml:space="preserve"/>
+
+
+            <div type="commentary" xml:lang="ka">
+                <p> „ძელი ჭეშმარიტი“, ანუ ჯვარი ჩასვებენულია ფიცრის ლუსკუმაში, რომელიც ირგვლივ ვერცხლის ფურცლებით არის შეჭედილი.
+                    ლუსკუმის კარზე გამოსახულია წმ. გრიგოლ ღვთისმეტყველის ჭედური ხატი. წმიდანის ფეხთა ქვეშ არის შესრულებული ჭედური წარწერა.
+                    წარწერაში მოხსენიებული საჰაკდუხტი, გიორგი ბოჭორიძის აზრით, უნდა იყოს ვახტანგ გორგასლის დედა, საგდუხტ დედოფალი.
+                პალეოგრაფიული ნიშნებით წარწერა ენათესავება უძველეს ქართულ წერილობით ძეგლებს: Ⴁ და Ⴗ თავშეკრულია, ხოლო Ⴘ და Ⴣ თავგახსნილი.
+                Ⴍ ძლიერ ჰგავს ბერძნულ O-ს. ძალიან საინტერესოა „დაჲცევ“ ფორმა. Ⴢ აქ ასახავს [ჲ] ალოფონს V-C პოზიციაში. ეს არის ამ ტიპის შემთხვევათა
+                ყველაზე ადრეული ნიმუში. 1927 წელს გ. ბოჭორიძემ წარწერა VI საუკუნით დაათარიღა, 1929 წელს კი - V საუკუნით. აკაკი შანიძისა და პავლე ინგოროყვას აზრითაც, ძეგლი
+                V საუკუნისა შეიძლება იყოს.</p>
+            </div>
+            
+        
+            
+            <div type="commentary" xml:lang="en">
+                <p>
+                    “The virtuous log”, that is a cross shaped wooden tabernacle which is decorated with silver paper. The forged icon of St. Grigil is on the door of the tabernacle.
+                    The inscription is located at the feet of the saint. According to Giorgi Bochoridze the name Sahakdukht could be referring to Sagdukht the Queen, mother of Vakhtang Gorgasali.
+                    Paleographic data proves that the inscription can be similar to the ancient Georgian inscriptions: the top arch of Ⴁ and Ⴗ are engaged, while Ⴘ are Ⴣ open. Ⴍ looks similar to Greek.
+                    The form of „დაჲცევ“ is notable. Here the letter Ⴢ represents [ჲ] the alophon in V-C position. This is the earliest representation of this type of case.
+                    G. Bochoridze gave this inscription the date of VI century in 1927, but in 1929 changed this date to V century. Akaki Shanidze and Pavle Ingorokva also state that the inscription is of the V century.
+                </p>
+            </div>
+         </body>
+    </text>
+</TEI>

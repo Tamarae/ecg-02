@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ოქროს ფირფიტა (გულსაკიდი)</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG296</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                <msIdentifier>
+                        <collection>
+                           სამთავრო
+                        </collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სავედრებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>  
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/112">ოქრო</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">ფირფიტა</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        <p>ფირფიტის ცენტრის ირგვლივ, გამოსახულების გასწვრივ ერთ სტრიქონად გამოყვანილია 
+                                        ბერძნული წარწერა (იგი მხოლოდ გამოსახულების თავთან და ფეხებთან არაა). ფირფიტის დიამეტრია 2,6 სმ.</p>
+                                        <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                <p>წარწერა შესრულებულია ლამაზი მრგვლოვანი ასოებით.</p>
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>ფირფიტის ცენტრში კონსტანტინოპოლის სიმბოლური გამოსახულებაა.</decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>სამთავრო</origPlace>
+                                <origDate notBefore-custom="0301" notAfter-custom="0500" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">IV-V AD</origDate>
+                              </origin>
+                            <provenance type="found" when="1979">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863882">სამთავრო</placeName> 
+                                <rs type="circumstances">ნივთი აღმოჩენილია სამთავროში გაძარცვულ ქვაყუთში.</rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>             
+                            <provenance type="observed">
+                            <placeName type="modernSpot">სახელმწიფო მუზეუმი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>     
+     <facsimile>
+        <surface>
+            <graphic url="ecg296.jpg">
+                <desc xml:lang="ka">ოქროს ფირფიტა სამთავროდან, 1979</desc>
+                <desc xml:lang="en">Gold slab from Samtavro, 1979</desc>
+            </graphic>
+        </surface>
+    </facsimile>     
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 268-269</citedRange></bibl></p>
+                
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!-- ΕΙCΘΕΟC ΒΟΗΘΙ εἷς θεός, βοήθει  -->
+                     
+         <ab>
+             <w lemma="εἷς">εἷς</w> <w lemma="θεός">θεός</w>, <w lemma="βοηθέω">βοήθ<choice><reg>ει</reg><orig>ι</orig></choice></w>
+         </ab>    
+             
+         
+            </div>
+                
+            <div type="translation" xml:lang="ka">
+                <p>ერთი არს ღმერთი, შეეწიე (/შემეწიე)</p>
+            </div>
+            
+           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app><lem></lem>
+              <rdg></rdg>
+              </app>
+              <app><lem></lem>
+              <rdg></rdg>
+              </app></p>
+            </div>
+           
+            <div type="commentary">
+                <p>წარწერა ნაკლული არ არის, უვარაუდება, ღმერთი უნდა შეეწიოს ამ ნივთის მატარებელს.</p>
+                <p>ასოთა მოხაზულობის (მრგვალი ასოები, β-ს თავისებული სახე), იტაციზმის (βοηθι) და გავრცელებული ფორმულის მიხედვით, ნივთი გვიან რომაული, ადრე ბიზანტიური 
+                ხანით თარიღდება.</p>
+            </div>
+         </body>
+    </text>
+</TEI>
+
+
+
+

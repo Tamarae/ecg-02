@@ -1,0 +1,177 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ხუნზახის I წარწერა დაღესტნიდან</title>
+                <editor xml:lang="ka">შაჰბან ჰაფიზოვი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG365</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ხუნზახი</collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents> 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="4">წარწერა ოთხსტრიქონიანია. შემორჩენილი ფრაგმენტის მიხედვით ცხადია, 
+                                        რომ ქვის ქვედა ნაწილში დამატებით არანაკლებ ერთი სტრიქონიც უნდა ყოფილიყო, 
+                                    რომლის ნაშთზე დარწმუნებით იკითხება მხოლოდ დ ასოს ზედა ნაწილი.
+                                        <dimensions unit="cm">
+                                         <width></width>
+                                         <height></height> 
+                                          </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა. ტექსტი ქართულია.
+                                   <height></height> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ხუნზახი, დაღესტანი</origPlace>
+                                <origDate notBefore-custom="1200" notAfter-custom="1300" 
+                                    evidence="lettering historical context" datingMethod="#julian">XIII AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                           <placeName type ="ancientFindspot">ხუნზახი, დაღესტანი</placeName>
+                                <!-- "42.547389, 46.706797"--> 
+                                <rs type="circumstances">ქართულწარწერიანი ქვა ხუნზახიდან XIX საუკუნის 70-იან წლებში გადაიტანეს თბილისში, საქართველოს ეროვნულ მუზეუმში. 
+                                    პირველად მის შესახებ 1881 წელს V არქეოლოგიურ ყრილობაზე განაცხადა ა. კომაროვმა (Пятый Археологический съезд в Тифлисе. I. 
+                                    Труды предварительных комитетов /издание под редакцией секретаря Московского предварительного Комитета И.Д. Мансветова/. М., 1882,  124).</rs>
+                                <rs type="context"></rs>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot" ref="http://museum.ge/">საქართველოს ეროვნული მუზეუმი</placeName>
+                                <idno type="invNo"/>23</provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+     <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+        
+    <facsimile>
+        <surface>
+            <graphic url="ecg365.jpg">
+                <desc xml:lang="ka">ხუნზახის I წარწერა დაღესტნიდან</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>  
+          <div type="bibliography">
+           
+   <p><bibl n="1">შაჰბან ჰაფიზოვი, ქართული, ქართულ-ხუნძური და ხუნძური წარწერები მთიან ხუნძეთში (დაღესტანი)<ptr target="bibliography.xml#b141"/>, <citedRange> 120-121</citedRange></bibl></p>
+             
+          </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--(1) (სახელითაღმრ)თისაჲთააღეშ(ენა) 
+                            “სახელითა ღმრთისაჲთა აღეშენა” 
+                            
+                            (2) ესეეკლესიაჲუჩად(ა)დონ 
+                            “ესე ეკლესიაჲ უჩადადონ” 
+
+                            (3) წ(მიდა)თაკ(ო)ზმ(ა)ნდადამი(ანეს) 
+                            “წმიდათა კოზმან და დამიანეს” 
+            
+                            (4) (სახელსა)ზ(ე)დ(ა) 
+                            “სახელსა ზედა”.  -->                                                       
+
+                <ab>
+                   <lb n="1"/><w lemma="სახელ"><supplied reason="lost">სახელითა</supplied></w> 
+                                <w lemma="ღმერთ"><supplied reason="lost">ღმრ</supplied>თისაჲთა</w>  
+                                <w lemma="აღშენება">აღეშ<supplied reason="lost">ენა</supplied></w> 
+                   <lb n="2"/><w lemma="ესე">ესე</w> 
+                              <w lemma="ეკლესია">ეკლესიაჲ</w> 
+                                <name><expan><abbr>უჩად</abbr><ex>ა</ex><abbr>დონ</abbr></expan></name> 
+                    <lb n="3"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>თა</abbr></expan></w>
+                                <name nymRef="კოზმა"><expan><abbr>კ</abbr><ex>ო</ex><abbr>ზმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></name> 
+                               და 
+                                <name nymRef="დამიანე">დამი<supplied reason="lost">ანეს</supplied></name>
+                    <lb n="4"/><w lemma="სახელ"><supplied reason="lost">სახელსა</supplied></w>
+                                <w lemma="ზედა"><expan><abbr>ზ</abbr><ex>ე</ex><abbr>დ</abbr><ex>ა</ex></expan></w>                                              
+                </ab>
+               </div>
+            
+         <div type="translation" xml:lang="ka">
+             <p>ღმერთის სახელით აშენდა ეს ეკლესია წმიდა კოზმან და დამიანეს სახელზე.</p>
+         </div>    
+            
+            <div type="apparatus" xml:space="preserve"/>
+      
+            <div type="commentary">
+                <p> წარწერის ტექსტი ჯერ კიდევ 1904 წელს გამოაქვეყნა ე. თაყაიშვილმა. მეცნიერის აზრით, წარწერაში აღნიშნულია, რომ ეკლესია ააშენა ვინმე უჩადადონმა წმიდა კოზმასა და 
+                    დამიანეს სახელზე (Такайшвили Е. Грузинские надписи на археологических предметах, хранившихся в Кавказском музее в Тифлисе. 
+                    Известия Кавказского отделения Московского археологического общества. Тифлис, 1904. Вып. I, gv. 56-73). 
+                    დ. ატაევი მიიჩნევდა, რომ ეს წარწერიანი ქვა ნაპოვნი იყო ტად-რაალში (Атаев Д.М. Нагорный Дагестан в раннем средневековье (по материалам археологических раскопок Аварии).
+                    Махачкала, 1963,  170). მიუხედავად იმისა, რომ ტექსტი XX საუკუნის დასაწყისში გამოქვეყნდა, 
+                    მისი სამყოფელი უცნობი იყო. 2015 წელს შაჰბან ჰაფიზოვს საშუალება ჰქონდა, ემუშავა საქართველოს ეროვნულ მუზეუმში და ქვის ძეგლთა ფონდის გამგის ნ. დათუნაშვილის დახმარებით 
+                    აღმოაჩინა ქართულწარწერიანი ეს ქვა (სხმ #23), რომელიც, სამუზეუმო კატალოგის თანახმად, ჩამოტანილია ხუნზახიდან 1879 წელს 
+                    (საქართველოს სახელმწიფო მუზეუმის ეპიგრაფიკული ძეგლების კატალოგი. თბ., 1953,  9). 
+                    
+                    შაჰბან ჰაფიზოვი პალეოგრაფიული ნიშნებით წარწერას XII-XIV საუკუნეებით ათარიღებს, თუმცა უფრო მოსალოდნელია მისი მიკუთვნება XIII საუკუნის პირველი ნახევრისადმი.
+                    ამაზე მიანიშნებს ნ, დ, ო, ლ, წ, ზ ასოების მოხაზულობა.  
+
+                   
+                    კოზმასა და დამიანეს სახელით მართლმადიდებლურ ეკლესიებში ცნობილნი არიან დაახლოებით III საუკუნის II ნახევარსა და IV საუკუნის I ნახევარში მცირე აზიაში 
+                    (ამჟ. თურქეთის ქალაქ ისკენდერუნში) და სირიაში მოღვაწე წმინდანები. დაუდგენელია ვინმე უჩადადონის სოციალური სტატუსი: 
+                    მშენებლობის ქტიტორი იყო, თუ მხოლოდ ხუროთმოძღვარი? უფრო სარწმუნოა, 
+                    უჩადადონი ყოფილიყო გავლენიანი და მდიდარი ხუნზახელი, შესაძლოა, სარირის სახელმწიფოს მაღალი დონის მოხელე, ანდა, 
+                    რაც უფრო მეტადაა მოსალოდნელი, მართლმადიდებელი ეკლესიის წარმომადგენელი ამ მხარეში. რაც შეეხება პირსახელ უჩადადონ-ის ეტიმოლოგიას, 
+                    ამგვარი ანთროპონიმი უცნობია ქართულ პირსახელთა შორის. ხუნძთა ანთროპონიმიაში შაჰბან ჰაფიზოვმა გამოავლინა მსგავსი ჟღერადობის შემდეგი მამაკაცის 
+                    სახელების გავრცელების ფაქტები ჯერ კიდევ XIX საუკუნის ბოლოსათვის: დადუჩან (სოფ. ბუწრა), დადუჩ (სოფლები ახალჭი, ობოდა, ხუნზახი), 
+                    დადაჩუ (სოფ. ოროტა) და სხვ. ჩანს, უჩადადონ და დადუჩან საერთო წარმომავლობის სახელებია და მიღებულია მეტათეზისის გზით 
+                    (Эльдаров Э.М. Хунзахцы в 1886 году (По итогам первой русской переписи населения Дагестана). Демографический справочник. Махачкала, 2005,  17, 37, 89, 101, 148.). 
+                    ღირსსაცნობია აგრეთვე ისეთი ხუნძური სახელების არსებობაც, რაც, მკვლევრის აზრით, უფლებას იძლევა, დაუშვას უჩადადონ სახელის ორკომპონენტიანობა. 
+                    ეს სახელებია: უჩი (სოფ. ჭოროდა, XV-XVI სს.) (Хапизов Ш. Исламизация южной части горной Аварии (по данным местных арабоязычных источников). 
+                    Историография и источниковедение средневекового Востока. Материалы международного научного симпозиума. Баку, 2012, 
+                     209) და უჩან (სოფ. ურადა) (Бутаев И.Ч. Гидатль: исторические этюды. Махачкала, 2013, gv. 358). ამრიგად, საკვლევი სახელი ნაწარმოებია მეტსახელ დადუჩ-ისაგან, 
+                    რაც მამის აღმნიშვნელი ალერსობითი ფორმაა (შდრ. აგრეთვე ხუნძური დიალექტური: დადა, დადი, დიდა, დადუ და ა.შ.). 
+                    ხუნზახის I წარწერა რუღჟაბის 1365 წლის წარწერასთან ერთად მეორე ტექსტია, რომელშიც მოთხრობილია მთიან ხუნძეთში ქრისტიანული ეკლესიის მშენებლობის შესახებ.</p>                
+            </div>
+        </body>
+    </text>
+</TEI>

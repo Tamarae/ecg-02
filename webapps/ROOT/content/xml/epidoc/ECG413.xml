@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ჭედური ხატი</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG413</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ლაგურკა</collection>                
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents> 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/115">ვერცხლი</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/123">ხატი</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout>გამოსახულების მარცხნივ და მარჯვნივ ბერძნული მთავრული წარწერაა.
+                                    <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>წარწერაში გვხვდება Α მონოგრამა.
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace></origPlace>
+                                <origDate notBefore-custom="1001" notAfter-custom="1200" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">XI-XII AD</origDate>
+                              </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">ლაგურკა</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                         
+                            <provenance type="observed">
+                            <placeName type="modernSpot">ლაგურკას ეკლესია</placeName>
+                            <idno>№ 104</idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg413.jpg">
+                <desc xml:lang="ka">ჭედური ხატი ლაგურკადან</desc>
+                <desc xml:lang="en">Repousse icon from Lagurka</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 88</citedRange></bibl></p>
+                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 42</citedRange></bibl></p>
+                
+            </div>
+
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!--   ΑC ΠΑ V Λ ΟC    ὁ  ἅ[γιο]ς Παῦλος   -->
+                     
+            
+         <div type="textpart" subtype="section" n="1">
+         <ab>
+             <w lemma="ὁ">ὁ</w> <w lemma="ἅγιος"><expan><abbr>ἅ</abbr><ex>γιο</ex><abbr>ς</abbr></expan></w> 
+         </ab>    
+          </div>
+               <div type="textpart" subtype="section" n="2">
+         <ab>
+             <persName type="saint"><name nymRef="Παῦλος">Παῦλος</name></persName>
+         </ab>    
+          </div> 
+            </div>
+            
+            <div type="translation" subtype="section" n="1" xml:lang="ka">
+                <p>წმიდა</p>
+            </div>
+            <div type="translation" subtype="section" n="2" xml:lang="ka">
+                <p>პავლე</p>
+            </div>
+            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app><lem></lem>
+              <rdg></rdg>
+              </app></p>
+            </div>
+           
+            <div type="commentary">
+                <p> ჭედური ხატი (4x5) ბერძნული ხელობისაა.</p>
+                <p>წარწერა პალეოგრაფიული ნიშნების მიხედვით (Α მონოგრამა) და ასოთა მოხაზულობის საფუძველზე შუაბიზანტიური ხანით უნდა დათარიღდეს. საგანგებო დამათარიღებელი 
+                ნიშნები არა აქვს.</p>
+            </div>
+         </body>
+    </text>
+</TEI>
+
+

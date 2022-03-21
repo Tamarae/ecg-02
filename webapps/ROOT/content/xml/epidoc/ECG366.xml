@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ხუნზახის II წარწერა დაღესტნიდან</title>
+                <editor xml:lang="ka">შაჰბან ჰაფიზოვი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG366</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ხუნზახი</collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents> 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="1">წარწერა ერთსტრიქონიანია. ფილის ზედა ნაწილზე თაყვანისცემის პოზაში 
+                    გამოსახულია ორი მწყერი, ხოლო ქვედა ნაწილზე ქართული წარწერაა
+                                        <dimensions unit="cm">
+                                         <width></width>
+                                         <height></height> 
+                                          </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="embossed">
+                                <rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა. ტექსტი ქართულია
+                                   <height></height> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ხუნზახი, დაღესტანი</origPlace>
+                                <origDate notBefore-custom="800" notAfter-custom="1100" 
+                                    evidence="lettering historical context" datingMethod="#julian">IX-XI AD</origDate>
+                            </origin>
+                            <provenance  type="found">
+                                <placeName type ="ancientFindspot">ხუნზახი, დაღესტანი</placeName>
+                                <!-- "42.547389, 46.706797"--> 
+                                <rs type="circumstances">XIX საუკუნის ბოლოს ე. ზიჩიმ და ბ. პოშტამ ხუნზახში მიაკვლიეს ქვის ფილას ძველქართული წარწერითურთ</rs>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot" ref="http://bildsuche.digitale-sammlungen.de/">ხუნზახი, დაღესტანი, წარწერის მულაჟი ინახება ბუდაპეშტში</placeName>
+                                <idno type="invNo"/></provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg366.jpg">
+                <desc xml:lang="ka">ხუნზახის II წარწერა დაღესტნიდან</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            
+     <div type="bibliography">
+           
+   <p><bibl n="1">შაჰბან ჰაფიზოვი, ქართული, ქართულ-ხუნძური და ხუნძური წარწერები მთიან ხუნძეთში (დაღესტანი)<ptr target="bibliography.xml#b141"/>, <citedRange> 122</citedRange></bibl></p>
+             
+          </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--(1) ჯ(უა)რი ქ(რისტე)სი ქ 
+                        „ჯუარი ქრისტესი ქ...“-->                                                       
+
+                <ab>
+                   <lb n="1"/><w lemma="ჯუარ"><expan><abbr>ჯ</abbr><ex>უა</ex><abbr>რი</abbr></expan></w>
+                             <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტე</ex><abbr>სი</abbr></expan></w>
+                             ქ<gap reason="lost" extent="unknown" unit="chars"></gap>                                                          
+                </ab>
+               </div>
+            
+         <div type="translation" xml:lang="ka">
+             <p>ჯუარი ქრისტესი ქ...</p>
+         </div>    
+            
+            <div type="apparatus" xml:space="preserve"/>
+      
+            <div type="commentary">
+                <p> დ. ატაევი ამ წარწერას ასე კითხულობდა: „ჯვარი ქრისტესი ქ...“ (Атаев Д.М. Христианские древности Аварии…  173). 
+                    იმის გამო, რომ მისი ნაშრომი დაბალი ხარისხის ქაღალდზე იყო ნაბეჭდი, 
+                    შაჰბან ჰაფიზოვმა ე. ზიჩის გამოცემის ბავარიის სახელმწიფო ბიბლიოთეკის (მიუნხენი) ვებგვერდზე განთავსებული უფრო ხარისხიანი ფოტოსურათის 
+                    ელექტრონული ვერსია გამოიყენა (https://bit.ly/35StnuD), 
+                    თუმცა შედარებამ დაარწმუნა, რომ დ. ატაევს ტექსტი სწორად ამოუკითხავს.
+                     მოსალოდნელია, რომ ბოლო ქ ასო პირველ ბგერას აღნიშნავდეს იმ მიცვალებულის სახელისა, ვისთვისაც წყალობას გამოითხოვდნენ. 
+                წარწერის დათარიღებისათვის ორიენტირია ჯ ასოს მოხაზულობა, რაც დამახასიათებელი იყო IX-XI საუკუნეებისათვის.</p>                
+            </div>
+        </body>
+    </text>
+</TEI>

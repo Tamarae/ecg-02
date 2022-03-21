@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>საფარის მიძინების ტაძრის ვაჩე ხუროთმოძღვრის წარწერა</title>
+                <editor>ვალერი სილოგავა</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG108</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>საფარა</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="1">წარწერა ერთსტრიქონიანია.
+                                    წარწერიანი რელიეფი ჩასმულია ტაძრის ჩრდილო-აღმოსავლეთის კუთხეში, კარნიზის ბოლოებში, გადახურვის კიდეების გასწვრივ,
+                                რომელზეც გამოსახულია ხუროთმოძღვრის გამოსახულება გონიოთი ხელში და მისი სახელის აღმნიშვნელი წარწერით „ႥႹႤ“. 
+                                წერაქვის გასწვრივ და მარცხენა ფეხის გასწვრივ ამოკვეთილია წარწერა ეპიგრაფიული ნუსხურით. 
+                                წარწერის თავზე, სიტყვის მთელ სიგანეზე დასმულია ქარაგმის სწორი ხაზი.
+                                        <dimensions unit="cm">
+                                             <width/>
+                                             <height/> 
+                                          </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="nuskhuri" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ნუსხური</rs> წარწერა
+                                   <height/> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>საფარის მონასტრის მიძინების ტაძარი</origPlace>
+                                 <origDate notBefore-custom="900" notAfter-custom="1000" precision="medium" 
+                                    evidence="context" datingMethod="#julian">X AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">საფარის მონასტრის მიძინების ტაძარი</placeName>
+                                <!-- "41.602116, 43.031036"--> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">საფარის მონასტრის მიძინების ტაძარი</placeName>
+                                <idno type="invNo"/>
+                            </provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg108.jpg">
+                <desc xml:lang="ka">საფარის მიძინების ტაძრის ვაჩე ხუროთმოძღვრის წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body> 
+             <div type="bibliography">
+               
+     <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
+     <p><bibl n="2">ვალერი სილოგავა, საფარის ხუროთმოძღვრები<ptr target="bibliography.xml#b156"/>, <citedRange> 192-201</citedRange></bibl></p>        
+              
+            </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--  "ვჩე"-->                                           
+
+                <ab>
+                   <lb n="1"/><name nymRef="ვაჩე"><expan><abbr>ვ</abbr><ex>ა</ex><abbr>ჩე</abbr></expan></name>
+                   </ab>
+             </div>
+              
+         <div type="translation" xml:lang="ka">
+             <p>ვაჩე</p>
+         </div>    
+                             
+               <div type="commentary">
+                <p>საფარის მონასტერი ძველი დროიდანვე სხვადასხვა დანიშნულების 12 ნაგებობისაგან შედგებოდა. მათ შორის არის მიძინების ტაძარი.
+                   ვალერი სილოგავას აზრით, წარწერაში გამოვლენილი ვაჩე უნდა იყოს მიძინების ტაძრის ხუროთმოძღვარი. იგი სხვა წყაროებით ჯერჯერობით უცნობია. 
+                   თუმცა ანთროპონიმი ვაჩე სავსებით ცნობილია და გავრცელებული, როგორც X-XI სს., ანუ საფარის რელიეფის დროს, ისე მომდევნო ხანის საქართველოში. 
+                 </p> 
+            </div> 
+        </body>
+    </text>
+</TEI>
