@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ქობაირის მონასტრის მაკარის შვილის, გრიგოლის, ეპიტაფია</title>
+                <editor>თემო ჯოჯუა</editor>
+                <editor>გიორგი გაგოშიძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG348</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ქობაირი</collection>
+                    </msIdentifier>                
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">ეპიტაფია</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>  
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/91.html">ეპიტაფია</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width>66</width>
+                                        <height>172</height>
+                                        <depth></depth>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="5">წარწერა ხუთსტრიქონიანია. იგი ამოკვეთილია რუხი ფერის ოთხკუთხა
+                                    საფლავის ქვაზე, რომელიც ქობაირის მონასტრის ქვედა ეკლესიის დასავლეთით დაახლოებით
+                                        5 მ-ის მანძილზე, მიწაშია ჩადგმული                     
+                                      <dimensions unit="cm">
+                                         <width>47</width>
+                                         <height>66</height> 
+                                      </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
+                                   <height>3,5-10</height> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ქობაირის მონასტერი, სომხეთი</origPlace>
+                                <origDate notBefore-custom="1300" notAfter-custom="1500" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">XIII-XIV AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">ქობაირის მონასტერი, სომხეთი</placeName>
+                                <!-- "41.005061, 44.635086"--> 
+                                <rs type="circumstances">ქობერის მონასტრის ტერიტორია მთავარი ტაძრის გარშემო, ასევე, ამ ტაძრის იატაკი და მონასტრის ეზო მოფენილია დიდი ზომის ქვის ლოდებით, 
+            რომლებიც მიწისძვრისა თუ მცირე მიწისქვეშა ბიძგების შედეგადაა ჩამოცვენილი მონასტრის თავზე წამომართული კლდეებიდან. ამ ლოდების ქვეშ დაფარული და მიუკვლეველია არაერთი 
+             უცნობი ეპიტაფია. მეტიც, ცნობილი ეპიტაფიების ნაწილიც ამჟამად უკვე ლოდების ქვეშაა მოყოლილი და მასალის შემოწმება შეუძლებელი ხდება. მაკარისა და მისი ვაჟის, გრიგოლის ეპიტაფიებიც
+             მათ რიცხვშია. ამ 2 ეპიტაფიის ფოტონეგატივები ვალერი სილოგავამ აღმოაჩინა გიორგი ჩუბინაშვილის სახელობის ქართული ხელოვნების ისტორიის ინსტიტუტის ფოტოთეკაში. 
+             მათი საინვენტარო ნომრებია: 5363 და 5367. ამ მასალის შესახებ სხვა ცნობები არ ჩანს.</rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">ქობაირის მონასტერი, სომხეთი</placeName>
+                                <idno type="invNo"/></provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-12-17" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg348.jpg">
+                <desc xml:lang="ka">ქობაირის მონასტრის მაკარის შვილის, გრიგოლის, ეპიტაფია</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+             <graphic url="ecg348a.jpg">
+                <desc xml:lang="ka">ქობაირის მონასტრის მაკარის შვილის, გრიგოლის, ეპიტაფია</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+           </surface>
+    </facsimile>
+    <text>
+        <body> 
+            <div type="bibliography">
+                
+         <p><bibl n="1">თემო ჯოჯუა, გიორგი გაგოშიძე, ქობაირის, ჰნევანქისა და ახტალის მონასტრების ქართული ლაპიდარული წარწერები<ptr target="bibliography.xml#b164"/>, <citedRange> 306-307</citedRange></bibl></p>
+         <p><bibl n="2">ვალერი სილოგავა, ეპიგრაფიკული ეტიუდები და შენიშვნები<ptr target="bibliography.xml#b167"/>, <citedRange> 113-115</citedRange></bibl></p>
+                
+                </div>
+            
+              <div type="edition" xml:lang="ka" xml:space="preserve" ana="mtavruli">
+                
+                        <!--† ესე საფლ(ა)ვი არ
+                            ის მ(ა)კარ(ი)ს შვ(ი)ლ(ი)სა 
+                            გ(რი)გ(ო)ლისი, შ(ეუნდვე)ნ ღ(მერთმა)ნ; 
+                            და მ(ა)სცა შ(ეუნდვე)ნ ღ(მერთმა)ნ, 
+                            ვ(ი)ნცა თქუას.--> 
+                                                             
+                <ab>
+                   <lb n="1"/>&#8224;<w lemma="ესე">ესე</w> 
+                                    <w lemma="საფლავ"><expan><abbr>საფლ</abbr><ex>ა</ex><abbr>ვი</abbr></expan></w> 
+                                    <w lemma="ყოფა">არ 
+                   <lb n="2"/>ის</w>
+                            <persName type="local" key="მაკარი"><name nymRef="მაკარი"><expan><abbr>მ</abbr><ex>ა</ex><abbr>კარ</abbr><ex>ი</ex><abbr>ს</abbr></expan></name></persName>
+                              <w lemma="შვილ"><expan><abbr>შვ</abbr><ex>ი</ex><abbr>ლ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w> 
+                    <lb n="3"/><persName type="local" key="გრიგოლ [მაკარის ძე]"><name  nymRef="გრიგოლ"><expan><abbr>გ</abbr><ex>რი</ex><abbr>გ</abbr><ex>ო</ex><abbr>ლისი</abbr></expan></name></persName>
+                             <w lemma="შენდობა"><expan><abbr>შ</abbr><ex>ეუნდვე</ex><abbr>ნ</abbr></expan></w> 
+                             <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> 
+                     <lb n="4"/>და
+                                <w lemma="მას"><expan><abbr>მ</abbr><ex>ა</ex><abbr>სცა</abbr></expan></w> 
+                                <w lemma="შენდობა"><expan><abbr>შ</abbr><ex>ეუნდვე</ex><abbr>ნ</abbr></expan></w> 
+                              <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>                
+                   <lb n="5"/><w lemma="ვინც">ვინცა</w> 
+                             <w lemma="თქმა">თქუას</w>
+                    
+                   </ab>
+               </div>
+             <div type="apparatus" xml:space="preserve"/>
+                  
+         <div type="translation" xml:lang="ka">
+             <p>ეს არის მაკარის შვილის, გრიგოლის, საფლავი, შეუნდოს ღმერთმა; და მასაც შეუნდოს ღმერთმა, ვინც თქვას [შენდობა].</p>
+         </div>                  
+           
+            <div type="commentary">
+                <p>წარწერაში ქარაგმის ნიშნად გამოყენებულია განივი, კლაკნილი, კიდურწერტილოვანი ხაზი; განკვეთილობის ნიშნები: წერტილი
+ან ორწერტილი თითქმის ყოველი სიტყვის შემდეგ; III სტრიქონისა და ტექსტის ბოლოს ორწერტილი
+და ხაზია დასმული; ტექსტში ბგერა უ, ერთ შემთხვევაში, Ⴍ-ს (ო) საშუალებით არის გადმოცემული; გვხვდება შეწიაღების შემთხვევები.
+წარწერა დაზიანებული არ არის და ტექსტი თავიდან ბოლომდე გარკვევით იკითხება.</p>
+<p>თემო ჯოჯუასა და გიორგი გაგოშის მიხედვით, 1930-იან წლებში ჯერჯერობით უცნობმა ქართველმა მკვლევრებმა (?) გრიგოლის ეპიტაფიის
+ფოტონეგატივი დაამზადეს და ის ენის, ისტორიისა და მატერიალური კულტურის ინსტიტუტს
+გადასცეს; მოგვიანებით გრიგოლის ეპიტაფიის ფოტონეგატივი ქართული ხელოვნების ისტორიის
+ინსტიტუტს გადაეცა; 1990 წელს ვალერი სილოგავამ გრიგოლის ეპიტაფიის ადგილზე
+მოძიება ვერ შეძლო და მისი ტექსტი, პალეოგრაფიულ პირთან ერთად, ფოტონეგატივზე დაყრდნობით,
+გამოაქვეყნა; 2012 წელს გრიგოლის ეპიტაფიის ადგილზე მოძიება ვერც გიორგი
+კალანდიამ და ქეთევან ასათიანმა შეძლეს. იმავე 2012 წელს დალი ჩიტუნაშვილმა და გიორგი
+პატაშურმა გრიგოლის მამის მაკარის დაკარგულად მიჩნეულ ეპიტაფიას ქობაირის მონასტრის
+ტერიტორიაზე, მონასტრის ძირითადი ნაწილისაგან რამდენიმე ასეული მეტრის დაშორებით,
+ქვედა დონეზე მდებარე პატარა დარბაზული ეკლესიის ეზოში მიაკვლიეს 
+(დ. ჩიტუნაშვილი, გ. პატაშური, სომხეთის ქართული ძეგლები, 2012 (მოხსენების მასალები), 
+თუმცა კი მკვლევრებმა გრიგოლის ეპიტაფიის მოძიება ვერ შეძლეს და ეპიტაფია, მაკარის ეპიტაფიისაგან
+განსხვავებით, კვლავინდებურად ქობაირის მონასტრის დაკარგული ქართული ლაპიდარული
+წარწერების რიცხვში დარჩა.</p>
+<p>თემო ჯოჯუამ და გიორგი გაგოშიძემ გრიგოლის ეპიტაფიას მისი მამის მაკარის საფლავის ქვის გვერდით (ჩრდილოეთით), მისგან
+სულ რამდენიმე სანტიმეტრის დაშორებით მიაკვლიეს. აღსანიშნავია, რომ გრიგოლის საფლავის
+ქვა, მაკარის საფლავის ქვისაგან განსხვავებით, ბალახითა და ფოთლებით იყო დაფარული
+და მასზე ამოკვეთილი ეპიტაფია, პრაქტიკულად, აღარ ჩანდა. საფიქრებელია, რომ დალი
+ჩიტუნაშვილმა და გიორგი პატაშურმა გრიგოლის ეპიტაფია სწორედ ამ მიზეზის გამო ვერ შენიშნეს.</p>
+
+             <p>ვალერი სილოგავას აზრით, მაკარისა და მისი შვილის, გრიგოლის, ეპიტაფიების ტექსტი შედგენილია მსგავსი ტრაფარეტული ფორმულით, რომელიც ქობაირის მონასტრის
+                სხვა ეპიტაფიების ფორმულის მსგავსია, თუმცა მათ შორის მცირედი განსხვავებაც არის. მაგ., ქობაირის ყველა ეპიტაფია იწყება სიტყვებით: „ესე საფლავი...“ და
+                შემდეგ დასახელებულია დაკრძალული პირი. მაკარისა და გრიგოლის ეპიტაფიაში აღნიშნულ სიტყვებს მოსდევს „არის“, ე.ი. „ესე საფლავი არის...“. გარდა ამისა,
+                ქობაირის ყველა ცნობილი ეპიტაფიისაგან განსხვავებით, მაკარისა და გრიგოლის წარწერა მთავრდება სიტყვებით: „და მასცა შეუნდვენ ღმერთმან, ვინცა თქუას“. 
+                ვალერი სილოგავა ასკვნის, რომ ისინი ქობაირის მონასტრის ეპიტაფიების ტრაფარეტული ტექსტების შემდგომ განვითარებად შეიძლება მივიჩნიოთ და
+                ქრონოლოგიურად მათ მომდევნო დროს აკუთვნებს. პალეოგრაფიული ნიშნებისა და ტექნიკური შესრულების ზოგიერთი მონაცემის მიხედვით, მკვლევარი ფიქრობს, რომ 
+                ეს წარწერები სხვადასხვა პირის მიერ შესრულებულად უნდა ჩაითვალოს. სამწუხაროდ, მაკარისა და გრიგოლის პიროვნებები სხვა წყაროებით უცნობია.</p>                
+            </div>      
+         </body>
+    </text>
+</TEI>

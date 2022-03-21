@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>საფარის წმ. საბას ტაძრის სვიმეონის წარწერა</title>
+                <editor>ვალერი სილოგავა</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG118</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>საფარა</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">საკურთხეველი</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ნაცრისფერი ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width>79</width>
+                                        <height>77</height>
+                                        <depth>20</depth>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="4">წარწერა ოთხსტრიქონიანია
+                                        <dimensions unit="cm">
+                                         <width></width>
+                                         <height></height> 
+                                          </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="ink">
+                                <rs type="execution">ფრესკული</rs> <rs type="script">ასომთავრული</rs> წარწერა. შესრულებულია წითელი ფერის საღებავით
+                                   <height>5-8-9</height> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>საფარის მონასტრის წმ. საბას ტაძარი</origPlace>
+                                 <origDate notBefore-custom="1200" notAfter-custom="1300" precision="medium" 
+                                    evidence="context" datingMethod="#julian">XIII AD</origDate>
+                            </origin>
+                            <provenance type="found" when="2010">
+                                <placeName type ="ancientFindspot">საფარის მონასტრის წმ. საბას ტაძარი</placeName>
+                                <!-- "41.602116, 43.031036"--> 
+                                <rs type="circumstances">სვიმეონის წარწერა 2010 წელს აღმოაჩინა სამეცნიერო ექსპედიციამ მერაბ ბუჩუკურის ხელმძღვანელობით ტაძარში მიმდინარე
+                                    სარესტავრაციო (ფრესკების) სამუშაოების დროს. ნაცრისფერი ქვა ჩასმულია წმ. საბას ტაძრის ყველაზე წმიდა ადგილას, საკურთხევლის ნახევარწრის სამხრეთ
+                                კიდეში, ქვემოდან მესამე წყობაში. შელესილობის ჩამოცილების შემდეგ მასზე აღმოჩნდა დიდი ზომის ასოებით შესრულებული წარწერის ფრაგმენტები.</rs>
+                                <rs type="context"></rs>
+                                <rs type="monuList"/>
+                            </provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">საფარის მონასტრის წმ. საბას ტაძარი</placeName>
+                                <idno type="invNo"/>
+                            </provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <!--<facsimile>
+        <surface>
+            <graphic url="ecg118.jpg">
+                <desc xml:lang="ka">საფარის წმ. საბას ტაძრის სვიმეონის წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>--> 
+    <text>
+        <body>           
+                  
+            <div type="bibliography">
+                  
+ <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
+              
+            </div>
+                  
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--"†წო სბა შე სმნ
+                            რნ შმჰვედრა
+                            [ს]ლ[ი] [თსი] [სა]ხელსა
+                            [შნსა] [ზედა] [ან]"--> 
+                                                            
+            
+                <ab>
+                    <lb n="1"/>&#8224;<w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> 
+                                <name nymRef="საბა"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ბა</abbr></expan></name> 
+                                <w lemma="შეწყალება"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> 
+                                <name nymRef="სჳმეონ"><expan><abbr>ს</abbr><ex>ჳ</ex><abbr>მ</abbr><ex>ეო</ex><abbr>ნ</abbr></expan></name>
+                    <lb n="2"/><w lemma="რომელ"><expan><abbr>რ</abbr><ex>ომელმა</ex><abbr>ნ</abbr></expan></w> 
+                                <w lemma="შევედრება"><expan><abbr>შ</abbr><ex>ე</ex><abbr>მ</abbr><ex>ო</ex><abbr>ჰვედრა</abbr></expan></w>
+                    <lb n="3"/><w lemma="სულ"><expan><supplied reason="lost"><abbr>ს</abbr></supplied><ex>უ</ex><abbr>ლ</abbr><supplied reason="lost"><abbr>ი</abbr></supplied></expan></w> 
+                                <w lemma="თჳს"><expan><supplied reason="lost"><abbr>თ</abbr><ex>ჳ</ex><abbr>სი</abbr></supplied></expan></w> 
+                                <w lemma="სახელ"><supplied reason="lost">სა</supplied>ხელსა</w>
+                    <lb n="4"/><w lemma="შენი"><expan><supplied reason="lost"><abbr>შ</abbr><ex>ე</ex><abbr>ნსა</abbr></supplied></expan></w> 
+                                <w lemma="ზედა"><supplied reason="lost">ზედა</supplied></w> 
+                                <w lemma="ამენ"><expan><supplied reason="lost"><abbr>ა</abbr><ex>მე</ex><abbr>ნ</abbr></supplied></expan></w>
+                   </ab>
+               </div>           
+         <div type="translation" xml:lang="ka">
+             <p>წმიდაო საბა, შეიწყალე სჳმეონ, რომელმაც შენი სახელისათვის თავი შეწირა (ბერად შედგა), ამინ.</p>
+         </div>    
+                             
+               <div type="commentary">
+                <p>საფარის მონასტერი ძველი დროიდანვე სხვადასხვა დანიშნულების 12 ნაგებობისაგან შედგებოდა. მათ შორის მთავარია წმ. საბას
+                   სახელობის ტაძარი, აგებული ბექა სამცხის სპასალარისა და მანდატურთუხუცესის მიერ XIII-XIV სს. მიჯნაზე. საფარაში ამაზე ძველი ეკლესიაც არსებობს, X ს-ის
+                   ღვთისმშობლის მიძინების სახელობის ტაძარი, რომელსაც ჩრდილოეთიდან მიდგმული აქვს ზემოხსენებული წმ. საბას ტაძარი. 
+                   სჳმეონის წარწერაში დადასტურებული „შემოჰვედრა სული თჳსი“, ვალერი სილოგავას აზრით, უნდა ნიშნავდეს ღმერთისთვის თავის შეწირვას, ბერად შედგომას. 
+                   სჳმეონის წარწერასა და სვიმეონ ბეროზა-ყოფილის წარწერაში დასახელებული სჳმეონი ერთი და იგივე პირი უნდა იყოს. 
+                   როგორც ჩანს, სჳმეონს მაღალი საზოგადოებრივი მდგომარეობა ეკავა, რომ მან უფლება მოიპოვა ტაძრის საკურთხეველში მოეთავსებინა წარწერა მისი ბერად შედგომის
+                   შესახებ და, ამავე დროს, შეძლებული პირიც იყო, რომ ტაძრის ერთ-ერთი სარკმლის საპირე ორნამენტული ქვით დაფარა.</p>                
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ვესპასიანეს წარწერა</title>
+                <title xml:lang="en">Stele of Vespasian</title>
+                <editor xml:lang="ka">გიორგი წერეთელი</editor>
+                <editor xml:lang="en">Giorgi Tsereteli</editor>
+                <editor xml:lang="ka">თინათინ ყაუხჩიშვილი</editor>
+                <editor xml:lang="en">Tinatin Kaukhchishvili</editor>
+                <editor xml:lang="en">Anna Boltounova</editor>
+                <editor xml:lang="en">David Braund</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG077</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                     დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიის ფარგლებში.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>მცხეთა</collection>                
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო-შეწირვითი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფილა</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">Plaque</objectType>
+                                    <material xml:lang="ka"  ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                     <material xml:lang="en"  ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
+                                    <dimensions unit="cm">
+                                        <height>123</height>
+                                        <width>115</width>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <seg xml:lang="ka">ქვის ზედა, მარცხენა ნაწილი მომტვრეულია, მარჯვენა ნაწილი - დაზიანებულია.  სტრიქონების სიგრძე 85 სმ-ია;</seg>
+                                    <seg xml:lang="en">The upper left side of the inscription is lost, the right side is damaged. The length of the inscriptions is 85 cm.</seg>
+                                        <dimensions unit="cm">
+                                        <height>89</height>
+                                        <width>85</width>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>                                                                                                    
+                            <handNote>
+                                <p xml:lang="ka">წარწერა გამოყვანილია ლამაზი საგულდაგულოდ შესრულებული მთავრულით. პირველი ორი სტრიქონი ნაწერია უფრო დიდი ასოებით, დანარჩენი სტრიქონები, შედარებით უფრო მცირე ზომის ასოებით.</p>
+                                <p xml:lang="en">The well carved capital letter inscription. First two lines are done with bigger letters, the rest of the lines - with smaller letters.</p>
+                                <height unit="cm">
+                                    4-6
+                                </height>
+                                <width/>                               
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>                                       
+                    <history>
+                        <origin>
+                            <origPlace ref="http://pleiades.stoa.org/places/863840">
+                                <seg xml:lang="ka">მცხეთა</seg>
+                                <seg xml:lang="en">Mtskheta</seg>
+                            </origPlace> 
+                            <origDate when-custom="0075" evidence="consulship" precision="high">75 AD</origDate>
+                        </origin>
+                        
+                        <provenance type="found" when="1867">
+                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863840">
+                                <seg xml:lang="ka">მცხეთა</seg>
+                                <seg xml:lang="en">Mtskheta</seg>
+                            </placeName>
+                            <rs type="monuList"/>
+                            <rs type="circumstances">
+                                <seg xml:lang="ka">ნაპოვნია 1867 წელს ივანე ბართოლომეის მიერ</seg>
+                                <seg xml:lang="en">The inscription was found in 1867.</seg>
+                            </rs>
+                            <rs type="context"/>
+                        </provenance>
+                        <provenance type="observed" >
+                            <placeName type="modernSpot" ref="museum.ge">
+                                <seg xml:lang="ka">საქართველოს ეროვნული მუზეუმი</seg>
+                                <seg xml:lang="en">The National Museum of Georgia</seg>
+                            </placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    
+   <facsimile>
+        <surface>
+            <graphic url="ecg077.jpg">
+                <desc xml:lang="ka">ფილა მცხეთიდან, 1867</desc>
+                <desc xml:lang="en">Plaque from Mtskheta, 1867</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1"><ptr target="bibliography.xml#b147"/>გიორგი წერეთელი, მცხეთის ბერძნული წარწერა ვესპასიანეს ხანისა, <citedRange> 1-23</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="bibliography.xml#b136"/>თინათინ ყაუხჩიშვილი, საქართველოს ისტორიის ძველი ბერძნული წყაროები, <citedRange> 241-245</citedRange></bibl></p>
+                    <p><bibl n="3"><ptr target="bibliography.xml#b130"/>თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 251-252</citedRange></bibl></p>
+                    <p><bibl n="4"><ptr target="bibliography.xml#b148"/>Anna Boltounova, Quelques notes sur l'inscription de Vespasien, trouvée à Mtskhetha, <citedRange>213-222</citedRange></bibl></p>
+                    <p><bibl n="5"><ptr target="bibliography.xml#b149"/>თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, ტ. II <citedRange> 251-252</citedRange></bibl></p> 
+                    <p><bibl n="6"><ptr target="bibliography.xml#b150"/>მცხეთა: არქეოლოგიური კვლევა-ძიების შედეგები, ტ. 11, <citedRange> 41;  135</citedRange></bibl></p>
+                    <p><bibl n="7"><ptr target="bibliography.xml#b132"/>თინათინ ყაუხჩიშვილი, ახალი ბერძნული წარწერები არმაზციხე-ბაგინეთიდან<citedRange></citedRange></bibl></p>
+                    <p><bibl n="8"><ptr target="bibliography.xml#b133"/>თინათინ ყაუხჩიშვილი, ახალი ბერძნული წარწერა არმაზციხე-ბაგინეთიდან (II), <citedRange> 11-14</citedRange></bibl></p>
+                    <p><bibl n="9"><ptr target="bibliography.xml#b80"/>თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში, <citedRange> 234-240</citedRange></bibl></p> 
+                    <p><bibl n="10"><ptr target="bibliography.xml#b68"/>დევიდ ბრაუნდი, საქართველო ანტიკურ ხანაში: კოლხეთისა და ამიერკავკასიის იბერიის ისტორია ძვ.წ. 550-ახ.წ. 562 წლები, <citedRange> 327-329</citedRange></bibl></p>                                             
+                
+            </div>
+  
+            <div type="edition" xml:lang="grc" xml:space="preserve">  
+                
+
+                      <!--  [ΑΥΤΟΚΡΑΤΩΡ ΚΑΙ]CΑΡ ΟΥΕ[C			
+                            ΠΑCΙΑΝΟC CΕΒΑ]CΤΟC ΑΡ			
+                            ΧΙΕ[ΡΕΥC ΜΕΓΙΣΤΟ]C ΔΗΜΑΡΧΙΚΗ		
+                            C ΕΞΟ[ΥCΙΑC Τ]Ο [Ζ] ΑΥΤΟΚΡΑΤΩΡ ΤΟ      
+                            ΙΔ ΥΠΑΤΟC ΤΟ [Ϛ]  ΑΠΟΔΕΔΕΙΓΜΕ		
+                            ΝΟC ΤΟ [Ζ] ΠΑΤΗΡ ΠΑΤΡΊΔΟC Τ[ΕΙ]ΜΗ	     
+                            ΤΗC ΚΑΙ ΑΥΤΟΚΡΑΤΩΡ ΤΙΤΟC ΚΑΙCΑΡ    
+                            CΕΒΑCΤΟΥ ΥΙΟC ΔΗΜΑΡΧΙΚΗC Ε		
+                            ΞΟΥCΙΑC ΤΟ Ē ΥΠΑΤΟC ΤΟ Δ ΑΠΟ    
+                            ΔΕΔΕΙΓΜΕΝΟC ΤΟ Ē ΤΙΜΗΤΗ       
+                            C ΚΑΙ ΔΟΜΙΤΙΑΝΟC ΚΑΙCΑΡ CΕΒΑ   
+                            CΤΟΥ ΥΙΟC ΥΠΑΤΟC ΤΟ Γ ΑΠΟ   
+                            ΔΕΔΕΙΓΜΕΝΟC ΤΟ Δ ΒΑCΙΛΕΙ      
+                            ΙΒΗΡΩΝ ΜΙΘΡΙΔΑΤΗ ΒΑCΙΛΕΩC Φ      
+                            ΑΡΑCΜΑΝΟΥ ΚΑΙ ΙΑΜΑCΑCΠΟΙ ΥΙΩ     
+                            ΦΙΛΟΚΑΙCΑΡΙ ΚΑΙ ΦΙΛΟΡΩΜΑΙΩ ΚΑΙ Ε   
+                            ΘΝΕΙ ΤΑ ΤΕΙΧΗ ΕΞΩΧΥΡΩCΑΝ    
+-->
+
+ <ab>   
+
+<lb n="1"/><roleName nymRef="Αὐτοκράτωρ Καῖσαρ">
+    <w lemma="Αὐτοκράτωρ"><supplied reason="lost">Αὐτοκράτωρ</supplied></w></roleName> 
+     <roleName nymRef="Καῖσαρ"><w lemma="Καῖσαρ"><supplied reason="lost">Καῖ</supplied>σαρ</w></roleName> 
+     <persName type="local" key="ვესპასიანე (Οὐεσπασιανός)" ref="https://en.wikipedia.org/wiki/Vespasian">Οὐε<supplied reason="lost">σ
+<lb n="2" break="no"/>πασιανός</supplied></persName> 
+     <roleName nymRef="σεβαστός"><w lemma="σεβαστός"><supplied reason="lost">σεβ</supplied>αστός</w></roleName> 
+     <roleName nymRef="ἀρχιερεύς"><w lemma="ἀρχιερεύς">ἀρ
+<lb n="3" break="no"/>χιε<supplied reason="lost">ρεύς</supplied></w></roleName> 
+     <w lemma="μέγας"><supplied reason="lost">μέγιστο</supplied>ς</w> 
+     <roleName nymRef="δημαρχικός ἐξουσίας"><w lemma="δημαρχικός">δημαρχικῆ
+<lb n="4" break="no"/>ς</w> 
+         <w lemma="ἐξουσία">ἐξο<supplied reason="lost">υσίας</supplied></w></roleName> 
+     <w lemma="ὁ"><supplied reason="lost">τ</supplied>ὸ</w> <num value="7"><supplied reason="lost">Ζ</supplied></num> 
+     <roleName nymRef="αὐτοκράτωρ"><w lemma="αὐτοκράτωρ">αὐτοκράτ<supplied reason="subaudible">ω</supplied>ρ</w></roleName> <w lemma="ὁ">τὸ</w> 
+<lb n="5"/><num value="14">ῘΔ</num> 
+     <roleName nymRef="ὕπατος"><w lemma="ὕπατος">ὕπατος</w></roleName> 
+     τὸ <num value="6"><supplied reason="lost">Ҁ</supplied></num> <w lemma="ἀποδείκνυμι">ἀποδεδειγμέ
+<lb n="6" break="no"/>νος</w> <w lemma="ὁ">τὸ</w> <num value="7">Ζ</num> 
+     <roleName nymRef="πατήρ πατρίδος"><w lemma="πατήρ">πατήρ</w> <w lemma="πατρίς">πατρίδος</w></roleName> 
+     <roleName nymRef="τιμητής"><w lemma="τιμητής">τ<supplied reason="lost"><supplied reason="subaudible">ει</supplied></supplied>μη
+<lb n="7" break="no"/>τής</w></roleName> 
+     καὶ 
+     <roleName nymRef="αὐτοκράτωρ"><w lemma="αὐτοκράτωρ">αὐτοκράτωρ</w></roleName> <persName type="local" key="ტიტუსი (Τίτος)" ref="https://en.wikipedia.org/wiki/Titus">Τίτος</persName> 
+         <roleName nymRef="καῖσαρ"><w lemma="καῖσαρ">καῖσαρ</w></roleName>
+<lb n="8"/><roleName nymRef="σεβαστός"><w lemma="σεβαστός">σεβαστοῦ</w></roleName> 
+     <w lemma="υἱός">υἱός</w> <roleName nymRef="δημαρχικός ἐξουσίας"><w lemma="δημαρχικός">δημαρχικῆς</w> <w lemma="ἐξουσία">ἐ
+<lb n="9" break="no"/>ξουσίας</w></roleName> 
+     <w lemma="ὁ">τὸ</w> <num value="5">Ē</num> <roleName nymRef="ὕπατος"><w lemma="ὕπατος">ὕπατος</w></roleName> 
+     <w lemma="ὁ">τὸ </w> <num value="4">Δ</num> <w lemma="ἀποδείκνυμι">ἀπο
+<lb n="10" break="no"/>δεδειγμένος</w> <w lemma="ὁ">τὸ</w> 
+     <num value="5">Ē</num> <roleName nymRef="τιμητής"><w lemma="τιμητής">τιμητή
+<lb n="11" break="no"/>ς</w></roleName> καὶ 
+     <persName type="local" key="დომიციანე (Δομιτιανός)" ref="https://en.wikipedia.org/wiki/Domitian">Δομιτιανός</persName> <roleName nymRef="καῖσαρ"><w lemma="καῖσαρ">καῖσαρ</w></roleName> 
+     <roleName nymRef="σεβαστός"><w lemma="σεβαστός">σεβα
+<lb n="12" break="no"/>στοῦ</w></roleName> <w lemma="υἱός">υἱός</w> <roleName nymRef="ὕπατος"><w lemma="ὕπατος">ὕπατος </w></roleName> <w lemma="ὁ">τὸ</w> <num value="3">Γ</num> <w lemma="ἀποδείκνυμι">ἀπο
+<lb n="13" break="no"/>δεδειγμένος</w> τὸ <num value="4">Δ</num> <roleName nymRef="βασιλεύς Ἰβήρων"><w lemma="βασιλεύς">βασιλεῖ</w>
+<lb n="14"/><placeName type="ethnic" nymRef="Ἴβηρ" ref="http://pleiades.stoa.org/places/863807">Ἰβήρων</placeName></roleName> 
+    <persName type="local" key="მითრიდატე, იბერიის მეფე (Μιθριδάτης|)" ref="https://en.wikipedia.org/wiki/Mihrdat_I_of_Iberia">Μιθριδάτῃ</persName> 
+    <roleName nymRef="βασιλεύς"><w lemma="βασιλεύς">βασιλέως</w></roleName> 
+     <persName type="local" key="ფარსმან იბერიის მეფე (Φαρασμάνης)" ref="https://en.wikipedia.org/wiki/Pharasmanes_I_of_Iberia">Φ
+<lb n="15" break="no"/>αρασμάνου</persName> καὶ 
+    <persName type="local" key="იამაზასპუჰი (Ἰαμασασποΐ)">Ἰαμασασποΐ</persName> 
+     <w lemma="υἱός">υἱῷ</w>
+<lb n="16"/><w lemma="φιλοκαῖσαρ">φιλοκαίσαρι</w> καὶ <w lemma="φιλορώμαιος">φιλορωμαίῳ</w> καὶ <w lemma="ἔθνος">ἔ
+<lb n="17" break="no"/>θν<supplied reason="subaudible">ει</supplied></w> <w lemma="ὁ">τὰ</w> <w lemma="τεῖχος">τείχη</w> <w lemma="ἐξοχυρόω">ἐξωχύρωσαν</w>
+
+
+
+ 
+ </ab>            
+                                  
+ </div>
+            
+
+                <div type="translation">
+                    <p xml:lang="ka">თვითმპყრობელმა კეისარმა ვესპასიანე სევასტოსმა,  
+                        დიდმა ქურუმთმთავარმა, შვიდჯერ ტრიბუნის ხელისუფლებით აღჭურვილმა, თოთხმეტჯერ თვითმპყრობლად (არჩეულმა), 
+                        ექვსჯერ ჳპატოსმა, მეშვიდედ გამოცხადებულმა, სამშობლოს მამამ და ცენზორმა და თვითმპყრობელმა ტიტუს კეისარმა, სევასტოსის ძემ, 
+                        ხუთჯერ ტრიბუნის ხელისუფლებით აღჭურვილმა, 
+                        ოთხჯერ ჳპატოსმა, მეხუთედ გამოცხადებულმა, ცენზორმა და დომიციანე კეისარმა, 
+                        სევასტოსის ძემ, სამჯერ ჳპატოსმა, მეოთხედ გამოცხადებულმა, იბერთა მეფეს, 
+                        მითრიდატეს მეფე ფარსმანისა და იამაზასპუჰის ძეს, კეისრის მეგობარსა და რომაელთა მოყვარულს, და ხალხს ეს კედლები გაუმაგრეს.
+                    </p>
+                    <p xml:lang="en">Imperator Caesar Vespasianus Augustus, pontifex maximus, holding the tribunician power for the seventh time, imperator for the fourteenth time, consul for the sixth time, and designated for the seventh, father of the fatherland, censor and imperator Titus Caesar, son of Augustus, holding the tribunician power for the fifth time, consul for the fourth time and designated for the fifth, censor, and Domitianus Caesar, son of Augustus, consul for the third time and designated for the fourth, for the king of the Iberians, Mithridates, son of King Pharasmanes, and Amazaspus, friend of Caesar and of the Romans, and for his people [Iberians] they [Romans] fortified the walls.</p>
+                </div>
+        <!--   
+            <div type="apparatus" xml:space="preserve"> 
+              <head>კრიტიკული აპარატი</head>
+                <p><app loc="4"><lem>αὐτοκράτωρ</lem>
+                <rdg resp="თინათინ ყაუხჩიშვილი">αὐτοκράτορ</rdg>
+                </app></p>
+                <p><app loc="6"><lem>τιμητής</lem>
+                    <rdg resp="თინათინ ყაუხჩიშვილი">τειμητής</rdg>
+                    </app></p>
+                <p><app loc="15"><lem>Ἰαμασασποΐ</lem>
+                    <rdg resp="ი. ბარტოლომეი">Ιαμασδει</rdg>
+                    </app></p>
+                <p><app loc="15"><lem>Ἰαμασασποΐ</lem>
+                    <rdg resp="ი. პომიალოვსკი">Ιαμασδαιτων</rdg>
+                </app></p>
+                <p><app loc="15"><lem>Ἰαμασασποΐ</lem>
+                    <rdg resp="ა. ამირანაშვილი">Ιαμασπω</rdg>
+                </app></p>
+                    <p><app loc="17"><lem>ἔθνος</lem>
+                    <rdg resp="თინათინ ყაუხჩიშვილი">εθνι</rdg>
+                    </app></p>
+            </div>
+             -->  
+
+            <div type="commentary">
+                <p xml:lang="ka">ასოთა მოხაზულობა (სწორი ბუნების პატარა, სამკუთხედის ფორმის ჩაღრმავებით დამთავრება, α-ს ჩატეხილი შუა ხაზი, ε, η და θ-ს ჰორიზონტალური ხაზის მგივრად მცირე, წერტილზე ოდნავ გრძელი ნიშნები, Σ, Ω და Ξ-ს მოხაზულობა) და ენობრივი მონაცემები 
+                        (იშვიათი იტაციზმი εθνι, τειμητης; ერთი შემთხვევა ο║ω-ს აღრევისა - αυτοκρατορ - IV სტრიქონში) ჩვეულებრივია I-ს-ის წარწერისათვის ყველგან სადაც ბერძნული წერა იციან.
+                       
+               ბერძნული ტექსტის XV სტრიქონის ერთი სიტყვა - Ἰαμασασποΐ სხვადასხვაგვარად არის წაკითხული სხვადასხვა სპეციალისტის მიერ:
+                        უფრო ადრინდელი გამომცემლები (ი. ბარტოლომეი, J. Mohl-ი, ვ. ლატიშევი) მას კითხულობდნენ Ιαμασδει (და ეს მიჩნეული იყო ქალის სახელად) τω υιω, ლ. რენÁე და ი. პომიალოვსკი - Ιαμασδαιτων, რაც ნიშნავდა "ამაზდას (ე. ი. არმაზის) მცხოვრებთ".
+                        ა. ამირანაშვილი კითხულობდა Ιαμασπω რაც =Ιαμασασπω. ა. ამირანაშვილის (ბოლტუნოვას) ეს წაკითხვა გ. წერეთლის შრომის გამოქვეყნებამდე მიღებული იყო (მ. ნ. ტოდი; თ. ყაუხჩიშვილი), მხოლოდ "Áამასასპის" (რაც მამაკაცის სახელად იყო მიჩნეული) პიროვნების
+                </p>
+  
+            </div>
+        </body>
+    </text>
+</TEI>

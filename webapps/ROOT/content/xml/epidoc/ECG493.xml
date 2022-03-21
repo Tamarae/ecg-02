@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">
+                    გუჯარეთის ხეობა. „წითელი ეკლესია“, სავედრებელი წარწერა ეკლესიის ქტიტორის მახარებლისა, X-XI სს.
+                </title>
+                <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
+                <editor xml:lang="ka">დევი ბერძენიშვილი</editor>
+                <editor xml:lang="ka">სერგი მაკალათია</editor>
+            </titleStmt>
+            <publicationStmt>
+                 <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">
+                 ECG493
+                 </idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            თორის წარწერების კორპუსი
+                        </collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material>
+                                       ქვა
+                                   </material>
+                                   <objectType>
+                                       კედელი
+                                   </objectType>
+                                        <dimensions unit="cm">
+                                        <width>62,5</width>
+                                        <height>60</height>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="3">
+                                        <dimensions unit="cm">
+                                            <width>22</width>
+                                            <height>56</height>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli">წარწერა ასომთავრული ანბანით არის შესრულებული.
+                                წარწერას განკვეთილობის ნიშნები არ ახლავს და ქარაგმის ნიშნად გამოყენებულია სწორი განივი ხაზი.
+                                <width>1,9-2,9</width>
+                                <height>2,5-6,2</height>
+                                 </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>გუჯარეთის ხეობა. „წითელი ეკლესია“</origPlace>
+                                <origDate>X-XI AD</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">გუჯარეთის ხეობა. "წითელი ეკლესია"</placeName>
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">გუჯარეთის ხეობა. "წითელი ეკლესია"
+                            <placeName type="modernSpot">გუჯარეთის ხეობა. "წითელი ეკლესია"</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2019-12-16" who="Tchanturia">
+                წარწერის სრული კოდირება, გარე ანოტირება, პირთა სახელების, ლემების მითითება, ბიბლიოგრაფია.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!-- წარწერის ფოტოდოკუმენტაცია -->
+    <facsimile>
+        <surface>
+            <graphic url="ecg493.jpg">
+                <desc xml:lang="ka">სავედრებელი წარწერა ეკლესიის ქტიტორის მახარებლისა</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+           <div type="bibliography">
+               
+                <p><bibl n="1">თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი<ptr target="bibliography.xml#b234"/>,<citedRange>32-34 </citedRange>2019</bibl></p>
+                <p><bibl n="2">სერგი მაკალათია, ბორჯომის ხეობა (ისტორიულ-ეთნოგრაფიული ნარკვევი)<ptr target="bibliography.xml#b236"/>,<citedRange>12 </citedRange>1957</bibl></p>
+                <p><bibl n="3">სარგის კაკაბაძე, რუსთაველი და მისი ვეფხისტყაოსანი<ptr target="bibliography.xml#b237"/>,<citedRange>66 </citedRange>1966</bibl></p>
+                <p><bibl n="4">გიორგი ზედგინიძე, თორელ-ჯავახთა და ჯაყელ-მესხთა სამამულო მფლობელობის შესახებ ბორჯომის ხეობაში,
+                    კრებულში: კრებული მიძღვნილი აკადემიკოს ივანე ჯავახიშვილის დაბადების 100 წლისთავისადმი<ptr target="bibliography.xml#b238"/>,<citedRange>181 </citedRange>1977</bibl></p>
+                <p><bibl n="5">დევი ბერძენიშვილი, ნარკვევები საქართველოს ისტორიული გეოგრაფიიდან (ზემო ქართლი – თორი, ჯავახეთი)<ptr target="bibliography.xml#b239"/>,<citedRange>45 </citedRange>1985</bibl></p>
+                <p><bibl n="6">დევი ბერძენიშვილი, არქიტექტურულ-ისტორიული გზამკვლევი "გუჯარეთი"<ptr target="bibliography.xml#b240"/>,<citedRange>9 </citedRange>1987</bibl></p>
+            
+           </div>
+            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">     
+              <!--ქ(რისტ)ე, შ(ეიწყალ)ე მ(ა)ხ(ა)რ(ე)ბ(ე)ლი
+                  | ამ{ი}ს წ(მიდი)საეკლ(ესიი)სა | მაშ{ე}ნ{ე}ბ{ე}ლი-->
+                <ab>
+                    <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
+                    <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> 
+                    <persName type="local" key="მახარებელი [გუჯარეთის ეკლესიის მაშენებელი]"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ა</ex><abbr>რ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლი</abbr></expan></persName>
+                    <lb n="2"/><w lemma="ესე"><expan><abbr>ამ</abbr><ex>ი</ex><abbr>ს</abbr></expan></w> <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდი</ex><abbr>სა</abbr></expan></w> <w lemma="ეკლესია"><expan><abbr>ეკლ</abbr><ex>ესიი</ex><abbr>სა</abbr></expan></w>
+                    <lb n="3"/><roleName nymRef="მაშენებელ"><expan><abbr>მაშ</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლი</abbr></expan></roleName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ka"/>
+            <div type="apparatus" xml:space="preserve"/>
+            <div type="commentary"><p>თ. გოგოლაძე: წარწერიანი ქვა კლიმატური პირობების გამო გადაცვეთილია და წარწერის გრაფემათა ნაწილი ცუდად განირჩევა.
+                მიუხედავად ამისა, წარწერის ტექსტი თავიდან ბოლომდეგარკვევით იკითხება.</p>
+                <p>წარწერის დათარიღების საფუძველი: სერგი მაკალათია წარწერის ტექსტში კითხულობს რა სიტყვა მხარგრძელს, ასევე
+ითვალისწინებს ქართულ წერილობით ძეგლებში ამ ფეოდალური საგვარეულოს მოხსენიებას XII-XIII საუკუნეებში, წინამდებარე წარწერასაც XII-XIII საუკუნეებით ათარიღებს.
+დევიბერძენიშვილმა თავდაპირველად ეკლესია XI-XII საუკუნეების ხუროთმოძღვრულ ძეგლად მიიჩნია და ამავე ქრონოლოგიით განსაზღვრა ტაძრის წარწერაც.
+თუმცა, ოდნავ მოგვიანებით,მეცნიერი წარწერის ქრონოლოგიას პალეოგრაფიული მონაცემების მიხედვით, X-XI საუკუნეებით განსაზღვრავს.
+წინამდებარე კორპუსში ვიზიარებთ დევი ბერძენიშვილის მიერ წარწერის ბოლოს შემოთავაზებულ თარიღს – X-XI საუკუნეებს და, შესაბამისად, წარწერას X-XI საუკუნეებით ვათარიღებთ.</p>
+            </div>
+
+         </body>
+    </text>
+</TEI>

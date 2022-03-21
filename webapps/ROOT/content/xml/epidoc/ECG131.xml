@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ka">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>კუმურდოს ტაძრის სამშენებლო წარწერა</title>
+                <editor>ვალერი სილოგავა</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
+                <idno type="filename">ECG131</idno>
+                <availability> <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>კუმურდო</collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support> 
+                                <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1951">სამხრეთ ტიმპანი</objectType>
+                                <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                <dimensions> 
+                                    <width>216</width> 
+                                    <height>108</height>
+                                </dimensions>
+                            </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    წარწერის პირველი 4 სტრიქონი მოთავსებულია ტიმპანის ზედა მომრგვალებულ ადგილას.წარწერის მომდევნო 14 სტრიქონი მოთავსებულია ტიმპანის ფილის მარცხენა კიდეში,შვეულად
+                                <dimensions unit="cm"> 
+                                    <width>104</width> 
+                                    <height>24</height>
+                                </dimensions>
+                                    <!--14 სტრიქონიანი წარწერის ზომებია 30x70 -->
+                            </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                განკვეთილობის ნიშნები არ ახლავს; ქარაგმის ნიშანი-ამოკვეთით შესრულებული განივი ხაზი,ზის ერთ ადგილას, ამ წარწერის ამოკვეთით შესრულებული ერთადერთი ასოს- ა-ნის თავზე, მე-10 სტრიქონში.
+                                <dimensions unit="mm"><height>40-60</height></dimensions>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>წარწერის ბოლოს ტექსტის დასრულების ნიშნად დასმულია პატარა „მალტური ჯვარი“</decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>კუმურდო</origPlace>
+                            <origDate>964</origDate>
+                        </origin>
+                        <provenance type="observed" when="2017-06-30">
+                            <placeName>კუმურდოს საკათედრო ტაძარი</placeName>
+                            <rs type="circumtances">წარწერის ფოტოდოკუმენტაცია გაკეთდა 2017 წლის 30 ივნისს, ილიას სახელმწიფო უნივერსიტეტის ეპიგრაფიკის სამაგისტრო კურსის დასკვნითი ექსპედიციის ფარგლებში.</rs>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    
+    
+    <facsimile>
+        <surface>
+            
+            <graphic url="kumurdo.jpg">
+                <desc xml:lang="ka">კუმურდო, 2017</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+            
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <!--
+        1.შ(ე)წ(ე)ვნ(ი)თა ღ(მრთ)ის(ა)ჲ თა იოვ(ა)ნე
+        2.ებ(ი)სკ(ო)პ(ო)სმ(ა)ნ დ(ა)დვა ს(ა)ძ(ი)რკვ(ე)ლი ამ(ი)ს
+        3.ეკლეს(იი)ს(ა)ჲ ჴ(ე)ლითა ჩ(ე)მ  ც(ო)დვ(ი)ლისა ს(ა)კოც(ა)რის(აჲ)თა
+        4.ლეონ მეფისა ზჱ ად(ი)დ(ე)ნ ღ(მერთმა)ნ ქრ(ო)ნ(ი)კ(ო)ნსა 
+        5.რ
+        6.პდ
+        7.თ(თუეს)ა მ
+        8.აჲს(ს)ა ა
+        9.დღესა შ
+        10.(ა)ფ(ა)თსა ა
+        11.მთუარ
+        12.ის(ა)სა ერის
+        13.თვობ(ა)სა ზ
+        14.ჳიასსა(!) ესე ბ
+        15.(ა)ლა(ჰ)ვ(ა)რი მ(ა)ნ
+        16.დიდვა(!) ქ(რისტ)ე
+        17.შე(ე)წ(ი)ე მ(ო)ნ(ა)სა
+        18.შ(ე)ნსა ა(მე)ნ
+        -->
+        <body> 
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+            <div type="textpart" subtype="fragment" n="1">
+            <ab>
+                <lb n="1"/><w lemma="შეწევნა"><expan><abbr>შ</abbr><ex>ე</ex><abbr>წ</abbr><ex>ე</ex><abbr>ვნ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w>
+                           <w lemma="ღმრთის"><expan><abbr>ღ</abbr><ex>მრთ</ex><abbr>ის</abbr><ex>ა</ex><abbr>ჲთა</abbr></expan></w>
+                           <roleName><persName nymRef="იოვანე"><expan><abbr>იოვ</abbr><ex>ა</ex><abbr>ნე</abbr></expan></persName>
+                <lb n="2"/><w lemma="ებისკოპოს"><expan><abbr>ებ</abbr><ex>ი</ex><abbr>სკ</abbr><ex>ო</ex><abbr>პ</abbr><ex>ო</ex><abbr>სმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w></roleName>
+                           <w lemma="დადვა"><expan><abbr>დ</abbr><ex>ა</ex><abbr>დვა</abbr></expan></w>
+                           <w lemma="საძირკველ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ძ</abbr><ex>ი</ex><abbr>რკვ</abbr><ex>ე</ex><abbr>ლი</abbr></expan></w>
+                           <w lemma="ამის"><expan><abbr>ამ</abbr><ex>ი</ex><abbr>ს</abbr></expan></w>
+                <lb n="3"/><w lemma="ეკლესია"><expan><abbr>ეკლეს</abbr><ex>იი</ex><abbr>ს</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></w>
+                           <w lemma="ჴელ"><expan><abbr>ჴ</abbr><ex>ე</ex><abbr>ლითა</abbr></expan></w>
+                           <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მ</abbr></expan></w>
+                           <w lemma="ცოდვილ"><expan><abbr>ც</abbr><ex>ო</ex><abbr>დვ</abbr><ex>ი</ex><abbr>ლისა</abbr></expan></w>
+                           <name><persName nymRef="საკოცარ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>კოც</abbr><ex>ა</ex><abbr>რის</abbr><ex>აჲ</ex><abbr>თა</abbr></expan></persName></name>
+                <lb n="4"/><roleName><persName nymRef="ლეონ">ლეონ</persName>
+                           <w lemma="მეფე">მეფისა</w></roleName>
+                           <w lemma="ზჱ">ზჱ</w>
+                           <w lemma="ადიდებს"><expan><abbr>ად</abbr><ex>ი</ex><abbr>დ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w>
+                           <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
+                           <rs type="date"><w lemma="ქრონიკონ"><expan><abbr>ქრ</abbr><ex>ო</ex><abbr>ნ</abbr><ex>ი</ex><abbr>კ</abbr><ex>ო</ex><abbr>ნსა</abbr></expan></w></rs>
+                </ab>
+            </div>
+               <div type="textpart" subtype="fragment" n="2">
+                   <ab>
+                <lb n="5"/><num value="964">რ
+                <lb n="6"  break="no"/>პდ</num>
+                <lb n="7"/><w lemma="თუე"><expan><abbr>თ</abbr><ex>თუეს</ex><abbr>ა</abbr></expan></w>
+                           <w lemma="მაჲს"><expan><abbr>მ
+                <lb n="8"  break="no"/>აჲს</abbr><ex>ს</ex><abbr>ა</abbr></expan></w> <num value="1">ა</num>
+                <lb n="9"/><w lemma="">დღესა</w>
+                           <w lemma="შაფათ"><expan><abbr>შ</abbr>
+                <lb n="10" break="no"/><ex>ა</ex><abbr>ფ</abbr><ex>ა</ex><abbr>თსა</abbr></expan></w> <num value="1">ა</num> 
+                <lb n="11"/><w lemma="მთუარ"><expan><abbr>მთუარ
+                <lb n="12" break="no"/>ის</abbr><ex>ა</ex><abbr>სა</abbr></expan></w> <roleName nymRef="ერისთვობა"><expan><abbr>ერის
+                <lb n="13" break="no"/>თვობ</abbr><ex>ა</ex><abbr>სა</abbr></expan></roleName>
+                           <persName nymRef="ზჳიასს">ზ
+                <lb n="14" break="no"/>ჳიასსა</persName>
+                            <w lemma="ესე">ესე</w> 
+                            <w lemma="ბალაჰვარ"><expan><abbr>ბ</abbr>
+                <lb n="15" break="no"/><ex>ა</ex><abbr>ლა</abbr><ex>ჰ</ex><abbr>ვ</abbr><ex>ა</ex><abbr>რი</abbr></expan></w>
+                            <w lemma="მან"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
+                <lb n="16"/><w lemma="დიდვა">დიდვა</w>
+                            <persName nymRef="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></persName>
+                <lb n="17"/><w lemma="ეწევა"><expan><abbr>შე</abbr><ex>ე</ex><abbr>წ</abbr><ex>ი</ex><abbr>ე</abbr></expan></w> 
+                            <w lemma="მონა"><expan><abbr>მ</abbr><ex>ო</ex><abbr>ნ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w>
+                <lb n="18"/><w lemma="შენ"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ნსა</abbr></expan></w> 
+                            <w lemma="ამენ"><expan><abbr>ა</abbr><ex>მე</ex><abbr>ნ</abbr></expan></w>
+               </ab>
+               </div>
+        </div>
+            <div type="bibliography">
+                
+                    
+                    <p><bibl>
+                        <author>
+                            <surname>ვალერი</surname>
+                            <name>სილოგავა</name>
+                        </author>
+                        <title type="main" level="a">კუმურდო</title>
+                        <title level="s"></title>
+                      
+                        39-41
+                        <pubPlace>თბილისი</pubPlace>
+                        <date>1994</date>
+                    </bibl></p>
+                    
+                    
+                    <p><bibl>
+                        <author>
+                        <name>M.</name>
+                        <surname>brosset</surname>
+                    </author>
+                        <title type="main" level="a">Rapports sur un voyage archeologique dans la Georgie et dans l'Armenie execute en 1847-1848</title>
+                        <title level="s"/>
+                    
+                      167-168
+                        <pubPlace>ST.-PETERSBOURG</pubPlace>
+                        <date>1850</date>
+                    </bibl></p>
+                
+                    <p><bibl>
+                        <author>
+                        <name>Е.С.</name>
+                        <surname>Такайшвили</surname>
+                        </author>
+                        <title type="main" level="a">Христианские памятники</title>
+                        <title level="s"/>
+                       
+                        37-38
+                        <pubPlace>Москва</pubPlace>
+                        <date>1909</date>
+                    </bibl></p>
+                
+                    <p><bibl>
+                        <author>
+                            <name>Н.Я.</name>
+                            <surname>Марр</surname>
+                        </author>
+                        <title type="main" level="a">Два грузинских архитектурных термина ачрдил и балавар</title>
+                        <title level="s"/>
+                       VI
+                       293-295
+                        <pubPlace></pubPlace>
+                        <date>1922</date>
+                    </bibl></p>
+                
+                    <p><bibl>
+                        <author>
+                        <name>И.П.</name>
+                        <surname>Ростомов</surname>
+                        </author>
+                        <title type="main" level="a">Аxалкалакский уъезд в арxеологическом отношении</title>
+                        <title level="s"/>
+                       
+                       84
+                        <pubPlace>тифлись</pubPlace>
+                        <date>1898</date>
+                    </bibl></p>
+                
+                    <p><bibl>
+                        <author>
+                        <name>М.</name>
+                        <surname>Джанашвили</surname>
+                        </author>
+                        <title type="main" level="a">Картлис-Цxовреба</title>
+                        <title level="s"/>
+                        174
+                        <pubPlace>тифлись</pubPlace>
+                        <date>1905</date>
+                    </bibl></p>
+                
+                    <p><bibl>
+                        <author>
+                            <name>Ваxушти Царевич</name>
+                            <surname></surname>
+                        </author>
+                        <title type="main" level="a">География Грузии</title>
+                        <title level="s"/>
+                        168-169
+                        <pubPlace>тифлись</pubPlace>
+                        <date>1904</date>
+                    </bibl></p>
+                
+                    <p><bibl>
+                        <author>
+                            <name>Н.П., Г.Н.</name>
+                            <surname>Северов,Чубинашвили</surname>
+                        </author>
+                        <title type="main" level="m">Кумурдо и никорцминда</title>
+                        <title level="s"/>
+                        3
+                        <pubPlace>Москва</pubPlace>
+                        <date>1947</date>
+                    </bibl></p>
+                
+                    <p><bibl>
+                        <author>
+                            <name>Г.Н.</name>
+                            <surname>Чубинашвили</surname>
+                        </author>
+                        <title type="main" level="m">Вопросы истории искусства</title>
+                        <title level="s"/>
+                        238
+                        <pubPlace>Тбилиси</pubPlace>
+                        <date>1970</date>
+                    </bibl></p>
+                
+                    <p><bibl>
+                        <author>
+                            <name>ვ.</name>
+                            <surname>ცისკარიშვილი</surname>
+                        </author>
+                        <title type="main" level="a">კავახეთის ეპიგრაფიკა,როგორც საისტორიო წყარო</title>
+                        <title level="s"/>
+                        10-12
+                        <pubPlace>თბილისი</pubPlace>
+                        <date>1959</date>
+                    </bibl></p>
+                
+                    <p><bibl>
+                        <author>
+                            <name>ვ.</name>
+                            <surname>ბერიძე</surname>
+                        </author>
+                        <title type="main" level="a">ძველი ქართველი ხუროთმოძღვრები</title>
+                        <title level="s"/>
+                        48-49
+                        <pubPlace>თბილისი</pubPlace>
+                        <date>1956</date>
+                    </bibl></p>
+                
+                    <p><bibl>
+                        <author>
+                            <name>ვ.</name>
+                            <surname>ბერიძე</surname>
+                        </author>
+                        <title type="main" level="a">კუმურდოს ტაძარს ათასი წელი შეუსრულდა</title>
+                        <title level="s"/>
+                        25
+                        <pubPlace>თბილისი</pubPlace>
+                        <date>1964</date>
+                    </bibl></p>
+                
+                    <p><bibl>
+                        <author>
+                            <name>ვ.</name>
+                            <surname>ბერიძე</surname>
+                        </author>
+                        <title type="main" level="a">ძველი ქართველი ოსტატები</title>
+                        <title level="s"/>
+                        202-204
+                        <pubPlace>თბილისი</pubPlace>
+                        <date>1967</date>
+                    </bibl></p>
+                
+                    <p><bibl>
+                        <author>
+                            <name>ვ.</name>
+                            <surname>ბერიძე</surname>
+                        </author>
+                        <title type="main" level="a">ქართული ხელოვნება VIII-X საუკუნეებში "საქართველოს ისტორიის ნარკვევები"-საქართველო IV-X საუკუნეებში</title>
+                        <title level="s"/>
+                       638-639
+                        <pubPlace>თბილისი</pubPlace>
+                        <date>1973</date>
+                    </bibl></p>
+                    <p><bibl>
+                        <author>
+                            <name>ნ.</name>
+                            <surname>ბერძენიშვილი</surname>
+                        </author>
+                        <title type="main" level="a">ჯავახეთის 1933 წლის ექსპედიციის დღიური, იხ. მისი "საქართველის ისტორიის საკითხები", ისტორიული გეოგრაფია</title>
+                        <title level="s"/>
+                        131-132
+                        <pubPlace>თბილისი</pubPlace>
+                        <date>1964</date>
+                    </bibl></p>
+                    <p><bibl>
+                        <author>
+                            <name>მესხი იოანე ბერი</name>
+                            <surname>გვარამაძე</surname>
+                        </author>
+                        <title type="main">არხეოლოგიური შენიშვნები</title>
+                        <title level="j">დროება</title>
+                        150
+                        
+                        <pubPlace>თბილისი</pubPlace>
+                        <date>20.07.1892</date>
+                    </bibl></p>
+                    <p><bibl>
+                        <author>
+                            <name>ილ.</name>
+                            <surname>ალხაზიშვილი</surname>
+                        </author>
+                        <title type="main">ვარძიის მიძინების ღვთისმშობლის დღესასწაული</title>
+                        <title level="j">დროება</title>
+                        147
+                       
+                        <pubPlace>თბილისი</pubPlace>
+                        <date>1877</date>
+                    </bibl></p>
+                
+                    <p><bibl>
+                        <author>
+                            <name>ილ.</name>
+                            <surname>ალხაზიშვილი</surname>
+                        </author>
+                        <title type="main">საისტორიო მასალა</title>
+                        <title level="j">ივერია</title>
+                       239
+                      
+                        <pubPlace>თბილისი</pubPlace>
+                        <date>1891</date>
+                    </bibl></p>
+                
+                    <p><bibl>
+                        <author>
+                            <name>თ.</name>
+                            <surname>ჟორდანია</surname>
+                        </author>
+                        <title type="main" level="a">ქრონიკები</title>
+                        <title level="s"/>
+                        I
+                       90
+                        <pubPlace>თბილისი</pubPlace>
+                        <date>1892</date>
+                    </bibl></p>
+                
+                    <p><bibl>
+                        <author>
+                            <name>ი.</name>
+                            <surname>როსტომაშვილი</surname>
+                        </author>
+                        <title type="main" level="a">სოფელი კუმურდო და მისი დიდებული ნაშთი "მოგზაური"</title>
+                        <title level="s"/>
+                        106-108
+                        <pubPlace>თბილისი</pubPlace>
+                        <date>1901</date>
+                    </bibl></p>
+                    <p><bibl>
+                        <author>
+                            <name>მ.</name>
+                            <surname>ჯანაშვილი</surname>
+                        </author>
+                        <title type="main" level="a">საქართველოს ისტორია</title>
+                        <title level="s"/>
+                        I
+                        337
+                        <pubPlace>თბილისი</pubPlace>
+                        <date>1906</date>
+                    </bibl></p>
+                    <p><bibl>
+                        <author>
+                            <name>ბ.</name>
+                            <surname>მჭედლიშვილი</surname>
+                        </author>
+                        <title type="main" level="a">წუნდა</title>
+                        <title level="s"/>
+                        26-29
+                        <pubPlace>თბილისი</pubPlace>
+                        <date>1987</date>
+                    </bibl></p>
+                
+                    <p><bibl>
+                        <author>
+                            <name>ნ.</name>
+                            <surname>შოშიაშვილი</surname>
+                        </author>
+                        <title type="main" level="a">ქართული ეპიგრაფიკული კორპუსი</title>
+                        <title level="s">ისტორიული ინსტიტუტის წყაროთმცოდნეობის დოკუმენტების სერია</title>
+                        I
+                       262-264
+                        <pubPlace>თბილისი</pubPlace>
+                        <date>1980</date>
+                    </bibl></p>
+                
+            
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>
+                </ab>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+                <div type="commentary">
+                <p>წარწერა შესრულებულია ნაცრისფერ ქვაზე</p>
+                    <p>თარიღი:ქორონიკონი რპდ=780+184=964წ.</p>
+                    <p>ვ.სილოგავას ქარაგმების გახსნისას წარწერაში უწერია მაჲსსა ა(1), რაც სხვა ავტორთა მიერ წარწერის ამოკითხვაში არ გვხვდება</p>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ლიპის ეკლესიის ქვა</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG429</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            ლიპი
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka"></seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/30">ტუფი</material>
+                                   <objectType>პრიზმა</objectType>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="2">
+                                     პრიზმის ერთ-ერთ გვერდით წახნაგზე არის ბერძნული წარწერა, რომელსაც უკავია ზედა ნაწილი (ამის ქვემოთ 24 სმ. სიმაღლე სულ თავისუფალია, ეს ნაწილი 
+                                დამუშავებულია, მაგრამ ზედ წარწერის კვალიც კი არაა).
+                                ქვა პრიზმის ფორმისაა, გვერდითი წახნაგები კარგად არის დამუშავებული, თავი გადამტვრეულია. 
+                                    <dimensions unit="cm">
+                                        <width>21</width>
+                                        <height>30</height>
+                                        <depth>22</depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                             <height/>
+                           </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ლიპი</origPlace>
+                                <origDate notBefore-custom="0501" notAfter-custom="0800" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">VI-VIII AD</origDate>
+                              </origin>
+                            <provenance type="found" when="1948">
+                                <placeName type ="ancientFindspot">ლიპის ეკლესია</placeName> 
+                                <rs type="circumstances">ნივთი აღმოჩენილია ისტორიულ-არქეოლოგიური ექსპედიციის მიერ</rs>
+                                <rs type="context">სოფელ ლიპის მახლობლად ცალნავიანი დანგრეული ეკლესიის გვერდით ეგდო ტუფის ქვა, შესაძლოა ეკლესიიდან ჩამოვარდნილი.</rs>
+                                <rs type="monuList"/>
+                            </provenance>                      
+                            <provenance type="observed">
+                            <placeName type="modernSpot">ლიპი</placeName>
+                            <idno/>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg429.jpg">
+                <desc xml:lang="ka">ტუფის ქვა ლიპის ეკლესიიდან, 1948</desc>
+                <desc xml:lang="en">Tuff stone from the Lipi Church, 1948</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 245</citedRange></bibl></p>
+                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 299-300</citedRange></bibl></p>
+                
+            </div>
+     
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!--  ΒΧ    ΚΑΙΘΕΟΠΙCΤΟΣ   καὶ Θεόπιστος -->
+         <ab>
+            <lb n="1"/><unclear>βχ</unclear>
+             <lb n="2"/><w lemma="καί">καὶ</w> <persName><name nymRef="Θεόπιστος">Θεόπιστος</name></persName>
+         </ab>    
+                
+            </div>
+            
+            <div type="translation" xml:lang="ka">
+                <p>... და თეოპისტე</p>
+            </div>
+            
+            <div type="apparatus" xml:space="preserve">                                                               <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p>
+                  <app>
+                      <lem/>
+                        <rdg/>
+                  </app>
+              </p>
+            </div>
+           
+            <div type="commentary">
+                <p>1948 წლის ისტორიულ-არქეოლოგიურმა ექსპედიციამ (აკად. ნ. ბერძენიშვილის ხელმძღვანელობით) სოფ. ლიპის მახლობლად ნახა ცალნავიანი საკმაოდ დანგრეული ეკლესია, 
+                რომელსაც მინაშენი აქვს. ნაგებობას ეტყობოდა რამდენიმე გადაკეთების კვალი (თავდაპირველად VI ს-ის ნაგებობა ჩანდა, არის VIII ს-ის ფენაც და ა.შ.). ამ ეკლესიის გვერდით 
+                ეგდო ქვა, მოცისფრო ვულკანური, საკმაოდ მკვრივი ტუფი. ეს ქვა ჩამოტანილ იქნა თბილისში და ინახებოდა ისტორიის ინსტიტუტში, თუმცა ინსტიტუტის შენობიდან შენობაში 
+                გადასვლის შემდეგ ეს ქვა დაიკარგა</p>
+                <p>როგორც ჩანს, ეს არის წარწერის ფრაგმენტი და უეჭველია, რომ ამავე ქვაზე ზემოთაც იქნებოდა წარწერა. თუ ეს სტელა არ არის (და ამ ეკლესიის, ან სხვა რაიმე ნაგებობის კუთვნილი 
+                    ერთ-ერთი ქვაა), მაშინ მარჯვნივ და მარცხნივ მდებარე ქვებზედაც იქნებოდა ტექსტი. მარტო ამ ერთი ბერძნული სახელით (თეოპისტე) ძნელია წარწერის შინაარსის გარკვევა. ძნელი 
+                    სათქმელია წარწერაში მოხსენიებული სახელით ვინ იყო აღნიშნული: ქტიტორი, ხელოსანი თუ მიცვალებული. წარწერის პირველი სტრიქონი დაზიანებულია და არ იკითხება.</p>
+                <p>ასოთა მოხაზულობის მიხედვით (ჩაღრმავებული კუთხეები, ჩატეხილბუნიანი α, მრგვალი ο და Θ, ამ დროს კუთხოვანი Ε, ორგვარი σ - c და Σ). წარწერა მოგვაგონებს ატენის 
+                    ეკლესიის ფასადის ბერძნულ წარწერას, და ნაწილობრივ ვაშნარისას, ოღონდ ასოები აქ უფრო ბეჯითად არის გამოყვანილი. ამას მიზეზი შეიძლება ორი ჰქონდეს: ატენის წარწერა 
+                    უკვე კედელში ჩადგმულ ქვაზე არის და ამდენად უფრო დაუდევრად ჩაჭრილი. ხოლო ლიპის წარწერა შეიძლება ხელში კარგად მოსახმარ ქვაზეა ამოჭრილი ან უკეთესი ხელოსნის 
+                    გაკეთებული. ან შეიძლება უფრო ადრინდელია, ვიდრე ატენისა და ვაშნარის წარწერები (ε იქ ორივეგან მრგვალია, აქ კი კუთხოვანი). წარწერა ადრე ბიზანტიური ხანით უნდა 
+                    დათარიღდეს (VI-VIIსს-ით). </p>
+                </div>
+            
+        </body>
+    </text>
+</TEI>

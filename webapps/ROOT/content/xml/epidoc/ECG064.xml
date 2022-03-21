@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ბოლნისის მუნიციპალიტეტის VII ს. მოსახსენებელი ფრაგმენტი</title>
+                <title xml:lang="en">Bolnisi municipality VII c. Memorial fragment</title>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <editor xml:lang="en">Nodar Shoshiashvili</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <idno type="filename">ECG064</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="fragmentary">
+                    <msIdentifier>
+                        <collection>ბოლნისი</collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en">Memorial</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">სტელა</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">Stele</objectType>
+                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="3">
+                                    <seg xml:lang="ka">წარწერა სამსტრიქონიანია. სტელის ერთ-ერთ წახნაგზე გამოქანდაკებულია წარჩინებულის რელიეფი, ზევით აწეულ, 
+                                   მოხრილ ხელში უჭირავს ყვავილი. ყვავილისა და თავის გამოსახულების ზევით შემორჩენილია სამივგრაფემა ორ სტრიქონად.
+                                   მესამე სტრიქონი მთლიანად არის დაზიანებული. </seg>
+                                    <seg xml:lang="en">Three line inscription. On one of the sides of the stele there is the embossed figure of a nobleman with his hand raised up holding a flower. Three graphemes in two lines are present between the figures of the flower and the head. The third line is fully damaged.</seg>
+                                   <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                   </dimensions>
+                                   </layout>
+                            </layoutDesc>
+                        </objectDesc>                     
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <seg xml:lang="ka"><rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
+                                <seg xml:lang="en">Embossed Asomtavruli inscription</seg>
+                                <height unit="cm"/>
+                             </handNote>
+                        </handDesc>
+                    </physDesc>               
+                    <history>
+                        <origin>
+                            <origPlace ref="https://memkvidreoba.gov.ge/objects/immovable/immovableObject?id=24984">
+                                <seg xml:lang="ka">ბოლნისის სიონი</seg>
+                                <seg xml:lang="en">Bolnisi Sioni</seg>
+                            </origPlace>
+                           <origDate notBefore="0400" notAfter="0600">V-VI AD</origDate>
+                        </origin>
+                        
+                        <provenance type="found" when="1937">
+                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">
+                                <seg xml:lang="ka">ბოლნისის სიონი</seg>
+                                <seg xml:lang="en">Bolnisi Sioni</seg>
+                            </placeName>
+                             <!-- 41.384460, 44.506865 --> 
+                            <rs type="monuList"/>
+                            <rs type="circumstances"/>
+                            <rs type="context"/>
+                        </provenance>                          
+                         <provenance type="observed">
+                            <placeName type="modernSpot" ref="http://museum.ge/">
+                                <seg xml:lang="ka">საქართველოს ეროვნული მუზეუმი</seg>
+                                <seg xml:lang="en">National Museum of Georgia</seg>
+                            </placeName>
+                             <idno type="invNo">401 (არმაზისხევის საცავი)</idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader> 
+    <facsimile>
+        <surface>
+            <graphic url="ecg064.jpg">
+                <desc xml:lang="ka">ბოლნისის მუნიციპალიტეტის VII ს. მოსახსენებელი ფრაგმენტი</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile> 
+    <text>
+        <body>
+         <div type="bibliography">
+           
+              <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები<ptr target="bibliography.xml#b101"/>, <citedRange> 116-117</citedRange></bibl></p>                 
+              <p><bibl n="2">Н. Г. Чубинашвили, Болнисский сион<ptr target="bibliography.xml#b45"/>, <citedRange>94</citedRange></bibl></p>
+           
+            </div>
+          <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">  
+                              
+                    <!-- „[ქ]ე" 
+                       ათ[ე]
+                    [ადიდე]-->
+            
+                   <ab>
+                       <lb n="1"/><w lemma="ქრისტე"><expan><supplied reason="lost"><abbr>ქ</abbr></supplied><ex>რისტ</ex><abbr>ე</abbr></expan></w>  
+                       <lb n="2"/><persName type="local" key="ათანასე"><name nymRef="ათანასე"><expan><abbr>ათ</abbr><supplied reason="lost"><ex>ანას</ex><abbr>ე</abbr></supplied></expan></name></persName>
+                       <lb n="3"/><w lemma="დიდება"><expan><supplied reason="lost" cert="low"><abbr>ად</abbr><ex>ი</ex><abbr>დე</abbr></supplied></expan></w>
+                   </ab>                                                       
+            </div>
+            
+            
+            <div type="translation">
+                <p xml:lang="ka">ქრისტე, ადიდე ათანასე.</p>  
+                <p xml:lang="en">Christe, glorify Athanase</p>
+            </div>
+            
+            <div type="apparatus" xml:space="preserve"/>
+
+            <div type="commentary">
+                <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #45. ქარაგმის ნიშნად გამოყენებულია გრძელი, განივი და სწორი ხაზი. 
+                    წარწერის დათარიღების საფუძველია პალეოგრაფიული ნიშნები: უყელო Ⴃ; Ⴀ - ძლიერ გაშლილი რკალით; შესაძლოა, წარწერა გვიან იყოს ამოკვეთილი სტელაზე 
+                    (ის არ ეხამება თავისი სტილით გამოსახულების რელიეფს).
+                  </p>
+                <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #45.  Abbreviation mark: long horizontal straight line. The inscription is dated according to the paleographic data: Ⴃ has no neck, the arch of Ⴀ is widely open. It is possible that the inscription on the stela was engraved later (its style does not perfectly coincide with the style of the figurative relief). </p>
+               </div>   
+        </body>
+    </text>
+</TEI>

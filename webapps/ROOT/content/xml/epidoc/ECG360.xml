@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title>უკანგორი, მოსახსენებელი თათვარაზისა</title>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი
+                </authority>
+                 <idno type="filename">ECG360</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <collection>
+                             უკანგორი
+                         </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="hhttp://www.eagle-network.eu/voc/objtyp/lod/53">სწორკუთხოვანი კვარცხლბეკი ჯვრისა</objectType>
+                                    <material  ref="http://www.eagle-network.eu/voc/material/lod/2">მოვარდისფრო ქვა</material>
+                                    <dimensions unit="cm">
+                                        <height>70</height>
+                                        <width>55</width>
+                                        <depth>35</depth>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+
+                                    <dimensions unit="cm">
+                                        <height>17</height>
+                                        <width>35</width>
+                                    </dimensions>
+                                    </layout>
+                            </layoutDesc>
+                        </objectDesc>
+
+                         <handDesc>
+                            <handNote script="asomtavruli" style="embossed">
+                                <height unit="cm">6</height>
+                                <p>კვარცხლბეკის ერთ-ერთ წახნაგზე გამოქანდაკებულია ექვსსტრიქონიანი ასომთავრული, რელიეფური წარწერა. განკვეთილობის ნიშნები არ ახლავს, ქარაგმის ნიშანი გაირჩევა მხოლოდ ერთ ადგილზე (IV სტრ.: ღ՜ჲ) - საშუალო ზომის სწორი, განივი ხაზი.
+                                </p>
+                                 </handNote>
+                        </handDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origPlace>უკანგორის ეკლესიის ახლოს მდებარე სასაფლაოზეა ნაპოვნი</origPlace>
+                            <origDate evidence="lettering">VI A.C.</origDate>
+                        </origin>
+
+                        <provenance type="found" when="1937">
+                            <placeName>უკანგორი</placeName>
+                            <rs type="monuList"/>
+                            <rs type="circumstances">1937 წ. ძეგლს მიაკვლია დმანისის არქეოლოგიურმა ექსპედიციამ, ლ. მუსხელიშვილის ხელმძღვანელობით. ის ეგდო სოფ. უკანგორის ეკლესიის ახლოს მდებარე სასაფლაოზე.</rs>
+                        </provenance>
+
+
+                        <provenance>
+                           <placeName type="modernSpot">საქართველოს ეროვნული მუზეუმი</placeName>
+                                               <idno type="invNo">26</idno>
+                       </provenance>
+
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+
+
+                   <!-- †პეტრჱს ხუც(ე)სობას[ა]
+                        მე, თათვარაზ აღხუ
+                        მ[ა]რთე ესე ჯუარი, სახე
+                        [ლით]ა ღ(მრთისა)ჲ(თა), შეწევნითა ი(ესუ) ქ(რისტ)ჱსი
+                        [თა]. რ(ომელმა)ნ თ[ა]ჳყანი სხ[ც]ე[თ], ლო[ც]
+                        [ვას]ა [მომი]ჴსე[ნ]ე[თ].
+ -->
+                <ab>
+                     <lb n="1"/><persName>პეტრჱს</persName> <roleName><w lemma="ხუცესობა"><expan><abbr>ხუც</abbr><ex>ე</ex><abbr>სობას</abbr></expan><supplied reason="lost">ა</supplied></w></roleName>
+                     <lb n="2"/><w lemma="მე">მე</w> <persName>თათვარაზ</persName> <w lemma="აღხუმართა" type="khanmeti">აღხუ
+                     <lb n="3" break="no"/>მ<supplied reason="lost">ა</supplied>რთე</w> <w lemma="ესე">ესე</w> <w lemma="ჯუარი">ჯუარი</w> <w lemma="სახელი">სახე
+                     <lb n="4" break="no"/><supplied reason="lost">ლით</supplied>ა</w> <w lemma="ღმერთი"><expan><abbr>ღ</abbr><ex>მრთისა</ex><abbr>ჲ</abbr><ex>თა</ex></expan></w> <w lemma="შეწევნა">შეწევნითა</w> <w lemma="იესუ"><expan><abbr>ი</abbr><ex>ესუ</ex></expan></w> <w lemma="ქრისტჱ"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ჱსი</abbr></expan>
+                     <lb n="5" break="no"/><supplied reason="lost">თა</supplied></w> <w lemma="რომელი"><expan><abbr>რ</abbr><ex>ომელმა</ex><abbr>ნ</abbr></expan></w> <w lemma="თაყვანი">თ<supplied reason="lost">ა</supplied>ჳყანი</w> <w lemma="სცხო">სხ<supplied reason="lost">ც</supplied>ე<supplied reason="lost">თ</supplied></w> <w lemma="ლოცვა">ლო<supplied reason="lost">ც</supplied>
+                     <lb n="6" break="no"/><supplied reason="lost">ვას</supplied>ა</w> <w lemma="მომიხსენა"><supplied reason="lost">მომი</supplied>ჴსე<supplied reason="lost">ნ</supplied>ე<supplied reason="lost">თ</supplied></w>
+                    </ab>
+
+            </div>
+
+
+            <div type="translation" xml:lang="ka"/>
+
+            <div type="apparatus" xml:space="preserve"/>
+
+
+
+            <div type="commentary">
+                 <p n="1">დაზიანება: 1) V-VII სტრიქონები თითქმის მთლიანად გადარეცხილია, ცანს მხოლოდ ზოგიერთი გრაფემის კვალი; 2) I სტრიქონში დაზიანებულია: მე-10 და ბოლო გრაფემები (,ა);
+                 III სტრ. - 1,2 გრაფემები (ა) და, ქვის ატკეჩის გამო - 13, 14, 15 გრაფემები (რ, ი, ს); IV სტრ. - 1, 2, 3 გრაფემები (დ, ი , თ), ბოლო 5 გრაფემა (ი, დ, ი, ს, ა). </p>
+             <p n="2">წარწერის დათარიღება სხვა მკვლევარებთან: 1) VI ს. დამდეგი (მ, შ); 2) V-VI სს. მიჯნა (ს) </p>
+                <p n="3">წარმოდგენილი დათარიღების საფუძველი: 1) პალეოგრაფიული ნიშნები: ა) ბ რკალშეკრულია; ბ) ყ შ - რკალგახსნილია; გ) რელიეფურობა, დუქტუსი; 2) ტექსტის ხანმეტობა.</p>
+            </div>
+
+            <div type="bibliography" subtype="otherPublications">
+
+
+                 <p><bibl type="publication" subtype="principal">
+                        <author>
+                            <forename>ნოდარ</forename>
+                            <surname>შოშიაშვილი</surname>
+                        </author>
+                        <title level="m" type="main">ქართული წარწერების კორპუსი</title>
+                        ტ. I აღმოსავლედ და სამხრეთ საქართველო (V-X სს.)
+                        <pubPlace>თბილისი</pubPlace>
+                        <date>1980</date>
+                        89-90
+                    </bibl></p>
+
+                 <p><bibl type="publication" subtype="other"><forename>კორნელი</forename><surname>დანელია</surname>, <forename>ზურაბ</forename><surname>სარჯველაძე</surname>, <title level="m">ქართული პალეოგრაფია</title>, <date>1997</date>,  25-26. </bibl></p>
+                 <p><bibl type="publication" subtype="other"><author><forename>ლ.</forename><surname>მუსხელიშვილი</surname></author>, <title type="main">არქეოლოგიური ექსკურსიები მაშავრის ხეობაში</title>, <pubPlace>თბილისი</pubPlace>, <date>1941</date>,  8-23. </bibl></p>
+                 <p><bibl type="publication" subtype="other"><author><forename>ლ.</forename><surname>მუსხელიშვილი</surname></author>, <title level="a">უკანგორის ისტორიული ნაშთები</title>, <title level="s">ენიმკის მოამბე</title>, ტ. X, <date>1941</date>,  159-182. </bibl></p>
+                 <p><bibl type="publication" subtype="other"><title level="s">ქართული საბჭოთა ენციკლოპედია</title>, <title level="a">უკანგორი</title>, <pubPlace>თბილისი</pubPlace>, <date>1986</date>,  119. </bibl></p>
+                 <p><bibl type="publication" subtype="other"><author><forename>ვ.</forename><surname>შუბითიძე</surname></author>, <title level="m">ქართული ციხესიმაგრეები და ეკლესია მონასტრები</title>, <pubPlace>თბილისი</pubPlace>, <date>2012</date>, 68. </bibl></p>
+
+            </div>
+        </body>
+    </text>
+</TEI>

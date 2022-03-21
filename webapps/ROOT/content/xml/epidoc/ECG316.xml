@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ბიჭვინტის ბულა (I)</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG316</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                           ბიჭვინტა
+                        </collection>
+                    </msIdentifier>                   
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents> 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="http://www.eagle-network.eu/voc/material/lod/108">ტყვია</material>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1747">ბულა</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        <p>ბულას ორსავე მხარეს აქვს ბერძნული ასომთავრული წარწერები.</p>
+                                      <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth>
+                                        <dim type="diameter">2,5-2,8 სმ</dim></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>                               
+                                <height unit="cm" precision="medium">0,5 სმ</height>
+                                <width unit="cm" precision="medium">0,5 სმ</width>
+                                <p></p>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ბიჭვინტა</origPlace>
+                                <origDate notBefore="0601" notAfter="0800" evidence="lettering onomastics" datingMethod="#julian">VII-VIII AD</origDate>
+                                </origin>
+                            <provenance type="found" when="1954">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/857283">ბიჭვინტა</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                           <provenance type="observed">
+                            <placeName type="modernSpot">თბილისის სახელმწიფო მუზეუმი</placeName>
+                            <idno>№ 871</idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg316.jpg">
+                <desc xml:lang="ka">ბიჭვინტის ბულა (I), 1954</desc>
+                <desc xml:lang="en">Bichvinta seal (I), 1954</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 63-64</citedRange></bibl></p>
+                
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!-- Κωνσταντῖνος† † Ἀβασγίας
+                                                -->
+                     
+       
+         <ab>
+             <persName><name nymRef="Κωνσταντίνος">Κωνσταντῖνος</name> <placeName nymRef="Ἀβασγία" ref="https://pleiades.stoa.org/places/857006">Ἀβασγίας</placeName></persName>
+         </ab>    
+             
+         
+            </div>
+                
+            <div type="translation" xml:lang="ka">
+                <p>კონსტანტინე აფხაზეთის (მთავარი)</p>
+            </div>
+            
+           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app>
+              <rdg></rdg>
+              </app></p>
+             </div>
+           
+            <div type="commentary">
+                <p>ბიჭვინტის ბულა თარიღდება პალეოგრაფიული მონაცემების, წარწერაში მოხსენიებული პირისა (აფხაზეთის მთავრის კონსტანტინე I-ის ან კონსტანტინე II-ის) და ბიზანტიური 
+                ბულების საერთო ტიპთან შედარების საფუძველზე.</p>
+                <p>წარწერა შესრულებულია ბულას ორივე პირზე.</p>
+                </div>
+        </body>
+    </text>
+</TEI>
+
+
+
+

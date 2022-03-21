@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ქარზამეთის გრიგოლ მაწყვერელი ეპისკოპოსის წარწერა</title>
+                <title xml:lang="en"></title>
+                <editor xml:lang="ka">ვალერი სილოგავა</editor>
+                <editor xml:lang="en">Valeri Silogava</editor>
+                <editor xml:lang="ka">ექვთიმე თაყაიშვილი</editor>
+                <editor xml:lang="en">Ekvtime Takaishvili</editor>
+            </titleStmt>
+            <publicationStmt>
+               <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG0100</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ქარზამეთი</collection>
+                    </msIdentifier>
+                     <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en">Memorial</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType>არქიტრავი</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                        <dimensions>
+                                            <width/>
+                                            <height/>
+                                        </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="3">წარწერა სამსტრიქონიანია. 
+                                        იგი ამოკვეთილია ჯერ კიდევ დაუმთავრებელი ტაძრის შესასვლელის არქიტრავზე, სამხრეთის მხარეს
+                                        <dimensions unit="cm">
+                                         <width/>
+                                         <height/> 
+                                        </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                 <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
+                                    <height/> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ქარზამეთის ეკლესია</origPlace>
+                                <origDate notBefore-custom="1500" notAfter-custom="1600" 
+                                    evidence="historical context" datingMethod="#julian">XVI AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">ქარზამეთის ეკლესია</placeName>
+                                <!-- "41.336873, 43.119889"--> 
+                                <rs type="circumstances"/>
+                                <rs type="context"></rs>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">ქარზამეთის ეკლესია</placeName>
+                                <idno/>
+                            </provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg100.jpg">
+                <desc xml:lang="ka">ქარზამეთის გრიგოლ მაწყვერელი ეპისკოპოსის წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile> 
+    <text>
+        <body>
+            
+          <div type="bibliography">
+             
+       <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
+       <p><bibl n="2"> E. Такаишвили, Xристианские Памятники<ptr target="bibliography.xml#b153"/>, <citedRange>16-17</citedRange></bibl></p>
+             
+            </div>
+            
+            <div type="edition" xml:lang="ka" xml:space="preserve" ana="mtavruli">
+                
+                        <!--  "† ქე ღო შე გგლ მწლ
+                               მსი რილსა ბბითა აღეშე
+                               ნა წჲ ესე ეკლსჲ"--> 
+                <ab>
+                   <lb n="1"/>&#8224;<w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
+                              <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთ</ex><abbr>ო</abbr></expan></w> <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> <persName type="local" key="გრიგოლ მაწყვერელი ეპისკოპოსი [მაშენებელი ქარზამეთისა]"><expan><abbr>გ</abbr><ex>რი</ex><abbr>გ</abbr><ex>ო</ex><abbr>ლ</abbr></expan> <placeName nymRef="აწყური"><w><expan><abbr>მ</abbr><ex>ა</ex><abbr>წ</abbr><ex>ყუერე</ex><abbr>ლ</abbr></expan></w></placeName>
+                   <lb n="2"/><roleName nymRef="მთავარეპისკოპოს"><w lemma="მთავარეპისკოპოს"><expan><abbr>მ</abbr><ex>თავარეპისკოპო</ex><abbr>სი</abbr></expan></w></roleName></persName> 
+                              <w lemma="რომელ"><expan><abbr>რ</abbr><ex>ომლ</ex><abbr>ისა</abbr></expan></w> <w lemma="ბრძანება"><expan><abbr>ბ</abbr><ex>რძანე</ex><abbr>ბითა</abbr></expan></w> 
+                                <w lemma="აშენებს">აღეშე
+                   <lb n="3" break="no"/>ნა</w> 
+                                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ჲ</abbr></expan></w> 
+                                <w lemma="ესე">ესე</w>
+                                <w lemma="ეკლესია"><expan><abbr>ეკლ</abbr><ex>ე</ex><abbr>ს</abbr><ex>ია</ex><abbr>ჲ</abbr></expan></w>    
+                   </ab>
+               </div>         
+         
+            <div type="translation" >
+             <p xml:lang="ka">† ქრისტე ღმერთო, შეიწყალე გრიგოლ აწყურის მთვარეპისკოპოსი, რომლის ბრძანებით აშენდა ეს წმინდა ტაძარი.</p>
+         </div>    
+                             
+               <div type="commentary">
+                <p xml:lang="ka">სოფ. ქარზამეთი თურქეთის საზღვართან მდებარეობს, ასპინძის მუნიციპალიტეტში, მდინარე ქარზამეთისწყლის ნაპირზე. ქარზამეთის ტაძარი არის ნიმუში იმისა, თუ პრაქტიკულად როგორ შენდებოდა ძველ საქართველოში ეკლესიები და 
+                როდის ამოკვეთდნენ მასზე წარწერებს. როგორც ექვთიმე თაყაიშვილი შენიშნავს, მშენებლობისათვის საჭირო უზარმაზარი ქვები სხვა ადგილიდან კი არ მოჰქონდათ, არამედ ადგილობრივ, 
+                კლდოვანი ქანიდან ხდებოდა მათი მოჭრა, გათლა და ზედაპირის დამუშვება, ხოლო შემდეგ სამშენებლოდ გამოყენება. მართლაც, როგორც ექვთიმე თაყაიშვილის დროს, ისე ახლაც ეკლესიის
+                კედლების ამოყვანილი ნაწილების - უზარმაზარი ქვების ორი რიგის გარშემო მიმობნეულია ასევე უზარმაზარი დაუმუშავებელი ლოდები, როგორც კედლის შიგნით, ისე გარეთ.
+                რაც შეეხება წარწერების ამოკვეთას, ამას ადგილი ჰქონდა,
+                ამ შემთხვევაში მაინც, კედლების ამოყვანასთან ერთად. მართლაც, ტაძრის სამხრეთი ფასადი, ისევე როგორც სხვა კედლები, ამოყვანილია მხოლოდ შესასვლელის არქიტრავის დონეზე, უფრო 
+                ზუსტად არქიტრავზე, რომელიც ზემოდან ადევს შესასვლელის ღიობს და მშენებლობაც აქაა შეწყვეტილი. თუმცა საამშენებლო წარწერა ამოკვეთილია ჯერ კიდევ დაუმთავრებელი 
+                ტაძრის შესასვლელის არქიტრავზე. მსგავს შემთხვევას ადგილი აქვს ბოლნისის სიონის ტაძარზეც, სადაც წარწერები თავსდებოდა კედლების ამოყვანის პარალელურად. ე.ი. ფაქტია, რომ
+                V საუკუნიდან დასტურდება და XVI საუკუნეშიც ჩანს, ეკლესიების ერთ ნაწილზე მაინც, წარწერების ამოკვეთა მშენებლობასთან ერთად.
+                ქარზამეთის ტაძრის საამშენებლო წარწერის თანახმად, მისი მშენებლობა დაწყებულა გრიგოლ მაწყვერელი მთავარეპისკოპოსის ბრძანებით. ტექსტი ისეა შედგენილი, რომ მისი შესრულების 
+                დროისათვის მშენებლობა დასრულებულად ითვლება - „აღეშენა წმიდაჲ ესე ეკლესიაჲ“, ნათქვამია წარწერის ბოლოს. მაგრამ აშკარაა, რომ მშენებლობა დაუმთავრებელია, იგი შეწყვეტილია 
+                და კედლების მხოლოდ მცირე ნაწილია ამოყვანილი.
+                ექვთიმე თაყაიშვილის მიხედვით, ტაძრის მშენებლობა XVI საუკუნის II ნახევარში უნდა დაწყებულიყო (E. Такаишвили, Xристианские Памятники, MAK, XII, 1909, 17).
+                ვ. ბერიძე თვლის, რომ შენობის აგების ხარისხი და მისი მორთულობის ზოგიერთი დეტალის მიხედვით მშენებლობის დაწყების თარიღმა შეიძლება „რამდენადმე გაიწიოს კიდეც XIII 
+                საუკუნისკენ“ (ვ. ბერიძე, სამცხის ხუროთმოძღვრება, XIII-XVI საუკუნეები, 1955,  188). ვალერი სილოგავას აზრით, წარწერის პალეოგრაფია გამორიცხავს როგორც ერთ, ისე მეორე 
+                თარიღს და გვიან შუა საუკუნეებში (XVI-XVII სს.) თავსდება. როგორც ჩანს, ტაძრის მშენებლობის დაწყება ამ მხარეში ოსმალების გაბატონების დაწყებას 
+                და ჩილდირის (ახალციხის) საფაშოს დაარსებას (1579 წ.) დაემთხვა, რასაც ადგილი ჰქონდა XVI საუკუნის შუა ხანებში. ტაძრის მშენებლობაც, როგორც ჩანს, ამ მიზეზით შეწყდა და შემდგომში 
+                არც განახლებულა. ამის მიხედვით, ვალერი სილოგავამ ქარზამეთის წარწერის შესრულებისა და გრიგოლ მაწყვერელის მოღვაწეობის დრო XVI ს-ის შუა ხანებით განსაზღვრა.</p>                
+            
+               </div>
+         </body>
+    </text>
+</TEI>

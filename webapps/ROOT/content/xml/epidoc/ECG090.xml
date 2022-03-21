@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">საფარის წმ. საბას ტაძრის ფარეზასძის წარწერა</title>
+                <title xml:lang="en">Sapara Monastery, Saint Saba Church inscription of Pharezasdze</title>
+                <editor xml:lang="ka">ვალერი სილოგავა</editor>
+                <editor xml:lang="en">Valeri Silogava</editor>
+            </titleStmt>
+            <publicationStmt>
+               <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG090</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>საფარა</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო</seg>
+                            <seg xml:lang="en">Building</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">Plaque</objectType>
+                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>                                    
+                                      <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="4">
+                                        <seg xml:lang="ka">წარწერა ოთხსტრიქონიანია. იგი ტაძრის ხუროთმოძღვრისეულია, 
+                                       ამოკვეთილია წმ. საბას ტაძრის დასავლეთის კარიბჭის დასავლეთისავე 
+                                სარკმლის ორნამენტული საპირეს ზედა, მომრგვალებულ ნაწილზე</seg>
+                                        <seg xml:lang="en"></seg>
+                                        <dimensions unit="cm">
+                                         <width/>
+                                         <height/> 
+                                          </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                              <handNote script="asomtavruli" style="inscribed">
+                                <seg xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა. კვეთის ღარები წითელი საღებავით არის ამოვლებული და მას
+                                დეკორატიული დატვირთვა აქვს</seg>
+                                  <seg xml:lang="en"></seg>
+                                   <height/> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>
+                                    <seg xml:lang="ka">საფარის მონასტრის წმ. საბას ტაძარი</seg>
+                                    <seg xml:lang="en">Sapara St. Saba Monastery</seg>
+                                </origPlace>
+                                 <origDate notBefore-custom="1200" notAfter-custom="1300" precision="medium" 
+                                    evidence="context" datingMethod="#julian">XIII AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">
+                                    <seg xml:lang="ka">საფარის მონასტრის წმ. საბას ტაძარი</seg>
+                                    <seg xml:lang="en">Sapara St. Saba Monastery</seg>
+                                </placeName>
+                                <!-- "41.602116, 43.031036"--> 
+                                <rs type="circumstances"/>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">
+                                    <seg xml:lang="ka">საფარის მონასტრის წმ. საბას ტაძარი</seg>
+                                    <seg xml:lang="en">Sapara St. Saba Monastery</seg>
+                                </placeName>
+                                <idno type="invNo"/>
+                            </provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg090.jpg">
+                <desc xml:lang="ka">საფარის წმ. საბას ტაძრის ფარეზასძის წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>         
+             <div type="bibliography">
+              
+         <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
+               
+            </div>
+                
+            <div type="edition" xml:lang="ka" xml:space="preserve" ana="mtavruli">
+                
+                        <!--  "† სრლ იქმნა სყდრი ესე საძირკოლითვე
+                               [ყვ]ლთა ფრთა
+                               ჴელითა ფარეზას
+                               ძისათა შნ ღნ"--> 
+                                                            
+                <ab>
+                   <lb n="1"/>&#8224;<w lemma="სრულ"><expan><abbr>სრ</abbr><ex>უ</ex><abbr>ლ</abbr></expan></w> 
+                                    <w lemma="ქმნა"><expan><abbr>იქ</abbr><ex>მ</ex><abbr>ნა</abbr></expan></w> 
+                                    <w lemma="საყდარ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ყდ</abbr><ex>ა</ex><abbr>რი</abbr></expan></w> 
+                                    <w lemma="ესე">ესე</w> 
+                                    <w lemma="საძირკუელ"><expan><abbr>საძირკო</abbr><ex>ჳ</ex><abbr>ლითვე</abbr></expan></w>
+                   <lb n="2"/><w lemma="ყოველ"><expan><supplied reason="lost"><abbr>ყ</abbr><ex>ო</ex><abbr>ვ</abbr></supplied><abbr>ლ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
+                                    <w lemma="ფერ"><expan><abbr>ფ</abbr><ex>ე</ex><abbr>რ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w>
+                   <lb n="3"/><w lemma="ჴელ">ჴელითა</w> 
+                                    <persName type="local" key="გიორგი ფარეზასძე [ხუროთმოძღვარი საფარის წმ. საბის ტაძრისა]"><name nymRef="ფარეზასძე" type="surname">ფარეზას
+                   <lb n="4" break="no"/>ძისათა</name> </persName>
+                                        <w lemma="შენდობა"><expan><abbr>შ</abbr><ex>ეუნდვე</ex><abbr>ნ</abbr></expan></w> 
+                                        <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
+                   </ab>
+               </div>
+              
+            
+         <div type="translation">
+             <p  xml:lang="ka">† სრულ იქმნა ეს საყდარი საძირკვლითურთ მთლიანად ფარეზასძის ხელით, შეუნდოს ღმერთმა.</p>
+         </div>    
+                             
+               <div type="commentary">
+                <p  xml:lang="ka">საფარის მონასტერი ძველი დროიდანვე სხვადასხვა დანიშნულების 12 ნაგებობისაგან შედგებოდა. მათ შორის მთავარია წმ. საბას
+                                სახელობის ტაძარი, აგებული ბექა სამცხის სპასალარისა და მანდატურთუხუცესის მიერ XIII-XIV სს. მიჯნაზე. საფარაში ამაზე ძველი ეკლესიაც არსებობს, X ს-ის
+                                ღმრთისმშობლის მიძინების სახელობის ტაძარი, რომელსაც ჩრდილოეთიდან მიდგმული აქვს ზემოხსენებული წმ. საბას ტაძარი.
+                ვალერი სილოგავას აზრით, ფარეზასძის წარწერა უყურადღებოდ არის შესრულებული, რადგან მასში გამოტოვებულია ხუროთმოძღვარ ფარეზასძის სახელი („გიორგი“ - აღმოჩნდა
+                ტაძრის კეხზე შემოდგმულ ეკლესიის მოდელზე, რომელიც ამჟამად ახალციხის ისტორიულ მუზეუმში ინახება). გარდა ამისა, წარწერის შემსრულებელს გამორჩენია სიტყვა „ფერითა“,
+               რომელსაც აუცილებლად მოითხოვს წინმიმავალი ტექსტი - იგი წითელი საღებავით მოუწერია ტაძრის კედელზე, ჰორიზონტალურად, მომრგვალებული სტრიქონის გასწვრივ.</p>                
+            </div>            
+        </body>
+    </text>
+</TEI>

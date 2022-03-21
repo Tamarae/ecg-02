@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>კუმურდოს მოლოზონის წარწერა</title>
+                <editor>ვალერი სილოგავა</editor>
+                <editor>მარი ბროსე</editor>
+                <editor>ექვთიმე თაყაიშვილი</editor>
+                <editor>ნიკო ბერძენიშვილი</editor>
+                <editor>ვ. ცისკარიშვილი</editor>
+                <editor>ი. გვარამაძე</editor>
+                
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
+                <idno type="filename">ECG144</idno>
+                <availability> <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                    <collection>კუმურდო</collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc><support> 
+                                <objectType ref="https://www.eagle-network.eu/voc/objtyp">ფასადი</objectType>
+                                <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                <dimensions> 
+                                <width/> 
+                                <height/>
+                                </dimensions>
+                            </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="1">
+                                ერთი სტრიქონი; ამოკვეთილი ნახევარწრიულად ტაძრის სამხრეთ ფასადზე - შესასვლელის მარჯვნივ, ოდნავ ზემოთ, ამბრაზურის კამარის სამ სხვადასხვა, ნახევარწრიულად განლაგებულ ფილებზე
+                                <dimensions unit="cm"> 
+                                    <width>84</width> 
+                                    <height/>
+                                </dimensions>
+                            </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                        <handNote script="asomtavruli" style="inscribed">
+                        ამოკვეთილი ასომთავრული წარწერა. განკვეთილობის ნიშნები არ აქვს; ქარაგმის ნიშანი: განივი, სწორი ხაზი.
+                        <dimensions unit="cm">
+                            <height>5-6-6.5</height>
+                        </dimensions> 
+                        </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>კუმურდო</origPlace>
+                            <origDate notBefore="0990" notAfter="1010"/>
+                        </origin>
+                        <provenance type="observed" when="2017-06-30">
+                            <placeName>კუმურდოს საკათედრო ტაძარი</placeName>
+                            <rs type="circumstances">წარწერის ფოტოდოკუმენტაცია გაკეთდა 2017 წლის 30 ივნისს, ილიას სახელმწიფო უნივერსიტეტის ციფრული ეპიგრაფიკის სამაგისტრო კურსის დასკვნითი გამოცდის ფარგლებში</rs>
+                            <idno/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <text>
+        <!--
+        1.&#10013; ქ(რისტ)ე შ(ეიწყალ)ე ს(უ)ლი მ(ო)ლ(ო)ზ(ონი)სი ა(მე)ნ
+        --> 
+        <body>
+                        <div type="bibliography">
+                <p>
+                    <bibl n="1">ვალერი სილოგავა, კუმურდო, <citedRange>58-59</citedRange>, თბილისი 1994<ptr target="bibliography.xml#b198"/></bibl>
+                </p>
+                
+                
+                <p>
+                    <bibl n="2">M. Brosset, Rapports sur un voyage archeologique dans la Georgie et dans l'Armenie execute en 1847-1848
+                        V. II <citedRange>170</citedRange>St. Petersburg, 1850 <ptr target="bibliography.xml#b189"/>
+                    </bibl>
+                </p>
+                
+                <p>
+                    <bibl n="3">
+                        И.П. Ростомов, Аxалкалакский уъезд в арxеологическом отношении, <citedRange>87</citedRange>, 1898<ptr target="bibliography.xml#b199"/>
+                    </bibl>
+                </p>
+                
+                <p>
+                    <bibl n="4">
+                        Е.С. Такайшвили, Христианские памятники, <citedRange>39</citedRange>, Москва, 1909<ptr target="bibliography.xml#b153"/>
+                    </bibl>
+                </p>
+                
+                <p>
+                    <bibl n="5">
+                        ვ. ცისკარიშვილი, ჯავახეთის ეპიგრაფიკა, როგორც საისტორიო წყარო, <citedRange>17-18</citedRange>, თბილისი, 1959<ptr target="bibliography.xml#b200"/>
+                    </bibl>
+                </p>
+                
+                <p>
+                    <bibl n="6">
+                        ნ. ბერძენიშვილი, ჯავახეთის 1933 წლის ექსპედიციის დღიური, იხ. მისი "საქართველის ისტორიის საკითხები", ისტორიული გეოგრაფია, ტ. I, <citedRange>133</citedRange>
+                        თბილისი, 1964<ptr target="bibliography.xml#b201"/>
+                    </bibl>
+                </p>
+                
+                <p>
+                    <bibl n="7">ი. გვარამაძე, "დროება" არქეოლოგიური შენიშვნები, <citedRange>00</citedRange>, თბილისი, 1982<ptr target="bibliography.xml#b202"/></bibl>
+                </p>
+                
+            </div>
+            
+
+                         <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+
+                       <ab>
+                           <lb n="1"/> &#10013;<expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan> <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> 
+                           <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლი</abbr></expan></w> 
+                           <persName type="local" key="მოლოზონ"><expan><abbr>მ</abbr><ex>ო</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ზ</abbr><ex>ონი</ex><abbr>სი</abbr></expan></persName> 
+                           <w lemma="ამენ"><expan><abbr>ა</abbr><ex>მე</ex><abbr>ნ</abbr></expan></w>         
+                        </ab>
+             
+            </div>
+            
+           
+                
+          
+                
+         
+
+            <div type="translation">
+                <p></p>
+            </div>
+            
+            <div type="commentary">
+                <p>წარწერის შიდა ფილა ნაცრისფერია, ხოლო გვერდითი ფილები - ღვინისფერი</p>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

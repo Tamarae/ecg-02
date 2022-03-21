@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ბრინჯაოს ბეჭედი</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+                <editor>М. И. Максимова</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG277</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                            <collection>
+                                სამთავრო
+                            </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/109">ბრინჯაო</material>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/168">ბეჭედი</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="2">
+                                    ბრინჯაოს ბეჭდის ფარზე 2 სტრიქონად ამოჭრილია ბერძნული წარწერა 
+                                        <dimensions unit="cm">
+                                        <width>1,5</width>
+                                        <height>2</height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                 <p>წარწერის პირველი სტრიქონი იკითხება მარჯვნიდან მარცხნივ, მეორე კი - მარცხნიდან მარჯვნივ.</p>
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>სამთავრო</origPlace>
+                                <origDate notBefore-custom="0301" notAfter-custom="0500" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">IV-V AD</origDate>
+                              </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863882">სამთავრო</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                         
+                            <provenance type="observed">
+                            <placeName type="modernSpot">საქართველოს მუზეუმი</placeName>
+                            <idno>№ 226</idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg277.jpg">
+                <desc xml:lang="ka">ბრინჯაოს ბეჭედი სამთავროდან</desc>
+                <desc xml:lang="en">Bronze ring from Samtavro</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 266</citedRange></bibl></p>
+                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 257</citedRange></bibl></p>
+                    <p><bibl n="3">М. И. Максимова, Геммы из некрополя Мцхеты-Самтавро<ptr target="bibliography.xml#b153"/>, <citedRange> 261-262</citedRange></bibl></p>                 
+                
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!--  ΟΗΘ | ΘΕR  -->
+                     
+         <ab>
+             <lb n="1"/><persName><name nymRef="Θεόδοτος">Θεό<supplied reason="subaudible">δοτος</supplied></name></persName>
+             <lb n="2"/><w lemma="θεός">θε<hi rend="ligature">οῦ</hi></w>
+         </ab>    
+             
+         
+            </div>
+                
+            <div type="translation" xml:lang="ka">
+                <p>თეო[დოტოს?] ღმრთისა</p>
+            </div>
+            
+           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app><lem></lem>
+              <rdg></rdg>
+              </app></p>
+            </div>
+           
+            <div type="commentary">
+                <p>დაწერილობის მიხედვით (ადრებიზანტიურისათვის დამახასიათებელი ου - ლიგატურა, ε-სათვის η-ს ხმარება) წარწერა ადრებიზანტიური ხანით თარიღდება. 
+                მ. მაქსიმოვას აზრით, ნივთი IV-V სს-ით უნდა დათარიღდეს.</p>
+                <p>წარწერაში საინტერესოა სიტყვა θεο-სთვის ΘΗΟ - დაწერილობა, რაც ამ დროისთვის მთლად ჩვეულებრივი არ არის. წარწერა შინაარსით საქარისტიანო ხასიათისაა, 
+                ამიტომ IV ს-ზე ადრე ის ჩვენში ვერ მოხვდებოდა (კიდევაც რომ ნივთი შემოტანილი იყოს და არა ადგილობრივი წარმოშობისა).</p>
+                <p>ბეჭედი შესწავლილი აქვს მ. მაქსიმოვას. მისი ვარაუდით I ნაწილი წარწერისა არის რომელიმე სახელის შემოკლება: Θεόφιλος, Θεόδοτος... ან Θεός-ისა, ან Θεοτόκος-ისა.</p>
+            </div>
+         </body>
+    </text>
+</TEI>
+

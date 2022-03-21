@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">საფარის წმ. გიორგის ეკლესიის გრიგოლ ნაფშუენისძის წარწერა (I)</title>
+                <title xml:lang="en"></title>
+                <editor xml:lang="ka">ვალერი სილოგავა</editor>
+                <editor xml:lang="en">Valeri Silogava</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG096</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>საფარა</collection>
+                    </msIdentifier>
+                     <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო</seg>
+                            <seg xml:lang="en">Building</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="11">
+                                        <seg xml:lang="ka">
+                                            წარწერა თერთმეტსტრიქონიანია.
+                                        იგი შესრულებულია საფარის წმ. გიორგის სახელობის საშუალო ზომის დარბაზულ ეკლესიაზე, დასავლეთ
+                                შესასვლელის ზემოთ, მაღლა, სხვებისაგან განსხვავებული ფერის ერთიმეორის ზემოთ შემოდგმულ ფილებზე</seg>
+                                        <seg xml:lang="en"></seg>
+                                        <dimensions unit="cm">
+                                         <width/>
+                                         <height/> 
+                                        </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                 <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
+                               <height></height> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>
+                                    <seg xml:lang="ka">საფარის წმ. გიორგის ეკლესია</seg>
+                                    <seg xml:lang="en">Sapara St. George church</seg>
+                                </origPlace>
+                                 <origDate notBefore-custom="1400" notAfter-custom="1500" precision="medium" 
+                                    evidence="context" datingMethod="#julian">XV AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">
+                                    <seg xml:lang="ka">საფარის წმ. გიორგის ეკლესია</seg>
+                                    <seg xml:lang="en">Sapara St. George church</seg>
+                                </placeName>
+                                <!-- "41.602116, 43.031036"--> 
+                                <rs type="circumstances"/>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">
+                                    <seg xml:lang="ka">საფარის წმ. გიორგის ეკლესია</seg>
+                                    <seg xml:lang="en">Sapara St. George church</seg>
+                                </placeName>
+                                <idno type="invNo"/>
+                            </provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg096.jpg">
+                <desc xml:lang="ka">საფარის წმ. გიორგის ეკლესიის გრიგოლ ნაფშუენისძის წარწერა I</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>                   
+            <div type="bibliography">
+               
+        <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
+            
+            </div> 
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--  "† სხლთა ღს || თა მე საფრ[ი]
+                                სა მძღმ||ნ გგლ ნაფშუენს 
+                                ძემნ აქა და || მკჳდრბლთა
+                                წთა მმთა აღჳ||შნე მცირედი
+                                ესე ეგჳტრი სჴს || ენბლდ ცდვი
+                                ლისა  სლ | ისა | ჩმისა რა
+                                ღნმხბ || ითა
+                                წისა  და ოდაბნოთ გნმანთლბელ[ი]
+                                სა საბასითა დღსა მს დიდსა გნკი
+                                თხვისსა მიჴსნს მარცხნეთგნ დ
+                                ა მრჯჱნეთა მთ მისთა თა აღმრცხოს"--> 
+                                                            
+                <ab>
+                   <lb n="1"/>&#8224;<w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
+                                     <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთი</ex><abbr>ს</abbr><ex>აჲ</ex><abbr>თა</abbr></expan></w> 
+                                     <w lemma="მე">მე</w> 
+                                     <persName type="local" key="გრიგოლ ნაფშუენისძე [საფარის წმ. გიორგის ეკლესიის მოძღვარი]"><placeName nymRef="საფარა" type="monastery"><expan><abbr>საფ</abbr><ex>ა</ex><abbr>რ</abbr><supplied reason="lost"><abbr>ი</abbr></supplied>
+                   <lb n="2" break="no"/><abbr>სა</abbr></expan></placeName>
+                                    <roleName nymRef="მოძღუარ"><expan><abbr>მ</abbr><ex>ო</ex><abbr>ძღ</abbr><ex>უარ</ex><abbr>მ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></roleName> 
+                                    <expan><abbr>გ</abbr><ex>რი</ex><abbr>გ</abbr><ex>ო</ex><abbr>ლ</abbr></expan> 
+                                    <expan><abbr>ნაფშუენ</abbr><ex>ი</ex><abbr>ს
+                   <lb n="3" break="no"/>ძემ</abbr><ex>ა</ex><abbr>ნ</abbr></expan> </persName>
+                                    <w lemma="აქა">აქა</w> 
+                                    <w lemma="დამკჳდრებულ"><expan><abbr>დამკჳდრ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>უ</ex><abbr>ლთა</abbr></expan></w>
+                   <lb n="4"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>თა</abbr></expan></w> 
+                                    <w lemma="მამა"><expan><abbr>მ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ა</ex><abbr>თა</abbr></expan></w> 
+                                     <w lemma="აღშენება"><expan><abbr>აღ</abbr><ex>ო</ex><abbr>ჳშ</abbr><ex>ე</ex><abbr>ნე</abbr></expan></w> 
+                                    <w lemma="მცირე">მცირედი</w>
+                   <lb n="5"/><w lemma="ესე">ესე</w> 
+                                <w lemma="ეგუტერ"><expan><abbr>ეგ</abbr><ex>ო</ex><abbr>ჳტ</abbr><ex>ე</ex><abbr>რი</abbr></expan></w> 
+                                <w lemma="სახსენებელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ჴსენ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> 
+                                <w lemma="ცოდვილ"><expan><abbr>ც</abbr><ex>ო</ex><abbr>დვი
+                   <lb n="6" break="no"/>ლისა</abbr></expan></w> 
+                                    <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლისა</abbr></expan></w> 
+                                    | <w lemma="ჩემი"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მისა</abbr></expan></w> 
+                                    <w lemma="რაჲთა"><expan><abbr>რ</abbr><ex>აჲთ</ex><abbr>ა</abbr></expan></w>
+                   <lb n="7"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
+                                <w lemma="მეოხება"><expan><abbr>მ</abbr><ex>ეო</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ბითა</abbr></expan></w>
+                   <lb n="8"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდ</ex><abbr>ისა</abbr></expan></w>  
+                                    და 
+                                <w lemma="უდაბნო"><expan><abbr>ო</abbr><ex>ჳ</ex><abbr>დაბნოთ</abbr></expan></w> 
+                                <w lemma="განმანათლებელ"><expan><abbr>გ</abbr><ex>ა</ex><abbr>ნმან</abbr><ex>ა</ex><abbr>თლ</abbr><ex>ე</ex><abbr>ბელ</abbr><supplied reason="lost"><abbr>ი</abbr></supplied>
+                   <lb n="9" break="no"/><abbr>სა</abbr></expan></w> 
+                                <name nymRef="საბა განმანათლებელი" type="saint">საბასითა</name> 
+                                    <w lemma="დღე"><expan><abbr>დღ</abbr><ex>ე</ex><abbr>სა</abbr></expan></w> 
+                                    <w lemma="იგი"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ს</abbr></expan></w> 
+                                <w lemma="დიდ">დიდსა</w> 
+                                <w lemma="განკითხვა"><expan><abbr>გ</abbr><ex>ა</ex><abbr>ნკი
+                   <lb n="10" break="no"/>თხვის</abbr><ex>ა</ex><abbr>სა</abbr></expan></w>
+                                <w lemma="ჴსნა"><expan><abbr>მიჴსნ</abbr><ex>ე</ex><abbr>ს</abbr></expan></w> 
+                                 <w lemma="მარცხენა"><expan><abbr>მარცხ</abbr><ex>ე</ex><abbr>ნეთ</abbr><ex>ა</ex><abbr>გ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
+                                დ
+                   <lb n="11" break="no"/>ა 
+                                    <w lemma="მარჯუენა"><expan><abbr>მ</abbr><ex>ა</ex><abbr>რჯ</abbr><ex>უ</ex><abbr>ჱნეთა</abbr></expan></w> 
+                                    <w lemma="იგინი"><expan><abbr>მ</abbr><ex>ა</ex><abbr>თ</abbr></expan></w> 
+                                    <w lemma="მისნი">მისთა</w> 
+                                    <w lemma="თანა"><expan><abbr>თ</abbr><ex>ან</ex><abbr>ა</abbr></expan></w> 
+                                    <w lemma="აღრაცხვა"><expan><abbr>აღმრ</abbr><ex>ა</ex><abbr>ცხოს</abbr></expan></w>
+                   </ab>
+               </div>           
+         <div type="translation">
+             <p xml:lang="ka">† ღმრთის სახელით მე, საფარის მოძღვარმა, გრიგოლ ნაფშუენისძემ, აქ დამკვიდრებულ წმინდა მამებს ავუშენე ეს პატარა ეკუდერი ჩემი ცოდვილი სულის
+                 სახსენებლად, რათა ღმერთმა წმიდა და უდაბნოს განმანათლებელი საბას მეოხებით დიდი განკითხვის დღეს მიხსნას მარცხენეთაგან და მარჯვენეთა შორის აღმრაცხოს.</p>
+         </div>    
+                             
+               <div type="commentary">
+                <p xml:lang="ka">საფარის მონასტერი ძველი დროიდანვე სხვადასხვა დანიშნულების 12 ნაგებობისაგან შედგებოდა. მათ შორის მთავარია წმ. საბას
+                   სახელობის ტაძარი, აგებული ბექა სამცხის სპასალარისა და მანდატურთუხუცესის მიერ XIII-XIV სს. მიჯნაზე. საფარაში ამაზე ძველი ეკლესიაც არსებობს, X ს-ის
+                   ღვთისმშობლის მიძინების სახელობის ტაძარი, რომელსაც ჩრდილოეთიდან მიდგმული აქვს ზემოხსენებული წმ. საბას ტაძარი. წარწერაში მოხსენიებული
+                   წმ. საბას საფუძველზე ვახტან ბერიძემ მიიჩნია, რომ წმინდა გიორგის ტაძარი, რომელზეც ეს წარწერაა შესრულებული, აგებულია წმ. საბას ტაძრის 
+                   აშენების შემდეგ, ანუ XIV ს-ის პირველი ათეულის მომდევნო დროს (ვ. ბერიძე, სამცხის ხუროთმოძღვრება, XIII-XVI საუკუნეები, თბ.1955, 58). 
+                   ვალერი სილოგავას აზრით, ეკლესიის აშენებისა და წარწერის შესრულების 
+                   ზედა თარიღი XVI ს-ის მიწურულით უნდა განისაზღვროს, როდესაც აქაურობის ინტენსიური გათათრება დაიწყო და, ცხადია, 
+                    ახალ ეკლესიას არავინ ააშენებდა. აღსანიშნავია ისიც, რომ თათრობის კვალი ეკლესიის წარწერებში არ ჩანს. ამიტომ მკვლევარი ასკვნის, რომ
+                    ყველაზე მისაღები, ოპტიმალური თარიღი წმ. გიორგის ეკლესიისა და მისი წარწერებისათვის შეიძლება იყოს XV საუკუნე. 
+               </p>                
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ადარნასეს მოსახსენებელი წარწერა</title>
+                <editor xml:lang="ka">გიორგი ოთხმეზური</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <idno type="filename">ECG230</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3. ლიცენზიით
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            დმანისი
+                        </collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>კედელი</objectType>
+                                    <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <dimensions>
+                                        <width>36</width>
+                                        <height>29</height>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="3">
+                                    შესრულებულია ეკლესიის ინტერიერში, სამხ. კედლის ქვედა ქვის წყობაში, კარიდან აღმოსავლეთით. 3 სტრიქონად.
+                                    <dimensions unit="cm">
+                                        <width>19</width>
+                                        <height>25</height>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="script">ასომთავრული</rs>, <rs type="execution">კიდურწერტილოვანი</rs> დამწერლობა. ამოღარვით. განკვეთილობის ნიშანი: ორწერტილი. ქარაგმა: განივი, სწორი,
+                                    კიდურწერტილოვანი ხაზი. დამახასიათებელია ასოთა შეწიაღება, გამოყენებულია ლიგატურა (III სტრ. ი და ს).
+                                <dimensions unit="cm">
+                                    <height>4-7</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>საკირე, წითელი ეკლესია (ყიზილ ქილი)</origPlace>
+                            <origDate>XI AD</origDate>
+                        </origin>
+                        <provenance type="observed">
+                            <placeName type="modernSpot">საკირე, წითელი ეკლესია (ყიზილ ქილი)</placeName>
+                            <rs type="circumstances"/>
+                            <idno/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <!-- 
+     
+    <facsimile>
+        <surface>
+            <graphic url="tskise_01.jpg">
+                <desc xml:lang="ka">წყისეს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile> -->
+    
+    <text>
+        <!--
+        1.[ქ. უ(ფალ)ო ღ(მერთ)ო, ად(ი)დე შ(ე)ნ [მიერ მაშენებელი ამის]
+        2.სა(ყ)დრ(ი)სა. ქ(რისტ)ე შ(ეიწყალ)ე
+        3.ც(ო)დ(ვილ)ი ა[დ](ა)რ(ნა)სე, ა(მენ)
+        -->
+        <body>
+  <div type="bibliography">
+                
+                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>127-128</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
+                <p><bibl n="2">დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>153</citedRange> თბილისი, 2014<ptr target="bibliography.xml#b213"/></bibl></p>
+                <p><bibl n="4">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>28-29</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
+            </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+        
+       
+            <ab>
+                 <lb n="1"/>&#10013;
+                           <w lemma="უფალ"><expan><abbr>უ</abbr><ex>ფალ</ex><supplied reason="omitted" precision="high"><abbr>ო</abbr></supplied></expan></w>
+                           <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთ</ex><abbr>ო</abbr></expan></w>
+                           <w lemma="დიდება"><expan><abbr>ად</abbr><ex>ი</ex><abbr>დე</abbr></expan></w>
+                           <w lemma="შენ"><abbr>შ</abbr><ex>ე</ex><abbr>ნ</abbr></w>
+                           <w lemma="მიერ"><supplied reason="lost">მიერ</supplied></w>
+                           <w lemma="შენება"><supplied reason="lost">მაშენებელი</supplied></w>
+                           <w lemma="ამის"><supplied reason="lost">ამის</supplied></w>
+                <lb n="2"/><w lemma="საყდარ"><expan><supplied reason="omitted"><abbr>ს</abbr></supplied><abbr>ა</abbr><ex>ყ</ex><abbr>დრ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w>  
+                            <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
+                           <w lemma="წყალობა"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w>
+                <lb n="5"/><w lemma="ცოდვა"><expan><abbr>ც</abbr><ex>ო</ex><abbr>დ</abbr><ex>ვილ</ex><abbr>ი</abbr></expan></w> 
+                           <persName type="local" key="ადარნასე [საკირის მაშენებელი]"><expan><abbr>ა</abbr><supplied reason="lost" precision="medium"><abbr>დ</abbr></supplied><ex>ა</ex><abbr>რ</abbr><ex>ნა</ex><abbr>სე</abbr></expan></persName>
+                           <w lemma="ამენ"><expan><abbr>ა</abbr><ex>მე</ex><abbr>ნ</abbr></expan></w>
+                
+                </ab>
+             
+            </div>
+
+
+        
+                
+      
+                <div type="translation">
+                    <p/>
+                </div>
+                <div type="commentary">
+                    <p>დაზიანება: წარწერიანი ქვა, ისევე როგორც ქვა-ჯვრები და მათი ბაზისები
+                        წმინდანების, ცხოველებისა და ფრინველებს რელიეფური გამოსახულებები მეორად
+                        სამშენებლო მასალადაა გამოყენებული (მოგვიანო რესტავრაციისას). წარწერის თავი
+                        და შუა ნაწილი ნაკლულია;
+                        წარმოდგენილი დათარიღების საფუძველი: პალეოგრაფიული
+                        ნიშნები: კიდურწერტილოვნება, შეწიაღება, გრაფემების (ა, დ) მოხაზულობა;
+                        წარწერას დ. ბერძენიშვილი XI-XII სს-ით ათარიღებს; 
+                        პირველ ხაზზე სიტყვებს დ. ბერძენიშვილი ამგვარად კითხულობს: შენ (მიერ... მაშენებელი ამის), ხოლო მესამე
+                        ხაზზე, ასე: ცოდვილისა სული. ნაკლებადაა შესაძლებელი, თუმცა, ვარიანტის სახით
+                        დასაშვებია დაქარაგმებული სახელ ა~რსე-ს აღდგენა, როგორც არსე(ნ)</p>
+                </div>
+         
+        </body>
+    </text>
+</TEI>

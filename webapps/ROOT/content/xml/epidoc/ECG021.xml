@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ბერძნულწარწერიანი ბრინჯაოს მედალი</title>
+                <title xml:lang="en">Greek inscription on bronze medal from Mtskheta</title>
+                <editor xml:lang="ka">თინათინ ყაუხჩიშვილი</editor>
+                <editor xml:lang="en">Tinatin Kaukhchishvili</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG021</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="fragmentary">
+                    <msIdentifier>
+                        <collection>მცხეთა</collection>                
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">შეწირვითი</seg>
+                            <seg xml:lang="en">Donating</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/109">ბრინჯაო</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/165">მედალი</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/165">Medal</objectType>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        <p xml:lang="ka">As: გამოხატულია დიდებულის თავი, მის გასწვრივ ორსავე მხარეს ბერძნული წარწერით, Rs: გამოხატულია ჰერმესი მწყემსის კომბლით და მის გვერდზე თავდახრილი ხარით, 
+                                წინ მცენარით და ზემოთ ვარსკვლავით. ამ პირზედაც ორსავე მხარეს გასწვრივ არის ბერძნული წარწერა.</p>
+                                        <p xml:lang="en">
+                                            AS has the ornament of the nobleman, the Greek inscriptions along both of the sides.
+RS has the ornament of Hermes with a shepherd’s crook, an ox on his side with its head down, a plant in front of him and a star above his head. On this side of the medal we also have Greek inscriptions along the ornament.
+                                        </p>
+                                      <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                      </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                             <p xml:lang="ka">I წარწერა მკაფიოა, მეორე ნაწილობრივ დაზიანებული.</p>
+                             <p xml:lang="en">The 1st inscription is clear, the 2nd one is damaged.</p>
+                                <height/>
+                                <width/>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>
+                                   <seg xml:lang="ka">სამთავროს უბანი, მცხეთა</seg>
+                                    <seg xml:lang="en">
+                                        Samtavro, Mtskheta
+                                    </seg>
+                                </origPlace>
+                                <origDate notBefore-custom="0101" notAfter-custom="0150" evidence="lettering" datingMethod="#julian">
+                                    <seg xml:lang="ka">II ს-ის პირველი ნახევარი</seg>
+                                    <seg xml:lang="en">the first half of II</seg>
+                                </origDate>
+                                </origin>
+                            <provenance type="found" when="1920">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863882">
+                                    <seg xml:lang="ka">სამთავროს უბანი, მცხეთა</seg>
+                                    <seg xml:lang="en">
+                                        Samtavro, Mtskheta
+                                    </seg>
+                                </placeName> 
+                                <rs type="circumstances">
+                                    <seg xml:lang="ka">მედალი აღმოჩენილია სამთავროს უბანში არქეოლოგიური გათხრებისას.</seg>
+                                    <seg xml:lang="en">
+                                        The medal was found in the district of Samtavro during the archaeological excavations. 
+                                    </seg>
+                                </rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                         
+                            <provenance type="observed">
+                            <placeName type="modernSpot" ref="http://museum.ge">
+                                <seg xml:lang="ka">საქართველოს ეროვნული მუზეუმი</seg>
+                                <seg xml:lang="en">National Museum of Georgia</seg>
+                            </placeName>
+                            <idno>2–23/25</idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <surface>
+            <graphic url="ecg021_1.jpg">
+                <desc xml:lang="ka">მედალი სამთავროდან, 1920 (As)</desc>
+                <desc xml:lang="en">Medal from Samtavro, 1920 (As)</desc>
+            </graphic>
+            <graphic url="ecg021_2.jpg">
+                <desc xml:lang="ka">მედალი სამთავროდან, 1920 (Rs)</desc>
+                <desc xml:lang="en">Medal from Samtavro, 1920 (Rs)</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+            
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 267</citedRange></bibl></p>
+                
+            </div>
+           
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!-- Ἀντίνοον θεόν, ἡ πατρίς
+                        Ἁδριανοῦ Βιθυνι[έ]ων
+
+                                                                         -->
+                     
+            
+         <div type="textpart" subtype="side" n="1">
+         <ab>
+             <persName type="local" key="ანტინოოსი (Ἀντίνοος)"><name nymRef="Ἀντίνοος">Ἀντίνοον</name></persName> <w lemma="θεός">θεόν</w> <w lemma="ὁ">ἡ</w> <w lemma="πατρίς">πατρίς</w>
+         </ab>  
+         </div>
+         <div type="textpart" subtype="side" n="2">
+           <ab>
+               <persName type="local" key="ადრიანოსი (Ἁδριανός)"><name nymRef="Ἁδριανός">Ἁδριαν<supplied reason="subaudible">ο</supplied>ῦ</name></persName> <placeName type="ethnic" nymRef="Βιθυνίεος" ref="https://pleiades.stoa.org/places/511189">Βιθυνι<supplied reason="lost">έ</supplied><choice><corr>ω</corr><sic>ο</sic></choice>ν</placeName>
+           </ab>  
+         </div>
+            </div>
+                
+            <div type="translation" >
+                
+                <p xml:lang="ka">ანტინოეს, ღმერთს, სამშობლო
+                    ადრიანეს ბითვინიონელთაგან</p>
+                <p xml:lang="en">To Antinoe, the God, from the homeland of Adriane from Bitvinion.</p>
+                
+            </div>
+            
+           <div type="commentary">
+                <p xml:lang="ka">ისტორიული მონაცემებისა და პალეოგრაფიული ნიშნების (ω–ს ხმარება ο–ს მაგივრად)საფუძველზე მედალი II ს–ის პირველი ნახევრით თარიღდება.
+                    ანტინოე, წარმოშობით ქ. ბითვინიონიდან, გარდაიცვალა 130 წელს, იგი გააღმერთა ადრიანემ, დააარსა მისი სახელობის ქალაქი, ააგო მისი სახელობის ტაძრები, ქანდაკებები, 
+                მოჭრა მონეტები (134–137 წლებში ძირითადად), ერთ-ერთ ვარსკვლავს უწოდა მისი სახელი.
+                ადრიანე თავისი და ბითვინიონელთა სამშობლოს სახელით გაღმერთებულ ანტინოეს უძღვნის ამ მედალს.</p>
+               <p xml:lang="en">
+                   According to historical and paleographic data (usage of o instead of ω) the inscription can be dated to the 1st half of the II century.
+Antinoe from Bitvinion passed away in 130, Adriane glorified him by founding a city after his name, by building the temples and statues, he also minted the coin after his name (mostly 134–137 years) and named one of the stars after his name.
+
+Adriane with his and Bitvinion’s homeland dedicated this medal to godelike Antinoe. 
+
+               </p>
+               
+               </div>
+
+         </body>
+    </text>
+</TEI>
+
+
+

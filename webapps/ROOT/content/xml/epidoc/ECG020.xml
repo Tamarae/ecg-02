@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ოქროს ბეჭედი წარწერით „დედატოს“</title>
+                <title xml:lang="en">Golden ring with the inscription “Dedatos”</title>
+                <editor xml:lang="ka">თინათინ ყაუხჩიშვილი</editor>
+                <editor xml:lang="en">Tinatin Kaukhchishvili</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG020</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ვანი</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მემორიალური</seg>
+                            <seg xml:lang="en">Memorial</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/112">ოქრო</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/112">Gold</material>
+                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/168">ბეჭედი</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/168">Ring</objectType>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                      <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                      </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p xml:lang="ka">ბეჭდის ფარაკზე გამოსახული ღვთაების ირგვლივ ნეგატიურად ჩაჭდეულია ბერძნული მთავრული წარწერა.
+                                წარწერის დათარიღება ხდება ასოთა მოხაზულობის მიხედვით (კუთხოვანი Ε, Α სწორი შემაერთებელი ხაზით, Σ–ის ფრაგმენტით, უფრო
+                                მსხვილ ასოებში პატარა ზომის ο–ის ჩართვით).</p>
+                                <p xml:lang="en">
+                                The Greek capital letter inscription is engraved in a reversed way around the ornament of a goddess on the surface of the signet ring. It is possible to date the inscription according to
+                                the shape of the latters (square shape E, A with straight crossbar, only a fragment of Σ, fitting small o inside the letters of bigger shape).
+                                </p>
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <seg xml:lang="ka">ბეჭდის ფარაკზე გამოსახულია მდედრობითი სქესის ღვთაება</seg>
+                                <seg xml:lang="en">The ornament on the surface of the signet ring is a female goddess.</seg>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>
+                                    <seg xml:lang="ka">ვანი</seg>
+                                    <seg xml:lang="en">Vani</seg>
+                                </origPlace>
+                                <origDate notBefore-custom="-0400" notAfter-custom="-0201" precision="medium"
+                                    evidence="lettering" datingMethod="#julian">IV-III BC</origDate>
+                                    <p xml:lang="ka">სხვა დათარიღება: ო. ლორთქიფანიძე ათარიღებს ძვ.წ. IV ს–ის პირველი ნახევრით იმავე წარწერისა და ნივთის მთლიანი ანალიზის საფუძველზე.</p>
+                                    <p xml:lang="en">Other dates: O. Lortkipanidze gives the inscription the date of IV BC on the basis of analysis of the entire item.</p>
+                                  </origin>
+                            <provenance type="found" when="1986">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863918">ვანი</placeName>
+                                <rs type="circumstances">
+                                    <seg xml:lang="ka">ნივთი მოპოვებულია წარჩინებული მეომრის სამარხში, ბეჭედი ადგილობრივ სახელოსნოში უნდა იყოს დამზადებული.</seg>
+                                    <seg xml:lang="en">The item was found in the grave of a noble soldier, the ring should have been forged in the local smithery.</seg>
+                                </rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">
+                            <placeName type="modernSpot">
+                                <seg xml:lang="ka">სახელმწიფო მუზეუმი</seg>
+                                <seg xml:lang="en">National Museum of Georgia</seg>
+                            </placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg020.jpg">
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/45/">ვანის ბეჭედი, 1986</desc>
+                <desc xml:lang="en" ref="http://paleography.iliauni.edu.ge/digipal/page/45/">Ring from Vani, 1986</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+
+    <text>
+        <body>
+
+             <div type="bibliography">
+
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 150</citedRange></bibl></p>
+
+            </div>
+
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+
+                        <!-- Δέδατος    -->
+
+         <ab>
+             <persName type="local" key="დედატოს (Δέδατος)"><name nymRef="Δέδατος">Δέδατος</name></persName>
+         </ab>
+            </div>
+
+            <div type="translation">
+                <p  xml:lang="ka">დედატოსი</p>
+                <p xml:lang="en">Dedatos</p>
+            </div>
+
+           <div type="commentary">
+                <p xml:lang="ka">დედატოსი მიჩნეულია ნივთის მფლობელის სახელად.</p>
+               <p xml:lang="en">“Dedatos” could be the name of the owner of the item.</p>
+           </div>
+
+        </body>
+    </text>
+</TEI>

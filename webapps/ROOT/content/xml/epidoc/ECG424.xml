@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>კაბენის ღვთისმშობლის ეკლესიის წარწერები</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG424</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="fragmentary">
+                    <msIdentifier>
+                        <collection>კაბენი</collection>                
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material></material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/178">ფრესკა</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="5">
+                                        კაბენის ეკლესიაში შემორჩენილია ფრესკათა ფრაგმენტები ქართული და ბერძნული წარწერებით. 
+                                        სამხრეთის თაღში, აღმოსავლეთის კუთხეში გამოსახულია ღვთისმშობელი ყრმით და მასზე წარწერით (თავის აქეთ-იქით); სამხრეთის მკლავის ნახევარსვეტის დასავლეთის 
+                                        წახნაგზე გამოსახულია ფეხშიშველა შარავანდედიანი მამაკაცი, მოკლე სამოსით, ხელში ბერძნულწარწერიანი გრაგნილით, წარწერა ძალიან არის დაზიანებული.
+                                    <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote> 
+                                ფრესკაზე წარწერები შესრულებულია ასომთავრული ბერძნულით. 
+                                წარწერისათვის დამახასიათებელია: გულმოდგინედ გამოყვანილი მთავრული ასოები (ნუსხურის შეურევლად), კუთხეების მკაფიო აღნიშვნით (Α), ლიგატურებით (ου).
+                             <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace></origPlace>
+                                <origDate notBefore-custom="1101" notAfter-custom="1300" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">XII-XIII AD</origDate>
+                              </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">კაბენის ღვთისმშობლის ეკლესია</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                         
+                            <provenance type="observed">
+                            <placeName type="modernSpot">კაბენის ღვთისმშობლის ეკლესია</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg424.jpg">
+                <desc xml:lang="ka">კაბენის ღვთისმშობლის ეკლესიის ფრესკა</desc>
+                <desc xml:lang="en">Fresco at the Kabeni Church of the Holy Mother of God</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 203</citedRange></bibl></p>
+                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 199-200</citedRange></bibl></p>
+                
+            </div>
+
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!--  Μ  Θ  Μ[ήτηρ] Θ[εοῦ] 
+                            .ΔΕΟΑ | ΜΝΟCΤΟΥ | ΘΥΟΑ..Ρ | ΤΙΝΑΜΑΡ | ΤΙΑΝΤΟΥ 
+                        [ἰ]δὲ, ὁ ἀ|μνὸς τοῦ | θ[εο]ῦ ὁ α[ἴ]ρ[ων] | τὴν ἁμαρ|τίαν τοῦ [κόσμου]-->
+                     
+            
+         <div type="textpart" subtype="fragment" n="1">
+         <ab>
+             <w lemma="μήτηρ"><expan><abbr>Μ</abbr><ex>ήτηρ</ex></expan></w> <w lemma="θεός"><expan><abbr>θ</abbr><ex>εοῦ</ex></expan></w>
+         </ab>    
+          </div> 
+                <div type="textpart" subtype="fragment" n="2">
+         <ab>
+             <lb n="1"/><w lemma="ἰδέ"><supplied reason="subaudible">ἰ</supplied>δὲ</w> <w lemma="ὁ">ὁ</w> <w lemma="ἀμνός">ἀ
+             <lb n="2" break="no"/>μνὸς</w> <w lemma="ὁ">τοῦ</w>
+             <lb n="3"/><w lemma="θεός"><expan><abbr>θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan></w> <w lemma="ὁ">ὁ</w> <w lemma="αἴρω">α<supplied reason="subaudible">ἴ</supplied>ρ<supplied reason="subaudible">ων</supplied></w>
+             <lb n="4"/><w lemma="ὁ">τὴν</w> <w lemma="ἁμαρτίαν">ἁμαρ
+             <lb n="5" break="no"/>τίαν</w> <w lemma="ὁ"><hi rend="ligature">τοῦ</hi></w> <w lemma="κόσμος"><supplied reason="subaudible">κόσμου</supplied></w>
+         </ab>    
+          </div> 
+                
+            </div>
+            
+            <div type="translation" subtype="fragment" n="1" xml:lang="ka">
+                <p>დედა ღმრთისა</p>
+            </div>
+            <div type="translation" subtype="fragment" n="2" xml:lang="ka">
+                <p>აჰა კრავი ღმრთისაჲ, რომელმან აღიხუნეს ცოდვანი სოფლისანი (ინე, 1, 29)</p>
+            </div>
+            
+            <div type="apparatus" xml:space="preserve">                                                               <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app><lem></lem>
+              <rdg></rdg>
+              </app></p>
+            </div>
+           
+            <div type="commentary">
+                <p> კაბენის, იგივე ყანჩავეთის ღვთისმშობლის ეკლესია (აგებული VIII-IX ს-ში და საფუძვლიანად გადაკეთებული XII-XIII სს-ში: Г. Чубинашвили, Архитектурные 
+                    памятники VIII и IX века в Ксанском ущелье: Ars Georgica I,  1-31. ექ. თაყაიშვილს ტაძარი XII-XIII სს-ში აგებულად მიაჩნია და XIV ს-ში გადაკეთებულად. 
+                   იხ. მისი Археологические экскурсии... V  114) ძალიან დაზიანებულია.</p>
+                <p>სამხრეთის თაღის წარწერაში შემოკლება ამ, ასე გავრცელებული წარწერისა მთლად ჩვეულებრივი არ არის: აქ აღებულია მხოლოდ პირველი ასოები ორივე სიტყვისა (Μ / Θ).</p>
+                <p>ტექსტის მიხედვით გამოსახული ფეხშიშველა შარავანდედიანი მამაკაცი არის იოანე ნათლისმცემელი.</p>
+                <p>კაბენის მხატვრობის ის ფენა, რაზედაც ბერძნული წარწერებია, ძირითადად XII-XIII სს-ით თარიღდება. შესაბამისად, ბერძნული წარწერაც ამ დროისაა.  
+                    რაიმე საგანგებო თავისებურება დამწერლობის თვალსაზრისით ამ წარწერას არ გაჩნია, მაგრამ იგი გვიანშუა საუკუნეების წარწერებთან შედარებით უფრო ადრეული ჩანს.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

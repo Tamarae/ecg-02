@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ბოლნისის სიონის V/VI სს. ფრაგმენტი</title>
+                <title xml:lang="en">Bolnisi Sioni Cathedral V/VI cc. fragment</title>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <editor xml:lang="en">Nodar Shoshiashvili</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <idno type="filename">ECG059</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <collection>ბოლნისი</collection>
+                    </msIdentifier>
+                     <msContents>
+                        <summary>
+                            <seg xml:lang="ka">ფრაგმენტი</seg>
+                            <seg xml:lang="en">Fragment</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType xml:lang="ka"  ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფილა</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">Plaque</objectType>
+                                    <material xml:lang="ka"  ref="http://www.eagle-network.eu/voc/material/lod/2">მოყვითალო ქვა</material>
+                                    <material xml:lang="en"  ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
+                                    <dimensions unit="cm">
+                                        <height>20</height>
+                                        <width>20</width>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="2">
+                                    <seg xml:lang="ka">წარწერა ორსტრიქონიანია. იგი ამოკვეთილია ფილის დადაბლებულ ფონზე.</seg>
+                                    <seg xml:lang="en">Two line inscription. The inscription is carved on a lowered background.</seg>
+                                        <dimensions unit="cm">
+                                        <height>8</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                   </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="embossed">
+                                <seg xml:lang="ka"><rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
+                                <seg xml:lang="en">Embossed Asomtavruli inscription</seg>
+                             <height unit="cm">3</height>
+                                
+                           </handNote>
+                        </handDesc>
+                    </physDesc>                    
+                   <history>
+                        <origin>
+                            <origPlace ref="https://memkvidreoba.gov.ge/objects/immovable/immovableObject?id=24984">
+                                <seg xml:lang="ka">ბოლნისის სიონი</seg>
+                                <seg xml:lang="en">Bolnisi Sioni</seg>
+                            </origPlace>
+                           <origDate notBefore="0400" notAfter="0600">V-VI AD</origDate>
+                        </origin>
+                        
+                        <provenance type="found" when="1937">
+                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">
+                                <seg xml:lang="ka">ბოლნისის სიონი</seg>
+                                <seg xml:lang="en">Bolnisi Sioni</seg>
+                            </placeName>
+                            <!-- 41.389081, 44.512551 --> 
+                            <rs type="monuList"/>
+                            <rs type="circumstances">
+                                <seg xml:lang="ka">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში, 
+                                9 კმ. მანძილზე ქ. ბოლნისიდან სამხრეთით, 1 კმ. მანძილზე სოფ. ბონის-ხაჩინიდან. 
+                                წარწერა ბოლნისის სიონის ტერიტორიაზე 1937 წელს აღმოაჩინა კულტურულ ძეგლთა
+                            დაცვის კომიტეტის მიერ მოწყობილმა არქეოლოგიურმა ექსპედიციამ, რომელსაც ლევან მუსხელიშვილი ხელმძღვანელობდა.</seg>
+                                <seg xml:lang="en">Bolnisi Sioni Cathedral is located in Kvemo Kartli, 9 km away from city Bolnisi to the south, 1 km distance from the village Bonis-Khachini. The inscription was discovered during the archaeological expedition held by the Cultural Heritage Preservation Committee supervised by Levan Muskhelishvili in 1937.</seg>
+                            </rs>
+                            <rs type="context"/>
+                        </provenance>                     
+                        <provenance type="observed">
+                            <placeName type="modernSpot" ref="http://museum.ge/">
+                                <seg xml:lang="ka">საქართველოს ეროვნული მუზეუმი</seg>
+                                <seg xml:lang="en">National Museum of Georgia</seg>
+                            </placeName>
+                             <idno type="invNo">329</idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg059.jpg">
+                <desc xml:lang="ka">ბოლნისის სიონის V/VI სს. ფრაგმენტი</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="bibliography"> 
+                
+                    <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები<ptr target="bibliography.xml#b101"/>, <citedRange> 77</citedRange></bibl></p>                 
+                    <p><bibl n="2">Н. Г. Чубинашвили, Болнисский сион<ptr target="bibliography.xml#b45"/>, <citedRange>102-103</citedRange></bibl></p>
+                    <p><bibl n="3">საქართველოს სახელმწიფო მუზეუმის ქართული ეპიგრაფიკული ძეგლების კატალოგი<ptr target="bibliography.xml#b111"/>, <citedRange> 44</citedRange></bibl></p>
+                
+            </div> 
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">          
+
+                    <!-- „[იეს]უ გუ
+                        [ადი]დენ“  -->
+                      <ab>
+                         <lb n="1"/><name nymRef="იესუ"><supplied reason="lost">იეს</supplied>უ</name> 
+                                    <w lemma="დიდება">გუ
+                         <lb n="2" break="no"/><supplied reason="lost">ადი</supplied>დენ</w>
+                      </ab> </div>
+        
+            <div type="translation">
+                <p xml:lang="ka">იესო, გვადიდე</p>     
+                <p xml:lang="en">Jesus, glorify us</p>
+            </div>
+            
+            <div type="apparatus" xml:space="preserve"/>
+
+            <div type="commentary">
+                <p xml:lang="ka"> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #11. წარწერას განკვეთილობისა და ქარაგმის ნიშნები არ ახლავს. 
+                    სიტყვები ერთმანეთისგან არ არის დაცილებული. 
+                    ფილის ჩამოტეხილ ზედა ნაწილზე ალბათ ამოკვეთილი იყო „ბოლნური ჯვარი“.
+                  </p>
+                <p xml:lang="en">According to the Corpus of Georgian inscriptions by Nodar Shoshiashvili the inscription N11. No sign of the spaces between words or the abbreviations. No spaces between the words.. It is likely that on the top part of the broken plaque a “Bolnisi Cross” was engraved.</p>
+              </div>         
+        </body>
+    </text>
+</TEI>

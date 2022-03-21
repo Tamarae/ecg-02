@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="ka">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">
+                    გუჯარეთის ხეობა. ტყემლოვანის ეკლესია, წარწერის ფრაგმენტი, X-XI სს.
+                </title>
+                <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
+                <editor xml:lang="ka">დევი ბერძენიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                 <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">
+                 ECG497
+                 </idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            თორის წარწერების კორპუსი
+                        </collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                        <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="1">
+                                        <dimensions unit="cm">
+                                            <width></width>
+                                            <height></height>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli">ასომთავრულით არის შესრულებული.
+                                წარწერაში ქარაგმისა და განკვეთილობის ნიშანი არ იკითხება.
+                                <width></width>
+                                <height></height>
+                                 </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>გუჯარეთის ხეობა. ტყემლოვანის ეკლესია</origPlace>
+                                <origDate>X-XI AD</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">გუჯარეთის ხეობა. ტყემლოვანის ეკლესია</placeName>
+                                <rs type="circumstances">დევი ბერძენიშვილს შეუმჩნევია აღმოსავლეთ ფასადის თავსართები, რომელიც მის დროს ძირში იყო ჩამოვარდნილი.</rs>
+                                <rs type="context">აღმოსავლეთ ფასადის ეს წარწერა დევი ბერძენიშვილმა გადმოწერა</rs>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">გუჯარეთის ხეობა. ტყემლოვანის ეკლესია.
+                            <placeName type="modernSpot">გუჯარეთის ხეობა. ტყემლოვანის ეკლესია</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2019-12-20" who="Tchanturia">
+                წარწერის სრული კოდირება, გარე ანოტირება, პირთა სახელების, ლემების მითითება, ბიბლიოგრაფია,ბმულებით დაკავშირება გარე კონტროლირებად ლექსიკონთან.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!-- წარწერის ფოტოდოკუმენტაცია -->
+    <facsimile>
+        <surface>
+            <graphic url="ecg497.jpg">
+                <desc xml:lang="ka">წარწერის ფრაგმენტი</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+           <div type="bibliography"> <!-- არ ემთხვევა ბიბლიოგრაფიას, სილოგავას 1987 წლის ნაშრომი არ იძებნება -->
+               
+                <p><bibl n="1">თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი<ptr target="bibliography.xml#b234"/>,<citedRange>41-42 </citedRange>2019</bibl></p>
+                <p><bibl n="2">დევი ბერძენიშვილი, არქიტექტურულ-ისტორიული გზამკვლევი "გუჯარეთი"<ptr target="bibliography.xml#b240"/>,<citedRange>26 </citedRange>1987</bibl></p>
+                <p><bibl n="3">თამაზ გოგოლაძე, ბორჯომის ხეობის ისტორიული და ხუროთმოძღვრული ძეგლები (გზამკვლევი)<ptr target="bibliography.xml#b241"/>,<citedRange>96 </citedRange>2014</bibl></p>
+            
+           </div>
+            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">     
+                        <!--ეკ(ლესიაჲ) ... წმიდაჲ-->
+                <ab>
+                    <lb n="1"/><w lemma="ეკლესია"><expan><abbr>ეკ</abbr><ex>ლესიაჲ</ex></expan></w> <w lemma="წმიდა">წმიდაჲ</w>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ka"/>
+            <div type="apparatus" xml:space="preserve"/>
+            <div type="commentary"><p>ამჟამად წარწერა ტაძრის ინტერიერში აღარ არის</p>
+                 <p>დევი ბერძენიშვილი წარწერის თარიღს X-XI საუკუნეებით განვსაზღვრავს.</p>
+            </div>
+
+         </body>
+    </text>
+</TEI>

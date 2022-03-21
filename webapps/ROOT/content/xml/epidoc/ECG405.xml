@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>სიმონ კანანელის ტაძრის ბერძნული წარწერა</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+                <editor>В. В. Латышев</editor>
+                <editor>Архимандрит Леонид Кавелин</editor>
+                <editor>И. Помяловский</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG405</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ახალი ათონი</collection>                
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/111">ჯვარი</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        სიმონ კანანელის ტაძრის სამხრეთ კედელზე, კარების თავზე, დედამიწიდან 1 მ. 95 სმ-ის სიმაღლეზე გაკეთებულია რელიეფური ჯვარი, რომელშიც ჩაჭრილია 
+                                        ბერძნული წარწერა. წარწერა არის ასევე ჯვრის მარცხნივ და მარჯვნივ (ამ წარწერებიდან ჯვრის ქვემოთა ფეხამდე 74 სმ-ია, ე.ი. სიმაღლეზე ამ გამოსახულებას 
+                                        და წარწერებს უჭირავს 2 მ. 70 სმ, ხოლო სიგანე - 2 მ. 2 სმ). 
+                                    <dimensions unit="cm">
+                                        <width>270</width>
+                                        <height>202</height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote> 
+                                ასოები მთავრულია (ჯვარში ჩაწერილი ასოები (Ν, Χ, C) დაახლ. 5 სმ-ის სიმაღლისაა და 3-4 სმ-ის სიგანისაა; ჯვარის გარეთა ასოები სიმაღლით 10 სმ, სიგანით - 
+                                7-10 სმ. აქვთ ზემოდან დაქარაგმების ნიშანი 10-15 სმ-ის სიგრძის (ასოს სიგანის შესაბამისად).
+                                <height unit="cm" precision="medium">5-10</height>
+                                <width unit="cm" precision="medium">3-10</width>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ახალი ათონი</origPlace>
+                                <origDate notBefore-custom="0801" notAfter-custom="1000" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">IX-X AD</origDate>
+                              </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">ახალი ათონი</placeName> 
+                                <rs type="circumstances">ჯვარი ეკუთვნის სიმონ კანანელის ტაძარს.</rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                         
+                            <provenance type="observed">
+                            <placeName type="modernSpot"></placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>  
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg405.jpg">
+                <desc xml:lang="ka">სიმონ კანანელის ტაძრის ჯვარი</desc>
+                <desc xml:lang="en">Cross at the Church of St. Simon the Canaanite</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 67-68</citedRange></bibl></p>
+                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, საქართველოს ისტორიის ძველი ბერძნული წყაროები<ptr target="bibliography.xml#b136"/>, <citedRange> 19-20</citedRange></bibl></p>
+                    <p><bibl n="3">В. В. Латышев, Греческие надписи из Ново-Афонского монастыря<ptr target="bibliography.xml#b177"/>, <citedRange> 3</citedRange></bibl></p>
+                    <p><bibl n="4">Архимандрит Леонид Кавелин, Абхазия и в ней Ново-Афонский Симоно-Кананитский монастырь<ptr target="bibliography.xml#b178"/>, <citedRange> 50</citedRange></bibl></p>
+                    <p><bibl n="5">И. Н., Абхазия и в ней Ново-Афонский Симоно-Кананитский монастырь<ptr target="bibliography.xml#b179"/>, <citedRange> 114</citedRange></bibl></p>
+                    <p><bibl n="5">И. Помяловский, Сборник греческих и латинских надписей Кавказа<ptr target="bibliography.xml#b180"/>, <citedRange> 41</citedRange></bibl></p>
+                
+            </div>
+
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!--  Μ Φ C || Γ Υ Ζ    ΙC | ΧC || ΝΙ  Α-->
+                     
+            
+         <ab>
+             <w lemma="μήτηρ"><expan><abbr>Μ</abbr><ex>ήτηρ</ex></expan></w> <w lemma="φῶς"><expan><abbr>Φ</abbr><ex>ωτὸς</ex></expan></w> <w lemma="σωτήρ">Σωτῆρος</w>
+             <persName><forename nymRef="Γεώργιος">Γεώργιος</forename></persName> <w lemma="ὑπέρτιμος">Ὑπέρτιμος</w> <placeName nymRef="Ζικχία">Ζικχίας</placeName>
+             <persName><forename nymRef="Ἰησοῦς"><expan><abbr>Ἰ</abbr><ex>ησοῦ</ex><abbr>ς</abbr></expan></forename></persName> <persName><name nymRef="Χριστός"><expan><abbr>Χ</abbr><ex>ριστό</ex><abbr>ς</abbr></expan></name></persName>
+             <w lemma="νικάω"><expan><abbr>νι</abbr><ex>κ</ex><abbr>ᾷ</abbr></expan></w>
+         </ab>    
+             
+         
+            </div>
+                
+            <div type="translation" xml:lang="ka">
+                <p>დედა ნათლისა მაცხოვრისა, გიორგი ყოვლადპატიოსანი (წინამძღვარი) ჯიქეთისა (?)
+                იესუ ქრისტე, ძლევაჲ </p>
+            </div>
+            
+           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app><lem>σωτήρ</lem>
+              <rdg resp="თ. ყაუხჩიშვილი">Σῶσον</rdg>
+              </app></p>
+            </div>
+           
+            <div type="commentary">
+                <p>თარგმანის მეორე ვარიანტი - დედაო ნათლისაო, იხსენ გიორგი ყოვლადპატიოსანი (წინამძღვარი) ჯიქეთისა(?).</p>
+                <p>წარმოდგენილი დათარიღების საფუძველია ასოთა მოხაზულობა (Φ, Ζ, C, Μ). ძეგლის არქიტექტურა (Л. Д. Рчеулишвили, Некоторые аспекты грузинской архитектуры 
+                    Черноморского побережья: Русь. Грузия, М. 1978.  26). დათარიღება სხვა გამოცემებში: А. Л. ( 50) და И. Н. ( 114) მას მიიჩნევენ საფლავის ქვის წარწერად, 
+                შემდეგ, XII ს-ის რესტავრაციის დროს ჩასმულად კედელში.</p>
+                <p>წარწერა ლიტერატურაში კარგად არის ცნობილი. იგი მოყვანილია ი. პომიალოვსკის კრებულში ( 41). პომიალოვსკის მოცემული აქვს დესტუნისის წაკითხვა: 
+                    Μ(ή)τ(ηρ) Φ(ω)τ(ὸς) Σ(ω)τ(ῆρος). იგივე წარწერა მოყვანილი აქვს ლატიშევს ( 3), ამ ასოების მნიშვნელობაზე არაფერს ამბობს. ყველაზე საინტერესო ამოკითხვა აქვს И. Н.-ს 
+                ( 14) Μ(ήτερ) θ(εοῦ) C(ῶσον) Γ(εοργίον) Υ(περτίμον) Σ(κόμης) = Мать божия! Спаси Георгия пречестного (митрополита) Цхемского (= Сухумского). მას ეს მიაჩნია საფლავზედა 
+                ქვად, ხოლო ასოებს ზემოთ მოთავსებული τ-ები ქარაგმის ნიშნად. И. Н.-ს ზოგი ფაქტიური შეცდომა აქვს: სინამდვილეში ΙΙ ასო არის Φ (და არა Θ), ხოლო უკანასკნელი - Ζ და არა Σ, 
+                ამდენად ვერ იქნება θεοῦ და Σκόμης (სოხუმი). გარდა ამისა, ძნელი წარმოსადგენია, რომ ეს იყოს საფლავზედა ქვა შემდეგ ჩასმული ტაძარში. საფლავის ქვაზე წარწერა ასეთი სახის არ 
+                იქნებოდა: დაწერილობა ქვის სიგრძეზე (და არა სიგანეზე) საფლავის ქვებზე ძველად არ გვხვდება. ეს წარწერა სპეციალურად ამ ტაძრისთვის არის გაკეთებული, ან ტაძრის აშენებამდე, 
+                ან შემდეგ, ზედვე. თუ დავუშვებთ, რომ И. Н.-ს ამოშიფრვის იდეა სწორია, მაშინ Ζ შეიძლება იყოს Ζικχία - ჯიქეთი. ჯიქეთის 3 ეპარქია იყო ცნობილი (იხ. Georgii Cypri Descriptio 
+                orbis romani. Lipsiae 1890,  4: № 65, 66, 67: ἐπαρχία Ζικχίας - ὁ Χερσῶνος, ἐπαρχία τῆς αὐτῆς - ὁ Βοσπόρων, ἐπαρχία τῆς αὐτῆς ὁ Νικόψεως). შესაძლებელია ერთ-ერთი 
+                ამ ეპარქიის (თუნდაც ნიკოფსიის) მიტროპოლიტი არის მართლაც მოხსენებული ამ წარწერაში. მაინც ეს ამოკითხვა ძალიან სათუოა, მით უფრო რომ ჯიქეთის მიტროპოლიტი სხვა წყაროებით 
+                ცნობილი არ არის. უფრო საფიქრებელია, რომ სიმბოლური მნიშვნელობის წარწერაა წარმოდგენილი.</p>
+            </div>
+         </body>
+    </text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> -->
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ბედიის ანტონ ბედიელის წარწერა</title>
+                <editor>ლია ახალაძე</editor> 
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
+                 <idno type="filename">ECG447</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc> 
+                    <msIdentifier> 
+                        <collection>ბედია</collection> 
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სავედრებელი</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <objectType ref="www.eagle-network.eu/voc/objtyp/lod/1483">ფილა</objectType>
+                                        <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout wtittenLines="3">
+                                        <dimensions unit="cm">
+                                            <width>79</width> 
+                                            <height>33</height>
+                                        </dimensions>
+                                    </layout>
+                                    
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtvaruli" style="engraved">წარწერა ასომთავრული ანბანით არის შესრულებული ღრმა კვეთით, შეწიაღებული დამწერლობით. წარწერიანი ფილა ბედიის მონასტრის აღმოსავლეთის (მარჯვენა) შესასვლელის ტიმპანია. განკვეთილობის ნიშანი: სამწერტილი მარჯვნივ წაწვეტებით ყოველი სიტყვის შემდეგ. ქარაგმის ნიშნები არ ახლავს.</handNote> <!-- engraved პირობითად მივუთითე, ამაზე არ გვითქვამს, როგორია შეთანხმება -->
+                            <height unit="cm">4-7-10</height>
+                       </handDesc>
+                        <decoDesc>
+                            <decoNote>წარწერა შესრულებულია მოწითალო ფერის ქვაზე. ყოველი სტრიქონი ჩასმულია პარალელური ჰორიზონტალური ხაზებით შექმნილ სწორკუთხედებში, რომელთა წამახვილებული ბოლოები მთავრდება სტილიზებული ორნამენტით.</decoNote> <!-- წამახვილებული ბოლოები წიდურწაისრულობას თუ ნიშნავს, დავამატებ, მაგრამ არ უნდა ნიშნავდეს, ორნამენტით მთავდრებაო. დასაზუსტებელია -->
+                        </decoDesc>
+                        </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ბედია</origPlace>
+                                <origDate notBefore="1532" notAfter="1571">1532-1571</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">ბედიის მონასტერი</placeName>
+                                <rs type="circumstances"/>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                            <provenance type="observed">
+                            <placeName type="modernSpot">ბედიის მონასტერი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc> <change when="2019-06-20" who="TG">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან.</change></revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                <ab>
+                    <!-- აღმაშე(ნე)ბელი პალატისა ამის ე(პისკოპოსი), ბედიელ მიტრაპოლიტი ანტონი [ჟუანისძე, შ(ეუნდო)ს ღ(მერთმა)ნ, ა(მე)ნ]-->
+                    <lb n="1"/> <w lemma="აღმაშენებელი"><expan><abbr>აღმაშე</abbr><ex>ნე</ex><abbr>ბელი</abbr></expan></w> <w lemma="პალატი">პალატისა</w> <e lemma="ამ">ამის</e> <roleName><expan><abbr>ე</abbr><ex>პისკოპოსი</ex></expan></roleName>
+                    <lb n="2"/> <placeName type="ethnic" ref="ბედიელი">ბედიელ</placeName> <roleName nymRef="მიტროპოლიტი">მიტრაპოლიტი</roleName> <persName type="local" key="ანტონ ჟუანისძე [ბედიის მიტროპოლიტი]">ანტონი</persName>
+                    <lb n="3"/> <supplied reason="lost"><persName>ჟუანისძე</persName> <w lemma="უნდობს"><expan><abbr>შ</abbr><ex>ეუნდო</ex><abbr>ს</abbr></expan></w> <w lemma="ღმერთი"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> <w lemma="ამინ"><expan><abbr>ა</abbr><ex>მე</ex><ex>ნ</ex></expan></w></supplied>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ka">ამ პალატის აღმშენებელ, ბედიელ მიტროპოლიტ ანტონ ჟუანისძეს შეუნდოს ღმერთმა, ამინ</div>
+            <div type="apparatus" xml:space="preserve"> </div>
+            <div type="commentary">წარწერა ქვის ატკეცვის შედეგად ადგილ-ადგილ (მე-2 სტრ. შუა ნაწილი, მე-3 სტრ. თითქმის მთიანად) დაზიანებულია</div>          
+            <div type="bibliography" subtype="principalEdition"> 
+                           
+                    <p><bibl type="publication" subtype="principal" xml:lang="ka">
+                      <author>
+                          <persName>
+                            <forename></forename>
+                            <surname></surname>
+                          </persName>
+                      </author>
+                      <title/>
+                        <edition/>
+                        <pubPlace/>
+                        <publisher/>
+                        <date></date>
+                     </bibl></p>
+                
+            </div>         
+         </body>
+    </text>
+</TEI>

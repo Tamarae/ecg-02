@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ka">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ოქროს ბეჭედი</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+                <editor>მარგარიტა ლორთქიფანიძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG268</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>არმაზისხევი</collection>                
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მემორიალური</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="http://www.eagle-network.eu/voc/material/lod/112">ოქრო</material>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/168">ბეჭედი</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                      ოქროს ბეჭედზე დამაგრებულია პრამეზის ქვა, რომელზედაც გამოსახულია მამაკაცი პროფილში, ალექსანდრე მაკედონელი, ხოლო ქვემოთ 
+                                      გამოყვანილია ბერძნული სახელი. წარწერას ძალიან ვიწრო ზოლი უჭირავს ქვემოთა ნაპირზე.
+                                      <dimensions unit="mm">
+                                        <width>15</width>
+                                        <height>12</height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                               <p>წარწერა შესრულებულია ნეგატიურად, არა ღრმა ჭრილით, მთლად წვრილი ასოებით. </p>
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote><p>ბეჭდის ქვაზე გამოსახულია ალექსანდრე მაკედონელი პროფილში</p>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>არმაზისხევი</origPlace>
+                                <origDate notBefore-custom="0001" notAfter-custom="0100" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">I AD</origDate>
+                              </origin>
+                            <provenance type="found" when="1940">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863746">არმაზისხევი</placeName> 
+                                <rs type="circumstances">ნივთი აღმოჩენილია არმაზისხევში, ე.წ. ბერსუმას სამარხში.</rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                       
+                            <provenance type="observed">
+                            <placeName type="modernSpot">საქართველოს მუზეუმი</placeName>
+                            <idno>№ ა40/III12</idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>    
+    <facsimile>
+        <surface>
+            <graphic url="ecg268.jpg">
+                <desc xml:lang="ka">ოქროს ბეჭედი არმაზისხევიდან, 1940</desc>
+                <desc xml:lang="en">Gold ring from Armaziskhevi, 1940</desc>
+            </graphic>
+        </surface>
+    </facsimile>    
+    <text>
+        <body>
+            <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 261</citedRange></bibl></p>
+                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 263-264</citedRange></bibl></p>
+                    <p><bibl n="3">მარგარიტა ლორთქიფანიძე, ძველი საქართველოს გლიპტიკური ძეგლების კორპუსი<ptr target="bibliography.xml#b151"/>, <citedRange> 136</citedRange></bibl></p>
+                
+            </div> 
+                        
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!--  Πλάτων  -->
+         <ab>
+             <persName><name nymRef="Πλάτων">Πλάτων</name></persName>
+         </ab>    
+            </div>
+                
+            <div type="translation" xml:lang="ka">
+                <p>პლატონი</p>
+            </div>
+            
+           <div type="apparatus" xml:space="preserve"/>                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+           
+            <div type="commentary">
+                <p>პლატონი მიჩნეულია საქართველოში მოღვაწე ბერძენ ოსტატად. დათარიღების საფუძველია ასოთა მოხაზულობა ( ჩატეხილი შუა ხაზით, ω მაღალი შუა შტრიხით). მხატვრული ანალიზის საფუძველზე მარგ. ლორთქიფანიძე მას III 
+                ს-ით ათარიღებს.</p>
+            </div>
+            
+        </body>
+    </text>
+</TEI>
+

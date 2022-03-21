@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ეპიფანე არქიმანდრიტის გრაფიტი</title>
+                <editor>დარეჯან კლდიაშვილი</editor>
+                <editor>ზაზა სხირტლაძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
+                <idno type="filename">ECG555</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>საქართველო</country>
+                        <region>კახეთი</region>
+                         <settlement>საგარეჯოს მუნიციპალიტეტი</settlement>
+                         <collection>დავით-გარეჯი</collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material ref="www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                   <objectType>ფასადი</objectType>
+                                    <dimensions unit="cm">
+                                        <width/>
+                                         <height/>
+                                    </dimensions>
+                                </support></supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="3">3 სტრიქონიანი ტექსტი, რომლის პირველი სტრიქონი შესრულებულია
+                                                                             ასომთავრულით, მეორე და მესამე კი — მხედრულით, ამოკაწრულია
+                                                                             აღმოსავლეთ კედელზე, “სერობის“ კომპოზიციის შუა ნაწილში.
+                                                                             საფეხურიდან — 132, ჩრდილო კუთხიდან — 183.
+                                   <dimensions unit="cm">
+                                       <width>22,2</width>
+                                        <height>6,3</height>
+                                   </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>ასომთავრული და მხედრული. განკვეთილობის ნიშნად იხმარება წერტილი ან ორწერტილი; სიტყვები დაქარაგმებულია.
+                                <dimensions unit="cm"/>
+                                <height>0,2-1-1,6</height>
+                                 </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>დავით გარეჯი, უდაბნო, სატრაპეზო</origPlace>
+                                <origDate>XVIII</origDate>
+                            </origin>
+                                <provenance type="observed">
+                                <placeName type="modernSpot">დავით გარეჯი, უდაბნო, სატრაპეზო</placeName>
+                                <rs type="circumstances"/>
+                                    <idno/>
+                            </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
+                        <!--
+                          1. ქ(რისტ)ე ღ(მერ)თ[ო  მო]
+                          2. მეც მე, [წ]ილი სერობაჲს მონას შენს
+                          3. არხიმანდრიტს ეპიფ[ა]ნეს.
+                            .  -->
+
+             <ab>
+                  <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
+                                     <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერ</ex><abbr>თ</abbr><supplied reason="lost">ო</supplied></expan></w> <w lemma="აძლევს"><supplied reason="lost">მო</supplied>
+                  <lb n="2" break="no"/>მეც</w>
+                                     <w lemma="მე">მე</w>
+                                     <w lemma="წილი"><supplied reason="lost">წ</supplied>ილი</w>
+                                     <w lemma="სერობა">სერობაჲს</w>
+                                     <w lemma="მონა">მონას</w>
+                                     <w lemma="შენ">შენს</w>
+                 <lb n="3"/><roleName nymRef="არქიმანდრიტ"><w lemma="არქიმანდრიტ">არქიმანდრიტს</w></roleName>
+                                    <persName type="clergy" ref="clergy.xml#epiphane"><name nymRef="არქიმანდრიტი ეპიფანე">ეპიფ<supplied reason="lost">ა</supplied>ნეს</name></persName>
+             </ab>
+
+            </div>
+            <div type="translation" xml:lang="ka">
+            </div>
+            <div type="apparatus" xml:space="preserve"/>
+            <div type="commentary">
+            </div>
+
+            <div type="bibliography">
+                
+                    <p><bibl>
+                    </bibl></p>
+                
+             </div>
+
+         </body>
+    </text>
+</TEI>

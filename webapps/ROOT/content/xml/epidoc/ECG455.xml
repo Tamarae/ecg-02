@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ილორის გიორგი გურგენიძის წარწერა</title>
+                <author>ლია ახალაძე</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
+                 <idno type="filename">ECG455</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            ილორი
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სავედრებელი</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material>ქვა</material>
+                                   <objectType>ფილა</objectType> 
+                                        <dimensions>
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="2">
+                                       წარწერა მოთავსებულია წმინდა გიორგის რელიეფური გამოსახულების მარჯვნივ, ტაძრის სახურავის კეხის არეში  
+                                        <dimensions/>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script ="asomtavruli" style="inscribed">
+                                სამსტრიქონიანი ასომთავრული წარწერა, განკვეთილობის ნიშანი:ორწერტილი; ქარაგმის ნიშანი:კიდურწერტილოვანი,სწორი,განივი ხაზი.
+                                   <height/>
+                                 </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ილორის გიორგი გურგენიძის წარწერა</origPlace>
+                                <origDate/>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">ილორის გიორგი გურგენიძის წარწერა</placeName>
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                            <provenance type="observed">
+                            <placeName type="modernSpot"></placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+         <revisionDesc>
+            <change when="2019-05-05" who="skhulukhia"> ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, ბმულის დაკავშირება გარე კონტროლირებად ლექსიკონთან</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="images.jpg">
+                <desc xml:lang="ka">ილორის გიორგი გურგენიძის წარწერა</desc>
+                 <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!-- [წ(მიდა)ო] გ(იორგ)ი [ილო]რის(ა)ო [შ(ეიწყალ)ე] გ(იორგ)ი გურგე[ნ]-ის ძე -->
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><w lemma="წმიდა"><supplied reason="lost" precision="medium"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></supplied></w> <persName type="dividity"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></persName>
+                    <lb n="2"/><w lemma="ილორი"><expan><supplied reason="lost" precision="medium"><abbr>ილო</abbr></supplied><abbr>რის</abbr><ex>ა</ex><abbr>ო</abbr></expan></w> <w lemma="იწყალებს"><supplied reason="undefined" precision="medium"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></supplied></w>  
+                    <lb n="3"/><persName><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></persName> <persName><abbr>გურგე</abbr><supplied reason="omitted">ნ</supplied><abbr>ის</abbr></persName> <w lemma="ძე"><abbr>ძე</abbr></w>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ka"><p>ილორის წმინდა გიორგი, გიორგი გურგენის ძე შეიწყალე</p></div>
+            <div type="apparatus" xml:space="preserve"/>
+            <div type="commentary"><p>წარწერა შესრულებულია კიდურწერტილოვანი დამწერლობით. ფილის მარცხენა კიდე და მასზე მოთავსებული წარწერის სტრიქონთა დასაწყისი შელესილობით არის დაფარული. 
+                როგორც ჩანს, გიორგი გურგენიძე ადგილობრივი წარჩინებულია, რომელმაც ტაძრის მშენებლობაში გაწეული არქიტექტორული საქმიანობისთვის მიიღო სავედრებლის უფლება წარწერებში.
+                გამოჩემები:(169.49), (45.160-161), (164.814), (67.33),(158.365).
+            </p></div>
+            
+            <div type="bibliography" subtype="principalEdition">
+                           
+                    <p><bibl type="publication" subtype="principal" xml:lang="ka">
+                      <author>
+                          <persName>
+                            <forename></forename>
+                            <surname></surname>
+                          </persName>
+                      </author>
+                      <title/>
+                        <edition/>
+                        <pubPlace/>
+                        <publisher/>
+                        <date></date>
+                     </bibl></p>
+                
+            </div>         
+         </body>
+    </text>
+</TEI>

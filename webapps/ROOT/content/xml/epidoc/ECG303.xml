@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ინტალიო</title>
+                <editor>დევიდ ბრაუნდი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG303</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                <msIdentifier>
+                        <collection>
+                           ჟინვალი
+                        </collection>
+                    </msIdentifier>                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მემორიალური</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents> 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material></material>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1747">ბეჭედი - საბეჭდავი</objectType>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                         <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ჟინვალი</origPlace>
+                                <origDate notBefore-custom="0201" notAfter-custom="0300" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">III AD</origDate>
+                              </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">ჟინვალი</placeName> 
+                                <rs type="circumstances">საბეჭდავი აღმოჩენილია ჟინვალის სამარხში.</rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                         
+                            <provenance type="observed">
+                            <placeName type="modernSpot"></placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg303.jpg">
+                <desc xml:lang="ka">საბეჭდავი ჟინვალიდან</desc>
+                <desc xml:lang="en">Seal from Zhinvali</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                
+                    <p><bibl n="1">დევიდ ბრაუნდი, საქართველო ანტიკურ ხანაში: კოლხეთისა და ამიერკავკასიის იბერიის ისტორია ძვ.წ. 550-ახ.წ. 562 წლები<ptr target="bibliography.xml#b68"/>, <citedRange> 355-356</citedRange></bibl></p>
+                
+            </div>
+
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!-- ΒΑΚΥΡΑΛΑΝΑ -->
+                     
+
+         <ab>
+             <w lemma="Βακυραλανα">Βακυραλανα</w>
+         </ab>    
+             
+         
+            </div>
+                
+            <div type="translation" xml:lang="ka">
+                <p>ბაკურალანა</p>
+            </div>
+            
+           <div type="apparatus" xml:space="preserve"> <!-- კრიტიკული აპარატი -->
+            </div>
+           
+            <div type="commentary">
+                <p>ინტალიო დაკავშირებული უნდა იყოს იბერიის სამეფო საგვარეულოს წარმომადგენელ ბაკურთან. საეკლესიო ისტორიკოს რუფინუსთან შეხვედრამდე, ბაკური რამდენიმე 
+                წლის განმავლობაში რომის სამხედრო სამსახურში იდგა. ამიანე იბერიელ ბაკურს ახ.წ. 378 წლის ადრიანოპოლის ბრძოლაში მოიხსენიებს. აქ იგი გვევლინება, როგორც 
+                რომაული არმიის მგზნებარე tribunus sagittariorum. მიღებულია, და ალბათ მართებულადაც, მისი გაიგივება რუფინუსის ბაკურთან, მაგრამ ისიც უნდა აღინიშნოს, რომ 
+                იბერიელ დიდგვაროვანთა წრეში ბაკური იშვიათ სახელს არ წარმოადგენს: ეს სახელი არაერთგზის გვხვდება მეფეთა სიებში. რუფინუსისთვის ინფორმაციის მიმწოდებელი 
+                ახ.წ. 378-94 წლებში იყო dux Palaestinae და ამ ხნის განმავლობაში ისტორიკოსთან მას გულითადი ურთიერთობა ჩამოუყალიბდა. ახ.წ. 402-3 წლისთვის იგი იყო 
+                comes domesticorum. სიმამაცით გამოიჩინა თავი ფრიგიდუსთან ბრძოლაში 394 წელს. ამის შემდეგ იგი, შესაძლოა, იბერიაში დაბრუნდა და იქნებ მეფობდა კიდეც, მაგრამ 
+                ეს სრულიად გაურკვეველია.</p>
+                
+            </div>
+         </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+

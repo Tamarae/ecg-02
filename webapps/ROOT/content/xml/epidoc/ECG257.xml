@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">დაწერილი დმანელი მამათმთავრისა</title>
+                <editor xml:lang="ka">გიორგი ოთხმეზური</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <idno type="filename">ECG257</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/"> 
+                        დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            დმანისი
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">დაწერილი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType xml:lang="ka" ref="https://www.eagle-network.eu/voc/objtyp/lod/1402">მოცისფრო-მომწვანო პერანგის ფილა</objectType>
+                                    <material xml:lang="ka" ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <dimensions>
+                                        <width/>
+                                        <height/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="13">
+                                        ტაძრის დას. კარიბჭის დას. ფასადის თაღის მარცხენა მხარეს, მოცისფრო-მომწვანო ფერის პერანგის ფილაზე ამოკვეთილია 13 სტრიქონიანი წარწერა.
+                                    <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="script">ასომთავრული</rs>. ქარაგმის ნიშანი: <rs type="execution">კიდურწერტილოვანი</rs>, კლაკნილი, განივი, მოკლე ხაზი. განკვეთილობის ნიშანი: ორწერტილი, თითქმის ყოველი
+                                სიტყვის შემდეგ. გვხვდება რამდენიმე <rs type="execution">ლიგატურა</rs>. ქარაგმის ნიშანსა და გრაფემებზე შეიმჩნევა ოდნავი კიდურწერტილოვნება.
+                                <dimensions unit="cm">
+                                    <height/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>დმანისის კათედრალური ტაძარი</origPlace>
+                            <origDate>XIII AD</origDate>
+                        </origin>
+                        <provenance type="observed">
+                            <placeName type="modernSpot">დმანისის კათედრალური ტაძარი</placeName>
+                            <rs type="circumstances"/>
+                            <idno/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    
+    <!-- 
+    <facsimile>
+        <surface>
+            <graphic url="tskise_01.jpg">
+                <desc xml:lang="ka">წყისეს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile> -->
+    
+    <text>
+        <!--
+        1.†. სახ||[ე][ლ]ითა ღ[მრ]თის(ა)ით[ა] [და] [მეოხ](ე)ბ(ი)[თ][ა]                                                                  
+        2.[ყ](ოვლა)დ წ(მიდა)ჲსაჲ ღ||(მრთი)სმშობ[ელ(ი)ს(აჲ)]თ[ა],[ესე] [დ](ა)წ(ე)[რ]||ჲ
+        3.ლი ||[და] [ნ]ჲშ(ა)ნჲ, [მ][ე], [დ]||მ(ა)ნჲსის[ა] მ(ა)მ(ა)[დ][მთ(ა)ვ(ა)რმ(ა)ნ] [თ(ევ)დ(ო)სი] (?) [დ(ა)ვწ(ე)რე]
+        4.ეკლეს(ი)ჲსა კა[რ]||[ი]ს[ბ]ჭე[სა] [შ(ი)ნა ჩე]||[მ]სა შემოსუ[ლ](ა)სა [უ]ს(ა)მ(ა)[რთლო]
+        5.[ს][ა]მ(ა)რთ(ა)ლჲ იქ(მ)ნ(ე)ბოდა - უმეყ||ვსოთ(ა) [და უქონოთა] || [ქ][ა]ლ-ყმ(ა)თ[ა და] [მ]ამა-[დ][(ე)დ(ა)თა ქ(ო)რ]
+        6.წ(ი)ნებად არ მო(უ)შუებდ(ე)ს ვი||(დ)რე ოქროსა არ || [ა](ი)ღებდეს. [ვ]ჲთა [დ] (?) მ[ართ]
+        7.ალჲ ს(ა)მ(ა)რთალი იყო, ეგრე || ჩემსა დმ(ა)ნჲსისა || [მ](ა)მ(ათ)მთ(ა)ვრო[ბ](ა)სა შიგა [არაჲვისა] 
+        8.თუჲ[ს] ამ(ი)ღია, დავჲთ(ი)ს [დ][ღ]ეგრძელობაჲ[ს]ა, 
+        9.და ვ(ი)ნ[ც][ა] [შ](ე)[მ]დ||გ(ო)მ(ა)დ ჩემ[ს]||[ა] ა(ი)ღოს, 
+        10.წყევ(ა)სა[მ]||[ცა] ქუეშე || არ[ს], [ვ]ით
+        11.ა ნესტორ 
+        12.დ(ა) ოროგჲ 
+        13.ნე, ა(მე)ნ.
+        
+        -->
+        <body>
+            
+            <div type="bibliography">
+                
+                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>164-166</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
+                <p><bibl n="2">ლ. მუსხელიშვილი, დმანისი (ქალაქის ისტორია და ნაქალაქარის აღწერა), შოთა რუსთაველის ეპოქის მატერიალური კულტურის ძეგლები, თბილისი, 1938<citedRange>387-389</citedRange><ptr target="bibliography.xml#b222"/>   
+                </bibl></p>
+                <p><bibl n="3">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>36</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
+                
+                <p><bibl n="4">ვალერი სილოგავა, ქვემო ქართლის წარწერები (ზოგადი მიმოხილვა), კრებ. „დმანისი“, II, თბილისი 2000,
+                    <citedRange>246</citedRange><ptr target="bibliography.xml#b218"/>
+                </bibl></p>
+                
+                <p><bibl n="5">ვ. ჯაფარიძე, ადრეული შუა საუკუნეების არქეოლოგიური ძეგლები ქვემო ქართლიდან (დმანისის არქეოლოგიური ექსპედიციის მასალების მიხედვით), <citedRange>49</citedRange> თბილისი, მეცნიერება, 1982 <ptr target="bibliography.xml#b219"/>
+                </bibl></p>
+                
+                <p><bibl n="6">ექვთიმე თაყაიშვილი, სომხით-საორბელოს ძეგლების წარწერები, ჟურნ. კავკასიონი, პარიზი 1929, 
+                    <citedRange>102-103</citedRange><ptr target="bibliography.xml#b231"/>
+                </bibl></p>
+                
+            </div>
+            
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+            <ab>
+                <lb n="1"/>&#10013;
+                           <w lemma="სახელ">სახ<supplied reason="lost" precision="medium">ე</supplied><supplied reason="omitted" precision="high">ლ</supplied>ითა</w>
+                           <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თის</abbr><ex>ა</ex><abbr>ით</abbr><supplied reason="lost" precision="medium"><abbr>ა</abbr></supplied></expan></w>
+                           <supplied reason="lost" precision="medium">და</supplied>
+                           <w lemma="მეოხება"><expan><supplied reason="omitted" precision="high"><abbr>მ</abbr></supplied><abbr>ეო</abbr><supplied reason="omitted" precision="high"><abbr>ხ</abbr></supplied><ex>ე</ex><abbr>ბ</abbr><ex>ი</ex><supplied reason="omitted" precision="high"><abbr>თ</abbr></supplied><supplied reason="lost" precision="medium"><abbr>ა</abbr></supplied></expan></w>
+               <lb n="2"/><w lemma="ყოველ"><expan><supplied reason="omitted" precision="high"><abbr>ყ</abbr></supplied><ex>ოვლა</ex><abbr>დ</abbr></expan></w>
+                           <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ჲსაჲ</abbr></expan></w>
+                           <w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრთი</ex><abbr>სმშობ</abbr><supplied reason="lost" precision="medium"><abbr>ელ</abbr><ex>ი</ex><abbr>ს</abbr><ex>აჲ</ex></supplied>თ<supplied reason="omitted" precision="high"><abbr>ა</abbr></supplied></expan></w>
+                           <w lemma="ესე"><supplied reason="lost" precision="medium">ესე</supplied></w>
+                           <w lemma="წერა"><expan><supplied reason="lost" precision="medium"><abbr>დ</abbr></supplied><ex>ა</ex><abbr>წ</abbr><ex>ე</ex><supplied reason="omitted" precision="high"><abbr>რ</abbr></supplied><abbr>ჲ
+              <lb n="3" break="no"/>ლი</abbr></expan></w>
+                           <w lemma="და"><supplied reason="lost" precision="medium">და</supplied></w>   
+                           <w lemma="ნიშან"><expan><supplied reason="lost" precision="medium"><abbr>ნ</abbr></supplied><abbr>ჲშ</abbr><ex>ა</ex><abbr>ნჲ</abbr></expan></w>  
+                           <w lemma="მე"><supplied reason="omitted" precision="high">მ</supplied><supplied reason="lost" precision="medium">ე</supplied></w>
+                           <placeName nymRef="დმანის"><expan><supplied reason="omitted" precision="high"><abbr>დ</abbr></supplied><abbr>მ</abbr><ex>ა</ex><abbr>ნჲსის</abbr><supplied reason="lost" precision="medium"><abbr>ა</abbr></supplied></expan></placeName>
+                           <roleName nymRef="მამად-მთავარ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ა</ex><supplied reason="lost" precision="medium"><abbr>დ</abbr></supplied><supplied reason="lost" precision="medium"><abbr>მთ</abbr><ex>ა</ex><abbr>ვ</abbr><ex>ა</ex><abbr>რმ</abbr><ex>ა</ex><abbr>ნ</abbr></supplied></expan></roleName>
+                           <persName type="local" key="მამათმთავარი თევდოს კალონპეტისძე"><name nymRef="თევდოს"><supplied reason="lost" precision="medium"><expan><abbr>თ</abbr><ex>ევ</ex><abbr>დ</abbr><ex>ო</ex><abbr>სი</abbr></expan></supplied></name></persName>
+                           <w lemma="წერა"><supplied reason="lost" precision="low"><expan><abbr>დ</abbr><ex>ა</ex><abbr>ვწ</abbr><ex>ე</ex><abbr>რე</abbr></expan></supplied></w>
+                <lb n="4"/><w lemma="ეკლესია"><expan><abbr>ეკლეს</abbr><ex>ი</ex><abbr>ჲსა</abbr></expan></w> 
+                           <w lemma="კარიბჭე">კა<supplied reason="omitted" precision="high">რი</supplied>ს<supplied reason="omitted" precision="high">ბ</supplied>ჭე<supplied reason="lost" precision="medium">სა</supplied></w>
+                           <w lemma="შინა"><supplied reason="lost" precision="medium"><expan><abbr>შ</abbr><ex>ი</ex><abbr>ნა</abbr></expan></supplied></w>
+                           <w lemma="ჩემ"><supplied reason="lost" precision="medium">ჩე</supplied><supplied reason="omitted" precision="high">მ</supplied>სა</w>
+                           <w lemma="მოსლვა"><expan><abbr>შემოსუ</abbr><supplied reason="lost" precision="medium"><abbr>ლ</abbr></supplied><ex>ა</ex><abbr>სა</abbr></expan></w>
+                           <w lemma="სამართალ"><expan><supplied reason="omitted" precision="high"><abbr>უ</abbr></supplied><abbr>ს</abbr><ex>ა</ex><abbr>მ</abbr><ex>ა</ex><supplied reason="lost" precision="medium"><abbr>რთლო</abbr></supplied></expan></w>
+                <lb n="5"/><w lemma="სამართალ"><expan><supplied reason="omitted" precision="high"><abbr>სა</abbr></supplied><abbr>მ</abbr><ex>ა</ex><abbr>რთ</abbr><ex>ა</ex><abbr>ლჲ</abbr></expan></w>
+                           <w lemma="ქმნა"><expan><abbr>იქ</abbr><ex>მ</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბოდა</abbr></expan></w> 
+                           
+                           <w lemma="მეყვსი"><expan><abbr>უმეყვსოთ</abbr><ex>ა</ex></expan></w>                                                
+                           <supplied reason="lost" precision="medium">და</supplied> 
+                           <w lemma="ქონება"><supplied reason="lost" precision="medium">უქონოთა</supplied></w> 
+                           <w lemma="ქალ-ყმა"><expan><supplied reason="lost" precision="medium"><abbr>ქ</abbr></supplied><supplied reason="omitted" precision="high"><abbr>ა</abbr></supplied><abbr>ლყმ</abbr><ex>ა</ex><abbr>თ</abbr><supplied reason="lost" precision="medium"><abbr>ა</abbr></supplied></expan></w> 
+                           <supplied reason="lost" precision="medium">და</supplied>
+                           <w lemma="მამა-დედა"><expan><supplied reason="omitted" precision="high"><abbr>მ</abbr></supplied><abbr>ამა</abbr><supplied reason="omitted" precision="high"><abbr>დ</abbr></supplied><supplied reason="lost" precision="medium"><ex>ე</ex><abbr>დ</abbr><ex>ა</ex><abbr>თა</abbr></supplied></expan></w> 
+                           <w lemma="ქორწინება"><expan><supplied reason="lost" precision="medium"><abbr>ქ</abbr><ex>ო</ex><abbr>რ</abbr></supplied>
+               <lb n="6" break="no"/><abbr>წ</abbr><ex>ი</ex><abbr>ნებად</abbr></expan></w> 
+                           <w lemma="არ">არ</w>   
+                           <w lemma="სლვა"><expan><abbr>მო</abbr><ex>უ</ex><abbr>შუებდ</abbr><ex>ე</ex><abbr>ს</abbr></expan></w> 
+                           <w lemma="ვიდრე"><expan><abbr>ვი</abbr><ex>დ</ex><abbr>რე</abbr></expan></w>
+                           <w lemma="ოქრო">ოქროსა</w>
+                           <w lemma="არ">არ</w>
+                           <w lemma="ღება"><expan><supplied reason="omitted" precision="high"><abbr>ა</abbr></supplied><ex>ი</ex><abbr>ღებდეს</abbr></expan></w> 
+                           <w lemma="ვითა"><supplied reason="lost" precision="medium">ვ</supplied>ჲთა</w>
+                           <orig n="unresolved"><supplied reason="omitted" precision="high">დ</supplied></orig>                                               
+                           <w lemma="მართალ">მ<supplied reason="lost" precision="low">ართ</supplied>
+               <lb n="7" break="no"/>ალჲ</w> 
+                           <w lemma="სამართალ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>მ</abbr><ex>ა</ex><abbr>რთალი</abbr></expan></w>
+                           <w lemma="ყოფნა">იყო</w>                                                                                                        
+                           <w lemma="ეგრე">ეგრე</w>
+                           <w lemma="ჩემ">ჩემსა</w>
+                           <placeName nymRef="დმანის"><expan><abbr>დმ</abbr><ex>ა</ex><abbr>ნჲსისა</abbr></expan></placeName>
+                           <roleName nymRef="მამათმთავრობა"><w lemma="მამათმთავრობა"><expan><supplied reason="omitted" precision="high"><abbr>მ</abbr></supplied><ex>ა</ex><abbr>მ</abbr><ex>ათ</ex><abbr>მთ</abbr><ex>ა</ex><abbr>ვრო</abbr><supplied reason="omitted" precision="high"><abbr>ბ</abbr></supplied><ex>ა</ex><abbr>სა</abbr></expan></w></roleName>
+                           <w lemma="შიგან">შიგა</w>  
+                           <w lemma="არავის"><supplied reason="lost" precision="medium">არაჲვისა</supplied>
+               <lb n="8" break="no"/>თუჲ<supplied reason="omitted" precision="high">ს</supplied></w> 
+                           <w lemma="ღება"><expan><abbr>ამ</abbr><ex>ი</ex><abbr>ღია</abbr></expan></w>
+                           <persName type="ka" key="დავით VII ულუ" ref="https://en.wikipedia.org/wiki/David_VII_of_Georgia"><expan><abbr>დავჲთ</abbr><ex>ი</ex><abbr>ს</abbr></expan></persName>
+                           <w lemma="დღეგრძელობა"><supplied reason="lost" precision="medium">დ</supplied><supplied reason="omitted" precision="high">ღ</supplied>ეგრძელობაჲ<supplied reason="omitted" precision="high">ს</supplied>ა</w>
+                <lb n="9"/><w lemma="და">და</w>  
+                           <rs type="curse"><w lemma="ვინ"><expan><abbr>ვ</abbr><ex>ი</ex><abbr>ნ</abbr><supplied reason="omitted" precision="high"><abbr>ცა</abbr></supplied></expan></w>
+                           <w lemma="შემდგომ"><expan><supplied reason="omitted" precision="high"><abbr>შ</abbr></supplied><ex>ე</ex><supplied reason="omitted" precision="high"><abbr>მ</abbr></supplied><abbr>დგ</abbr><ex>ო</ex><abbr>მ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
+                           <w lemma="ჩემ">ჩემ<supplied reason="omitted" precision="high">სა</supplied></w> 
+                           <w lemma="ღება"><expan><abbr>ა</abbr><ex>ი</ex><abbr>ღოს</abbr></expan></w>
+               <lb n="10"/><w lemma="წყევა"><expan><abbr>წყევ</abbr><ex>ა</ex><abbr>სა</abbr><supplied reason="omitted" precision="high"><abbr>მ</abbr></supplied><supplied reason="lost" precision="medium"><abbr>ცა</abbr></supplied></expan></w>
+                           <w lemma="ქუეშე">ქუეშე</w>
+                           <w lemma="ყოფნა">არ<supplied reason="omitted" precision="high">ს</supplied></w>         
+                           <w lemma="ვითა"><supplied reason="omitted" precision="high">ვ</supplied>ით
+               <lb n="11" break="no"/>ა</w>
+                           ნესტორ
+               <lb n="12"/><w lemma="და"><expan><abbr>დ</abbr><ex>ა</ex></expan></w>   
+                           <persName type="local" key="ორიგენე"><name nymRef="ოროგჲნე">ოროგჲ
+               <lb n="13" break="no"/>ნე</name></persName></rs>  
+                           <w lemma="ამენ"><expan><abbr>ა</abbr><ex>მე</ex><abbr>ნ</abbr></expan></w>
+                </ab>
+             
+            </div>
+
+                <div type="translation"/>
+                
+                <div type="commentary">
+                    <p>პალეოგრაფიული თავისებურება: ძალიან ხშირად ტექსტში ასო ი-ნის მაგივრად გამოყენებულია ჲ; ხანდახან ასო
+                        ო-ნი გამოყენებულია უ-ს მნიშვნელობით. წარწერა წითელი ფერის საღებავით ყოფილა გაცხოველებეული. 
+                        დაზიანება: გადარეცხვისა და გამოქარვის გამო წარწერის დიდი ნაწილი ძალზე დაზიანებული. პირველი 8
+                        სტრიქონი, უფრო კონკრეტულად კი ამ სტრიქონების მეორე ნახევრები, განსაკუთრებით
+                        დაზიანებულია. ბევრი გრაფემა საერთოდ აღარ იკითხება. 
+                        წარმოდგენილი დათარიღების საფუძველი: შინაარსი: წარწერაში გიორგი IV ლაშას მოუხსენებლობა და მისი ძის
+                        დავითის (შემდგომში მეფე დავით VII) მხოლოდ სახელით („დავითის
+                        დღეგრძელობისათუის“), ტიტულის გარეშე მოხსენიება გიორგი IV-ის გარდაცვალებასა
+                        (1223 წ.) და დავითის მცირეწლოვანებაზე უნდა მიუთითებდეს. 
+                        წარწერაში რამდენიმე სიტყვას სხვადასხვა ავტორი განსხვავებულად კითხულობს, ექ. თაყაიშვილი პირველ
+                        სტრიქონში კითხულობს: სახელითა: ღთისათ[ა]: და მეოხებითა ყ, მეორეში - ღის
+                        მშობლისათა... წისჲ ..., მესამეში - ლი: ღჲშნჲ: დ~ დ დმნჲსისა: მმ.....,
+                        მეოთხეში - კარის ბჭე..... რსა შემოსულსა.... რმ, მეხუთეში - სმრთლჲ; ღრთლოთ...
+                        ღიმთ..., მეექვსეში - ჩნებად არ მოშლებდეს, სრ აშენებდეს თლჲთ, მეშვიდე-მერვეში
+                        - მმთვრობში ე... და ვნცა, მეცხრეში - აღუს....; ლ. მუსხელიშვილი პირველ
+                        სტრიქონში კითხულობს: სა[ხელ]ითა, მეოთხეში - კარის[ბ]ჭე[სა დაუდე ჩ]ემსა
+                        შემოსულასა [შინა], მეხუთეში - უმეყვსოთ[ა] უ[ბრ]ალოთ[ა, მეექვსეში - ვირე,
+                        მეექვსე-მეშვიდეში - [დად]ებულჲ სამართალჲ, მეშვიდე-მერვეში - ში[ნა], მერვეში
+                        - [დღ]ეგრ[ძელობ[ჲსათჳს], მეცხრეშ - აღჴოცოს; ვ. სილოგავა მესამე სტრიქონში
+                        კითხულობს: მ(ა)მ(ა)[თმთ(ა)ვ(ა)რმ(ა)ნ], მეექვსე-მეშვიდეში -
+                        [ვი]თ[ა]მ[ართ]ალჲ, მეშვიდე-მერვეში - შინ[ა], მერვეში -
+                        [დღ]ეგრძელო[ბ]ჲ[ს]ა[თუ(ი)ს]</p>
+                </div>
+
+        </body>
+    </text>
+</TEI>

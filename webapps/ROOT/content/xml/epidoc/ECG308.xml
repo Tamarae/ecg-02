@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>სამკაულის ფრაგმენტი IV-V სს.; ბერძნული წარწერა</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG308</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                           ნოქალაქევი
+                        </collection>
+                    </msIdentifier>                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka"/>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>  
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/112">ოქრო</material>
+                                   <objectType>სამკაული</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="2">
+                                        <p>ფირფიტაზე, რომელსაც ირგვლივ აქვს დაბალი კანტი, ორ სტრიქონად არის გამოყვანილი ბერძნული ასოები.</p>
+                                      <dimensions unit="cm">
+                                        <width>2</width>
+                                        <height>0,9</height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                 <p>ასოები გამოყვანილია თეთრი მინანქრით.</p>
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ნოქალაქევი</origPlace>
+                                <origDate notBefore-custom="0330" notAfter-custom="1453" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian"></origDate>
+                                <p>ნოქალაქევის ფირფიტა ბიზანტიური ხანისაა (თარიღის დაუზუსტებლად).</p>
+                              </origin>
+                            <provenance type="found" when="2003">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/857041">ნოქალაქევი</placeName> 
+                                <rs type="circumstances">ნივთი აღმოჩენილია არქეოლოგიური გათხრებისას.</rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                         
+                            <provenance type="observed">
+                            <placeName type="modernSpot"></placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg308.jpg">
+                <desc xml:lang="ka">ოქროს სამკაული ნოქალაქევიდან, 2003</desc>
+                <desc xml:lang="en">Piece of gold jewelry from Nokalakevi, 2003</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 371-372</citedRange></bibl></p>
+                
+            </div>
+     
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!-- ου χ μαπ(?)ονον  πόνος    ὦνος ὦνον  -->
+
+         <ab>
+             <lb n="1"/><w lemma="οὐχ"><hi rend="ligature">οὐ</hi>χ</w>
+             <lb n="2"/><unclear>μα</unclear> <w lemma="πόνος">πόνον</w>
+         </ab>    
+             
+         
+            </div>
+                
+            <div type="translation" xml:lang="ka">
+                <p>არა განცდას</p>
+            </div>
+            
+           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app loc="2"><lem>πόνος</lem>
+              <rdg resp="თ. ყაუხჩიშვილი">ὦνος</rdg>
+              </app></p>
+            </div>
+           
+            <div type="commentary">
+                <p>ნივთი რომელიღაც უფრო რთული კონსტრუქციის (სამკაულის) ნაწილია; მასზე დაცული ბერძნული ასოები მთლიანად ტექსტის აღდგენის საშუალებას არ იძლევიან.</p>
+                <p>I სტრიქონში არის: ΟΥΧ. ცენტრშია ასო χ, მის წინ არსებული ου (ου) შესაძლოა არის რომელიმე სიტყვის დაბოლოება; ანდა ΟΥΧ (οὐχ) წერია და ეს არის οὐ - უარყოფითი 
+                ნაწილაკის ვარიანტი οὐχ. ამ სტრიქონის დასაწყისში (ე.ი. ΟΥΧ-ის მარცხნივ) არის ორი ასოს კვალი. χ-ს შემდეგ აშკარად ყოფილა ორი ასო, ჩანს მათი ფრაგმენტები. II 
+                სტრიქონში იკითხება: μαπ(?)ονον. π საეჭვოა, შეიძლება იყოს რაიმე ლიგატურის ფრაგმენტი - ეს ასო უშუალოდ Ι სტრიქონის χ-ს ქვეშ არის. II სტრიქონი სავარაუდოდ ასე იკითხება: 
+                πόνος (acc. πόνον, შრომა, განცდა, დარდი) ან - ὦνος (acc. ὦνον) - საფასური, ყიდვა. ამ სიტყვის წინ μα თუ ნაწილაკი μά არ არის (ფიცის შეძახილი, მაგ., μὰ Δία), 
+                შეიძლება ის წინა სიტყვის დაბოლოება იყოს. თუ ის დავშალეთ და μ ცალკე აღვიქვით, ხოლო α შევუერთეთ πόνος (ἄπονος - ნიშნავს - უშრომელი, ოილი), მაშინ μ-ს 
+                საკითხი რჩება გასარკვევი.</p>
+                <p>დათარიღების საფუძველი შეიძლება იყოს ასოთა მოხაზულობა. ასო χ ძირითადად ყველა დროში ერთნაირად იწერება, ამიტომ ის დასათარიღებლად არ გამოდგება. რაც შეეხება 
+                ο-ს, ის ძირითადად არის ან მრგვალი, ან მომაღლო მრგვალი (აქ ეს მეორე ვარიანტია), რაც დამოუკიდებლად დამათარიღებელი არ არის. ο-ს კუთხოვანი ვარიანტი ძირითადად II-III 
+                სს-დან გვხვდება. ასო μ-ს საერთოდ სხვადასხვა მოხაზულობა აქვს. ნოქალაქევის μ-ს მსგავსი მოხაზულობის μ გვაქვს დროის საკმაოდ დიდ მონაკვეთზე - დაწყებული ძვ.წ. I ს-დან 
+                ახ.წ. IV ს-ის ჩათვლით. ეს წარწერებია: ხერსონესში ძვ.წ. I ს. - ახ.წ. IV ს-ში, ოლვიაში II ., პონტოსპირეთის თარიღიან წარწერებში I, II, III ს-დან, იქიდანვე ზოგადად 
+                რომაული ხანით და ქრისტიანული ხანით დათარიღებულ წარწერებში. საქართველოშ - II, III სს. და IV-V სს-ით დათარიღებულ წარწერებში. აქ მოყვანილი მასალა ძირითადად 
+                ლაპიდარული წარწერებიდან არის. ყურადღებას იპყრობს α-ს მოხაზულობა. მსგავსი მოხაზულობის α ლაპიდარულ წარწერებშ გვაქვს - ბოსფორიდან 307 წლისა და 1328 წლის წარწერებში. 
+                საქართველოში ერთია 1664 წლის ჭედურ ჯვარზე, ხოლო სხვა დანარჩენი XI-XVII საუკუნეების ფრესკულ წარწერებზე. ნოქალაქევის ამ წარწერაში საყურადღებოა ორი ნიშანი: μ ου. 
+                μ ასო გვხვდება ბოსფორისა და პონტოსპირეთის ლაპიდარულ წარწერებში, ასევე საქართველოს ფრესკულ წარწერებში. ბოსფორის წარწერებში ის იხმარება: IX-X სს., 1403 წ. წარწერაში, 
+                1594 წ., 1622 წ., უთარიღო წარწერაში. პონტოსპირეთის ამ ასოს შემცველ წარწერას აქვს შენიშვნა, რომ ის XI ს-ის ბიზანტიური მინუსკულია. საქართველოს ფრესკებზე გვხვდება μ 
+                (ე.ი. მინუსკულური N) XIV-XVII საუკუნეებში. გაცილებით უფრო ხშირია ου - დაწერილობა. გამოირჩევა ძირითადად თარიღიანი და დათარიღებული წარწერები. ბოსფორის წარწერათაგან 
+                აღსანიშნავია: №24 - VI-VII სს., №72 - VIII-IX სს., №51 - IX-X სს., №25 (ზოგადად ბიზანტიური ხანით დათარიღებული). შემდეგ არის თარიღიანი ლაპიდარული წარწერები XIV-XVII 
+                სს-ის: №58 (1328 წ.), №63 - 1413 წ., №64 - 1417 წ., №3 - 1440 წ., №62 - 1587 წ., №57 - 1594 წ., №60 - 1622 წ. პონტოსპირეთის წარწერათაგან ου-ს შეიცავენ შემდეგი: 
+                №230 - ფლავიუსების ეპოქის, №195 - გამომცემელი ათარიღებს IV-V სს. №211 - V ს., № 145b - ჯერ ზოგადად ბიზანტიური ხანისად მიიჩნევს, შემდეგ წერს, რომ არის XI ს-ის 
+                მინუსკული. საქართველოს ლაპიდარულ, ჭედურ, მინანქრულ და ფრესკულ წარწერებში ου გვხვდება VIII-XVIII საუკუნეებში. რაც შეეხება ΙΙ სტრიქონის ცენტრალურ ასოს თუ ის არის π 
+                (რაც სავარაუდოა), მსგავსი სახით იგი არ იძებნება ლაპიდარულ, ჭედურ და მინანქრულ წარწერებში.</p>
+            </div>
+             </body>
+    </text>
+</TEI>
+
+
+
+
+
+

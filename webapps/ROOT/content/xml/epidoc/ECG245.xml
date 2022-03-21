@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">შიოს და მისი ძმების საამშენებლო წარწერა</title>
+                <editor xml:lang="ka">გიორგი ოთხმეზური</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <idno type="filename">ECG245</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            დმანისი
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                    <material ref="https://www.eagle-network.eu/voc/material/lod/2">პერანგის ქვა</material>
+                                    <dimensions>
+                                        <width>59</width>
+                                        <height>34</height>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="6">
+                                    შესრულებულია ეკლესიის აღმოსავლეთ ფასადის ზედა, ცენტრალურ ნაწილში, სახურავის კეხის ქვემოთ, პერანგის ქვაზე. 6 სტრიქონად.
+                                    <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli_n" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="execution">კიდურწაისრული</rs> <rs type="script">ასომთავრული</rs>. გამოყენებულია ნუსხური გრაფემებიც. ქარაგმის ნიშანი - კიდურწერტილოვანი, ზოგჯერ კლაკნილი,
+                                    ზოგჯერ კი სწორი, განივი ხაზი. განკვეთილობის ნიშანი: ორწერტილი თითქმის ყველა სიტყვას შორის.
+                                <dimensions unit="cm">
+                                    <height/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                წარწერას გარშემო შემოუყვება ჩაღრმავებული კანტი, რომელიც მართკუთხა ფორმისაა და ერთიანობაში წარწერას გარკვეულ ჩარჩოში აქცევს.
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>ჭოჭიანის ეკლესია</origPlace>
+                            <origDate>XII-XIII AD</origDate>
+                        </origin>
+                        <provenance type="observed">
+                            <placeName type="modernSpot">ჭოჭიანის ეკლესია</placeName>
+                            <rs type="circumstances"/>
+                            <idno/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <!-- 
+    <facsimile>
+        <surface>
+            <graphic url="tskise_01.jpg">
+                <desc xml:lang="ka">წყისეს წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile> -->
+    <text>
+        <!--
+        1.თ(ამა)რ ღ(მრთ)ისა სწ(ო)რ(ი)ს სამ(ლო)ცვ(ე)ლ(ო)ი.
+        2.წ. ქ(რისტ)ე შ(ეუნდვ)ენ შ(იო)სა 
+        3.და ძამნ[ი] (!) [მ](ი)სნი
+        4.პ(ეტრ)ე და სჳ(მო)ნი, რ(ომელ)თა ა
+        5.ღ(ა)შ(ე)ნ(ე)ს ეკ(ლე)ს(ია) ესე. პ(ეტრე)ს შ(ეუნდვე)ნ 
+        6.ღ(მერთმა)ნ.
+        -->
+        <body>
+                
+            <div type="bibliography">
+                
+                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>146-147</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
+                <p><bibl n="2">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>36</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
+                <p><bibl n="3">Е. Такайсшвили, Археологические екскурсии разыскания и заметки, IV <citedRange>89</citedRange>, Тб. 1913<ptr target="bibliography.xml#b212"/></bibl></p>
+                
+            </div>
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+
+            <ab>
+                <lb n="1"/><persName type="local" key="თამარ მეფე" ref="https://en.wikipedia.org/wiki/Tamar_of_Georgia"><expan><abbr>თ</abbr><ex>ამა</ex><abbr>რ</abbr></expan></persName>        
+                           <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთ</ex><abbr>ისა</abbr></expan></w>
+                           <w lemma="სწორ"><expan><abbr>სწ</abbr><ex>ო</ex><abbr>რ</abbr><ex>ი</ex><abbr>ს</abbr></expan></w>
+                           <w lemma="ლოცვა"><expan><abbr>სამ</abbr><ex>ლო</ex><abbr>ცვ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ი</abbr></expan></w>
+                <lb n="2"/><orig n="unresolved">წ</orig>                                                                            
+                           <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>  
+                           <w lemma="შენდობა"><expan><abbr>შ</abbr><ex>ეუნდვ</ex><abbr>ენ</abbr></expan></w>
+                           <persName type="local" key="შიო [ჭოჭიანის მაშენებელი]"><expan><abbr>შ</abbr><ex>იო</ex><abbr>სა</abbr></expan></persName>        
+                <lb n="3"/>და    
+                           <w lemma="ძმა">ძამნ<supplied reason="lost" precision="medium">ი</supplied></w>
+                       <!--    (!)უეჭველი, მაგრამ გაუგებარი წაკითხვა                                              ???-->  
+                           <w lemma="მის"><expan><supplied reason="lost" precision="medium"><abbr>მ</abbr></supplied><ex>ი</ex><abbr>სნი</abbr></expan></w> 
+                <lb n="4"/><persName type="local" key="პეტრე [ძმა ჭოჭიანის მაშენებელი შიოსი]"><expan><abbr>პ</abbr><ex>ეტრ</ex><abbr>ე</abbr></expan></persName>           
+                           და
+                           <persName type="local" key="სჳმონ [ძმა ჭოჭიანის მაშენებელი შიოსი]"><expan><abbr>სჳ</abbr><ex>მო</ex><abbr>ნი</abbr></expan></persName> 
+                           <w lemma="რომელ"><expan><abbr>რ</abbr><ex>ომელ</ex><abbr>თა</abbr></expan></w>
+                           <w lemma="შენება"><expan><abbr>ა
+               <lb n="5" break="no"/>ღ</abbr><ex>ა</ex><abbr>შ</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ს</abbr></expan></w>
+                           <w lemma="ეკლესია"><expan><abbr>ეკ</abbr><ex>ლე</ex><abbr>ს</abbr><ex>ია</ex></expan></w>
+                           <w lemma="ესე">ესე</w>
+                           <expan><abbr>პ</abbr><ex>ეტრე</ex><abbr>ს</abbr></expan>
+                           <w lemma="შენდობა"><expan><abbr>შ</abbr><ex>ეუნდვე</ex><abbr>ნ</abbr></expan></w>
+                <lb n="6"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>     
+                </ab>
+             
+            </div>
+           
+                <div type="translation"/>
+                
+                <div type="commentary">
+                     <p>პალეოგრაფიული თავისებურება: III სტრ-ში გაპარულია შეცდომა - სიტყვა „ძმანი“-ს მაგივრად ამოკვეთილია
+                        „ძამნი“. წარწერის ფართობისა და გრაფემების სიმაღლის აზომვა ვერ ხერხდება. წარწერას
+                        გარშემო შემოუყვება ჩაღრმავებული კანტი, რომელიც მართკუთხა ფორმისაა და
+                        ერთიანობაში წარწერას გარკვეულ ჩარჩოში აქცევს.
+                        ე. თაყაიშვილის წაკითხვით ტექსტი მთავრდება შიოს ერთ-ერთი ძმის, პეტრეს მოსახსენებელი წარწერით.
+                        შესაძლებელია „პს“ გაიხსნას როგორც „პ(ატრონ)ს და ტექსტის დასასრულს „პატრონის“ - თამარ მეფის მოსახსენებელი წარწერა ვივარაუდოთ.
+                        დაზიანება: ქვის ზედაპირი დაფარულია მომწვანო-მოყვითალო ფერის საკმაოდ მყარი ხავსის მსგავსი მცენერით,
+                        რის გამოც ტექსტის რამდენიმე გრაფა, განსაკუთრებით შუა ნაწილი არ იკითხება.
+                        წარწერის დათარირების საფუძველი: წარწერა საამშენებლო ხასიათისაა და იხსენიებს თამარ მეფეს. 
+                        შესაბამისად მისი თარიღი თამარის მეფობის პერიოდით უნდა განისაზღვროს</p>
+                </div>
+
+        </body>
+    </text>
+</TEI>

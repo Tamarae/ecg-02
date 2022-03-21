@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">გვანდრაში აღმოჩენილი სინოპური ამფორა</title>
+                <title xml:lang="en">Sinopian amphoras unearthed in Gvandra</title>
+                <editor xml:lang="ka">დევიდ ბრაუნდი</editor>
+                <editor xml:lang="en">David Braund</editor>
+            </titleStmt>
+            <publicationStmt>
+               <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG301</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                <msIdentifier>
+                        <collection>
+                           გვანდრა
+                        </collection>
+                    </msIdentifier>                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents> 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                      <material xml:lang="ka" ref="https://www.eagle-network.eu/voc/material/lod/131">თიხა</material>
+                                    <material xml:lang="en" ref="https://www.eagle-network.eu/voc/material/lod/131">Clay</material>
+                                   <objectType xml:lang="ka" ref="https://www.eagle-network.eu/voc/objtyp/lod/17">ამფორა</objectType>
+                                     <objectType xml:lang="en" ref="https://www.eagle-network.eu/voc/objtyp/lod/17">Amphor</objectType>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                       <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                       </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                <height unit="cm"></height>
+                                <width unit="cm"></width>
+                              </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>
+                                    <seg xml:lang="ka">გვანდრა</seg>
+                                    <seg xml:lang="en">Gvandra</seg>
+                                </origPlace>
+                                <origDate notBefore-custom="-0400" notAfter-custom="-0201" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">IV-III BC</origDate>
+                              </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/857142">
+                                <seg xml:lang="ka">გვანდრა</seg>
+                                    <seg xml:lang="en">Gvandra</seg>
+                                </placeName> 
+                                <rs type="circumstances"/>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                         
+                            <provenance type="observed">
+                            <placeName type="modernSpot"/>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>    
+    <facsimile>
+        <surface>
+            <graphic url="ecg301.jpg">
+                <desc xml:lang="ka">ამფორა გვანდრიდან</desc>
+                <desc xml:lang="en">Amphora from Gvandra</desc>
+            </graphic>
+        </surface>
+    </facsimile>    
+    <text>
+        <body>
+            <div type="bibliography">
+                
+                    <p><bibl n="1">დევიდ ბრაუნდი, საქართველო ანტიკურ ხანაში: კოლხეთისა და ამიერკავკასიის იბერიის ისტორია ძვ.წ. 550-ახ.წ. 562 წლები<ptr target="bibliography.xml#b68"/>, <citedRange> 206</citedRange></bibl></p>
+                
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!-- ΔΙΟΣΚΟΥ -->
+                     
+         <ab>             
+             <placeName nymRef="Διοσκουρία"><expan><abbr>Διοσκου</abbr><ex>ρία</ex></expan></placeName>             
+         </ab>                 
+         
+            </div>
+                
+            <div type="translation">
+                <p xml:lang="ka">დიოსკურია</p>
+                <p xml:lang="en">Dioskuria</p>
+            </div>
+            
+   
+           
+            <div type="commentary">
+                <p xml:lang="ka">გვანდრაში აღმოჩენილი სამეთუნეო ქურის ნაშთები შეიცავდა ამფორებს, რომლებიც ძვ.წ. IV-III საუკუნეების 
+                სინოპური ტიპის მიხედვით იყო დამზადებული; ცხრა ეგზემპლარის ყურებზე დასმული იყო დამღა ΔΙΟΣΚΟΥ სარკისებურად გამოსახული ასოებით. ამ კონტექსტში 
+                ასოები შეიძლება მხოლოდ ქალაქ დიოსკურიის ან დიოსკურიელების აღმნიშვნელი სახელის შემოკლება იყოს: ქალაქი, ალბათ, ამ ამფორების წარმოებაში იყო ჩაბმული. 
+                ყოველ შემთხვევაში, ეშერა რომ ძვ.წ. III საუკუნისათვის დიოსკურიის ფარგლებში შედიოდა, ეჭვს აღარ უნდა იწვევდეს. გარდა ამისა, ეს დამღები იმისი მაჩვენებელია, 
+                რომ ეშერა-დიოსკურიას გაცვლითი სავაჭრო ურთიერთობა ჰქონდა ჩრდილოეთ შავიზღვისპირეთთან, რაზეც მიუთითებს სამი ასეთი დამღიანი ნიმუში პანტიკაპეონიდან 
+                და კიდევ ორი - ნიმფეონიდან.</p>
+                
+            </div>
+         </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>მსიგხუას მიქაელას წეარწერა II, IX-X სს</title>
+                <editor>ლია ახალაძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
+                 <idno type="filename">GECG441</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc> 
+                    <msIdentifier> 
+                        <collection>მსიგხუა</collection> <!-- შესათანხმებელია ერთმანეთში--> 
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სავედრებელი</seg> 
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <material ref="https://www.eagle-network.eu/voc/material/lod/130">კერამიკა</material>
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/28">ანტეფიქსი</objectType>
+                                        <dimensions unit="cm">
+                                        <width>13,5</width> 
+                                        <height>10</height> 
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc> 
+                                    <layout> 
+                                        <dimensions unit="cm"> 
+                                            <width/> 
+                                            <height/> 
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtvaruli" style="embossed">ასომთავრული რელიეფური წარწერა. განკვეთილობის ნიშანი არ ახლავს, ქარაგმის ნიშანი: სწორი, განივი ხაზი.
+                            <height unit="cm">1-1,2</height>
+                            </handNote> 
+                            
+                       </handDesc> 
+                        <decoDesc>
+                            <decoNote> კრამიტის კერამიკულ კალიპტერს ირგვლივ შემოუყვება ორმაგი რელიეფური ჩარჩო. წარწერის ზედა და ქვედა სტრიქონები ერთმანეთისგან გამოყოფილია ორმაგი რელიეფური ხაზით.</decoNote>
+                        </decoDesc> 
+                        </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>მსიგხუა</origPlace>
+                                <origDate notBefore="0800" notAfter="1000">IX-X AD</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">მსიგხუას ეკლესია</placeName>
+                                <rs type="circumstances">1962 წელს წკუარას ხეობაში გამოჩნდა ძველი საკულტო ნაგებობების ნაშთი. პირველი არქეოლოგიური დაზვერვა ჩაატარა ვ.ფაჩულიამ, მოგვიანებით არქეოლოგიურმა ჯფუფმა ა. კაციას ხელმძღვანელობით. გაირკვა, რომ ნაგებობა წარმოადგენდა შუა საუკუნეების ქრისტიანულ ეკლესიას. სწორედ აქ არის აღმოჩენილი აღნიშნული წარწერა.</rs> <!-- დიდი ეკლესიაო პირდაპირ ასე ეწერა და გადმოვიტანე მეც )) -->
+                                <rs type="context">მსხიგუას ეკლესიაში აღმოჩენილია 46 წარწერა, მაშ შორის მიქაელას სავედრებელი წარწერები.</rs>
+                                <rs type="monuList"/>
+                            </provenance> 
+                            <provenance type="observed">
+                            <placeName type="modernSpot"></placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc> <change who="TG">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან.</change></revisionDesc>
+    </teiHeader>
+    
+       <facsimile>
+        <surface>
+            <graphic url="ecg441.jpg">
+                <desc xml:lang="ka">მსიგხუა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+            
+            <div type="bibliography"> 
+            </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                <ab> 
+                    <!-- ... [ა(მე)ნ] მ(ი)ქ(აე)ლ ქ(რისტ)ე შ(ე)ჲწყ(ა)ლე-->
+                    <lb n="1"/> <gap reason="ellipsis"/> <supplied reason="lost"><w lemma="ამენ"><expan><abbr>ა</abbr><ex>მე</ex>ნ</expan></w></supplied> <persName><expan><abbr>მ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>აე</ex><abbr>ლ</abbr></expan></persName>
+                    <lb n="2"/> <persName><expan><abbr>ქ</abbr><ex>რისტ</ex>ე</expan></persName> <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ჲწყ</abbr><ex>ა</ex><abbr>ლე</abbr></expan></w>
+                </ab> 
+            </div>
+            <div type="translation" xml:lang="ka"><p>ამინ მიქაელ, ქრისტე, შეიწყალე</p></div>
+            <div type="apparatus" xml:space="preserve"/>  
+            <div type="commentary">
+                <p>კალიპტერი დაზიანებულია: ფოტოზე ჩანს, რომ გადატეხილია მისი წამახვილებული სამკუთხა თავი, ამიტომაც არ იკითხება წარწერის პირველი სტრიქონი. დაზიანების გამო არ ჩანს „მალტური ჯვარიც“.</p>
+            </div>          
+         
+         </body>
+    </text>
+</TEI>

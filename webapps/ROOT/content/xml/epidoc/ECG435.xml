@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="ka">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ფარსმანის მარმარილოს ფილა</title>              
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG435</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            ოსტია
+                        </collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/48">მარმარილო</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/272">ტაბულა</objectType>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                    <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote> 
+                             <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ოსტია</origPlace>
+                                <origDate>142</origDate>
+                              </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">ოსტია</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                        
+                            <provenance>
+                            <placeName type="modernSpot">ოსტია</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="la" xml:space="preserve">
+                    <ab>
+                      <lb n="1"/>
+                      <lb n="2"/><expan>Q<ex>uintus</ex></expan>Antonius Cas]sian[us ---]
+                      <lb n="3"/><name nymRef="Lucius Fabianus"><expan><supplied reason="lost">L<ex>ucius</ex></supplied></expan><supplied reason="lost">Annius</supplied> Fabianus</name><gap reason="lost" extent="unknown" unit="character"/>
+                      <lb n="4"/>Pharasman[es rex Iberorum --- cum filio]
+                      <lb n="5"/>e et uxore Phr[---, cui Imp(erator) Antoninus Aug(ustus) regnum] 
+                      <lb n="6"/>[amplius] <w>reddidit</w> V <expan>k<ex>alendas</ex></expan> <expan>Apr<ex>iles</ex></expan> [---]
+                      <lb n="7"/>I non(as) Mai(as) <w>diem</w> [qua ---]
+                      <lb n="8"/>vit gladiat[orum pp.(:paribus) ---]
+                      <lb n="9"/><num>MXI</num>
+                      <lb n="10"/>
+                    </ab>
+            </div>
+            <div type="translation" xml:lang="ka">
+                <p>Pharasman[es, the king of Iberia with the son] and his wife Phr[to whom the emp[eror] 
+                Antoninus Aug[ustus], the kingdom] restored.Pharasman[es, the king of Iberia with the son] and his wife 
+                Phr[to whom the emp[eror] Antoninus Aug[ustus], the kingdom] restored.
+                ფარსმანი, იბერიის მეფე</p>
+            </div>
+            
+            <div type="apparatus" xml:space="preserve">
+            <p>Textus secundum (1)-(5), aliter (6)-(7). Titulus anno 142 p.C.n. dubie adsignatur, W. Eck et Weiss anno 141 p.C.n. adsignant.</p>
+            </div>
+            
+            <div type="commentary">
+            </div>
+            
+            <div type="bibliography" subtype="otherPublications">
+          
+              <p><bibl type="publication">
+                        Ladislav Vidman (1982) Fasti Ostienses: edendos, illustrandos, restituendos, curavit Ladislavs Vidman, Czechoslovak Academy of Sciences
+                        Wolfgang Kuhoff (1993) Felicior Augusto melior Traiano, Peter Lang
+                        O. Hekster, S. Schmidt-Hofner, C. Witschel (2009) Ritual Dynamics and Religious Change in the Roman Empire, Brill Publishers
+                        L. Petersen, K. Wachtel (1998) Prosopographia Imperii Romani, Walter de Gruyter
+                        Cyril Toumanoff (1969) Chronology of the Early Kings of Iberia, Fordham University
+                        H. Temporini, W. Haase, J. Vogt (1993) Aufstieg U Niedergang D Roemwelt Teil 2 Bd 34/1, Volumes 2-31-34, Walter de Gruyter
+                </bibl></p>
+          
+                
+        </div>
+        </body>
+    </text>
+</TEI>

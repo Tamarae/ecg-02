@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>მოზაიკური იატაკი ბერძნული წარწერებით</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG321</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                           ძალისი
+                        </collection>
+                    </msIdentifier>                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო-მემორიალური</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents> 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material ref="http://www.eagle-network.eu/voc/material/lod/134">მოზაიკა</material>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/190">იატაკი</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        მოზაიკით დაფარულ ტრიკლინიუმის იატაკზე არის სხვადასხვა გამოსახულებები შესაბამისი ბერძნული წარწერებით. 
+                                        მოზაიკური იატაკის ცენტრალურ ნაწილში გამოყვანილია ორსტრიქონიანი ბერძნული ასომთავრული წარწერა. 
+                                        დანარჩენი წარწერები უფრო მიმობნეულადაა მთელ მოზაიკურ იატაკზე (მოსახსენებელი წარწერის ირგვლივ) წარმოდგენილი.  
+                                        ტეპიდარიუმმში შემორჩენილია ორსტრიქონიანი წარწერა.
+                                      <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                ცენტრალურ ნაწილში გამოყვანილი წარწერის ასოები ორსავე სტრიქონში ერთი სიმაღლისაა.
+                                ტრიკლინიუმის დარჩენილი წარწერები იმავე ხელითაა შესრულებული, მაგრამ უფრო მსხვილი ასოებით.
+                                ტეპიდარიუმში შემორჩენილია ორსტრიქონიანი ვრცელი ბერძნული მთავრული წარწერის ფრაგმენტები. ამ ფრაგმენტებს ზემოთ და ქვემოთ ჩარჩოს ხაზები აქვთ შემორჩენილი.
+                                ასოთა მოხაზულობა ისეთიავეა, როგორც სხვა წარწერებში, მაგრამ საერთო შთაბეჭდილების მიხედვით ეს უფრო წვრილი და მომაღლო ასოებით ყოფილა შესრულებული. 
+                                ასოების კუთხეებიც მეტად არის გამოკვეთილი.
+                                წარწერები შესრულებულია გამართული, წიგნიერი ბერძნულით.
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ძალისა</origPlace>
+                                <origDate notBefore="0001" notAfter="0200" precision="medium" evidence="lettering" datingMethod="#julian">I-II AD</origDate>
+                                   </origin>
+                            <provenance type="found" when="1973">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863924">ძალისა</placeName> 
+                                <rs type="circumstances">1973-76 წლებში არქეოლოგიური გათხრების შედეგაც სოფ. ძალისში (კლავდიოს პტოლემაიოსის ძალისა) აღმოჩნდა ანტიკური ნაქალაქარი და 
+                                მოზაიკიანი იატაკი.</rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                         
+                            <provenance type="observed">
+                            <placeName type="modernSpot">ძალისა</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg321_1.jpg">
+                <desc xml:lang="ka">ძალისის მოზაიკური იატაკი, 1973 (I)</desc>
+                <desc xml:lang="en">Dzalisi mosaic floor, 1973 (I)</desc>
+            </graphic>
+            <graphic url="ecg321_2.jpg">
+                <desc xml:lang="ka">ძალისის მოზაიკური იატაკი, 1973 (II)</desc>
+                <desc xml:lang="en">Dzalisi mosaic floor, 1973 (II)</desc>
+            </graphic>
+            <graphic url="ecg321_3.jpg">
+                <desc xml:lang="ka">ძალისის მოზაიკური იატაკი, 1973 (III)</desc>
+                <desc xml:lang="en">Dzalisi mosaic floor, 1973 (III)</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 214-215</citedRange></bibl></p>
+                
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!--μνήσθη (μνησθῇ) Πρεῖσκος 
+                            ὁ ταῦτα ποιήσας
+
+                            Διόνυσος
+                            Ἀριάδνη
+                            Ἀγ[λαΐα] Χάρις
+
+                            a) Θ...Φ
+                                ....
+                            b) ΛΑΙΔΑΤ•
+                                ΠΡΕΙC
+                            c) ΝΚ•ΡΙΝ 
+                                Λαΐδας (Λαΐδατ[ος]) Πρεῖσ[κος]
+
+
+
+                                                                         -->
+                     
+            
+         <div type="textpart" subtype="section" n="1">
+         <ab>
+             <lb n="1"/><w lemma="μιμνῄσκω">μνήσθη</w> <persName><name nymRef="Πρεῖσκος">Πρεῖσκος</name></persName>
+             <lb n="2"/><w lemma="ὁ">ὁ</w> <w lemma="οὗτος">ταῦτα</w> <w lemma="ποιέω">ποιήσας</w>
+         </ab>    
+             
+         </div>
+         <div type="textpart" subtype="section" n="2">
+           <ab>
+              <persName type="divine"><name nymRef="Διόνυσος">Διόνυσος</name></persName>
+               <persName type="divine"><name nymRef="Ἀριάδνη">Ἀριάδνη</name></persName>
+               <persName type="divine"><name nymRef="Ἀγλαΐα">Ἀγ<supplied reason="subaudible">λαΐα</supplied></name> <w lemma="χάρις">Χάρις</w></persName>
+           </ab>  
+         </div>
+        
+          <div type="textpart" subtype="section" n="3">
+                    <ab>
+                        <lb n="1"/><persName><name nymRef="Λαΐδας">Λαΐδατ<supplied reason="subaudible">ος</supplied></name></persName> 
+                        <lb n="2"/><persName><name nymRef="Πρεῖσκος">Πρεῖσ<supplied reason="subaudible">κος</supplied></name></persName>
+                    </ab>
+        </div>
+            </div>
+                
+            <div type="translation" subtype="section" n="1" xml:lang="ka">
+                <p>მოხსენიებულ იქნას პრისკოსი, ამის გამკეთებელი</p>
+            </div>
+            <div type="translation" subtype="section" n="2" xml:lang="ka">
+                <p>დიონისე
+                    არიადნე
+                    აგლაია ქარიტი</p>
+                </div>
+            <div type="translation" subtype="section" n="3" xml:lang="ka">
+                <p>ლაიდასი პრისკოსი</p>
+                </div>
+            
+           <div type="commentary">
+                <p>1973-76 წლების არქეოლოგიური გათხრების შედეგად სოფ. ძალისში (კლავდიოს პტოლემაიოსის ძალისა) აღმოჩნდა ანტიკური ნაქალაქარი, რომლის ნაგებობათა რთული კომპლექსის 
+                ტრიკლინიუმის იატაკი დაფარულია მოზაიკით.</p>
+               <p>მოზაიკური იატაკის ცენტრალურ ნაწილში პირით დარბაზში მყოფთა მიმართ, ოთხკუთხოვან ჩარჩოში გამოყვანილია ბერძნული მოსახსენიებელი წარწერა, მასში მოხსენიებულია ვინმე 
+               პრისკოსი. ვინაა პრისკოსი, ამას დაბეჯითებით ვერ ვიტყვით, მაგრამ რადგან წარწერა ასე საგულდაგულოდ და გამოსაჩენ ადგილას არის გაკეთებული, საფიქრებელია, რომ ის არის 
+               სახსრის გამღები და ინიციატორი ამ საქმის (მოზაიკის დაგების), შესაძლოა, სულაც პატრონი ამ სასახლის.</p>
+               <p>ტრიკლინიუმის დანარჩენი წარწერები შესაბამის გამოსახულებებთანაა დაკავშირებული. როგორც ჩანს, სამი ქარიტი (აგლაია, ევფროსიე, თალეია) იყო გამოსახული როგორც დიონისეს მხლებლები. დანარჩენი ორი ქარიტის წარწერა აღარ ჩანს. არ ჩანს სხვა 
+               გამოსახულებების (დიონისეს მხლებლების - პანის, მენადების) წარწერები. საფიქრებელია, რომ ისინიც იყო.</p>
+               <p>ტეპიდარიუმში შემორჩენილია ორსტრიქონიანი წარწერა. წარწერაში სავარაუდოდ იკითხება ორი საკუთარი სახელი Λαΐδας და Πρεῖσκος. შესაძლოა ამ წარწერაში იყო რამდენიმე პირი 
+               დასახელებული, რომელთაც პრისკოსის განკარგულებით გარკვეული სამუშაო ჩაატარეს.</p>
+               <p>დათარიღება ხდება პალეოგრაფიული მონაცემების (მრგვალი C, Ε, Ο, Θ; ბუნჩატეხილი Α; კუთხეების გამოყოფა წარწერებში) მიხედვით.</p>
+               <p>ხელოვნებათმცოდნეთა აზრით, მოზაიკა, რომელზედაც წარწერებია გამოყვანილი, III ს-ით თარიღდება (შესაბამისად, ძალისის მოზაიკის ბერძნული წარწერები III ს-ისაა).</p>
+              </div>
+
+        </body>
+    </text>
+</TEI>
+
+
+
+
+

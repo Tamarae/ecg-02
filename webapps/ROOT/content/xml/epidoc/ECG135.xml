@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>კუმურდოს მარიამ დედოფლის წარწერა</title>
+                <editor>ვალერი სილოგავა</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
+                <idno type="filename">ECG135</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>კუმურდო</collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc><support>
+                                <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1402">ფილა</objectType>
+                                <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                <dimensions>
+                                <width/>
+                                <height/>
+                                </dimensions>
+                            </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                ფილა ჩასმულია ტაძრის სამხრეთ-დასავლეთ აფსიდის გუმბათქვეშა ბურჯძე,ბურჯის დასავლეთ წახნაგზე, ქვემოდან ქვების მე-7 რიგში
+                                <dimensions unit="cm">
+                                    <width>7</width>
+                                    <height>4</height>
+                                </dimensions>
+                            </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                        <handNote>
+                        <p>რელიეფური, 1 სტრიქონი, 2 ასო გამოყვანილი ქვის ფილის ფონის დადაბლებით; განკვეთილობისა და ქარაგმის ნიშნები არ ახლავს</p>
+                        <dimensions unit="cm">
+                            <height>4</height>
+                        </dimensions>
+                        </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>კუმურდო</origPlace>
+                            <origDate>964</origDate>
+                        </origin>
+                        <provenance type="observed" when="2017-06-30">
+                            <placeName>კუმურდოს საკათედრო ტაძარი</placeName>
+                            <rs type="circumstances">წარწერის ფოტოდოკუმენტაცია გაკეთდა 2017 წლის 30 ივნისს, ილიას სახელმწიფო უნივერსიტეტის ციფრული ეპიგრაფიკის სამაგისტრო კურსის დასკვნითი გამოცდის ექსპედიციის ფარგლებში</rs>
+                            <idno/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <text>
+        <!--
+        1.მმ
+        -->
+        <body>
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName><expan><abbr>მ</abbr><ex>არია</ex><abbr>მ</abbr></expan></persName>
+            </ab>
+            </div>
+
+            <div type="translation"/>
+
+            <div type="commentary"/>
+
+             <div type="bibliography">
+
+              <p><bibl>
+                    <author>
+                        <name>ვალერი</name>
+                        <surname>სილოგავა</surname>
+                    </author>
+                    <title type="main" level="a">კუმურდო</title>
+
+                    48
+                    <pubPlace>თბილისი</pubPlace>
+                    <date>1994</date>
+                </bibl></p>
+
+                    <p><bibl>
+                        <author>
+                            <name>Е.С.</name>
+                            <surname>Такайшвили</surname>
+                        </author>
+                        <title type="main" level="a">Христианские памятники</title>
+                        430
+                        <pubPlace>Москва</pubPlace>
+                        <date>1909</date>
+                    </bibl></p>
+
+            </div>
+
+        </body>
+    </text>
+</TEI>

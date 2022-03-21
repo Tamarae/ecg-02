@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>ჰემატიტის მძივი</title>
+            <editor>თინათინ ყაუხჩიშვილი</editor>
+        </titleStmt>
+        <publicationStmt>
+            <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+            <idno type="filename">ECG271</idno>
+            <availability>
+                <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                    დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                </licence>
+            </availability>
+        </publicationStmt>
+        <sourceDesc>
+            <msDesc>
+                <msIdentifier>
+                    <collection>
+                        მცხეთა
+                    </collection>
+                </msIdentifier>
+                     <msContents>
+                        <summary>
+                            <seg xml:lang="ka">ამულეტი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                <physDesc>
+                    <objectDesc>
+                        <supportDesc>
+                            <support>                             
+                                <material ref="https://www.eagle-network.eu/voc/material/lod/90">ჰემატიტი</material>
+                                <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/174">მძივი</objectType>
+                            </support>
+                        </supportDesc>
+                        <layoutDesc>
+                            <layout>
+                                მძივზე ამოკვეთილია ბერძნული წარწერა.
+                                <dimensions unit="mm">
+                                    <width></width>
+                                    <height></height>
+                                    <depth></depth></dimensions>
+                            </layout>
+                        </layoutDesc>
+                    </objectDesc>                        
+                    <handDesc>
+                        <handNote>
+                            <height/>
+                        </handNote>
+                    </handDesc>
+                    <decoDesc>
+                        <decoNote></decoNote>
+                    </decoDesc>
+                </physDesc>
+                <history>
+                    <origin>
+                        <origPlace>მცხეთა</origPlace>
+                        <origDate notBefore-custom="0001" notAfter-custom="0300" precision="medium" 
+                            evidence="lettering" datingMethod="#julian">I-III AD</origDate>
+                    </origin>
+                    <provenance type="found">
+                        <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863840">მცხეთა</placeName> 
+                        <rs type="circumstances">ნივთი აღმოჩენილია მცხეთაში, ბაითხევის გვიანანტიკური ხანის ორმო სამარხში.</rs>
+                        <rs type="context"/>
+                        <rs type="monuList"/>
+                    </provenance>                     
+                    <provenance type="observed">
+                        <placeName type="modernSpot"></placeName>
+                        <idno></idno>
+                    </provenance>
+                </history>                   
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+</teiHeader>    
+    <facsimile>
+        <surface>
+            <graphic url="ecg271.jpg">
+                <desc xml:lang="ka">მძივი ბაითხევიდან</desc>
+                <desc xml:lang="en">Bead from Baitkhevi</desc>
+            </graphic>
+        </surface>
+    </facsimile>    
+<text>
+    <body>
+         <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 262</citedRange></bibl></p>
+                
+            </div>
+        
+        <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!--  φυλαξε -->
+                               
+         <ab>
+             <w lemma="φίλαττω">φύλαξ<supplied reason="omitted">αι</supplied></w>
+         </ab>    
+             
+         
+            </div>
+        
+        <div type="translation" xml:lang="ka">
+            <p>დაცვა (/დაფარვა)</p>
+        </div>
+        
+        <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app><lem></lem>
+              <rdg></rdg>
+              </app></p>
+            </div>
+        
+        <div type="commentary">
+            <p>როგორც ჩანს, ამ მძივს ამულეტის დანიშნულება ჰქონდა, მისი პატრონი უნდა დაეცვა, დაეფარა ბოროტისაგან.</p>
+            <p>ასოთა მოხაზულობის მიხედვით (განსაკ. დამახასიათებელია ასო ξ) და ენობრივი მონაცემით (αι- დიფთონგი უკვე გამონოფთონგებულია) წარწერა I საუკუნეებით უნდა დათარიღდეს.</p>
+        </div>
+    </body>
+</text>
+</TEI>
+
+
+

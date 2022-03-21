@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>იასპის ქვა</title>
+            <editor>თინათინ ყაუხჩიშვილი</editor>
+            <editor>М. И. Максимова</editor>
+        </titleStmt>
+        <publicationStmt>
+            <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+            <idno type="filename">ECG272</idno>
+            <availability>
+                <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                    დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                </licence>
+            </availability>
+        </publicationStmt>
+        <sourceDesc>
+            <msDesc>
+                <msIdentifier>
+                    <collection>
+                        სამთავრო
+                    </collection>
+                </msIdentifier>
+                     <msContents>
+                        <summary>
+                            <seg xml:lang="ka">ამულეტი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                <physDesc>
+                    <objectDesc>
+                        <supportDesc>
+                            <support>                             
+                                <material ref="https://www.eagle-network.eu/voc/material/lod/89">იასპი</material>
+                                <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/168">ბეჭედი</objectType>
+                            </support>
+                        </supportDesc>
+                        <layoutDesc>
+                            <layout writtenLines="2">
+                                ბეჭდიდან ამოვარდნილ წაკვეთილი კონუსის ფორმის იასპის ქვაზე ფუძეთაგან პატარა წრიულ წახნაგზე ამოკვეთილია 2-სტრიქონიანი წარწერა.
+                                <dimensions unit="mm">
+                                    <width/>
+                                    <height/>
+                                    <depth/>
+                                </dimensions>
+                            </layout>
+                        </layoutDesc>
+                    </objectDesc>                        
+                    <handDesc>
+                        <handNote>
+                            ნეგატიური ბერძნული წარწერა შესრულებულია კუთხოვანი მთავრული ასოებით.
+                            <height />
+                        </handNote>
+                    </handDesc>
+                    <decoDesc>
+                        <decoNote></decoNote>
+                    </decoDesc>
+                </physDesc>
+                <history>
+                    <origin>
+                        <origPlace>სამთავრო</origPlace>
+                        <origDate notBefore-custom="0001" notAfter-custom="0300" precision="medium" 
+                            evidence="lettering" datingMethod="#julian">I-III AD</origDate>
+                    </origin>
+                    <provenance type="found" when="1939">
+                        <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863882">სამთავრო</placeName> 
+                        <rs type="circumstances"></rs>
+                        <rs type="context"/>
+                        <rs type="monuList"/>
+                    </provenance>                     
+                    <provenance type="observed">
+                        <placeName type="modernSpot">საქართველოს გლიპტიკის კაბინეტი</placeName>
+                        <idno>225</idno>
+                    </provenance>
+                </history>                   
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+</teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg272.jpg">
+                <desc xml:lang="ka">იასპის ქვა სამთავროდან, 1939</desc>
+                <desc xml:lang="en">Jasper stone from Samtavro, 1939</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+<text>
+    <body>
+         <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 262-263</citedRange></bibl></p>
+                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 257-258</citedRange></bibl></p>
+                    <p><bibl n="3">М. И. Максимова, Геммы из некрополя Мцхеты-Самтавро<ptr target="bibliography.xml#b153"/>, <citedRange> 257</citedRange></bibl></p>
+                
+            </div>
+        
+        <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!--   εὐτ
+                            ύχει  -->
+                     
+         <ab>
+            <lb n="1"/><w lemma="εὐτυχέω">εὐτ
+            <lb n="2" break="no"/>ύχ<supplied reason="omitted">ει</supplied></w>
+             
+         </ab>    
+             
+         
+            </div>
+        
+        <div type="translation" xml:lang="ka">
+            <p>ბედნიერი იყავი</p>
+        </div>
+        
+        <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p>
+                  <app>
+                      <lem/>
+                        <rdg/>
+              </app>
+              </p>
+            </div>
+        
+        <div type="commentary">
+           <p>წარწერაში გამოთქმულია სურვილი მის მიმართ, ვისაც ეს ნივთი აჩუქეს.
+            ასოთა მოხაზულობის (კუთხოვანი ε, ორგვარი υ), ენობრივი ნორმის (ει- დიფთონგი გადმოცემულია ι-ით) საკმაოდ გავრცელებული ფორმულის მიხედვით წარწერა I საუკუნეებით 
+            უნდა დათარიღდეს. მ. მაქსიმოვა ნივთს (ცხადია, წარწერიანად) III ს-ით ათარიღებს.</p>
+        </div>
+    </body>
+</text>
+</TEI>
+
+
+
+

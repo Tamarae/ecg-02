@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ქობაირის მონასტრის ეპიტაფია შანშეს მწიგნობართუხუცესის მათესი და მისი მეუღლის თენისა</title>
+                <editor>თემო ჯოჯუა</editor>
+                <editor>გიორგი გაგოშიძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG338</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ქობაირი</collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">ეპიტაფია</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>  
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/91.html">ეპიტაფია</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width>78</width>
+                                        <height>132</height>
+                                        <depth></depth>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="3">წარწერა სამსტრიქონიანია. იგი ამოკვეთილია მოვარდისფრო-რუხი
+                            ფერის საფლავის ქვაზე, რომელიც ქობაირის მონასტრის მთავარი ეკლესიის სამხრეთ-აღმოსავლეთით მდებარე
+                               ორნაწილიანი მცირე სამლოცველოს აღმოსავლეთი ნაწილის იატაკშია ჩადგმული; საფლავის
+                            ქვას ზედა და ქვედა მარჯვენა კიდეები მომრგვალებული, ხოლო დანარჩენი ორი კიდე დაკუთხული აქვს.                             
+                                      <dimensions unit="cm">
+                                         <width>24,5</width>
+                                         <height>51</height> 
+                                      </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა, ლამაზი ხელით შესრულებული
+                               <height unit="cm" precision="high">2-7</height> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ქობაირის მონასტერი, სომხეთი</origPlace>
+                                <origDate notBefore-custom="1300" notAfter-custom="1500" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">XIII-XIV AD</origDate>
+                            </origin>
+                            <provenance type="found" when="2011">
+                                <placeName type ="ancientFindspot">ქობაირის მონასტერი, სომხეთი</placeName>
+                                <!-- "41.005061, 44.635086"--> 
+                                <rs type="circumstances">2011 წელს ქეთი ასათიანისა და გიორგი კალანდიას ორგანიზებით განხორციელებული ორი სამეცნიერო ექსპედიციის შედეგად
+                                ქობერის მონასტერში გამოვლინდა მანამდე უცნობი 9 ახალი ქართული ეპიტაფია</rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">ქობაირის მონასტერი, სომხეთი</placeName>
+                                <idno type="invNo"/></provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+     <revisionDesc><change when="2019-12-17" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+     <facsimile>
+        <surface>
+            <graphic url="ecg338.jpg">
+                <desc xml:lang="ka">ქობაირის მონასტრის ეპიტაფია შანშეს მწიგნობართუხუცესის მათესი და მისი მეუღლის თენისა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+            <graphic url="ecg338a.jpg">
+                <desc xml:lang="ka">ქობაირის მონასტრის ეპიტაფია შანშეს მწიგნობართუხუცესის მათესი და მისი მეუღლის თენისა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body> 
+            <div type="bibliography">
+                
+         <p><bibl n="1">თემო ჯოჯუა, გიორგი გაგოშიძე, ქობაირის, ჰნევანქისა და ახტალის მონასტრების ქართული ლაპიდარული წარწერები<ptr target="bibliography.xml#b164"/>, <citedRange> 279-280</citedRange></bibl></p>
+         <p><bibl n="2">ქეთი ასათიანი, გიორგი კალანდია, ქობერის მონასტრის ქართული წარწერები<ptr target="bibliography.xml#b165"/>, <citedRange> 10-14</citedRange></bibl></p>
+                
+           </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!-- ესე სფლვი შნშეს მწიგნ
+                            ბთოხცესისა: მათესი და მ
+                            ისისა: მეუღლისა: თენისი: შნ ღნ  --> 
+                                                            
+
+                <ab>
+                   <lb n="1"/> <w lemma="ესე">ესე</w> 
+                               <w lemma="საფლავ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ფლ</abbr><ex>ა</ex><abbr>ვი</abbr></expan></w> 
+                               <persName type="local" key="შანშე II მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/მხარგრძელი_შანშე_(II)"><name nymRef="შანშე"><expan><abbr>შ</abbr><ex>ა</ex><abbr>ნშეს</abbr></expan></name> </persName>
+                                <persName type="local" key="მათე მწიგნობართუხუცესი [შანშე II მხარგრძელისა]"><roleName nymRef="მწიგნობართუხუცეს"><expan><abbr>მწ</abbr><ex>ი</ex><abbr>გნ</abbr><ex>ო</ex>
+                    <lb n="2" break="no"/><abbr>ბ</abbr><ex>არ</ex><abbr>თო</abbr><ex>ჳ</ex><abbr>ხ</abbr><ex>უ</ex><abbr>ცესისა</abbr></expan></roleName>
+                                <name nymRef="მათე მწიგნობართუხუცესი">მათესი</name> </persName>
+                                და 
+                                <w lemma="მისი">მ
+                    <lb n="3" break="no"/>ისისა</w> 
+                                <w lemma="მეუღლე">მეუღლისა</w> 
+                                <persName type="local" key="თენი [მეუღლე მათე მწიგნობართუხუცესისა]"><name nymRef="თენი">თენისი</name> </persName>
+                                <w lemma="შენდობა"><expan><abbr>შ</abbr><ex>ეუნდვე</ex><abbr>ნ</abbr></expan></w> 
+                                <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
+                   </ab>
+               </div>
+              
+            
+         <div type="translation" xml:lang="ka">
+             <p>ეს არის შანშეს მწიგნობართუხუცესის, მათეს, და მისი მეუღლის, თენის, საფლავი, ღმერთმა შეუნდოთ.</p>
+         </div>                  
+           
+            <div type="commentary">
+                <p>წარწერაში ქარაგმის ნიშნები არ არის გამოყენებული. განკვეთილობის ნიშნები: პატარა რგოლი ან ორწერტილი თითქმის
+                ყოველი სიტყვის შემდეგ; ტექსტში ბგერა უ, ერთ შემთხვევაში, Ⴣ-ს (ჳ) საშუალებით არის
+                გადმოცემული; წარწერაში გვხვდება ლიგატურისა და შეწიაღების შემთხვევები. 
+                წარწერა დაზიანებული არ არის და თავიდან ბოლომდე გარკვევით იკითხება.</p>
+
+<p>თემო ჯოჯუასა და გიორგი გაგოშიძის მიხედვით, „შანშას“, ანუ ათაბაგ-ამირსპასალარის შანშე II მხარგრძელის 
+ერთ-ერთი უმაღლესი მოხელის - მწიგნობართუხუცეს მათესა და მისი თანამეცხედრის თენის ეპიტაფიასთან დაკავშირებით იმთავითვე
+დაისმის ერთი მნიშვნელოვანი კითხვა: რატომ არიან მათე და მისი ცოლი დაკრძალული ცალკე მდგომ
+სამლოცველოში და არა ქობაირის მონასტრის მთავარი ეკლესიის კარიბჭესა თუ კარიბჭის წინ, ეზოში,
+სადაც მხარგრძელთა საგვარეულოს ე. წ. შანშეს ფეოდალური სახლის სხვა მაღალი მოხელეები და
+დიდგვაროვანი ვასალები - მსახურთუხუცესი ოგ~ლა ბუბა, მეღვინეთუხუცეს ივანეს მეუღლე
+გურჯიხათუნი, დავით ლოკელი, შალვა ეგეგომელი და სხვები არიან დაკრძალულნი?
+ხომ არ მიუთითებს ეს ფაქტი იმაზე, რომ მწიგნობართუხუცესი მათე და მისი მეუღლე, 
+ქობაირის მონასტერში დაკრძალულ სხვა მოხელეებსა თუ დიდგვაროვნებთან შედარებით, უფრო მაღალ იერარქიულ
+საფეხურზე იდგნენ და სხვებზე უფრო აღმატებული პატივით სარგებლობდნენ? თუკი დადგენილ ფაქტად
+მივიჩნევთ იმ გარემოებას, რომ მწიგნობართუხუცეს მათესა და მისი თანამეცხედრის საფლავის ქვა
+იმთავითვე ცალკე მდგომ სამლოცველოში იყო ჩადგმული, მაშინ თითქოს
+მათე ქობაირის მონასტერში დაკრძალულ, „შანშეს სახლის“ სხვა მაღალ მოხელეებსა თუ დიდგვაროვან
+ვასალებზე უფრო აღმატებული პატივით სარგებლობდა. მაგრამ იყო კი ეს საფლავის ქვა იმთავითვე
+ცალკე მდგომ სამლოცველოში განთავსებული? საქმე ის არის, რომ აღნიშნული სამლოცველო ბოლო
+ხანებში ჩატარებული სარესტავრაციო სამუშაოების შედეგად თითქმის თავიდან არის აგებული. შესაბამისად,
+ჩნდება საფუძვლიანი ეჭვი, რომ მწიგნობართუხუცეს მათესა და მისი თანამეცხედრის საფლავის
+ქვა თავდაპირველად ცალკე მდგომ სამლოცველოში არ იყო განთავსებული. ის აქ მხოლოდ მოგვიანებით,
+ხსენებული სარესტავრაციო სამუშაოების დროს მიიტანეს და ახლადაღდგენილი სამლოცველოს გასამშვენებლად 
+მისი აღმოსავლეთი ნაწილის იატაკში ჩადგეს. აღნიშნულ ეჭვს კიდევ უფრო აძლიერებს ის
+გარემოება, რომ მწიგნობართუხუცეს მათეს ვაჟის ასაფის საფლავის ქვა ქობაირის მონასტრის მთავარი
+ეკლესიის ჩრდილოეთი ეგვტერის წინ, ეზოშია ჩადგმული და ადგილნაცვალს ნამდვილად არ ჰგავს.
+ამ ბოლო ფაქტის გათვალისწინებით, ლოგიკურად დაისმის კითხვა: თუ ცალკე მდგომი სამლოცველო ნამდვილად
+მწიგნობართუხუცეს მათეს ოჯახის საგვარეულო საძვალე იყო, მაშინ იმავე სამლოცველოში რატომ
+არ არის დაკრძალული ასაფი, რომელიც მათეს ვაჟი იყო და, შესაბამისად, საგვარეულო საძვალეში,
+მშობლების გვერდით უნდა ყოფილიყო დაკრძალული? ამ და ზემოთ დასმულ სხვა კითხვებზე
+რაიმე დამაჯერებელი პასუხის გაცემა შესაბამისი მასალის არქონის გამო გამომცემლებს კვლევის ამ ეტაპზე არ
+შეუძლიათ და ამიტომ მათ ღიად ტოვებენ.</p>                
+            </div>
+         </body>
+    </text>
+</TEI>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI> xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ka">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">X ს. ფრაგმენტი</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <idno type="filename">ECG210</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                    დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            დმანისი
+                        </collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectype/>
+                                    <material>ვარდისფერის ტუფის ქვა</material>
+                                
+                            </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>წარწერა შესრულებულია ერთიან დიდ ქვაზე</p>
+                                <dimensions unit="cm">
+                                    <height/>
+                                    <width/>
+                                    <depth/>
+                                </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions unit="mm">
+                                    <height></height>
+                                </dimensions>        
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>დმანისი</origPlace>
+                            <origDate>X AD</origDate>
+                        </origin>
+                        <provenance><placename>დმანისის შიდაციხის ტერიტორია, V ნაგებობის №4 ოთახი</placename>
+                        </provenance>
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <text><!-- 
+    1.  ...და...
+    2.  ...ი(ან ე)ნთ...
+    3.  ...ბ~რ
+     -->
+        
+        <body>
+            
+            <div type="bibliography">
+                
+                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>101</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
+                
+                <p><bibl n="2">ჯ. კოპალიანი, წარწერიანი არქეოლოგიური მასალა დმანისის ნაქალაქარის შიდა ციხიდან, დმანისი, <cittedRange>78-79</cittedRange>, თბილისი, 1998<ptr target="bibliography.xml#b214"/></bibl></p>
+                
+                
+            </div>
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                <div type="textpart" subtype="fragment" n="1">
+                    <ab>
+                        <lb n="1"/> ...და...
+                        <lb n="2"/>...ი(ან ე)ნთ...
+                        <lb n="3"/>...ბ~რ
+                        
+                        
+                    </ab>
+                </div> 
+                
+            </div>
+            
+            <div type="translation">
+                <p>
+                    
+                </p>
+            </div>
+            <div type="commentary">
+                <p>აღმოჩნდა არქეოლოგიური გათხრებისას დმანისის შიდაციხის ტერიტორიაზე V  ნაგებობის № 4 ოთახში. ამჟამად წარწერის ფრაგმენტები დაცულია  დმანისის არქეოლოგიური მუზეუმის ბაზაზე.
+                    დაზიანება: წარწერა ფრაგმენტული სახით შემორჩა
+                    წარწერის დათარიღება წინა გამოცემაში: XI  ს., პალეოგრაფიული ნიშნებისა და იქვე გამოვლენილი არქეოლოგიური მასალის საფუძველზე (კ).
+                    გაკუთხოვნებული გრაფემები გათვალისწინებით, წარმოდგენილ გამოცემაში გაზიარებულია მოცემული დათარიღბა
+                  
+                </p>
+            </div>
+            
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+

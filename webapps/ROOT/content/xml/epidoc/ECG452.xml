@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ბესლეთის ხიდის წარწერა</title>
+                <editor>ლია ახალაძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
+                 <idno type="filename">ECG452</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            ბესლეთის ხიდი <!-- სოხუმის მიდამოები -->
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სავედრებელი</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material>ქვა</material>
+                                   <objectType>ფილა</objectType> 
+                                        <dimensions>
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="1"> 
+                                        წარწერა მოთავსებულია ბესლეთზე გადებული ხიდის თაღის დასავლეთის კიდეზე.
+                                        <dimensions/>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli">
+                                ერთსტრიქონიანი <rs type="execution">ამოკვეთილი</rs> <rs type="script">ასომთავრული</rs> წარწერა. კვეთის სიღრმე:1-1,5 სმ. განკვეთილობის ნიშნები არ ახლავს; ქარაგმის ნიშანი:კიდურწაისრული, კლაკნილი, განივი ხაზი.
+                                <rs type="execution" key="dot">ნაწილობრივ კიდურწერტილოვანი</rs> 
+                                <rs type="execution" key="arrow">კიდურწაისრული</rs>
+                                   <height unit="cm">24-21-17-11</height>
+                                 </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ბესლეთის ხიდის წარწერა</origPlace>
+                                <origDate/>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">ბესლეთის ხიდის წარწერა</placeName>
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                            <provenance type="observed">
+                            <placeName type="modernSpot">ბესლეთის ხიდი</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2019-07-06" who="skhulukhia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, ბმულის დაკავშირება გარე კონტროლირებად ლექსიკონთან</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="beselta.jpg">
+                <desc xml:lang="ka">ბესლეთის ხიდის წარწერა</desc>
+                 <desc xml:lang="en"></desc>
+            </graphic>
+           <graphic url="ecg452.jpg">
+                <desc xml:lang="ka">ბესლეთის ხიდის წარწერა</desc>
+                 <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+            
+             <div type="bibliography">
+                
+                    <p><bibl n="1"></bibl></p>
+                
+            </div>
+            
+             <!-- ქ(რისტ)ე [მეუფ(ე)ო] ყ(ოველ)თა[ო], [უმ(ე)ტ(ე)ს(ა)დ] [ად]იდე  ორთავ[ე] ს(უ)ფ(ე)[ვ]ათა უ[ძლეველი] [...] -->
+            <div type="edition" xml:lang="ka" xml:space="preserve" ana="mtavruli">
+                <ab>
+                      <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
+                                <w lemma=" მეუფე"><supplied reason="lost" precision="medium"><expan><abbr>მეუფ</abbr><ex>ე</ex><abbr>ო</abbr></expan></supplied></w>
+                                <w lemma="ყოველთა"><expan><abbr>ყ</abbr><ex>ოველ</ex><abbr>თა</abbr><supplied reason="lost" precision="medium">ო</supplied></expan></w> 
+                         <w><supplied reason="lost" precision="medium"><expan><abbr>უმ</abbr><ex>ე</ex><abbr>ტ</abbr><ex>ე</ex>ს<ex>ა</ex><abbr>დ</abbr></expan></supplied></w>
+                         <w lemma="ადიდებს"><supplied reason="lost" precision="medium">ად</supplied>იდე </w> <w> ორთავ<supplied reason="lost" precision="medium">ე</supplied></w>
+                         <w lemma="სუფევა"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ფ</abbr><ex>ე</ex><supplied reason="lost" precision="medium">ვ</supplied><abbr>ათა</abbr></expan></w>
+                        <w lemma="უძლეველ">უ<supplied reason="lost" precision="medium">ძლეველი</supplied></w> <w><supplied reason="lost">...</supplied></w>
+                </ab>
+                </div>
+            
+             <div type="translation" xml:lang="ka"><p>ყოველთა ქრისტე მეუფეო, უმეტესად სუფევით  ადიდე ორივე უძლეველი</p></div>
+            
+            <div type="apparatus" xml:space="preserve"/>
+            
+            <div type="commentary"><p>წარწერის შემორჩენილი ტექსტის მიხედვით, როგორც ჩანს, მასში მეფე იყო დასახელებული. ეს მეფე შეიძლება იყოს ბაგრატ III, გიორგი I, ან ბაგრატ  IV.
+              ტექსტში რომელიმე მათგანის სახელის, ტიტულის, ან ტიტულის ნაწილის აღდგენის შემთხვევაში, წარწერის თარიღის დავიწროვდება.  პალეოგრაფიული ნიშნებით წარწერა მე-11 საუკუნისაა და ამიტომაც ის ამ საუკუნით შეიძლება დათარიღდეს.</p></div>
+     
+         </body>
+    </text>
+</TEI>

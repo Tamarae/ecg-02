@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ჯუჯაქენდის წარწერა</title>
+                <editor>ლეონ მელიქსეთ-ბეგი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG337</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ჯუჯაქენდი</collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>  
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/100">სვეტი</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                    
+                                      <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="6">წარწერა ექვსსტრიქონიანია. იგი შესრულებულია ჯუჯაქენდის ტაძრის ჩრდილოეთის კედლის სვეტზე                               
+                                      <dimensions unit="cm">
+                                         <width></width>
+                                         <height></height> 
+                                      </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                             <handNote script="nuskhuri" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ნუსხური</rs> წარწერა
+                                   <height unit="cm" precision="high"></height> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ჯუჯაქენდის ეკლესია, სომხეთი</origPlace>
+                                <origDate></origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">ჯუჯაქენდის ეკლესია, სომხეთი</placeName> 
+                                <!-- "41.201302, 44.226978"-->
+                                <rs type="circumstances">წარწერა შაჰნაზირის ახლოს ჯუჯექენდაში, გორაკზე ერთნავიან, ნახევრად დანგრეულ ეკლესიაშია აღმოჩენილი.
+                                    იგი 1964 წელს შეისწავლა და გამოსცა ლეონ მელიქსეთ-ბეგმა</rs>
+                                <rs type="context"/>                                    
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName type="modernSpot">ჯუჯაქენდის ეკლესია, სომხეთი</placeName>
+                                <idno type="invNo"/></provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-12-17" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+    <!--<facsimile>
+        <surface>
+            <graphic url="ecg337.jpg">
+                <desc xml:lang="ka">ჯუჯაქენდის წარწერა</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>--> 
+    <text>
+        <body>           
+              <div type="bibliography">
+                 
+    <p><bibl n="2">ლეონ მელიქსეთ-ბეგი, ლორე-ტაშირის ქართული ეპიგრაფიკა<ptr target="bibliography.xml#b162"/>, <citedRange> 309-327</citedRange></bibl></p>
+               
+            </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!-- სახელითა ღმრთისაჲთა ესე 
+                            ჩუენ გორაკელთა, 
+                            ფიჩოსანთა, დავწერეთ: 
+                            ვინ უწინა მოკუდეს, 
+                            ი დღე ჟამი უწირო[ნ] 
+                            ყოველთა.--> 
+
+                <ab>
+                <lb n="1"/><w lemma="სახელ">სახელითა</w> 
+                           <w lemma="ღმერთ">ღმრთისაჲთა</w> 
+                           <w lemma="ესე">ესე</w>
+                <lb n="2"/><w lemma="ჩუენ">ჩუენ</w> 
+                            <w lemma="გორაკელ">გორაკელთა</w>
+                <lb n="3"/><w lemma="ფიჩოსან">ფიჩოსანთა</w> 
+                            <w lemma="დაწერა">დავწერეთ</w>
+                <lb n="4"/><w lemma="ვინ">ვინ</w> 
+                            <w lemma="უწინ"><expan><abbr>ო</abbr><ex>ჳ</ex><abbr>წინა</abbr></expan></w> 
+                            <w lemma="კუდომა">მოკუდეს</w>
+                <lb n="5"/><num value="10">ი</num> 
+                        <w lemma="დღე">დღე</w> 
+                        <w lemma="ჟამ">ჟამი</w> 
+                        <w lemma="წირვა"><expan><abbr>ო</abbr><ex>ჳ</ex><abbr>წირო</abbr><supplied reason="lost"><abbr>ნ</abbr></supplied></expan></w>
+                <lb n="6"/><w lemma="ყოველ">ყოველთა</w>
+                  </ab>
+               </div>
+              
+            <div type="apparatus" xml:space="preserve">               
+             <listApp><app></app></listApp>    
+            </div>
+            
+         <div type="translation" xml:lang="ka">
+             <p>ღვთის სახელით, ეს ჩუენ, გორაკელმა ფიჩოსნებმა, დავწერეთ: ვინც უწინ მოკვდება, მათ ათი დღე ჟამი უწირონ.</p>
+         </div>    
+                             
+            <div type="commentary">
+                <p> ლეონ მელიქსეთ-ბეგი ამ ქართული წარწერის კონკრეტულ თარიღს არ იძლევა. საინტერესოა წარწერაში ნახსენები სახელი 
+                    „ფიჩოსანთა“, რაც, ლეონ მელიქსეთ-ბეგის აზრით, კიდევ ერთხელ ადასტურებს ქართველ ან საერთოდ ქალკედონელ ფიჩოსანთა არსებობას, 
+                    ე.ი. ქართლის (მცხეთის) საკათალიკოსოს დაქვემდებარებულ სამონასტრო აღმშენებლობას ლორე-ტაშირის ამ განაპირა კუთხეში.</p>                
+            </div>   
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">სამსონის წარწერა</title>
+                <title xml:lang="en">Armenian inscription of Samson</title>
+                <editor xml:lang="ka">ზაზა ალექსიძე</editor>
+                <editor xml:lang="en">Zaza Aleksidze</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG155</idno> <!-- სომხურებისთვის დასახელების ქვეჯგუფი -->
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259"></objectType> <!-- დასაზუსტებელია ობიექტის ტიპი -->
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75"></material>  <!-- დასაზუსტებელია მასალა, სავარაუდოდ, იგივე რაც ფასადის ქართულ წარწერებში -->                                 
+                                      <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                      <dimensions unit="cm">
+                                         <width/>
+                                         <height/> 
+                                      </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>
+                                    რელიეფის ზედა კიდეზე, წინა წარწერიდან მარჯვნივ ორი გრაფემა სომხური მრგლოვანი ასომთავრულით (ერკათაგირ)(S=4X8)
+                                   <height unit="cm"> <!-- ხომ არ აჯობებს დაიმენშენი ჩავსვა და ზომა დაიმენშენს მივანიჭო? -->
+                                   </height>
+                                    <width/>
+                                    <depth/>
+                                    
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ატენის სიონი</origPlace>
+                                <origDate  datingMethod="#julian">982-986 AD</origDate> <!--evidence="lettering" ?? სანახავია დათარიღების საფუძველი-->>
+                            </origin>
+                            <provenance type="found" when="1993">
+                                <placeName type ="ancientFindspot">ატენის სიონი</placeName> 
+                                <rs type="circumstances"/>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>                                
+                            <provenance type="observed" when="2016">
+                                <placeName type="modernSpot">ატენის სიონი</placeName>
+                                <idno type="invNo"/>
+                            </provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <text>
+        <body>           
+              <div type="bibliography" subtype="principalEdition">
+                   
+                    <p><bibl n="1">
+                        ზაზა ალექსიძე, <ptr target="bibliography.xml#b185"/>ატენის სიონის სომხური წარწერები, <citedRange>62</citedRange>
+                        
+                    </bibl></p>
+                
+              </div>
+            
+            <div type="edition" xml:lang="hy" xml:space="preserve">
+                
+                        <!--  ՍԱ
+  --> 
+                                                            
+                <ab>
+                   <lb n="1"/><persName type="local" key="სამსონ (Սամսոն)">Սա<supplied reason="lost" precision="medium">մսոն</supplied></persName>
+                </ab>
+               </div>
+         <div type="translation" xml:lang="ka">
+             <p>სამსონი</p>
+         </div>    
+          <div type="translation" xml:lang="hy">
+             <p>Սամսոն</p>
+         </div> 
+                               
+            <div type="apparatus" xml:space="preserve">
+            </div>
+            
+                
+            <div type="commentary">           
+            </div>
+                   
+        </body>
+    </text>
+</TEI>

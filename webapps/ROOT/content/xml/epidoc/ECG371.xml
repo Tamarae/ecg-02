@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ხუნზახის VII წარწერა დაღესტნიდან</title>
+                <editor xml:lang="ka">შაჰბან ჰაფიზოვი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG371</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ხუნზახი</collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                    <objectType>ჯვარი</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                      <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                      </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="2">წარწერა ორსტრიქონიანია.
+                                        <dimensions unit="cm">
+                                         <width/>
+                                         <height/> 
+                                        </dimensions>  
+                                    </layout>                                   
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                          <handNote script="asomtavruli" style="inscribed">
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
+                                   <height/> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ხუნზახი, დაღესტანი</origPlace>
+                                <origDate notBefore-custom="1100" notAfter-custom="1200" 
+                                    evidence="lettering historical context" datingMethod="#julian">XII AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName  type ="ancientFindspot" when="1971">ხუნზახი, დაღესტანი</placeName>
+                                <!-- "42.547389, 46.706797"--> 
+                                <rs type="circumstances">1970-1971 წლებში ტად-რაალში აღმოჩნდა სამი ქვა ქართული წარწერებითურთ. 
+                                    ისინი ინახება ხუნზახელი ალიბეკ კაზანბიევის სახლში. მათ შორის არის ერთი ნამტვრევი ქვის ჯვრისა, 
+                                    რომელიც ნაპოვნია ხუნზახიდან 3 კმ-ში მდებარე ხუტორ ხინის ეკლესიის ნანგრევებთან
+                                    (Яковлев Н.Ф.. Новое в изучении Северного Кавказа. Новый Восток. 1924,  246; 
+                                    Гамбашидзе Г. Вопросы христианской культуры и исторической географии Аварии
+                                    в свете результатов Дагестано-Грузинской объединённой археологической экспедиции АН ГССР и СССР, 1983, 7).
+                                    შემორჩენილია მხოლოდ ორი გვერდითი მკლავი. გადარჩენილია მხოლოდ ორი სტრიქონი (მეორე - ნაწილობრივ)</rs>
+                                <rs type="monuList"/></provenance>                                
+                            <provenance type="observed">
+                                <placeName>ხუნზახი, დაღესტანი</placeName>
+                                <idno type="invNo"/></provenance> 
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+      <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface>
+            <graphic url="ecg371.jpg">
+                <desc xml:lang="ka">ხუნზახის VII წარწერა დაღესტნიდან</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>           
+         <div type="bibliography">
+           
+   <p><bibl n="1">შაჰბან ჰაფიზოვი, ქართული, ქართულ-ხუნძური და ხუნძური წარწერები მთიან ხუნძეთში (დაღესტანი)<ptr target="bibliography.xml#b141"/>, <citedRange> 124</citedRange></bibl></p>
+             
+          </div>
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!-- (1) სამებაო 
+                            “სამებაო” 
+                            (2) ...შ(ეიწყალ)ე 
+                            “შეიწყალე”.-->                                                       
+
+                <ab>
+                   <lb n="1"/><w lemma="სამება">სამებაო</w> 
+                   <lb n="2"/><gap reason="lost" extent="unknown" unit="chars"></gap>
+                            <w lemma="შეწყალება"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w>
+                </ab>
+         </div>
+            
+         <div type="translation" xml:lang="ka">
+             <p>სამებაო, ? შეიწყალე.</p>
+         </div>    
+      
+      <div type="apparatus" xml:space="preserve"/>
+            
+            <div type="commentary"/>             
+            
+        </body>
+    </text>
+</TEI>

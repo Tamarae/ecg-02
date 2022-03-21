@@ -1,0 +1,107 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>
+ვერცხლის თასზე ამოკვეთილი არამეული წარწერა ბორიდან (III ს.)
+</title>
+</titleStmt>
+<publicationStmt>
+<authority>
+ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი
+</authority>
+<idno type="filename">ECG1080</idno>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიის ფარგლებში.
+</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName type="invNo"/>
+</msIdentifier>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support>
+<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250"/>
+<material ref="http://www.eagle-network.eu/voc/material/lod/16"/>
+<dimensions unit="cm">
+<height/>
+<width/>
+</dimensions>
+</support>
+</supportDesc>
+<layoutDesc>
+<layout>
+<dimensions unit="cm">
+<height/>
+<width/>
+</dimensions>
+</layout>
+</layoutDesc>
+</objectDesc>
+<handDesc>
+<handNote>
+<height/>
+;
+<width/>
+</handNote>
+</handDesc>
+</physDesc>
+<history>
+<origin>
+<origPlace>ბორი</origPlace>
+<origDate notBefore="0100" notAfter="0200" evidence="lettering" precision="medium">III AD</origDate>
+</origin>
+<provenance type="found">
+<placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863746">ბორი</placeName>
+<rs type="monuList"/>
+<rs type="circumstances"/>
+<rs type="context"/>
+</provenance>
+<provenance type="observed">
+<placeName type="modernSpot">National Museum of Georgia</placeName>
+</provenance>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="bibliography">
+
+<p><bibl>
+<author>
+<surname>წერეთელი</surname>
+<forename>გიორგი</forename>
+</author>
+<title level="j" type="main">
+არამეული დამწერლობით შესრულებული ახალი წარწერა ბორი-სამთავროდან
+</title>
+</bibl></p>
+
+</div>
+<div type="edition" xml:space="preserve" xml:lang="arc">
+<ab>
+<lb rend="right-to-left" n="1"/>
+<unclear/>
+</ab>
+</div>
+<div type="translation" xml:lang="ka">
+<p n="1"> </p>
+<div type="translation" xml:lang="ka">
+<p n="2"> </p>
+</div>
+</div>
+<div type="apparatus" xml:space="preserve"> </div>
+<div type="commentary">
+<p/>
+</div>
+</body>
+</text>
+</TEI>

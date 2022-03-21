@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ურბნისის სიონის მოსახსენებელი სიონის განმაახლებელისა</title>
+                <title xml:lang="en">Urbnisi Sioni church, memorial of the restorer</title>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <editor xml:lang="en">Nodar Shoshiashvili</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG035</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ურბნისი</collection>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">მოსახსენებელი</seg>
+                            <seg xml:lang="en">Memorial</seg>
+                        </summary>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/75">ქვიშაქვა</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/75">Limestone</material>
+                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">Facade</objectType>
+                                        I ფილა
+                                     <dimensions unit="cm">                                                                                                                  
+                                        <height>23</height>
+                                        <width>32</width>
+                                        <depth></depth>
+                                     </dimensions>
+                                       II ფილა
+                                        <dimensions unit="cm">
+                                        <height>23</height>
+                                        <width>31</width>
+                                        <depth></depth>
+                                    </dimensions> 
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="8"> 
+                                        <seg xml:lang="ka">წარწერა 8 სტრიქონიანია. იგი ამოკვეთილია ტაძრის აღმოსავლეთის ფასადზე, ორ, ერთმანეთის გვერდით ჩადგმულ ფილაზე.
+                                        მარჯვენა ფილა ადგილშენაცვლებისას თავდაყირა ჩაუდგამთ კედელში. წარწერა იკითხება ჯერ მარცხენა ფილაზე,
+                                        ხოლო შემდეგ - მარჯვენაზე. თითეულ ფილაზე 4 სტრიქონია.</seg>
+                                        <seg xml:lang="en">Eight line inscription. The inscription is located on the east facade of the church on the neighbouring embedded plaques. 
+                                            The right plaque is fixed upside down. The inscription can be read first on the left plaque, then on the right plaque. Four lines on each plaque.  </seg>
+                                        <dimensions unit="cm">
+                                        <width>58</width>
+                                        <height>20</height>
+                                        <depth></depth></dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote script="asomtavruli" style="embossed">
+                                <seg xml:lang="ka"><rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
+                                <seg xml:lang="en">Embossed Asomtavruli inscription</seg>
+                                 <width/>
+                                <height>5-5,5</height>
+                              </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>
+                                    <seg xml:lang="ka">ურბნისის სიონი</seg>
+                                    <seg xml:lang="en">Urbnisi Sioni</seg>
+                                </origPlace>
+                                <origDate notBefore-custom="0900" notAfter-custom="1000" precision="medium" 
+                                    evidence="lettering" datingMethod="#julian">X AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863914">
+                                    <seg xml:lang="ka">ურბნისის სიონი</seg>
+                                    <seg xml:lang="en">Urbnisi Sioni</seg>
+                                </placeName>
+                                <!-- "42.010941, 43.979704"-->
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                             <provenance type="observed">
+                            <placeName>
+                                <seg xml:lang="ka">ურბნისის სიონი</seg>
+                                <seg xml:lang="en">Urbnisi Sioni</seg>
+                            </placeName>
+                            <idno/>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-11-11" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface>
+            <graphic url="ecg035.jpg">
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/34/">ურბნისის სიონის მოსახსენებელი სიონის განმაახლებელისა</desc>
+                <desc xml:lang="en" ref="http://paleography.iliauni.edu.ge/digipal/page/34/">Urbnisi Sioni church, memorial of the restorer</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+ 
+    <text>
+        <body>
+             <div type="bibliography">
+                 
+                    <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი<ptr target="bibliography.xml#b101"/>, <citedRange> 197-198</citedRange></bibl></p>
+                    <p><bibl n="2">M. Brosset, Rapports VI<ptr target="bibliography.xml#b22"/>, <citedRange>14-15</citedRange></bibl></p>
+                    <p><bibl n="3">ექვთიმე თაყაიშვილი, არხეოლოგიური მოგზაურობანი და შენიშვნანი<ptr target="bibliography.xml#b70"/>, <citedRange> 44-45</citedRange></bibl></p>
+                    <p><bibl n="4">ნოდარ შოშიაშვილი, ნაქალაქარი ურბნისი<ptr target="bibliography.xml#b99"/>, <citedRange> 139</citedRange></bibl></p>
+                    <p><bibl n="5">ნოდარ შოშიაშვილი, ურბნისის ძველი ქართული წარწერები<ptr target="bibliography.xml#b100"/>, <citedRange> 148</citedRange></bibl></p>
+                    <p><bibl n="6">პარმენ ზაქარაია, ნაქალაქარ ურბნისის ხუროთმოძღვრება<ptr target="bibliography.xml#b104"/>, <citedRange> 91-92</citedRange></bibl></p>
+                    <p><bibl n="7">ვალერი სილოგავა, ეპიგრაფიკული ეტიუდები<ptr target="bibliography.xml#b75"/>, <citedRange> 97</citedRange></bibl></p>
+                
+               </div>  
+            
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+                
+                        <!--  “დბჲ შა ქე
+                              რ მდლე თე
+                              ებკსა ას სა
+                              აღშბჲ თნა
+                              შწნთა მქლ
+                              ძსა კტსითა
+                              ქნ შენ ესე მე
+                              აბთრ დწრე” -->   
+                                 
+         <div type="textpart"  subtype="fragment" n="1">
+                <ab>
+                   <lb n="1"/><w lemma="დიდება"><expan><abbr>დ</abbr><ex>იდე</ex><abbr>ბ</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></w> 
+                              <w lemma="შენ"><expan><abbr>შ</abbr><ex>ენდ</ex><abbr>ა</abbr></expan></w> 
+                              <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
+                    <lb n="2"/><w lemma="რამეთუ"><expan><abbr>რ</abbr><ex>ამეთუ</ex></expan></w> 
+                               <w lemma="მომადლება"><expan><abbr>მ</abbr><ex>ომმა</ex><abbr>დლე</abbr></expan></w> 
+                               <persName type="local" key="თევდორე ეპისკოპოსი ლუკას ძე [ურბნისის მაშენებელი]"><name nymRef="თევდორე"><expan><abbr>თ</abbr><ex>ევდორ</ex><abbr>ე</abbr></expan></name></persName> 
+                    <lb n="3"/><roleName><w lemma="ეპისკოპოს"><expan><abbr>ებ</abbr><ex>ის</ex><abbr>კ</abbr><ex>ოპოს</ex><abbr>სა</abbr></expan></w></roleName> 
+                                <w lemma="ესე"><expan><abbr>ა</abbr><ex>მი</ex><abbr>ს</abbr></expan></w> 
+                                <w lemma="სიონ"><expan><abbr>ს</abbr><ex>იონის</ex><abbr>ა</abbr></expan></w>
+                    <lb n="4"/><w lemma="აღშენება"><expan><abbr>აღშ</abbr><ex>ენე</ex><abbr>ბ</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></w> 
+                               <w lemma="თანა"><expan><abbr>თ</abbr><ex>ა</ex><abbr>ნა</abbr></expan></w> 
+                    </ab>
+           </div>
+             <div type="textpart" subtype="fragment" n="2">
+                <ab>
+                    <lb n="5"/><w lemma="შეწევნა"><expan><abbr>შ</abbr><ex>ე</ex><abbr>წ</abbr><ex>ევ</ex><abbr>ნ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
+                               <persName type="local" key="მიქაელ კონსტანტის ძე [ურბნისის მაშენებელი]"><name nymRef="მიქაელ"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>აე</ex><abbr>ლ</abbr></expan></name> </persName>
+                    <lb n="6"/><w lemma="ძე"><expan><abbr>ძ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w> 
+                              <persName type="local" key="კონსტანტი [ურბნისის მაშენებელ მიქაელის მამა]"><name nymRef="კოსტანტი"><expan><abbr>კ</abbr><ex>ოს</ex><abbr>ტ</abbr><ex>ანტი</ex><abbr>სითა</abbr></expan></name> </persName>
+                    <lb n="7"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტემა</ex><abbr>ნ</abbr></expan></w> 
+                               <w lemma="შეწყალება"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ენ</abbr></expan></w> 
+                               <w lemma="ესე">ესე</w> <w lemma="მე">მე</w> 
+                    <lb n="8"/><persName type="local" key="აბიათარ [ურბნისის წარწერის ამომკვეთი]"><name nymRef="აბიათარ"><expan><abbr>აბ</abbr><ex>ია</ex><abbr>თ</abbr><ex>ა</ex><abbr>რ</abbr></expan></name> </persName>
+                               <w lemma="დაწერა"><expan><abbr>დ</abbr><ex>ავ</ex><abbr>წ</abbr><ex>ე</ex><abbr>რე</abbr></expan></w>
+                </ab>
+             </div>
+     </div>
+            
+            <div type="translation">
+                <p xml:lang="ka">დიდება შენდა, ქრისტე, რამეთუ მოჰმადლე თეოდორე ეპისკოპოსს ამ სიონის აშენება მიქაელ კოსტანტის ძის შეწევნით. ქრისტემ შეიწყალოს. ეს მე, აბიათარმა, დავწერე.</p>
+                <p xml:lang="en">Christ, I glorify you for giving your blessing to Bishop Theodoros for building this Sioni church with the help of Michael, son of Konstanti. God, have mercy on him. Written by me, Abiatar. </p>
+                </div>
+            
+            <div type="apparatus" xml:space="preserve">
+                 
+                <p><app loc="2"> <lem>თევდორე</lem>
+                 <rdg resp="ე. თაყაიშვილი, ნ. შოშიაშვილი 1, პ. ზაქარაია, ვ. სილოგავა">თეოდორე</rdg>
+                 </app></p>
+                
+                <p><app loc="3"> <lem>ებისკოპოს</lem>
+                 <rdg resp="ნ. შოშიაშვილი 1">ეპისკოპოსსა</rdg>
+                 </app></p>
+                
+                  <p><app loc="3"> <lem>ესე სიონ</lem>
+                 <rdg resp="მ. ბროსე">ასსა</rdg>
+                   <rdg resp="ე. თაყაიშვილი">ამისსა</rdg>
+                 </app></p>
+                
+                 <p><app loc="5"> <lem>მიქაელ ძე</lem>
+                 <rdg resp="მ. ბროსე">მიქელაძისა</rdg>
+                 </app></p>
+                
+                <p><app loc="5"> <lem>მიქაელ</lem>
+                 <rdg resp="ე. თაყაიშვილი, ნ.შოშიაშვილი 1, პ. ზაქარაია, ვ სილოგავა">მიქელ</rdg>
+                 </app></p>
+                
+                 <p><app loc="6"> <lem>კოსტანტი</lem>
+                 <rdg resp="მ. ბროსე">გალატოზით</rdg>
+                  <rdg resp="ე. თაყაიშვილი">კოსტანტინესით</rdg>
+                   <rdg resp="ნ. შოშიაშვილი 1, პ. ზაქარაია">კონსტანტინესითა</rdg>  
+                 </app></p>
+                
+                <p><app loc="7"> <lem>შეწყალება</lem>
+                    <rdg resp="მ. ბროსე">შეუნდავნ</rdg>
+                 <rdg resp="ე. თაყაიშვილი, ნ.შოშიაშვილი 1, პ. ზაქარაია, ვ სილოგავა">შეუნდვენ</rdg>
+                 </app></p>
+                
+                <p><app loc="8"> <lem>დაწერა</lem>
+                 <rdg resp="მ. ბროსე">-</rdg>
+                 </app></p>
+                </div>  
+            
+            
+            <div type="commentary">
+                <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით # 105. წარწერა ხელით და პალეოგრაფიული ნიშნებით მსგავსია ურბნისის სიონის მეორე, 
+                    თევდორე ეპისკოპოსის, წარწერისა. როგორც ჩანს, ორივე წარწერა ერთი ოსტატის ნახელავია.</p>
+                <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #105. The inscription looks like the second inscription of Urbnisi Sioni with its paleographic data and style of handwriting. It is apparent that both inscriptions are done by one and the same author. </p>
+            </div>
+                   
+         </body>
+    </text>
+</TEI>

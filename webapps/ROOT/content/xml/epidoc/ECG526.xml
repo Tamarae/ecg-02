@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">შოთა და იაის ფრესკული წარწერა</title>
+                <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                 <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG526</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            თორის წარწერების კორპუსი
+                        </collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material>ქვა</material>
+                                   <objectType> ფრესკა</objectType>
+                                        <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="1">
+                                        <dimensions unit="cm">
+                                            <width>7-25</width>
+                                            <height>7-2,2</height>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="asomtavruli">წარწერა შესრულებულია ასომთავრულით, განკვეთილობის და ქარაგმის ნიშნები არ აქვს.
+                                <width>3,5</width>
+                                <height>1,9</height>
+                                 </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ბორჯომის ხეობა, ქვაბისხევის ღვთისმშობლის ეკლესია, შოთა და იაის ფრესკული წარწერა</origPlace>
+                                <origDate>XII-XIIIს.</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">ბორჯომის ხეობა, ქვაბისხევის ღვთისმშობლის ეკლესია, შოთა და იაის ფრესკული წარწერა</placeName>
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">ბორჯომის ხეობა, ქვაბისხევის ღვთისმშობლის ეკლესია, შოთა და იაის ფრესკული წარწერა
+                            <placeName type="modernSpot">ბორჯომის ხეობა, ქვაბისხევის ღვთისმშობლის ეკლესია, შოთა და იაის ფრესკული წარწერა</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2020-01-16" who="papidze"> გარე ანოტირება, პირთა სახელების, წარწერის სრული კოდირება  შესრულდა 2020 წლის ციფრული ეპიგრაფიკის სასწავლო კურსის ფარგლებში.</change>
+        </revisionDesc>
+    </teiHeader>
+    <!-- წარწერის ფოტოდოკუმენტაცია -->
+    <facsimile>
+        <surface>
+            <graphic url="ECG526.jpg">
+                <desc xml:lang="ka">შოთა და იაის ფრესკული წარწერა</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+           <div type="bibliography">
+               
+                <p><bibl n="1">ნიკო ბერძენიშვილი<ptr target="bibliography.xml#b130"/>1964,<citedRange>227-229</citedRange>2020</bibl></p>
+                 <p><bibl n="2">გიორგი ჩუბინაშვილი, 1948,<citedRange>398</citedRange>2020</bibl></p>
+                   <p><bibl n="3">ალექსანდრე მიქავა, 1960,<citedRange></citedRange>2020</bibl></p>
+                   <p><bibl n="4">სარგის ცაიშვილი, 1985,<citedRange>438-442</citedRange>2020</bibl></p>
+                   <p><bibl n="5">ნოდარ შოშიაშვილი, 1966,<citedRange> 70-71</citedRange>2020</bibl></p>
+                   <p><bibl n="6">ამბერკი გაჩეჩილაძე, 1977,<citedRange></citedRange>2020</bibl></p>
+                   <p><bibl n="7">გიორგი ზედგინიძე, 1980,<citedRange></citedRange>2020</bibl></p>
+                   <p><bibl n="8">ზურაბ ჭუმბურიძე, 1980,<citedRange></citedRange>2020</bibl></p>
+                   <p><bibl n="9">შოთა ძიძიგური, ალექსანდრე ბარამიძე, ელენე მეტრეველი, 1980<citedRange></citedRange>2020</bibl></p>
+                   <p><bibl n="10">პროკოფი რატიანი, 1981,<citedRange></citedRange>2020</bibl></p>
+                   <p><bibl n="11">ევგენი ბართაია, 1981,<citedRange> 87-91</citedRange>2020</bibl></p>
+            
+           </div>
+            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">     
+              <!--შოთა, იაი (...)-->
+                <ab>
+                <lb n="1"/><persName type="local" key="შოთა">შოთა</persName> <persName type="local" key="ია">იაი</persName> 
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ka"/>
+            <div type="apparatus" xml:space="preserve"/>
+            <div type="commentary"><p>წარწერა დაზიანებულია. კლიმატური პირობების გამო წარწერა გადარეცხილია და აღარ იკითხება წარწერის დასწყისი ნაწილი. დარჩენილი ნაწილი თავიდან ბოლომდე გარკვევით იკითხება.</p>
+                 <p></p>
+            </div>
+
+         </body>
+    </text>
+</TEI>

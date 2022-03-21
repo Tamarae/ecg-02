@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.2/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.2/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">აკაურთას ეკლესიის საამშენებლო წარწერის ფრაგმენტი</title>
+                <title xml:lang="en">Fragment of a building inscription from Akaurta church</title>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <editor xml:lang="en">Nodar Shoshiashvili</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG013</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>აკაურთა</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">საამშენებლო</seg>
+                            <seg xml:lang="en">Building</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">Facade</objectType>
+                                    
+                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2"> Local stone</material>
+                                    
+                                
+                                <dimensions unit="cm">
+                                        <height>138</height>
+                                        <width/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="1">
+                                        <seg xml:lang="ka">წარწერა 1 სტრიქონიანია. იგი გამოქანდაკებულია ტაძრის ჩრდილოეთ ფასადზე, ამოქოლილი კარის თავზე,
+                                       გვიანდელი სარკმლის ქვემოთ, გრძელ ბალავარზე (სიგრძე 233), გეომეტრიული სახის ჩუქურთმის ზემოთ.</seg>
+                                        <seg xml:lang="en">One line inscription. Embossed on the north facade of the church on top of 
+                                            the blocked door, under the window of later usage, on a long supportive stone (length 233 cm), above the Geometric shape carving.</seg>
+                                        <dimensions unit="cm">
+                                            <width>92</width>
+                                            <height/>
+                                            <depth/>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                              <handNote script="asomtavruli" style="embossed">
+                               <p xml:lang="ka"><rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა.</p>
+                               <p xml:lang="en">Embossed inscription with capital letters.</p>
+                               <width>3-3,5-4</width>
+                                <height>7-7,5</height>
+                             </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>
+                                    <seg xml:lang="ka">აკაურთა, ბოლნისის მუნიციპალიტეტი</seg>
+                                    <seg xml:lang="en">Akaurta, Bolnisi municipality</seg>
+                                </origPlace>
+                                <origDate notBefore-custom="0400" notAfter-custom="0500" precision="medium"
+                                    evidence="lettering" datingMethod="#julian">V AD</origDate>
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">
+                                    <seg xml:lang="ka">აკაურთა</seg>
+                                    <seg xml:lang="en">Akaurta</seg>
+                                </placeName>
+                                <!--  "41.464051, 44.446928"-->
+                                <rs type="circumstances" xml:lang="ka">სოფელი მდებარეობს მდ. მაშავერას მარცხენა ნაპირზე, ქ. ბოლნისიდან დასავლეთით 7 კმ მანძილზე.</rs>
+                                <rs type="circumstances" xml:lang="en">The location of the village: left shore of the river Mashavera, 7 km away from Bolnisi.</rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                             <provenance type="observed">
+                            <placeName>
+                                <seg xml:lang="ka">აკაურთა, ბოლნისის მუნიციპალიტეტი</seg>
+                                <seg xml:lang="en">Akaurta</seg>
+                            </placeName>
+                            <idno type="invNo"/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface>
+            <graphic url="ecg013.jpg">
+                <desc xml:lang="ka">აკაურთას ეკლესიის საამშენებლო წარწერის ფრაგმენტი</desc>
+                <desc xml:lang="en"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+
+    <text>
+        <body>
+           <div type="bibliography">
+              
+             <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი<ptr target="bibliography.xml#b101"/>, <citedRange> 71-72</citedRange></bibl></p>
+             <p><bibl n="2">ლ. რჩეულიშვილი, ქართული ხუროთმოძღვრების სამი უცნობი ძეგლი<ptr target="bibliography.xml#b101"/>, <citedRange> 94</citedRange></bibl></p>
+                
+            </div>
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+
+                        <!--  "ოო შეჲწყალე რონ  დ"-->
+
+                <ab>
+                   <lb n="1"/><w lemma="უფალ"><expan><abbr>ო</abbr><ex>ჳფალ</ex><supplied reason="lost"><abbr>ო</abbr></supplied></expan></w>
+                    <w lemma="შეწყალება">შეჲწყალე</w>
+                            რონ<!--  <gap reason="lost" extent="unknown" unit="character"></gap>-->
+                            დ<!--  <gap reason="lost" extent="unknown" unit="character"></gap>-->
+                  </ab>
+
+            </div>
+
+            <div type="translation" xml:lang="ka">
+                <p>უფალო, შეიწყალე... რონ... დ...</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>
+                    O Lord, be merciful… ron… d…
+                </p>
+            </div>
+
+            <div type="apparatus" xml:space="preserve"/>
+
+
+            <div type="commentary">
+                <p>ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #6. წარწერას განკვეთილობისა და ქარაგმის ნიშნები არ ახლავს. შემორჩენილია ერთი სტრიქონის მცირე ფრაგმენტი.
+                    პალეოგრაფიული ნიშნები: Ⴗ გრაფემა თავშეკრულია, Ⴐ გრაფემის რკალები ახლოსაა ბუნთან, Ⴄ-ს არ აქვს მარცხნივ გაზიდული ხაზი. </p>
+            </div>
+
+         </body>
+    </text>
+</TEI>

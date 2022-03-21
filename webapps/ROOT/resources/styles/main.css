@@ -1,0 +1,97 @@
+/*
+* Licensed to the Apache Software Foundation (ASF) under one or more
+* contributor license agreements.  See the NOTICE file distributed with
+* this work for additional information regarding copyright ownership.
+* The ASF licenses this file to You under the Apache License, Version 2.0
+* (the "License"); you may not use this file except in compliance with
+* the License.  You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
+
+@import url("https://cdn.web-fonts.ge/fonts/bpg-nino-mkhedruli-book/css/bpg-nino-mkhedruli-book.min.css");
+@import url("https://cdn.web-fonts.ge/fonts/bpg-nino-elite-exp-caps/css/bpg-nino-elite-exp-caps.min.css");
+@import url("https://cdn.web-fonts.ge/fonts/bpg-le-studio-02-caps/css/bpg-le-studio-02-caps.min.css");
+@import url("https://cdn.web-fonts.ge/fonts/bpg-venuri/css/bpg-venuri.min.css");
+@import url("https://cdn.web-fonts.ge/fonts/bpg-nateli-mtavruli/css/bpg-nateli-mtavruli.min.css");
+@import url("https://cdn.web-fonts.ge/fonts/bpg-nino-elite-round-cond/css/bpg-nino-elite-round-cond.min.css");
+@import url("https://cdn.web-fonts.ge/fonts/bpg-nino-elite-cond-caps/css/bpg-nino-elite-cond-caps.min.css");
+@font-face {src: url('GitHub/EFES/docs/source/fonts/GLGordeziani-Regular.ttf');}
+@font-face{ 
+	font-family: 'AthenaRuby_b018';
+	src: url('AthenaRuby_b018.eot');
+	src: url('AthenaRuby_b018.eot?#iefix') format('embedded-opentype'),
+	     url('AthenaRuby_b018.woff') format('woff'),
+	     url('AthenaRuby_b018.ttf') format('truetype'),
+	     url('AthenaRuby_b018.svg#webfont') format('svg');
+}
+
+body { background-color: white; color: black; font-family: verdana, helvetica, arial, sans-serif; font-size: 80%; }
+
+h1 { color: #336699; text-align: center; font-size: 3em; padding-bottom: 10px; margin: 0px; font-family: "GLGordeziani-Regular"; }
+h2 { color: #336699; }
+h3 { color: #336699; }
+h4 { color: #336699; }
+
+a:link { color: #336699; }
+a:visited { color: #800080; }
+a:hover { color: #800080; background-color: #ffff80; }
+a:active { color: #006666; }
+
+img { border: 0; }
+.figure { text-align: center; }
+
+span.year { color: #336699; }
+
+p.copyright { text-align: center; padding-top: 10px; border-width: 1px 0px 0px 0px; border-style: solid; border-color: #336699; }
+p.author { color: #336699; padding-bottom: 10px; }
+p.block { text-align: center; }
+
+hr { height: 0px; color: #336699; }
+
+span.description { color: #336699; font-weight: bold; }
+span.switch { cursor: pointer; margin-left: 5px; text-decoration: underline; }
+
+/* Samples */
+
+.samplesGroup {
+    /* a tasteful shade of blue */
+    background-color: #BFCCDF;
+    color: black;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: #336699;
+    font-size:120%;
+    padding-left: 0.2em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+.samplesNote {
+    color: #333333;
+    margin: 0.5em;
+    padding: 0.2em;
+    background-color: #ffffcc;
+    font-style: italic;
+}
+
+.samplesText {
+    margin-top: 0.2em;
+}
+
+div.resources {
+    text-align: right;
+}
+
+div.resources a {
+    margin: 5px;
+}

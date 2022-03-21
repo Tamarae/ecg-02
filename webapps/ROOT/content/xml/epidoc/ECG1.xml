@@ -1,0 +1,260 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="ka">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>არმაზის ბილინგვა</title>
+</titleStmt>
+<publicationStmt>
+<authority>
+ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი
+</authority>
+<idno type="filename">ECG01</idno>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიის ფარგლებში.
+</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<msName type="invNo"/>
+</msIdentifier>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support>
+<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">სტელა</objectType>
+<material ref="http://www.eagle-network.eu/voc/material/lod/16">ბაზალტი</material>
+<dimensions unit="cm">
+<height>192</height>
+<width>64-66</width>
+</dimensions>
+</support>
+</supportDesc>
+<layoutDesc>
+<layout>
+ქვედა მარჯვენა კუთხე მოტეხილია. ბერძნული ტექსტი იკავებს ზედა ნაწილს. ქვედაზე კი პარალელური არამეული ტექსტია განთავსებული.
+<dimensions unit="cm">
+<height>94</height>
+<width>62</width>
+</dimensions>
+</layout>
+</layoutDesc>
+</objectDesc>
+<handDesc>
+<handNote>
+<height/>
+;
+<width/>
+</handNote>
+</handDesc>
+</physDesc>
+<history>
+<origin>
+<origPlace>არმაზი</origPlace>
+<origDate notBefore="0100" notAfter="0200" evidence="lettering" precision="medium">I-II AD</origDate>
+</origin>
+<provenance type="found">
+<placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863746">არმაზი</placeName>
+<rs type="monuList"/>
+<rs type="circumstances">აღმოაჩინეს 1940 წლის შემოდგომაზე.</rs>
+<rs type="context"/>
+</provenance>
+<provenance type="observed">
+<placeName type="modernSpot">საქართველოს ეროვნული მუზეუმი, 2014</placeName>
+</provenance>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<facsimile>
+<graphic url="https://commons.wikimedia.org/wiki/File:Armazi_Bilingual.jpg">
+<desc>
+<ref type="licence" target="https://creativecommons.org/licenses/by/3.0/deed.en"> </ref>
+</desc>
+</graphic>
+</facsimile>
+<text>
+<body>
+<div type="bibliography">
+
+<p><bibl>
+<author>
+<surname>წერეთელი</surname>
+<forename>გიორგი</forename>
+</author>
+<title level="j" type="main">
+ენიმკის მოამბე
+<orgName/>
+</title>
+<title type="sub"> </title>
+, XIII,
+<date>1942</date>
+გვ. 34-42
+<pubPlace>თბილისი</pubPlace>
+</bibl></p>
+
+</div>
+<div type="edition" xml:space="preserve">
+<div type="textpart" subtype="section" n="1" xml:lang="grc">
+<!--
+CΗΡΑΠΕΙΤΙC ΖΗΟΥΑΧΟΥ
+ΤΟΥ ΝΕΩΤΕΡΟΥ ΠΙΤΙΑΞΟΥ
+θΥΓΑΤΗΡ ΠΟΥΠΛΙΚΙΟΥ ΑΓΡΙΠΠΑ ΠΙΤΙ
+ΑΞΟΥ ΥΙΟΥ ΙΩΔΜΑΝΓΑΝΟΥ ΓΥΝΗ
+ΤΟΥ ΠΟΛΛΑC ΝΕΙΚΑC ΠΟΙΗCΑΝΤΟC
+ΕΠΙΤΡΟΠΟΥ ΒΑCΙΛΕΩC ΙΒΗΡΩΝ
+ΜΕΓΑΛΟΥ ΞΗΦΑΡΝΟΥΓΟΥ ΑΠΕ
+θΑΝΕ ΝΕΩΤΕΡΑ ΕΤΩΝ ΚΑ
+ΗΤΙC ΤΟ ΚΑΛΛΟC ΑΜΕΙΜΗΤΟΝ
+ΕΙΧΕ
+-->
+<ab>
+<lb n="1"/>
+<persName>
+<name nymRef="Σηραπειτις">Σηραπειτις</name>
+<persName>
+<name nymRef="Ζηουαχος">Ζηουαχου</name>
+<lb n="2"/>
+<w lemma="ὁ">του</w>
+<w lemma="νέος">Νεωτερου</w>
+<roleName>Πιτιαξου</roleName>
+</persName>
+</persName>
+<lb n="3"/>
+<w lemma="θυγάτηρ">θυγάτηρ</w>
+<persName>
+<persName>
+<roleName>Πουπλικιου</roleName>
+<name nymRef="Αγριππα">Αγριππα</name>
+<roleName>
+Πιτι
+<lb n="4" break="no"/>
+αξου
+</roleName>
+</persName>
+<w lemma="οἶος">οἴου</w>
+<name nymRef="Ιωδμανγανος"> Ιωδμανγανου</name>
+</persName>
+<w lemma="γυνὴ"> γυνή</w>
+<lb n="5"/>
+<w lemma="ὁ">του</w>
+<w lemma="πολύς">πολλάς</w>
+<w lemma="νείκη">νείκας</w>
+<w lemma="ποιέω">ποιήσαντος</w>
+<lb n="6"/>
+<roleName>
+<w lemma="ἐπίτροπος">Ἐπιτρόπου</w>
+</roleName>
+<persName>
+<roleName>
+<w lemma="βασιλεύς"> βασιλέως</w>
+</roleName>
+<w lemma="Ἴβερες"> Ιβηρων</w>
+<lb n="7"/>
+<w lemma="μεγάλος">Μεγαλου</w>
+<name nymRef="Ξηφαρνουγος"> Ξηφαρνουγου</name>
+</persName>
+<w lemma=" ποθνήσκω">
+ πέ
+<lb n="8" break="no"/>
+θανε
+</w>
+<w lemma="νέος"> νεωτέρα</w>
+<w lemma="ἔτος">ἐτῶν</w>
+<num value="21">Κα</num>
+<lb n="9"/>
+<w lemma="ὅστις">ἥτις</w>
+ὅστις
+<w lemma="ὁ">τό</w>
+<w lemma="κάλλος">κάλλος</w>
+<w lemma=" μώμητος"> μώμητον</w>
+<!-- ქვაზე ვკითხულობთ: αμειμητον -->
+<lb n="10"/>
+<w lemma="ἔχω">εἷχε</w>
+</ab>
+</div>
+<div type="textpart" subtype="section" n="2" xml:lang="arc">
+<!--
+אנה סערפיט ברתי זי
+זיוח קליל בטחש זי פרסמן
+מלך אנתת זי יודמנגן ונציח
+וכביר ארוסת עבידא רב
+תרבץ זי חסיפרנוג מלך ברי
+זי אגריף רבתרבץ זי
+פרסמן מלך חבלחבליך מא
+זי פרנוש לא גמיר והכין
+טב ושפיר יהוה היך זי בר
+אינש לא דמע יהוה מן
+טבות ומאיתין בשנת כא
+-->
+<ab>
+<lb rend="right-to-left" n="1"/>
+אנה
+<persName> סערפיט </persName>
+זי ברתי
+<lb rend="right-to-left" n="2"/>
+<persName> זיוח </persName>
+קליל
+<roleName> בטחש </roleName>
+זי
+<persName> פרסמן </persName>
+<lb rend="right-to-left" n="3"/>
+<roleName> מלך </roleName>
+אנתת זי יודמנגן ונציח
+<lb rend="right-to-left" n="4"/>
+וכביר ארוסת עבידא רב
+<lb rend="right-to-left" n="5"/>
+<roleName> תרבץ </roleName>
+זי
+<persName> חסיפרנוג </persName>
+מלך ברי
+<lb rend="right-to-left" n="6"/>
+זי
+<surname> אגריף </surname>
+רבתרבץ זי
+<lb rend="right-to-left" n="7"/>
+פרסמן מלך חבלחבליך מא
+<lb rend="right-to-left" n="8"/>
+זי
+<supplied reason="undefined"> פרנוש </supplied>
+לא גמיר והכין
+<lb rend="right-to-left" n="9"/>
+טב ושפיר יהוה היך זי בר
+<lb rend="right-to-left" n="10"/>
+אינש לא דמע יהוה מן
+<lb rend="right-to-left" n="11"/>
+טבות ומאיתין בשנת
+<num value="21"> כא </num>
+</ab>
+</div>
+</div>
+<div type="translation" xml:lang="ka">
+<p n="1">
+სერაფიტი, ასული ზევახ მცირე პიტიახშისა, მეუღლე პუპლიკიოს აგრიპა პიტიახშის ძის იოდმანგანისა, ივერთა დიდი მეფის, ქსეფარნუგის, მრავალთა გამარჯებათა
+მომპოვებელი ეპიტროპისა. გარდაიცვალა ახალგაზრდა, 21 წლისა, მქონებელი შეუდარებელი სილამაზისა.
+</p>
+<div type="translation" xml:lang="ka">
+<p n="2">
+მე (ვარ) სერაფიტი, ასული ზევახისა, მცირისა პიტიახშისა ფარსმან მეფისა, მეუღლე იოდმანგანისა ძლევამოსილისა და მრავალი გამარჯვების მომპოვებელი ეზოჲს
+მოძღურისა ხსეფარნუგ მეფისა ძისა აგრიფა ეზოჲს მოძღურისა ფარსმან მეფისა. ვაება ვაებისა. ის რაც [ის ვინც] იყო ... არა დასრულებული [ე.ი. ახალგაზრდა?] და
+იმდენად კეთილი და მშვენიერი იყო, რომ არავინ იყო [მისი] მსგავსი სილამაზით. და გარდაიცვალა 21 წლისა
+</p>
+</div>
+</div>
+<div type="apparatus" xml:space="preserve">
+<p>
+<app loc="b9">
+<lem> μώμητος</lem>
+<rdg resp="Giorgi Tsereteli">αμειμητον</rdg>
+</app>
+</p>
+</div>
+<div type="commentary">
+<p/>
+</div>
+</body>
+</text>
+</TEI>

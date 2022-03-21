@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ნოქალაქევის ბულა</title>
+                <editor>თინათინ ყაუხჩიშვილი</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                 <idno type="filename">ECG318</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                           ნოქალაქევი
+                        </collection>
+                    </msIdentifier>                    
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სავედრებელი</seg>
+                            <seg xml:lang="en"/>
+                        </summary>
+                    </msContents>  
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>                             
+                                   <material></material>
+                                   <objectType>ბულა</objectType></support></supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        <p>ბულაზე გამოყვანილია ბერძნული ასომთავრული წარწერა და მონოგრამები.
+                                        წარწერა შესრულებულია ბულას ორივე მხარეს, როგორც პირებზე ასევე მონოგრამებში.</p>
+                                      <dimensions unit="cm">
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth></dimensions>
+                                        <dim>3</dim>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>                                
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>                                
+                                  </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ნოქალაქევი</origPlace>
+                                <origDate notBefore="0601" notAfter="0800" evidence="lettering" datingMethod="#julian">VII-VIII AD</origDate>
+                                </origin>
+                            <provenance type="found" when="1973">
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/857041">ნოქალაქევი</placeName> 
+                                <rs type="circumstances"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance> 
+                           <provenance type="observed">
+                            <placeName type="modernSpot"/>
+                            <idno></idno>
+                        </provenance>
+                    </history>                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="ecg318.jpg">
+                <desc xml:lang="ka">ნოქალაქევის ბულა, 1973</desc>
+                <desc xml:lang="en">Nokalakevi seal, 1973</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 133</citedRange></bibl></p>
+                
+            </div>
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <!-- θεοτόκε βοήθει τω δουλω σου  Σεργιω υιων..αρ.ουκιω
+                            Θεοτόκε, βοήθει τῷ δούλῳ σου Σεργίῳ υἱῷ Νεβαρνουκίῳ
+                                                -->
+                     
+
+         <ab>
+             <w type="saint" lemma="Θεοτόκος">Θεοτόκε</w> <w lemma="βοηθέω">βοήθει</w> <w lemma="ὁ">τῷ</w> <w lemma="δοῦλος">δούλῳ</w> <w lemma="σός">σου</w> <persName>
+                 <name nymRef="Σέργιος">Σεργίῳ</name></persName> <w lemma="υἱός">υἱῷ</w> <persName><name nymRef="Νεβαρνούκιος">Ν<supplied reason="subaudible">εβ</supplied>αρ<supplied reason="subaudible">ν</supplied>ουκίῳ</name></persName>
+            </ab>    
+             
+         
+            </div>
+                
+            <div type="translation" xml:lang="ka">
+                <p>ღვთისმშობელო, შეეწიე მონასა შენსა სერგიოსს, ნებარნუკიოსის ძეს.</p>
+            </div>
+            
+           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app>
+              <rdg></rdg>
+              </app></p>
+             </div>
+           
+            <div type="commentary">
+                <p>ნოქალაქევში აღმოჩენილი ბულა თარიღდება პალეოგრაფიული მონაცემებისა და ანალოგიური ბულების წარწერათა მიხედვით.</p>
+                </div>
+        </body>
+    </text>
+</TEI>
+
+
+

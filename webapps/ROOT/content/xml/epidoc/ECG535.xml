@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ბორჯომის ხეობა. ყვიბისის წმიდა გიორგის ეკლესია</title>
+            </titleStmt>
+            <publicationStmt>
+                 <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">
+                 ECG535
+                 </idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            თორის წარწერების კორპუსი
+                        </collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1483">მუქი ყავისფერი მარმარილოს ქვა</objectType>
+
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="1">
+                                        <dimensions unit="cm">
+                                            <width>60</width>
+                                            <height>171.5</height>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="mkhedruli">წარწერა არის შესრულებულია მხედრული ასოებით.
+                                   ქარაგმის ნიშნად გამოყენებულია ქუდის ფორმის ფიგურა; წარწერას განკვეთილობის ნიშნები არ ახლავს; წარწერის თავზე გამოსახულია გვირგვინი,
+								   სადაც ჩახატულია ქაიხოსრო ავალისშვილის გრაფიკული გამოსახულება; წარწერას დასაწყისში უზის წრეში ჩასმული ჯვარი.
+                                <width>2.2X0.5</width>
+                                <height>0.2X0.2</height>
+                                 </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ბორჯომის ხეობა. ყვიბისის წმიდა გიორგის ეკლესია</origPlace>
+                                <origDate>1851 წლის 1 მაისი</origDate>
+                            </origin>
+                            <provenance>
+                                <placeName type ="ancientFindspot">ბორჯომის ხეობა. ყვიბისის წმიდა გიორგის ეკლესია</placeName>
+                                <rs type="context">  წარწერას უზის თარიღი არაბული რიცხვებით 1851 წელი, ხოლო მხედრული შრიფტით გადმოცემულია თვე და რიცხვი (`მაისის ერთსა~).
+								                     აქედან გამომდინარე,წარწერა შესრულებულია ქრისტესშობიდან 1851 წლის 1 მაისს.</rs>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed">ბორჯომის ხეობა. ყვიბისის წმიდა გიორგის ეკლესია
+                            <placeName type="modernSpot">ბორჯომის ხეობა. ყვიბისის წმიდა გიორგის ეკლესია</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2020-01-17" who="asanishvili">
+                გარე ანოტირება, პირთა სახელების, წარწერის სრული კოდირება  შესრულდა 2020 წლის ციფრული ეპიგრაფიკის სასწავლო კურსის ფარგლებში.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <!-- წარწერის ფოტოდოკუმენტაცია -->
+    <facsimile>
+        <surface>
+            <graphic url="ecg497.jpg">
+                <desc xml:lang="ka">ეპიტაფია</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+           <div type="bibliography">
+               
+                <p><bibl n="1">თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი<ptr target="bibliography.xml#b234"/>,<citedRange>111-113</citedRange>1987</bibl></p>
+				<p><bibl n="2">თამაზ გოგოლაძე, ფოთოლეთის ეკლესიის ნაკაწრი წარწერები და მათი ისტორიულ-წყაროთმცოდნეობითი ანალიზი<ptr target="bibliography.xml#b242"/>,<citedRange>34</citedRange>2014</bibl></p>
+
+		   
+           </div>
+            <div type="edition" xml:space="preserve" xml:lang="ka">     
+                        <!--"Ⴕ. ჱე, მუ<მ>ხდალმან სიკვდილმა[ნ] მახვილ[ა]თ მამცა | ხე და მან ჩემსა მამულში საკოჭავში მწრაფლ | მიმაქცია
+                        მიწად, მემკვიდრე ბორჯომის ხეობისა თ(ავა)დი, | ქაიხოსრო ავალის ძე ავალოვი და განმაშორა საყვ|არელსა მეუღლესა ნინოს, სამსა ძესა და სამსა | [ა]ს[უ]ლსა.
+						საყვარელო მეუღლე ჩემო, ნუ სწუხ ჩემთ|[ვის],არამედ იზრუვნე სულისათვის ჩემისა, მიმ|[ა]ბარე მიწას ჩემს განახლებულს ყვიბისის ეკლე|-სიაში, სთხოვე ყოველთა,
+						შენდობას მიბძანებდენ, | გარდავიცვალე მაისის ერთსა, 1851 წელსა".-->
+                <ab>
+                    <lb n="1"/>Князь 
+                    <lb n="2"/>Аваловь
+                    <lb n="3"/>წლისა
+                    <lb n="4"/>იყო 44-ს
+                    <lb n="5"/>Ⴕ. ჱე, მუმხდალმან სიკვდილმა[ნ] მახვილ[ა]თ მამცა
+                    <lb n="6"/>ხე და მან ჩემსა მამულში საკოჭავში მწრაფლ
+                    <lb n="7"/>იმაქცია მიწად, მემკვიდრე ბორჯომის ხეობისა თ(ავა)დი
+                    <lb n="8"/><persName type="local" key="ქაიხოსრო ავალის ძე ავალოვი">ქაიხოსრო ავალის ძე ავალოვი</persName> და განმაშორა საყვ
+                    <lb n="9" break="no"/>არელსა მეუღლესა <persName type="local" key="ნინო [მეუღლე ქაიხოსრო ავალოვისა]">ნინოს</persName>, სამსა ძესა და სამსა 
+                    <lb n="10"/> ასულსა. საყვარელო მეუღლე ჩემო, ნუ სწუხ ჩემთ
+                    <lb n="11" break="no"/>[ვის] არამედ იზრუვნე სულისათვის ჩემისა, მიმ
+                    <lb n="12" break="no"/>[ა]ბარე მიწას ჩემს განახლებულს ყვიბისის ეკლე
+                    <lb n="13" break="no"/>სიაში, სთხოვე ყოველთა, შენდობას მიბძანებდენ
+                    <lb n="14"/>გარდავიცვალე მაისის ერთსა, 1851 წელსა
+
+				 </ab>
+            </div>
+            <div type="translation" xml:lang="ka"/>
+            <div type="apparatus" xml:space="preserve"/>
+            <div type="commentary"><p>მარმარილოს ქვა ადგილ-ადგილ ამოტეხილია. ამის გამო, წარწერის გრაფემათა გარკვეული ნაწილი საერთოდ არ განირჩევა, ხოლო ნაწილი კი ფრაგმენტულად იკითხება. </p>
+<p> ამჟამად საფლავის ქვის ეპიტაფია დევს ეკლესიის ეზოში</p>
+            </div>
+         </body>
+    </text>
+</TEI>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ანუხვა, წარწერა სვეტზე</title>
+                <editor>ლია ახალაძე</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>
+                    ილიას სახელმწიფო უნივერსიტეტი
+                </authority>
+                 <idno type="filename">ECG480</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection>
+                            ანუხვა
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">განმარტებითი</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="www.eagle-network.eu/voc/material/lod/2.html">ფილა</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/135">
+                                       სვეტი
+                                   </objectType>
+                                        <dimensions unit="cm">
+                                        <width/>
+                                        <height/>
+                                        <depth/>
+                                        </dimensions>
+                                  </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="4"> ასომთავრული ოთხსტრიქონიანი წარწერა, ამოკვეთილია მრგვალ სვეტზე.
+                                        <dimensions>
+                                            <width/>
+                                            <height/>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="ასომთავრული">წარწერა შესრულებულია ასომთავრული ანბანით.
+                                ქარაგმის ნიშანი კლაკნილი, განივი ხაზი. განკვეთილობის ნიშანი არ ახლავს.
+
+                                   <height/>
+                                 </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace>ანუხვა (გუდაუთის რ-ნი) წარწერა სვეტზე. </origPlace>
+                                <origDate>XII ს. AD</origDate>
+                            </origin>
+                            <provenance>დაცულია დ.გულიას სახელობის აფხაზეთის ისტორიულ მუზეუმში(სოხუმი)
+                                <placeName type ="ancientFindspot"> ანუხვა (გუდაუთის რ-ნი) წარწერა სვეტზე.</placeName>
+                                <rs type="circumstances"></rs>
+                                <rs/>
+                                <rs type="monuList"/>
+                            </provenance>
+                            <provenance type="observed"> დ.გულიას სახელობის აფხაზეთის ისტორიულ მუზეუმში(სოხუმი)
+                            <placeName type="modernSpot">ანუხვა (გუდაუთის რ-ნი)</placeName>
+                            <idno></idno>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2019-07-07" who="t.kusiani">
+                ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, ბმულებით დაკავშირება გარე კონტროლირებად ლექსიკონთან
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body> <!-- წ(მიდა)ნი მთ(ა)ვარა(ნ)-
+                         გ(ე)ლოზნი მ(ი)ქ(აე)ლ და
+                            გ(ა)ბრ(იე)ლ.-->
+
+            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve"><!-- წარწერის ტექსტი -->
+                <ab>
+                      <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ნი</abbr></expan></w>
+                    <expan><abbr>მთ</abbr><ex>ა</ex><abbr>ვარა</abbr><ex>ნ</ex></expan><!-- ტირე-როგორ დავწერო არ ვიცი -->
+
+                    <lb n="2"/><expan><abbr>გ</abbr><ex>ე</ex><abbr>ლოზნი</abbr></expan>
+                    <persName><expan><abbr>მ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>აე</ex><abbr>ლ</abbr></expan></persName>
+
+                 <lb n="3"/><persName><expan><abbr>გ</abbr><ex>ა</ex><abbr>ბრ</abbr><ex>იე</ex><abbr>ლ</abbr></expan></persName></ab>
+
+           <div type="translation" xml:lang="ka"><p> წ(მიდა)ნი მთ(ა)ვარა(ნ)-
+                         გ(ე)ლოზნი მ(ი)ქ(აე)ლ და
+                            გ(ა)ბრ(იე)ლ.</p></div>
+
+            <div type="apparatus" xml:space="preserve"/>
+
+            <div type="commentary"><p> გამოცემები: 254.9)</p></div>
+
+            <div type="bibliography" subtype="principalEdition">
+                
+                    <p><bibl type="publication" subtype="principal" xml:lang="ka">
+                      <author>
+                          <persName>
+                            <forename></forename>
+                            <surname></surname>
+                          </persName>
+                      </author>
+                      <title/>
+                        <edition/>
+                        <pubPlace/>
+                        <publisher/>
+                        <date></date>
+                     </bibl></p>
+                
+            </div>
+         </div>
+    </body>
+</text>
+</TEI>
