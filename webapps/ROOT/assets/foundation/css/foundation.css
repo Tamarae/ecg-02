@@ -2798,7 +2798,8 @@ label.error {
   width: 100%;
   background: #111111; }
   .contain-to-grid .top-bar {
-    margin-bottom: 1.875em; }
+    margin-bottom: 1.875em;
+  }
 
 .fixed {
   width: 100%;
@@ -2813,7 +2814,8 @@ label.error {
   line-height: 45px;
   position: relative;
   background: #111111;
-  margin-bottom: 1.875em; }
+  /* margin-bottom: 1.875em;  */
+}
   .top-bar ul {
     margin-bottom: 0;
     list-style: none; }
