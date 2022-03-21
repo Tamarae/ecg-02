@@ -71,9 +71,9 @@
                                     <seg xml:lang="en">Sokhumi</seg>
                                 </origPlace>
                                 <origDate notBefore="0101" notAfter="0300" precision="medium" evidence="lettering" datingMethod="#julian">
-                                    <p xml:lang="ka">წარწერის ენობრივი და პალეოგრაფიული თავისებურებებიდან 
+                                   წარწერის ენობრივი და პალეოგრაფიული თავისებურებებიდან 
                                     გამომდინარე წარწერა II-III სს-ში AD უნდა იყოს შესრულებული.</origDate>
-                                ლ. ელნიცკი წარწერას ახ.წ. IV ს-ით ათარიღებს.</p>
+                                ლ. ელნიცკი წარწერას ახ.წ. IV ს-ით ათარიღებს.
                             </origin>
                             <provenance type="found" when="1954">
                                 <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/857107">
