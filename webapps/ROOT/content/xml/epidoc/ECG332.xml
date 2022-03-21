@@ -42,7 +42,7 @@
                                     <material xml:lang="en" ref="https://www.eagle-network.eu/voc/material/lod/131">Clay</material>
                                     
                                    <objectType xml:lang="ka">სანათური</objectType>
-                                    <objectType xml:lang="en">lamp</objectType>
+                                    <objectType xml:lang="en">Lamp</objectType>
                                 </support>
                             </supportDesc>
                                 <layoutDesc>
