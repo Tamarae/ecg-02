@@ -1,3 +1,34 @@
+/* grid */
+/* .large-12.columns {
+    padding: 20px 60px;
+} */
+/* table */
+.large-12.columns {
+    padding: 0px 60px;
+}
+.large-12.columns p {
+    background-color: #f9f9f9;
+    padding-bottom: 30px;
+}
+table {
+    margin-bottom: 1.25em;
+    border: solid 1px transparent;
+}
+table thead  {
+  background: #fff;
+}
+thead {
+   border-bottom: 2px solid #888;
+}
+thead .header {
+   line-height: 2rem;
+}
+table tbody tr td, table tr td {
+   padding: 15px 16px;
+   line-height: 1.8rem;
+}
+
+
 nav.top-bar li:nth-of-type(6),
 nav.top-bar li:nth-of-type(7) {
     font-family: 'BPG Excelsior Caps';
@@ -28,7 +59,7 @@ nav.top-bar li:nth-of-type(7) {
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;
     border-top: 9px solid #ffffff;
-    margin-top: -1px;
+    margin-top: 15px;
 }
 main {
   background: #fff;
@@ -130,11 +161,10 @@ footer a:hover {
 .top-bar-section .has-dropdown.hover > .dropdown,
 .top-bar-section .has-dropdown.not-click:hover > .dropdown {
   height: auto;
-  background: #110c15;
   margin-left: 0px;
   border-left: 1px solid #332f38;
-  top: -20px;
-  padding-top: 70px;
+  top: 0px;
+  padding-top: 80px;
   opacity: 1;
 }
 nav.top-bar ul > li:nth-of-type(5),

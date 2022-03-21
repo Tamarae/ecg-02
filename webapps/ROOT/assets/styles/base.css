@@ -144,7 +144,7 @@ tr td:first-child a {
 }
 tr td:nth-child(2) {
   font-weight: normal;
- /*  font-family: 'BPG_Glaho_WEB_Caps';*/ 
+ /*  font-family: 'BPG_Glaho_WEB_Caps';*/
   font-size: 13px;
 }
 ul.index-instances { }
@@ -156,3 +156,21 @@ ul.index-instances { }
 .index-instance-text-parts { }
 
 .index-instance-line { }
+/* nav bar */
+.top-bar {
+  margin-bottom: 0px;
+  height: 80px;
+}
+.top-bar-section ul li>a {
+  font-size: 1.2em;
+}
+.top-bar-section li a:not(.button) {
+  line-height: 80px;
+}
+.top-bar-section ul li.active>a {
+  background: #111111;
+}
+.top-bar .name h1 a {
+    font-size: 40px;
+    line-height: 80px;
+}
