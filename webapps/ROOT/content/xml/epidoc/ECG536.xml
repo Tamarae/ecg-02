@@ -5,7 +5,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ტიმოთესუბნის (კიმოთისმანის) ღმრთისმშობლის ეკლესია, ეპიტაფიის ფრაგმენტი ზაზა ავალიშვილისა</title>
+                <title xml:lang="ka">ტიმოთესუბნის (კიმოთისმანის) ღმრთისმშობლის ეკლესია, ეპიტაფიის ფრაგმენტი ზაზა ავალიშვილისა</title>
+                <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
             </titleStmt>
             <publicationStmt>
                  <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>

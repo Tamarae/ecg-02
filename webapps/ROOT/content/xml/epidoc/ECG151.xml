@@ -5,7 +5,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>წარწერები ტაძრის დასავლეთ მინაშენის შესასვლელის ტიმპანზე</title>
+                <title xml:lang="ka">წარწერები ტაძრის დასავლეთ მინაშენის შესასვლელის ტიმპანზე</title>
+                <editor xml:lang="ka">ვალერი სილოგავა</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>ილიას სახელობის სახელმწიფო უნივერსიტეტი</authority>

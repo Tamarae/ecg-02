@@ -5,9 +5,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>
+                <title xml:lang="ka">
                     ბორჯომის ხეობა. ახალდაბის წმიდა გიორგის ეკლესია
                 </title>
+                <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
             </titleStmt>
             <publicationStmt>
                  <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>

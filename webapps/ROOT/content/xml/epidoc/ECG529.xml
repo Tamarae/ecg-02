@@ -5,7 +5,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>წარწერის ფრაგმენტი შალვა ერისთავთ-ერისთავისა, მეჭურჭლეთუხუცესისა, მანდატურთუხუცესისა</title>
+                <title xml:lang="ka">წარწერის ფრაგმენტი შალვა ერისთავთ-ერისთავისა, მეჭურჭლეთუხუცესისა, მანდატურთუხუცესისა</title>
+                <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
             </titleStmt>
             <publicationStmt>
                  <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
@@ -84,7 +85,7 @@
     <!-- წარწერის ფოტოდოკუმენტაცია -->
     <facsimile>
         <surface>
-            <graphic url="ecg497.jpg">
+            <graphic url="ecg529.jpg">
                 <desc xml:lang="ka">წარწერის ფრაგმენტი</desc>
             </graphic>
         </surface>

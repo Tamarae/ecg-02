@@ -5,8 +5,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>წარწერა მთავარი კარიბჭის თავზე</title>
-                <editor></editor>
+                <title xml:lang="ka">წარწერა მთავარი კარიბჭის თავზე</title>
+                <editor xml:lang="ka">ზაზა ალექსიძე</editor>
             </titleStmt>
             <publicationStmt>
                  <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
@@ -107,7 +107,7 @@
 
             <div type="bibliography">
                 
-                    <p><bibl n="1">გარეჯის ეპიგრაფიკული ძეგლები, <citedRange>80</citedRange></bibl></p>
+                    <p><bibl n="1">ზაზა ალექსიძე, გარეჯის ეპიგრაფიკული ძეგლები, <citedRange>80</citedRange></bibl></p>
                     <p><bibl n="2">მღვდელმონაზონი კალისტრატე, <citedRange>4-5</citedRange></bibl></p>
                 
             </div>

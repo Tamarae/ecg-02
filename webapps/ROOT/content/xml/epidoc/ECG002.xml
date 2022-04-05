@@ -142,9 +142,9 @@
     </teiHeader>
        <facsimile>
         <surface>
-            <graphic url="ecg002.jpg">
-                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/manuscripts/12/">წილკნის აკლდამა, 2016</desc>
-                <desc xml:lang="en" ref="http://paleography.iliauni.edu.ge/digipal/manuscripts/12/">Tomb from Tsilkani, 2016</desc>
+            <graphic url="http://paleography.iliauni.edu.ge/digipal/manuscripts/12/">
+                <desc xml:lang="ka">წილკნის აკლდამა, 2016</desc>
+                <desc xml:lang="en">Tomb from Tsilkani, 2016</desc>
             </graphic>
         </surface>
     </facsimile>

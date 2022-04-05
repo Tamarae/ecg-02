@@ -5,7 +5,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ბორჯომის მხარეთმცოდნეობის მუზეუმი</title>
+                <title xml:lang="ka">ბორჯომის მხარეთმცოდნეობის მუზეუმი</title>
+                <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
             </titleStmt>
             <publicationStmt>
                  <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>

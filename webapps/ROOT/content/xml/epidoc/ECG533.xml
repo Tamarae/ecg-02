@@ -5,7 +5,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>სააღმშენებლო წარწერა გივი ავალიშვილისა და მისი მეუღლის, მეფეთმეფის ასულ სოფიოსი</title>
+                <title xml:lang="ka">სააღმშენებლო წარწერა გივი ავალიშვილისა და მისი მეუღლის, მეფეთმეფის ასულ სოფიოსი</title>
+                <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
             </titleStmt>
             <publicationStmt>
                  <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
