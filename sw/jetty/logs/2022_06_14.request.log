@@ -1,0 +1,17 @@
+127.0.0.1 -  -  [14/Jun/2022:13:03:55 +0000] "GET / HTTP/1.1" 302 - 
+127.0.0.1 -  -  [14/Jun/2022:13:03:56 +0000] "GET /en/ HTTP/1.1" 200 11634 
+127.0.0.1 -  -  [14/Jun/2022:13:03:56 +0000] "GET /assets/styles/base.css HTTP/1.1" 304 - 
+127.0.0.1 -  -  [14/Jun/2022:13:03:56 +0000] "GET /assets/styles/site.css HTTP/1.1" 304 - 
+127.0.0.1 -  -  [14/Jun/2022:13:03:56 +0000] "GET /assets/foundation/js/vendor/custom.modernizr.js HTTP/1.1" 304 - 
+127.0.0.1 -  -  [14/Jun/2022:13:03:56 +0000] "GET /assets/foundation/css/foundation.min.css HTTP/1.1" 200 163758 
+127.0.0.1 -  -  [14/Jun/2022:13:03:56 +0000] "GET /assets/foundation/css/normalize.css HTTP/1.1" 304 - 
+127.0.0.1 -  -  [14/Jun/2022:13:03:56 +0000] "GET /assets/foundation/js/vendor/jquery.js HTTP/1.1" 200 295289 
+127.0.0.1 -  -  [14/Jun/2022:13:03:56 +0000] "GET /assets/foundation/js/foundation.min.js HTTP/1.1" 200 83198 
+127.0.0.1 -  -  [14/Jun/2022:13:03:56 +0000] "GET /assets/fonts/ka/DejaVuSans-ExtraLight.woff2 HTTP/1.1" 200 92308 
+127.0.0.1 -  -  [14/Jun/2022:13:03:56 +0000] "GET /assets/images/bg-texture-small.jpg HTTP/1.1" 200 122596 
+127.0.0.1 -  -  [14/Jun/2022:13:03:56 +0000] "GET /assets/images/home-banner-01.png HTTP/1.1" 200 771061 
+127.0.0.1 -  -  [14/Jun/2022:13:03:56 +0000] "GET /assets/images/fondi.png HTTP/1.1" 304 - 
+127.0.0.1 -  -  [14/Jun/2022:13:03:56 +0000] "GET /assets/images/iliauni-logo-geo.png HTTP/1.1" 200 39820 
+127.0.0.1 -  -  [14/Jun/2022:13:03:56 +0000] "GET /assets/fonts/ka/BPGExcelsiorBlack.woff2 HTTP/1.1" 304 - 
+127.0.0.1 -  -  [14/Jun/2022:13:03:56 +0000] "GET /assets/fonts/ka/GLGordeziani-Medium.woff2 HTTP/1.1" 304 - 
+127.0.0.1 -  -  [14/Jun/2022:13:04:01 +0000] "GET /assets/images/favicon.png HTTP/1.1" 200 20299 
