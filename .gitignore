@@ -1,3 +1,4 @@
 
 webapps/ROOT/WEB-INF/logs/cocoon.log
 sw/jetty/temp/jetty-0.0.0.0-9999-ROOT-_-any-/cocoon-files/cache-dir/cocoon-ehcache-1.data
+*.log
