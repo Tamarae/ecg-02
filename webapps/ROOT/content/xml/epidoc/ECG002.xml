@@ -152,10 +152,11 @@
         <body>
             <div type="bibliography">
                 
-                    <p><bibl>
-                        
-                        <ptr target="bibliography.xml#b82"/>თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange>213-214</citedRange>
-                    </bibl></p>
+                    <p>
+                        <bibl>  
+                            <ptr target="bibliography.xml#b82"/>თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange>213-214</citedRange>
+                        </bibl>
+                    </p>
                       
                 
             </div>

@@ -5,11 +5,12 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ჭყონდიდის „სვეტის“ წარწერის ფრაგმენტები</title>
-                <editor>ვალერი სილოგავა</editor>
+                <title xml:lang="ka">ჭყონდიდის „სვეტის“ წარწერის ფრაგმენტები</title>
+                <editor xml:lang="ka">ვალერი სილოგავა</editor>
             </titleStmt>
             <publicationStmt>
-                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
                  <idno type="filename">ECG919</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
@@ -35,8 +36,10 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                   <material ref="http://www.eagle-network.eu/voc/material/lod/2">კირქვა</material>
-                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/416">ფილა</objectType>
+                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">კირქვა</material>
+                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/416">ფილა</objectType>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Limestone</material>
+                                   <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/416">Plaque</objectType>
                                     <dimensions unit="cm">
                                         <width>33</width>
                                         <height>34</height>
@@ -62,14 +65,20 @@
                     <history>
 
                            <origin>
-                                <origPlace>ჭყონდიდი</origPlace>
+                                <origPlace>
+                                    <seg xml:lang="ka">ჭყონდიდი</seg>
+                                    <seg xml:lang="en">Chkondidi</seg>
+                                </origPlace>
                                 <origDate>X AD</origDate>
                             </origin>
 
                         <provenance type="found" when="1951">
-                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">ჭყონდიდი</placeName>
+                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">
+                                <seg xml:lang="ka">ჭყონდიდი</seg>
+                                <seg xml:lang="en">Chkondidi</seg>
+                            </placeName>
                             <!--  -->
-                            <rs type="monuList">ჭყონდიდი</rs>
+                            <rs type="monuList"/>
                             <rs type="circumstances">აღმოჩნდა 1951 წელს სვეტის გადანგრეული ნაწილის ქვების გროვაში, რომელიც სვეტის დასავლეთით, ღრმა ხევში იყო ჩაყრილი</rs>
                             <rs type="context"/>
                         </provenance>

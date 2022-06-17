@@ -1,0 +1,66 @@
+[INFO ] 2022-05-25 07:54:12,418 [main] Logback logging API implementation is configured.
+[INFO ] 2022-05-25 07:54:12,951 [main] FrameworkServlet 'openrdf-http-server': initialization completed in 916 ms
+[INFO ] 2022-05-25 07:55:58,201 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 07:55:58,334 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 07:56:19,420 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 07:56:19,435 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 07:56:58,076 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 07:56:58,093 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 07:57:04,956 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 07:57:04,976 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 07:57:12,385 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 07:57:12,405 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 07:57:26,906 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 07:57:26,925 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 07:57:38,103 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 07:57:38,120 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 08:06:04,089 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 08:06:04,100 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 08:06:35,954 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 08:06:35,963 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 08:06:49,890 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 08:06:49,902 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 08:13:35,006 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 08:13:35,017 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 08:13:37,233 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 08:13:37,247 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 08:14:11,951 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 08:14:11,973 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 08:14:13,442 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 08:14:13,461 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 08:14:40,048 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 08:14:40,069 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 08:14:55,515 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 08:14:55,526 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 08:15:14,255 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 08:15:14,266 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 08:17:09,887 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 08:17:09,898 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 08:17:12,032 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 08:17:12,043 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 08:17:16,598 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 08:17:16,607 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 08:17:19,613 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 08:17:19,623 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 08:17:24,912 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 08:17:24,922 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 08:51:39,795 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 08:51:39,820 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 08:51:52,508 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 08:51:52,530 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 08:52:00,175 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 08:52:00,191 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 08:52:14,881 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 08:52:14,901 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 08:52:28,199 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 08:52:28,217 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 08:53:05,699 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 08:53:05,720 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 09:41:26,701 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 09:41:26,723 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 09:41:29,025 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 09:41:29,047 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 09:41:33,357 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 09:41:33,366 [repositories/kiln] Request for query -1227659729 is finished
+[INFO ] 2022-05-25 09:41:43,891 [repositories/kiln] POST query -1227659729
+[INFO ] 2022-05-25 09:41:43,902 [repositories/kiln] Request for query -1227659729 is finished

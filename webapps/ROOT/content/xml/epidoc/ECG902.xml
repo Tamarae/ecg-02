@@ -136,12 +136,12 @@
                      <w lemma="ადიდებს"><expan><abbr>ად</abbr><ex>იდე</ex><abbr>ნ</abbr></expan></w> 
                      <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
                      <lb n="6"/><w lemma="ძლიერ"><expan><abbr>ძლ</abbr><ex>იე</ex><abbr>რისა</abbr></expan></w> 
-                     <persName type="local" key="ბაგრატ III"><name nymRef="ბაგრატ III"><expan><abbr>ბ</abbr><ex>ა</ex><abbr>გრ</abbr><ex>ა</ex><abbr>ტ</abbr></expan></name></persName> 
+                     <persName type="local" key="ბაგრატ III" ref="https://en.wikipedia.org/wiki/Bagrat_III_of_Georgia"><name nymRef="ბაგრატ III"><expan><abbr>ბ</abbr><ex>ა</ex><abbr>გრ</abbr><ex>ა</ex><abbr>ტ</abbr></expan></name></persName> 
                      <roleName nymRef="აფხაზთა და ქართველთა მეფე"><w lemma="აფხაზ"><expan><abbr>აფხ</abbr><ex>ა</ex><abbr>ზთა</abbr></expan></w> და
                      <lb n="7"/><w lemma="ქართველ"><expan><abbr>ქ</abbr><ex>ა</ex><abbr>რთვ</abbr><ex>ე</ex><abbr>ლთა</abbr></expan></w> 
                          <w lemma="მეფე"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფისა</abbr></expan></w></roleName> და <w lemma="კურაპალატ"><expan><abbr>კჳრ</abbr><ex>ა</ex>
                      <lb n="8" break="no"/>პალატისა</expan></w> და <w lemma="ძე">ძისა</w> მა
-                     <lb n="9" break="no"/>თისა <persName type="local" key="გიორგი I"><name nymRef="გიორგი I"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></name> </persName>
+                     <lb n="9" break="no"/>თისა <persName type="local" key="გიორგი I" ref="https://en.wikipedia.org/wiki/George_I_of_Georgia"><name nymRef="გიორგი I"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></name> </persName>
                      <roleName nymRef="უფლისწულ"><expan><abbr>უფლისწ</abbr><ex>უ</ex><abbr>ლისა</abbr></expan></roleName> და
                      <lb n="10"/><roleName nymRef="მეფე"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფისა</abbr></expan></roleName> <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნისა</abbr></expan></w> და 
                      <w lemma="სახსარ">სახსრა

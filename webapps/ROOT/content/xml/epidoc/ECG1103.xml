@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">აშოტ კურაპალატის წარწერა</title><!-- სათაურის ველი -->
+                <title/>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor><!-- რედაქტორის ველი -->
+                <editor xml:lang="en"></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG1103</idno><!-- file-ს სათაური -->
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection><!-- კოლექცია -->
+                         ოპიზა
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">სამშენებლო</seg> <!-- ტექსტის ტიპი/შინაარსობრივი კატეგორია -->
+                            <seg xml:lang="en"></seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material xml:lang="ka" ref="https://www.eagle-network.eu/voc/material/lod/2">ადგილობრივი ქვა</material><!-- მასალა, ბმული -->
+                                    <material xml:lang="en" ref="https://www.eagle-network.eu/voc/material/lod/2">local stone</material>
+                                   <objectType xml:lang="ka" ref="https://www.eagle-network.eu/voc/objectype/lod/1483">ფასადი</objectType><!-- ფასადი/ბმული -->
+                                    <objectType xml:lang="en" ref="https://www.eagle-network.eu/voc/objectype/lod/1483" ></objectType>
+                                <dimensions unit="cm"><!-- ზომები -->
+                                   <height/>
+                                    <width/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="4"><!-- ხაზები ტექსტის -->
+                                        <seg xml:lang="ka"/>
+                                        <seg xml:lang="en"></seg>
+                                     <dimensions unit="cm">
+                                        <width/> <!-- ზედაპირის ზომები -->
+    
+                                        <height></height>
+                                       </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p xml:lang="ka"><rs type="execution"></rs> <rs type="script">ასომთავრული</rs> წარწერა</p>
+                                <p xml:lang="en">Blacksmith’s forge, Asomtavruli inscription</p>
+                                <height/>
+                             </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace ref="https://pleiades.stoa.org/places/863813">
+                                    <seg xml:lang="ka">ოპიზა</seg><!-- ადგილები -->
+                                    <seg xml:lang="en"></seg>
+                                </origPlace>
+                                <origDate notBefore-custom="0900" notAfter-custom="0950"
+                                    evidence="lettering">950</origDate><!-- თარიღი -->
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">
+                                    <seg xml:lang="ka">ოპიზა</seg>
+                                    <seg xml:lang="en"></seg>
+                                </placeName>
+                                 <!--  "42.512124, 43.081598"-->
+                                <rs type="circumstances" xml:lang="ka">------გარემოებები </rs>
+                                <rs type="circumstances" xml:lang="en"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                             <provenance type="observed">
+                            <placeName type="moderSpot">
+                                <seg xml:lang="ka">ოპიზა</seg>
+                                <seg xml:lang="en"></seg>
+                            </placeName>
+                            <idno/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2022-04-19" who="Mariam Khokhonishvili">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change>
+            <change when="2021-01-01" who="TK">ბიბლიოგრაფია, ფოტო</change>
+        </revisionDesc>
+     </teiHeader>
+
+      <facsimile>
+        <surface>
+            <graphic url="http://paleography.iliauni.edu.ge/digipal/page/22/">
+                <desc xml:lang="ka">აშოტ კურაპალატის წარწერა</desc>
+                <desc xml:lang="en">Asot Kurapalati Inscription</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                
+                  <p><bibl>
+                      <ptr target="bibliography.xml#b101"/>ნოდარ შოშიაშვილი, საქართველოს ეპიგრაფიკული კორპუსი, ტომი პირველი<citedRange>285</citedRange>
+                  </bibl></p>
+                 
+                 <p><bibl>
+                      <ptr target="bibliography.xml#b249"/>ნიკო მარი, შავშეთსა და კლარჯეთში მოგზაურობის დღიურები<citedRange>160-161</citedRange>
+                  </bibl></p>
+                 
+                 <p><bibl>
+                      <ptr target="bibliography.xml#b250"/>ექვთიმე თაყაიშვილი, სუმბატ დავითის ძის ქრონიკა<citedRange>76-77</citedRange>
+                  </bibl></p>
+                 
+                 <p><bibl>
+                      <ptr target="bibliography.xml#b251"/>პავლე ინგოროყვა, გიორგი მერჩულე<citedRange>340-343</citedRange>
+                  </bibl></p>
+                 
+                 <p><bibl>
+                      <ptr target="bibliography.xml#b51"/>ვახტანგ ბერიძე, სამცხის ხუროთმოძღვრება<citedRange>122</citedRange>
+                  </bibl></p>
+
+                    
+                
+            </div>
+
+            <div type="edition" xml:lang="ka" xml:space="preserve" ana="mtavruli">
+
+                        <!--  აშოტ კურაპლატი
+                            მეორედ მაშენებელი
+                            ოპიზისაჲ და წ(მიდ)ისა ამის
+                            ს(ა)ყდრისაჲ
+                       -->
+                
+                <ab>
+                   <lb n="1"/><persName type="local" key="აშოტ I კურაპალატი">აშოტ კურაპლატი</persName>
+                    <lb n="2"/><roleName nymRef="მეორედ მაშენებელი"><w lemma="მეორე">მეორედ</w> <w lemma="მაშენებელ">მაშენებელი</w></roleName>
+                    <lb n="3"/><placeName nymRef="ოპიზა" ref="https://en.wikipedia.org/wiki/Opiza">ოპიზისაჲ</placeName> და <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდ</ex><abbr>ისა</abbr></expan></w> ამის
+                    <lb n="4"/><w lemma="საყდარ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ყდრისაჲ</abbr></expan></w>
+                        
+                    
+                     </ab>
+
+            </div>
+
+            <div type="translation" xml:lang="ka">
+                <p></p>
+            </div>
+
+            <div type="translation" xml:lang="en">
+                <p>
+                  
+                </p>
+            </div>
+
+            <div type="apparatus" xml:space="preserve"/>
+
+
+            <div type="commentary" xml:lang="ka">
+                <p>  </p>
+            </div>
+            
+        
+            
+            <div type="commentary" xml:lang="en">
+                <p>
+            
+                </p>
+            </div>
+         </body>
+    </text>
+</TEI>

@@ -108,7 +108,7 @@
         <body>
             <!--  წ(მიდა)ო გ(იორგ)ი ილორ(ი)საო
                  [შ](ეიწყალ)ე გ(ა)ლ[ატოზი]-->
-              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+              <div type="edition" xml:lang="ka" ana="nuskhuri" xml:space="preserve">
                 <ab>
                     <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> <persName ref="attestedperson.xml#person2"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></persName> <placeName><expan><abbr>ილორ</abbr><ex>ი</ex><abbr>საო</abbr></expan></placeName>
                     <lb n="2"/><w lemma="იწყალებს"><expan><supplied reason="undefined" precision="medium">შ</supplied><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> <roleName><w lemma="გალატოზ"><expan><abbr>გ</abbr><ex>ა</ex><abbr>ლ</abbr><supplied reason="undefined" precision="medium"><abbr>ატოზი</abbr></supplied></expan></w></roleName>

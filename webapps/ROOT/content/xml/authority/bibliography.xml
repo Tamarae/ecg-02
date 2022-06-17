@@ -1026,41 +1026,44 @@
               <title>შრომების კრებული</title>, ტ. II
           </bibl>
 
-          <bibl xml:id="b249"><bibl type="abbrev"></bibl>
-              <author></author>
-              <title></title>
+          <bibl xml:id="b249"><bibl type="abbrev">მარი, 1911</bibl>
+              <author>ნიკო მარი</author>
+              <title>შავშეთსა და კლარჯეთში მოგზაურობის დღიურები</title>
           </bibl>
-          <bibl xml:id="b250"><bibl type="abbrev"></bibl>
-              <author></author>
-              <title></title>
-          </bibl>
-
-          <bibl xml:id="b251"><bibl type="abbrev"></bibl>
-              <author></author>
-              <title></title>
-          </bibl>
-          <bibl xml:id="b252"><bibl type="abbrev"></bibl>
-              <author></author>
-              <title></title>
+          
+          
+          
+          <bibl xml:id="b250"><bibl type="abbrev">თაყაიშვილი, 1949</bibl>
+              <author>ექვთიმე თაყაიშვილი</author>
+              <title>სუმბატ დავითის ძის ქრონიკა ტაო-კლარჯეთის ბაგრატიონთა შესახებ</title> ნაკვეთი 27
           </bibl>
 
-          <bibl xml:id="b253"><bibl type="abbrev"></bibl>
-              <author></author>
-              <title></title>
+          <bibl xml:id="b251"><bibl type="abbrev">ინგოროყვა, 1950</bibl>
+              <author>პავლე ინგოროყვა</author>
+              <title>გიორგი მერჩულე</title> მნათობი, 7
           </bibl>
-
-          <bibl xml:id="b254"><bibl type="abbrev"></bibl>
-              <author></author>
-              <title></title>
+          <bibl xml:id="b252"><bibl type="abbrev">თაყაიშვილი,1905</bibl>
+              <author>ექვთიმე თაყაიშვილი</author>
+              <title>Археологическiя экскурсiи, разысканiя и заметки - Выпускъ II - Перепечатано изъ I Вып. "Известiй Кавказскаго Отделенiя Императорскаго Московскаго Археологическаго Общества" - Тифлисъ - 1905</title>
           </bibl>
-
-          <bibl xml:id="b255"><bibl type="abbrev"></bibl>
-              <author></author>
-              <title></title>
+          
+          <bibl xml:id="b253"><bibl type="abbrev">თაყაიშვილი, 1949</bibl>
+              <author>ექვთიმე თაყაიშვილი</author>
+              <title>სუმბატ დავითის ძის ქრონიკა, ტაო-კლარჯეთის ბაგრატიონთა შესახებ</title>
           </bibl>
-          <bibl xml:id="b256"><bibl type="abbrev"></bibl>
-              <author></author>
-              <title></title>
+          
+          <bibl xml:id="b254"><bibl type="abbrev">ალადაშვილი, 1954</bibl>
+              <author>ნათელა ალადაშვილი</author>
+              <title>რელიეფი ოპიზიდან აშოტ კურაპალატის გამოსახულებით</title>
+          </bibl>
+          
+          <bibl xml:id="b255"><bibl type="abbrev">ჩუბინაშვილი, 1959</bibl>
+              <author>ნიკო ჩუბინიშვილი</author>
+              <title>საურმაგის-ძის ნიღვარაის ქტიტორული რელიეფი ჯავახეთის ახაშენიდან</title>
+          </bibl>
+          <bibl xml:id="b256"><bibl type="abbrev">ამირანაშვილი, 1961</bibl>
+              <author>შალვა ამირანაშვილი</author>
+              <title>ქართული ხელოვნების ისტორია</title>
           </bibl>
 
           <bibl xml:id="b257"><bibl type="abbrev"></bibl>

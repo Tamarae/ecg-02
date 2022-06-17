@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ka">ოპიზის ეკლესიის რელიეფების ქტიტორული წარწერა აშოტისა და დავითისა</title><!-- სათაურის ველი -->
+                <title/>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor><!-- რედაქტორის ველი -->
+                <editor xml:lang="en"></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                 <idno type="filename">ECG1104</idno><!-- file-ს სათაური -->
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <collection><!-- კოლექცია -->
+                         ოპიზა
+                        </collection>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg xml:lang="ka">ქტიტორული წარწერა</seg> <!-- ტექსტის ტიპი/შინაარსობრივი კატეგორია -->
+                            <seg xml:lang="en"></seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material xml:lang="ka" ref="https://www.eagle-network.eu/voc/material/lod/2">ადგილობრივი ქვა</material><!-- მასალა, ბმული -->
+                                    <material xml:lang="en" ref="https://www.eagle-network.eu/voc/material/lod/2">local stone</material>
+                                   <objectType xml:lang="ka" ref="https://www.eagle-network.eu/voc/objectype/lod/1483">რელიეფური კომპოზიცია</objectType><!-- ფასადი/ბმული -->
+                                    <objectType xml:lang="en" ></objectType>
+                                <dimensions unit="cm"><!-- ზომები -->
+                                   <height>64</height>
+                                    <width>57</width> 
+                                    <depth>9</depth>
+                                    </dimensions>
+                                    <dimensions unit="cm"><!-- ზომები -->
+                                   <height>68</height>
+                                    <width>58</width>
+                                        <depth>8.5</depth>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="13"><!-- ხაზები ტექსტის -->
+                                        <seg xml:lang="ka">ფილებს გარს უვლის რელიეფური ვიწრო ჩარჩო. ორივე ფილაზე ამოკვეთილია ერთი კომპოზიცია. მარცხენაზე- ქტიტორი, რომელსაც უჭირავს გუმბათიანი ტაძრის მოდელი; მარჯვენაზე- სავარძელში მჯდარი ქრისტე, რომელსაც მარჯვენა ხელში გაშლილი წიგნი უჭირავს, მარჯვენა კი ქტიტორისკენაა გაწვდილი. ქრისტეს მარცხნივ ვედრების მდგომარეობაში მყოფი კაცის ქანდაკებაა. </seg>
+                                        <seg xml:lang="en"></seg>
+                                     <dimensions unit="cm">
+                                        <width> </width><!-- ზედაპირის ზომები -->
+    
+                                        <height></height>
+                                       </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა. 
+                                    განკვეთილობის ნიშნები არ ახლავს; ქარაგმის ნიშნად გამოყენებულია გრძელი, ბოლოებგახრილი განივი ხაზი. პალეოგრაფიული თვალსაზრისით, წარწერას ახასიათებს კიდურწერტილოვნება და კიდურწაისრულობა.</p>
+                                <p xml:lang="en">Blacksmith’s forge, Asomtavruli inscription</p>
+                                <height>2,5-6</height>
+                             </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                            <origin>
+                                <origPlace ref="https://pleiades.stoa.org/places/863813">
+                                    <seg xml:lang="ka">ოპიზა</seg><!-- ადგილები -->
+                                    <seg xml:lang="en"></seg>
+                                </origPlace>
+                                <origDate notBefore-custom="0923" notAfter-custom="0937"
+                                    evidence="lettering">923-937</origDate><!-- თარიღი -->
+                            </origin>
+                            <provenance type="found">
+                                <placeName type ="ancientFindspot">
+                                    <seg xml:lang="ka">ოპიზა</seg>
+                                    <seg xml:lang="en"></seg>
+                                </placeName>
+                                 <!--  "42.512124, 43.081598"-->
+                                <rs type="circumstances" xml:lang="ka"></rs>
+                                <rs type="circumstances" xml:lang="en"></rs>
+                                <rs type="context"/>
+                                <rs type="monuList"/>
+                            </provenance>
+                             <provenance type="observed">
+                            <placeName type="moderSpot">
+                                <seg xml:lang="ka">ოპიზა</seg>
+                                <seg xml:lang="en"></seg>
+                            </placeName>
+                            <idno/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc>
+            <change when="2022-04-19" who="Mariam Khokhonishvili">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change>
+            <change when="2021-01-01" who="TK">ბიბლიოგრაფია, ფოტო</change>
+        </revisionDesc>
+     </teiHeader>
+
+      <facsimile>
+        <surface>
+            <graphic url="http://paleography.iliauni.edu.ge/digipal/page/22/">
+                <desc xml:lang="ka">ქტიტორის წარწერა</desc>
+                <desc xml:lang="en">Sahakdukht Inscription</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+
+    <text>
+        <body>
+             <div type="bibliography">
+                
+                
+                  <p><bibl>
+                      <ptr target="bibliography.xml#b252"/>ექვთიმე თაყაიშვილი, არქეოლოგიური ექსკურსიები<citedRange>56-59</citedRange>
+                  </bibl></p>
+                 
+                 <p><bibl>
+                      <ptr target="bibliography.xml#b253"/>ექვთიმე თაყაიშვილი,სუმბატ დავითის ძის ქრონიკა ტაო-კლარჯეთის ბაგრატიონთა შესახებ<citedRange>76-77</citedRange>
+                  </bibl></p>
+                 
+                 <p><bibl>
+                      <ptr target="bibliography.xml#b111"/>ბაქრაძე, საქართველოს სახელმწიფო მუზეუმის ქართული ეპიგრაფიკული ძეგლების კატალოგი<citedRange>8</citedRange>
+                  </bibl></p>
+                 
+                 <p><bibl>
+                      <ptr target="bibliography.xml#b254"/>ალადაშვილი, რელიეფი ოპიზიდან აშოტ კურაპალატის გამოსახულებით<citedRange>553-558</citedRange>
+                  </bibl></p>
+                 
+                 <p><bibl>
+                      <ptr target="bibliography.xml#b255"/>ჩუბინაშვილი,საურმაგის-ძის ნიღვარაის ქტიტორული რელიეფი ჯავახეთის ახაშენიდან<citedRange>138</citedRange>
+                  </bibl></p>
+                 
+                 <p><bibl>
+                      <ptr target="bibliography.xml#b256"/>ამირანაშვილი, ქართული ხელოვნების ისტორია <citedRange>215-216</citedRange>
+                  </bibl></p>
+
+                    
+                
+            </div>
+
+            <div type="edition" xml:lang="ka" xml:space="preserve" ana="mtavruli">
+
+                        <!--  აშ(ო)ტ 
+                            ეკლ(ე)ს(ია)ჲ
+                            ჲ(ეს)ო ქ(რისტ)ე
+                            დ(ა)ვ(ი)თ
+                       -->
+                
+                <ab>
+                   <lb n="1"/><persName type="local" key="აშოტ I კურაპალატი">აშოტ</persName>
+                    <lb n="2"/><w lemma="ეკლესია"><expan><abbr>ეკლ</abbr><ex>ე</ex><abbr>ს</abbr><ex>ია</ex><abbr>ჲ</abbr></expan></w>
+                    <lb n="3"/>ჲესო ქრისტე
+                    <lb n="4"/><persName key="დავით ქართველთა მეფე"><expan><abbr>დ</abbr><ex>ა</ex><abbr>ვ</abbr><ex>ი</ex><abbr>თ</abbr></expan></persName>
+                        
+                    
+                     </ab>
+
+            </div>
+
+            <div type="translation" xml:lang="ka">
+                <p></p>
+            </div>
+
+            <div type="translation" xml:lang="en">
+                <p>
+                  
+                </p>
+            </div>
+
+            <div type="apparatus" xml:space="preserve"/>
+
+
+            <div type="commentary" xml:lang="ka">
+                <p> 1.მარცხენა ფილის მარცხენა ჩარჩო ნაწილობრივ ჩამომტვრეულია; 2. მარჯვენა ფილა ხუთ ნაწილადაა გატეხილი, თუმცა წარწერის გაშიფვრა ფილათა შეწებებით მოხერხდა.  </p>
+            </div>
+            
+        
+            
+            <div type="commentary" xml:lang="en">
+                <p> 
+            
+                </p>
+            </div>
+         </body>
+    </text>
+</TEI>

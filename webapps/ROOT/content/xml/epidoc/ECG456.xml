@@ -108,10 +108,10 @@
         <body>
             <!--  წ(მიდა)ო გ(იორგ)ი, შ(ეიწყალ)ე გ(იორგ)ი ქოჩო[ლა]ვა, მღდ(ე)ლ;
                 წ(მიდა)ო გ(იორგ)ი, მფარ(ვე)ლ მექმენ დიდსა მას დღესა! -->
-              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+              <div type="edition" xml:lang="ka" ana="nuskhuri" xml:space="preserve">
                 <ab>
-                    <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> <persName ref="attestedperson.xml#person2"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></persName> <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> <persName ref="attestedperson.xml#person3"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan> <expan><abbr>ქოჩო</abbr><supplied reason="undefined" precision="medium">[ლა]</supplied><abbr>ვა</abbr></expan></persName> <roleName><w lemma="მღდელი"><expan><abbr>მღდ</abbr><ex>ე</ex><abbr>ლ</abbr></expan></w></roleName>
-                    <lb n="2"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> <persName ref="attestedperson.xml#person2"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></persName> <w lemma="მფარველი"><expan><abbr>მფარ</abbr><ex>ვე</ex><abbr>ლ</abbr></expan></w> <w>მექმენ</w> <w>დიდსა</w> <w>მას</w> <w>დღესა!</w>
+                    <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> <expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan> <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> <persName type="local" key="მღვდელი გიორგი ქოჩოლავა"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan> <expan><abbr>ქოჩო</abbr><supplied reason="undefined" precision="medium">[ლა]</supplied><abbr>ვა</abbr></expan></persName> <roleName><w lemma="მღდელი"><expan><abbr>მღდ</abbr><ex>ე</ex><abbr>ლ</abbr></expan></w></roleName>
+                    <lb n="2"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> <expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan> <w lemma="მფარველი"><expan><abbr>მფარ</abbr><ex>ვე</ex><abbr>ლ</abbr></expan></w> <w>მექმენ</w> <w>დიდსა</w> <w>მას</w> <w>დღესა!</w>
                     </ab>
                 </div>
             <div type="translation" xml:lang="ka"><p>წმინდა გიორგი, შეიწყალე მღვდელი გიორგი ქოჩოლავა; წმინდაო გიორგი, დამიფარე იმ დიდ დღეს!</p></div>

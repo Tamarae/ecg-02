@@ -123,7 +123,7 @@
             <ab>
                 <lb n="1"/><w lemma="იანვარ"><expan><abbr>იანვრ</abbr><ex>ი</ex><abbr>ს</abbr></expan><supplied reason="lost" precision="high"><abbr>ა</abbr></supplied></w> 
                 <supplied reason="lost" precision="low"><num>სა</num></supplied>
-                <lb n="2"/><persName type="local" key="პავლე ამბა მანგლელი"><roleName nymRef="amba">ამბა</roleName> პა<supplied reason="lost" precision="low">ვ</supplied>
+                <lb n="2"/><persName type="local" key="პავლე ამბა მანგლელი"><roleName nymRef="ამბა">ამბა</roleName> პა<supplied reason="lost" precision="low">ვ</supplied>
                 <lb n="3" break="no"/>ლესი</persName> <w lemma="აღაპ"><expan><abbr>აღ</abbr><ex>ა</ex><abbr>პ</abbr><supplied reason="lost" precision="high"><abbr>ი</abbr></supplied></expan></w> 
                 <lb n="4"/><roleName nymRef="მანგლელი"><w lemma="მანგლელ"><expan><abbr>მ</abbr><ex>ან</ex><abbr>გ</abbr><ex>ლე</ex><abbr>ლისი</abbr></expan></w></roleName> <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> <w lemma="მის">მის</w>
                 <lb n="5"/><w lemma="დღე"><expan><abbr>დღ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w> <w lemma="ჟამისწირვა"><expan><abbr>ჟ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ი</ex><abbr>სწ</abbr><ex>ი</ex><abbr>რვ</abbr><supplied reason="lost" precision="high"><ex>ა</ex><abbr>ი</abbr></supplied></expan></w> 

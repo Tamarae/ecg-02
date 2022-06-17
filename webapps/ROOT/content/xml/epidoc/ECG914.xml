@@ -5,11 +5,12 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>მოხისის სამების წარწერა</title>
-                <editor>ირაკლი გელაშვილი, თამაზ გოგოლაძე</editor>
+                <title xml:lang="ka">მოხისის სამების წარწერა</title>
+                <editor xml:lang="ka">ირაკლი გელაშვილი, თამაზ გოგოლაძე</editor>
             </titleStmt>
             <publicationStmt>
-                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
                  <idno type="filename">ECG914</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
@@ -35,8 +36,10 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>                             
-                                   <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვიშაქვა</material>
-                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/416">აღმოსავლეთ ფასადი</objectType>
+                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვიშაქვა</material>
+                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/416">აღმოსავლეთ ფასადი</objectType>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
+                                   <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/416">Eastern Facade</objectType>
                                    </support>
                                    </supportDesc>
                                 <layoutDesc>
@@ -64,19 +67,25 @@
                     <history>
                         
                            <origin>
-                                <origPlace>მოხისი</origPlace>
+                                <origPlace>
+                                    <seg xml:lang="ka">მოხისი</seg>
+                                    <seg xml:lang="en">Mokhisi</seg>
+                                </origPlace>
                                 <origDate>X-XI</origDate>
                             </origin>
                         
                         <provenance type="found" when="2015">
-                            <placeName>მოხისი</placeName>
-                            <rs type="monuList">მოხისი</rs>
-                            <rs type="circumstances"></rs>
+                            <placeName>
+                                <seg xml:lang="ka">მოხისი</seg>
+                                 <seg xml:lang="en">Mokhisi</seg>
+                            </placeName>
+                            <rs type="monuList"/>
+                            <rs type="circumstances"/>
                             <rs type="context"/>
                         </provenance>
                         
                         <provenance>
-                            <placeName type="modernSpot"></placeName>
+                            <placeName type="modernSpot"/>
                              <idno type="invNo"/>
                         </provenance>
                         
