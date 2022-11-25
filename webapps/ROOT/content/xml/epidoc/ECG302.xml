@@ -76,11 +76,7 @@
                     </history>                   
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc>
-    <listPrefixDef>
-        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-    </listPrefixDef>
-</encodingDesc>
+        </fileDesc>
     </teiHeader>
     <facsimile>
         <surface>

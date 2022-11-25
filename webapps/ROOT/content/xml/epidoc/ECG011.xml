@@ -96,11 +96,7 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <encodingDesc>
-    <listPrefixDef>
-        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-    </listPrefixDef>
-</encodingDesc>
+        
     </teiHeader>
     <facsimile>
         <surface>
@@ -114,56 +110,30 @@
         <body>
              <div type="bibliography">
                 
-                   
-                       
                             <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b81"/>, <citedRange> 149-150</citedRange></bibl></p>
-                        
-                 
-                    
+
                             <p><bibl n="2">თინათინ ყაუხჩიშვილი, საქართველოს ისტორიის ძველი ბერძნული წყაროები<ptr target="bibliography.xml#b194"/>, <citedRange> 241-245</citedRange></bibl></p>
-                        
-                 
-                     
+ 
                             <p><bibl n="3">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, ტ. I<ptr target="bibliography.xml#b82"/>, <citedRange> 149-150</citedRange></bibl></p>
-                        
-                 
-                    
+
                             <p><bibl n="4">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 92</citedRange></bibl></p>
-                        
-                 
-                     
+
                             <p><bibl n="5">ოთ. ლორთქიფანიძე, ვანი, არქეოლოგიური გათხრები<ptr target="bibliography.xml#b139"/><citedRange></citedRange></bibl></p>
-                        
-                 
-                    
+   
                             <p><bibl n="6">O. Lordkipanidzé, Vani, une Pompei géorgienne<ptr target="bibliography.xml#b140"/><citedRange></citedRange></bibl></p>
-                        
-                 
-                      
+
                             <p><bibl n="7">O. Lordkipanidze, Vani, ein antikes religiöses Zentrum des goldenen Vlieses (Kolchis)<ptr target="bibliography.xml#b141"/>, <citedRange>353-401</citedRange></bibl></p>
-                        
-                 
-                     
+
                             <p><bibl n="8">Medeas Gold - Neue Funde aus Georgien<ptr target="bibliography.xml#b142"/><citedRange></citedRange></bibl></p>
-                        
-                 
-                    
+
                             <p><bibl n="9">Michael Vickers, Vani, rich in gold<ptr target="bibliography.xml#b143"/>, <citedRange>35-36</citedRange></bibl></p>
-                        
-                 
-                     
+
                             <p><bibl n="10">თინათინ ყაუხჩიშვილი, ვანის ბერძნული წარწერები<ptr target="bibliography.xml#b195"/><citedRange></citedRange></bibl></p>
-                        
-                 
-                       
+
                             <p><bibl n="11">თინათინ ყაუხჩიშვილი, ვანის ბერძნული წარწერა ბრინჯაოს ფილაზე<ptr target="bibliography.xml#b196"/><citedRange></citedRange></bibl></p>
-                        
-                 
-                   
+
                             <p><bibl n="12">Тинатин Каухчишвили, Греческая надпись на бронзовой плите из Вани<ptr target="bibliography.xml#b197"/>, <citedRange> 248-261</citedRange></bibl></p>
-                        
-                    
-              
+
             </div>
 
             <div type="edition" xml:space="preserve" xml:lang="grc">

@@ -57,8 +57,6 @@
                                 ასოთა მოხაზულობა ისეთიავეა, როგორც სხვა წარწერებში, მაგრამ საერთო შთაბეჭდილების მიხედვით ეს უფრო წვრილი და მომაღლო ასოებით ყოფილა შესრულებული. 
                                 ასოების კუთხეებიც მეტად არის გამოკვეთილი.
                                 წარწერები შესრულებულია გამართული, წიგნიერი ბერძნულით.
-                                <height unit="cm" precision="medium"></height>
-                                <width unit="cm" precision="medium"></width>
                                   </handNote>
                         </handDesc>
                         <decoDesc>
@@ -84,11 +82,7 @@
                     </history>                   
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc>
-    <listPrefixDef>
-        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-    </listPrefixDef>
-</encodingDesc>
+        </fileDesc>
     </teiHeader>
     <facsimile>
         <surface>

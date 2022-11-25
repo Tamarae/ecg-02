@@ -11,7 +11,7 @@
             <publicationStmt>
                 <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
                 <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
-                 <idno type="filename"></idno>
+                 <idno type="filename">ECG370</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
                        დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
@@ -54,9 +54,11 @@
                                 </layoutDesc>
                         </objectDesc>                        
                         <handDesc>
-                            <handNote script="asomtavruli" scribe="nuskhuri" style="inscribed">
+                            <handNote>
                                 <rs type="execution">ამოღარული</rs> <rs type="script">ნუსხურნარევი ასომთავრული</rs> წარწერა
-                                   <height></height> 
+                                   <dimensions>
+                                       <height/>
+                                   </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>

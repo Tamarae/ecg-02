@@ -55,10 +55,10 @@
                                 </layoutDesc>
                         </objectDesc>                        
                         <handDesc>
-                            <handNote script="asomtavruli" style="inscribed">
+                            <handNote>
                                 <rs type="execution">ამოღარული</rs> <rs type="script">ნუსხურნარევი ასომთავრული</rs> 
                                 და <rs type="script">ნუსხური</rs> წარწერა
-                                   <height></height> 
+                                   <dimensions><height/></dimensions> 
                             </handNote>
                         </handDesc>
                     </physDesc>

@@ -88,11 +88,7 @@
                     </history>                   
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc>
-    <listPrefixDef>
-        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-    </listPrefixDef>
-</encodingDesc>
+        </fileDesc>
        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
@@ -100,7 +96,7 @@
  
     <facsimile>
         <surface>
-            <graphic url="http://paleography.iliauni.edu.ge/digipal/page/39/ref=">
+            <graphic url="http://paleography.iliauni.edu.ge/digipal/page/39/">
                 <desc xml:lang="ka" >პალესტინის წარწერა III</desc>
                 <desc xml:lang="en"></desc>
             </graphic>

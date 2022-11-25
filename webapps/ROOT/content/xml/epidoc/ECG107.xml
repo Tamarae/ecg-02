@@ -51,10 +51,12 @@
                                 </layoutDesc>
                         </objectDesc>                        
                         <handDesc>
-                            <handNote script="asomtavruli_n" style="inscribed">
+                            <handNote>
                                 <rs type="execution">ამოღარული</rs> <rs type="script">ნუსხურნარევი ასომთავრული</rs> წარწერა,
                                     მკაფიო და ღრმა კვეთით, მოზრდილი ასოებით. მასში შერეულია ნუსხური ასოები: ო, ლ, უ
-                                   <height>3-7-8</height> 
+                                   <dimensions unit="mm">
+                                       <height>3-7-8</height>
+                                   </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>

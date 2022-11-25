@@ -47,8 +47,8 @@
                                     <layout writtenLines="2">წარწერა ორსტრიქონიანია, მისი ტექსტის უდიდესი ნაწილი წაშლილია. ზედა ნაწილში იკითხება მხოლოდ ი და ზ ასოები, 
                                     ხოლო ქვედა ნაწილში - მიჯრით ნაწერი ნ, უ და ვ
                                         <dimensions unit="cm">
-                                         <width></width>
-                                         <height></height> 
+                                         <width/>
+                                         <height/> 
                                           </dimensions>  
                                     </layout>                                   
                                 </layoutDesc>

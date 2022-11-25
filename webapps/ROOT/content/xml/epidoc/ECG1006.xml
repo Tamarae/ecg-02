@@ -54,8 +54,9 @@
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                                 <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა.
-                                <dimensions unit="cm"/>
-                                <height/>
+                                <dimensions unit="cm">
+                                    <height/>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                         <decoDesc>
@@ -88,8 +89,8 @@
 
     <facsimile>
         <surface>
-            <graphic url="ecg1006.jpg">
-                <desc xml:lang="ka" ref="paleography.iliauni.edu.ge/digipal/page/17/">უმ ლეისუნის წარწერა</desc>
+            <graphic url="paleography.iliauni.edu.ge/digipal/page/17/">
+                <desc xml:lang="ka">უმ ლეისუნის წარწერა</desc>
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
@@ -116,27 +117,25 @@
 
              <ab>
                         <lb n="1"/><w lemma="ესე">ესე</w> <w lemma="სამარხ">სამარხოჲ</w>
-                        <lb n="2"/><persName type="clergy" key="იოვანე ფურტაველი ეპისკოპოსი"><name nymRef="იოჰანე">იოჰანე</name></persName> <placeName nymRef="ფურტავი"><name nymRef="ფურტაველ">ფოჳრ
-                        <lb n="3" break="no"/>ტაველ</name></placeName> <roleName nymRef="ეპისკოპოს">ეპისკოპო
-                        <lb n="4" break="no"/>სისაჲ</roleName> <persName type="ethnic" nymRef="ქართველ">ქართვე
-                        <lb n="5" break="no"/>ლისაჲ</persName>
+                        <lb n="2"/><persName type="clergy" key="იოვანე ფურტაველი ეპისკოპოსი"><name nymRef="იოჰანე">იოჰანე</name></persName> <roleName nymRef="ფურტაველი ეპისკოპოსი"><placeName nymRef="ფურტავი">ფოჳრ
+                        <lb n="3" break="no"/>ტაველ</placeName> ეპისკოპო
+                        <lb n="4" break="no"/>სისაჲ</roleName> <placeName type="ethnic" nymRef="ქართველ">ქართვე
+                        <lb n="5" break="no"/>ლისაჲ</placeName>
              </ab>
              
             </div>
             
-            <div type="translation" xml:lang="ka">
-               <p>ეს სამარხი (არის) იოანე ფურტაველი ეპისკოპოსის, ქართველისა</p>
+            <div type="translation">
+               <p xml:lang="ka">ეს სამარხი (არის) იოანე ფურტაველი ეპისკოპოსის, ქართველისა</p>
             </div>
             
 
             
-            <div type="commentary" xml:lang="ka">
-                <p>არც ერთ არქეოლოგიურ ობიექტზე ეთნონიმ „ქართველის“ გამოყენების ამაზე ადრიანი შემთხვევა არ გვხვდება არც საქართველოში და არც წმინდა მიწაზე.</p>
+            <div type="commentary">
+                <p xml:lang="ka">არც ერთ არქეოლოგიურ ობიექტზე ეთნონიმ „ქართველის“ გამოყენების ამაზე ადრიანი შემთხვევა არ გვხვდება არც საქართველოში და არც წმინდა მიწაზე.</p>
+                <p xml:lang="en">the earliest known example for an ethnonym ႵႠႰႧႥႤႪႨ (kartveli i.e. Georgian) on any archaeological artifact, both in the Holy Land and in Georgia.</p>
             </div>
-            <div type="commentary" xml:lang="en">
-                <p>the earliest known example for an ethnonym ႵႠႰႧႥႤႪႨ (kartveli i.e. Georgian) on any archaeological artifact, both in the Holy Land and in Georgia.</p>
-            </div>
-                   
+
 
             
          </body>

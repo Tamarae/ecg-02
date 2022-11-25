@@ -51,12 +51,12 @@
                                 </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote script="gardamavali mxedruli">
-                                ერთსტრიქონიანი <rs type="script">გარდამავალი მხედრული</rs> წარწერა, განკვეთილობის ნიშნები არ ახლავს; ქარაგმის ნიშანი - განივი, სწორი ხაზი.
-                            </handNote>
                             <handNote>
-                                   <height unit="cm">1-4,5</height>
-                                 </handNote>
+                                ერთსტრიქონიანი <rs type="script">გარდამავალი მხედრული</rs> წარწერა, განკვეთილობის ნიშნები არ ახლავს; ქარაგმის ნიშანი - განივი, სწორი ხაზი.                         
+                                   <dimensions unit="cm">
+                                       <height unit="cm">1-4,5</height>
+                                   </dimensions>
+                            </handNote>
                         </handDesc>
                     </physDesc>
                     <history>

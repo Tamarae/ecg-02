@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="ka">ბოლნისის „ლამაზი გორას“ ჯვარი ბარნაბასი, V/VI საუკუნე</title>
+                <title xml:lang="ka">ბოლნისის „ლამაზი გორის“ ჯვარი ბარნაბასი, V/VI საუკუნე</title>
                 <title xml:lang="en">Bolnisi “Lamazi Gora” Cross of Barnaba, V/VI centuries</title>
                 <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
                 <editor xml:lang="en">Nodar Shoshiashvili</editor>
@@ -117,8 +117,8 @@
     <facsimile>
         <surface>
             <graphic url="ecg038.jpg">
-                <desc xml:lang="ka">ბოლნისის „ლამაზი გორას“ ჯვარი ბარნაბასი, V/VI საუკუნე</desc>
-                <desc xml:lang="en"></desc>
+                <desc xml:lang="ka">ბოლნისის „ლამაზი გორის“ ჯვარი ბარნაბასი, V/VI საუკუნე</desc>
+                <desc xml:lang="en">Bolnisi "Lamazi Gora" cross of Barnaba</desc>
             </graphic>
         </surface>
     </facsimile>

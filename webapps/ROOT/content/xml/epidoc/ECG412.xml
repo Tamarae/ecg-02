@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ფერწერითი ხატი</title>
+                <title>ფერწერული ხატი ლაგურკიდან</title>
                 <editor>თინათინ ყაუხჩიშვილი</editor>
             </titleStmt>
             <publicationStmt>
@@ -20,68 +20,63 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <collection>ლაგურკა</collection>                
+                        <collection>ლაგურკა</collection>
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მოსახსენებელი</seg>
                             <seg xml:lang="en"/>
                         </summary>
-                    </msContents> 
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material/>
                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/123">ხატი</objectType>
                                 </support>
                             </supportDesc>
                                 <layoutDesc>
                                     <layout>
-                                        ფერწერითი ხატის გამოსახულების მარცხნივ და მარჯვნივ თავთან აქვს დაქარაგმებული მთავრული ბერძნული წარწერა. მარცხენა ნაწილს უჭირავს 4x5 სმ. მარჯვენას - 
-                               4x6 სმ. ასოების სიგანე სხვადასხვა აქვთ.                      
+                                        ფერწერული ხატის გამოსახულების მარცხნივ და მარჯვნივ თავთან აქვს დაქარაგმებული მთავრული ბერძნული წარწერა. მარცხენა ნაწილს უჭირავს 4x5 სმ. მარჯვენას -
+                               4x6 სმ. ასოების სიგანე სხვადასხვა აქვთ.
                                     <dimensions unit="cm">
-                                        <width></width>
-                                        <height></height>
-                                        <depth></depth>
+                                        <width/>
+                                        <height/>
                                     </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>არის ქარაგმის ნიშნები, მონოგრამები, სიტყვათშემოკლება.
-                                <height unit="cm" precision="medium">3</height>
-                                <width unit="cm" precision="medium"></width>
+                                <dimensions><height unit="cm" precision="medium">3</height></dimensions>
+
                             </handNote>
                         </handDesc>
                         <decoDesc>
-                            <decoNote>ორნამენტად არის ერტიკალური წერტილები (3 და 2).</decoNote>
+                            <decoNote>ორნამენტად არის ვერტიკალური წერტილები (3 და 2).</decoNote>
                         </decoDesc>
                     </physDesc>
                     <history>
                             <origin>
                                 <origPlace></origPlace>
-                                <origDate notBefore-custom="1001" notAfter-custom="1200" precision="medium" 
+                                <origDate notBefore-custom="1001" notAfter-custom="1200" precision="medium"
                                     evidence="lettering" datingMethod="#julian">XI-XII AD</origDate>
                               </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot">ლაგურკა</placeName> 
+                                <placeName type ="ancientFindspot">ლაგურკა</placeName>
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                      
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">ლაგურკას ეკლესია</placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc>
-    <listPrefixDef>
-        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-    </listPrefixDef>
-</encodingDesc>
+        </fileDesc>
     </teiHeader>
     <facsimile>
         <surface>
@@ -94,43 +89,43 @@
     <text>
         <body>
              <div type="bibliography">
-                
+
                     <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 87-88</citedRange></bibl></p>
                     <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 42</citedRange></bibl></p>
-                
-             </div>     
+
+             </div>
 
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!--   ΑC ΜΧΛ    ὁ  ἅ[γιο]ς Μ[ι]χ[α]ήλ  -->
-                     
-            
+
+
          <div type="textpart" subtype="section" n="1">
          <ab>
-             <w lemma="ὁ">ὁ</w> <w lemma="ἅγιος"><expan><abbr>ἅ</abbr><ex>γιο</ex><abbr>ς</abbr></expan></w> 
-         </ab>    
+             <w lemma="ὁ">ὁ</w> <w lemma="ἅγιος"><expan><abbr>ἅ</abbr><ex>γιο</ex><abbr>ς</abbr></expan></w>
+         </ab>
           </div>
                 <div type="textpart" subtype="section" n="2">
                     <ab>
-                       <persName type="saint"><name nymRef="Μιχαήλ"><expan><abbr>Μ</abbr><ex>ι</ex><abbr>χ</abbr><ex>α</ex><abbr>ήλ</abbr></expan></name></persName> 
+                       <persName type="saint"><name nymRef="Μιχαήλ"><expan><abbr>Μ</abbr><ex>ι</ex><abbr>χ</abbr><ex>α</ex><abbr>ήλ</abbr></expan></name></persName>
                     </ab>
                 </div>
             </div>
-            
+
             <div type="translation" subtype="section" n="1" xml:lang="ka">
                 <p>წმიდა</p>
             </div>
             <div type="translation" subtype="section" n="2" xml:lang="ka">
                 <p>მიქაელი</p>
             </div>
-            
+
             <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
               <head>კრიტიკული აპარატი</head>
               <p><app><lem></lem>
               <rdg></rdg>
               </app></p>
             </div>
-           
+
             <div type="commentary">
                 <p>შესაძლოა წარწერაში დადასტურებულ მონოგრამაში სახელის ყველა ასო იგულისხმებოდეს.</p>
                 <p>დათარიღება ხდება ასოთა მოზახულობის მიხედვით. წარწერაში შემოკლების წესი ჩვეულებრივ არ არის. ასო λ უფრო δ-ს ჰგავს.</p>
@@ -139,4 +134,3 @@
          </body>
     </text>
 </TEI>
-

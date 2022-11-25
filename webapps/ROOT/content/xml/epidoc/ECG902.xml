@@ -88,8 +88,8 @@
       
     <facsimile>
         <surface>
-            <graphic url="ecg902.jpg">
-                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/41/">ხცისის წარწერა</desc>
+            <graphic url="http://paleography.iliauni.edu.ge/digipal/page/41/">
+                <desc xml:lang="ka">ხცისის წარწერა</desc>
                 <desc xml:lang="en"></desc>
             </graphic>
             

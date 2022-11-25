@@ -81,7 +81,7 @@
                             </handNote>
                         </handDesc>
                         <decoDesc>
-                            <decoNote></decoNote>
+                            <decoNote/>
                         </decoDesc>
                     </physDesc>
                     <history>
@@ -126,8 +126,8 @@
 
    <facsimile>
         <surface>
-            <graphic url="ecg005.jpg">
-                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/42/">ფილის ფრაგმენტები არმაზციხე-ბაგინეთიდან, 1993</desc>
+            <graphic url="http://paleography.iliauni.edu.ge/digipal/page/42/">
+                <desc xml:lang="ka">ფილის ფრაგმენტები არმაზციხე-ბაგინეთიდან, 1993</desc>
                 <desc xml:lang="en">Fragments of a plaque from Armaztsikhe-Bagineti, 1993</desc>
             </graphic>
         </surface>

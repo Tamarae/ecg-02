@@ -54,7 +54,8 @@
                                         <dimensions unit="cm">
                                         <width>107</width>
                                         <height>36</height>
-                                        <depth></depth></dimensions>
+                                        
+                                        </dimensions>
                                     </layout>
                                 </layoutDesc>
                         </objectDesc>                        
@@ -95,20 +96,17 @@
                     </history>                   
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc>
-    <listPrefixDef>
-        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-    </listPrefixDef>
-</encodingDesc>
+        </fileDesc>
+        
       <revisionDesc><change when="2019-11-06" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
         
     <facsimile>
         <surface>
-            <graphic url="ecg030.jpg">
-                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/31/">მცხეთის ჯვრის მოსახსენებელი თემისტიასი</desc>
-                <desc xml:lang="en" ref="http://paleography.iliauni.edu.ge/digipal/page/31/">Jvari Monastery, Memorial of Temistias</desc>
+            <graphic url="http://paleography.iliauni.edu.ge/digipal/page/31/">
+                <desc xml:lang="ka" >მცხეთის ჯვრის მოსახსენებელი თემისტიასი</desc>
+                <desc xml:lang="en">Jvari Monastery, Memorial of Temistias</desc>
             </graphic>
         </surface>
     </facsimile>

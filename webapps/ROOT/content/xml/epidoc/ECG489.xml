@@ -55,7 +55,7 @@
                             <height unit="cm">0,6-0,7</height>
                        </handDesc>
                         <decoDesc>
-                            <decoNote>მოოქრული ვერცხლის ჭედურ ხატზე გამოსახულია წმნიდანის გამოსახულებ, რომელსაც ორივე მხარეს სხვადასხვა მოყვენილობის მსხვილი ვარდულების თითო რიგი დაუყვება. ვარდულების წვრილი რიგით დაფარულია ხატის ჩარჩოს სამი მხარე</decoNote>
+                            <decoNote>მოოქრული ვერცხლის ჭედურ ხატზე გამოსახულია წმნიდანის გამოსახულება, რომელსაც ორივე მხარეს სხვადასხვა მოყვენილობის მსხვილი ვარდულების თითო რიგი დაუყვება. ვარდულების წვრილი რიგით დაფარულია ხატის ჩარჩოს სამი მხარე</decoNote>
                         </decoDesc>
                         </physDesc>
                     <history>
@@ -99,7 +99,7 @@
 
 
             <div type="bibliography" subtype="principalEdition">
-                
+
                     <p><bibl type="publication" subtype="principal" xml:lang="ka">
                       <author>
                           <persName>
@@ -113,7 +113,7 @@
                         <publisher/>
                         <date></date>
                      </bibl></p>
-                
+
             </div>
          </body>
     </text>

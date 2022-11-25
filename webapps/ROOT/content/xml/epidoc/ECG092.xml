@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="ka">თმოგვის მურვან კჳითხისძის წარწერა</title>
-                <title xml:lang="en"></title>
+                <title xml:lang="en">Tmogvi Inscription of Murwan Kvitkhidze</title>
                <editor xml:lang="ka">ვალერი სილოგავა</editor>
                 <editor xml:lang="en">Valeri Silogava</editor>
             </titleStmt>
@@ -60,7 +60,9 @@
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                                 <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
-                                   <height>6-6,5</height> 
+                                   <dimensions unit="mm">
+                                       <height>6-6,5</height>
+                                   </dimensions> 
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -140,13 +142,13 @@
                                 <persName type="local" key="დავით ულუ"><roleName nymRef="მეფეთ მეფე">მეფეთ
                                 მეფი<supplied reason="lost">ს</supplied></roleName> 
                    <lb n="4"/><name nymRef="დავით ულუ"><expan><abbr>დ</abbr><ex>ავი</ex><abbr>თ</abbr><ex>ი</ex><abbr>ს</abbr></expan></name> </persName>
-                                <persName type="local" key="მურვან კჳითხისძე [დავით ულუს ვარძიელი საწოლის მწიგნობარი]"><placeName nymRef="ვარძია"><expan><abbr>ვ</abbr><ex>ა</ex><abbr>რძ</abbr><ex>იელ</ex><abbr>მ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></placeName> 
+                                <persName type="local" key="მურვან კჳითხისძე დავით ულუს ვარძიელი საწოლის მწიგნობარი"><placeName nymRef="ვარძია"><expan><abbr>ვ</abbr><ex>ა</ex><abbr>რძ</abbr><ex>იელ</ex><abbr>მ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></placeName> 
                                  <roleName nymRef="ვარძიელი საწოლის მწიგნობარი"><w lemma="საწოლ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>წოლის</abbr></expan></w> 
                                 <w lemma="მწიგნობარ"><expan><abbr>მწიგნ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ა</ex><abbr>რმ</abbr><ex>ა</ex><supplied reason="lost">ნ</supplied></expan></w></roleName>
                    <lb n="5"/><placeName nymRef="თმოგვი"><expan><abbr>თმოგ</abbr><ex>უ</ex><abbr>ს</abbr></expan></placeName> 
                                <expan><abbr>მ</abbr><ex>უ</ex><abbr>რვ</abbr><ex>ა</ex><abbr>ნ</abbr></expan> 
                                 <expan><abbr>კჳთხ</abbr><ex>ი</ex><abbr>სძ</abbr><ex>ე</ex><abbr>მ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></persName> 
-                                <persName type="local" key="თევდორე"><name nymRef="თევდორე [თმოგვის ციხის ზღუდის მაშენებელი]"><expan><abbr>თ</abbr><ex>ევდორ</ex><abbr>ე</abbr></expan></name> </persName>
+                                <persName type="local" key="თევდორე"><name nymRef="თევდორე თმოგვის ციხის ზღუდის მაშენებელი"><expan><abbr>თ</abbr><ex>ევდორ</ex><abbr>ე</abbr></expan></name> </persName>
                                 <w lemma="დადგმა"><expan><abbr>დ</abbr><ex>ად</ex><abbr>გა</abbr></expan></w>
                    </ab>
                </div>         

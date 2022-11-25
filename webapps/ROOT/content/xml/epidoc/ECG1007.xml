@@ -3,8 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>სათხის სააღაპე წარწერა გიორგი შაზელისძისა</title>
-                <editor>ვალერი სილოგავა</editor>
+                <title xml:lang="ka">სათხის სააღაპე წარწერა გიორგი შაზელისძისა</title>
+                <editor xml:lang="ka">ვალერი სილოგავა</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
@@ -43,8 +43,8 @@
                                 <layoutDesc>
                                     <layout writtenLines="11">
                                    <dimensions unit="cm">
-                                       <width></width>
-                                        <height></height>
+                                       <width/>
+                                        <height/>
                                    </dimensions>
                                     </layout>
                                 </layoutDesc>
@@ -52,10 +52,8 @@
                         <handDesc>
                             <handNote script="nuskhuri" style="inscribed">
                                <rs type="execution">ამოღარული</rs> <rs type="script">ნუსხური</rs>. <rs type="execution" key="dot">კიდურწერტილოვანი</rs> და <rs type="execution" key="arrow">კიდურწაისრული</rs>.
-                                
-
                                 <dimensions unit="cm"/>
-                                <height></height>
+                                <height/>
                             </handNote>
                         </handDesc>
                         <decoDesc>
@@ -68,13 +66,13 @@
                                 <origDate>XII–XIII</origDate>
                             </origin>
                                 <provenance type="found" when="1872">
-                                <placeName type ="ancientFindspot">სათხის </placeName> 
+                                <placeName type="ancientFindspot">სათხის </placeName> 
                                 <rs type="circumstances">სათხის ქართულ ეკლესიას XIX საუკუნის 70–იან წლებში სამხრეთიდან მიუშენეს სომხური წმინდა დიდი ნერსეს ეკლესია. ქართული ეკლესიის სამხრეთი 
                                     კედელი გამოიყენეს სომხური ეკლესიის ჩრდილოეთ კედლად, ე.ი. ორივე ეკლესიას ერთი საერთო კედელი ჰქონდა. ქართული ეკლესიისა სამხრეთი კედელი, როგორც სომხური 
                                     ეკლესიისათვის უკვე შიდა კედელი, დაუფარავთ კირის სქელი ხსნარით. 1990 წლის გაზაფხულზე სომხური ეკლესიის სახურავი ჩრდილოეთ მხარეს ჩაინგრა, ამის შედეგად ნაწილობრივ 
                                     გაშიშვლდა ქართული ეკლესიის სამხრეთი კედელი, ჩამოიშალა კირის სქელი ფენა, ზოგი ჩამორეცხა წვიმამაც და აქ დიდი ზომის ქვის ფილაზე, ამოკვეთილი აღმოჩნდა ნუსხახუცური დამწერლობით 
                                     შესრულებული ვრცელი ქართული წარწერა 11 სტრიქონად.</rs>
-                                <rs type="context"></rs>
+                                <rs type="context"/>
                                 <rs type="monuList"/>
                                 </provenance>                                
                             <provenance type="observed">
@@ -84,18 +82,14 @@
                     </history>                   
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc>
-    <listPrefixDef>
-        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-    </listPrefixDef>
-</encodingDesc>
+        </fileDesc>    
     </teiHeader>
 
     <facsimile>
         <surface>
             <graphic url="ecg1007.jpg">
                 <desc xml:lang="ka">სათხის აღაპი</desc>
-                <desc xml:lang="en"></desc>
+                <desc xml:lang="en"/>
             </graphic>
         </surface>
     </facsimile>

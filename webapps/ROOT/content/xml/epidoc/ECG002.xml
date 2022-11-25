@@ -64,29 +64,30 @@
                         <handDesc>
                             <handNote> <!-- საღებავით შესრულებული წარწერა -->
 
-                                <p  xml:lang="ka" n="1">წარწერა შესრულებულია წითელი და შავი საღებავებით. შთაბეჭდილება ისეთია, რომ ტექსტი თავდაპირველად წითელი ასოებით იყო შესრულებული, შავი - მეორადია (შავი ასოების შიგნიდან ზოგან გამოსჭვივის წითელი ფერი).
+                                <seg  xml:lang="ka">წარწერა შესრულებულია წითელი და შავი საღებავებით. შთაბეჭდილება ისეთია, რომ ტექსტი თავდაპირველად წითელი ასოებით იყო შესრულებული, შავი - მეორადია (შავი ასოების შიგნიდან ზოგან გამოსჭვივის წითელი ფერი).
                                     გარდა 4 ძირითადი სტრიქონისა და ქრიზმებისა, ბათქაშზე აქა-იქ ჩანს კვალი შავი საღებავისა, ე.ი. ჩანს, რომ ეწერა კიდევ რაღაცა იმის გარდა, რაც ახლაა დაცული.
                                     წარწერა მთლიანად ერთბაშად არც არის შესრულებული, IV სტრიქონი მერეა მიწერილი, მაგრამ ინტერვალი დროის მხრივ დიდი არ უნდა იყოს.
-                                </p>
-                                <p xml:lang="ka" n="2">ასოები არათანაბარია, I სტრიქ. ძირითადად 11 სმ-ის სიმაღლისა, II - 10,5 სმ.,
+                                    ასოები არათანაბარია, I სტრიქ. ძირითადად 11 სმ-ის სიმაღლისა, II - 10,5 სმ.,
                                     III - 10,5 სმ. IV არათანაბარი და თითქოს უფრო წვრილი ხელით არის მიწერილი. ასოები კუთხოვანია (გამონაკლისს წარმოადგენს ქრიზმებთან გამოყვანილი ω,
                                     რომელიც მომრგვალებულია), ტოლგვერდებიან α-ს შემაერთებელი ხაზი ჩატეხილი აქვს. წარწერა ფართოდაა ნაწერი. არ შეინიშნება შეცდომები და საშ. ბერძნულის ნორმები.
                                     დასტურდება ერთი ლიგატური (ΜΕ-სთვის).
-                                </p>
+                                </seg>
+                              
 
-                                <p xml:lang="en" n="1">
+                                <seg xml:lang="en">
                                     Colors of the inscription are black and red. We presume that at first the text was done with red color and the black is secondary
                                     (the red letters are visible within the black ones in some of the cases).
                                     Besides the 4 main lines and christograms, there are some black color prints on the plaster, thus, there was something more written except what is given currently.
                                     Time difference present in the main inscription as the IV line is written later, this difference in time scale may not be big.
-                                </p>
-                                <p xml:lang="en" n="2">
-                                   The letters are not equal: 1st line mainly 11 cm height, 2nd - 10,5 cm., 3rd - 10,5 cm. 4th is unequal and represented with rather narrow handwriting.
-                                   The letters are right-angled (exceptional is round shaped ω in the chrisogram), α is represented with a broken crossbar.
-                                   The entire inscription is quite wide. No grammatical mistakes or medieval Greek forms. One ligature for ΜΕ.
-                                </p>
+                                    The letters are not equal: 1st line mainly 11 cm height, 2nd - 10,5 cm., 3rd - 10,5 cm. 4th is unequal and represented with rather narrow handwriting.
+                                    The letters are right-angled (exceptional is round shaped ω in the chrisogram), α is represented with a broken crossbar.
+                                    The entire inscription is quite wide. No grammatical mistakes or medieval Greek forms. One ligature for ΜΕ.
+                                </seg>
 
-                                <height unit="cm" precision="medium">11 - 10,5</height>
+
+                                <dimensions unit="cm">
+                                    <height precision="medium">11 -10,5</height>
+                                </dimensions>
                                </handNote>
                         </handDesc>
                         <decoDesc>

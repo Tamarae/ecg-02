@@ -979,8 +979,8 @@
           </bibl>
 
           <bibl xml:id="b239"><bibl type="abbrev">ბერძენიშვილი, 1985</bibl>
-              <author>დევი ბერძენიშვილი</author>
-              <title>, ნარკვევები საქართველოს ისტორიული გეოგრაფიიდან (ზემო ქართლი – თორი, ჯავახეთი)</title>
+              <author>დევი ბერძენიშვილი</author>,
+              <title>ნარკვევები საქართველოს ისტორიული გეოგრაფიიდან (ზემო ქართლი – თორი, ჯავახეთი)</title>
           </bibl>
 
           <bibl xml:id="b240"><bibl type="abbrev">ბერძენიშვილი, 1987</bibl>
@@ -1031,8 +1031,6 @@
               <title>შავშეთსა და კლარჯეთში მოგზაურობის დღიურები</title>
           </bibl>
           
-          
-          
           <bibl xml:id="b250"><bibl type="abbrev">თაყაიშვილი, 1949</bibl>
               <author>ექვთიმე თაყაიშვილი</author>
               <title>სუმბატ დავითის ძის ქრონიკა ტაო-კლარჯეთის ბაგრატიონთა შესახებ</title> ნაკვეთი 27
@@ -1064,11 +1062,6 @@
           <bibl xml:id="b256"><bibl type="abbrev">ამირანაშვილი, 1961</bibl>
               <author>შალვა ამირანაშვილი</author>
               <title>ქართული ხელოვნების ისტორია</title>
-          </bibl>
-
-          <bibl xml:id="b257"><bibl type="abbrev"></bibl>
-              <author></author>
-              <title></title>
           </bibl>
 
    </listBibl>

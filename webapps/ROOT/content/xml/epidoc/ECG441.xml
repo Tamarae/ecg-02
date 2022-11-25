@@ -50,13 +50,13 @@
                                 </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote script="asomtvaruli" style="embossed">ასომთავრული რელიეფური წარწერა. განკვეთილობის ნიშანი არ ახლავს, ქარაგმის ნიშანი: სწორი, განივი ხაზი.
+                            <handNote><rs type="script">ასომთავრული</rs> <rs type="execution">რელიეფური</rs> წარწერა. განკვეთილობის ნიშანი არ ახლავს, ქარაგმის ნიშანი: სწორი, განივი ხაზი.
                             <height unit="cm">1-1,2</height>
                             </handNote> 
                             
                        </handDesc> 
                         <decoDesc>
-                            <decoNote> კრამიტის კერამიკულ კალიპტერს ირგვლივ შემოუყვება ორმაგი რელიეფური ჩარჩო. წარწერის ზედა და ქვედა სტრიქონები ერთმანეთისგან გამოყოფილია ორმაგი რელიეფური ხაზით.</decoNote>
+                            <decoNote>კრამიტის კერამიკულ კალიპტერს ირგვლივ შემოუყვება ორმაგი რელიეფური ჩარჩო. წარწერის ზედა და ქვედა სტრიქონები ერთმანეთისგან გამოყოფილია ორმაგი რელიეფური ხაზით.</decoNote>
                         </decoDesc> 
                         </physDesc>
                     <history>
@@ -65,7 +65,7 @@
                                 <origDate notBefore="0800" notAfter="1000">IX-X AD</origDate>
                             </origin>
                             <provenance>
-                                <placeName type ="ancientFindspot">მსიგხუას ეკლესია</placeName>
+                                <placeName type ="ancientFindspot" when="1962">მსიგხუას ეკლესია</placeName>
                                 <rs type="circumstances">1962 წელს წკუარას ხეობაში გამოჩნდა ძველი საკულტო ნაგებობების ნაშთი. პირველი არქეოლოგიური დაზვერვა ჩაატარა ვ.ფაჩულიამ, მოგვიანებით არქეოლოგიურმა ჯფუფმა ა. კაციას ხელმძღვანელობით. გაირკვა, რომ ნაგებობა წარმოადგენდა შუა საუკუნეების ქრისტიანულ ეკლესიას. სწორედ აქ არის აღმოჩენილი აღნიშნული წარწერა.</rs> <!-- დიდი ეკლესიაო პირდაპირ ასე ეწერა და გადმოვიტანე მეც )) -->
                                 <rs type="context">მსხიგუას ეკლესიაში აღმოჩენილია 46 წარწერა, მაშ შორის მიქაელას სავედრებელი წარწერები.</rs>
                                 <rs type="monuList"/>
@@ -77,11 +77,7 @@
                     </history>                   
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc>
-    <listPrefixDef>
-        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-    </listPrefixDef>
-</encodingDesc>
+        </fileDesc>
         <revisionDesc> <change who="TG">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან.</change></revisionDesc>
     </teiHeader>
     

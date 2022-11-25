@@ -49,8 +49,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>წარწერა შესრულებულია <rs type="script">ნუსხურ შერეული მდივან-მწიგნობრული მხედრული</rs> დამწერლობით. წარწერას განკვეთილობისა და ქარაგმების ნიშანები არ ახლავს.
-                                <width> 0,3-0,4</width>
-                                <height> 0,2-1,5</height>
+                                <dimensions unit="cm">
+                                    <width>0,3-0,4</width>
+                                    <height>0,2-1,5</height>
+                                </dimensions>
                                  </handNote>
                         </handDesc>
                     </physDesc>
