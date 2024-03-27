@@ -159,7 +159,7 @@
         </xsl:choose>
       </p>
       
-      <p><b><i18n:text i18n:key="epidoc-xslt-inslib-repository">Current repository:</i18n:text>s </b>
+     <!--  <p><b><i18n:text i18n:key="epidoc-xslt-inslib-repository">Current repository:</i18n:text></b>
         <xsl:choose>
           <xsl:when test="//t:msIdentifier//t:repository//text()">
             <xsl:for-each select="//t:msIdentifier//t:repository">
@@ -199,7 +199,7 @@
           </xsl:when>
           <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-inslib-repository">Unknown</i18n:text></xsl:otherwise>
         </xsl:choose>
-      </p>
+      </p> -->
       
       <xsl:if test="//t:provenance[@type='observed' or @type='not-observed' or @type='transferred']//text()">
         <p><b><i18n:text i18n:key="epidoc-xslt-inslib-last-recorded-location">Last recorded location(s):</i18n:text> </b>
