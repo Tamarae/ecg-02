@@ -121,10 +121,10 @@
     <text>
         <body>
             <div type="bibliography">
-                
-                    <p><bibl n="1"><ptr target="bibliography.xml#b130"/>თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 120-121</citedRange></bibl></p>
-                    <p><bibl n="2"><ptr target="bibliography.xml#b80"/>თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში, <citedRange> 86-87</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 120-121</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b80"/> თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში, <citedRange> 86-87</citedRange></bibl></p>
+
             </div>
 
             <div type="edition" xml:lang="grc" xml:space="preserve">

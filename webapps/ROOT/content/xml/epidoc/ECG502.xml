@@ -99,13 +99,13 @@
     <text>
         <body>
            <div type="bibliography">
-               
-                <p><bibl n="1">თამაზ გოგოლაძე,თორის ხეობის ეპიგრაფიკული კორპუსი<ptr target="bibliography.xml#b234"/>,<citedRange>51-52 </citedRange>2019</bibl></p>
-                <p><bibl n="2">თამაზ გოგოლაძე,ირაკლი გელაშვილი,ნინო ხარშილაძე,ფოთოლეთის ეკლესიის ნაკაწრი წარწერები და მათი ისტორიულ-წყაროთმცოდნეობითი ანალიზი<ptr target="bibliography.xml#b130"/>,<citedRange>256 </citedRange>2016-2017</bibl></p>
-                <p><bibl n="3">თამაზ გოგოლაძე,ირაკლი გელაშვილი,ნინო ხარშილაძე,ფოთოლეთის ეკლესიის ნაკაწრი წარწერები და მათი ისტორიულ-წყაროთმცოდნეობითი ანალიზი<ptr target="bibliography.xml#b130"/>,<citedRange>140-142 </citedRange>2014</bibl></p>
-            
+
+                <p><bibl n="1"><ptr target="#b234"/> თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი,<citedRange>51-52 </citedRange>2019</bibl></p>
+                <p><bibl n="2"><ptr target="#b130"/> თამაზ გოგოლაძე, ირაკლი გელაშვილი, ნინო ხარშილაძე, ფოთოლეთის ეკლესიის ნაკაწრი წარწერები და მათი ისტორიულ-წყაროთმცოდნეობითი ანალიზი,<citedRange>256 </citedRange>2016-2017</bibl></p>
+
+
            </div>
-            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">     
+            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
                         <!--ქ. უფალო, შ(ეიწყალ)ე საწყალობელ{ი} სული შალვასი, ლოცვა ყავთ ღ(მრ)თისათუ(ი)ს ღ(მრ)თ(ი)სა მოყ{უ}არენო-->
                 <ab>
                     <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტე</ex></expan></w>

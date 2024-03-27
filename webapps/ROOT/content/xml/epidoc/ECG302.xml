@@ -24,17 +24,17 @@
                            სოხუმი
                         </collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">სამხედრო (?)</seg>
                             <seg xml:lang="en"/>
                         </summary>
-                    </msContents> 
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material></material>
                                    <objectType ref="hhttps://www.eagle-network.eu/voc/objtyp/lod/416">კედელი</objectType></support></supportDesc>
                                 <layoutDesc>
@@ -45,7 +45,7 @@
                                        </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
                                 <height unit="cm" precision="medium"></height>
@@ -59,24 +59,28 @@
                     <history>
                             <origin>
                                 <origPlace>სოხუმი</origPlace>
-                                <origDate notBefore-custom="0001" notAfter-custom="0200" precision="medium" 
+                                <origDate notBefore-custom="0001" notAfter-custom="0200" precision="medium"
                                     evidence="lettering" datingMethod="#julian">I-II AD</origDate>
                               </origin>
                             <provenance type="found" when="1896">
-                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/857107">სოხუმი</placeName> 
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/857107">სოხუმი</placeName>
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance> 
-                        
+                            </provenance>
+
                             <provenance type="observed">
                             <placeName type="modernSpot"></placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
     </teiHeader>
     <facsimile>
         <surface>
@@ -89,47 +93,47 @@
     <text>
         <body>
             <div type="bibliography">
-                
-                    <p><bibl n="1">დევიდ ბრაუნდი, საქართველო ანტიკურ ხანაში: კოლხეთისა და ამიერკავკასიის იბერიის ისტორია ძვ.წ. 550-ახ.წ. 562 წლები<ptr target="bibliography.xml#b68"/>, <citedRange> 279</citedRange></bibl></p>
-                    <p><bibl n="2">Gela Gamkrelidze, Archaeology Of the Roman Period Of Georgia, 2014 pp. 11</bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b68"/> დევიდ ბრაუნდი, საქართველო ანტიკურ ხანაში: კოლხეთისა და ამიერკავკასიის იბერიის ისტორია ძვ.წ. 550-ახ.წ. 562 წლები, <citedRange>279</citedRange></bibl></p>
+                    <p><bibl n="2">Gela Gamkrelidze, Archaeology Of the Roman Period Of Georgia, 2014 <citedRange>11</citedRange></bibl></p>
+
             </div>
-          
+
             <div type="edition" xml:lang="la" xml:space="preserve">
-                
+
                         <!-- LEG -->
-                     
-            
+
+
 
          <ab>
-                          <lb n="1"/>Hadr<supplied reason="lost">ian</supplied> <supplied reason="lost">castra in Sebastopoli curavit</supplied> per F<supplied reason="lost">lavius</supplied> 
+                          <lb n="1"/>Hadr<supplied reason="lost">ian</supplied> <supplied reason="lost">castra in Sebastopoli curavit</supplied> per F<supplied reason="lost">lavius</supplied>
              A<supplied reason="lost">rrian</supplied> leg<supplied reason="lost">atum</supplied>
-         </ab>    
-             
-         
+         </ab>
+
+
             </div>
-                
+
             <div type="translation" xml:lang="ka">
                 <p>ლეგიონი</p>
             </div>
-            
+
            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
               <head>კრიტიკული აპარატი</head>
               <p><app><lem></lem>
               <rdg></rdg>
               </app></p>
             </div>
-           
+
             <div type="commentary">
-                <p>სებასტოპოლისის არქეოლოგიურ კვლევას ხელს უშლის ის გარემოება, რომ თანამედროვე ქალაქი სოხუმი უშუალოდ მასზეა გაშენებული. გვიანრომაული ციხის სამხრეთი კედელი 
-                ზოგიერთ ადგილებში ექვსი ფუტის სიმაღლემდეც კარგად ჩანს და შავი ზღვის ტალღები უშუალოდ მის წინა მხარეს ეხეთქება. ახალმშენებლობის დროს გვიანრომაული 
-                ფორტიფიკაციის ქვემოთ ადრეული ფენები გამოჩნდა. ბოლოხანებში ფორტის ინტერიერში საფუძვლიანი გათხრები დაიწყო, მაგრამ ეს მრავალწლიან კვლევას მოითხოვს: ამ სამუშაოს 
-                შედეგად, შესაძლოა, დროთა განმავლობაში ახ.წ. I-II საუკუნეების ფენები გამოვლინდეს, მაგრამ გრუნტული წყლები აქაც კი ძალიან სერიოზულ პრობლემას წარმოადგენს. ფორტის 
-                შიდა ტერიტორიაზე თანამედროვე კონსტრუქციის აგებისას აღმოჩნდა ლათინურენივანი წარწერის ფრაგმენტი, რომელზედაც კვლავაც გაირჩევა რუბრიკაცია და რომელიც აშკარად 
-                მეორადად იყო გამოყენებული კედელში. წარწერა კერძო პირის ხელში იყო და მართალია, დოკუმენტურად დაფიქსირდა, მაგრამ დიდი ხნის დაკარგულია. წარწერა სამხედრო 
-                ხასიათისა ჩანს, რამდენადაც შეიცავდა ასოებს LEG, შესაძლოა, სამშენებლო წარწერასაც წარმოადგენდა, როგორც ხშირად ვარაუდობენ, მაგრამ ადვილი შესაძლებელია, რომ ეპიტაფიაც 
+                <p>სებასტოპოლისის არქეოლოგიურ კვლევას ხელს უშლის ის გარემოება, რომ თანამედროვე ქალაქი სოხუმი უშუალოდ მასზეა გაშენებული. გვიანრომაული ციხის სამხრეთი კედელი
+                ზოგიერთ ადგილებში ექვსი ფუტის სიმაღლემდეც კარგად ჩანს და შავი ზღვის ტალღები უშუალოდ მის წინა მხარეს ეხეთქება. ახალმშენებლობის დროს გვიანრომაული
+                ფორტიფიკაციის ქვემოთ ადრეული ფენები გამოჩნდა. ბოლოხანებში ფორტის ინტერიერში საფუძვლიანი გათხრები დაიწყო, მაგრამ ეს მრავალწლიან კვლევას მოითხოვს: ამ სამუშაოს
+                შედეგად, შესაძლოა, დროთა განმავლობაში ახ.წ. I-II საუკუნეების ფენები გამოვლინდეს, მაგრამ გრუნტული წყლები აქაც კი ძალიან სერიოზულ პრობლემას წარმოადგენს. ფორტის
+                შიდა ტერიტორიაზე თანამედროვე კონსტრუქციის აგებისას აღმოჩნდა ლათინურენივანი წარწერის ფრაგმენტი, რომელზედაც კვლავაც გაირჩევა რუბრიკაცია და რომელიც აშკარად
+                მეორადად იყო გამოყენებული კედელში. წარწერა კერძო პირის ხელში იყო და მართალია, დოკუმენტურად დაფიქსირდა, მაგრამ დიდი ხნის დაკარგულია. წარწერა სამხედრო
+                ხასიათისა ჩანს, რამდენადაც შეიცავდა ასოებს LEG, შესაძლოა, სამშენებლო წარწერასაც წარმოადგენდა, როგორც ხშირად ვარაუდობენ, მაგრამ ადვილი შესაძლებელია, რომ ეპიტაფიაც
                 ყოფილიყო. ამ წარწერას, ჩვეულებრივ ადრიანეს და თვით არიანეს სახელებით აღადგენენ, მაგრამ ორივე ამ სახელის რესტავრაცია საორჭოფოა.</p>
-                
+
             </div>
          </body>
     </text>

@@ -101,7 +101,7 @@
             
             <div type="bibliography">
                 
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>130</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>130</citedRange>, თბილისი, 2018</bibl></p>
             </div>
 
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">

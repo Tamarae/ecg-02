@@ -55,7 +55,7 @@
                                     </dimensions>
                                    </layout>
                             </layoutDesc>
-                        </objectDesc>  
+                        </objectDesc>
                         <handDesc>
                              <handNote script="asomtavruli" style="embossed">
                                  <seg xml:lang="ka"><rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
@@ -77,15 +77,15 @@
                                 <seg xml:lang="ka">ბოლნისის სიონი</seg>
                                 <seg xml:lang="en">Bolnisi Sioni</seg>
                             </placeName>
-                            <!-- 41.389081, 44.512551 --> 
+                            <!-- 41.389081, 44.512551 -->
                             <rs type="monuList"/>
                             <rs type="circumstances">
-                                <seg xml:lang="ka">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში, 
+                                <seg xml:lang="ka">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში,
                                 9 კმ. მანძილზე ქ. ბოლნისიდან სამხრეთით, 1 კმ. მანძილზე სოფ. ბოლნის-ხაჩინიდან.</seg>
                                 <seg xml:lang="en">Bolnisi Sioni Cathedral is located in Kvemo Kartli, 9 km away from city Bolnisi to the south, 1 km distance from the village Bonis-Khachini. </seg>
                             </rs>
                             <rs type="context"/>
-                        </provenance>            
+                        </provenance>
                         <provenance type="observed">
                             <placeName type="modernSpot">
                                 <seg xml:lang="ka">ბოლნისის სიონი</seg>
@@ -102,10 +102,10 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
-            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc> 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
-       
+
     <facsimile>
         <surface>
             <graphic url="ecg054.jpg">
@@ -114,61 +114,61 @@
             </graphic>
         </surface>
     </facsimile>
-    
+
     <text>
         <body>
              <div type="bibliography">
-                
-     <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები<ptr target="bibliography.xml#b101"/>, <citedRange> 69-70</citedRange></bibl></p>
-     <p><bibl n="2">კორნელი დანელია, ზურაბ სარჯველაძე, ქართული პალეოგრაფია<ptr target="bibliography.xml#b92"/>, <citedRange> 17-18</citedRange></bibl></p>  
-     <p><bibl n="3">M. Brosset, Explications<ptr target="bibliography.xml#b18"/>, <citedRange>421</citedRange></bibl></p>
-     <p><bibl n="4">M. Brosset, Explications<ptr target="bibliography.xml#b17"/>, <citedRange>107</citedRange></bibl></p>
-     <p><bibl n="5">აკაკი შანიძე, ნაშთები III პირის ობიექტური პრეფიქსის ხმარებისა ხმოვნების წინ ქართულ ზმნაში<ptr target="bibliography.xml#b60"/>, <citedRange> 279-280</citedRange></bibl></p>   
-     <p><bibl n="8">აკაკი შანიძე, ძველი ქართულის ქრესტომათია ლექსიკონითურთ<ptr target="bibliography.xml#b59"/>, <citedRange> 1</citedRange></bibl></p>
-     <p><bibl n="9">ლევან მუსხელიშვილი, ბოლნისი<ptr target="bibliography.xml#b93"/>, <citedRange> 329-331</citedRange></bibl></p>
-     <p><bibl n="10">Н. Г. Чубинашвили, Болнисский сион<ptr target="bibliography.xml#b45"/>, <citedRange>70-71</citedRange></bibl></p>
-     <p><bibl n="11">ქართული ენის ისტორიული ქრესტომათია<ptr target="bibliography.xml#b112"/></bibl></p> 
-     <p><bibl n="12">M. Tarchnišvili, Les récentes découverstes épigraphiques et litteraires en géorgien<ptr target="bibliography.xml#b24"/>, <citedRange>250</citedRange></bibl></p>
-     <p><bibl n="13">I. Molitor MIA CSCO<ptr target="bibliography.xml#b15"/></bibl></p>
-     <p><bibl n="14">აკაკი შანიძე, ქართული ენის სტრუქტურისა და ისტორიის საკითხები<ptr target="bibliography.xml#b61"/>, <citedRange> 280-281</citedRange></bibl></p>
-     <p><bibl n="15">ივანე ჯავახიშვილი, ქართული დამწერლობათმცოდნეობა ანუ პალეოგრაფია<ptr target="bibliography.xml#b86"/>, <citedRange> 185</citedRange></bibl></p>
-     <p><bibl n="25">აკაკი შანიძე, ბოლნისის წარწერები<ptr target="bibliography.xml#b57"/>, <citedRange> 31</citedRange></bibl></p>
-     <p><bibl n="26">რამაზ პატარიძე, ბოლნისის ტაძრის სამშენებლო წარწერები<ptr target="bibliography.xml#b137"/>, <citedRange> 140-159</citedRange></bibl></p>
-     <p><bibl n="27">ბ. მჭედლიშვილი, ბოლნისის სიონის დათარიღებისათვის<ptr target="bibliography.xml#b138"/>, <citedRange> 100-114</citedRange></bibl></p>
-     <p><bibl n="28">გურამ ყიფიანი, ბოლნისის სიონის უძველესი წარწერა<ptr target="bibliography.xml#b139"/>, <citedRange> 666-675</citedRange></bibl></p>                    
-     <p><bibl n="29">ე. მაჭავარიანი ბოლნისის სიონის საამშენებლო წარწერა<ptr target="bibliography.xml#b140"/></bibl></p>
-   
-            </div> 
-            
+
+     <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები, <citedRange> 69-70</citedRange></bibl></p>
+     <p><bibl n="2"><ptr target="#b92"/> კორნელი დანელია, ზურაბ სარჯველაძე, ქართული პალეოგრაფია, <citedRange> 17-18</citedRange></bibl></p>
+     <p><bibl n="3"><ptr target="#b18"/> M. Brosset, Explications, <citedRange>421</citedRange></bibl></p>
+     <p><bibl n="4"><ptr target="#b17"/> M. Brosset, Explications, <citedRange>107</citedRange></bibl></p>
+     <p><bibl n="5"><ptr target="#b60"/> აკაკი შანიძე, ნაშთები III პირის ობიექტური პრეფიქსის ხმარებისა ხმოვნების წინ ქართულ ზმნაში, <citedRange> 279-280</citedRange></bibl></p>
+     <p><bibl n="8"><ptr target="#b59"/> აკაკი შანიძე, ძველი ქართულის ქრესტომათია ლექსიკონითურთ, <citedRange> 1</citedRange></bibl></p>
+     <p><bibl n="9"><ptr target="#b93"/> ლევან მუსხელიშვილი, ბოლნისი, <citedRange> 329-331</citedRange></bibl></p>
+     <p><bibl n="10"><ptr target="#b45"/> Н. Г. Чубинашвили, Болнисский сион, <citedRange>70-71</citedRange></bibl></p>
+     <p><bibl n="11"><ptr target="#b112"/> ქართული ენის ისტორიული ქრესტომათია</bibl></p>
+     <p><bibl n="12"><ptr target="#b24"/> M. Tarchnišvili, Les récentes découverstes épigraphiques et litteraires en géorgien, <citedRange>250</citedRange></bibl></p>
+     <p><bibl n="13"><ptr target="#b15"/> I. Molitor MIA CSCO</bibl></p>
+     <p><bibl n="14"><ptr target="#b61"/> აკაკი შანიძე, ქართული ენის სტრუქტურისა და ისტორიის საკითხები, <citedRange> 280-281</citedRange></bibl></p>
+     <p><bibl n="15"><ptr target="#b86"/> ივანე ჯავახიშვილი, ქართული დამწერლობათმცოდნეობა ანუ პალეოგრაფია, <citedRange> 185</citedRange></bibl></p>
+     <p><bibl n="25"><ptr target="#b57"/> აკაკი შანიძე, ბოლნისის წარწერები, <citedRange> 31</citedRange></bibl></p>
+     <p><bibl n="26"><ptr target="#b137"/> რამაზ პატარიძე, ბოლნისის ტაძრის სამშენებლო წარწერები, <citedRange> 140-159</citedRange></bibl></p>
+     <p><bibl n="27"><ptr target="#b138"/> ბ. მჭედლიშვილი, ბოლნისის სიონის დათარიღებისათვის, <citedRange> 100-114</citedRange></bibl></p>
+     <p><bibl n="28"><ptr target="#b139"/> გურამ ყიფიანი, ბოლნისის სიონის უძველესი წარწერა, <citedRange> 666-675</citedRange></bibl></p>
+     <p><bibl n="29"><ptr target="#b140"/> ე. მაჭავარიანი ბოლნისის სიონის საამშენებლო წარწერა</bibl></p>
+
+            </div>
+
             <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                     <!-- „[შეწევ]ნითა ქ(რისტ)ჱსითა მ[ე] ფარნ[ავაზ] და აზარუხტ შეხუა[ბ]თ ესე კარი სალოცველად [ჩ(უე)ნ(და) დ]ა [შჳლთა ჩ(უე)ნთა]“  -->
-            
+
                  <ab>
-                    <lb n="1"/><w lemma="შეწევნა"><supplied reason="lost">შეწევ</supplied>ნითა</w> 
-                            <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ჱსით</abbr>ა</expan></w> 
-                            <w lemma="მე">მ<supplied reason="lost">ე</supplied></w> 
+                    <lb n="1"/><w lemma="შეწევნა"><supplied reason="lost">შეწევ</supplied>ნითა</w>
+                            <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ჱსით</abbr>ა</expan></w>
+                            <w lemma="მე">მ<supplied reason="lost">ე</supplied></w>
                                 <persName type="local" key="ფარნავაზ [ბოლნისის სიონის კარის ხელოსანი]"><name nymRef="ფარნავაზ">ფარნ<supplied reason="lost">ავაზ</supplied></name></persName>
                                     და
-                                <persName type="local" key="აზარუხტ [ბოლნისის სიონის კარის ხელოსანი]"><name nymRef="აზარუხტ">აზარუხტ</name></persName> 
+                                <persName type="local" key="აზარუხტ [ბოლნისის სიონის კარის ხელოსანი]"><name nymRef="აზარუხტ">აზარუხტ</name></persName>
                             <rs type="pn"><w lemma="შებმა">შეხუა<supplied reason="lost">ბ</supplied>თ</w> </rs>
                             <w lemma="ესე">ესე</w>
                             <w lemma="კარ">კარი </w>
-                             <w lemma="სალოცველ">სალოცველად</w> 
-                            <w lemma="ჩუენ"><supplied reason="lost"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნ</abbr><ex>და</ex></expan></supplied></w> 
+                             <w lemma="სალოცველ">სალოცველად</w>
+                            <w lemma="ჩუენ"><supplied reason="lost"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნ</abbr><ex>და</ex></expan></supplied></w>
                                     <supplied reason="lost">დ</supplied>ა
-                            <w lemma="შვილ"><supplied reason="lost">შჳლთა</supplied></w> 
-                            <w lemma="ჩუენი"><expan><supplied reason="lost"><abbr>ჩ</abbr><ex>უე</ex><abbr>ნთა</abbr></supplied></expan></w></ab>                                             
-                
+                            <w lemma="შვილ"><supplied reason="lost">შჳლთა</supplied></w>
+                            <w lemma="ჩუენი"><expan><supplied reason="lost"><abbr>ჩ</abbr><ex>უე</ex><abbr>ნთა</abbr></supplied></expan></w></ab>
+
                 </div>
-            
+
             <div type="translation">
                 <p xml:lang="ka">ქრისტეს შეწევნით მე, ფარნავაზმა, და აზარუხტმა შევაბით ეს კარი ჩვენი და ჩვენი შვილების სალოცველად. </p>
                 <p xml:lang="en">By the aid of Christ, I, Pharnavaz and Azarukht set this door for the prayers for our souls and our children.</p>
             </div>
-            
-            <div type="apparatus" xml:space="preserve"> 
-                <p><app loc="1"> <lem>ფარნავაზ</lem> 
+
+            <div type="apparatus" xml:space="preserve">
+                <p><app loc="1"> <lem>ფარნავაზ</lem>
                     <rdg resp="მარი ბროსე">ფარნეენ</rdg>
                     <rdg resp="აკაკი შანიძე, ივანე იმნაიშვილი">ფარნ(...)</rdg>
                  <rdg resp="ლევან მუსხელიშვილი">ფარნევაზ</rdg>
@@ -178,7 +178,7 @@
                     <rdg resp="ე. მაჭავარიანი">ფარნევან</rdg>
                  </app>
                 </p>
-              <p><app loc="1"> <lem>ჩუენ</lem> 
+              <p><app loc="1"> <lem>ჩუენ</lem>
                 <rdg resp="აკაკი შანიძე">სულთა</rdg>
                    </app>
               </p>
@@ -189,32 +189,32 @@
                     </p>
                   </div>
             <div type="commentary">
-                <p xml:lang="ka"> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #4. იგი პირველად გამოსცა მარი ბროსემ 1838 წელს. 
-                    წარწერას განკვეთილობის ნიშნები არ ახლავს. სიტყვები ერთმანეთისაგან არ არის დაცილებული. 
+                <p xml:lang="ka"> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #4. იგი პირველად გამოსცა მარი ბროსემ 1838 წელს.
+                    წარწერას განკვეთილობის ნიშნები არ ახლავს. სიტყვები ერთმანეთისაგან არ არის დაცილებული.
                     ქარაგმის ნიშნად ნახმარია პატარა, სწორი, განივი ხაზი (მისი ნაშთი ჩანს მეორე სიტყვაზე).
-                    წარწერა პალეოგრაფიული თვალსაზრისით ფრიად არქაულია: თავშეკრულია Ⴁ და Ⴣ გრაფემები. 
+                    წარწერა პალეოგრაფიული თვალსაზრისით ფრიად არქაულია: თავშეკრულია Ⴁ და Ⴣ გრაფემები.
                     ენობრივი თვალსაზრისით საინტერესოა ხანმეტი ზმნური ფორმა: შეხუაბთ (ხ - მესამე ირიბი ობიექტური პირის ნიშანი).
                     დათარიღების საკითხი: აკაკი შანიძის აზრით, წარწერა VI საუკუნის პირველი ნახევრისაა. ლევან მუსხელიშვილი ფიქრობს, რომ იგი ტაძრის აშენების თანადროულია.
-                    
-                    აზრთა სხვადასხვაობა არსებობს დაზიანებული საკუთარი სახელის ამოკითხვის თაობაზე. 
-                    გიორგი ჩუბინაშვილი ვარაუდობს, წარწერებში მოხსენიებული არიან ადგილობრივი ფეოდალური არისტოკრატიის ის წარმომადგენლები, 
-                    რომელთაც შემწეობა აღმოუჩინეს დავით ეპისკოპოსს ტაძრის მშენებლობაში: ფარნ[ევან] და აზარუხტ. 
-                    
+
+                    აზრთა სხვადასხვაობა არსებობს დაზიანებული საკუთარი სახელის ამოკითხვის თაობაზე.
+                    გიორგი ჩუბინაშვილი ვარაუდობს, წარწერებში მოხსენიებული არიან ადგილობრივი ფეოდალური არისტოკრატიის ის წარმომადგენლები,
+                    რომელთაც შემწეობა აღმოუჩინეს დავით ეპისკოპოსს ტაძრის მშენებლობაში: ფარნ[ევან] და აზარუხტ.
+
                     რამაზ პატარიძის აზრით, წარწერაში მოხსენიებული პირი ფარნავაზ არ უნდა იყოს. უფრო სავარაუდებელია ფარსმან ერისთავი.
-                     
-                    გურამ ყიფიანის მიხედვით, „დუხტ-“ ან „უხტ-“ საშუალი სპარსულით ასულს ნიშნავს და ამდენად აზარდუხტ - აზარუხტ აშა-ს (არტა) ქალიშვილია. 
-                    ფარნევანიც და აზარუხტიც არისტოკრატული სახელებია და მკვლევრის აზრით, ეს ორი პიროვნება არისტოკრატულ წყვილს წარმოადგენს.   
-                    
+
+                    გურამ ყიფიანის მიხედვით, „დუხტ-“ ან „უხტ-“ საშუალი სპარსულით ასულს ნიშნავს და ამდენად აზარდუხტ - აზარუხტ აშა-ს (არტა) ქალიშვილია.
+                    ფარნევანიც და აზარუხტიც არისტოკრატული სახელებია და მკვლევრის აზრით, ეს ორი პიროვნება არისტოკრატულ წყვილს წარმოადგენს.
+
                     ვალერი სილოგავა ფიქრობს, რომ „ფარნევანის“ „ფარნავაზად“ ამოკითხვა სინამდვილეს დაშორებულია, რადგანაც Ⴌ-ს მერე Ⴈ-ს ან Ⴄ-ს კონტური ჩანს.
-                    ნოდარ შოშიაშვილის მიერ გამოცემაში ხელოსნებად წარმოდგენილი „ფარნავაზ“ და „აზარუხტი“ ქტიტორები უნდა იყვნენ, 
+                    ნოდარ შოშიაშვილის მიერ გამოცემაში ხელოსნებად წარმოდგენილი „ფარნავაზ“ და „აზარუხტი“ ქტიტორები უნდა იყვნენ,
                     რადგან ფორმულით - „სალოცველად  ჩუენდა და შვილთა ჩუენთა“ - მთავრდება სწორედ ქტიტორული წარწერების ტექსტები.
-                    ვალერი სილოგავა ფიქრობს, რომ „აზარუხტ“ თუ „აზარ(დ)უხტ“, როგორც - უხტ/დუხტ მაწარმოებელ კომპონენტიანი სახელი, შეიძლება ქალის სახელად მივიჩნიოთ 
+                    ვალერი სილოგავა ფიქრობს, რომ „აზარუხტ“ თუ „აზარ(დ)უხტ“, როგორც - უხტ/დუხტ მაწარმოებელ კომპონენტიანი სახელი, შეიძლება ქალის სახელად მივიჩნიოთ
                     და ფარნევან და აზარუხტ ცოლ-ქმრად ჩავთვალოთ.
                 </p>
                 <p xml:lang="en">
                     According to the Corpus of Georgian inscriptions by Nodar Shoshiashvili, the inscription N 4 was first published by Mari Brose in 1838. The Inscription does not have spaces. No spaces between the words. and the symbol of abbreviation is a small, straight horizontal line (its remains are only visible on the second word in the text). The paleographic data proves the early origins of the inscription. The graphemes: ბ, ჳ have their heads engaged. In linguistic terms a special interest attracts to the Khanmeti type verbal form: შეხუაბთ (ხ - - is the indirect object pronoun of the third person. The question of date: According to Akaki Shanidze, the inscription must belong to the first part of the 6th century. Levan Muskhelishvili believes that it must be contemporary to the building of the church.
                 </p>
-             </div>   
+             </div>
         </body>
     </text>
 </TEI>

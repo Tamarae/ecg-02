@@ -100,7 +100,7 @@
         <body>           
              <div type="bibliography">
                
-          <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
+          <p><bibl n="1"><ptr target="#b149"/> ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა, <citedRange> 118-169</citedRange></bibl></p>
               
             </div>
     

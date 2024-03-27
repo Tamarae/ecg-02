@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
@@ -32,63 +32,63 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/100">სვეტი</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">შავი ქვა</material>                                   
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">შავი ქვა</material>
                                     <dimensions unit="cm">
                                         <width>63</width>
                                         <height>31</height>
                                         <depth>31</depth>
-                                    </dimensions>   
+                                    </dimensions>
                                 </support>
                             </supportDesc>
                                 <layoutDesc>
-                                    <layout writtenLines="10">წარწერა ათსტრიქონიანია. იგი შესრულებულია პრიზმული ფორმის ოთხკუთხა სვეტზე, რომლის კვეთის კუთხეებში ლილვია ამოყვანილი. 
-                                წინა სიბრტყეზე რელიეფურად გამოქანდაკებულია ხელაპყრობილი ფიგურა, მდგარი სწორკუთხოვან კვარცხლბეკზე, ხოლო მის წინ - მუხლმოდრეკილი ბავშვი. 
-                                ამის პარალელურ წახნაგზე რელიეფურად ამოკვეთილია გაბრიელ მთავარანგელოზი, ხოლო მეორე წყვილ კვარცხლბეკზე - სერაფიმები, ასევე კვარცხლბეკზე შემდგარი. 
+                                    <layout writtenLines="10">წარწერა ათსტრიქონიანია. იგი შესრულებულია პრიზმული ფორმის ოთხკუთხა სვეტზე, რომლის კვეთის კუთხეებში ლილვია ამოყვანილი.
+                                წინა სიბრტყეზე რელიეფურად გამოქანდაკებულია ხელაპყრობილი ფიგურა, მდგარი სწორკუთხოვან კვარცხლბეკზე, ხოლო მის წინ - მუხლმოდრეკილი ბავშვი.
+                                ამის პარალელურ წახნაგზე რელიეფურად ამოკვეთილია გაბრიელ მთავარანგელოზი, ხოლო მეორე წყვილ კვარცხლბეკზე - სერაფიმები, ასევე კვარცხლბეკზე შემდგარი.
                                 თითოეულ წახნაგზე ამოღარულია ასომთავრული წარწერები: I წახნაგზე - 5 სტრიქონი, II წახნაგზე - 3 სტრიქონი, III-ზე - 1 სტიქონი, IV წახნაგზეც - 1 სტრიქონი.
-                                    <p>I და III წახნაგი</p>                                                                     
+                                    <p>I და III წახნაგი</p>
                                     <dimensions unit="cm">
                                         <width>14</width>
                                         <height>8</height>
                                         <depth></depth>
                                     </dimensions>
-                                        <p>II და IV წახნაგი</p>                                                                     
+                                        <p>II და IV წახნაგი</p>
                                     <dimensions unit="cm">
                                         <width>23</width>
                                         <height>7</height>
                                         <depth></depth>
                                     </dimensions>
-                                 </layout>                                  
+                                 </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="embossed">
                                 <rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა
-                                <height unit="cm">3</height> 
+                                <height unit="cm">3</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                             <origin>
                                 <origPlace>უდე, ადიგენის მუნიციპალიტეტი</origPlace>
-                                 <origDate notBefore-custom="900" notAfter-custom="1100" 
+                                 <origDate notBefore-custom="900" notAfter-custom="1100"
                                     evidence="context" datingMethod="#julian">X-XI AD</origDate>
                             </origin>
                             <provenance type="found">
                                 <placeName type ="ancientFindspot" when="1886">უდე, ადიგენის მუნიციპალიტეტი</placeName>
-                                <!-- "41.643968, 42.792006"--> 
-                                <rs type="circumstances">ძეგლი სოფ. უდეში (ადიგენის მუნიციპალიტეტში) 1886 წელს მოსკოვის არქეოლოგიურმა ექსპედიციამ აღმოაჩინა პ. უვაროვას 
-                                ხელმძღვანელობით. ქვასვეტი დადგმული იყო უდეს ღვთისმშობლის ეკლესიის დასავლეთ კართან. პ. უვაროვას ცნობით, ის ჩამოუტანია ფოცხოვის უბნის სოფელ ფეტობანიდან 
-                                ერთ თურქს. საქართველოს ეროვნული მუზეუმის საინვენტარო დავთარში კი აღნიშნულია, რომ სტელა ფეტობანიდან უდეში გადმოუტანია 1880 წელს კ. მერაბიშვილს. 
+                                <!-- "41.643968, 42.792006"-->
+                                <rs type="circumstances">ძეგლი სოფ. უდეში (ადიგენის მუნიციპალიტეტში) 1886 წელს მოსკოვის არქეოლოგიურმა ექსპედიციამ აღმოაჩინა პ. უვაროვას
+                                ხელმძღვანელობით. ქვასვეტი დადგმული იყო უდეს ღვთისმშობლის ეკლესიის დასავლეთ კართან. პ. უვაროვას ცნობით, ის ჩამოუტანია ფოცხოვის უბნის სოფელ ფეტობანიდან
+                                ერთ თურქს. საქართველოს ეროვნული მუზეუმის საინვენტარო დავთარში კი აღნიშნულია, რომ სტელა ფეტობანიდან უდეში გადმოუტანია 1880 წელს კ. მერაბიშვილს.
                                 1930-იან წლებში მის შესახებ გიორგი ჩუბინაშვილისათვის ცნობა ბარკალაიშვილს მიუწოდებია (გიორგი ჩუბინაშვილი, ქართული ხელოვნების ისტორია, ტ. I, 1936,  212).</rs>
                                 <rs type="context"></rs>
                                 <rs type="monuList"/>
-                            </provenance>                                
+                            </provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot" ref="http://museum.ge/">საქართველოს ეროვნული მუზეუმი</placeName>
-                                <idno type="invNo"/>130</provenance> 
-                    </history>          
+                                <idno type="invNo"/>130</provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -96,7 +96,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
   <facsimile>
@@ -108,117 +108,117 @@
         </surface>
     </facsimile>
     <text>
-        <body>  
+        <body>
              <div type="bibliography">
-                 
-          <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი<ptr target="bibliography.xml#b101"/>, <citedRange> 138-139</citedRange></bibl></p>
-          <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
-              
+
+          <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, <citedRange> 138-139</citedRange></bibl></p>
+          <p><bibl n="1"><ptr target="#b149"/> ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა, <citedRange> 118-169</citedRange></bibl></p>
+
             </div>
-             
-            
+
+
           <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!--  "[წო ღთ]სმშბ[ლო]
                                 მმ
                                 დდოღთს
                                 ომხყავს
-                                ლსა 
+                                ლსა
                                 ფრსმნის
                                 და სლსა
                                 მანანისა
                                 ესე ა გბრლან
-                                გლი [რი] ეტყს  გხნ მმდ"--> 
-                                                            
-            
+                                გლი [რი] ეტყს  გხნ მმდ"-->
+
+
              <div type="textpart" subtype="section" n="1">
                     <ab>
-                           <lb n="1"/><w lemma="წმიდა"><supplied reason="lost"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></supplied></w> 
+                           <lb n="1"/><w lemma="წმიდა"><supplied reason="lost"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></supplied></w>
                                         <w lemma="ღმრთისმშობელ"><expan><supplied reason="lost"><abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr></supplied><ex>ი</ex><abbr>სმშ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ე</ex><supplied reason="lost">ლო</supplied></expan></w>
                            <lb n="2"/><name nymRef="მარიამ"><expan><abbr>მ</abbr><ex>არია</ex><abbr>მ</abbr></expan></name>
-                           <lb n="3"/><w lemma="დედაო"><expan><abbr>დ</abbr><ex>ე</ex><abbr>დ</abbr><ex>ა</ex><abbr>ო</abbr></expan></w> 
+                           <lb n="3"/><w lemma="დედაო"><expan><abbr>დ</abbr><ex>ე</ex><abbr>დ</abbr><ex>ა</ex><abbr>ო</abbr></expan></w>
                                     <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr><ex>ი</ex><abbr>ს</abbr><ex>ა</ex>
-                           <lb n="4" break="no"/><abbr>ო</abbr></expan></w> 
-                                    <w lemma="მეოხ-ყოფა"><expan><abbr>მ</abbr><ex>ეო</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ყავ</abbr></expan></w> 
+                           <lb n="4" break="no"/><abbr>ო</abbr></expan></w>
+                                    <w lemma="მეოხ-ყოფა"><expan><abbr>მ</abbr><ex>ეო</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ყავ</abbr></expan></w>
                                       <w lemma="სულ"><expan><abbr>ს</abbr>
                            <lb n="5" break="no"/><ex>უ</ex><abbr>ლსა</abbr></expan></w>
                         </ab>
              </div>
-                    
+
              <div type="textpart" subtype="section" n="2">
-                 <ab>  
+                 <ab>
                      <lb n="6"/><name nymRef="ფარსმან"><expan><abbr>ფ</abbr><ex>ა</ex><abbr>რსმ</abbr><ex>ა</ex><abbr>ნის</abbr><ex>ა</ex></expan></name>
-                     <lb n="7"/>და 
+                     <lb n="7"/>და
                                <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლსა</abbr></expan></w>
-                     <lb n="8"/><name nymRef="მანანი">მანანისა</name>          
+                     <lb n="8"/><name nymRef="მანანი">მანანისა</name>
                 </ab>
              </div>
-                
+
                <div type="textpart" subtype="section" n="3">
                    <ab>
                        <lb n="9"/><w lemma="ესე">ესე</w>
-                                    <w lemma="ყოფა"><expan><abbr>ა</abbr><ex>რს</ex></expan></w> 
+                                    <w lemma="ყოფა"><expan><abbr>ა</abbr><ex>რს</ex></expan></w>
                            <name nymRef="გაბრიელ"><expan><abbr>გ</abbr><ex>ა</ex><abbr>ბრ</abbr><ex>იე</ex><abbr>ლან</abbr></expan></name>
                    </ab>
                </div>
-                
+
                <div type="textpart" subtype="section" n="4">
                    <ab>
-                       <lb n="10" break="no"/><expan><abbr>გ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ოზ</ex><abbr>ი</abbr></expan> 
-                            <w lemma="რომელ"><supplied reason="lost"><expan><abbr>რ</abbr><ex>ომელ</ex><abbr>ი</abbr></expan></supplied></w> 
+                       <lb n="10" break="no"/><expan><abbr>გ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ოზ</ex><abbr>ი</abbr></expan>
+                            <w lemma="რომელ"><supplied reason="lost"><expan><abbr>რ</abbr><ex>ომელ</ex><abbr>ი</abbr></expan></supplied></w>
                           <w lemma="თქუმა"><expan><abbr>ეტყ</abbr><ex>ჳ</ex>ს</expan></w>
-                       <w lemma="გახარება"><expan><abbr>გ</abbr><ex>ი</ex><abbr>ხ</abbr><ex>აროდე</ex><abbr>ნ</abbr></expan></w> 
+                       <w lemma="გახარება"><expan><abbr>გ</abbr><ex>ი</ex><abbr>ხ</abbr><ex>აროდე</ex><abbr>ნ</abbr></expan></w>
                        <w lemma="მიმადლებულ"><expan><abbr>მ</abbr><ex>ი</ex><abbr>მ</abbr><ex>ა</ex><abbr>დ</abbr><ex>ლებულო</ex></expan></w>
                    </ab>
                </div>
 </div>
-                
+
         <div type="apparatus" xml:space="preserve">
-                                
+
              <listApp>
-                 <app loc="6"> 
+                 <app loc="6">
                     <lem resp="ვალერი სილოგავა"><expan>ფ<ex>ა</ex>რსმ<ex>ა</ex>ნის<ex>ა</ex></expan></lem>
                     <rdg resp="ნოდარ შოშიაშვილი">ფარსმანის</rdg>
-                 </app>   
-        
-                 <app loc="9"> 
+                 </app>
+
+                 <app loc="9">
                     <lem resp="ვალერი სილოგავა">ესე <expan>ა<ex>რს</ex></expan></lem>
                     <rdg resp="ნოდარ შოშიაშვილი">ესეა</rdg>
-                 </app>   
-                   
-                 <app loc="9-10"> 
+                 </app>
+
+                 <app loc="9-10">
                     <lem resp="ვალერი სილოგავა"><expan>ანგ<ex>ე</ex>ლ<ex>ოზ</ex>ი</expan></lem>
                     <rdg resp="ნოდარ შოშიაშვილი">ანგელოზისაგან</rdg>
-                 </app>   
-                 
-                 <app loc="10"> 
+                 </app>
+
+                 <app loc="10">
                     <lem resp="ვალერი სილოგავა"><expan><supplied reason="lost">რ<ex>ომელ</ex>ი</supplied></expan>
                     <expan>ეტყ<ex>ჳ</ex>ს</expan> <expan>გ<ex>ი</ex>ხ<ex>აროდე</ex>ნ</expan></lem>
                     <rdg resp="ნოდარ შოშიაშვილი">></rdg>
-                 </app> 
-                 
-                 <app loc="9-10"> 
+                 </app>
+
+                 <app loc="9-10">
                     <lem resp="ვალერი სილოგავა"><expan>მ<ex>ი</ex>მ<ex>ა</ex>დ<ex>ლებულო</ex></expan></lem>
                     <rdg resp="ნოდარ შოშიაშვილი">მამაჲ</rdg>
-                 </app>                
+                 </app>
                 </listApp>
             </div>
 
-            
-            
+
+
             <div type="translation" xml:lang="ka">
                 <p>წმიდაო ღვთისმშობელო მარიამ, დედაო ღმრთისაო, შეეწიე ფარსმანისა და მანანის სულებს. ეს არის გაბრიელ ანგელოზი, რომელიც ეტყვის: „გიხაროდენ, მიმადლებულო“.</p>
-            </div>    
-                      
-                      
-                      
+            </div>
+
+
+
             <div type="commentary">
-                <p>წარწერას განკვეთილობის ნიშნები არ ახლავს, სიტყვები ერთმანეთისაგან არ არის დაცილებული. ქარაგმის ნიშნად გამოყენებულია საშუალო ზომის სწორი განივი ხაზი. 
+                <p>წარწერას განკვეთილობის ნიშნები არ ახლავს, სიტყვები ერთმანეთისაგან არ არის დაცილებული. ქარაგმის ნიშნად გამოყენებულია საშუალო ზომის სწორი განივი ხაზი.
                 გურამ აბრამიშვილი წარწერას IX საუკუნით ათარიღებს. ნოდარ შოშიაშვილი X საუკუნის ძეგლად მიიჩნევს შემდეგი პალეოგრაფიული ნიშნების საფუძველზე:
                 Ⴂ, Ⴄ, Ⴊ გრაფემებს მარცხნივ გაზიდული დამატებითი განივი ხაზი აქვთ, ზოგჯერ გრაფემებსა და ქარაგმის ნიშნებს ახასიათებს ოდნავ შესამჩნევი კიდურწაისრულობა, გრაფემების
-                მიდრეკილება ოთხხაზოვნებისაკენ, Ⴔ-ს წრეს ბუნი არ კვეთს. 
+                მიდრეკილება ოთხხაზოვნებისაკენ, Ⴔ-ს წრეს ბუნი არ კვეთს.
                 ვალერი სილოგავას აზრით, წარწერის ტექსტი მეტად ორიგინალურია. იგი მთავრდება გაბრიელ მთავარანგელოზის მიმართვის სიტყვებით ღვთისმშობლის
-                ხარების სახარებისეული სცენიდან (ლ.1.28). მკვლევარს მიაჩნია, რომ წარწერაში მოხსენიებული ქტიტორები - ფარსმანი და მანანი - ცოლ-ქმარი უნდა იყვნენ. 
+                ხარების სახარებისეული სცენიდან (ლ.1.28). მკვლევარს მიაჩნია, რომ წარწერაში მოხსენიებული ქტიტორები - ფარსმანი და მანანი - ცოლ-ქმარი უნდა იყვნენ.
                 ვინაიდან ის ადგილი, სადაც ეს ქვა ჯვარი იპოვეს, ჩორჩანელთა ფეოდალური სახლის ძველი სამფლობელოა, ვალერი სილოგავას აზრით, ქტიტორი ფარსმან ჩორჩანელია. ფარსმანი
                 ძველ ჩორჩანელთა ერთ-ერთი საგვარეულო სახელია, რომელიც შემდეგში ამ გვარის მემკვიდრე ბაჰლაუნთა სახლშიც გადავიდა. მისი აზრით, ქვაჯვრის წარწერის ფარსმანი X საუკუნის
                 მიწურულის მოღვაწე ფარსმან ერისთავი უნდა იყოს და ამიტომ წარწერას და ქვაჯვარს X-XI სს. მიჯნით ათარიღებს.</p>

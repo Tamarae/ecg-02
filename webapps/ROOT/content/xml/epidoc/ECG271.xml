@@ -33,7 +33,7 @@
                 <physDesc>
                     <objectDesc>
                         <supportDesc>
-                            <support>                             
+                            <support>
                                 <material ref="https://www.eagle-network.eu/voc/material/lod/90">ჰემატიტი</material>
                                 <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/174">მძივი</objectType>
                             </support>
@@ -47,7 +47,7 @@
                                     <depth></depth></dimensions>
                             </layout>
                         </layoutDesc>
-                    </objectDesc>                        
+                    </objectDesc>
                     <handDesc>
                         <handNote>
                             <height/>
@@ -60,24 +60,24 @@
                 <history>
                     <origin>
                         <origPlace>მცხეთა</origPlace>
-                        <origDate notBefore-custom="0001" notAfter-custom="0300" precision="medium" 
+                        <origDate notBefore-custom="0001" notAfter-custom="0300" precision="medium"
                             evidence="lettering" datingMethod="#julian">I-III AD</origDate>
                     </origin>
                     <provenance type="found">
-                        <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863840">მცხეთა</placeName> 
+                        <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863840">მცხეთა</placeName>
                         <rs type="circumstances">ნივთი აღმოჩენილია მცხეთაში, ბაითხევის გვიანანტიკური ხანის ორმო სამარხში.</rs>
                         <rs type="context"/>
                         <rs type="monuList"/>
-                    </provenance>                     
+                    </provenance>
                     <provenance type="observed">
                         <placeName type="modernSpot"></placeName>
                         <idno></idno>
                     </provenance>
-                </history>                   
+                </history>
             </msDesc>
         </sourceDesc>
     </fileDesc>
-</teiHeader>    
+</teiHeader>
     <facsimile>
         <surface>
             <graphic url="ecg271.jpg">
@@ -85,37 +85,37 @@
                 <desc xml:lang="en">Bead from Baitkhevi</desc>
             </graphic>
         </surface>
-    </facsimile>    
+    </facsimile>
 <text>
     <body>
          <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 262</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 262</citedRange></bibl></p>
+
             </div>
-        
+
         <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!--  φυλαξε -->
-                               
+
          <ab>
              <w lemma="φίλαττω">φύλαξ<supplied reason="omitted">αι</supplied></w>
-         </ab>    
-             
-         
+         </ab>
+
+
             </div>
-        
+
         <div type="translation" xml:lang="ka">
             <p>დაცვა (/დაფარვა)</p>
         </div>
-        
+
         <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
               <head>კრიტიკული აპარატი</head>
               <p><app><lem></lem>
               <rdg></rdg>
               </app></p>
             </div>
-        
+
         <div type="commentary">
             <p>როგორც ჩანს, ამ მძივს ამულეტის დანიშნულება ჰქონდა, მისი პატრონი უნდა დაეცვა, დაეფარა ბოროტისაგან.</p>
             <p>ასოთა მოხაზულობის მიხედვით (განსაკ. დამახასიათებელია ასო ξ) და ენობრივი მონაცემით (αι- დიფთონგი უკვე გამონოფთონგებულია) წარწერა I საუკუნეებით უნდა დათარიღდეს.</p>
@@ -123,6 +123,3 @@
     </body>
 </text>
 </TEI>
-
-
-

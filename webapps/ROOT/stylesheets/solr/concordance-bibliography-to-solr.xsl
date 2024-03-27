@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="2.0"
-                xmlns:tei="http://www.tei-c.org/ns/1.0"
-                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
+  xmlns:tei="http://www.tei-c.org/ns/1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  
   <!-- Index references to bibliographic items. -->
-
+  
   <xsl:param name="file-path" />
-
+  
   <xsl:template match="/">
     <add>
       <xsl:for-each-group select="//tei:body/tei:div[@type='bibliography']//tei:bibl/tei:ptr" group-by="@target">
@@ -34,11 +34,11 @@
       </xsl:for-each-group>
     </add>
   </xsl:template>
-
+  
   <xsl:template match="tei:citedRange">
     <field name="concordance_bibliography_item">
       <xsl:value-of select="ancestor::tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='filename']" />
     </field>
   </xsl:template>
-
+  
 </xsl:stylesheet>

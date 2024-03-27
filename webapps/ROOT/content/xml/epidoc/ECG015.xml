@@ -21,7 +21,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <collection>არმაზისხევი</collection>                
+                        <collection>არმაზისხევი</collection>
                     </msIdentifier>
                     <msContents>
                         <summary>
@@ -32,12 +32,12 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/115">ვერცხლი</material>
                                     <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/115">Silver</material>
                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1780">ლანგარი</objectType>
-                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1780">>Platter</objectType>
-                                    
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1780">Platter</objectType>
+
                                 </support>
                             </supportDesc>
                                 <layoutDesc>
@@ -51,7 +51,7 @@
                                         </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
                                 <p xml:lang="ka">წარწერა მომრგვალებული ასოებით, ლამაზი ხელით არის გამოყვანილი.</p>
@@ -78,12 +78,12 @@
                             <provenance type="found" when="1940">
                                 <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863746">
                                     არმაზისხევი
-                                </placeName> 
+                                </placeName>
                                 <rs type="circumstances" xml:lang="ka">ლანგარი მოპოვებულია არმაზისხევთან, ე.წ. ბერსუმას სამარხში.</rs>
                                 <rs type="circumstances" xml:lang="en">The dish was found in Armaziskhevi, in a so-called Bersuma graveyard.</rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                         
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot" ref="http://museum.ge/">
                                 <seg xml:lang="ka">სახელმწიფო მუზეუმი</seg>
@@ -91,7 +91,7 @@
                             </placeName>
                             <idno>ა40/III1</idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -100,7 +100,7 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    
+
     <facsimile>
         <surface>
             <graphic url="ecg015.jpg">
@@ -109,85 +109,85 @@
             </graphic>
         </surface>
     </facsimile>
-    
+
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 267–268</citedRange></bibl></p>
-                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 264–266</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 267–268</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b80"/> თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში, <citedRange> 264–266</citedRange></bibl></p>
+
             </div>
-            
+
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!-- ἐγὼ βασιλεὺς Φλ[αύιος] Δάδης ἐχαρισάμην Βερσουμᾷ πιτιάξῃ
                                     Μακεδόνι
 
                                                                          -->
-                     
-            
+
+
          <div type="textpart" subtype="section" n="1">
          <ab>
-             <w lemma="ἐγώ">ἐγὼ</w> <persName type="local" key="მეფე ფლავიოს დადესი (βασιλεὺς Φλαύιος Δάδης)"><roleName type="nobility" nymRef="βασιλεύς"><w lemma="βασιλεύς">βασιλεὺς</w></roleName> <name nymRef="Φλαύιος"><expan><abbr>Φλ</abbr><ex>αύιος</ex></expan></name> 
-             <name nymRef="Δάδης">Δάδης</name></persName> <w lemma="χαρίζομαι">ἐχαρισάμην</w> <persName type="local" key="ბერსუმა პიტიახში (Βερσουμα πιτιάζης)"><name nymRef="Βερσουμα">Βερσουμᾷ</name> 
-             <roleName type="nobility" nymRef="πιτιάζης"><w lemma="πιτιάζης">πιτιάξῃ</w></roleName></persName> 
-         </ab>    
-             
+             <w lemma="ἐγώ">ἐγὼ</w> <persName type="local" key="მეფე ფლავიოს დადესი (βασιλεὺς Φλαύιος Δάδης)"><roleName type="nobility" nymRef="βασιλεύς"><w lemma="βασιλεύς">βασιλεὺς</w></roleName> <name nymRef="Φλαύιος"><expan><abbr>Φλ</abbr><ex>αύιος</ex></expan></name>
+             <name nymRef="Δάδης">Δάδης</name></persName> <w lemma="χαρίζομαι">ἐχαρισάμην</w> <persName type="local" key="ბერსუმა პიტიახში (Βερσουμα πιτιάζης)"><name nymRef="Βερσουμα">Βερσουμᾷ</name>
+             <roleName type="nobility" nymRef="πιτιάζης"><w lemma="πιτιάζης">πιτιάξῃ</w></roleName></persName>
+         </ab>
+
          </div>
-         <div type="textpart" subtype="section" n="2"> 
+         <div type="textpart" subtype="section" n="2">
            <ab>
                <persName type="local" key="მაკედონი (Μακεδών)"><name nymRef="Μακεδών">Μακεδόνι</name></persName>
-           </ab>  
+           </ab>
          </div>
             </div>
-                
+
             <div type="translation" xml:lang="ka">
-               
+
                 <p>მე, მეფე ფლავიოს დადესმა მივუძღვენ ბერსუმა პიტიახშს (ეს ლანგარი).
                 მაკედონს
                 </p>
-            
+
             </div>
-            
+
             <div type="translation" xml:lang="en">
                 <p>I, King Flavios Dades, gave this to Bersuma Bidaxsh.</p>
             </div>
-            
-            
-            
-            
+
+
+
+
            <div type="commentary" xml:lang="ka">
-               <p>ასოთა მოხაზულობით (α ჩატეხილი შუა ხაზით, მრგვალი ε, σ, ω, μ, β, დამახასიათებელი ξ), 
-                                    შემოკლების ნიშნით (Φ˘Λ), რომაული ხანისათვის დამახასიათებელი – ιος სახელების – ις დაბოლოებით წარმოდგენით (Μακεδόνι) წარწერები I საუკუნეებით 
+               <p>ასოთა მოხაზულობით (α ჩატეხილი შუა ხაზით, მრგვალი ε, σ, ω, μ, β, დამახასიათებელი ξ),
+                                    შემოკლების ნიშნით (Φ˘Λ), რომაული ხანისათვის დამახასიათებელი – ιος სახელების – ις დაბოლოებით წარმოდგენით (Μακεδόνι) წარწერები I საუკუნეებით
                                     უნდა დათარიღდეს. სამარხში აღმოჩენილი თანმხლები ინვენტარისა და მონეტების მიხედვით ნივთი (და მასზე გამოყვანილი წარწერა) II-III AD სს–ით თარიღდება.</p>
-                                    <p>სიტყვა Μακεδόνι უნდა იყოს სახელი Μακεδών ან Μακεδόνις მიცემით ბრუნვაში, ე.ი. როგორც მიეძღვნა ნივთი ბერსუმას, ასევე მიეძღვნა, თუ ეკუთვნოდა ის 
-                                    მაკედონიოსს. Μακεδόνι, როგორც დავინახეთ, ნაწერია სრულიად სხვა ხელით, მაგრამ ეს არ ნიშნავს იმას, რომ აუცილებელია ამ ორი წარწერის სხვადასხვა დროით 
-                                    დათარიღება. შესაძლებელია ერთ დროს შესრულდა ეს წარწერები, მაგრამ სხვადასხვა სტილით. არამცთუ წარწერებში, ხელნაწერებშიც Α – ასეთი სახით ჩნდება 
+                                    <p>სიტყვა Μακεδόνι უნდა იყოს სახელი Μακεδών ან Μακεδόνις მიცემით ბრუნვაში, ე.ი. როგორც მიეძღვნა ნივთი ბერსუმას, ასევე მიეძღვნა, თუ ეკუთვნოდა ის
+                                    მაკედონიოსს. Μακεδόνι, როგორც დავინახეთ, ნაწერია სრულიად სხვა ხელით, მაგრამ ეს არ ნიშნავს იმას, რომ აუცილებელია ამ ორი წარწერის სხვადასხვა დროით
+                                    დათარიღება. შესაძლებელია ერთ დროს შესრულდა ეს წარწერები, მაგრამ სხვადასხვა სტილით. არამცთუ წარწერებში, ხელნაწერებშიც Α – ასეთი სახით ჩნდება
                                     ჩვენი წელთაღრიცხვის მიჯნაზე და ვრცელდება I-II სს–ში.</p>
                                     <p>ძირითადი, საგულდაგულოდ შესრულებული ბერძნული წარწერის მიმართ აღსანიშნავია: შემოკლება ΦΛ და მიცემით ბრუნვაში გამოტოვება ι subscriptum–ისა.
-                                    ასოთა მოხაზულობიდან ყურადღებას იქცევს მიდრეკილება სიმრგვალისაკენ. შემოკლების შტრიხი ˘ სახით. ξ–ს ვხვდებით ამ მოხაზულობისას I ს–ში, ასევე 
-                                    უნდა ითქვას სხვა ასოების მიმართაც. ამ ნიშნების მიხედვით, წარწერა ჩვენი წელთაღრიცხვის I საუკუნეებით უნდა დათარიღდეს. თვით სამარხი 251 წელზე 
-                                    ადრინდელი არ არის, მასში აღმოჩენილი მონეტების მიხედვით. თვით ბერძნული წარწერებიც დაახლოებით ამ დროისა (III ს–ის დასაწყისისა, ან II ს–ის 
+                                    ასოთა მოხაზულობიდან ყურადღებას იქცევს მიდრეკილება სიმრგვალისაკენ. შემოკლების შტრიხი ˘ სახით. ξ–ს ვხვდებით ამ მოხაზულობისას I ს–ში, ასევე
+                                    უნდა ითქვას სხვა ასოების მიმართაც. ამ ნიშნების მიხედვით, წარწერა ჩვენი წელთაღრიცხვის I საუკუნეებით უნდა დათარიღდეს. თვით სამარხი 251 წელზე
+                                    ადრინდელი არ არის, მასში აღმოჩენილი მონეტების მიხედვით. თვით ბერძნული წარწერებიც დაახლოებით ამ დროისა (III ს–ის დასაწყისისა, ან II ს–ის
                                     მიწურულისა) უნდა იყოს.</p>
-                <p>ნივთის მბოძებელი არის მეფე ფლავიოს დადესი, მფლობელი – ბერსუმა პიტიახში. მაკედონი ან ბერსუმას მეორე სახელია, ან ბერსუმას შემდგომი პატრონია ამ ნივთისა. 
+                <p>ნივთის მბოძებელი არის მეფე ფლავიოს დადესი, მფლობელი – ბერსუმა პიტიახში. მაკედონი ან ბერსუმას მეორე სახელია, ან ბერსუმას შემდგომი პატრონია ამ ნივთისა.
                 წარწერაში ყურადღებას იპყრობს იბერიის ისტორიულ პირთა მოხსენიება: მეფეს, დადესს, დამატებით აქვს ფლავიუსების დინასტიის სახელი, რაც ენიჭებოდათ ამ გვარის
                 მიერ დაფასებულ პირებს. ფლავიუსი და მაკედონი – ბერძნულ–რომაული სახელებია. ბერსუმა – სირიული (=ძე მმარხველისა), დადეს – ძირის სახელები გავრცელებულია მთელ ხმელთაშუაზღვის
                 აუზის ქვეყნებში, მისი ეტიმოლოგიის შესახებ სხვადასხვა აზრი არსებობს (ირანული, ბერძნული...).</p>
                 <p>სახელი "ბერსუმა" (რაც პიტიახშს ეწოდება) ქართული სინამდვილისთვის ამ წარწერამდე უცნობი იყო. ესაა სირიული სახელი Bar Saumā და ნიშნავს "ძე მმარხველისა". როგორც ვხედავთ,
                 ქართველ პიტიახშებს ხშირად ჰქვიათ სხვადასხვა წარმოშობის სახელები (ბერსუმა, ასპავრუკი, პუბლიკიოს აგრიპა...), მაგრამ ეს სრულებით არ ნიშნავს იმას, რომ უცხო სახელის მატარებელი
-                მაინცდამაინც უცხოელი იყო. პ. ინგოროყვა სახელ "ბერსუმას" კითხულობს "ბერცუმად" (ძველ ქართულში დამოწმებული სახელის "ბარცომი" და "ბარაცმანის" ანალოგიით, მაგრამ ისიც 
-                გასარკვევია "ბარცომი" და "ბარაცმანი" რა წარმოშობისა და ეტიმოლოგიისა არიან). სახელი "ბერსუმა" ბერძნულშივე გვხვდება მეორე ფორმით: Βαρσουμᾶς. ამგვარად, სირიული Bar Saumā 
+                მაინცდამაინც უცხოელი იყო. პ. ინგოროყვა სახელ "ბერსუმას" კითხულობს "ბერცუმად" (ძველ ქართულში დამოწმებული სახელის "ბარცომი" და "ბარაცმანის" ანალოგიით, მაგრამ ისიც
+                გასარკვევია "ბარცომი" და "ბარაცმანი" რა წარმოშობისა და ეტიმოლოგიისა არიან). სახელი "ბერსუმა" ბერძნულშივე გვხვდება მეორე ფორმით: Βαρσουμᾶς. ამგვარად, სირიული Bar Saumā
                 (ფშვინიერი s–თი) ბერძნულად გადმოიცემა Βερσουμᾶς || Βερσουμᾶς ფორმით).</p>
             </div>
-            
+
             <div type="commentary" xml:lang="en">
                 <p>
                     According to the shape of the letters ( α with broken crossbar, ε, σ, ω, μ, β - round, ξ is peculier), abbreviation (Φ˘Λ),  representing the names ended on ιος with ις  - characteristic to Roman period (Μακεδόνι), the inscription can be given the date to the I century. On the basis of the dating of the other items that were found in the graveyard, the dish (and its inscription) can be dated to II-III c.
 Μακεδόνι should be the dative case form for the name Μακεδών or Μακεδόνις, that means that as the item was dedicated to Bersuma, and also it was designated for Makrdonis. Μακεδόνι, as we see, is written with completely different handwriting, thus, it is necessary to give these inscriptions two different dates. They might be of the same period but different style. Not only in the inscription but also in the scratched writing we see A that only appears at the beginning of A.D. and is spread in I-II c.
-Towards the main Greek inscription notable components are: abbreviation ΦΛ and lacking the ι subscriptum in dative case. 
+Towards the main Greek inscription notable components are: abbreviation ΦΛ and lacking the ι subscriptum in dative case.
 In terms of shaping the letters, the tendency of round letters is notable. Abbreviation represented with ˘ . The shape of ξ is common for I century, same can be said about the other letters. According to those features the inscription can be given 1st century AD. The grave itself can not be earlier than 251 according to the coins found in it. The Greek inscription can be of the same time (beginning of the III century or end of II century).
-The person who dedicates the item is Flavios Dades, owner - Bersuma Bidaxsh. Macedon is either the second name of Bersuma, or Bersuma is the later owner of the item. The names of historic people from Iberia are notable: Kind Dades has an additional name from the Flavius dynasty, that was given to those who were regarded as honorable by this family. Flavius and Macedon are Greco-Roman names. Bersuma is Syrian (= a son of who was fasting), the names with the root Dades are common in the entire mediterranean region, there are different versions of its origin (Iranian, Greek…). 
+The person who dedicates the item is Flavios Dades, owner - Bersuma Bidaxsh. Macedon is either the second name of Bersuma, or Bersuma is the later owner of the item. The names of historic people from Iberia are notable: Kind Dades has an additional name from the Flavius dynasty, that was given to those who were regarded as honorable by this family. Flavius and Macedon are Greco-Roman names. Bersuma is Syrian (= a son of who was fasting), the names with the root Dades are common in the entire mediterranean region, there are different versions of its origin (Iranian, Greek…).
 The name “Bersuma” (given to Bidaxsh) was unknown for Georgian context before discovering  this inscription. It is a Syrian name Bar Saumā that means “the son of who is fasting”. As we see the Georgian Bidaxshes are called by the names of different origins (Bersuma, Aspavruki, Publikios Agripa…), but that does not mean that the person with this name was a foreigner. P. Ingorokva considers the name “Bersuma” as “Bertsuma” (based on the analogy of ancient Georgian names “Bertsomi” and “Baratsmani”, but the etymology of those two, “Bertsomi” and “Baratsmani” is unclear in itself). The name “Bersuma” is also common to Greek: Βαρσουμᾶς. Thus, Syrian Bar Saumā (with aspirate s) is represented in Greek as Βερσουμᾶς || Βερσουμᾶς.
 
 
@@ -195,10 +195,7 @@ The name “Bersuma” (given to Bidaxsh) was unknown for Georgian context befor
 
                 </p>
             </div>
-                   
+
         </body>
     </text>
 </TEI>
-
-
-

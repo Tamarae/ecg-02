@@ -92,8 +92,8 @@
     <text>
         <body>
            <div type="bibliography">
-               
-                <p><bibl n="1">ნიკო ბერძენიშვილი<ptr target="bibliography.xml#b130"/>1964,<citedRange>227-229</citedRange>2020</bibl></p>
+
+                <p><bibl n="1">ნიკო ბერძენიშვილი 1964,<citedRange>227-229</citedRange>2020</bibl></p>
                  <p><bibl n="2">გიორგი ჩუბინაშვილი, 1948,<citedRange>398</citedRange>2020</bibl></p>
                    <p><bibl n="3">ალექსანდრე მიქავა, 1960,<citedRange></citedRange>2020</bibl></p>
                    <p><bibl n="4">სარგის ცაიშვილი, 1985,<citedRange>438-442</citedRange>2020</bibl></p>
@@ -104,12 +104,12 @@
                    <p><bibl n="9">შოთა ძიძიგური, ალექსანდრე ბარამიძე, ელენე მეტრეველი, 1980<citedRange></citedRange>2020</bibl></p>
                    <p><bibl n="10">პროკოფი რატიანი, 1981,<citedRange></citedRange>2020</bibl></p>
                    <p><bibl n="11">ევგენი ბართაია, 1981,<citedRange> 87-91</citedRange>2020</bibl></p>
-            
+
            </div>
-            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">     
+            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
               <!--შოთა, იაი (...)-->
                 <ab>
-                <lb n="1"/><persName type="local" key="შოთა">შოთა</persName> <persName type="local" key="ია">იაი</persName> 
+                <lb n="1"/><persName type="local" key="შოთა">შოთა</persName> <persName type="local" key="ია">იაი</persName>
                 </ab>
             </div>
             <div type="translation" xml:lang="ka"/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
@@ -34,11 +34,11 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
                                     <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">Plaque</objectType>
                                     <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
-                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>                                    
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
                                       <dimensions unit="cm">
                                         <width/>
                                         <height/>
@@ -53,16 +53,16 @@
 </seg>
                                         <dimensions unit="cm">
                                          <width/>
-                                         <height/> 
-                                          </dimensions>  
-                                    </layout>                                   
+                                         <height/>
+                                          </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                                 <seg xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
                                 <seg xml:lang="en">Engraved Asomtavruli inscription</seg>
-                                   <height/> 
+                                   <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -79,11 +79,11 @@
                                     <seg xml:lang="ka">ვანის ქვაბები</seg>
                                     <seg xml:lang="en">Vanis Kvabebi</seg>
                                 </placeName>
-                                <!-- "41.382444, 43.308084"--> 
+                                <!-- "41.382444, 43.308084"-->
                                 <rs type="circumstances"/>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                                
+                            </provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot" ref="http://museum.ge">
                                     <seg xml:lang="ka">საქართველოს ეროვნული მუზეუმი</seg>
@@ -91,7 +91,7 @@
                                 </placeName>
                                 <idno type="invNo"/>
                             </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -99,7 +99,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <facsimile>
@@ -111,67 +111,67 @@
         </surface>
     </facsimile>
     <text>
-        <body> 
+        <body>
         <div type="bibliography">
-              
-    <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>             
-               
+
+    <p><bibl n="1"><ptr target="#b149"/> ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა, <citedRange> 118-169</citedRange></bibl></p>             
+
             </div>
-            
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!--  ქე [ადე] [ორ]თავე
                                შა ს[ფვთა მ]ფე
                                თა [მფე დ]ა დდ[ფ]ლი
                                 თმრ წე[ლსა] მფბისა მ
                                 თსა კ ანტნ [ჭ]სა მრ
                                 აღშენა ზღდე ესე შ
-                            [წყლნ ღნ ან]--> 
+                            [წყლნ ღნ ან]-->
 
                 <ab>
-                   <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
-                                <w lemma="დიდება"><expan><supplied reason="lost"><abbr>ად</abbr><ex>იდ</ex><abbr>ე</abbr></supplied></expan></w> 
+                   <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
+                                <w lemma="დიდება"><expan><supplied reason="lost"><abbr>ად</abbr><ex>იდ</ex><abbr>ე</abbr></supplied></expan></w>
                                 <w lemma="ორ"><supplied reason="lost">ორ</supplied>თავე</w>
-                   <lb n="2"/><w lemma="შინა"><expan><abbr>შ</abbr><ex>ინ</ex><abbr>ა</abbr></expan></w> 
-                                <w lemma="სუფევა"><expan><abbr>ს</abbr><ex>უ</ex><supplied reason="lost"><abbr>ფ</abbr><ex>ე</ex><abbr>ვ</abbr><ex>ა</ex><abbr>თა</abbr></supplied></expan></w> 
+                   <lb n="2"/><w lemma="შინა"><expan><abbr>შ</abbr><ex>ინ</ex><abbr>ა</abbr></expan></w>
+                                <w lemma="სუფევა"><expan><abbr>ს</abbr><ex>უ</ex><supplied reason="lost"><abbr>ფ</abbr><ex>ე</ex><abbr>ვ</abbr><ex>ა</ex><abbr>თა</abbr></supplied></expan></w>
                                 <roleName nymRef="მეფე"><expan><supplied reason="lost"><abbr>მ</abbr></supplied><ex>ე</ex><abbr>ფე
-                    <lb n="3" break="no"/>თა</abbr></expan> 
+                    <lb n="3" break="no"/>თა</abbr></expan>
                                 <expan><supplied reason="lost"><abbr>მ</abbr><ex>ე</ex><abbr>ფე</abbr></supplied></expan></roleName>
-                                <supplied reason="lost">დ</supplied>ა 
-                                <roleName nymRef="დედოფალ"><expan><abbr>დ</abbr><ex>ე</ex><abbr>დ</abbr><ex>ო</ex><supplied reason="lost"><abbr>ფ</abbr></supplied><ex>ა</ex><abbr>ლი</abbr></expan></roleName>                                 
+                                <supplied reason="lost">დ</supplied>ა
+                                <roleName nymRef="დედოფალ"><expan><abbr>დ</abbr><ex>ე</ex><abbr>დ</abbr><ex>ო</ex><supplied reason="lost"><abbr>ფ</abbr></supplied><ex>ა</ex><abbr>ლი</abbr></expan></roleName>
                     <lb n="4"/><persName type="local" key="თამარ მეფე" ref="https://en.wikipedia.org/wiki/Tamar_of_Georgia"><expan><abbr>თ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ა</ex><abbr>რ</abbr></expan></persName>
-                                <w lemma="წელ">წე<supplied reason="lost">ლსა</supplied></w> 
+                                <w lemma="წელ">წე<supplied reason="lost">ლსა</supplied></w>
                                 <roleName nymRef="მეფობა"><w lemma="მეფობა"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფ</abbr><ex>ო</ex><abbr>ბისა</abbr></expan></w> </roleName>
-                                <w lemma="იგინი"><expan><abbr>მ</abbr> 
-                    <lb n="5" break="no"/><ex>ა</ex><abbr>თსა</abbr></expan></w> 
-                                <num value="20">კ</num> 
-                               <persName type="local" key="ანტონ ჭყონდიდელი [ვანის ქვაბების მაშენებელი]"><expan><abbr>ანტ</abbr><ex>ო</ex><abbr>ნ</abbr></expan> 
-                                <roleName nymRef="ჭყონდიდელ"><expan><supplied reason="lost"><abbr>ჭ</abbr></supplied><ex>ყონდიდელი</ex><abbr>სა</abbr></expan></roleName></persName> 
+                                <w lemma="იგინი"><expan><abbr>მ</abbr>
+                    <lb n="5" break="no"/><ex>ა</ex><abbr>თსა</abbr></expan></w>
+                                <num value="20">კ</num>
+                               <persName type="local" key="ანტონ ჭყონდიდელი [ვანის ქვაბების მაშენებელი]"><expan><abbr>ანტ</abbr><ex>ო</ex><abbr>ნ</abbr></expan>
+                                <roleName nymRef="ჭყონდიდელ"><expan><supplied reason="lost"><abbr>ჭ</abbr></supplied><ex>ყონდიდელი</ex><abbr>სა</abbr></expan></roleName></persName>
                                 <w lemma="მიერ"><expan><abbr>მ</abbr><ex>იე</ex><abbr>რ</abbr></expan></w>
-                    <lb n="6"/><w lemma="აღეშენ"><expan><abbr>აღ</abbr><ex>ე</ex><abbr>შენა</abbr></expan></w> 
-                                <w lemma="ზღუდე"><expan><abbr>ზღ</abbr><ex>უ</ex><abbr>დე</abbr></expan></w> 
-                                 <w lemma="ესე">ესე</w> 
+                    <lb n="6"/><w lemma="აღეშენ"><expan><abbr>აღ</abbr><ex>ე</ex><abbr>შენა</abbr></expan></w>
+                                <w lemma="ზღუდე"><expan><abbr>ზღ</abbr><ex>უ</ex><abbr>დე</abbr></expan></w>
+                                 <w lemma="ესე">ესე</w>
                                 <w lemma="შეწყალება"><expan><abbr>შ</abbr><ex>ეიწ</ex>
-                    <lb n="7" break="no"/><supplied reason="lost"><abbr>ყ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ე</ex><abbr>ნ</abbr></supplied></expan></w> 
-                               <w lemma="ღმერთ"><expan><supplied reason="lost"><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></supplied></expan></w> 
+                    <lb n="7" break="no"/><supplied reason="lost"><abbr>ყ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ე</ex><abbr>ნ</abbr></supplied></expan></w>
+                               <w lemma="ღმერთ"><expan><supplied reason="lost"><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></supplied></expan></w>
                                <w lemma="ამენ"><expan><abbr>ა</abbr><ex>მე</ex><abbr>ნ</abbr></expan></w>
                 </ab>
                </div>
-              
-            
+
+
          <div type="translation">
              <p  xml:lang="ka">ქრისტე, ადიდე ორივე სოფელში მეფეთა მეფე და დედოფალი თამარი, მათი მეფობის მეოცე წელს ანტონ ჭყონდიდელმა ააშენა ეს ზღუდე, ღმერთმა შეიწყალოს, ამინ.</p>
              <p xml:lang="en">Christ, glorify the King of the kings and Tamar the Queen in both worlds, in the twentieth year of their reign Anton Chkondideli built this wall, God bless him, Amen.</p>
-         </div>    
-                             
-                
+         </div>
+
+
             <div type="commentary">
                 <p  xml:lang="ka">ვალერი სილოგავს დათარიღებით, ზღუდე აშენებულა და წარწერა გაკეთებულა 1204 წელს (1184+20). ვანის ქვაბები ამ დროისათვის უკვე სამეფო მონასტერი
                 ყოფილა (მანამდე იგი გურგენისძეთა ფეოდალური სახლის საკუთრება იყო), რადგან მეფის მოხელე, მისი ვაზირი, სხვის სამფლობელო, საბატონო მონასტერს არც ზღუდეს
                 აუშენებდა და არც სხვა სამშენებლო სამუშაოებს ჩაატარებდა. ეს თვალსაზრისი იმითაც მტკიცდება, რომ დავით აღმაშენებლის მიერ შიომღვიმისადმი 1124 წელს
                 შედგენილი ანდერძის მიხედვით, სამეფო მონასტრები მწიგნობართუხუცესთა მისახედი იყო. ხოლო ეს თანამდებობდა თამარ მეფის დროს სწორედ ანტონ ჭყონდიდელს ეკავა, სანამ
-                მას კათალიკოს-პატრიარქი მიქაელ მირიანისძე მისტაცებდა, ხოლო ანტონი გარეჯში წავიდოდა სამოღვაწეოდ. მიქაელ მირიანისძის გარდაცვალების შემდეგ თამარ მეფემ 
-                იგი სამეფო კარზე კვლავ ვაზირად დააბრუნა და ძველ უფლებებში აღადგინა.</p>                
+                მას კათალიკოს-პატრიარქი მიქაელ მირიანისძე მისტაცებდა, ხოლო ანტონი გარეჯში წავიდოდა სამოღვაწეოდ. მიქაელ მირიანისძის გარდაცვალების შემდეგ თამარ მეფემ
+                იგი სამეფო კარზე კვლავ ვაზირად დააბრუნა და ძველ უფლებებში აღადგინა.</p>
             </div>
         </body>
     </text>

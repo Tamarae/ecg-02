@@ -5,14 +5,14 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
     <teiHeader>
         <fileDesc>
-            
+
             <titleStmt>
                 <title xml:lang="ka">უკანგორი. V/VI სს. მოსახსენებელი (II)</title>
                 <title xml:lang="en">Ukangori memorial inscription of V-VI century (II)</title>
                 <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
                 <editor xml:lang="en">Nodar Shoshiashvili</editor>
             </titleStmt>
-            
+
             <publicationStmt>
                 <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
                 <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
@@ -23,7 +23,7 @@
                     </licence>
                 </availability>
             </publicationStmt>
-            
+
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -35,14 +35,14 @@
                             <seg xml:lang="en">Memorial</seg>
                         </summary>
                     </msContents>
-                    
-                    <physDesc> 
+
+                    <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
                                     <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/53">ჯვრის სწორკუთხოვანი კვარცხლბეკი</objectType>
-                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">მოვარდისფრო ქვა</material>     
-                                    <dimensions unit="cm">                                     
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">მოვარდისფრო ქვა</material>
+                                    <dimensions unit="cm">
                                         <height>39</height>
                                         <width>35</width>
                                     </dimensions>
@@ -52,78 +52,78 @@
                                 <layout>
                                     <seg xml:lang="ka">კვარცხლბეკის ზედა წახნაგზე ამოკვეთილია მრგვალი ბუდე ქვაჯვრის ჩასადგმელად. ერთ-ერთ წახნაგზე </seg>
                                     <seg xml:lang="en"></seg>
-                                    <dimensions unit="cm"> 
+                                    <dimensions unit="cm">
                                         <height>5</height>
                                         <width>31</width>
                                     </dimensions>
                                     </layout>
                             </layoutDesc>
                         </objectDesc>
-                        
-                         <handDesc>                        
+
+                         <handDesc>
                             <handNote script="asomtavruli" style="embossed">
                                  <p xml:lang="ka"><rs type="execution">გამოქანდაკებული</rs> შვიდსტრიქონიანი <rs type="script">ასომთავრული</rs> წარწერა. განკვეთის ნიშნები არ ახლავს. ქარაგმის ნიშანი და წარწერის დიდი ნაწილი გადაშლილია.</p>
-                                <height unit="cm">6</height>                  
+                                <height unit="cm">6</height>
                              </handNote>
                         </handDesc>
-                        
+
                     </physDesc>
-      
-                    <history>       
+
+                    <history>
                         <origin>
                             <origPlace>
                                 <seg xml:lang="ka">უკანგორი</seg>
                                 <seg xml:lang="en">Ukangori</seg>
-                            </origPlace> 
+                            </origPlace>
                             <origDate evidence="lettering">VI A.C. </origDate>
                         </origin>
-                        
-                      
+
+
                         <provenance type="found" when="1937">
                             <placeName>უკანგორი</placeName>
                             <rs type="monuList"/>
-                             <rs type="circumstances">1937 წ. ძეგლს მიაკვლია დმანისის არქეოლოგიურმა ექსპედიციამ, ლ. მუსხელიშვილის ხელმძღვანელობით. კვარცხლბეკი ეგდო სოფ. უკანგორის ეკლესიის ეზოში. </rs> 
+                             <rs type="circumstances">1937 წ. ძეგლს მიაკვლია დმანისის არქეოლოგიურმა ექსპედიციამ, ლ. მუსხელიშვილის ხელმძღვანელობით. კვარცხლბეკი ეგდო სოფ. უკანგორის ეკლესიის ეზოში. </rs>
                         </provenance>
-                        
+
 
                         <provenance>
                            <placeName type="modernSpot" ref="http://museum.ge">
                                <seg xml:lang="ka">საქართველოს ეროვნული მუზეუმი</seg>
-                               <seg xml:lang="en">National Museum of Georgia</seg>   
+                               <seg xml:lang="en">National Museum of Georgia</seg>
                                                <idno type="invNo">27</idno>
                            </placeName>
                        </provenance>
-       
+
                     </history>
-                </msDesc> 
+                </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
     <listPrefixDef>
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        
+
     </teiHeader>
 
     <text>
         <body>
-            
+
             <div type="bibliography" subtype="principalEdition">
-                
+
                     <p><bibl type="publication" subtype="principal">
-                        <ptr target="bibliography.xml#b101"/>ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, <citedRange>91</citedRange>
+                        <ptr target="#b101"/>ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, <citedRange>91</citedRange>
                     </bibl></p>
-                   
-                    <p><bibl n="2">ზ. სარჯველაძე, კ. დანელია, ქაული პალეოგრაფია<ptr target="bibliography.xml#b92"/>, <citedRange> 25-26</citedRange></bibl></p>
-                    <p><bibl n="3">ლ. მუსხელიშვილი, არქეოლოგიური ექსკურსიები მაშავრის ხეობაში<ptr target="bibliography.xml#b135"/>, <citedRange>8-23</citedRange></bibl></p>
-                    <p><bibl n="4">ლ. მუსხელიშვილი, უკანგორის ისტორიული ნაშთები<ptr target="bibliography.xml#b183"/>, <citedRange>159-182</citedRange></bibl></p>
-                    <p><bibl n="5">ვ. შუბითიძე, ქართული ციხესიმაგრეები და ეკლესია მონასტრები<ptr target="bibliography.xml#b92"/>, <citedRange>68</citedRange></bibl></p>
-                
+
+                    <p><bibl n="2"><ptr target="#b92"/> ზ. სარჯველაძე, კ. დანელია, ქაული პალეოგრაფია, <citedRange> 25-26</citedRange></bibl></p>
+                    <p><bibl n="3"><ptr target="#b135"/> ლ. მუსხელიშვილი, არქეოლოგიური ექსკურსიები მაშავრის ხეობაში, <citedRange>8-23</citedRange></bibl></p>
+                    <p><bibl n="4"><ptr target="#b183"/> ლ. მუსხელიშვილი, უკანგორის ისტორიული ნაშთები, <citedRange>159-182</citedRange></bibl></p>
+                    <p><bibl n="5"><ptr target="#b92"/> ვ. შუბითიძე, ქართული ციხესიმაგრეები და ეკლესია მონასტრები, <citedRange>68</citedRange></bibl></p>
+
             </div>
-             
-              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve"> 
-                
-                
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+
+
                    <!-- [შ(ე)წ(ევნი)თა ქ(რისტ)ჱსი]
                         თა [ჩ(უე)ნ ]
                         და []
@@ -132,31 +132,31 @@
                         ლოცვე[ლად]
                         ˹ჩ˺(უე)ნდა
  -->
-            
+
                 <ab>
                     <lb n="1"/><w lemma="შეწევნა"><supplied reason="lost"><expan><abbr>შ</abbr><ex>ე</ex><abbr>წ</abbr><ex>ევნი</ex><abbr>თა</abbr></expan></supplied></w> <w lemma="ქრისტჱ"><supplied reason="lost"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ჱსი</abbr>
-                    <lb n="2" break="no"/>თა</expan></supplied></w> <w lemma="ჩუენ"><supplied reason="lost"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნ</abbr></expan></supplied></w> 
-                    <lb n="3"/>და 
-                    <lb n="4"/><rs type="pn"><w lemma="აღხუმართა">აღხუ<supplied reason="lost">მართეთ</supplied></w></rs> 
+                    <lb n="2" break="no"/>თა</expan></supplied></w> <w lemma="ჩუენ"><supplied reason="lost"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნ</abbr></expan></supplied></w>
+                    <lb n="3"/>და
+                    <lb n="4"/><rs type="pn"><w lemma="აღხუმართა">აღხუ<supplied reason="lost">მართეთ</supplied></w></rs>
                     <lb n="5"/><w lemma="ესე">ესე</w> <w lemma="ჯუარი"><expan><abbr>ჯ</abbr><ex>უ</ex><supplied reason="lost"><abbr>არი</abbr></supplied></expan></w> <w lemma="სალოცველი"><supplied reason="lost">სა</supplied>
                     <lb n="6" break="no"/>ლოცვე<supplied reason="lost">ლად</supplied> </w>
                     <lb n="7"/><w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნდა</abbr></expan></w>
-            
+
                  </ab>
 
-            </div>   
+            </div>
 
 
             <div type="translation" xml:lang="ka"/>
-            
-            <div type="apparatus" xml:space="preserve"/>   
- 
+
+            <div type="apparatus" xml:space="preserve"/>
+
 
             <div type="commentary">
                  <p xml:lang="ka">წარმოდგენლი დათარიღების საფუძველი: წარწერა, თავისი დამწერლობის მიხედვით, ერთდროული ჩანს უკანგორის მეორე კვარცხლბეკის წარწერისა.</p>
             </div>
-            
-            
+
+
         </body>
     </text>
 </TEI>

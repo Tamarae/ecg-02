@@ -105,22 +105,22 @@
     <text>
         <body>
            <div type="bibliography">
-               
-                <p><bibl n="1">თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი<ptr target="bibliography.xml#b234"/>,<citedRange>32-34 </citedRange>2019</bibl></p>
-                <p><bibl n="2">სერგი მაკალათია, ბორჯომის ხეობა (ისტორიულ-ეთნოგრაფიული ნარკვევი)<ptr target="bibliography.xml#b236"/>,<citedRange>12 </citedRange>1957</bibl></p>
-                <p><bibl n="3">სარგის კაკაბაძე, რუსთაველი და მისი ვეფხისტყაოსანი<ptr target="bibliography.xml#b237"/>,<citedRange>66 </citedRange>1966</bibl></p>
-                <p><bibl n="4">გიორგი ზედგინიძე, თორელ-ჯავახთა და ჯაყელ-მესხთა სამამულო მფლობელობის შესახებ ბორჯომის ხეობაში,
-                    კრებულში: კრებული მიძღვნილი აკადემიკოს ივანე ჯავახიშვილის დაბადების 100 წლისთავისადმი<ptr target="bibliography.xml#b238"/>,<citedRange>181 </citedRange>1977</bibl></p>
-                <p><bibl n="5">დევი ბერძენიშვილი, ნარკვევები საქართველოს ისტორიული გეოგრაფიიდან (ზემო ქართლი – თორი, ჯავახეთი)<ptr target="bibliography.xml#b239"/>,<citedRange>45 </citedRange>1985</bibl></p>
-                <p><bibl n="6">დევი ბერძენიშვილი, არქიტექტურულ-ისტორიული გზამკვლევი "გუჯარეთი"<ptr target="bibliography.xml#b240"/>,<citedRange>9 </citedRange>1987</bibl></p>
-            
+
+                <p><bibl n="1"><ptr target="#b234"/> თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი,<citedRange>32-34 </citedRange>2019</bibl></p>
+                <p><bibl n="2"><ptr target="#b236"/> სერგი მაკალათია, ბორჯომის ხეობა (ისტორიულ-ეთნოგრაფიული ნარკვევი),<citedRange>12</citedRange>1957</bibl></p>
+                <p><bibl n="3"><ptr target="#b237"/> სარგის კაკაბაძე, რუსთაველი და მისი ვეფხისტყაოსანი,<citedRange>66 </citedRange>1966</bibl></p>
+                <p><bibl n="4"><ptr target="#b238"/> გიორგი ზედგინიძე, თორელ-ჯავახთა და ჯაყელ-მესხთა სამამულო მფლობელობის შესახებ ბორჯომის ხეობაში,
+                    კრებულში: კრებული მიძღვნილი აკადემიკოს ივანე ჯავახიშვილის დაბადების 100 წლისთავისადმი,<citedRange>181 </citedRange>1977</bibl></p>
+                <p><bibl n="5"><ptr target="#b239"/> დევი ბერძენიშვილი, ნარკვევები საქართველოს ისტორიული გეოგრაფიიდან (ზემო ქართლი – თორი, ჯავახეთი),<citedRange>45 </citedRange>1985</bibl></p>
+                <p><bibl n="6"><ptr target="#b240"/> დევი ბერძენიშვილი, არქიტექტურულ-ისტორიული გზამკვლევი "გუჯარეთი",<citedRange>9 </citedRange>1987</bibl></p>
+
            </div>
-            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">     
+            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
               <!--ქ(რისტ)ე, შ(ეიწყალ)ე მ(ა)ხ(ა)რ(ე)ბ(ე)ლი
                   | ამ{ი}ს წ(მიდი)საეკლ(ესიი)სა | მაშ{ე}ნ{ე}ბ{ე}ლი-->
                 <ab>
-                    <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
-                    <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> 
+                    <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
+                    <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w>
                     <persName type="local" key="მახარებელი [გუჯარეთის ეკლესიის მაშენებელი]"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ა</ex><abbr>რ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლი</abbr></expan></persName>
                     <lb n="2"/><w lemma="ესე"><expan><abbr>ამ</abbr><ex>ი</ex><abbr>ს</abbr></expan></w> <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდი</ex><abbr>სა</abbr></expan></w> <w lemma="ეკლესია"><expan><abbr>ეკლ</abbr><ex>ესიი</ex><abbr>სა</abbr></expan></w>
                     <lb n="3"/><roleName nymRef="მაშენებელ"><expan><abbr>მაშ</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლი</abbr></expan></roleName>

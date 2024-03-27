@@ -25,17 +25,17 @@
                            ზღუდერი
                         </collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მემორიალური</seg>
                             <seg xml:lang="en"/>
                         </summary>
-                    </msContents> 
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="http://www.eagle-network.eu/voc/material/lod/115">ვერცხლი</material>
                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/96">კოვზი</objectType></support></supportDesc>
                                 <layoutDesc>
@@ -43,11 +43,11 @@
                                         კოვზი არის ოვალური პირით და 8 წახნაგა ტარით. ტარზე ამოკაწრულია ორი წარწერა ბერძნულად და არამეულად.
                                       <dimensions unit="cm">
                                         <width/>
-                                        <height/>                                 
+                                        <height/>
                                       </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote/>
                         </handDesc>
@@ -58,21 +58,21 @@
                     <history>
                             <origin>
                                 <origPlace>ზღუდერი</origPlace>
-                                <origDate notBefore-custom="0101" notAfter-custom="0300" 
+                                <origDate notBefore-custom="0101" notAfter-custom="0300"
                                     precision="medium" evidence="lettering" datingMethod="#julian">II-III AD</origDate>
                                 </origin>
                             <provenance type="found" when="1964">
-                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863925">ზღუდერი</placeName> 
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863925">ზღუდერი</placeName>
                                 <rs type="circumstances">ნივთი მოპოვებულია არქეოლოგიური ექსპედიციის მიერ სამარხში.</rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                     
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">
                             </placeName>
                             <idno/>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -80,7 +80,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-    </teiHeader>     
+    </teiHeader>
      <facsimile>
         <surface>
             <graphic url="ecg295.jpg">
@@ -88,46 +88,40 @@
                 <desc xml:lang="en">Silver spoon from Zghuderi, 1964</desc>
             </graphic>
         </surface>
-    </facsimile>     
+    </facsimile>
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 268</citedRange></bibl></p>
-                    <p><bibl n="2">მ. ჭელიძე, ეპიგრაფიკული შენიშვნები<ptr target="bibliography.xml#b166"/>, <citedRange> 71-76</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 268</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b166"/> მ. ჭელიძე, ეპიგრაფიკული შენიშვნები, <citedRange> 71-76</citedRange></bibl></p>
+
             </div>
-       
+
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!--  ΧΗΔ/Χηδ -->
-                     
-            
+
+
          <ab>
              <persName><name nymRef="Χηδ">Χηδ</name></persName>
-         </ab>    
-             
-         
+         </ab>
+
+
             </div>
-                
+
             <div type="translation" xml:lang="ka">
                 <p>ხედი</p>
             </div>
-            
-            
+
+
            <div type="commentary">
-                <p>ბერძნული წარწერა ΧΗΔ/Χηδ ხედ-ი შესაძლოა არის საკუთარი სახელი (მთლიანად ან შემოკლებით. მაგ., შავიზღვისპირეთში გვაქვს სახელები Χαδικίας და Χαδάκης). 
-                არამეულად ამოკაწრული სიტყვაც იკითხება Ked, ე.ი. იმეორებს ბერძნულს (გ. გიორგაძის აზრით, ბერძნულ-არამეული ΧΗΔ|Ked შესაძლოა უკავშირდებოდეს ოსურ Gädi-ს. 
+                <p>ბერძნული წარწერა ΧΗΔ/Χηδ ხედ-ი შესაძლოა არის საკუთარი სახელი (მთლიანად ან შემოკლებით. მაგ., შავიზღვისპირეთში გვაქვს სახელები Χαδικίας და Χαδάκης).
+                არამეულად ამოკაწრული სიტყვაც იკითხება Ked, ე.ი. იმეორებს ბერძნულს (გ. გიორგაძის აზრით, ბერძნულ-არამეული ΧΗΔ|Ked შესაძლოა უკავშირდებოდეს ოსურ Gädi-ს.
                 ე.ი. ქართულად იქნება სახელი "ქედი", მ. ჭელიძე 1990: 74).</p>
-               <p>ბერძნული ასოთა მოხაზულობა რაიმე საგანგებო მონაცემებით არ გამოირჩევა. დათარიღების საფუძველია ნივთის ანალიზი, მასზე ბერძნულ-არამეული წარწერების პარალელურად 
+               <p>ბერძნული ასოთა მოხაზულობა რაიმე საგანგებო მონაცემებით არ გამოირჩევა. დათარიღების საფუძველია ნივთის ანალიზი, მასზე ბერძნულ-არამეული წარწერების პარალელურად
                არსებობა და სამარხის ინვენტარი.</p>
             </div>
       </body>
     </text>
 </TEI>
-
-
-
-
-
-

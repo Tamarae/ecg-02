@@ -23,7 +23,7 @@
                             დმანისი
                         </collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მოსახსენებელი</seg>
@@ -81,8 +81,8 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    <!-- 
-     
+    <!--
+
     <facsimile>
         <surface>
             <graphic url="tskise_01.jpg">
@@ -91,7 +91,7 @@
             </graphic>
         </surface>
     </facsimile> -->
-    
+
     <text>
         <!--
         1.[ქ. უ(ფალ)ო ღ(მერთ)ო, ად(ი)დე შ(ე)ნ [მიერ მაშენებელი ამის]
@@ -100,15 +100,15 @@
         -->
         <body>
   <div type="bibliography">
-                
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>127-128</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                <p><bibl n="2">დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>153</citedRange> თბილისი, 2014<ptr target="bibliography.xml#b213"/></bibl></p>
-                <p><bibl n="4">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>28-29</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
+
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>127-128</citedRange>, თბილისი, 2018</bibl></p>
+                <p><bibl n="2"><ptr target="#b213"/> დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>153</citedRange> თბილისი, 2014</bibl></p>
+                <p><bibl n="4"><ptr target="#b216"/> გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>28-29</citedRange>, თბილისი, 2016</bibl></p>
             </div>
-            
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-        
-       
+
+
             <ab>
                  <lb n="1"/>&#10013;
                            <w lemma="უფალ"><expan><abbr>უ</abbr><ex>ფალ</ex><supplied reason="omitted" precision="high"><abbr>ო</abbr></supplied></expan></w>
@@ -118,21 +118,21 @@
                            <w lemma="მიერ"><supplied reason="lost">მიერ</supplied></w>
                            <w lemma="შენება"><supplied reason="lost">მაშენებელი</supplied></w>
                            <w lemma="ამის"><supplied reason="lost">ამის</supplied></w>
-                <lb n="2"/><w lemma="საყდარ"><expan><supplied reason="omitted"><abbr>ს</abbr></supplied><abbr>ა</abbr><ex>ყ</ex><abbr>დრ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w>  
+                <lb n="2"/><w lemma="საყდარ"><expan><supplied reason="omitted"><abbr>ს</abbr></supplied><abbr>ა</abbr><ex>ყ</ex><abbr>დრ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w>
                             <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
                            <w lemma="წყალობა"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w>
-                <lb n="5"/><w lemma="ცოდვა"><expan><abbr>ც</abbr><ex>ო</ex><abbr>დ</abbr><ex>ვილ</ex><abbr>ი</abbr></expan></w> 
+                <lb n="5"/><w lemma="ცოდვა"><expan><abbr>ც</abbr><ex>ო</ex><abbr>დ</abbr><ex>ვილ</ex><abbr>ი</abbr></expan></w>
                            <persName type="local" key="ადარნასე [საკირის მაშენებელი]"><expan><abbr>ა</abbr><supplied reason="lost" precision="medium"><abbr>დ</abbr></supplied><ex>ა</ex><abbr>რ</abbr><ex>ნა</ex><abbr>სე</abbr></expan></persName>
                            <w lemma="ამენ"><expan><abbr>ა</abbr><ex>მე</ex><abbr>ნ</abbr></expan></w>
-                
+
                 </ab>
-             
+
             </div>
 
 
-        
-                
-      
+
+
+
                 <div type="translation">
                     <p/>
                 </div>
@@ -143,12 +143,12 @@
                         და შუა ნაწილი ნაკლულია;
                         წარმოდგენილი დათარიღების საფუძველი: პალეოგრაფიული
                         ნიშნები: კიდურწერტილოვნება, შეწიაღება, გრაფემების (ა, დ) მოხაზულობა;
-                        წარწერას დ. ბერძენიშვილი XI-XII სს-ით ათარიღებს; 
+                        წარწერას დ. ბერძენიშვილი XI-XII სს-ით ათარიღებს;
                         პირველ ხაზზე სიტყვებს დ. ბერძენიშვილი ამგვარად კითხულობს: შენ (მიერ... მაშენებელი ამის), ხოლო მესამე
                         ხაზზე, ასე: ცოდვილისა სული. ნაკლებადაა შესაძლებელი, თუმცა, ვარიანტის სახით
                         დასაშვებია დაქარაგმებული სახელ ა~რსე-ს აღდგენა, როგორც არსე(ნ)</p>
                 </div>
-         
+
         </body>
     </text>
 </TEI>

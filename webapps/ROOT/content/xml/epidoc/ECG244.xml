@@ -31,7 +31,7 @@
                             <seg xml:lang="en"/>
                         </summary>
                     </msContents>
-                    
+
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
@@ -46,7 +46,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout writtenLines="12">
-                                       შესრულებულია ეკლესიის სამხრეთ ფასადზე, კარიბჭის მარჯვენა მხარეს, მიწიდან დაახლ. 2,5-3 მ სიმაღლეზე, ორ დიდ წითელი ტუფის ქვაზე, 
+                                       შესრულებულია ეკლესიის სამხრეთ ფასადზე, კარიბჭის მარჯვენა მხარეს, მიწიდან დაახლ. 2,5-3 მ სიმაღლეზე, ორ დიდ წითელი ტუფის ქვაზე,
                                        ამოღარვით. 12 სტრიქონად (ბოლო 3 სტრ. ჩასმულია VII, XIII და IX სტრ. შუა ნაწილში ამოჭრილ ოთხკუთხედში).
                                     <dimensions unit="cm">
                                         <width>165</width>
@@ -85,7 +85,7 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    <!-- 
+    <!--
     <facsimile>
         <surface>
             <graphic url="tskise_01.jpg">
@@ -94,7 +94,7 @@
             </graphic>
         </surface>
     </facsimile> -->
-    
+
     <text>
         <!--
         1.ქ. ს[ა]ხ[ელითა] [ღმრთისაჲ][თ][ა] - ღმ~(?)[დ]მ[ანისისა](?) ... ~ ... [დ]ა - ლ~- ა || ... ~ ... ~ლ[ღ](?) - თ[ა](?) -~ - შ: [ღ(მერთ)ო](?)~ - [მს](?) - -~ ... [ა][კურ]
@@ -104,20 +104,20 @@
         5.[შ]ემ(ე)წ[ი][ო][ს] და [ს](ა)ყდ[არი] (?) [ა]ღუმსო, გ(ა)მ(ე)[მ](ა)რჯ(უ)ა დ[ა] მ(ა)სვე..... ||[მ][ს](?) ... ~ - [მ] - - - -~ - [ე/იკ]ლ [ეკლესია/მოიკლა](?) ... ~...~... ~ ... ლ ... ო
         6.[მ](?)[ო]მც[ა] [და] მო[შ]თვბდმქო(?) [ლნ]~მ[ე/ვ/ი] [ო]დ(ე)[ს] წ(ე)ლსა გ(ა)თ(ა)ვდა ... || ... [ა] - [ა](?) [და] ამი[ს] მეო[ხე][ბ]ა][დ](?)
         7.- -~[ლ/ზ] ... [დ][ა] ებ[ი]სკოვზი[ც]ა დავსჳ ს(ა)მლ(ო)ც[ვ](ე)ლ(ო)დ || ...[დ] ჩ(ე)მისა დ[ა] ვი[ნ] (?) [მ](ოვი)დ(ე)[ს] მ(ა)ს
-        8.... [დ](ა) მომ(ა)ვ(ა)ლ[ი] ჩ(ემ)ი იყ[ოს] [ლ](ი)ხ[ი][თ]ვე(?) [ს](რუ)[ლ](ო)ბით [ჰ]მს[ა]ხ(უ)[რ](ე)ბ[დ]ი[თ] ... || ... ღ(მრთი)ს[მ]შ(ო)[ბ](ე)ლს[ა] დ[ა] ამ(ა)ს... 
+        8.... [დ](ა) მომ(ა)ვ(ა)ლ[ი] ჩ(ემ)ი იყ[ოს] [ლ](ი)ხ[ი][თ]ვე(?) [ს](რუ)[ლ](ო)ბით [ჰ]მს[ა]ხ(უ)[რ](ე)ბ[დ]ი[თ] ... || ... ღ(მრთი)ს[მ]შ(ო)[ბ](ე)ლს[ა] დ[ა] ამ(ა)ს...
         9.... [დ](ი)[მ](იტ)რ[ი] (?) ... და შ(იე)წყ(ა)[ლე] ... || ... ჩთ>.
         10.ოდ(ე)ს გ(ა)თ(ა)ვ
         11.დ(ა) ქ(ო)რ(ონი)კ(ო)[ნ]ი იყო
-        12.[ტ]ჲბ (362). 
+        12.[ტ]ჲბ (362).
         -->
         <body>
-            
+
             <div type="bibliography">
-                
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>142-146</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                <p><bibl n="2">ვ. ჯაფარიძე, ადრეული შუა საუკუნეების არქეოლოგიური ძეგლები ქვემო ქართლიდან (დმანისის არქეოლოგიური ექსპედიციის მასალების მიხედვით), <citedRange>50</citedRange> თბილისი, მეცნიერება, 1982 <ptr target="bibliography.xml#b219"/>
+
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>142-146</citedRange>, თბილისი, 2018</bibl></p>
+                <p><bibl n="2"><ptr target="#b219"/> ვ. ჯაფარიძე, ადრეული შუა საუკუნეების არქეოლოგიური ძეგლები ქვემო ქართლიდან (დმანისის არქეოლოგიური ექსპედიციის მასალების მიხედვით), <citedRange>50</citedRange> თბილისი, მეცნიერება, 1982
                 </bibl></p>
-                <p><bibl n="3">ლ. მუსხელიშვილი, დმანისი (ქალაქის ისტორია და ნაქალაქარის აღწერა), შოთა რუსთაველის ეპოქის მატერიალური კულტურის ძეგლები, თბილისი, 1938<citedRange>380-381</citedRange><ptr target="bibliography.xml#b222"/>   
+                <p><bibl n="3"><ptr target="#b222"/> ლ. მუსხელიშვილი, დმანისი (ქალაქის ისტორია და ნაქალაქარის აღწერა), შოთა რუსთაველის ეპოქის მატერიალური კულტურის ძეგლები, თბილისი, 1938<citedRange>380-381</citedRange>
                 </bibl></p>
             </div>
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
@@ -125,25 +125,25 @@
                 <lb n="1"/>&#10013;
                            <w lemma="სახელ">ს<supplied reason="omitted" precision="high">ა</supplied>ხ<supplied reason="lost" precision="medium">ელითა</supplied></w>
                            <w lemma="ღმერთ"><supplied reason="lost" precision="medium">ღმრთისაჲ</supplied><supplied reason="lost" precision="medium">თა</supplied></w>
-                           
-                           <orig n="unresolved"><supplied reason="lost" precision="low">ღმ</supplied></orig> 
+
+                           <orig n="unresolved"><supplied reason="lost" precision="low">ღმ</supplied></orig>
                            <placeName nymRef="დმანის"><supplied reason="omitted">დ</supplied>მ<supplied reason="lost" precision="low">ანისისა</supplied></placeName>
-                           
+
                            <w lemma="და"><supplied reason="omitted" precision="high">დ</supplied>ა</w>
-                           
+
                            <orig n="unresolved">ლ</orig>
-                           
+
                            <orig n="unresolved">ა</orig>
-                           
+
                            <orig n="unresolved">ლ<supplied reason="lost" precision="low">ღ</supplied></orig>
-                           
+
                            <orig n="unresolved">თ<supplied reason="lost" precision="low">ა</supplied></orig>
-                           
+
                            <orig n="unresolved">შ</orig>
-                           <w lemma="ღმერთ"><expan><supplied reason="lost" precision="low"><abbr>ღ</abbr><ex>მერთ</ex><abbr>ო</abbr></supplied></expan></w> 
-                           
+                           <w lemma="ღმერთ"><expan><supplied reason="lost" precision="low"><abbr>ღ</abbr><ex>მერთ</ex><abbr>ო</abbr></supplied></expan></w>
+
                            <orig n="unresolved"><supplied reason="lost" precision="low">მს</supplied></orig>
-                           
+
                            <w lemma="კურთხევა"><supplied reason="lost" precision="medium">აკურ</supplied>
                 <lb n="2" break="no"/>თ<supplied reason="lost" precision="low">ხენ</supplied></w>
                            <gap reason="lost" extent="unknown" unit="character"/>
@@ -152,48 +152,48 @@
                           <unclear>ბ</unclear>
                           <unclear>გ</unclear>
                           </choice>
-                          
+
                           <orig n="unresolved"><supplied reason="lost" precision="low">კ</supplied></orig>
-                         
+
                           <orig n="unresolved">ა</orig>
-                          
+
                           <orig n="unresolved"><supplied reason="lost" precision="medium">ნ</supplied></orig>
                           <choice>
                           <unclear>ჲ</unclear>
                           <unclear>დ</unclear>
-                          </choice> 
-                          
+                          </choice>
+
                           <orig n="unresolved"><supplied reason="lost" precision="medium">მ</supplied></orig>
-                          
+
                           <orig n="unresolved">ე</orig>
-                         
-                          <w lemma="გაყრა"><expan><supplied reason="lost" precision="medium"><abbr>გან</abbr></supplied>უყრ<supplied reason="lost" precision="medium"><abbr>ე</abbr></supplied><ex>ლა</ex><supplied reason="omitted" precision="high"><abbr>დ</abbr></supplied></expan></w> 
-                          
+
+                          <w lemma="გაყრა"><expan><supplied reason="lost" precision="medium"><abbr>გან</abbr></supplied>უყრ<supplied reason="lost" precision="medium"><abbr>ე</abbr></supplied><ex>ლა</ex><supplied reason="omitted" precision="high"><abbr>დ</abbr></supplied></expan></w>
+
                           <orig n="unresolved">თა<supplied reason="lost" precision="low">ჭ</supplied></orig>
-                          
-                          <orig n="unresolved">მ</orig> 
-                          
+
+                          <orig n="unresolved">მ</orig>
+
                <lb n="3"/><orig n="unresolved"><supplied reason="lost" precision="medium">მ</supplied></orig>
-                           
+
                 <lb n="4"/>
                            <placeName nymRef="დმანის">დ<supplied reason="omitted" precision="high">მ</supplied><supplied reason="lost" precision="medium">ან</supplied>ი<supplied reason="omitted" precision="low">ს</supplied>ი</placeName>
                            <orig n="unresolved"><supplied reason="lost" precision="medium">ა</supplied>მე<supplied reason="omitted" precision="high">თ</supplied>ქ<supplied reason="omitted" precision="high">ლ</supplied></orig>
-                            
+
                            <orig n="unresolved"><supplied reason="omitted" precision="high">მ</supplied></orig>
-                           
+
                 <lb n="5"/><w lemma="შეწევნა"><expan><supplied reason="lost" precision="medium"><abbr>შ</abbr></supplied><abbr>ემ</abbr><ex>ე</ex><abbr>წ</abbr><supplied reason="lost" precision="medium"><abbr>ი</abbr></supplied><supplied reason="omitted" precision="high"><abbr>ოს</abbr></supplied></expan></w>
                            და
                            <w lemma="საყდარ"><expan><supplied reason="omitted" precision="high"><abbr>ს</abbr></supplied><ex>ა</ex><abbr>ყდ</abbr><supplied reason="lost" precision="low"><abbr>არი</abbr></supplied></expan></w>
                            <w lemma="ავსება"><supplied reason="omitted" precision="high">ა</supplied>ღუმსო</w>
-                           <w lemma="გამარჯუება"><expan><abbr>გ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ე</ex><supplied reason="omitted" precision="high"><abbr>მ</abbr></supplied><ex>ა</ex><abbr>რჯ</abbr><ex>უ</ex><abbr>ა</abbr></expan></w> 
+                           <w lemma="გამარჯუება"><expan><abbr>გ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ე</ex><supplied reason="omitted" precision="high"><abbr>მ</abbr></supplied><ex>ა</ex><abbr>რჯ</abbr><ex>უ</ex><abbr>ა</abbr></expan></w>
                            <w lemma="და">დ<supplied reason="lost" precision="medium">ა</supplied></w>
                            <w lemma="მას"><expan><abbr>მ</abbr><ex>ა</ex><abbr>სვე</abbr></expan></w>
-                           
+
                            <orig n="unresolved"><supplied reason="lost" precision="low">მს</supplied></orig>
-                           
-                           
+
+
                            <orig n="unresolved"><supplied reason="lost" precision="medium">მ</supplied></orig>
-                           
+
                           <choice>
                           <unclear>ე</unclear>
                           <unclear>იკ</unclear>
@@ -204,7 +204,7 @@
                           <unclear>მოიკლა</unclear>
                           </choice>
                           <orig n="unresolved">ლ</orig>
-                          
+
                           <orig n="unresolved">ო</orig>
                <lb n="6"/><w lemma="მიცემა"><supplied reason="lost" precision="low">მ</supplied><supplied reason="omitted" precision="high">ო</supplied>მც<supplied reason="lost" precision="medium">ა</supplied></w>
                           <w lemma="და"><supplied reason="lost" precision="medium">და</supplied></w>
@@ -218,31 +218,31 @@
                           <w lemma="ოდეს"><expan><supplied reason="lost" precision="medium"><abbr>ო</abbr></supplied><abbr>დ</abbr><ex>ე</ex><supplied reason="omitted" precision="high"><abbr>ს</abbr></supplied></expan></w>
                           <w lemma="წელ"><expan><abbr>წ</abbr><ex>ე</ex><abbr>ლსა</abbr></expan></w>
                           <w lemma="გათავება"><expan><abbr>გ</abbr><ex>ა</ex><abbr>თ</abbr><ex>ა</ex><abbr>ვდა</abbr></expan></w>
-                          
+
                           <orig n="unresolved"><supplied reason="lost" precision="medium">ა</supplied></orig>
-                          
+
                           <orig n="unresolved"><supplied reason="lost" precision="low">ა</supplied></orig>
                           <w lemma="და"><supplied reason="lost" precision="medium">და</supplied></w>
                           <w lemma="ესე">ამი<supplied reason="omitted" precision="high">ს</supplied></w>
-                          <w lemma="მეოხება">მეო<supplied reason="lost" precision="medium">ხე</supplied><supplied reason="lost" precision="medium">ბ</supplied>ა<supplied reason="omitted" precision="low">დ</supplied></w>        
-               <lb n="7"/><gap reason="lost" quantity="2" unit="character"/> 
+                          <w lemma="მეოხება">მეო<supplied reason="lost" precision="medium">ხე</supplied><supplied reason="lost" precision="medium">ბ</supplied>ა<supplied reason="omitted" precision="low">დ</supplied></w>
+               <lb n="7"/><gap reason="lost" quantity="2" unit="character"/>
                           <choice>
                           <unclear>ლ</unclear>
                           <unclear>ზ</unclear>
                           </choice>
-                          
+
                           <w lemma="და"><supplied reason="omitted" precision="high">დ</supplied><supplied reason="lost" precision="medium">ა</supplied></w>
                           <roleName nymRef="ეპისკოპოს">ებ<supplied reason="lost" precision="medium">ი</supplied>სკოვზი<supplied reason="omitted" precision="high">ც</supplied>ა</roleName>
                           <w lemma="დასმა">დავსჳ</w>
                           <w lemma="ლოცვა"><expan><abbr>ს</abbr><ex>ა</ex><abbr>მლ</abbr><ex>ო</ex><abbr>ც</abbr><supplied reason="omitted" precision="high"><abbr>ვ</abbr></supplied><ex>ე</ex><abbr>ლ</abbr><ex>ო</ex><abbr>დ</abbr></expan></w>
-                          
+
                           <orig n="unresolved"><supplied reason="omitted" precision="high">დ</supplied></orig>
                           <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მისა</abbr></expan></w>
                           <w lemma="და">დ<supplied reason="lost" precision="medium">ა</supplied></w>
                           <w lemma="ვინ">ვი<supplied reason="lost" precision="low">ნ</supplied></w>
                           <w lemma="სლვა"><expan><supplied reason="omitted" precision="high"><abbr>მ</abbr></supplied><ex>ოვი</ex><abbr>დ</abbr><ex>ე</ex><supplied reason="omitted" precision="high"><abbr>ს</abbr></supplied></expan></w>
                           <w lemma="მას"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ს</abbr></expan></w>
-               <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>     
+               <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>
                           <w lemma="და"><expan><supplied reason="omitted" precision="high"><abbr>დ</abbr></supplied><ex>ა</ex></expan></w>
                           <w lemma="მომავალ"><expan><abbr>მომ</abbr><ex>ა</ex><abbr>ვ</abbr><ex>ა</ex><abbr>ლ</abbr><supplied reason="lost" precision="high"><abbr>ი</abbr></supplied></expan></w>
                           <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ემ</ex><abbr>ი</abbr></expan></w>
@@ -250,36 +250,36 @@
                           <w lemma="ლიხ"><expan><supplied reason="lost" precision="medium"><abbr>ლ</abbr></supplied><ex>ი</ex><abbr>ხ</abbr><supplied reason="lost" precision="medium"><abbr>ი</abbr></supplied><supplied reason="omitted" precision="low"><abbr>თ</abbr></supplied><abbr>ვე</abbr></expan></w>
                           <w lemma="სრულ"><expan><supplied reason="lost" precision="medium"><abbr>ს</abbr></supplied><ex>რუ</ex><supplied reason="omitted" precision="high"><abbr>ლ</abbr></supplied><ex>ო</ex><abbr>ბით</abbr></expan></w>
                           <w lemma="მსახურება"><expan><supplied reason="omitted" precision="high"><abbr>ჰ</abbr></supplied><abbr>მს</abbr><supplied reason="omitted" precision="high"><abbr>ა</abbr></supplied><abbr>ხ</abbr><ex>უ</ex><supplied reason="omitted" precision="high"><abbr>რ</abbr></supplied><ex>ე</ex><abbr>ბ</abbr><supplied reason="omitted" precision="high"><abbr>დ</abbr></supplied><abbr>ი</abbr><supplied reason="omitted" precision="high"><abbr>თ</abbr></supplied></expan></w>
-                          
+
                           <w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრთი</ex><abbr>ს</abbr><supplied reason="lost" precision="medium"><abbr>მ</abbr></supplied><abbr>შ</abbr><ex>ო</ex><supplied reason="omitted" precision="high"><abbr>ბ</abbr></supplied><ex>ე</ex><abbr>ლს</abbr><supplied reason="omitted" precision="high"><abbr>ა</abbr></supplied></expan></w>
                           <w lemma="და">დ<supplied reason="omitted" precision="high">ა</supplied></w>
                           <w lemma="ესე"><expan><abbr>ამ</abbr><ex>ა</ex><abbr>ს</abbr></expan></w>
-                          
+
                <lb n="9"/>
                           <persName><name nymRef="დიმიტრი"><expan><supplied reason="omitted" precision="high"><abbr>დ</abbr></supplied><ex>ი</ex><supplied reason="lost" precision="medium"><abbr>მ</abbr></supplied><ex>იტ</ex><abbr>რ</abbr><supplied reason="lost" precision="low"><abbr>ი</abbr></supplied></expan></name></persName>
-                          
+
                           <w lemma="და">და</w>
                           <w lemma="წყალობა"><expan><abbr>შ</abbr><ex>ეი</ex><abbr>წყ</abbr><ex>ა</ex><supplied reason="lost" precision="medium"><abbr>ლე</abbr></supplied></expan></w>
-                          
-                          <orig n="unresolved">ჩთ</orig>                                        
-              <lb n="10"/><w lemma="ოდეს"><expan><abbr>ოდ</abbr><ex>ე</ex><abbr>ს</abbr></expan></w>  
+
+                          <orig n="unresolved">ჩთ</orig>
+              <lb n="10"/><w lemma="ოდეს"><expan><abbr>ოდ</abbr><ex>ე</ex><abbr>ს</abbr></expan></w>
                           <w lemma="გათავება"><expan><abbr>გ</abbr><ex>ა</ex><abbr>თ</abbr><ex>ა</ex><abbr>ვ
               <lb n="11" break="no"/>დ</abbr><ex>ა</ex></expan></w>
                           <rs type="date"><w lemma="ქორონიკონ"><expan><abbr>ქ</abbr><ex>ო</ex><abbr>რ</abbr><ex>ონი</ex><abbr>კ</abbr><ex>ო</ex><supplied reason="lost" precision="medium"><abbr>ნ</abbr></supplied>ი</expan></w>
                           <w lemma="ყოფნა">იყო</w>
-              <lb n="12"/><num value="362"><supplied reason="lost">ტ</supplied>ჲბ</num></rs>            
+              <lb n="12"/><num value="362"><supplied reason="lost">ტ</supplied>ჲბ</num></rs>
             </ab>
             </div>
-            
 
-            
+
+
                 <div type="translation"/>
-                
+
                 <div type="commentary">
-                     <p>მეცხრე სტრიქონის ბოლოს ტექსტის დასრულების ნიშნად გამოყენებულია სიმბოლო >. 
+                     <p>მეცხრე სტრიქონის ბოლოს ტექსტის დასრულების ნიშნად გამოყენებულია სიმბოლო >.
                          დაზიანება: გარდა ბუნებრივი გამოქარვისა და გადარეცხვისა, წარწერას ეტყობა აშკარად ხელოვნური ძალისმიერი დაზიანებები. შეიმჩნევა მრავლობითი ვერტიკალურად
                         ჩამოთლილი ზოლები და სხვა ამოტეხილი ადგილები. დაზიანების გამო ვრცელი წარწერიდან განირჩევა მხოლოდ ცალკეული გრაფემები და სიტყვები. ერთიანი ტექსტის
-                        და ზუსტი შინაარსის აღდგენა ვერ ხერხდება. 
+                        და ზუსტი შინაარსის აღდგენა ვერ ხერხდება.
                         წარწერის დათარიღება წინა გამოცემებში: ლ. მუსხელიშვილის მიხედვით, ქორონიკონი „:ჲ:ბ:“ - 1312+62=1374 წ.
                         წარწერის დათარირების საფუძველი: წარწერას გააჩნია უნიკალური ფორმით - წარწერის ძირითადი ტექსტის შიდა სივრცეში სპეციალურად ამოჭრილ ჩარჩოში ჩასმული
                         ქორონიკონი. ქორონიკონი შედგებოდა სამი გრაფემისგან, რომლებიც ერთმანეთისგან ორწერტილებითაა გამიჯნული. ორწერტილია ასევე ამოჭრილი თითო გრაფემის თავზე.
@@ -304,7 +304,7 @@
                         მონღოლებს და ბრუნდება აღმოსავლეთ საქართველოში. ხოლო მისი მემკვიდრე დავით VI ნარინი ურდოშია გაგზავნილი მეფობის დასამტკიცებლად. ამგვარად, ამ ისტორიული
                         რეალობის გათვალისწინებით, დმანისის წარწერაში მოხსენიებული მეფის გამარჯვებას და მისივე ქტიტორობით დმანისის სიონში რაიმე მშენებლობის დაწყებას, დასრულებას
                         და ეპისკოპოსის დასმას არ უნდა ჰქონოდა ადგილი 1242 წ-მდე, როდესაც დმანისს და მთელს აღმოსავლეთ საქართველოს მონღოლები განაგებენ, ხოლო ქართველი მეფე
-                        დასავლეთ საქართველოს აფარებს თავს. 1142 წ. უკეთ შეესაბამება წარწერის მონაცემებს. ამ დროს დმანისი დემეტრე I-ის (1125-1155 წწ.) იურისდიქციაში უნდა 
+                        დასავლეთ საქართველოს აფარებს თავს. 1142 წ. უკეთ შეესაბამება წარწერის მონაცემებს. ამ დროს დმანისი დემეტრე I-ის (1125-1155 წწ.) იურისდიქციაში უნდა
                         ყოფილიყო. მანამდე, დემეტრემ რამდენიმე გამარჯვება მოიპოვა: დემეტრემ დმანისი ორჯერ აიღო - 1125 და 1128 წწ-ში. შემდგომ 1130 წ-ს მან უკუაქცია შაჰ არმენ
                         სუქმან II. 1139 წ-ს დემეტრემ განძა იაღო. არაა გამორიცხული წარწერაში სწორედ განძაზე გამარჯვება და იმავე წელს მშენებლობის დაწყება იყოს მოხსენიებული.
                         ამგვარად, დემეტრე I-ის მეფობა მისი გამარჯვებები და დმანისის ფლობა უკეთ შეესაბამება წარწერის მონაცემებს და ის 1142 წ-ით უნდა დათარიღდეს</p>

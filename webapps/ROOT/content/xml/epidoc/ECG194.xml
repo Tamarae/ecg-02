@@ -28,12 +28,12 @@
                                 <support>
                                     <objectType>ქვაჯვარი</objectType>
                                     <material>წითელი ტუფი</material>
-                                
+
                             </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>ქვაჯვრის ფრაგმენტი</layout>
-    
+
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -42,7 +42,7 @@
                                 <p xml:lang="en">Asomtavruli inscription</p>
                                 <dimensions>
                                     <height/>
-                                </dimensions>    
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -51,58 +51,57 @@
                             <origPlace>ნაგზაურა</origPlace>
                             <origDate >VII</origDate>
                         </origin>
-                        
+
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
     </teiHeader>
     <text>
-                    <!-- 
+                    <!--
                 1.  [ქ. თ(ე)კლ
                 2.  ა] პ(ი)რ
-                3.  [ვ]ელ 
+                3.  [ვ]ელ
                 4.  [მ(ო)წ](ამ)ე
                 -->
         <body>
-            
+
             <div type="bibliography">
-                
-                   <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>86-87</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                    
-                    <p><bibl n="2">ზაზა ალექსიძე, ადრექრისტიანული საეკლესიო კომპლექსი დმანისთან, <citedRange>84</citedRange>, თბილისი, 2012<ptr target="bibliography.xml#b207"/></bibl></p>
-       
-                
-                
+
+                   <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>86-87</citedRange>, თბილისი, 2018</bibl></p>
+
+                    <p><bibl n="2"><ptr target="#b207"/> ზაზა ალექსიძე, ადრექრისტიანული საეკლესიო კომპლექსი დმანისთან, <citedRange>84</citedRange>, თბილისი, 2012</bibl></p>
+
+
+
             </div>
             <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
 
                 <ab>
                     <lb n="1"/><supplied reason="lost">ქ</supplied> <name nymRef="თეკლა პირველმოწამე"><expan><abbr>თ</abbr><ex>ე</ex><abbr>კლ</abbr>
                     <lb n="2" break="no"/><supplied reason="lost"><abbr>ა</abbr></supplied></expan></name> <w lemma="პირველმოწამე"><expan><abbr>პ</abbr><ex>ი</ex><abbr>რ</abbr>
-                    <lb n="3" break="no"/><supplied reason="lost"><abbr>ვ</abbr></supplied><abbr>ელ</abbr></expan> 
+                    <lb n="3" break="no"/><supplied reason="lost"><abbr>ვ</abbr></supplied><abbr>ელ</abbr></expan>
                     <lb n="4"/><expan><supplied reason="lost"><abbr>მ</abbr><ex>ო</ex><abbr>წ</abbr></supplied><ex>ამ</ex><abbr>ე</abbr></expan></w>
                 </ab>
-                
+
             </div>
             <div type="translation"/>
-            
+
             <div type="commentary">
-                <p> წითელი ტუფის ქვაჯვრის ფრაგმენტზე შემორჩენილია ამოკვეთილი ასომთავრული წარწერის ნაშთი, 3 სტრიქონი. პირველმოწამეს სახელის აღდგენის რამდენიმე ვარიანტი არსებობს: სტეფანე, რაჟდენ, 
+                <p> წითელი ტუფის ქვაჯვრის ფრაგმენტზე შემორჩენილია ამოკვეთილი ასომთავრული წარწერის ნაშთი, 3 სტრიქონი. პირველმოწამეს სახელის აღდგენის რამდენიმე ვარიანტი არსებობს: სტეფანე, რაჟდენ,
                     თეკლა. "ნაგზაურა"-ს ერთ-ერთ პოლიგრიმულ გრფიტოში დაფიქსირებული სახელი "თეკლე", რაც, ჩვენი აზრით, უფრო მეტი ალბათობითგვაძლვეს ვარაუდის დაშვების უფლებას, რომ პირველმოწამეს
                     სახელი აღვადგინოთ როგორც "თეკლა".
                     დაზიანება: წარწერა ფრაგმენტულია.
                     წარწერის დათარიღება წინა გამოცემაში: VII ს. (ზ. ალექსიძე)
                     წარმოდგენილ გამოცემაში გაზიარებულია მოცემული დათარიღება.
                 </p>
-                
-               
+
+
             </div>
         </body>
     </text>
 </TEI>
-
-
-
-
-

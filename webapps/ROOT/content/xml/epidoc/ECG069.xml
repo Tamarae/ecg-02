@@ -25,21 +25,21 @@
                     <msIdentifier>
                         <collection>ბოლნისის სიონი</collection>
                     </msIdentifier>
-                                        
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მოსახსენებელი</seg>
                             <seg xml:lang="en">Memorial</seg>
                         </summary>
                     </msContents>
-                    
+
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
                                     <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
                                     <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">Facade</objectType>
-                                    
+
                                     <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
                                     <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
                                     <dimensions unit="cm">
@@ -66,7 +66,7 @@
                                 <height unit="cm">3</height>
                                </handNote>
                         </handDesc>
-                    </physDesc>                
+                    </physDesc>
                     <history>
                         <origin>
                             <origPlace ref="https://memkvidreoba.gov.ge/objects/immovable/immovableObject?id=24984">
@@ -75,7 +75,7 @@
                             </origPlace>
                            <origDate notBefore="0900" notAfter="1000">X AD</origDate>
                         </origin>
-                        
+
                         <provenance type="found" when="1840">
                             <placeName type="ancientFindspot"  ref="http://pleiades.stoa.org/places/863760">
                                 <seg xml:lang="ka">ბოლნისის სიონი</seg>
@@ -83,9 +83,9 @@
                             </placeName>
                              <!-- 41.389081, 44.512551 -->
                             <rs type="monuList"/>
-                            <rs type="circumstances">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში, 
+                            <rs type="circumstances">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში,
                                 9 კმ. მანძილზე ქ. ბოლნისიდან სამხრეთით, 1 კმ. მანძილზე სოფ. ბონის-ხაჩინიდან.</rs>
-                            <rs type="context"/>  
+                            <rs type="context"/>
                         </provenance>
                         <provenance type="observed">
                             <placeName type="modernSpot">
@@ -102,7 +102,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <facsimile>
@@ -112,58 +112,58 @@
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
-    </facsimile>    
+    </facsimile>
     <text>
         <body>
  <div type="bibliography">
-     
-     <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები<ptr target="bibliography.xml#b101"/>, <citedRange> 250-251</citedRange></bibl></p>
-     <p><bibl n="2">M. Brosset, Explications<ptr target="bibliography.xml#b18"/>, <citedRange>421-422</citedRange></bibl></p>
-     <p><bibl n="3">ლევან მუსხელიშვილი, ბოლნისი<ptr target="bibliography.xml#b93"/>, <citedRange> 341</citedRange></bibl></p>
-         
-            </div>
-            
-              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">                     
 
-                   <!-- ს(ა)ხ(ე)ლ(ი)თ(ა) ღ(მრთისაჲთ)[ა] 
-                        [შ(ე)წ(ევ)]ნ(ი)[თა წ(მიდის)ა] 
+     <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები, <citedRange> 250-251</citedRange></bibl></p>
+     <p><bibl n="2"><ptr target="#b18"/> M. Brosset, Explications, <citedRange>421-422</citedRange></bibl></p>
+     <p><bibl n="3"><ptr target="#b93"/> ლევან მუსხელიშვილი, ბოლნისი, <citedRange> 341</citedRange></bibl></p>
+
+            </div>
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+
+                   <!-- ს(ა)ხ(ე)ლ(ი)თ(ა) ღ(მრთისაჲთ)[ა]
+                        [შ(ე)წ(ევ)]ნ(ი)[თა წ(მიდის)ა]
                         გ(იორგ)ისა დ(ა)ვ
                         [დ(ე)ვ] მე ე(ლ)ჲ(ა) ც(ო)დ
                         ვ(ი)ლმ(ა)ნ ...
-                        კჳრ(ა)სა 
+                        კჳრ(ა)სა
                         ღ(ა)მ(ი)სთ(ე)ვ(ა)[ჲ]
                         -->
-            
+
      <ab>
-      <lb n="1"/><w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ი</ex><abbr>თ</abbr><ex>ა</ex></expan></w> 
-                 <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთისაჲთ</ex><supplied reason="lost"><abbr>ა</abbr></supplied></expan></w> 
-      <lb n="2"/><w lemma="შეწევნა"><expan><supplied reason="lost"><abbr>შ</abbr><ex>ე</ex><abbr>წ</abbr><ex>ევ</ex></supplied><abbr>ნ</abbr><ex>ი</ex><supplied reason="lost"><abbr>თა</abbr></supplied></expan></w> 
-                 <w lemma="წმიდა"><expan><supplied reason="lost"><abbr>წ</abbr><ex>მიდის</ex><abbr>ა</abbr></supplied></expan></w> 
-      <lb n="3"/><name nymRef="გიორგი"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ისა</abbr></expan></name> 
+      <lb n="1"/><w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ი</ex><abbr>თ</abbr><ex>ა</ex></expan></w>
+                 <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთისაჲთ</ex><supplied reason="lost"><abbr>ა</abbr></supplied></expan></w>
+      <lb n="2"/><w lemma="შეწევნა"><expan><supplied reason="lost"><abbr>შ</abbr><ex>ე</ex><abbr>წ</abbr><ex>ევ</ex></supplied><abbr>ნ</abbr><ex>ი</ex><supplied reason="lost"><abbr>თა</abbr></supplied></expan></w>
+                 <w lemma="წმიდა"><expan><supplied reason="lost"><abbr>წ</abbr><ex>მიდის</ex><abbr>ა</abbr></supplied></expan></w>
+      <lb n="3"/><name nymRef="გიორგი"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ისა</abbr></expan></name>
                 <w lemma="დადება"><expan><abbr>დ</abbr><ex>ა</ex><abbr>ვ</abbr>
-      <lb n="4" break="no"/><supplied reason="lost"><abbr>დ</abbr><ex>ე</ex><abbr>ვ</abbr></supplied></expan></w> 
-                <w lemma="მე">მე</w> 
+      <lb n="4" break="no"/><supplied reason="lost"><abbr>დ</abbr><ex>ე</ex><abbr>ვ</abbr></supplied></expan></w>
+                <w lemma="მე">მე</w>
                 <persName type="local" key="ელია ბოლნელი"><name nymRef="ელია"><expan><abbr>ე</abbr><ex>ლ</ex><abbr>ჲ</abbr><ex>ა</ex></expan></name> </persName>
                 <w lemma="ცოდვილ"><expan><abbr>ც</abbr><ex>ო</ex><abbr>დ
-      <lb n="5" break="no"/>ვ</abbr><ex>ი</ex><abbr>ლმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
+      <lb n="5" break="no"/>ვ</abbr><ex>ი</ex><abbr>ლმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
                 <!--  <gap reason="lost" extent="unknown" unit="character"></gap> -->
-      <lb n="6"/><w lemma="კვირა"><expan><abbr>კჳრ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w> 
-      <lb n="7"/><w lemma="ღამისთევა"><expan><abbr>ღ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ი</ex><abbr>სთ</abbr><ex>ე</ex><abbr>ვ</abbr><ex>ა</ex><supplied reason="lost"><abbr>ჲ</abbr></supplied></expan></w> 
-    </ab>                                                                  
+      <lb n="6"/><w lemma="კვირა"><expan><abbr>კჳრ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w>
+      <lb n="7"/><w lemma="ღამისთევა"><expan><abbr>ღ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ი</ex><abbr>სთ</abbr><ex>ე</ex><abbr>ვ</abbr><ex>ა</ex><supplied reason="lost"><abbr>ჲ</abbr></supplied></expan></w>
+    </ab>
 </div>
 
             <div type="translation">
-                <p  xml:lang="ka">ღმრთის სახელით, წმიდა გიორგის შეწევნით, დავაწესე მე ცოდვილმა ელჲამ კვირას ღამისთევა.</p>                                                                                                                                                                                                                                                                  
+                <p  xml:lang="ka">ღმრთის სახელით, წმიდა გიორგის შეწევნით, დავაწესე მე ცოდვილმა ელჲამ კვირას ღამისთევა.</p>
             </div>
-            
+
             <div type="apparatus" xml:space="preserve"/>
-        
+
             <div type="commentary">
-                <p  xml:lang="ka"> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #138. ეს წარწერა პირველად გამოსცა მარი ბროსემ დიბუა დემონპერეს მიერ გადაღებული 
-                    გრაფიკული მონახაზის მიხედვით. წარწერა შესრულებულია ელია ბოლნელის წარწერის მსგავსი ხელით. 
+                <p  xml:lang="ka"> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #138. ეს წარწერა პირველად გამოსცა მარი ბროსემ დიბუა დემონპერეს მიერ გადაღებული
+                    გრაფიკული მონახაზის მიხედვით. წარწერა შესრულებულია ელია ბოლნელის წარწერის მსგავსი ხელით.
                     იგი XIX საუკუნის შუა წლებში ძლიერ დაზიანებული ყოფილა. ლევან მუსხელიშვილის აზრით, წარწერა
-                    გადმოდიოდა კარის მარჯვენა გვერდზე, ამჟამად მისი კვალი აღარ ჩანს. 
-                    წარწერის დათარიღების პალეოგრაფიული საფუძველია: პალეოგრაფიული და შინაარსობრივი დაკავშრება წარწერისა ელია ბოლნელის წარწერასთან. 
+                    გადმოდიოდა კარის მარჯვენა გვერდზე, ამჟამად მისი კვალი აღარ ჩანს.
+                    წარწერის დათარიღების პალეოგრაფიული საფუძველია: პალეოგრაფიული და შინაარსობრივი დაკავშრება წარწერისა ელია ბოლნელის წარწერასთან.
                    მარი ბროსემ წარწერა ასე ამოიკითხა: „სახელითა ღუ(თისა)თა ...რს გრიგოლისა დავდევ მე... გლახაკმან ამას კარსა ღამისთევაჲ“.
                   </p>
                </div>

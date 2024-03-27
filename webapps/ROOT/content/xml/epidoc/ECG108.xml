@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
@@ -31,9 +31,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
                                       <dimensions unit="cm">
                                         <width/>
                                         <height/>
@@ -44,41 +44,41 @@
                                 <layoutDesc>
                                     <layout writtenLines="1">წარწერა ერთსტრიქონიანია.
                                     წარწერიანი რელიეფი ჩასმულია ტაძრის ჩრდილო-აღმოსავლეთის კუთხეში, კარნიზის ბოლოებში, გადახურვის კიდეების გასწვრივ,
-                                რომელზეც გამოსახულია ხუროთმოძღვრის გამოსახულება გონიოთი ხელში და მისი სახელის აღმნიშვნელი წარწერით „ႥႹႤ“. 
-                                წერაქვის გასწვრივ და მარცხენა ფეხის გასწვრივ ამოკვეთილია წარწერა ეპიგრაფიული ნუსხურით. 
+                                რომელზეც გამოსახულია ხუროთმოძღვრის გამოსახულება გონიოთი ხელში და მისი სახელის აღმნიშვნელი წარწერით „ႥႹႤ“.
+                                წერაქვის გასწვრივ და მარცხენა ფეხის გასწვრივ ამოკვეთილია წარწერა ეპიგრაფიული ნუსხურით.
                                 წარწერის თავზე, სიტყვის მთელ სიგანეზე დასმულია ქარაგმის სწორი ხაზი.
                                         <dimensions unit="cm">
                                              <width/>
-                                             <height/> 
-                                          </dimensions>  
-                                    </layout>                                   
+                                             <height/>
+                                          </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="nuskhuri" style="inscribed">
                                 <rs type="execution">ამოღარული</rs> <rs type="script">ნუსხური</rs> წარწერა
-                                   <height/> 
+                                   <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                             <origin>
                                 <origPlace>საფარის მონასტრის მიძინების ტაძარი</origPlace>
-                                 <origDate notBefore-custom="900" notAfter-custom="1000" precision="medium" 
+                                 <origDate notBefore-custom="900" notAfter-custom="1000" precision="medium"
                                     evidence="context" datingMethod="#julian">X AD</origDate>
                             </origin>
                             <provenance type="found">
                                 <placeName type ="ancientFindspot">საფარის მონასტრის მიძინების ტაძარი</placeName>
-                                <!-- "41.602116, 43.031036"--> 
+                                <!-- "41.602116, 43.031036"-->
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                                
+                            </provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot">საფარის მონასტრის მიძინების ტაძარი</placeName>
                                 <idno type="invNo"/>
-                            </provenance> 
-                    </history>                   
+                            </provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -86,7 +86,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <facsimile>
@@ -98,33 +98,33 @@
         </surface>
     </facsimile>
     <text>
-        <body> 
+        <body>
              <div type="bibliography">
-               
-     <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
-     <p><bibl n="2">ვალერი სილოგავა, საფარის ხუროთმოძღვრები<ptr target="bibliography.xml#b156"/>, <citedRange> 192-201</citedRange></bibl></p>        
-              
+
+     <p><bibl n="1"><ptr target="#b149"/> ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა, <citedRange> 118-169</citedRange></bibl></p>
+     <p><bibl n="2"><ptr target="#b156"/> ვალერი სილოგავა, საფარის ხუროთმოძღვრები, <citedRange> 192-201</citedRange></bibl></p>        
+
             </div>
-            
-              <div type="edition" xml:lang="ka" ana="nuskhuri" xml:space="preserve">
-                
-                        <!--  "ვჩე"-->                                           
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+
+                        <!--  "ვჩე"-->
 
                 <ab>
                    <lb n="1"/><name nymRef="ვაჩე"><expan><abbr>ვ</abbr><ex>ა</ex><abbr>ჩე</abbr></expan></name>
                    </ab>
              </div>
-              
+
          <div type="translation" xml:lang="ka">
              <p>ვაჩე</p>
-         </div>    
-                             
+         </div>
+
                <div type="commentary">
                 <p>საფარის მონასტერი ძველი დროიდანვე სხვადასხვა დანიშნულების 12 ნაგებობისაგან შედგებოდა. მათ შორის არის მიძინების ტაძარი.
-                   ვალერი სილოგავას აზრით, წარწერაში გამოვლენილი ვაჩე უნდა იყოს მიძინების ტაძრის ხუროთმოძღვარი. იგი სხვა წყაროებით ჯერჯერობით უცნობია. 
-                   თუმცა ანთროპონიმი ვაჩე სავსებით ცნობილია და გავრცელებული, როგორც X-XI სს., ანუ საფარის რელიეფის დროს, ისე მომდევნო ხანის საქართველოში. 
-                 </p> 
-            </div> 
+                   ვალერი სილოგავას აზრით, წარწერაში გამოვლენილი ვაჩე უნდა იყოს მიძინების ტაძრის ხუროთმოძღვარი. იგი სხვა წყაროებით ჯერჯერობით უცნობია.
+                   თუმცა ანთროპონიმი ვაჩე სავსებით ცნობილია და გავრცელებული, როგორც X-XI სს., ანუ საფარის რელიეფის დროს, ისე მომდევნო ხანის საქართველოში.
+                 </p>
+            </div>
         </body>
     </text>
 </TEI>

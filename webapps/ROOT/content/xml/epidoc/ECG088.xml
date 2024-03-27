@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
@@ -34,12 +34,12 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
                                     <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">Plaque</objectType>
                                     <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
-                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>                                    
-                                      <dimensions unit="cm">                                
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
+                                      <dimensions unit="cm">
                                         <width/>
                                         <height/>
                                         <depth/>
@@ -52,49 +52,49 @@
                                         <seg xml:lang="en"></seg>
                                         <dimensions unit="cm">
                                          <width/>
-                                         <height/> 
-                                          </dimensions>  
-                                    </layout>                                   
+                                         <height/>
+                                          </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                                 <seg xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
                                 <seg xml:lang="en"></seg>
-                                   <height/> 
+                                   <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                             <origin>
-                                <origPlace>                                    
+                                <origPlace>
                                     <seg xml:lang="ka">ვანის ქვაბები</seg>
                                     <seg xml:lang="en">Vanis Kvabebi</seg>
                                 </origPlace>
-                                 <origDate notBefore-custom="1100" notAfter-custom="1200" 
+                                 <origDate notBefore-custom="1100" notAfter-custom="1200"
                                     evidence="prosopography" precision="medium">XII AD</origDate>
                             </origin>
                             <provenance type="found" when="1965">
-                                <placeName type ="ancientFindspot">                                    
+                                <placeName type ="ancientFindspot">
                                     <seg xml:lang="ka">ვანის ქვაბები</seg>
                                     <seg xml:lang="en">Vanis Kvabebi</seg>
                                 </placeName>
-                                <!-- "41.382444, 43.308084"--> 
+                                <!-- "41.382444, 43.308084"-->
                                 <rs type="circumstances">
                                    <seg xml:lang="ka">წარწერა აღმოჩენილია არქეოლოგიური გათხრების შედეგად 1965 წელს</seg>
                                     <seg xml:lang="en"></seg>
                                 </rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                                
+                            </provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot" ref="http://museum.ge">
                                     <seg xml:lang="ka">საქართველოს ეროვნული მუზეუმი</seg>
                                      <seg xml:lang="en">National Museum of Georgia</seg>
                                 </placeName>
                                 <idno type="invNo"/>
-                            </provenance> 
-                    </history>                   
+                            </provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -102,7 +102,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <facsimile>
@@ -114,71 +114,71 @@
         </surface>
     </facsimile>
     <text>
-        <body>              
+        <body>
             <div type="bibliography">
-              
-      <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
-               
+
+      <p><bibl n="1"><ptr target="#b149"/> ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა, <citedRange> 118-169</citedRange></bibl></p>
+
             </div>
-             
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!--  "† იჳ ქე ადდე ორთვე შნა სფვთა მფთ
-                            ა მფე და დდფლი თმრ რლისა ზე მე 
+                            ა მფე და დდფლი თმრ რლისა ზე მე
                             იჩქთმნ გურგნისძემნ ავშნე კედლი ესე და და
                             ვსნნ ხტნი მცხრისჲ ღისმშბლისჲ ნთლსმცმლსაჲ
-                            და ჯი წისა სმნისი ვნცა ილცვდთ მცამმიჴსნთ"--> 
-                                                            
+                            და ჯი წისა სმნისი ვნცა ილცვდთ მცამმიჴსნთ"-->
+
                 <ab>
                    <lb n="1"/>&#8224;<w lemma="იესუ"><expan><abbr>ი</abbr><ex>ესო</ex><abbr>ჳ</abbr></expan></w>
-                                <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
-                                <w lemma="დიდება"><expan><abbr>ად</abbr><ex>ი</ex><abbr>დე</abbr></expan></w> 
-                                <w lemma="ორ"><expan><abbr>ორთ</abbr><ex>ა</ex><abbr>ვე</abbr></expan></w> 
-                                <w lemma="შინა"><expan><abbr>შ</abbr><ex>ი</ex><abbr>ნა</abbr></expan></w> 
-                                <w lemma="სუფევა"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ფ</abbr><ex>ე</ex><abbr>ვ</abbr><ex>ა</ex><abbr>თა</abbr></expan></w> 
+                                <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
+                                <w lemma="დიდება"><expan><abbr>ად</abbr><ex>ი</ex><abbr>დე</abbr></expan></w>
+                                <w lemma="ორ"><expan><abbr>ორთ</abbr><ex>ა</ex><abbr>ვე</abbr></expan></w>
+                                <w lemma="შინა"><expan><abbr>შ</abbr><ex>ი</ex><abbr>ნა</abbr></expan></w>
+                                <w lemma="სუფევა"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ფ</abbr><ex>ე</ex><abbr>ვ</abbr><ex>ა</ex><abbr>თა</abbr></expan></w>
                                     <persName type="local" key="თამარ მეფე"><roleName nymRef="მეფეთა მეფე"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფ</abbr><ex>ე</ex><abbr>თ
                    <lb n="2" break="no"/>ა</abbr></expan>
-                               <expan><abbr>მ</abbr><ex>ე</ex><abbr>ფე</abbr></expan></roleName> 
-                                    და 
-                                    <roleName nymRef="დედოფალი"><expan><abbr>დ</abbr><ex>ე</ex><abbr>დ</abbr><ex>ო</ex><abbr>ფ</abbr><ex>ა</ex><abbr>ლი</abbr></expan></roleName> 
-                                    <expan><abbr>თ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ა</ex><abbr>რ</abbr></expan></persName> 
-                                    <w lemma="რომელ"><expan><abbr>რ</abbr><ex>ომ</ex><abbr>ლისა</abbr></expan></w> 
-                                    <w lemma="ზე">ზე</w> 
+                               <expan><abbr>მ</abbr><ex>ე</ex><abbr>ფე</abbr></expan></roleName>
+                                    და
+                                    <roleName nymRef="დედოფალი"><expan><abbr>დ</abbr><ex>ე</ex><abbr>დ</abbr><ex>ო</ex><abbr>ფ</abbr><ex>ა</ex><abbr>ლი</abbr></expan></roleName>
+                                    <expan><abbr>თ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ა</ex><abbr>რ</abbr></expan></persName>
+                                    <w lemma="რომელ"><expan><abbr>რ</abbr><ex>ომ</ex><abbr>ლისა</abbr></expan></w>
+                                    <w lemma="ზე">ზე</w>
                                     <w lemma="მე">მე</w>
                    <lb n="3"/><persName type="local" key="იჩქით გურგენისძე"><expan><abbr>იჩქ</abbr><ex>ი</ex><abbr>თმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan>
-                                <expan><abbr>გურგ</abbr><ex>ე</ex><abbr>ნისძემ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></persName> 
-                                    <w lemma="აღშენება"><expan><abbr>ავ</abbr><ex>ა</ex><abbr>შ</abbr><ex>ე</ex><abbr>ნე</abbr></expan></w> 
-                                    <w lemma="კედელ"><expan><abbr>კედ</abbr><ex>ე</ex><abbr>ლი</abbr></expan></w> 
-                                    <w lemma="ესე">ესე</w> 
+                                <expan><abbr>გურგ</abbr><ex>ე</ex><abbr>ნისძემ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></persName>
+                                    <w lemma="აღშენება"><expan><abbr>ავ</abbr><ex>ა</ex><abbr>შ</abbr><ex>ე</ex><abbr>ნე</abbr></expan></w>
+                                    <w lemma="კედელ"><expan><abbr>კედ</abbr><ex>ე</ex><abbr>ლი</abbr></expan></w>
+                                    <w lemma="ესე">ესე</w>
                                     და
                                 <w lemma="დასუენება"><expan><abbr>და
-                   <lb n="4"/>ვ</abbr><ex>ა</ex><abbr>ს</abbr><ex>უე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w> 
-                                <w lemma="ხატ"><expan><abbr>ხ</abbr><ex>ა</ex><abbr>ტნი</abbr></expan></w> 
-                                 <w lemma="მაცხოვარ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ცხ</abbr><ex>ოვ</ex><abbr>რის</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></w> 
-                                <w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრთ</ex><abbr>ისმშ</abbr><ex>ო</ex><abbr>ბლის</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></w> 
+                   <lb n="4"/>ვ</abbr><ex>ა</ex><abbr>ს</abbr><ex>უე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w>
+                                <w lemma="ხატ"><expan><abbr>ხ</abbr><ex>ა</ex><abbr>ტნი</abbr></expan></w>
+                                 <w lemma="მაცხოვარ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ცხ</abbr><ex>ოვ</ex><abbr>რის</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></w>
+                                <w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრთ</ex><abbr>ისმშ</abbr><ex>ო</ex><abbr>ბლის</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></w>
                                 <w lemma="ნათლისმცემელ"><expan><abbr>ნ</abbr><ex>ა</ex><abbr>თლ</abbr><ex>ი</ex><abbr>სმც</abbr><ex>ე</ex><abbr>მლ</abbr><ex>ი</ex><abbr>საჲ</abbr></expan></w>
-                   <lb n="5"/> და 
-                                <w lemma="ჯუარ"><expan><abbr>ჯ</abbr><ex>უარ</ex><abbr>ი</abbr></expan></w> 
-                                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდ</ex><abbr>ისა</abbr></expan></w> 
-                                <name nymRef="წმ. სჳმეონ"><expan><abbr>ს</abbr><ex>ჳ</ex><abbr>მ</abbr><ex>ეო</ex><abbr>ნისი</abbr></expan></name> 
-                                <w lemma="ვინცა"><expan><abbr>ვ</abbr><ex>ი</ex><abbr>ნცა</abbr></expan></w> 
-                                <w lemma="ლოცვა"><expan><abbr>ილ</abbr><ex>ო</ex><abbr>ცვ</abbr><ex>ი</ex><abbr>დ</abbr><ex>ე</ex><abbr>თ</abbr></expan></w> 
-                                <w lemma="მე"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ცა</abbr></expan></w> 
+                   <lb n="5"/> და
+                                <w lemma="ჯუარ"><expan><abbr>ჯ</abbr><ex>უარ</ex><abbr>ი</abbr></expan></w>
+                                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდ</ex><abbr>ისა</abbr></expan></w>
+                                <name nymRef="წმ. სჳმეონ"><expan><abbr>ს</abbr><ex>ჳ</ex><abbr>მ</abbr><ex>ეო</ex><abbr>ნისი</abbr></expan></name>
+                                <w lemma="ვინცა"><expan><abbr>ვ</abbr><ex>ი</ex><abbr>ნცა</abbr></expan></w>
+                                <w lemma="ლოცვა"><expan><abbr>ილ</abbr><ex>ო</ex><abbr>ცვ</abbr><ex>ი</ex><abbr>დ</abbr><ex>ე</ex><abbr>თ</abbr></expan></w>
+                                <w lemma="მე"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ცა</abbr></expan></w>
                                 <w lemma="მოჴსენება"><expan><abbr>მ</abbr><ex>ო</ex><abbr>მიჴს</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>თ</abbr></expan></w>
                 </ab>
                </div>
-              
-            
+
+
          <div type="translation">
-             <p xml:lang="ka">იესო ქრისტე, ადიდე ორივე სოფელში მეფეთა მეფე და დედოფალი თამარი, რომლის მეფობის დროს მე, იჩქით გურგენისძემ, ავაშენე ეს კედელი და დავასვენე მაცხოვრის, 
+             <p xml:lang="ka">იესო ქრისტე, ადიდე ორივე სოფელში მეფეთა მეფე და დედოფალი თამარი, რომლის მეფობის დროს მე, იჩქით გურგენისძემ, ავაშენე ეს კედელი და დავასვენე მაცხოვრის,
                  ღვთისმშობლის, ნათლისმცემლის ხატები და წმინდა სჳმეონის ჯვარი. ვინც ილოცოს, მეც მომიხსენეთ.</p>
              <p xml:lang="en">Jesus Christ, glorify the King of the kings and Tamar the Queen in both worlds, during whose reign I, Ichkit Gurgenisdze built this wall and placed the icons of God Lord, Mother of Jesus, John the Baptist and Saint Simon Canaanite. Who will pray here, commemorate me as well.</p>
-         </div>                       
-                
+         </div>
+
             <div type="commentary">
-                <p xml:lang="ka">წარწერაში აღნიშნულია, რომ თამარ მეფეთა მეფე და დედოფლის დროს იჩქით გურგენისძეს აუშენებია კედელი („აღვაშენე კედელი ესე“), როგორც ჩანს, ეკლესიის გასამაგრებლად, 
-                და იქვე აღნიშნავს, რომ „დავასუენენ ხატნი მაცხოვრისაჲ, ღვთისმშობლისაჲ, ნათლისმცემლისაჲ და ჯუარი წმიდისა სჳმეონისი“. ამ წარწერაში კედლის აშენებაზეა საუბარი, რომლის 
-                დანიშნულება მონასტრის რომელიღაც ნაგებობის ან მთლიანად ქვაბთა კომპლექსის გამაგრება იყო.</p> 
+                <p xml:lang="ka">წარწერაში აღნიშნულია, რომ თამარ მეფეთა მეფე და დედოფლის დროს იჩქით გურგენისძეს აუშენებია კედელი („აღვაშენე კედელი ესე“), როგორც ჩანს, ეკლესიის გასამაგრებლად,
+                და იქვე აღნიშნავს, რომ „დავასუენენ ხატნი მაცხოვრისაჲ, ღვთისმშობლისაჲ, ნათლისმცემლისაჲ და ჯუარი წმიდისა სჳმეონისი“. ამ წარწერაში კედლის აშენებაზეა საუბარი, რომლის
+                დანიშნულება მონასტრის რომელიღაც ნაგებობის ან მთლიანად ქვაბთა კომპლექსის გამაგრება იყო.</p>
                 <p xml:lang="en"></p>
             </div>
         </body>

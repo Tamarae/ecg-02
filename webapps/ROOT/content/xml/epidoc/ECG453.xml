@@ -33,9 +33,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="www.eagle-network.eu/voc/material/lod/2.html">ქვა</material>
-                                   <objectType>ქვის ფილა</objectType> 
+                                   <objectType>ქვის ფილა</objectType>
                                         <dimensions unit="cm">
                                         <width>59</width>
                                         <height>35</height>
@@ -51,7 +51,7 @@
                                      <width>52</width>
                                         <height>9-7</height>
                                         <depth></depth>
-                                    </layout>  
+                                    </layout>
                                 </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -65,26 +65,26 @@
                         </handDesc>
                         <decoDesc>
                             <decoNote>
-                             
+
                             </decoNote>
                         </decoDesc>
                     </physDesc>
                     <history>
                             <origin>
                                 <origPlace ref="pleiades.stoa.org/places/857170">ილორი</origPlace>
-                                <origDate>XI საუკუნის I მეოთხედი AD</origDate> 
+                                <origDate>XI საუკუნის I მეოთხედი AD</origDate>
                             </origin>
                             <provenance>
                                 <placeName type ="ancientFindspot">ილორი</placeName>
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance> 
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">ილორის წმინდა გიორგის ეკლესია</placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -106,40 +106,41 @@
     </facsimile>
     <text>
         <body>
+          <div type="bibliography" subtype="principalEdition">
+
+                  <p><bibl type="publication" subtype="principal" xml:lang="ka">
+                    <author>
+                        <persName>
+                          <forename></forename>
+                          <surname></surname>
+                        </persName>
+                    </author>
+                    <title/>
+                      <edition/>
+                      <pubPlace/>
+                      <publisher/>
+                      <date></date>
+                   </bibl></p>
+
+          </div>       
             <!--  წ(მიდა)ო გ(იორგ)ი ილორ(ი)საო
                  [შ](ეიწყალ)ე გ(ა)ლ[ატოზი]-->
-              <div type="edition" xml:lang="ka" ana="nuskhuri" xml:space="preserve">
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
                 <ab>
                     <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> <persName ref="attestedperson.xml#person2"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></persName> <placeName><expan><abbr>ილორ</abbr><ex>ი</ex><abbr>საო</abbr></expan></placeName>
                     <lb n="2"/><w lemma="იწყალებს"><expan><supplied reason="undefined" precision="medium">შ</supplied><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> <roleName><w lemma="გალატოზ"><expan><abbr>გ</abbr><ex>ა</ex><abbr>ლ</abbr><supplied reason="undefined" precision="medium"><abbr>ატოზი</abbr></supplied></expan></w></roleName>
                     </ab>
                 </div>
             <div type="translation" xml:lang="ka"><p>ილორის წმინდა გიორგი, შეიწყალე გალატოზი </p></div>
-            
+
             <div type="apparatus" xml:space="preserve"/>
-            
+
             <div type="commentary"><p>ა. კაციას მიერ დასახელებულ პირველ ქვაზე ამოკვეთილი ყოფილა ორი თითოსტრიქონიანი წარწერა; ზედა წარწერას ვ. სილოგავა გალატოზის წარწერით იხსენიებს; წარწერის ფილა შეთეთრებულია კირით; წარწერის დასასრული ფილის გადარეცხვის შედეგად გადასულია; ვ. სილოგავას ვარაუდით წარწერაში „გალატოზის" ნაცვლად შეიძლება ყოფილიყო „გ(აბრიე)ლ ან გ(გრიგო)ლ"; თ. ბარნაველის წაკითხვით „გალატოზის" ადგილზე იკითხება „გიორგი"; გამოცემები: (169.46), (45.159), (164.814), (113ა.62)</p></div>
-            
-            
-            
-            <div type="bibliography" subtype="principalEdition">
-                           
-                    <p><bibl type="publication" subtype="principal" xml:lang="ka">
-                      <author>
-                          <persName>
-                            <forename></forename>
-                            <surname></surname>
-                          </persName>
-                      </author>
-                      <title/>
-                        <edition/>
-                        <pubPlace/>
-                        <publisher/>
-                        <date></date>
-                     </bibl></p>
-                
-            </div>         
-         
+
+
+
+
+
     </body>
 </text>
 </TEI>

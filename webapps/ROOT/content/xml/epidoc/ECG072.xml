@@ -18,7 +18,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <collection>ანაპა</collection>                
+                        <collection>ანაპა</collection>
                     </msIdentifier>
                     <msContents>
                         <summary>
@@ -29,33 +29,44 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">მარმარილო</material>
-                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/53">კვარცხლბეკი</objectType></support></supportDesc>
-                                <layoutDesc>                                    
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/53">კვარცხლბეკი</objectType>
+                                </support>
+                            </supportDesc>
+                                <layoutDesc>
                                     <layout writtenLines="4">
-                                       <p> პრიზმას დამუშავებულ წახნაგზე აქვს ბერძნული წარწერა, რომლის ორივე კიდე (მარცხენა და მარჯვენა) დაზიანებულია.</p>
+                                       <p>პრიზმას დამუშავებულ წახნაგზე აქვს ბერძნული წარწერა, რომლის ორივე კიდე (მარცხენა და მარჯვენა) დაზიანებულია.</p>
                                       <dimensions unit="cm">
                                         <width>9,5</width>
                                         <height>28</height>
-                                        <depth></depth></dimensions>
+                                        <depth/>
+                                      </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
-                                ბერძნული წარწერა ლამაზი მთავრულით არის შესრულებული.
+                                <seg xml:lang="ka">ბერძნული წარწერა ლამაზი მთავრულით არის შესრულებული.
                                 სტრიქონებს შორის მანძილი არაა დატოვებული. IV სტრიქონი შედგება ერთი ასოსა და განკვეთის ნიშნისაგან.
-                                წარწერის დათარიღება ხდება პალეოგრაფიული ნიშნების მიხედვით (კუთხოვანი Ε, C, Ω; α ჩატეხილი 
-                                შუა ხაზით; α-ს და δ-ს მარჯვენა ხაზი ზემოთ გაგრძელებული, მრგვალი μ, ρ, φ; δ-ს თავი შედარებით პატარა; Ε -ს და 
-                                 Η-ს შუახაზი ოდნავ გაგრძელებული წერტილი; განკვეთის ნიშანი ფოთლის სახით).
-                                <height unit="cm" precision="medium">2,5-3</height>
-                                <width unit="cm" precision="medium"></width>
-                                <p></p>
-                                  </handNote>
+                                წარწერის დათარიღება ხდება პალეოგრაფიული ნიშნების მიხედვით (კუთხოვანი Ε, C, Ω; α ჩატეხილი
+                                შუა ხაზით; α-ს და δ-ს მარჯვენა ხაზი ზემოთ გაგრძელებული, მრგვალი μ, ρ, φ; δ-ს თავი შედარებით პატარა; Ε -ს და
+                                 Η-ს შუახაზი ოდნავ გაგრძელებული წერტილი;).</seg>
+                                <seg xml:lang="en">
+                                    Greek inscription of capital letters. No space between the lines. The 4th line consists of one letter and the mark of separation.
+                                    The inscription is dated according to the paleographic data (Ε, C, Ω - with angles; α with a broken crossbar; the right line of α and δ are longer in the tip, μ, ρ, φ are round; head of δ is relatively small;
+                                    Ε and Η have a bit longer dot as a middle line;).
+                                </seg>
+                                <dimensions unit="mm" precision="medium">
+                                    <height>25-30</height>
+                                </dimensions>
+                            </handNote>
                         </handDesc>
                         <decoDesc>
-                            <decoNote></decoNote>
+                            <decoNote>
+                                <seg xml:lang="ka">განკვეთის ნიშანი ფოთლის სახით</seg>
+                                <seg xml:lang="en">the mark of separation is a leaf</seg>
+                            </decoNote>
                         </decoDesc>
                     </physDesc>
                     <history>
@@ -64,16 +75,16 @@
                                 <origDate notBefore="0201" notAfter="0300" evidence="lettering" datingMethod="#julian">III AD</origDate>
                                 </origin>
                             <provenance type="found" when="1874">
-                                <placeName type ="ancientFindspot">ანაპა</placeName> 
+                                <placeName type ="ancientFindspot">ანაპა</placeName>
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance> 
+                            </provenance>
                            <provenance type="observed">
                             <placeName type="modernSpot" ref="http://museum.ge">სახელმწიფო მუზეუმის ლაპიდარიუმი</placeName>
                             <idno>№6</idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -93,53 +104,57 @@
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 254-255</citedRange></bibl></p>
-                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 241-242</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 254-255</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b80"/> თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში, <citedRange> 241-242</citedRange></bibl></p>
+
             </div>
-            
+
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!--...[εὐερ]γέτην Φαρναρν ...
                             [ἀ]νέστησα ἀνδριάν[τι]...
                             [μνή]μης χάριν. ἐν τῷ [ἔτει...]
                             γ.
                                                 -->
-                     
- 
+
+
          <ab>
              <lb n="1"/> <gap reason="illegible" quantity="3" unit="chars"/> <w lemma=""><supplied reason="lost">εὐερ</supplied>γέτην</w> <persName><name nymRef="Φαρναρν">Φαρναρν</name></persName><gap reason="illegible" quantity="3" unit="chars"/>
              <lb n="2"/> <w lemma="ἀνίστημι"><supplied reason="lost">ἀ</supplied>νέστησα</w> <w lemma="ἀνδριάς">ἀνδριάν<supplied reason="lost">τι</supplied></w><gap reason="illegible" quantity="3" unit="chars"/>
              <lb n="3"/> <w lemma="μνήμη"><supplied reason="lost">μνή</supplied>μης</w> <w lemma="χάρις">χάριν</w> <w lemma="ἐν">ἐν</w> <w lemma="ὁ">τῷ</w> <w lemma="ἔτος"><supplied reason="lost">ἔτει</supplied></w><gap reason="lost" quantity="3" unit="chars"/>
              <lb n="4"/> <num value="3">γ</num>.
-            </ab>    
-             
-         
+            </ab>
+
+
             </div>
-                
-            <div type="translation" xml:lang="ka">
-                <p>აღვუმართე ქანდაკება კეთილისმყოფელ ფარნარნს (?), მოსაგონებლად (ან - პატივის მისაგებლად), წელსა... (დღესა) მესამესა.</p>
+
+            <div type="translation">
+                <p xml:lang="ka">აღვუმართე ქანდაკება კეთილისმყოფელ ფარნარნს (?), მოსაგონებლად (ან - პატივის მისაგებლად), წელსა... (დღესა) მესამესა.</p>
+                 <p xml:lang="en">I erected the statue of Pharnarn the benefactor (?), to commemorate (or to glorify), year … (day) third.</p>
             </div>
-            
+
            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              
+
               <p><app loc="3"><lem><supplied reason="lost">μνή</supplied>μης</lem>
               <rdg resp="თ. ყაუხჩიშვილი"><supplied reason="lost">τει</supplied>μῆς</rdg>
               </app></p>
              </div>
-           
+
             <div type="commentary">
-                <p>როგორც ჩანს, წარწერა იყო ქანდაკების ბაზაზე შესრულებული. საკუთარი სახელი Φαρναρν - სხვა ძეგლების მიხედვით ცნობილი არ არის.</p>
-                <p>მიუხედავად იმისა, რომ წარწერა ფრაგმენტულია, დაახლოებით გასაგებია მისი შინაარსი. კონსტრუქციაა ცოტა თავისებური: 
-                მოსალოდნელი იყო ἀνέστησα εὐεργέτῃ ἀδριάντα ე.ი. აღვუმართე კეთილისმყოფელს ქანდაკება, (აქ კი გვაქვს: აღვმართე 
-                კეთილისმყოფელი ქანდაკებად...) φαρναρν... არც საკუთარი სახელია ცნობილია ასეთი ფორმით და არც საზოგადო სახელი. ვ. ლატიშევი 
-                ფიქრობს, რომ ამომჭრელს შეეშალა და ნაცვლად ბოსფორის წარწერებში გავრცელებული სახელისა - Φαρνάκης ან Φαρνακίων ამოჭრა 
-                Φαρναρν. ამ ხასიათის შეცდომა სხვა არ არის, ისე რომ ამ შემთხვევაში ნაკლებ სავარაუდებელია უბრალო შეცდომა.</p>
-                <p>წარწერა უნდა იყოს ფარნარნის (?) ქანდაკების კვარცხლბეკის წარწერა.</p>
+                <p xml:lang="ka">როგორც ჩანს, წარწერა იყო ქანდაკების ბაზაზე შესრულებული. საკუთარი სახელი Φαρναρν - სხვა ძეგლების მიხედვით ცნობილი არ არის.
+                    მიუხედავად იმისა, რომ წარწერა ფრაგმენტულია, დაახლოებით გასაგებია მისი შინაარსი. კონსტრუქციაა ცოტა თავისებური:
+                მოსალოდნელი იყო ἀνέστησα εὐεργέτῃ ἀδριάντα ე.ი. აღვუმართე კეთილისმყოფელს ქანდაკება, (აქ კი გვაქვს: აღვმართე
+                კეთილისმყოფელი ქანდაკებად...) φαρναρν... არც საკუთარი სახელია ცნობილია ასეთი ფორმით და არც საზოგადო სახელი. ვ. ლატიშევი
+                ფიქრობს, რომ ამომჭრელს შეეშალა და ნაცვლად ბოსფორის წარწერებში გავრცელებული სახელისა - Φαρνάκης ან Φαρνακίων ამოჭრა
+                Φαρναρν. ამ ხასიათის შეცდომა სხვა არ არის, ისე რომ ამ შემთხვევაში ნაკლებ სავარაუდებელია უბრალო შეცდომა.
+                წარწერა უნდა იყოს ფარნარნის (?) ქანდაკების კვარცხლბეკის წარწერა.</p>
+                <p xml:lang="en">
+                    In spite of the fact that the inscription is represented only with fragments, the content is clear.
+                    The structure of the sentence is a bit unusual: ἀνέστησα εὐεργέτῃ ἀδριάντα was an expected form, I erected the statue of the benefactor (while in here we have “I erected a benefactor statue”),
+                    φαρναρν… no personal or common name known of this form. V Latishev suggests that the author made a mistake and instead of the names Φαρνάκης or Φαρνακίων engraved the name Φαρναρν. We don’t have any evidence of this kind of a mistake so this suggestion might not be plausible.
+                </p>
             </div>
         </body>
     </text>
 </TEI>
-
-

@@ -25,7 +25,7 @@
                     <msIdentifier>
                         <collection>ბოლნისი</collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მოსახსენებელი</seg>
@@ -48,25 +48,25 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout writtenLines="7">
-                                   <seg xml:lang="ka"> წარწერა შვიდსტრიქონიანია. ოთხწახნაგა ქვის (როგორც ჩანს, ქვაჯვრის ქვედა მკლავი) ქვედა ნაწილში გამოკვეთილია კვარცხლბეკის ბუდეში ჩასადგემელი ფეხი. 
-                                    ქვის ორი წახნაგი გლუვია, ერთზე გამოყვანილია რელიეფური, წიწვოვანი ორნამენტით შემკობილ ტარზე დასმულ მედალიონში ჩასმული ექვსყურა როზეტი. 
+                                   <seg xml:lang="ka"> წარწერა შვიდსტრიქონიანია. ოთხწახნაგა ქვის (როგორც ჩანს, ქვაჯვრის ქვედა მკლავი) ქვედა ნაწილში გამოკვეთილია კვარცხლბეკის ბუდეში ჩასადგემელი ფეხი.
+                                    ქვის ორი წახნაგი გლუვია, ერთზე გამოყვანილია რელიეფური, წიწვოვანი ორნამენტით შემკობილ ტარზე დასმულ მედალიონში ჩასმული ექვსყურა როზეტი.
                                     მეოთხე წახნაგზე ამოღარულია წარწერა.</seg>
                                     <seg xml:lang="en">Seven line inscription. Four side stone (probably the lower part of a cross pillar) has a foot to be fixed in the pedestal. Two sides of the stone are smooth, on one side there is the embossed ornament of six leaves rosette embedded in a medallion that is decorated with the ornament of the pine needles. </seg>
-                                        <dimensions unit="cm"> 
+                                        <dimensions unit="cm">
                                         <height/>
                                         <width/>
                                     </dimensions>
                                    </layout>
                             </layoutDesc>
-                        </objectDesc>                       
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                                 <seg xml:lang="ka"><rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
                                 <seg xml:lang="en">Engraved Asomtavruli inscription</seg>
-                                <height unit="cm">1-2</height>                              
+                                <height unit="cm">1-2</height>
                             </handNote>
                         </handDesc>
-                    </physDesc>           
+                    </physDesc>
                      <history>
                         <origin>
                             <origPlace ref="https://memkvidreoba.gov.ge/objects/immovable/immovableObject?id=24984">
@@ -75,23 +75,23 @@
                             </origPlace>
                            <origDate notBefore="0400" notAfter="0600">VIII AD</origDate>
                         </origin>
-                        
+
                         <provenance type="found" when="1937">
                             <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">
                                 <seg xml:lang="ka">ბოლნისის სიონი</seg>
                                 <seg xml:lang="en">Bolnisi Sioni</seg>
                             </placeName>
-                            <!-- 41.389081, 44.512551 --> 
+                            <!-- 41.389081, 44.512551 -->
                             <rs type="monuList"/>
                             <rs type="circumstances">
-                                <seg xml:lang="ka">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში, 
-                                9 კმ. მანძილზე ქ. ბოლნისიდან სამხრეთით, 1 კმ. მანძილზე სოფ. ბონის-ხაჩინიდან. 
+                                <seg xml:lang="ka">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში,
+                                9 კმ. მანძილზე ქ. ბოლნისიდან სამხრეთით, 1 კმ. მანძილზე სოფ. ბონის-ხაჩინიდან.
                                 წარწერა ბოლნისის სიონის ტერიტორიაზე 1937 წელს აღმოაჩინა კულტურულ ძეგლთა
                             დაცვის კომიტეტის მიერ მოწყობილმა არქეოლოგიურმა ექსპედიციამ, რომელსაც ლევან მუსხელიშვილი ხელმძღვანელობდა.</seg>
                                 <seg xml:lang="en">Bolnisi Sioni Cathedral is located in Kvemo Kartli, 9 km away from city Bolnisi to the south, 1 km distance from the village Bonis-Khachini. The inscription was discovered during the archaeological expedition held by the Cultural Heritage Preservation Committee supervised by Levan Muskhelishvili in 1937.</seg>
                             </rs>
                             <rs type="context"/>
-                        </provenance>                     
+                        </provenance>
                         <provenance type="observed">
                             <placeName type="modernSpot" ref="http://museum.ge/">
                                 <seg xml:lang="ka">საქართველოს ეროვნული მუზეუმი</seg>
@@ -107,9 +107,9 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
-    </teiHeader>  
+    </teiHeader>
     <facsimile>
         <surface>
             <graphic url="ecg065.jpg">
@@ -117,19 +117,19 @@
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
-    </facsimile> 
+    </facsimile>
     <text>
-        <body>   
-             <div type="bibliography"> 
-                
-                    <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები<ptr target="bibliography.xml#b101"/>, <citedRange> 118</citedRange></bibl></p>
-                    <p><bibl n="2">ლევან მუსხელიშვილი, ბოლნისი<ptr target="bibliography.xml#b93"/>, <citedRange> 332-333</citedRange></bibl></p>
-                    <p><bibl n="3">საქართველოს სახელმწიფო მუზეუმის ქართული ეპიგრაფიკული ძეგლების კატალოგი<ptr target="bibliography.xml#b111"/>, <citedRange> 22</citedRange></bibl></p>
-                
-            </div> 
-            
-              <div type="edition" xml:lang="ka"  xml:space="preserve" ana="mtavruli"> 
-                              
+        <body>
+             <div type="bibliography">
+
+                    <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები, <citedRange> 118</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b93"/> ლევან მუსხელიშვილი, ბოლნისი, <citedRange> 332-333</citedRange></bibl></p>
+                    <p><bibl n="3"><ptr target="#b111"/> საქართველოს სახელმწიფო მუზეუმის ქართული ეპიგრაფიკული ძეგლების კატალოგი, <citedRange> 22</citedRange></bibl></p>
+
+            </div>
+
+              <div type="edition" xml:lang="ka"  xml:space="preserve" ana="mtavruli">
+
                     <!-- „ჩო
                         რაჩ
                         ქე შე
@@ -137,37 +137,37 @@
                         შვილი
                         თურ
                         თ"-->
-            
+
                    <ab>
                        <lb n="1"/><persName type="local" key="ჩორაჩ"><name nymRef="ჩორაჩ">ჩო
                        <lb n="2" break="no"/>რაჩ</name></persName>
-                       <lb n="3"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
+                       <lb n="3"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
                                 <w lemma="შეწყალება"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w>
-                       <lb n="4"/><w lemma="ცოლ-შვილ">ცოლ 
+                       <lb n="4"/><w lemma="ცოლ-შვილ">ცოლ
                        <lb n="5" break="no"/>შვილი
                        <lb n="6" break="no"/>თურ
                        <lb n="7" break="no"/>თ</w>
-                   </ab>                                                
-         </div>   
+                   </ab>
+         </div>
 
             <div type="translation">
-                <p xml:lang="ka">ქრისტე, შეიწყალე ჩორაჩ ცოლ-შვილთან ერთად.</p>  
+                <p xml:lang="ka">ქრისტე, შეიწყალე ჩორაჩ ცოლ-შვილთან ერთად.</p>
                 <p xml:lang="en">Christ, have mercy on Chorach and his wife and children.</p>
-            </div>  
-            
-            <div type="apparatus" xml:space="preserve">  
-                <p><app loc="1"> <lem>ჩორაჩ</lem> 
+            </div>
+
+            <div type="apparatus" xml:space="preserve">
+                <p><app loc="1"> <lem>ჩორაჩ</lem>
                  <rdg resp="აკაკი ბაქარაძე, ლევან მუსხელიშვილი">ჩორან</rdg>
                  </app></p>
                     </div>
 
             <div type="commentary">
                 <p xml:lang="ka"> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #47. ქარაგმის ნიშნად გამოყენებულია საშუალო ზომის განივი, სწორი ხაზი. განკეთილობის ნიშნები არ ახლავს.
-                    წარწერის დათარიღების პალეოგრაფიული ნიშნებია: კუთხოვანი Ⴇ გრაფემა, ძლიერ გახსნილი Ⴐ, Ⴄ და Ⴊ ოდნავ შესამჩნევი მარცხნივ გაზიდული ხაზებით, 
-                    ზედა რკალშეკრული Ⴘ. 
+                    წარწერის დათარიღების პალეოგრაფიული ნიშნებია: კუთხოვანი Ⴇ გრაფემა, ძლიერ გახსნილი Ⴐ, Ⴄ და Ⴊ ოდნავ შესამჩნევი მარცხნივ გაზიდული ხაზებით,
+                    ზედა რკალშეკრული Ⴘ.
                   </p>
                 <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #47.  Abbreviation mark: medium size horizontal straight line. The inscription does not contain any mark of separation. The inscription is dated according to the paleographic data: the angular shape of the grapheme Ⴇ, the graphemes Ⴐ, Ⴄ having widely open top lines and the grapheme Ⴊ with slightly inclined lines to the left, the grapheme Ⴘ also has the top arch engaged. </p>
-               </div>          
+               </div>
         </body>
     </text>
 </TEI>

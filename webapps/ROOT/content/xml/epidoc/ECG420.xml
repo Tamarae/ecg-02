@@ -93,7 +93,7 @@
         <body>
              <div type="bibliography">
                 
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 91</citedRange></bibl></p>
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 91</citedRange></bibl></p>
                 
             </div>
   

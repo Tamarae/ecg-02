@@ -25,7 +25,7 @@
                            სინოპი
                         </collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მემორიალური</seg>
@@ -35,7 +35,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="https://www.eagle-network.eu/voc/material/lod/131">თიხა</material>
                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/305">ლუტერიონი</objectType></support></supportDesc>
                                 <layoutDesc>
@@ -47,9 +47,9 @@
                                         <depth></depth></dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
-                            <handNote>                                
+                            <handNote>
                                 <height unit="cm" precision="medium">1</height>
                                 <width unit="cm" precision="medium"></width>
                                   </handNote>
@@ -61,20 +61,20 @@
                     <history>
                             <origin>
                                 <origPlace></origPlace>
-                                <origDate notBefore-custom="0101" notAfter-custom="0300" precision="medium" 
+                                <origDate notBefore-custom="0101" notAfter-custom="0300" precision="medium"
                                     evidence="context" datingMethod="#julian">II-III AD</origDate>
                               </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot"></placeName> 
+                                <placeName type ="ancientFindspot"></placeName>
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                         
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">სოხუმის მუზეუმი</placeName>
                             <idno>N 60-954/713a</idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -82,7 +82,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-    </teiHeader> 
+    </teiHeader>
  <facsimile>
         <surface>
             <graphic url="ecg288.jpg">
@@ -90,33 +90,33 @@
                 <desc xml:lang="en">Vessel from Sinopi</desc>
             </graphic>
         </surface>
-    </facsimile> 
+    </facsimile>
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 78</citedRange></bibl></p>
-                    <p><bibl n="2">М. Трапш, Раскопки древнего Савестополиса в районе Сухумской крепости в 1959 г.<ptr target="bibliography.xml#b164"/>, <citedRange> 243</citedRange></bibl></p>
-                    <p><bibl n="3">М. Трапш, Труды<ptr target="bibliography.xml#b165"/>, <citedRange> 308</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 78</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b164"/> М. Трапш, Раскопки древнего Савестополиса в районе Сухумской крепости в 1959 г., <citedRange> 243</citedRange></bibl></p>
+                    <p><bibl n="3"><ptr target="#b165"/> М. Трапш, Труды, <citedRange> 308</citedRange></bibl></p>
+
             </div>
 
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!-- •ΟΣΙΒ -->
-                     
+
 
          <ab>
              <persName><name nymRef="Σωσίβιος"><supplied reason="subaudible">Σ</supplied>ωσίβ<supplied reason="subaudible">ιος</supplied></name></persName>
-         </ab>    
-             
-         
+         </ab>
+
+
             </div>
-                
+
             <div type="translation" xml:lang="ka">
                 <p>სოსიბიოსი</p>
             </div>
-            
+
            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
               <head>კრიტიკული აპარატი</head>
               <p><app><lem>Σωσίβιος</lem>
@@ -124,17 +124,11 @@
               </app>
               </p>
             </div>
-           
+
             <div type="commentary">
                 <p>ცუდად დაცული წარწერა არ იძლევა დათარიღების საშუალებას. ნივთი არქ. მონაპოვარის საფუძველზე თარიღდება.</p>
             </div>
-           
+
          </body>
     </text>
 </TEI>
-
-
-
-
-
-

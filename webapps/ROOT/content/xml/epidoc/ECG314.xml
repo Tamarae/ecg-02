@@ -24,29 +24,29 @@
                         <collection>
                            ანაპა
                         </collection>
-                    </msIdentifier>                   
+                    </msIdentifier>
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">ეპიტაფია</seg>
                             <seg xml:lang="en"/>
                         </summary>
-                    </msContents> 
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">მარმარილო</material>
                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/91">საფლავის ქვა</objectType></support></supportDesc>
                                 <layoutDesc>
                                     <layout writtenLines="3">
-                                     საფლავის ქვის ქვემო ნაწილში გამოყვანილია 3-სტრიქონიანი წარწერა. 
+                                     საფლავის ქვის ქვემო ნაწილში გამოყვანილია 3-სტრიქონიანი წარწერა.
                                       <dimensions unit="cm">
                                         <width></width>
                                         <height></height>
                                         <depth></depth></dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
                                 I სტრიქონი ნაწერია უფრო წვრილად, II ოდნავ მსხვილად, III კიდევ უფრო მსხვილად. წარწერა ლამაზი ხელით არის შესრულებული.
@@ -61,20 +61,20 @@
                     <history>
                             <origin>
                                 <origPlace>ანაპა</origPlace>
-                                <origDate notBefore-custom="0001" notAfter-custom="0100" precision="medium" 
+                                <origDate notBefore-custom="0001" notAfter-custom="0100" precision="medium"
                                     evidence="lettering" datingMethod="#julian">I AD</origDate>
                               </origin>
                             <provenance type="found" when="1880">
-                                <placeName type ="ancientFindspot">ანაპა</placeName> 
+                                <placeName type ="ancientFindspot">ანაპა</placeName>
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                         
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">საქართველოს ეროვნული მუზეუმის ლაპიდარიუმი</placeName>
                             <idno>№ 33</idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -94,56 +94,51 @@
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 252-253</citedRange></bibl></p>
-                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b81"/>, <citedRange> 252-253</citedRange></bibl></p>
-                    <p><bibl n="3">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b82"/>, <citedRange> 252-253</citedRange></bibl></p>
-                    <p><bibl n="4">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 242</citedRange></bibl></p>
-                    <p><bibl n="5">ა. ამირანაშვილი, Греческие надписи Музея Грузии<ptr target="bibliography.xml#b175"/>, <citedRange> 196-197</citedRange></bibl></p>
-                    <p><bibl n="6">Корпус боспорских надписей<ptr target="bibliography.xml#b176"/>, <citedRange> 704-705</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 252-253</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b81"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 252-253</citedRange></bibl></p>
+                    <p><bibl n="3"><ptr target="#b82"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 252-253</citedRange></bibl></p>
+                    <p><bibl n="4"><ptr target="#b80"/> თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში, <citedRange> 242</citedRange></bibl></p>
+                    <p><bibl n="5"><ptr target="#b175"/> ა. ამირანაშვილი, Греческие надписи Музея Грузии, <citedRange> 196-197</citedRange></bibl></p>
+                    <p><bibl n="6"><ptr target="#b176"/> Корпус боспорских надписей, <citedRange> 704-705</citedRange></bibl></p>
+
             </div>
 
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
-                        <!-- Παντακλῆς 
-                            Γαδικείου, 
+
+                        <!-- Παντακλῆς
+                            Γαδικείου,
                             χαῖρε -->
-                     
-            
+
+
 
          <ab>
-             <lb n="1"/><persName><name nymRef="Παντακλῆς">Παντακλῆς</name></persName> 
+             <lb n="1"/><persName><name nymRef="Παντακλῆς">Παντακλῆς</name></persName>
              <lb n="2"/><persName><name nymRef="Γαδίκειος">Γαδικείου</name></persName>
              <lb n="3"/><w lemma="χαίρω">χαῖρε</w>
-         </ab>    
-             
-         
+         </ab>
+
+
             </div>
-                
+
             <div type="translation" xml:lang="ka">
                 <p>პანტაკლეს გადიკოსის ძე, მშვიდობით.</p>
             </div>
-            
+
            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
               <head>კრიტიკული აპარატი</head>
               <p><app><lem></lem>
               <rdg></rdg>
               </app></p>
             </div>
-           
+
             <div type="commentary">
                 <p>წარწერაში მოხსენიებული სახელები კარგადაა ცნობილი ჩრდილო შავიზღვისპირეთიდან.</p>
-                <p>დათარიღების საფუძველი პალეოგრაფიული მონაცემებია (კუთხოვანი ε, ρ, σ; ამავე დროს აბსოლუტურად მრგვალი ο; α ჩატეხილი შუა ხაზით, α, δ, λ - ზემოთაა გაგრძელებული 
+                <p>დათარიღების საფუძველი პალეოგრაფიული მონაცემებია (კუთხოვანი ε, ρ, σ; ამავე დროს აბსოლუტურად მრგვალი ο; α ჩატეხილი შუა ხაზით, α, δ, λ - ზემოთაა გაგრძელებული
                     ხაზებით, რაც ჯვარედინდება: ასოები კუთხეებში ჩაღრმავებული).</p>
                 <p></p>
             </div>
-            
+
         </body>
     </text>
 </TEI>
-
-
-
-
-

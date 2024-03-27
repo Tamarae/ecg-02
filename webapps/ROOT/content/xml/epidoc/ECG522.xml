@@ -88,13 +88,13 @@
     <text>
         <body>
            <div type="bibliography">
-               
-                <p><bibl n="1"><ref target="#b130">დევი ბერძენიშვილი, 1985:46</ref></bibl></p>
+
+                <p><bibl n="1">დევი ბერძენიშვილი, 1985:46</bibl></p>
                  <p><bibl n="2">დევი ბერძენიშვილი, 1987:38</bibl></p>
                    <p><bibl n="3">თამაზ გოგოლაძე, 2014:104</bibl></p>
-            
+
            </div>
-            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">     
+            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
               <!--ქ(რისტე), შ(ეიწყალ)ე თ(ეოდორ)ე-->
                 <ab>
                     <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>

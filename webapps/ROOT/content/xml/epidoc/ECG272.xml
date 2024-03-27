@@ -34,7 +34,7 @@
                 <physDesc>
                     <objectDesc>
                         <supportDesc>
-                            <support>                             
+                            <support>
                                 <material ref="https://www.eagle-network.eu/voc/material/lod/89">იასპი</material>
                                 <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/168">ბეჭედი</objectType>
                             </support>
@@ -49,7 +49,7 @@
                                 </dimensions>
                             </layout>
                         </layoutDesc>
-                    </objectDesc>                        
+                    </objectDesc>
                     <handDesc>
                         <handNote>
                             ნეგატიური ბერძნული წარწერა შესრულებულია კუთხოვანი მთავრული ასოებით.
@@ -63,20 +63,20 @@
                 <history>
                     <origin>
                         <origPlace>სამთავრო</origPlace>
-                        <origDate notBefore-custom="0001" notAfter-custom="0300" precision="medium" 
+                        <origDate notBefore-custom="0001" notAfter-custom="0300" precision="medium"
                             evidence="lettering" datingMethod="#julian">I-III AD</origDate>
                     </origin>
                     <provenance type="found" when="1939">
-                        <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863882">სამთავრო</placeName> 
+                        <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863882">სამთავრო</placeName>
                         <rs type="circumstances"></rs>
                         <rs type="context"/>
                         <rs type="monuList"/>
-                    </provenance>                     
+                    </provenance>
                     <provenance type="observed">
                         <placeName type="modernSpot">საქართველოს გლიპტიკის კაბინეტი</placeName>
                         <idno>225</idno>
                     </provenance>
-                </history>                   
+                </history>
             </msDesc>
         </sourceDesc>
     </fileDesc>
@@ -92,31 +92,31 @@
 <text>
     <body>
          <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 262-263</citedRange></bibl></p>
-                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 257-258</citedRange></bibl></p>
-                    <p><bibl n="3">М. И. Максимова, Геммы из некрополя Мцхеты-Самтавро<ptr target="bibliography.xml#b153"/>, <citedRange> 257</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 262-263</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b80"/> თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში, <citedRange> 257-258</citedRange></bibl></p>
+                    <p><bibl n="3"><ptr target="#b153"/> М. И. Максимова, Геммы из некрополя Мцхеты-Самтавро, <citedRange> 257</citedRange></bibl></p>
+
             </div>
-        
+
         <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!--   εὐτ
                             ύχει  -->
-                     
+
          <ab>
             <lb n="1"/><w lemma="εὐτυχέω">εὐτ
             <lb n="2" break="no"/>ύχ<supplied reason="omitted">ει</supplied></w>
-             
-         </ab>    
-             
-         
+
+         </ab>
+
+
             </div>
-        
+
         <div type="translation" xml:lang="ka">
             <p>ბედნიერი იყავი</p>
         </div>
-        
+
         <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
               <head>კრიტიკული აპარატი</head>
               <p>
@@ -126,16 +126,12 @@
               </app>
               </p>
             </div>
-        
+
         <div type="commentary">
            <p>წარწერაში გამოთქმულია სურვილი მის მიმართ, ვისაც ეს ნივთი აჩუქეს.
-            ასოთა მოხაზულობის (კუთხოვანი ε, ორგვარი υ), ენობრივი ნორმის (ει- დიფთონგი გადმოცემულია ι-ით) საკმაოდ გავრცელებული ფორმულის მიხედვით წარწერა I საუკუნეებით 
+            ასოთა მოხაზულობის (კუთხოვანი ε, ორგვარი υ), ენობრივი ნორმის (ει- დიფთონგი გადმოცემულია ι-ით) საკმაოდ გავრცელებული ფორმულის მიხედვით წარწერა I საუკუნეებით
             უნდა დათარიღდეს. მ. მაქსიმოვა ნივთს (ცხადია, წარწერიანად) III ს-ით ათარიღებს.</p>
         </div>
     </body>
 </text>
 </TEI>
-
-
-
-

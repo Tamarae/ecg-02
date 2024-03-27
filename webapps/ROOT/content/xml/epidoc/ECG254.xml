@@ -76,7 +76,7 @@
                             <placeName type="modernSpot">სემ (სსმ)-608</placeName>
                             <rs type="circumstances">სტელა აღმოჩენილია 1962 წ-ს, ფინეზაურის ხეობაში (დმანისის მიდამოებში) იაეი-ს
                                 სამეცნიერო ექსპედიციის მიერ ისტორიულ-გეოგრაფიული დაზვერვის დროს.</rs>
-                            
+
                             <rs type="context">ქვაჯვარი აღმართული იყო საყდრისქედის ეკლესიაში (დმანისიდან 3 კმ.)</rs>
                             <idno/>
                         </provenance>
@@ -89,7 +89,7 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    <!-- 
+    <!--
     <facsimile>
         <surface>
             <graphic url="tskise_01.jpg">
@@ -98,7 +98,7 @@
             </graphic>
         </surface>
     </facsimile> -->
-    
+
     <text>
         <!--
         1.სახე
@@ -108,12 +108,12 @@
         5.ნითა ყ(ოვლა)დ
         6.წ(მიდ)ისა ღ(მრთ)ის მშ
         7.ობლის(ა)ჲთა
-        8.ადიდენ და 
+        8.ადიდენ და
         9.ამყ(ა)რენ
         10.ღ(მერთმა)ნ ძლ(იე)რი და
         11.უძლ(ე)ვ(ე)ლი მ
         12.ეფ(ე)თ(ა) მ(ე)ფო
-        13.ბ(ა)ჲ გ(იორგ)ისი. მე, 
+        13.ბ(ა)ჲ გ(იორგ)ისი. მე,
         14.მიწ(ა)მ(ა)ნ მ(ე)ფ(ო)ბისა
         15.მ(ა)თის(ა)მ(ა)ნ იობ მი
         16.ხრიკის ძ(ე)მ(ა)ნ დმ(ა)ნ
@@ -131,45 +131,45 @@
         28.ვ(ა)სა მ(ო)მ(ი)ჴს(ე)ნ(ე)თ].
         -->
         <body>
-            
-            
+
+
             <div type="bibliography">
-                
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>158-159</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                <p><bibl n="2">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>40</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
-                <p><bibl n="3">დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>151</citedRange> თბილისი, 2014<ptr target="bibliography.xml#b213"/></bibl></p>
-                
-                <p><bibl n="4">გიორგი ოთხმეზური, XII-XIII საუკუნეების მიჯნის ქართული ლიპიდარული წარწერები, როგორც საისტორიო წყარო, 
-                    საქართველოს ისტორიის წყაროები, VI, თბილისი, მეცნიერება, 1981, <citedRange>109-110</citedRange><ptr target="bibliography.xml#b226"/>
+
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>158-159</citedRange>, თბილისი, 2018</bibl></p>
+                <p><bibl n="2"><ptr target="#b216"/> გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>40</citedRange>, თბილისი, 2016</bibl></p>
+                <p><bibl n="3"><ptr target="#b213"/> დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>151</citedRange> თბილისი, 2014</bibl></p>
+
+                <p><bibl n="4"><ptr target="#b226"/> გიორგი ოთხმეზური, XII-XIII საუკუნეების მიჯნის ქართული ლიპიდარული წარწერები, როგორც საისტორიო წყარო,
+                    საქართველოს ისტორიის წყაროები, VI, თბილისი, მეცნიერება, 1981, <citedRange>109-110</citedRange>
                 </bibl></p>
-                
-                <p><bibl n="5">დევი ბერძენიშვილი, დმანელი ამირას უცნობი წარწერა ფინეზაურის ხეობიდან, თბილისი 1964,
-                    <citedRange>748</citedRange><ptr target="bibliography.xml#b227"/>
+
+                <p><bibl n="5"><ptr target="#b227"/> დევი ბერძენიშვილი, დმანელი ამირას უცნობი წარწერა ფინეზაურის ხეობიდან, თბილისი 1964,
+                    <citedRange>748</citedRange>
                 </bibl></p>
-                
-                <p><bibl n="6">ვ. ჯაფარიძე, შუა საუკუნეების ერთი ისტორიულ-არქეოლოგიური ძეგლი ნაქალაქარ დმანისის გუბერნიაში (საყდრისქედის ეკლესია),
-                    ფეოდალური საქართველოს არქეოლოგიური ძეგლები, I, თბილისი 1974, <citedRange>160-161</citedRange><ptr target="bibliography.xml#b228"/>
+
+                <p><bibl n="6"><ptr target="#b228"/> ვ. ჯაფარიძე, შუა საუკუნეების ერთი ისტორიულ-არქეოლოგიური ძეგლი ნაქალაქარ დმანისის გუბერნიაში (საყდრისქედის ეკლესია),
+                    ფეოდალური საქართველოს არქეოლოგიური ძეგლები, I, თბილისი 1974, <citedRange>160-161</citedRange>
                 </bibl></p>
-                
-                <p><bibl n="7">დევი ბერძენიშვილი, ჯავახეთი, ისტორიულ ხუროთმოძღვრული გზამკვლევი, თბილისი 2000
-                    <citedRange>125</citedRange><ptr target="bibliography.xml#b229"/>
+
+                <p><bibl n="7"><ptr target="#b229"/> დევი ბერძენიშვილი, ჯავახეთი, ისტორიულ ხუროთმოძღვრული გზამკვლევი, თბილისი 2000
+                    <citedRange>125</citedRange>
                 </bibl></p>
-                
-                <p><bibl n="8">ვალერი სილოგავა, ქვემო ქართლის წარწერები (ზოგადი მიმოხილვა), კრებ. „დმანისი“, II, თბილისი 2000,
-                    <citedRange>245</citedRange><ptr target="bibliography.xml#b218"/>
+
+                <p><bibl n="8"><ptr target="#b218"/> ვალერი სილოგავა, ქვემო ქართლის წარწერები (ზოგადი მიმოხილვა), კრებ. „დმანისი“, II, თბილისი 2000,
+                    <citedRange>245</citedRange>
                 </bibl></p>
-                
-                
+
+
             </div>
-            
-            
-            
+
+
+
 
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
 
             <ab>
                 <lb n="1"/>&#10013;
-                           <w lemma="სახელ">სახე                                              
+                           <w lemma="სახელ">სახე
                 <lb n="2" break="no"/>ლითა</w>
                 <lb n="3"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთ</ex><abbr>ის</abbr><ex>ა</ex><abbr>ჲთა</abbr></expan></w>
                 <lb n="4"/>და
@@ -187,7 +187,7 @@
                            და
                 <lb n="11"/><w lemma="უძლეველ"><expan><abbr>უძლ</abbr><ex>ე</ex><abbr>ვ</abbr><ex>ე</ex><abbr>ლი</abbr></expan></w>
                             <roleName nymRef="მეფეთამეფობა"><expan><abbr>მ
-                <lb n="12" break="no"/>ეფ</abbr><ex>ე</ex><abbr>თ</abbr><ex>ა</ex></expan> 
+                <lb n="12" break="no"/>ეფ</abbr><ex>ე</ex><abbr>თ</abbr><ex>ა</ex></expan>
                             <expan><abbr>მ</abbr><ex>ე</ex><abbr>ფო
                 <lb n="13" break="no"/>ბ</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></roleName>
                             <persName type="local" key="ლაშა-გიორგი IV" ref="http://www.nplg.gov.ge/wikidict/index.php/გიორგი_IV_ლაშა"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ისი</abbr></expan></persName>
@@ -220,35 +220,35 @@
                            <w lemma="მათ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>თ</abbr><ex>ი</ex>
                <lb n="23" break="no"/><abbr>სა</abbr></expan></w>
                            <w lemma="ჴსენება"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ჴს</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
-                           <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლი      
-               <lb n="24" break="no"/>სა</abbr></expan></w>  
+                           <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლი
+               <lb n="24" break="no"/>სა</abbr></expan></w>
                            <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ემ</ex><abbr>ისა</abbr></expan></w>
                            <w lemma="ვინ">ვინცა</w>
-                           <w lemma="მომავალ"><expan><abbr>მო 
+                           <w lemma="მომავალ"><expan><abbr>მო
                <lb n="25" break="no"/>მ</abbr><ex>ა</ex><abbr>ვ</abbr><ex>ა</ex><abbr>ლთა</abbr></expan></w>
                            <w lemma="ჟამ"><expan><abbr>ჟ</abbr><ex>ა</ex><abbr>მთა</abbr></expan></w>
-               <lb n="26"/><w lemma="წერილ">დაწერილი</w>  
-                           <w lemma="ესე">ესე</w> 
-                           <w lemma="კითხვა"><expan>ა       
+               <lb n="26"/><w lemma="წერილ">დაწერილი</w>
+                           <w lemma="ესე">ესე</w>
+                           <w lemma="კითხვა"><expan>ა
                <lb n="27" break="no"/><supplied reason="lost" precision="medium"><abbr>ღ</abbr></supplied><abbr>მ</abbr><ex>ო</ex><abbr>იკჲთხ</abbr><ex>ო</ex><abbr>თ</abbr></expan></w>
                            <w lemma="ლოცვა"><expan><abbr>ლ</abbr><supplied reason="lost" precision="medium"><abbr>ოც
                <lb n="28" break="no"/>ვ</abbr><ex>ა</ex><abbr>სა</abbr></supplied></expan></w>
                            <w lemma="ჴსენება"><supplied reason="lost" precision="medium"><expan><abbr>მ</abbr><ex>ო</ex><abbr>მ</abbr><ex>ი</ex><abbr>ჴს</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>თ</abbr></expan></supplied></w>
                 </ab>
-             
+
             </div>
 
-            
+
                 <div type="translation"/>
 
-                
+
                 <div type="commentary">
                     <p>
-                        დაზიანება: დაზიანებულია მხოლოდ ბოლო სტრიქონის ქვედა ნაწილი. 
+                        დაზიანება: დაზიანებულია მხოლოდ ბოლო სტრიქონის ქვედა ნაწილი.
                         წარწერის დათარიღება წინა გამოცემებში: დ. ბერძენიშვილისა და ვ. ჯაფარიძის მიხედვით წარწერა XIII ს-ის I
-                        მეოთხედით (ლაშა-გიორგის ზეობის წლები) თარიღდება. 
+                        მეოთხედით (ლაშა-გიორგის ზეობის წლები) თარიღდება.
                         წინამდებარე დათარიღების საფუძველი: გამოცემაში გაზიარებულია ეს დათარიღება (წარწერაში მოხსენიებული
-                        მეფე ლაშა-გიორგის ზეობის წლების დაზუსტებით). 
+                        მეფე ლაშა-გიორგის ზეობის წლების დაზუსტებით).
                         წარწერაში სხვა ავტორები რამდენიმე სიტყვას განსხვავებულად კითხულობენ: დ. ბერძენიშვილი და ვ. ჯაფარიძე
                         პირველ სტრიქონში კითხულობენ: †.] ქ(რისტე), მესამეში - ღჳთისაჲთა, მეექვსეში -
                         ღვთისმშობლისაჲთა, მეთერთმეტეში - მეფეთა] მეფეთ, მეთვრამეტეში - აღვჰმართე,

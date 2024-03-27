@@ -23,17 +23,17 @@
                         <collection>
                            ჟინვალი
                         </collection>
-                    </msIdentifier>                    
+                    </msIdentifier>
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მემორიალური</seg>
                             <seg xml:lang="en"/>
                         </summary>
-                    </msContents> 
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material></material>
                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1747">ბეჭედი - საბეჭდავი</objectType>
                                 </support>
@@ -46,7 +46,7 @@
                                         </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
                                 <height unit="cm" precision="medium"></height>
@@ -60,20 +60,20 @@
                     <history>
                             <origin>
                                 <origPlace>ჟინვალი</origPlace>
-                                <origDate notBefore-custom="0201" notAfter-custom="0300" precision="medium" 
+                                <origDate notBefore-custom="0201" notAfter-custom="0300" precision="medium"
                                     evidence="lettering" datingMethod="#julian">III AD</origDate>
                               </origin>
                             <provenance>
-                                <placeName type ="ancientFindspot">ჟინვალი</placeName> 
+                                <placeName type ="ancientFindspot">ჟინვალი</placeName>
                                 <rs type="circumstances">საბეჭდავი აღმოჩენილია ჟინვალის სამარხში.</rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                         
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot"></placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -93,50 +93,40 @@
     <text>
         <body>
             <div type="bibliography">
-                
-                    <p><bibl n="1">დევიდ ბრაუნდი, საქართველო ანტიკურ ხანაში: კოლხეთისა და ამიერკავკასიის იბერიის ისტორია ძვ.წ. 550-ახ.წ. 562 წლები<ptr target="bibliography.xml#b68"/>, <citedRange> 355-356</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b68"/> დევიდ ბრაუნდი, საქართველო ანტიკურ ხანაში: კოლხეთისა და ამიერკავკასიის იბერიის ისტორია ძვ.წ. 550-ახ.წ. 562 წლები, <citedRange> 355-356</citedRange></bibl></p>
+
             </div>
 
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!-- ΒΑΚΥΡΑΛΑΝΑ -->
-                     
+
 
          <ab>
              <w lemma="Βακυραλανα">Βακυραλανα</w>
-         </ab>    
-             
-         
+         </ab>
+
+
             </div>
-                
+
             <div type="translation" xml:lang="ka">
                 <p>ბაკურალანა</p>
             </div>
-            
+
            <div type="apparatus" xml:space="preserve"> <!-- კრიტიკული აპარატი -->
             </div>
-           
+
             <div type="commentary">
-                <p>ინტალიო დაკავშირებული უნდა იყოს იბერიის სამეფო საგვარეულოს წარმომადგენელ ბაკურთან. საეკლესიო ისტორიკოს რუფინუსთან შეხვედრამდე, ბაკური რამდენიმე 
-                წლის განმავლობაში რომის სამხედრო სამსახურში იდგა. ამიანე იბერიელ ბაკურს ახ.წ. 378 წლის ადრიანოპოლის ბრძოლაში მოიხსენიებს. აქ იგი გვევლინება, როგორც 
-                რომაული არმიის მგზნებარე tribunus sagittariorum. მიღებულია, და ალბათ მართებულადაც, მისი გაიგივება რუფინუსის ბაკურთან, მაგრამ ისიც უნდა აღინიშნოს, რომ 
-                იბერიელ დიდგვაროვანთა წრეში ბაკური იშვიათ სახელს არ წარმოადგენს: ეს სახელი არაერთგზის გვხვდება მეფეთა სიებში. რუფინუსისთვის ინფორმაციის მიმწოდებელი 
-                ახ.წ. 378-94 წლებში იყო dux Palaestinae და ამ ხნის განმავლობაში ისტორიკოსთან მას გულითადი ურთიერთობა ჩამოუყალიბდა. ახ.წ. 402-3 წლისთვის იგი იყო 
-                comes domesticorum. სიმამაცით გამოიჩინა თავი ფრიგიდუსთან ბრძოლაში 394 წელს. ამის შემდეგ იგი, შესაძლოა, იბერიაში დაბრუნდა და იქნებ მეფობდა კიდეც, მაგრამ 
+                <p>ინტალიო დაკავშირებული უნდა იყოს იბერიის სამეფო საგვარეულოს წარმომადგენელ ბაკურთან. საეკლესიო ისტორიკოს რუფინუსთან შეხვედრამდე, ბაკური რამდენიმე
+                წლის განმავლობაში რომის სამხედრო სამსახურში იდგა. ამიანე იბერიელ ბაკურს ახ.წ. 378 წლის ადრიანოპოლის ბრძოლაში მოიხსენიებს. აქ იგი გვევლინება, როგორც
+                რომაული არმიის მგზნებარე tribunus sagittariorum. მიღებულია, და ალბათ მართებულადაც, მისი გაიგივება რუფინუსის ბაკურთან, მაგრამ ისიც უნდა აღინიშნოს, რომ
+                იბერიელ დიდგვაროვანთა წრეში ბაკური იშვიათ სახელს არ წარმოადგენს: ეს სახელი არაერთგზის გვხვდება მეფეთა სიებში. რუფინუსისთვის ინფორმაციის მიმწოდებელი
+                ახ.წ. 378-94 წლებში იყო dux Palaestinae და ამ ხნის განმავლობაში ისტორიკოსთან მას გულითადი ურთიერთობა ჩამოუყალიბდა. ახ.წ. 402-3 წლისთვის იგი იყო
+                comes domesticorum. სიმამაცით გამოიჩინა თავი ფრიგიდუსთან ბრძოლაში 394 წელს. ამის შემდეგ იგი, შესაძლოა, იბერიაში დაბრუნდა და იქნებ მეფობდა კიდეც, მაგრამ
                 ეს სრულიად გაურკვეველია.</p>
-                
+
             </div>
          </body>
     </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-

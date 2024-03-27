@@ -5,8 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="ka">სააღმშენებლო წარწერა გივი ავალიშვილისა და მისი მეუღლის, მეფეთმეფის ასულ სოფიოსი</title>
-                <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
+                <title>სააღმშენებლო წარწერა გივი ავალიშვილისა და მისი მეუღლის, მეფეთმეფის ასულ სოფიოსი</title>
             </titleStmt>
             <publicationStmt>
                  <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
@@ -93,14 +92,14 @@
     <text>
         <body>
            <div type="bibliography">
-               
-                <p><bibl n="1">თამაზ გოგოლაძე,თორის ხეობის ეპიგრაფიკული კორპუსი<ptr target="bibliography.xml#b234"/>,<citedRange>107-109</citedRange>1987</bibl></p>
-                <p><bibl n="2">ვლადიმერ აბულაძე, ბორჯომის ხეობის წარსული და აწმყო<ptr target="bibliography.xml#b243"/>,<citedRange>54 </citedRange>1983</bibl></p>
-                <p><bibl n="3">ვლადიმერ აბულაძე, საავალიშვილოს ისტორიიდან<ptr target="bibliography.xml#b244"/>,<citedRange>119 </citedRange>1964</bibl></p>
 
-		   
+                <p><bibl n="1"><ptr target="#b234"/> თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი, <citedRange>107-109</citedRange>1987</bibl></p>
+                <p><bibl n="2"><ptr target="#b243"/> ვლადიმერ აბულაძე, ბორჯომის ხეობის წარსული და აწმყო, <citedRange>54 </citedRange>1983</bibl></p>
+                <p><bibl n="3"><ptr target="#b244"/> ვლადიმერ აბულაძე, საავალიშვილოს ისტორიიდან, <citedRange>119 </citedRange>1964</bibl></p>
+
+
            </div>
-            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">     
+            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
 
             </div>
             <div type="translation" xml:lang="ka"/>

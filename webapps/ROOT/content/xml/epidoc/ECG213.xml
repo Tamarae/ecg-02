@@ -23,7 +23,7 @@
                             დმანისი
                         </collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">საამშენებლო</seg>
@@ -41,7 +41,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p>წარწერა შესრულებულია ტრაპეზის ქვის დას. სადგამზე</p>
-                                
+
                                      <dimensions unit="cm">
                                         <height>760</height>
                                         <width>600</width>
@@ -55,7 +55,7 @@
                                 <p xml:lang="ka"><rs type="execution">კიდურწერტილოვანი</rs> <rs type="script">კუთხოვანი ასომთავრული</rs></p>
                                 <dimensions unit="cm">
                                     <height>5-7</height>
-                                </dimensions>        
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -67,7 +67,7 @@
                         <provenance type="observed">
                             <placeName type="modernspot">შახმარლო</placeName>
                         </provenance>
-                        
+
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -77,10 +77,10 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    
-            <!-- 
-    
-        
+
+            <!--
+
+
     <facsimile>
         <surface>
             <graphic url="tskise_01.jpg">
@@ -89,49 +89,39 @@
             </graphic>
         </surface>
     </facsimile>
-    
+
     -->
-    
+
     <text>
-        <!-- 
+        <!--
              1. ქ(რისტ)ე, შ(ეიწყალ)ე ს(ტე)ფ(ა)ნ[ე]
        -->
-                 
+
         <body>
             <div type="bibliography">
-                
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>104</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                <p><bibl n="2">დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>112</citedRange> თბილისი, 2014<ptr target="bibliography.xml#b213"/></bibl></p>
-                
+
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>104</citedRange>, თბილისი, 2018</bibl></p>
+                <p><bibl n="2"><ptr target="#b213"/> დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>112</citedRange> თბილისი, 2014</bibl></p>
+
             </div>
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
                     <ab>
-                        <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
-                        <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> 
-                        <persName type="local" key="სტეფანე (2)"><name nymRef="სტეფანე"><expan><abbr>ს</abbr><ex>ტე</ex><abbr>ფ</abbr><ex>ა</ex><abbr>ნ</abbr></expan><supplied reason="lost"><abbr>ე</abbr></supplied></name></persName>   
+                        <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
+                        <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w>
+                        <persName type="local" key="სტეფანე (2)"><name nymRef="სტეფანე"><expan><abbr>ს</abbr><ex>ტე</ex><abbr>ფ</abbr><ex>ა</ex><abbr>ნ</abbr></expan><supplied reason="lost"><abbr>ე</abbr></supplied></name></persName>
                     </ab>
             </div>
-            
+
             <div type="translation"/>
-            
+
             <div type="commentary">
-                <p>შესრულებული ეკლესიის საკურთხეველში, ტრაპეზის ქვის  სადგამის დას. წახნაგზე გამოსახული ჯვრის ორივე მხარეს, მკლავებს ქვემოთ. 
-                    დაზიანება: წარწერა დაზიანებულია, გადარეცხვისა და გამოფიტვისგან წარწერის წაკითხვა გართულებულია. 
+                <p>შესრულებული ეკლესიის საკურთხეველში, ტრაპეზის ქვის  სადგამის დას. წახნაგზე გამოსახული ჯვრის ორივე მხარეს, მკლავებს ქვემოთ.
+                    დაზიანება: წარწერა დაზიანებულია, გადარეცხვისა და გამოფიტვისგან წარწერის წაკითხვა გართულებულია.
                     წარმოდგენილი დათარიღების საფუძველი: წარწერა თანადროული უნდა იყოს სიმონ მღვდლის სამშენებლო წარწერისა.
-                    
+
                 </p>
             </div>
 
         </body>
     </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-

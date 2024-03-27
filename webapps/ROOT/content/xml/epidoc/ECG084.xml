@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="ka">აგარის (ურვალის) სატრაპეზოს წარწერა</title>  
+                <title xml:lang="ka">აგარის (ურვალის) სატრაპეზოს წარწერა</title>
                 <title xml:lang="en">Agara (Urvali) inscription of the refectory </title>
                 <editor xml:lang="ka">ვალერი სილოგავა</editor>
                 <editor xml:lang="en">Valeri Silogava</editor>
@@ -34,11 +34,11 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
                                     <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">Plaque</objectType>
                                     <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
-                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material> 
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
                                       <dimensions unit="cm">
                                         <width>148</width>
                                         <height>79</height>
@@ -48,30 +48,30 @@
                             </supportDesc>
                                 <layoutDesc>
                                     <layout writtenLines="10">
-                                        <seg xml:lang="ka">წარწერა ათსტრიქონიანია. 
+                                        <seg xml:lang="ka">წარწერა ათსტრიქონიანია.
                                          იგი მოთავსებულია მონასტრის სატრაპეზოს შესასვლელის ტიმპანზე ჩრდილოეთის მხრიდან.
-                                         პირველი რვა სტრიქონი ამოკვეთილია ფილის ცენტრში ზედაპირის დადაბლებით შექმნილ ოთხკუთხა 
+                                         პირველი რვა სტრიქონი ამოკვეთილია ფილის ცენტრში ზედაპირის დადაბლებით შექმნილ ოთხკუთხა
                                         ჩარჩოში, ხოლო ბოლო ორი სტრიქონი - ჩარჩოს ქვემოთ და მის გარეთ</seg>
                                         <seg xml:lang="en">Ten line inscription. The inscription is located on the tympanon of the north entrance of the monastery’s refectory. The first eight lines are carved in the frame created by the lowered background of the plaque, the last two lines are outside the borders of the frame from the below.</seg>
                                         <dimensions unit="cm">
                                          <width>43</width>
-                                         <height>47</height> 
+                                         <height>47</height>
                                           </dimensions>
                                         <dimensions unit="cm">
                                          <width>98</width>
-                                         <height>16</height> 
+                                         <height>16</height>
                                           </dimensions>
-                                    </layout>                                   
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                                 <seg xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა, კიდურწაისრული.
                                 ამოღარულია ღვინისფერ ქვის ბლოკზე </seg>
-                                <seg xml:lang="en">Engraved Asomtavruli inscription. 
+                                <seg xml:lang="en">Engraved Asomtavruli inscription.
 The inscription has arrow-shaped edges and it is done on a wine color plaque.
 </seg>
-                                   <height unit="cm">3-7-10</height> 
+                                   <height unit="cm">3-7-10</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -81,7 +81,7 @@ The inscription has arrow-shaped edges and it is done on a wine color plaque.
                                     <seg xml:lang="ka">აგარის (ურვალის) ეკლესია</seg>
                                     <seg xml:lang="en">Agara (Urvali) church</seg>
                                 </origPlace>
-                                <origDate notBefore-custom="1000" notAfter-custom="1100" 
+                                <origDate notBefore-custom="1000" notAfter-custom="1100"
                                     evidence="lettering" datingMethod="#julian">XI AD</origDate>
                             </origin>
                             <provenance type="found">
@@ -89,18 +89,18 @@ The inscription has arrow-shaped edges and it is done on a wine color plaque.
                                     <seg xml:lang="ka">აგარის (ურვალის) ეკლესია</seg>
                                     <seg xml:lang="en">Agara (Urvali) church</seg>
                                 </placeName>
-                                <!-- "41.559454, 43.077875"--> 
-                                <rs type="circumstances"/>                              
+                                <!-- "41.559454, 43.077875"-->
+                                <rs type="circumstances"/>
                                 <rs type="context"></rs>
-                                <rs type="monuList"/></provenance>                                
+                                <rs type="monuList"/></provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot">
                                     <seg xml:lang="ka">აგარის (ურვალის) ეკლესია</seg>
                                     <seg xml:lang="en">Agara (Urvali) church</seg>
                                 </placeName>
                                 <idno type="invNo"/>
-                            </provenance> 
-                    </history>                   
+                            </provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -108,9 +108,9 @@ The inscription has arrow-shaped edges and it is done on a wine color plaque.
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-      <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+      <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
-    </teiHeader>        
+    </teiHeader>
     <facsimile>
         <surface>
             <graphic url="ecg084.jpg">
@@ -118,80 +118,80 @@ The inscription has arrow-shaped edges and it is done on a wine color plaque.
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
-    </facsimile> 
+    </facsimile>
     <text>
         <body>
     <div type="bibliography">
-               
-      <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
-      <p><bibl n="2">ვალერი სილოავა, სამხრეთ საქართველოს წარწერების შესწავლა ხელნაწერთა ინსტიტუტის ეპიგრაფიკული ექსპედიციის მიერ<ptr target="bibliography.xml#b148"/>, <citedRange> 275-276</citedRange></bibl></p>        
-              
+
+      <p><bibl n="1"><ptr target="#b149"/> ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა, <citedRange> 118-169</citedRange></bibl></p>
+      <p><bibl n="2"><ptr target="#b148"/> ვალერი სილოავა, სამხრეთ საქართველოს წარწერების შესწავლა ხელნაწერთა ინსტიტუტის ეპიგრაფიკული ექსპედიციის მიერ, <citedRange> 275-276</citedRange></bibl></p>        
+
             </div>
-            
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!--  ს(ა)ხ(ე)ლ(ი)თა ღ(მრთისა)ჲთა და მ(ეო)
                             ხ(ე)ბ(ი)თა წ(მიდ)ისა ი(ოვა)ნე ნ(ა)თ(ლი)სმცე
                             მლ(ი)ს(აჲ)თა ე(რისთავთ)-ე(რისთავ)თა ბეშქენ
                             და მ(უ)რვ(ა)ნის მლოცვ
                             ელმ(ა)ნ მე ეფრემ ჴ
-                            ელვყ(ა)ვ შენებ(ა)დ 
+                            ელვყ(ა)ვ შენებ(ა)დ
                             ტრ(ა)პ(ე)ზსა ამ(ა)ს და გ
                             ამიკუეთეს აღაპი
                             ს(აუ)კ(უ)ნ(ო)ჲ ს(ამე)ბობ(ა)ჲ და ვინცა შემიცვ(ა)ლოს
-                            კრ(უ)ლმცა არს ღ(მრთ)ისა პირითა                
-                       --> 
-                                                            
+                            კრ(უ)ლმცა არს ღ(მრთ)ისა პირითა
+                       -->
+
 
                 <ab>
-                   <lb n="1"/><w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
-                                <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთისა</ex><abbr>ჲთა</abbr></expan></w> და 
+                   <lb n="1"/><w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w>
+                                <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთისა</ex><abbr>ჲთა</abbr></expan></w> და
                                 <w lemma="მეოხება"><expan><abbr>მ</abbr><ex>ეო</ex>
-                   <lb n="2" break="no"/><abbr>ხ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
-                                    <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდ</ex><abbr>ისა</abbr></expan></w> 
-                                    <name nymRef="იოვანე ნათლისმცემელი"><expan><abbr>ი</abbr><ex>ოვა</ex><abbr>ნე</abbr></expan></name> 
-                                   <w lemma="ნათლისმცემელ"><expan><abbr>ნ</abbr><ex>ა</ex><abbr>თ</abbr><ex>ლი</ex><abbr>სმცე 
-                    <lb n="3" break="no"/>მლ</abbr><ex>ი</ex><abbr>ს</abbr><ex>აჲ</ex><abbr>თა</abbr></expan></w> <persName type="local" key="ბეშქენ თუხარისის ერისთავი [ძმა მურვან ერისთავისა]"><roleName><w lemma="ერისთავთ-ეროსთავ"><expan><abbr>ე</abbr><ex>რისთავთ</ex><abbr>ე</abbr><ex>რისთავ</ex><abbr>თა</abbr></expan></w></roleName> 
+                   <lb n="2" break="no"/><abbr>ხ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w>
+                                    <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდ</ex><abbr>ისა</abbr></expan></w>
+                                    <name nymRef="იოვანე ნათლისმცემელი"><expan><abbr>ი</abbr><ex>ოვა</ex><abbr>ნე</abbr></expan></name>
+                                   <w lemma="ნათლისმცემელ"><expan><abbr>ნ</abbr><ex>ა</ex><abbr>თ</abbr><ex>ლი</ex><abbr>სმცე
+                    <lb n="3" break="no"/>მლ</abbr><ex>ი</ex><abbr>ს</abbr><ex>აჲ</ex><abbr>თა</abbr></expan></w> <persName type="local" key="ბეშქენ თუხარისის ერისთავი [ძმა მურვან ერისთავისა]"><roleName><w lemma="ერისთავთ-ეროსთავ"><expan><abbr>ე</abbr><ex>რისთავთ</ex><abbr>ე</abbr><ex>რისთავ</ex><abbr>თა</abbr></expan></w></roleName>
                                          <name nymRef="ბეშქენ">ბეშქენ</name></persName>
-                    <lb n="4"/><w lemma="და">და</w> <persName type="local" key="მურვან ყველის ერისთავი (ძმა ბეშქენ ერისთავისა)"><name nymRef="მურვან"><expan><abbr>მ</abbr><ex>უ</ex><abbr>რვ</abbr><ex>ა</ex><abbr>ნის</abbr></expan></name></persName> <w lemma="მლოცველ"><expan><abbr>მლოცვ 
+                    <lb n="4"/><w lemma="და">და</w> <persName type="local" key="მურვან ყველის ერისთავი (ძმა ბეშქენ ერისთავისა)"><name nymRef="მურვან"><expan><abbr>მ</abbr><ex>უ</ex><abbr>რვ</abbr><ex>ა</ex><abbr>ნის</abbr></expan></name></persName> <w lemma="მლოცველ"><expan><abbr>მლოცვ
                     <lb n="5" break="no"/>ელმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> <w lemma="მე">მე</w> <persName type="local" key="ეფრემ [აგარის მაშენებელი]"><name nymRef="ეფრემ">ეფრემ</name></persName> <w lemma="ჴელყოფა"><expan><abbr>ჴ
                     <lb n="6" break="no"/>ელვყ</abbr><ex>ა</ex><abbr>ვ</abbr></expan></w> <w lemma="შენება"><expan><abbr>შენებ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
-                    <lb n="7"/><w lemma="ტრაპეზ"><expan><abbr>ტრ</abbr><ex>ა</ex><abbr>პ</abbr><ex>ე</ex><abbr>ზსა</abbr></expan></w> <w lemma="ესე"><expan><abbr>ამ</abbr><ex>ა</ex><abbr>ს</abbr></expan></w> 
+                    <lb n="7"/><w lemma="ტრაპეზ"><expan><abbr>ტრ</abbr><ex>ა</ex><abbr>პ</abbr><ex>ე</ex><abbr>ზსა</abbr></expan></w> <w lemma="ესე"><expan><abbr>ამ</abbr><ex>ა</ex><abbr>ს</abbr></expan></w>
                                 და <w lemma="გაკუეთა">გ
-                    <lb n="8" break="no"/>ამიკუეთეს</w> 
+                    <lb n="8" break="no"/>ამიკუეთეს</w>
                                     <w lemma="აღაპ">აღაპი</w>
-                    <lb n="9"/><w lemma="საუკუნო"><expan><abbr>ს</abbr><ex>აუ</ex><abbr>კ</abbr><ex>უ</ex><abbr>ნ</abbr><ex>ო</ex><abbr>ჲ</abbr></expan></w> 
-                                <w lemma="სამებობა"><expan><abbr>ს</abbr><ex>ამე</ex><abbr>ბობ</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></w> 
-                                და 
-                                <rs type="curse"><w lemma="ვინცა">ვინცა</w> 
+                    <lb n="9"/><w lemma="საუკუნო"><expan><abbr>ს</abbr><ex>აუ</ex><abbr>კ</abbr><ex>უ</ex><abbr>ნ</abbr><ex>ო</ex><abbr>ჲ</abbr></expan></w>
+                                <w lemma="სამებობა"><expan><abbr>ს</abbr><ex>ამე</ex><abbr>ბობ</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></w>
+                                და
+                                <rs type="curse"><w lemma="ვინცა">ვინცა</w>
                                 <w lemma="შეცულა"><expan><abbr>შემიცვ</abbr><ex>ა</ex><abbr>ლოს</abbr></expan></w>
-                    <lb n="10"/><w lemma="კრულ"><expan><abbr>კრ</abbr><ex>უ</ex><abbr>ლმცა</abbr></expan></w> 
-                                <w lemma="ყოფა">არს</w> 
-                                <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთ</ex><abbr>ისა</abbr></expan></w> 
+                    <lb n="10"/><w lemma="კრულ"><expan><abbr>კრ</abbr><ex>უ</ex><abbr>ლმცა</abbr></expan></w>
+                                <w lemma="ყოფა">არს</w>
+                                <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთ</ex><abbr>ისა</abbr></expan></w>
                                 <w lemma="პირ">პირითა</w></rs>
                  </ab>
                </div>
-              
-            
+
+
          <div type="translation" >
-             <p xml:lang="ka"> ღმრთის სახელით და წმინდა იოანე ნათლისმცემლის მეოხებით ერისთავთ-ერისთავთა ბეშქენ და მურვანის მლოცველმა მე, ეფრემ, ჴელვყავ აშენება ამ ტრაპეზისა. 
+             <p xml:lang="ka"> ღმრთის სახელით და წმინდა იოანე ნათლისმცემლის მეოხებით ერისთავთ-ერისთავთა ბეშქენ და მურვანის მლოცველმა მე, ეფრემ, ჴელვყავ აშენება ამ ტრაპეზისა.
                  დამიდგინეს საუკუნო აღაპი სამებობა დღეს და ვინც შემიცვალოს, კრულმცა არს ღმრთის პირით.</p>
              <p xml:lang="en">In the name of God and aid of John the Baptist Beshken the Eristavt-eristavi and I, Ephrem  prayer for Murvan, built this refectory. They established the agape on the day of the holy trinity for me and if somebody will change it, let him be cursed by God.In the name of God and aid of John the Baptist Beshken the Eristavt-eristavi and I, Ephrem  prayer for Murvan, built this refectory. They established the agape on the day of the holy trinity for me and if somebody will change it, let him be cursed by God.</p>
-         </div>    
-                             
-                
+         </div>
+
+
             <div type="commentary">
-                <p xml:lang="ka"> ურავლის აგარაში მოზრდილი სამონასტრო კომპლექსი ყოფილა, შემორჩენილ ნაგებობათაგან მნიშვნელოვანია ორი - ეკლესია და 
+                <p xml:lang="ka"> ურავლის აგარაში მოზრდილი სამონასტრო კომპლექსი ყოფილა, შემორჩენილ ნაგებობათაგან მნიშვნელოვანია ორი - ეკლესია და
               სატრაპეზო. ორივეზე მოიპოვება ასომთავრული საამშენებლო წარწერები. ეკლესიის წარწერა X საუკუნისაა, ხოლო სატრაპეზოსი - XI საუკუნისა.
                 წარწერა საინტერესოა ჯაყელთა საგვარეულოს წარმომადგენელთა - ბეშქენისა და მურვანის - მოხსენიების გამო, რომლებიც, ვალერი სილოგავას აზრით, შესაძლებელია, გავაიგივოთ
-                კორიდეთის ოთხთავის მინაწერ საბუთებში დასახელებულ ბეშქენსა და მურვანთან. ისინი ძმები უნდა იყვნენ. ერთი თუხარისის, ხოლო მეორე - ყველის ერისთავია. ყველა მონაცემით, 
+                კორიდეთის ოთხთავის მინაწერ საბუთებში დასახელებულ ბეშქენსა და მურვანთან. ისინი ძმები უნდა იყვნენ. ერთი თუხარისის, ხოლო მეორე - ყველის ერისთავია. ყველა მონაცემით,
                 მათ შორის, წარწერის პალეოგრაფიული ნიშნებით (კლასიკური კიდურწაისრულობა), ისინი XI ს-ის მოღვაწეებია - შუა ხანების ან მეორე ნახევრისა. ამიტომ აგარის მონასტრის სატრაპეზოც
-                ამ დროით უნდა დათარიღდეს. 
+                ამ დროით უნდა დათარიღდეს.
                 წარწერის მიხედვით, ბეშქენ და მურვან ერისთავთ ერისთავთა მლოცველ ეფრემს აგარის მონასტრისათვის აუშენებია სატრაპეზო (იგივე „ტრაპეზი“, როგორც ეს წარწერაშია). მლოცველი
-                აქ არ ნიშნავს, რომ წარწერაში დასახელებულმა მაღალი რანგის მოხელეებმა იგი აგარაში დაადგინეს. ეფრემი მხოლოდ მათთან დაახლოებული სასულიერო პირია, რომელიც მათი 
-                მლოცველია, თავის ლოცვებში მომხსენებელია. ეს მეტი სიცხადით წარწერის ტექსტის მომდევნო ნაწილიდან ჩანს, სადაც ეფრემი წერს, რომ „გამიკუეთეს აღაპი საუკუნოჲ“, ე. ი. 
-                მისთვის აღაპიც დაუდგენიათ სამებობა დღეს (აღდგომის მომდევნო კვირის, ანუ ბრწყინვალე შვიდეულის სამშაბათს) სატრაპეზოს აშენებისათვის. მაშასადამე, იგი რომ ბეშქენ და მურვან 
-                ერისთავთ ერისთავთა მწირველი იყოს, მათი მოხსენიების კონკრეტულ დღესაც დაასახელებდა, ისე როგორც ეს აღნიშნა თავისი მოხსენიების დღის შესახებ. </p>     
+                აქ არ ნიშნავს, რომ წარწერაში დასახელებულმა მაღალი რანგის მოხელეებმა იგი აგარაში დაადგინეს. ეფრემი მხოლოდ მათთან დაახლოებული სასულიერო პირია, რომელიც მათი
+                მლოცველია, თავის ლოცვებში მომხსენებელია. ეს მეტი სიცხადით წარწერის ტექსტის მომდევნო ნაწილიდან ჩანს, სადაც ეფრემი წერს, რომ „გამიკუეთეს აღაპი საუკუნოჲ“, ე. ი.
+                მისთვის აღაპიც დაუდგენიათ სამებობა დღეს (აღდგომის მომდევნო კვირის, ანუ ბრწყინვალე შვიდეულის სამშაბათს) სატრაპეზოს აშენებისათვის. მაშასადამე, იგი რომ ბეშქენ და მურვან
+                ერისთავთ ერისთავთა მწირველი იყოს, მათი მოხსენიების კონკრეტულ დღესაც დაასახელებდა, ისე როგორც ეს აღნიშნა თავისი მოხსენიების დღის შესახებ. </p>
                 <p xml:lang="en"></p>
             </div>
         </body>

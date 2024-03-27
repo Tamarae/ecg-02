@@ -33,7 +33,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="https://www.eagle-network.eu/voc/material/lod/108">ტყვია</material>
                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/168">ბეჭედი</objectType></support></supportDesc>
                                 <layoutDesc>
@@ -45,7 +45,7 @@
                                         <depth></depth></dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
                                 <height unit="cm" precision="medium">0,4-0,6</height>
@@ -59,20 +59,20 @@
                     <history>
                             <origin>
                                 <origPlace>ახალი ათონი</origPlace>
-                                <origDate notBefore-custom="0501" notAfter-custom="0700" precision="medium" 
+                                <origDate notBefore-custom="0501" notAfter-custom="0700" precision="medium"
                                     evidence="lettering" datingMethod="#julian">VI-VII AD</origDate>
                               </origin>
                             <provenance type="found" when="1974">
-                                <placeName type ="ancientFindspot">ახალი ათონი</placeName> 
+                                <placeName type ="ancientFindspot">ახალი ათონი</placeName>
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                         
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot"></placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -92,38 +92,38 @@
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 76</citedRange></bibl></p>
-                    <p><bibl n="2">A. Г. Хрушкова, Моливдул из Анакопии<ptr target="bibliography.xml#b162"/>, <citedRange> 146-148</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 76</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b162"/> A. Г. Хрушкова, Моливдул из Анакопии, <citedRange> 146-148</citedRange></bibl></p>
+
             </div>
-                       
+
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!--  ΘοΤκΒοΗΘ   θεοτόκ[ε] βοήθ[ει]   ΠΕΤΡΟΥ ΕΠΑΡΧΟΥ Πέτρου ἐπάρχου   -->
-                     
-            
+
+
          <ab>
-             <g type="monogram"/><w lemma="θεοτόκος"><expan><abbr>θ</abbr><ex>ε</ex><abbr>οτ</abbr><ex>ό</ex><abbr>κ</abbr><ex>ε</ex></expan></w> 
+             <g type="monogram"/><w lemma="θεοτόκος"><expan><abbr>θ</abbr><ex>ε</ex><abbr>οτ</abbr><ex>ό</ex><abbr>κ</abbr><ex>ε</ex></expan></w>
              <g type="monogram"/><w lemma="βοηθέω"><expan><abbr>βοήθ</abbr><ex>ει</ex></expan></w>
-          </ab>    
-             
-         
+          </ab>
+
+
                 <div type="textpart" subtype="fragment" n="2" xml:lang="grc">
            <ab>
                <g type="monogram">ΠΕΤΡΟΥ ΕΠΑΡΧΟΥ</g><persName><name nymRef="Πέτρος">Πέ<hi rend="ligature">τρ</hi><hi rend="ligature">ου</hi></name>
                <roleName nymRef="ἔπαρχος"><w lemma="ἔπαρχος">ἐπάρχ<hi rend="ligature">ου</hi></w></roleName></persName>
-           </ab>  
+           </ab>
          </div>
             </div>
-                
+
             <div type="translation" xml:lang="ka">
                 <p>ღვთისმშობელო, შეეწიე</p>
             </div>
             <div type="translation" subtype="fragment" n="2" xml:lang="ka">
                 <p>პეტრე ეპარქოსის</p>
                 </div>
-            
+
            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
               <head>კრიტიკული აპარატი</head>
               <p><app loc="fragment" n="2"><lem>ΠΕΤΡΟΣ</lem>
@@ -133,7 +133,7 @@
               <rdg resp="ა. ხრუშკოვა">ΕΠΑΡΧV</rdg>
               </app></p>
             </div>
-           
+
             <div type="commentary">
                 <p>ტყვიის ბეჭედი ეკუთვნის პეტრე ეპარქოსს.</p>
                 <p>ენობრივად პირსა და ზურგზე მოთავსებული წარწერები ერთმანეთის გაგრძელებას არ წარმოადგენენ.</p>
@@ -143,6 +143,3 @@
          </body>
     </text>
 </TEI>
-
-
-

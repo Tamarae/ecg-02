@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
@@ -31,9 +31,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType>რიპიდი (სამწერობელი)</objectType>
-                                    <material ref="https://www.eagle-network.eu/voc/material/lod/115">ვერცხლი</material>                                   
+                                    <material ref="https://www.eagle-network.eu/voc/material/lod/115">ვერცხლი</material>
                                       <dimensions unit="cm">
                                         <width/>
                                         <height/>
@@ -46,37 +46,37 @@
                                        იგი მოთავსებულია ზარზმის დიდი ზომის სამწერობელზე
                                         <dimensions unit="cm">
                                          <width></width>
-                                         <height></height> 
-                                          </dimensions>  
-                                    </layout>                                   
+                                         <height></height>
+                                          </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="crustis">
                                 <rs type="execution">ჭედური</rs> <rs type="script">ასომთავრული</rs> წარწერა
-                                   <height/> 
+                                   <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                             <origin>
                                 <origPlace>ზარზმის მონასტერი</origPlace>
-                                 <origDate notBefore-custom="1000" notAfter-custom="1100" 
+                                 <origDate notBefore-custom="1000" notAfter-custom="1100"
                                     evidence="historical context" datingMethod="#julian">XI AD</origDate>
                             </origin>
                             <provenance type="found">
                                 <placeName type ="ancientFindspot">ზარზმის მონასტერი</placeName>
-                                <!-- "41.679888, 42.653828"--> 
+                                <!-- "41.679888, 42.653828"-->
                                 <rs type="circumstances"> ზარზმის დიდი ზომის სამწერობელი ზარზმის მონასტრიდან XVI საუკუნეში
                                     შემოქმედში (გურია) გადაიტანეს, ხოლო 1924 წლიდან საქართველოს ეროვნულ მუზეუმში ინახება</rs>
                                 <rs type="context"></rs>
                                 <rs type="monuList"/>
-                            </provenance>                                
+                            </provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot" ref="http://museum.ge/">საქართველოს ეროვნული მუზეუმი</placeName>
                                 <idno type="invNo"/>
-                            </provenance> 
-                    </history>                   
+                            </provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -84,7 +84,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <!--<facsimile>
@@ -96,15 +96,15 @@
         </surface>
     </facsimile>-->
     <text>
-        <body> 
+        <body>
        <div type="bibliography">
-                
-   <p><bibl n="1">Г.Н. Чубинашвили, Грузинское чеканное искусство<ptr target="bibliography.xml#b154"/>, <citedRange>127-129</citedRange></bibl></p>
-              
+
+   <p><bibl n="1"><ptr target="#b154"/> Г.Н. Чубинашвили, Грузинское чеканное искусство, <citedRange>127-129</citedRange></bibl></p>
+
             </div>
 
                           <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!--"† სხლითა ღთსთა მე ფსმნ ერსთვმნ ძემნ
                             კორთხეოლისა ოჲსა ივანე ლაკლაკისამნ შვქმნ ესე სმწბნი სლცვდ ჩემ და
                             შვლთა ჩემთათს
@@ -112,83 +112,83 @@
                             და ყლთა სხლისა ჩნისა გრდაცვალებოლ
                             თათს და დვსხენ წა საყდარსა ზრზს მამოლსა ჩმსა წე ხტსა ფერისცვლბსსა
                             აწ წმნო მღდლნო და დკნო რნი იმსხო
-                            რბდთ ჴრცსა და სსხლსა ოსა ჩნსა ჲჳ ქესა მგჴსნნით წა ლცვსა თქს."--> 
-                                                           
+                            რბდთ ჴრცსა და სსხლსა ოსა ჩნსა ჲჳ ქესა მგჴსნნით წა ლცვსა თქს."-->
+
                 <ab>
-                   <lb n="1"/>&#8224;<w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლითა</abbr></expan></w> 
-                                <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr><ex>ი</ex><abbr>ს</abbr><ex>აჲ</ex><abbr>თა</abbr></expan></w> 
-                                <w lemma="მე">მე</w> 
-                                <name nymRef="ფარსმან"><expan><abbr>ფ</abbr><ex>არ</ex><abbr>სმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></name> 
-                                <roleName><w><expan><abbr>ერ</abbr><ex>ი</ex><abbr>სთ</abbr><ex>ა</ex><abbr>ვმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w></roleName> 
+                   <lb n="1"/>&#8224;<w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლითა</abbr></expan></w>
+                                <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr><ex>ი</ex><abbr>ს</abbr><ex>აჲ</ex><abbr>თა</abbr></expan></w>
+                                <w lemma="მე">მე</w>
+                                <name nymRef="ფარსმან"><expan><abbr>ფ</abbr><ex>არ</ex><abbr>სმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></name>
+                                <roleName><w><expan><abbr>ერ</abbr><ex>ი</ex><abbr>სთ</abbr><ex>ა</ex><abbr>ვმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w></roleName>
                                 <w lemma="ძე"><expan><abbr>ძემ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
-                   <lb n="2"/><w lemma="კურთხეულ"><expan><abbr>კო</abbr><ex>ჳ</ex><abbr>რთხეო</abbr><ex>ჳ</ex><abbr>ლისა</abbr></expan></w> 
-                             <w lemma="უფალ"><expan><abbr>ო</abbr><ex>ჳფლ</ex><abbr>ჲსა</abbr></expan></w> 
-                              <name nymRef="ივანე">ივანე</name> 
-                              <name nymRef="ლაკლაკ"><expan><abbr>ლაკლაკისამ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></name> 
-                               <w lemma="შექმნა"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ვქმ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w> 
-                               <w lemma="ესე">ესე</w> 
-                               <w lemma="სამწერობელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>მწ</abbr><ex>ერო</ex><abbr>ბ</abbr><ex>ელ</ex><abbr>ნი</abbr></expan></w> 
-                               <w lemma="სალოცველ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ცვ</abbr><ex>ელა</ex><abbr>დ</abbr></expan></w> 
-                                <w lemma="ჩემ">ჩემ</w> 
-                                და 
-                   <lb n="3"/><w lemma="შვილ"><expan><abbr>შვ</abbr><ex>ი</ex><abbr>ლთა</abbr></expan></w> 
+                   <lb n="2"/><w lemma="კურთხეულ"><expan><abbr>კო</abbr><ex>ჳ</ex><abbr>რთხეო</abbr><ex>ჳ</ex><abbr>ლისა</abbr></expan></w>
+                             <w lemma="უფალ"><expan><abbr>ო</abbr><ex>ჳფლ</ex><abbr>ჲსა</abbr></expan></w>
+                              <name nymRef="ივანე">ივანე</name>
+                              <name nymRef="ლაკლაკ"><expan><abbr>ლაკლაკისამ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></name>
+                               <w lemma="შექმნა"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ვქმ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w>
+                               <w lemma="ესე">ესე</w>
+                               <w lemma="სამწერობელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>მწ</abbr><ex>ერო</ex><abbr>ბ</abbr><ex>ელ</ex><abbr>ნი</abbr></expan></w>
+                               <w lemma="სალოცველ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ცვ</abbr><ex>ელა</ex><abbr>დ</abbr></expan></w>
+                                <w lemma="ჩემ">ჩემ</w>
+                                და
+                   <lb n="3"/><w lemma="შვილ"><expan><abbr>შვ</abbr><ex>ი</ex><abbr>ლთა</abbr></expan></w>
                                <w lemma="ჩემ"><expan><abbr>ჩემთათ</abbr><ex>ჳ</ex><abbr>ს</abbr></expan></w>
-                    <lb n="4"/><w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოვე</ex><abbr>ლთა</abbr></expan></w> 
-                               <w lemma="სახლ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხლისა</abbr></expan></w> 
-                                <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნისათა</abbr></expan></w> 
-                                და 
-                                <w lemma="მოხსენება"><expan><abbr>მ</abbr><ex>ო</ex><abbr>ს</abbr><ex>ა</ex><abbr>ჴს</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> 
-                                <w lemma="სულკურთხეულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლკ</abbr><ex>უ</ex><abbr>რთხ</abbr><ex>ეუ</ex><abbr>ლთა</abbr></expan></w> 
-                                <w lemma="მშობელ"><expan><abbr>მშ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლთა</abbr></expan></w> 
-                                <w lemma="და">და</w> 
-                                <w lemma="ძმა">ძმათა</w> 
+                    <lb n="4"/><w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოვე</ex><abbr>ლთა</abbr></expan></w>
+                               <w lemma="სახლ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხლისა</abbr></expan></w>
+                                <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნისათა</abbr></expan></w>
+                                და
+                                <w lemma="მოხსენება"><expan><abbr>მ</abbr><ex>ო</ex><abbr>ს</abbr><ex>ა</ex><abbr>ჴს</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
+                                <w lemma="სულკურთხეულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლკ</abbr><ex>უ</ex><abbr>რთხ</abbr><ex>ეუ</ex><abbr>ლთა</abbr></expan></w>
+                                <w lemma="მშობელ"><expan><abbr>მშ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლთა</abbr></expan></w>
+                                <w lemma="და">და</w>
+                                <w lemma="ძმა">ძმათა</w>
                                 <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მთათ</abbr><ex>ჳ</ex><abbr>ს</abbr></expan></w>
-                    <lb n="5"/>და 
-                               <w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოვე</ex><abbr>ლთა</abbr></expan></w> 
-                                <w lemma="სახლ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხლისა</abbr></expan></w> 
-                                <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნისა</abbr></expan></w> 
+                    <lb n="5"/>და
+                               <w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოვე</ex><abbr>ლთა</abbr></expan></w>
+                                <w lemma="სახლ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხლისა</abbr></expan></w>
+                                <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნისა</abbr></expan></w>
                                 <w lemma="გარდაცვალებულ"><expan><abbr>გ</abbr><ex>ა</ex><abbr>რდაცვალებო</abbr><ex>ჳ</ex><abbr>ლ
-                    <lb n="6" break="no"/>თათ</abbr><ex>ჳ</ex><abbr>ს</abbr></expan></w> 
-                                და 
-                               <w lemma="დასხმა"><expan><abbr>დ</abbr><ex>ა</ex><abbr>ვ</abbr><ex>ა</ex><abbr>სხენ</abbr></expan></w> 
-                                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდას</ex><abbr>ა</abbr></expan></w> 
-                                <w lemma="საყდარ">საყდარსა</w> 
-                                <placeName><expan><abbr>ზ</abbr><ex>ა</ex><abbr>რზ</abbr><ex>მა</ex><abbr>ს</abbr></expan></placeName> 
-                                <w lemma="მამულ"><expan><abbr>მამო</abbr><ex>ჳ</ex><abbr>ლსა</abbr></expan></w> 
-                                <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მსა</abbr></expan></w> 
-                                <w lemma="წინაშე"><expan><abbr>წ</abbr><ex>ინაშ</ex><abbr>ე</abbr></expan></w> 
-                                <w lemma="ხატ"><expan><abbr>ხ</abbr><ex>ა</ex><abbr>ტსა</abbr></expan></w> 
+                    <lb n="6" break="no"/>თათ</abbr><ex>ჳ</ex><abbr>ს</abbr></expan></w>
+                                და
+                               <w lemma="დასხმა"><expan><abbr>დ</abbr><ex>ა</ex><abbr>ვ</abbr><ex>ა</ex><abbr>სხენ</abbr></expan></w>
+                                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდას</ex><abbr>ა</abbr></expan></w>
+                                <w lemma="საყდარ">საყდარსა</w>
+                                <placeName><expan><abbr>ზ</abbr><ex>ა</ex><abbr>რზ</abbr><ex>მა</ex><abbr>ს</abbr></expan></placeName>
+                                <w lemma="მამულ"><expan><abbr>მამო</abbr><ex>ჳ</ex><abbr>ლსა</abbr></expan></w>
+                                <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მსა</abbr></expan></w>
+                                <w lemma="წინაშე"><expan><abbr>წ</abbr><ex>ინაშ</ex><abbr>ე</abbr></expan></w>
+                                <w lemma="ხატ"><expan><abbr>ხ</abbr><ex>ა</ex><abbr>ტსა</abbr></expan></w>
                                 <w lemma="ფერიცვალება"><expan><abbr>ფერისცვ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ი</ex><abbr>ს</abbr><ex>ა</ex><abbr>ს</abbr><ex>ა</ex></expan></w>
-                    <lb n="7"/><w lemma="აწ">აწ</w> 
-                               <w lemma="წმიდანი"><expan><abbr>წმ</abbr><ex>იდა</ex><abbr>ნო</abbr></expan></w> 
-                                <roleName><w lemma="მღდელ"><expan><abbr>მღდ</abbr><ex>ე</ex><abbr>ლნო</abbr></expan></w></roleName> 
-                                და 
-                                <roleName><w lemma="დიაკონ"><expan><abbr>დ</abbr><ex>ია</ex><abbr>კ</abbr><ex>ონ</ex><abbr>ნო</abbr></expan></w></roleName> 
-                                <w lemma="რომელ"><expan><abbr>რ</abbr><ex>ომელ</ex><abbr>ნი</abbr></expan></w> 
+                    <lb n="7"/><w lemma="აწ">აწ</w>
+                               <w lemma="წმიდანი"><expan><abbr>წმ</abbr><ex>იდა</ex><abbr>ნო</abbr></expan></w>
+                                <roleName><w lemma="მღდელ"><expan><abbr>მღდ</abbr><ex>ე</ex><abbr>ლნო</abbr></expan></w></roleName>
+                                და
+                                <roleName><w lemma="დიაკონ"><expan><abbr>დ</abbr><ex>ია</ex><abbr>კ</abbr><ex>ონ</ex><abbr>ნო</abbr></expan></w></roleName>
+                                <w lemma="რომელ"><expan><abbr>რ</abbr><ex>ომელ</ex><abbr>ნი</abbr></expan></w>
                                 <w lemma="მსახურება"><expan><abbr>იმს</abbr><ex>ა</ex><abbr>ხო</abbr><ex>ჳ</ex>
-                    <lb n="8" break="no"/><abbr>რ</abbr><ex>ე</ex><abbr>ბდ</abbr><ex>ე</ex><abbr>თ</abbr></expan></w> 
-                                    <w lemma="ჴორც"><expan><abbr>ჴ</abbr><ex>ო</ex><abbr>რცსა</abbr></expan></w> 
-                                    და 
-                                    <w lemma="სისხლ"><expan><abbr>ს</abbr><ex>ი</ex><abbr>სხლსა</abbr></expan></w> 
-                                    <w lemma="უფალ"><expan><abbr>ო</abbr><ex>ჳფლი</ex><abbr>სა</abbr></expan></w> 
-                                    <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w> 
-                                    <w lemma="იესუ"><expan><abbr>ჲ</abbr><ex>ესო</ex><abbr>ჳ</abbr></expan></w> 
-                                    <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ესა</abbr></expan></w> 
-                                    <w lemma="მოხსენება"><expan><abbr>მ</abbr><ex>ო</ex><abbr>გ</abbr><ex>ჳ</ex><abbr>ჴს</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ნით</abbr></expan></w> 
-                                    <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდას</ex><abbr>ა</abbr></expan></w> 
-                                    <w lemma="ლოცვა"><expan><abbr>ლ</abbr><ex>ო</ex><abbr>ცვ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w> 
+                    <lb n="8" break="no"/><abbr>რ</abbr><ex>ე</ex><abbr>ბდ</abbr><ex>ე</ex><abbr>თ</abbr></expan></w>
+                                    <w lemma="ჴორც"><expan><abbr>ჴ</abbr><ex>ო</ex><abbr>რცსა</abbr></expan></w>
+                                    და
+                                    <w lemma="სისხლ"><expan><abbr>ს</abbr><ex>ი</ex><abbr>სხლსა</abbr></expan></w>
+                                    <w lemma="უფალ"><expan><abbr>ო</abbr><ex>ჳფლი</ex><abbr>სა</abbr></expan></w>
+                                    <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w>
+                                    <w lemma="იესუ"><expan><abbr>ჲ</abbr><ex>ესო</ex><abbr>ჳ</abbr></expan></w>
+                                    <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ესა</abbr></expan></w>
+                                    <w lemma="მოხსენება"><expan><abbr>მ</abbr><ex>ო</ex><abbr>გ</abbr><ex>ჳ</ex><abbr>ჴს</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ნით</abbr></expan></w>
+                                    <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდას</ex><abbr>ა</abbr></expan></w>
+                                    <w lemma="ლოცვა"><expan><abbr>ლ</abbr><ex>ო</ex><abbr>ცვ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w>
                                     <w lemma="თქუენ"><expan><abbr>თქ</abbr><ex>უენ</ex><abbr>ს</abbr><ex>ა</ex></expan></w>
                     </ab>
-               </div>         
-          
+               </div>
+
             <div type="translation" xml:lang="ka">
              <p>†ღვთის სახელით, მე ფარსმან ერისთავმა, სულკურთხეული ივანე ლაკლაკის ძემ, შევქმენი ეს სამწერობელი ჩემი, ჩემი შვილებისა და მთელი სახლეულის სალოცველად,
                 ჩემი სულკურთხეული მშობლებისა, ძმებისა და ჩვენი სახლეულის ყველა გარდაცვალებულთა სულის მოსახსენებლად და დავდე იგი ზარზმის წმიდა საყდარში,
                 ჩემს მამულში, ფერისცვალების ხატის წინ. ამიერიდან, წმიდანო მღვდელნო და დიაკონნო, რომლებიც იმსახურებთ უფალი იესო ქრისტეს სისხლსა და ხორცს,
                 თქვენს წმინდა ლოცვებში მოგვიხსენეთ.</p>
          </div>
-            
-               <div type="commentary"/>                 
+
+               <div type="commentary"/>
         </body>
     </text>
 </TEI>

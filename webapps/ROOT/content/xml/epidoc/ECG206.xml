@@ -26,7 +26,7 @@
                                 <support>
                                     <objectype/>
                                 <material ref="https://www.eagle-network.eu/voc/objtyp/lod/1402">ქვა</material>
-                                
+
                             </support>
                             </supportDesc>
                             <layoutDesc>
@@ -43,7 +43,7 @@
                             <handNote><p>ასომთავრული წარწერა, ამოღარვით</p>
                                 <dimensions unit="mm">
                                     <height>65-80</height>
-                                </dimensions>        
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -55,7 +55,7 @@
                         <provenance>
                             <placename>განთიადის ეკლესიის ეზო</placename>
                         </provenance>
-                        
+
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -65,60 +65,59 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    <text><!-- 
+    <text><!--
     1. [ქ. ს(ა)ხ(ე)ლ(ი)თა ღ(მრთისაჲ)თა და მ(ეო)ხ(ე)ბ(ი)თა ყ(ოვლა)დ წ(მი)დ(ი)სა ღ(მრ)თ(ი)სმშ(ო)ბ(ელისაჲ)თა
-    2. აღვ(ა)შენ]ე ესე წ(მიდა)ჲ ეკლ(ე)ს(ია)ჲ  ჴ (ე)ლით[ა  ჩ(ე)მ ც(ო)დ(ვილი)სა... 
+    2. აღვ(ა)შენ]ე ესე წ(მიდა)ჲ ეკლ(ე)ს(ია)ჲ  ჴ (ე)ლით[ა  ჩ(ე)მ ც(ო)დ(ვილი)სა...
     3. ...უ(ფალ)ო ღ](მერთ)ო შევწირე ეკლე[ს(იას)ა  ამ(ა)ს]...
      -->
-        
+
         <body>
             <div type="bibliography">
-                
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>95</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                <p><bibl n="2">დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>143</citedRange> თბილისი, 2014<ptr target="bibliography.xml#b213"/></bibl></p>
-                
+
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>95</citedRange>, თბილისი, 2018</bibl></p>
+                <p><bibl n="2"><ptr target="#b213"/> დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>143</citedRange> თბილისი, 2014</bibl></p>
+
             </div>
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
                 <div type="textpart" subtype="fragment" n="1">
                     <ab>
-                        <lb n="1"/><supplied reason="lost">ქ</supplied> 
+                        <lb n="1"/><supplied reason="lost">ქ</supplied>
                         <w lemma="სახელი"><expan>ს<ex>ა</ex>ხ<ex>ე</ex>ლ<ex>ი</ex>თა</expan></w> 
                         <w lemma="ღმერთი"><supplied reason="lost"><expan>ღ<ex>მრთისაჲ</ex>თა</expan></supplied></w>
-                        და <w lemma="მეოხება"><supplied reason="lost"><expan>მ<ex>ეო</ex>ხ<ex>ე</ex>ბ<ex>ი</ex>თა</expan></supplied></w> 
+                        და <w lemma="მეოხება"><supplied reason="lost"><expan>მ<ex>ეო</ex>ხ<ex>ე</ex>ბ<ex>ი</ex>თა</expan></supplied></w>
                         <w lemma="ყოვლად"><supplied reason="lost"><expan>ყ<ex>ოვლა</ex>დ</expan></supplied></w>
-                        <w lemma="წმიდა"><supplied reason="lost"><expan>წ<ex>მი</ex>დ<ex>ი</ex>სა</expan></supplied></w> 
-                        <w lemma="ღმრთისმშობელი"><supplied><expan>ღ<ex>მრ</ex>თ<ex>ი</ex>სმშ<ex>ო</ex>ბ<ex>ელისაჲ</ex>თა</expan></supplied></w> 
-                        <lb n="2"/><w lemma="აშენებს"><supplied reason="lost"><expan>აღვ<ex>ა</ex>შენ</expan></supplied>ე</w> 
-                        <w lemma="ეს">ესე</w> <w lemma="წმინდა"><expan>წ<ex>მიდა</ex>ჲ</expan></w> 
-                        <w lemma="ეკლესია"><expan>ეკლ<ex>ე</ex>ს<ex>ია</ex>ჲ</expan></w> 
-                        <w lemma="ჴელით"><expan>ჴ<ex>ე</ex>ლით</expan><supplied reason="lost">ა</supplied></w> 
-                        <w lemma="ჩემი"><supplied reason="lost"><expan>ჩ<ex>ე</ex>მ</expan></supplied></w> 
+                        <w lemma="წმიდა"><supplied reason="lost"><expan>წ<ex>მი</ex>დ<ex>ი</ex>სა</expan></supplied></w>
+                        <w lemma="ღმრთისმშობელი"><supplied><expan>ღ<ex>მრ</ex>თ<ex>ი</ex>სმშ<ex>ო</ex>ბ<ex>ელისაჲ</ex>თა</expan></supplied></w>
+                        <lb n="2"/><w lemma="აშენებს"><supplied reason="lost"><expan>აღვ<ex>ა</ex>შენ</expan></supplied>ე</w>
+                        <w lemma="ეს">ესე</w> <w lemma="წმინდა"><expan>წ<ex>მიდა</ex>ჲ</expan></w>
+                        <w lemma="ეკლესია"><expan>ეკლ<ex>ე</ex>ს<ex>ია</ex>ჲ</expan></w>
+                        <w lemma="ჴელით"><expan>ჴ<ex>ე</ex>ლით</expan><supplied reason="lost">ა</supplied></w>
+                        <w lemma="ჩემი"><supplied reason="lost"><expan>ჩ<ex>ე</ex>მ</expan></supplied></w>
                         <w lemma="ცოდვილისა"><supplied reason="lost"><expan>ც<ex>ო</ex>დ<ex>ვილი</ex>სა</expan></supplied></w>
-                        <lb n="3"/><w lemma="უფალი"><supplied reason="lost"><expan>უ<ex>ფალ</ex>ო</expan></supplied></w> 
+                        <lb n="3"/><w lemma="უფალი"><supplied reason="lost"><expan>უ<ex>ფალ</ex>ო</expan></supplied></w>
                         <w lemma="ღმერთი"><supplied reason="lost">ღ<expan><ex>მერთ</ex>ო</expan></supplied></w>
-                        <w lemma="წირავს">შევწირე</w> 
+                        <w lemma="წირავს">შევწირე</w>
                         <w lemma="ეკლესია"><expan>ეკლე<supplied reason="lost">ს <ex>იას</ex>ა</supplied></expan></w> <w lemma="ამას"><supplied reason="lost"><expan>ამ<ex>ა</ex>ს</expan></supplied></w>
                     </ab>
-                </div> 
-                
+                </div>
+
             </div>
-        
+
             <div type="translation">
                 <p/>
             </div>
-            
-            
+
+
             <div type="commentary">
-                <p> მაჯას წარწერიანი ქვები განთიადის ეკლესიის იატაკიდან ამოღებულია და ეკლესიის ეზოში, ღია ცის ქვეშ აწყვია. 
-                    დაზიანება: წარწერა თავ-ბოლო ნაკლულია. დარჩენილია მხოლოდ სტრიქონების შუა ნაწილები. ქვის ჩამოტეხვის გამო დაზიანებულია რამდენიმე გრაფემა. 
+                <p> მაჯას წარწერიანი ქვები განთიადის ეკლესიის იატაკიდან ამოღებულია და ეკლესიის ეზოში, ღია ცის ქვეშ აწყვია.
+                    დაზიანება: წარწერა თავ-ბოლო ნაკლულია. დარჩენილია მხოლოდ სტრიქონების შუა ნაწილები. ქვის ჩამოტეხვის გამო დაზიანებულია რამდენიმე გრაფემა.
                     წარწერის დათარიღება წინა გამოცემაში: IX-X სს. (ბ)
                     წარმოდგენილი დათარიღების საფუძველი: გაზიარებულია აღნიშNული დათარიღება. პალეოგრაფიული ნიშნები: კუთხოვანი ასომთავრული.
                 </p>
             </div>
-            
-            
-           
+
+
+
         </body>
     </text>
 </TEI>
-

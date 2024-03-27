@@ -18,7 +18,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <collection>მცხეთა</collection>                
+                        <collection>მცხეთა</collection>
                     </msIdentifier>
                     <msContents>
                         <summary>
@@ -29,7 +29,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">ქვიშაქვა</material>
                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/91">საფლავის ქვა</objectType></support></supportDesc>
                                 <layoutDesc>
@@ -41,14 +41,14 @@
                                         <depth></depth></dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
-                            <handNote>                         
-                                წარწერა შესრულებულია თანაბარი მსხვილი ასოებით. ისინი სილამაზით არ გამოირჩევიან, მაგრამ საკმაოდ 
+                            <handNote>
+                                წარწერა შესრულებულია თანაბარი მსხვილი ასოებით. ისინი სილამაზით არ გამოირჩევიან, მაგრამ საკმაოდ
                                 აკურატულად არიან გამოყვანილი. ასოები აშკარად კუთხოვანია და მათ შორის გამოირჩევიან θ და ο, რომბის ფორმის.
                                 ასოები გარდა რომბის ფორმის θ და ο-ს, კუთხოვანია (C, Ε, Υ, Η, Τ ...)
                                 წარწერაში დაცულია 11 ასო, ზოგი დაზიანებულია, ხოლო ზოგი რამდენჯერმე.
-                                პირველი ორი სტრიქონი ფრაგმენტულია, მაგრამ აღსადგენად ძნელი არაა, ბოლო 2 სტრიქონი უფრო ასომრავალია, მაგრამ მათი 
+                                პირველი ორი სტრიქონი ფრაგმენტულია, მაგრამ აღსადგენად ძნელი არაა, ბოლო 2 სტრიქონი უფრო ასომრავალია, მაგრამ მათი
                                 გააზრება უფრო რთულია. ის უნდა იყოს კრულვა, რაც ეხება მიწისმფლობელებსაც (უფრო კონკრეტული მსჯელობა ამაზე რთულია).
                                 დათარიღებისა საფუძველია ფორმულა, რაც მასშია (δούλη τοῦ θεοῦ) და იმ პალეოგრაფიული მონაცემებით, რასაც ბევრი ანალოგი მოეპოვება.
                                 <height unit="cm" precision="medium">3-3,5</height>
@@ -63,16 +63,16 @@
                                 <origDate notBefore="0301" notAfter="0500" evidence="lettering" datingMethod="#julian">IV-V AD</origDate>
                                 </origin>
                             <provenance type="found" when="1995">
-                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863840">მცხეთა</placeName> 
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863840">მცხეთა</placeName>
                                 <rs type="circumstances">1995 წელს მცხეთის არქეოლოგიურმა ექსპედიციამ მოგვთა უბანზე შემთხვევით მოიპოვა ქვიშაქვის ფილის ფრაგმენტები.</rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                         
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">მცხეთის არქეოლოგიური ინსტიტუტი.</placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -80,7 +80,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-    </teiHeader>    
+    </teiHeader>
     <facsimile>
         <surface>
             <graphic url="ecg076.jpg">
@@ -88,38 +88,38 @@
                 <desc xml:lang="en">Fragments of a plaque from Mogvta Ubani, 1995</desc>
             </graphic>
         </surface>
-    </facsimile>    
+    </facsimile>
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 229-230</citedRange></bibl></p>
-                
-            </div>            
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 229-230</citedRange></bibl></p>
+
+            </div>
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
-                        <!--[ἐν]θά[δε κεῖται] 
-                            [ἡ δού]λη τοῦ θ[εοῦ]... 
-                            ὃς συντε[νεῖ] 
+
+                        <!--[ἐν]θά[δε κεῖται]
+                            [ἡ δού]λη τοῦ θ[εοῦ]...
+                            ὃς συντε[νεῖ]
                             ...σε οἱ γηοῦ[χοι]
- 
+
                         -->
-                     
-           
+
+
          <ab>
              <lb n="1"/> <w lemma="ἐνθάδε"><supplied reason="lost">ἐν</supplied>θά<supplied reason="lost">δε</supplied></w> <w lemma="κεῖμαι">κ<supplied reason="lost">εῖται</supplied></w>
              <lb n="2"/> <w lemma="ὁ"><supplied reason="lost">ἡ</supplied></w> <w lemma="δοῦλος"><supplied reason="lost">δού</supplied>λη</w> <w lemma="ὁ">τοῦ</w> <w lemma="θεός">θ<supplied reason="lost">εοῦ</supplied></w><gap reason="lost" extent="unknown" unit="character"/>
              <lb n="3"/> <w lemma="ὄς">ὃς</w> <w lemma="συντείνω">συντε<supplied reason="lost">νεῖ</supplied></w>
              <lb n="4"/> <gap reason="lost" extent="unknown" unit="character"></gap><unclear>σ</unclear>ε <w lemma="ὁ">οἱ</w> <w lemma="γηοῦχος">γηοῦ<supplied reason="lost">χοι</supplied></w>
-            </ab>    
-             
-         
+            </ab>
+
+
             </div>
-                
+
             <div type="translation" xml:lang="ka">
                 <p>აქ განისვენებს მხევალი ღმრთისა... ვინც მოიწადინებს... მიწისმფლობელები...</p>
             </div>
-            
+
            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
               <head>კრიტიკული აპარატი</head>
               <p><app>
@@ -129,9 +129,9 @@
               <rdg></rdg>
               </app></p>
             </div>
-           
+
             <div type="commentary">
-                <p>წარწერა ქრისტიანული ხასიათისაა, ეპიტაფიაა. წარწერის ბოლო უნდა წარმოადგენდეს იმის კრულვას, ვინც რამენაირად 
+                <p>წარწერა ქრისტიანული ხასიათისაა, ეპიტაფიაა. წარწერის ბოლო უნდა წარმოადგენდეს იმის კრულვას, ვინც რამენაირად
                 ხელყოფს საფლავს.</p>
             </div>
         </body>

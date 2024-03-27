@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ქობაირის მონასტრის ეპიტაფია პატრონი შაჰანშას ძის, [ზაქარია] ამირსპასალარის გაზრდილის, ჯაყელის ასულის რუსუდანისა</title> 
+                <title>ქობაირის მონასტრის ეპიტაფია პატრონი შაჰანშას ძის, [ზაქარია] ამირსპასალარის გაზრდილის, ჯაყელის ასულის რუსუდანისა</title>
                 <editor>თემო ჯოჯუა</editor>
                 <editor>გიორგი გაგოშიძე</editor>
             </titleStmt>
@@ -23,19 +23,19 @@
                     <msIdentifier>
                         <collection>ქობერი</collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">ეპიტაფია</seg>
                             <seg xml:lang="en"/>
                         </summary>
-                    </msContents>  
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/91.html">ეპიტაფია</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
                                       <dimensions unit="cm">
                                         <width>67</width>
                                         <height>169</height>
@@ -52,36 +52,36 @@
                                         IV ნაწილის დასავლეთით, მისგან რამდენიმე სმ-ის დაშორებით, მიწაზე დევს.
                                           <dimensions unit="cm">
                                          <width>47</width>
-                                         <height>75</height> 
-                                      </dimensions>  
-                                    </layout>                                   
+                                         <height>75</height>
+                                      </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                                 <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
-                                   <height>3,5</height> 
+                                   <height>3,5</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                             <origin>
                                 <origPlace>ქობაირის მონასტერი, სომხეთი</origPlace>
-                                <origDate notBefore-custom="1300" notAfter-custom="1500" precision="medium" 
+                                <origDate notBefore-custom="1300" notAfter-custom="1500" precision="medium"
                                     evidence="lettering" datingMethod="#julian">XIII-XIV AD</origDate>
                             </origin>
                             <provenance type="found" when="2011">
                                 <placeName type ="ancientFindspot">ქობაირის მონასტერი, სომხეთი</placeName>
-                                <!-- "41.005061, 44.635086"--> 
+                                <!-- "41.005061, 44.635086"-->
                                 <rs type="circumstances">2011 წელს ქეთი ასათიანისა და გიორგი კალანდიას ორგანიზებით განხორციელებული
                                     სამეცნიერო ექსპედიციის შედეგად
                                 ქობაირის მონასტერში რუსუდან ჯაყელის ეპიტაფიის II და IV ნაწილები გამოვლინდა</rs>
                                 <rs type="context"/>
-                                <rs type="monuList"/></provenance>                                
+                                <rs type="monuList"/></provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot">ქობაირის მონასტერი, სომხეთი</placeName>
-                                <idno type="invNo"/></provenance> 
-                    </history>                   
+                                <idno type="invNo"/></provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -89,7 +89,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-12-17" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-12-17" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <facsimile>
@@ -107,51 +107,51 @@
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
-    </facsimile>  
+    </facsimile>
     <text>
         <body>
             <div type="bibliography">
-                
-         <p><bibl n="1">თემო ჯოჯუა, გიორგი გაგოშიძე, ქობაირის, ჰნევანქისა და ახტალის მონასტრების ქართული ლაპიდარული წარწერები<ptr target="bibliography.xml#b164"/>, <citedRange> 275-278</citedRange></bibl></p>
-         <p><bibl n="2">ქეთი ასათიანი, გიორგი კალანდია, ქობერის მონასტრის ქართული წარწერები<ptr target="bibliography.xml#b165"/>, <citedRange> 10-14</citedRange></bibl></p>
-                
+
+         <p><bibl n="1"><ptr target="#b164"/> თემო ჯოჯუა, გიორგი გაგოშიძე, ქობაირის, ჰნევანქისა და ახტალის მონასტრების ქართული ლაპიდარული წარწერები, <citedRange> 275-278</citedRange></bibl></p>
+         <p><bibl n="2"><ptr target="#b165"/> ქეთი ასათიანი, გიორგი კალანდია, ქობერის მონასტრის ქართული წარწერები, <citedRange> 10-14</citedRange></bibl></p>
+
            </div>
-   
-            
+
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!-- † ესე საფლ(ა)ვი დჲდჲ
-                            სა პ(ა)ტრ(ო)[ნ]ისა შ(ა)ჰ(ა)ნშ(ა)ს ძის 
+                            სა პ(ა)ტრ(ო)[ნ]ისა შ(ა)ჰ(ა)ნშ(ა)ს ძის
                            [ზაქ](ა)[რი]ა ამი(რ)სპ(ა)ს(ა)ლ(არ)ის გ(ა)ზ
                            რდ(ი)ლისა ჯ(ა)ყ(ე)ლისა ა
                         სულ(ი)სა რ(უ)ს(უ)დ(ა)ნ(ი)ს(ი) შნ
-                        ღნ--> 
+                        ღნ-->
 
                 <ab>
-<lb n="1"/>&#8224;<w lemma="ესე">ესე</w> 
-           <w lemma="საფლავ"><expan><abbr>საფლ</abbr><ex>ა</ex><abbr>ვი</abbr></expan></w> 
+<lb n="1"/>&#8224;<w lemma="ესე">ესე</w>
+           <w lemma="საფლავ"><expan><abbr>საფლ</abbr><ex>ა</ex><abbr>ვი</abbr></expan></w>
            <persName type="local" key="შანშე (შაჰანშა) I მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/შანშე_(I)_მხარგრძელი"><w lemma="დიდ">დჲდჲ
 <lb n="2" break="no"/>სა</w>
-          <w lemma="პატრონ"><expan><abbr>პ</abbr><ex>ა</ex><abbr>ტრ</abbr><ex>ო</ex><supplied reason="lost"><abbr>ნ</abbr></supplied><abbr>ისა</abbr></expan></w> 
-          <name nymRef="შაჰანშა"><expan><abbr>შ</abbr><ex>ა</ex><abbr>ჰ</abbr><ex>ა</ex><abbr>ნშ</abbr><ex>ა</ex><abbr>ს</abbr></expan></name></persName> 
+          <w lemma="პატრონ"><expan><abbr>პ</abbr><ex>ა</ex><abbr>ტრ</abbr><ex>ო</ex><supplied reason="lost"><abbr>ნ</abbr></supplied><abbr>ისა</abbr></expan></w>
+          <name nymRef="შაჰანშა"><expan><abbr>შ</abbr><ex>ა</ex><abbr>ჰ</abbr><ex>ა</ex><abbr>ნშ</abbr><ex>ა</ex><abbr>ს</abbr></expan></name></persName>
           <w lemma="ძე">ძის</w>
-<lb n="3"/><persName type="local" key="ზაქარია III მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/ზაქარია_(III)_შანშე_(I)-ის_ძე"><name nymRef="ზაქარია"><expan><supplied reason="lost"><abbr>ზაქ</abbr></supplied><ex>ა</ex><supplied reason="lost"><abbr>რი</abbr></supplied>ა</expan></name> 
-          <roleName nymRef="ამირსპასალარ"><expan><abbr>ამი</abbr><ex>რ</ex><abbr>სპ</abbr><ex>ა</ex><abbr>ს</abbr><ex>ა</ex><abbr>ლ</abbr><ex>არ</ex><abbr>ის</abbr></expan></roleName></persName> 
+<lb n="3"/><persName type="local" key="ზაქარია III მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/ზაქარია_(III)_შანშე_(I)-ის_ძე"><name nymRef="ზაქარია"><expan><supplied reason="lost"><abbr>ზაქ</abbr></supplied><ex>ა</ex><supplied reason="lost"><abbr>რი</abbr></supplied>ა</expan></name>
+          <roleName nymRef="ამირსპასალარ"><expan><abbr>ამი</abbr><ex>რ</ex><abbr>სპ</abbr><ex>ა</ex><abbr>ს</abbr><ex>ა</ex><abbr>ლ</abbr><ex>არ</ex><abbr>ის</abbr></expan></roleName></persName>
                 <expan><abbr>გ</abbr><ex>ა</ex><abbr>ზ
-<lb n="4" break="no"/>რდ</abbr><ex>ი</ex><abbr>ლისა</abbr> </expan>   
+<lb n="4" break="no"/>რდ</abbr><ex>ი</ex><abbr>ლისა</abbr> </expan>
         <persName type="local" key="რუსუდან ჯაყელი [ზაქარია III მხარგრძელის გაზრდილი]"><name nymRef="ჯაყელ"><expan><abbr>ჯ</abbr><ex>ა</ex><abbr>ყ</abbr><ex>ე</ex><abbr>ლისა</abbr></expan></name>
         <w lemma="ასულ"><expan><abbr>ა
-<lb n="5" break="no"/>სულ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w> 
+<lb n="5" break="no"/>სულ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w>
         <name nymRef="რუსუდან"><expan><abbr>რ</abbr><ex>უ</ex><abbr>ს</abbr><ex>უ</ex><abbr>დ</abbr><ex>ა</ex><abbr>ნ</abbr><ex>ი</ex><abbr>ს</abbr><ex>ი</ex></expan></name> </persName>
          <w lemma="შენდობა"><expan><abbr>შ</abbr><ex>ეუნდვე</ex><abbr>ნ</abbr></expan></w>
-<lb n="6"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> 
+<lb n="6"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
              </ab>
                </div>
-            
+
          <div type="translation" xml:lang="ka">
              <p>ეს არის საფლავი დიდი პატრონის შაჰანშას ძის, ზაქარია ამირსპასალარის, გაზრდილის - ასულ რუსუდან ჯაყელის, შეუნდოს ღმერთმა.</p>
-         </div>                  
-           
+         </div>
+
             <div type="commentary">
                 <p>წარწერაში ქარაგმის ნიშნად გამოყენებულია განივი კლაკნილი ხაზი. განკვეთილობის ნიშნები: ორწერტილი თითქმის ყოველი სიტყვის შემდეგ. ტექსტში ბგერა ი,
                     რიგ შემთხვევებში, Ⴢ-ს (ჲ) საშუალებით არის გადმოცემული; გვხვდება ლიგატურისა და შეწიაღების შემთხვევები.
@@ -161,13 +161,13 @@
                    კი, ჯერჯერობით, დაკარგულია. გიორგი კალანდიამ და ქეთევან ასათიანმა მათ მიერ გამოვლენილი
                    II და IV ნაწილები შეცდომით სხვადასხვა ეპიტაფიად მიიჩნიეს, მათი ნაკლული ადგილები
                    სხვადასხვა სახით აღადგინეს და ისინი, საბოლოოდ, ცალ-ცალკე, ერთმანეთისაგან დამოუკიდებელი
-                   წარწერების სახით წაიკითხეს: 
+                   წარწერების სახით წაიკითხეს:
                    1. „[ესე სა]ფლავი დიდისა | [ათაბაგისა] შენშეს ძეს |
-                   ამირსპასალარს შალვას | [შეუნდოს ღმერთმან]“; და 
+                   ამირსპასალარს შალვას | [შეუნდოს ღმერთმან]“; და
                    2. „[სა]რდლისა ჯაყელისა | ასულსა რუსუდანს
                    შეუნდოს | ღმერთმან“. თემო ჯოჯუას გამოკვლევის მიხედვით, ამ „ორი წარწერის“ წაკითხვის შემდეგ მკვლევრებმა „ისინი“ ცალცალკე
                    განიხილეს და „მათზე“ დაყრდნობით, სამეცნიერო საზოგადოებას სამი ძირითადი დასკვნა
-                   შესთავაზეს: 1. „დიდი ათაბაგის შანშეს ძის, ამირსპასალარ შალვას ეპიტაფიაში“ მოხსენიებული არიან: 
+                   შესთავაზეს: 1. „დიდი ათაბაგის შანშეს ძის, ამირსპასალარ შალვას ეპიტაფიაში“ მოხსენიებული არიან:
                    ათაბაგი შანშე II მხარგრძელი და მისი უფროსი ვაჟი, ამირსპასალარი შალვა,
                    რომელიც სხვა წერილობითი ძეგლებიდან ცნობილი არ არის; 2. „სარდალ ჯაყელის ასულის
                    რუსუდანის ეპიტაფიაში“ სახელის გარეშე მოხსენიებულ „სარდალ ჯაყელში“, შესაძლოა,
@@ -213,10 +213,10 @@
                    <p>3. ეპიტაფიის III და IV სტრიქონების გიორგი კალანდიასა და ქეთევან ასათიანისეული წაკითხვა:
                    „ამირსპასალარს შალვას | [შეუნდოს ღმერთმან]“ და „[სა]რდლისა ჯაყელისა“, მცდარია.
                    სინამდვილეში, ეს ორი სტრიქონი, III სტრიქონის პირველი
-                   სიტყვის გამოკლებით, შემდეგი სახით იკითხება: „[ზაქ](ა)[რი]ა ამი[რ]სპ[ა]ს[ა]ლ[არ]ის გ[ა]ზ|რდ[ი]ლისა, ჯ[აყ[ე]ლისა ა|“. 
+                   სიტყვის გამოკლებით, შემდეგი სახით იკითხება: „[ზაქ](ა)[რი]ა ამი[რ]სპ[ა]ს[ა]ლ[არ]ის გ[ა]ზ|რდ[ი]ლისა, ჯ[აყ[ე]ლისა ა|“.
                    რაც შეეხება III სტრიქონის პირველ სიტყვას, ამირსპასალარის სახელს „ზაქარია“-ს, რომელიც დღეისათვის საფლავის ქვის
-                   ერთ-ერთ ნაწილთან ერთად არის დაკარგული, ის თითქმის მთლიანად აღადგინეს გამომცემლებმა. ამასთან, 
-                   აღნიშნული სიტყვის აღდგენისას ისინი სამ ძირითად არგუმენტს დაეყრდნენ: 
+                   ერთ-ერთ ნაწილთან ერთად არის დაკარგული, ის თითქმის მთლიანად აღადგინეს გამომცემლებმა. ამასთან,
+                   აღნიშნული სიტყვის აღდგენისას ისინი სამ ძირითად არგუმენტს დაეყრდნენ:
                    ა) ამირსპასალარის დაკარგული სახელი, ეპიტაფიის სხვა სტრიქონებზე წარმოდგენილი ტექსტის მოცულობის,
                    აგრეთვე, დაკარგული სახელიდან შემორჩენილი ქარაგმის ნიშნისა და ბოლო გრაფემის ა-ს
                    გათვალისწინებით, მაქსიმუმ, ხუთ-ექვს დაქარაგმებულ გრაფემას შეიცავდა და გრაფემა ა-თი
@@ -263,11 +263,11 @@
                    თუ კონკრეტულად რა სახის კავშირი ჰქონდა რუსუდან ჯაყელს მხარგრძელთა საგვარეულოსთან
                    და რა მიზეზის გამო დაიკრძალა იგი „შანშეს სახლის“ საძვალე-მონასტერში: რუსუდან
                    ჯაყელი მანდატურთუხუცეს შანშე I-ის უფროსი ვაჟის, ამირსპასალარ ზაქარია III-ის გაზრდილი
-                   იყო და, შესაბამისად, გარდაცვალებამდე „შანშეს სახლში“ ცხოვრობდა. ის ფაქტი, რომ 
+                   იყო და, შესაბამისად, გარდაცვალებამდე „შანშეს სახლში“ ცხოვრობდა. ის ფაქტი, რომ
                    ამირსპასალარი ზაქარია III ჯაყელთა ფეოდალური სახლის ასულის გამზრდელი
                    იყო, მოულოდნელი სულაც არ არის, რადგან იგი ჯაყელთა საგვარეულოსთან ახლო
-                   ნათესაურ კავშირში იმყოფებოდა: ზაქარია III-ის თანამეცხედრე სამცხის სპასალარის, შემდგომში 
-                   მეჭურჭლეთუხუცესისა და ათაბაგის, სარგის I ჯაყელ-ციხისჯვარელის ასული იყო.</p>                
+                   ნათესაურ კავშირში იმყოფებოდა: ზაქარია III-ის თანამეცხედრე სამცხის სპასალარის, შემდგომში
+                   მეჭურჭლეთუხუცესისა და ათაბაგის, სარგის I ჯაყელ-ციხისჯვარელის ასული იყო.</p>
             </div>
          </body>
     </text>

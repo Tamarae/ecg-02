@@ -9,7 +9,7 @@
                 <title xml:lang="en">Zguderi. Owner’s name on a jar, 3rd cent. A.D.</title>
                 <editor xml:lang="ka">თინათინ ყაუხჩიშვილი</editor>
                 <editor xml:lang="en">Tinatin Kaukhchishvili</editor>
-       
+
             </titleStmt>
             <publicationStmt>
                 <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
@@ -27,17 +27,17 @@
                         <collection>
                            ზღუდერი
                         </collection>
-                    </msIdentifier>                    
+                    </msIdentifier>
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მემორიალური</seg>
                             <seg xml:lang="en"/>
                         </summary>
-                    </msContents> 
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/115">ვერცხლი</material>
                                    <objectType xml:lang="ka" ref="https://www.eagle-network.eu/voc/objtyp/lod/305">ჭურჭელი</objectType>
                                     <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/115">Silver</material>
@@ -45,7 +45,7 @@
                                 </support></supportDesc>
                                 <layoutDesc>
                                     <layout>
-                                        <seg xml:lang="ka">ვერცხლის პატარა ორყურა ჭურჭლის ფეხზე, ქვემოთ ირგვლივ პუნქტირით შესრულებულია არამეული წარწერა (არამეული წარწერა აღნიშნავს 
+                                        <seg xml:lang="ka">ვერცხლის პატარა ორყურა ჭურჭლის ფეხზე, ქვემოთ ირგვლივ პუნქტირით შესრულებულია არამეული წარწერა (არამეული წარწერა აღნიშნავს
                                         "13 ასს", რაც ან ჭურჭლის წონაა, ან მისი მოცულობა, მ. ჭელიძე 1990: 73); ხოლო ამას გარდა ამოკაწრულია ბერძნული სახელი.</seg>
                                         <seg xml:lang="en"></seg>
                                       <dimensions unit="cm">
@@ -54,7 +54,7 @@
                                        </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
                                 <width unit="cm" precision="medium"></width>
@@ -70,26 +70,26 @@
                                     <seg xml:lang="ka">ზღუდერი</seg>
                                     <seg xml:lang="en">Zguderi</seg>
                                 </origPlace>
-                                <origDate notBefore-custom="0001" notAfter-custom="0200" 
+                                <origDate notBefore-custom="0001" notAfter-custom="0200"
                                     precision="medium" evidence="lettering" datingMethod="#julian">I-II AD</origDate>
                                 </origin>
                             <provenance type="found" when="1964">
                                 <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863925">
                                 <seg xml:lang="ka">ზღუდერი</seg>
                                     <seg xml:lang="en">Zguderi</seg>
-                                </placeName> 
+                                </placeName>
                                 <rs type="circumstances">
                                     <seg xml:lang="ka">ნივთი მოპოვებულია არქეოლოგიური ექსპედიციის მიერ 1964 წელს.</seg>
                                     <seg xml:lang="en">Archaeological expedition in 1964</seg>
                                 </rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                         
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot"/>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -97,7 +97,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-    </teiHeader>  
+    </teiHeader>
   <facsimile>
         <surface>
             <graphic url="ecg294.jpg">
@@ -106,44 +106,39 @@
             </graphic>
         </surface>
     </facsimile>
-  
+
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 268</citedRange></bibl></p>
-                    <p><bibl n="2">მ. ჭელიძე, ეპიგრაფიკული შენიშვნები<ptr target="bibliography.xml#b166"/>, <citedRange> 71-76</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 268</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b166"/> მ. ჭელიძე, ეპიგრაფიკული შენიშვნები, <citedRange> 71-76</citedRange></bibl></p>
+
             </div>
-       
+
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!--  ΕΥΦΡΑΤΗC Εὐφράτης -->
-                     
-            
+
+
          <ab>
              <persName type="local" key="ევფრატესი (Εὐφράτης)">Εὐφράτης</persName>
-         </ab>    
-             
-         
+         </ab>
+
+
             </div>
-                
+
             <div type="translation">
                 <p xml:lang="ka">ევფრატე</p>
             </div>
-            
-            
+
+
            <div type="commentary">
                 <p xml:lang="ka">მამაკაცის ასეთი საკუთარი სახელი დადასტურებულია ეგვიპტის პაპირუსებში.
                     დათარიღება ხდება ასოთა მოხაზულობის მიხედვით (მომრგვალებული Ε, C;  A, Π-ს თავისებული ფორმა).</p>
                <p  xml:lang="en"></p>
             </div>
-           
+
       </body>
     </text>
 </TEI>
-
-
-
-
-

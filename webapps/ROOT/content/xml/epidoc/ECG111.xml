@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
@@ -31,9 +31,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
-                                    <material ref="https://www.eagle-network.eu/voc/objtyp/lod/124">კერამიკა</material>                                   
+                                    <material ref="https://www.eagle-network.eu/voc/objtyp/lod/124">კერამიკა</material>
                                       <dimensions unit="cm">
                                             <width/>
                                             <height/>
@@ -42,15 +42,15 @@
                                 </support>
                             </supportDesc>
                                 <layoutDesc>
-                                    <layout>სამსიტყვიანი რელიეფური წარწერა განლაგებულია ჯვრის მკლავებს შორის და მის ზემოთ. 
+                                    <layout>სამსიტყვიანი რელიეფური წარწერა განლაგებულია ჯვრის მკლავებს შორის და მის ზემოთ.
                                         კერამიკაზე ლამაზი, კიდეებში ბურთულებდასმული რელიეფური ჯვარია გამოსახული
                                         <dimensions unit="cm">
                                              <width/>
-                                             <height/> 
-                                          </dimensions>  
-                                    </layout>                                   
+                                             <height/>
+                                          </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="embossed">
                                 <rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა
@@ -61,20 +61,20 @@
                     <history>
                             <origin>
                                 <origPlace>ბოგა, ახალციხის მუნიციპალიტეტი</origPlace>
-                                 <origDate notBefore-custom="1000" notAfter-custom="1100" 
+                                 <origDate notBefore-custom="1000" notAfter-custom="1100"
                                     evidence="lettering" datingMethod="#julian">XI AD</origDate>
                             </origin>
                             <provenance type="found">
                                 <placeName type ="ancientFindspot">ბოგა, ახალციხის მუნიციპალიტეტი</placeName>
-                                <!-- "41.710483, 43.008666"--> 
+                                <!-- "41.710483, 43.008666"-->
                                 <rs type="circumstances">წარწერა აღმოჩნდა სოფ. ბოგას ეკლესიის ნანგრევების გათხრისას</rs>
                                 <rs type="context"/>
-                                <rs type="monuList"/></provenance>                                
+                                <rs type="monuList"/></provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot" ref="http://museum.ge/">სამცხე-ჯავახეთის მუზეუმი</placeName>
                                 <idno/>
-                            </provenance> 
-                    </history>                   
+                            </provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -82,7 +82,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <facsimile>
@@ -94,17 +94,17 @@
         </surface>
     </facsimile>
     <text>
-        <body>  
+        <body>
       <div type="bibliography">
-               
-     <p><bibl n="1">ვალერი სილოგავა, ახალი ეპიგრაფიკული მასალა სამცხე-ჯავახეთის ისტორიულ მუზეუმში<ptr target="bibliography.xml#b157"/>, <citedRange> 285-287</citedRange></bibl></p>
-     <p><bibl n="2">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>           
-               
+
+     <p><bibl n="1"><ptr target="#b157"/> ვალერი სილოგავა, ახალი ეპიგრაფიკული მასალა სამცხე-ჯავახეთის ისტორიულ მუზეუმში, <citedRange> 285-287</citedRange></bibl></p>
+     <p><bibl n="2"><ptr target="#b149"/> ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა, <citedRange> 118-169</citedRange></bibl></p>
+
             </div>
 
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
-                        <!--"ქე თე შე"--> 
+
+                        <!--"ქე თე შე"-->
 
                 <ab>
                    <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
@@ -112,12 +112,12 @@
                     <lb n="2"/><w lemma="შეწყალება"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w>
                   </ab>
                </div>
-            
+
          <div type="translation" xml:lang="ka">
              <p>ქრისტე, თეოდორე შეიწყალე.</p>
-         </div>    
-                             
-               <div type="commentary"/>                         
+         </div>
+
+               <div type="commentary"/>
         </body>
     </text>
 </TEI>

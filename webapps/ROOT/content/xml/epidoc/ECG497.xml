@@ -100,13 +100,13 @@
     <text>
         <body>
            <div type="bibliography"> <!-- არ ემთხვევა ბიბლიოგრაფიას, სილოგავას 1987 წლის ნაშრომი არ იძებნება -->
-               
-                <p><bibl n="1">თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი<ptr target="bibliography.xml#b234"/>,<citedRange>41-42 </citedRange>2019</bibl></p>
-                <p><bibl n="2">დევი ბერძენიშვილი, არქიტექტურულ-ისტორიული გზამკვლევი "გუჯარეთი"<ptr target="bibliography.xml#b240"/>,<citedRange>26 </citedRange>1987</bibl></p>
-                <p><bibl n="3">თამაზ გოგოლაძე, ბორჯომის ხეობის ისტორიული და ხუროთმოძღვრული ძეგლები (გზამკვლევი)<ptr target="bibliography.xml#b241"/>,<citedRange>96 </citedRange>2014</bibl></p>
-            
+
+                <p><bibl n="1"><ptr target="#b234"/> თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი,<citedRange>41-42 </citedRange>2019</bibl></p>
+                <p><bibl n="2"><ptr target="#b240"/> დევი ბერძენიშვილი, არქიტექტურულ-ისტორიული გზამკვლევი "გუჯარეთი",<citedRange>26 </citedRange>1987</bibl></p>
+                <p><bibl n="3"><ptr target="#b241"/> თამაზ გოგოლაძე, ბორჯომის ხეობის ისტორიული და ხუროთმოძღვრული ძეგლები (გზამკვლევი),<citedRange>96 </citedRange>2014</bibl></p>
+
            </div>
-            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">     
+            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
                         <!--ეკ(ლესიაჲ) ... წმიდაჲ-->
                 <ab>
                     <lb n="1"/><w lemma="ეკლესია"><expan><abbr>ეკ</abbr><ex>ლესიაჲ</ex></expan></w> <w lemma="წმიდა">წმიდაჲ</w>

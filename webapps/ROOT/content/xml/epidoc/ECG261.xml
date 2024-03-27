@@ -13,7 +13,7 @@
                 <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
                 <idno type="filename">ECG261</idno>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/"> 
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
                         დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით
                     </licence>
                 </availability>
@@ -85,7 +85,7 @@
                                 1991 წ-ს მიკვლეულ იქნა ხელის გამოსახულებიანი სტელა- ე. წ. „ჴელი“.</rs>
                             <rs type="context"/>
                             <rs type="monuList"/>
-                        </provenance> 
+                        </provenance>
                         <provenance type="observed">
                             <placeName type="modernSpot">ტყემლიანი</placeName> <!-- შესამოწმებელი -->
                             <idno/>
@@ -99,7 +99,7 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    <!-- 
+    <!--
     <facsimile>
         <surface>
             <graphic url="tskise_01.jpg">
@@ -108,7 +108,7 @@
             </graphic>
         </surface>
     </facsimile> -->
-    
+
     <text>
         <!--
         1....
@@ -127,20 +127,20 @@
         14.[ნ]... ი მომ(ა)ვლიდგ(ა)ნ
         15.[დ(აჲ)ს(უ)ა ჴ(ე)ლი დ(ავი)თ] მეფისა
         16.... [ს(ა)ყ(ო)]ფ(ე)ლნიცა წ(მი)
-        17.[დ(ი)სა]...მე და 
+        17.[დ(ი)სა]...მე და
         18.ო...
         19.წყ(ა)[ლ]...
         -->
         <body>
-            
+
             <div type="bibliography">
-                
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>170-172</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                
-                <p><bibl n="2">დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>114</citedRange> თბილისი, 2014<ptr target="bibliography.xml#b213"/></bibl></p>
-                <p><bibl n="3">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>41-42</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
-                <p><bibl n="4">მ. მამარდაშვილი, ხელის გამოსახულებიანი წარწერიანი სტელა გომარეთიდან, თბილისი 1994, 
-                    <citedRange>63-64</citedRange><ptr target="bibliography.xml#b232"/>
+
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>170-172</citedRange>, თბილისი, 2018</bibl></p>
+
+                <p><bibl n="2"><ptr target="#b213"/> დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>114</citedRange> თბილისი, 2014</bibl></p>
+                <p><bibl n="3"><ptr target="#b216"/> გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>41-42</citedRange>, თბილისი, 2016</bibl></p>
+                <p><bibl n="4"><ptr target="#b232"/> მ. მამარდაშვილი, ხელის გამოსახულებიანი წარწერიანი სტელა გომარეთიდან, თბილისი 1994, 
+                    <citedRange>63-64</citedRange>
                 </bibl></p>
             </div>
 
@@ -149,66 +149,66 @@
             <ab>
                 <lb n="1"/>
                 <lb n="2"/>
-                <lb n="3"/>         
+                <lb n="3"/>
                 <lb n="4"/>&#10013;
                            <w lemma="სახელ"><supplied reason="lost" precision="medium">სახელითა</supplied></w>
                            <w lemma="ღმერთ"><supplied reason="lost" precision="medium">ღმრთისაჲთ
-               <lb n="5" break="no"/>ა</supplied></w>           
+               <lb n="5" break="no"/>ა</supplied></w>
                            <w lemma="ესე"><supplied reason="lost" precision="medium">ესე</supplied></w>
                            <w lemma="ჴელ"><supplied reason="lost" precision="medium">ჴე</supplied>ლი</w>
-                <lb n="6"/><w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მი</abbr></expan></w> 
-                           <w lemma="ყოფნა">არს</w>                                                                   
+                <lb n="6"/><w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მი</abbr></expan></w>
+                           <w lemma="ყოფნა">არს</w>
                 <lb n="7"/><persName type="local" key="რუსუდან დედოფალი" ref="https://en.wikipedia.org/wiki/Rusudan_of_Georgia">რუსუდ<supplied reason="lost">ა</supplied>
-                <lb n="8" break="no"/>ნ</persName>    
+                <lb n="8" break="no"/>ნ</persName>
                            <roleName nymRef="მეფე"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფი</abbr><supplied reason="lost" precision="medium"><abbr>სა</abbr></supplied></expan></roleName>
-                           <orig n="unresolved">თ</orig>                                                  
+                           <orig n="unresolved">თ</orig>
                <lb n="9"/>
                           <orig n="unresolved">ა<supplied reason="lost" precision="medium">მ</supplied>ნ</orig>
-               <lb n="10"/><orig n="unresolved">ნ</orig> <gap reason="lost" extent="unknown" unit="character"/> <orig n="unresolved">დო</orig>      
+               <lb n="10"/><orig n="unresolved">ნ</orig> <gap reason="lost" extent="unknown" unit="character"/> <orig n="unresolved">დო</orig>
                <lb n="11"/><orig n="unresolved">ვ</orig> <gap reason="lost" extent="unknown" unit="character"/>
-               <lb n="12"/>         
+               <lb n="12"/>
                            <w lemma="არის">არიან</w>
                            <persName type="local" ref="ჲოვანე"><name nymRef="ჲოვანე">ჲოვან<supplied reason="lost" precision="medium">ე</supplied></name></persName>
-                           
-               <lb n="13"/><orig n="unresolved">სათ</orig>   
-                           
+
+               <lb n="13"/><orig n="unresolved">სათ</orig>
+
                            <w lemma="ლომ"><expan><abbr>ლომის</abbr><ex>ა</ex><supplied reason="lost" precision="medium"><abbr>გ</abbr></supplied><ex>ა</ex>
-               <lb n="14" break="no"/><supplied reason="lost" precision="medium"><abbr>ნ</abbr></supplied></expan></w>       
-                          
+               <lb n="14" break="no"/><supplied reason="lost" precision="medium"><abbr>ნ</abbr></supplied></expan></w>
+
                            <orig n="unresolved">ი</orig>
-                           <w lemma="მომავალ"><expan><abbr>მომ</abbr><ex>ა</ex><abbr>ვლიდგ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
-               <lb n="15"/><w lemma="დასუმა"><expan><supplied reason="lost" precision="medium"><abbr>დ</abbr><ex>აჲ</ex><abbr>ს</abbr><ex>უ</ex><abbr>ა</abbr></supplied></expan></w>             
+                           <w lemma="მომავალ"><expan><abbr>მომ</abbr><ex>ა</ex><abbr>ვლიდგ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
+               <lb n="15"/><w lemma="დასუმა"><expan><supplied reason="lost" precision="medium"><abbr>დ</abbr><ex>აჲ</ex><abbr>ს</abbr><ex>უ</ex><abbr>ა</abbr></supplied></expan></w>
                            <w lemma="ჴელ"><expan><supplied reason="lost" precision="medium"><abbr>ჴ</abbr><ex>ე</ex><abbr>ლი</abbr></supplied></expan></w>
                            <persName type="local" key="დავით VI ნარინი" ref="https://en.wikipedia.org/wiki/David_VI_of_Georgia"><expan><supplied reason="lost" precision="medium"><abbr>დ</abbr><ex>ავი</ex><abbr>თ</abbr></supplied></expan></persName>
                            <roleName nymRef="მეფე">მეფისა</roleName>
                <lb n="16"/>
-                           <w lemma="საყოფელ"><expan><supplied reason="lost" precision="medium"><abbr>ს</abbr><ex>ა</ex><abbr>ყ</abbr><ex>ო</ex></supplied><abbr>ფ</abbr><ex>ე</ex><abbr>ლნიცა</abbr></expan></w> 
-                           <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მი</ex> 
-               <lb n="17" break="no"/><supplied reason="lost" precision="medium"><abbr>დ</abbr><ex>ი</ex><abbr>სა</abbr></supplied></expan></w>           
+                           <w lemma="საყოფელ"><expan><supplied reason="lost" precision="medium"><abbr>ს</abbr><ex>ა</ex><abbr>ყ</abbr><ex>ო</ex></supplied><abbr>ფ</abbr><ex>ე</ex><abbr>ლნიცა</abbr></expan></w>
+                           <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მი</ex>
+               <lb n="17" break="no"/><supplied reason="lost" precision="medium"><abbr>დ</abbr><ex>ი</ex><abbr>სა</abbr></supplied></expan></w>
                            <gap reason="lost" extent="unknown" unit="character"/>
                            <w lemma="მე">მე</w>
                            და
                <lb n="18"/><orig n="unresolved">ო</orig> <gap reason="lost" extent="unknown" unit="character"/>
-               <lb n="19"/><w lemma="წყალ"><expan><abbr>წყ</abbr><ex>ა</ex><supplied reason="lost" precision="medium"><abbr>ლ</abbr></supplied></expan></w>  
-                           
+               <lb n="19"/><w lemma="წყალ"><expan><abbr>წყ</abbr><ex>ა</ex><supplied reason="lost" precision="medium"><abbr>ლ</abbr></supplied></expan></w>
+
                 </ab>
-             
+
             </div>
 
 
                 <div type="translation"/>
-                
+
                 <div type="commentary">
                     <p>
                         დაზიანება: კოროზიის შედეგად სტელის ზედაპირი ატკეჩილია, წარწერა ძირითადად გადაშლილია და
                         მხოლოდ მცირე ფრაგმენტები იკითხება. ამჟამად დავით მეფის სახელის აღმნიშვნელი
-                        გრაფემებიც აღარ ჩანს (აღდგენილია დ. ბერძენიშვილის მიხედვით). 
+                        გრაფემებიც აღარ ჩანს (აღდგენილია დ. ბერძენიშვილის მიხედვით).
                         წარწერის დათარირება წინა გამოცემებში: 1) მ. მამარდაშვილის მიხედვით წარწერა XII-XIII
                         სს-ის „ჴელების“ თანადროულია, 2) დ. ბერძენიშვილის მიხედვით რუსუდან
                         მეფეთ-მეფის და დავით მეფის მოხსენიებით ეს წარწერა XIII ს-ით თარიღდება.
                         წარმოდგენილი დათარირების საფუძველი: რუსუდანის და დავითის (დავით VI ნარინი)
                         ერთად მოხსენიება მიუთითებს, რომ „ჴელი“ მათი თანამოსაყდრეობის პერიოდშია
-                        აღმართული (1230-1245 წწ.). 
+                        აღმართული (1230-1245 წწ.).
                         წარწერაში მ. მამარდაშვილი რამდენიმე სიტყვას განსხვავებულად კითხულობს: ესე ხელი ჩემი არს რუსუდან მეფეთ-მეფისა... არიან
                         იოანე... ლომი... დავით მეფისა. ხოლო გ. ოთხმეზურს 2016 წლის გამოცემაში
                         შემდეგნაირად აქვს წაკითხული: „† ესე ჴელი ჩემი არს, რუსუდან მეფეთ-მეფისა...

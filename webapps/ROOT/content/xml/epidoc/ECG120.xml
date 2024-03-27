@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ბიეთის ზაალ თოჴასძის წარწერა ეკვტერის აშენებისა</title> 
+                <title>ბიეთის ზაალ თოჴასძის წარწერა ეკვტერის აშენებისა</title>
                 <editor>ვალერი სილოგავა</editor>
                 <editor>ვახტანგ ბერიძე</editor>
             </titleStmt>
@@ -28,13 +28,13 @@
                             <seg xml:lang="ka">საამშენებლო</seg>
                             <seg xml:lang="en"/>
                         </summary>
-                    </msContents> 
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                  
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
                                       <dimensions unit="cm">
                                         <width/>
                                         <height/>
@@ -46,11 +46,11 @@
                                     <layout writtenLines="9">წარწერა ცხრასტრიქონიანია
                                         <dimensions unit="cm">
                                          <width/>
-                                         <height/> 
-                                          </dimensions>  
-                                    </layout>                                   
+                                         <height/>
+                                          </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                                 <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა. ტექსტის დასაწყისი - პირველი
@@ -66,15 +66,15 @@
                             </origin>
                             <provenance type="found">
                                 <placeName type ="ancientFindspot">ბიეთის ეკლესია, ახალციხის მუნიციპალიტეტი</placeName>
-                                <!-- "41.743306, 43.105826"--> 
+                                <!-- "41.743306, 43.105826"-->
                                 <rs type="circumstances"/>
                                 <rs type="context"></rs>
-                                <rs type="monuList"/></provenance>                                
+                                <rs type="monuList"/></provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot">ბიეთის ეკლესია, ახალციხის მუნიციპალიტეტი</placeName>
                                 <idno></idno>
-                            </provenance> 
-                    </history>                   
+                            </provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -82,7 +82,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <facsimile>
@@ -94,16 +94,16 @@
         </surface>
     </facsimile>
     <text>
-        <body> 
+        <body>
         <div type="bibliography">
-             
-<p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
-<p><bibl n="2">ვახტანგ ბერიძე, სამცხის ხუროთმოძღვრება, XIII-XVI საუკუნეები<ptr target="bibliography.xml#b152"/>, <citedRange> 163-164</citedRange></bibl></p>
-            
+
+<p><bibl n="1"><ptr target="#b149"/> ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა, <citedRange> 118-169</citedRange></bibl></p>
+<p><bibl n="2"><ptr target="#b152"/> ვახტანგ ბერიძე, სამცხის ხუროთმოძღვრება, XIII-XVI საუკუნეები, <citedRange> 163-164</citedRange></bibl></p>
+
             </div>
-  
+
           <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!--"† მე თო[ჴა]
                             სძემნ ზა
                             ალ აღვაშ
@@ -112,52 +112,52 @@
                             [] დრბლდ მშბლ
                             თა და [  მი]
                             [ცვლბ]ლთთს
-                            ქკს რპა "--> 
-                             
+                            ქკს რპა "-->
+
          <div type="textpart" subtype="column" n="1" xml:lang="ka">
                 <ab>
-                    <lb n="1"/>&#8224;<w lemma="მე">მე</w> 
+                    <lb n="1"/>&#8224;<w lemma="მე">მე</w>
                             <name nymRef="ზაალ თოჴასძე"><expan><abbr>თო</abbr><supplied reason="lost"><abbr>ჴა</abbr></supplied>
                    <lb n="2" break="no"/><abbr>სძემ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></name>
-                        <name>ზა                
-                   <lb n="3" break="no"/>ალ</name> 
-                            <w lemma="შენება">აღვაშ                                              
-                   <lb n="4" break="no"/>ენე</w> 
-                                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><supplied reason="lost"><abbr>ჲ</abbr></supplied></expan></w> 
+                        <name>ზა
+                   <lb n="3" break="no"/>ალ</name>
+                            <w lemma="შენება">აღვაშ
+                   <lb n="4" break="no"/>ენე</w>
+                                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><supplied reason="lost"><abbr>ჲ</abbr></supplied></expan></w>
                                 <w lemma="ესე">ესე</w>
-               
+
                     </ab>
-             
+
          </div>
-                
+
              <div type="textpart" subtype="column" n="2" xml:lang="ka">
                  <ab>
                     <lb n="5"/><w lemma="ეკვდერ"><expan><abbr>ეკ</abbr><ex>უ</ex><abbr>ტერი</abbr></expan></w>
-                    <lb n="6"/> <w lemma="შევედრება"><expan><supplied reason="lost"><abbr>შ</abbr><ex>ე</ex><abbr>ს</abbr><ex>ა</ex><abbr>ვ</abbr><ex>ე</ex></supplied><abbr>დრ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> 
+                    <lb n="6"/> <w lemma="შევედრება"><expan><supplied reason="lost"><abbr>შ</abbr><ex>ე</ex><abbr>ს</abbr><ex>ა</ex><abbr>ვ</abbr><ex>ე</ex></supplied><abbr>დრ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
                                 <w lemma="მშობელ"><expan><abbr>მშ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლ
-                    <lb n="7" break="no"/>თა</abbr></expan></w> 
-                                და 
+                    <lb n="7" break="no"/>თა</abbr></expan></w>
+                                და
                                 <gap reason="lost" extent="unknown" unit="chars"></gap>
                                  <w lemma="მიცვალებულ"><expan><supplied reason="lost"><abbr>მი
                     <lb n="8"/>ცვ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>უ</ex></supplied><abbr>ლთ</abbr><ex>ა</ex><abbr>თ</abbr><ex>ჳ</ex><abbr>ს</abbr></expan></w>
-                    <lb n="9"/><rs type="date"><w lemma="ქორონოკონ"><expan><abbr>ქ</abbr><ex>ორონი</ex><abbr>კ</abbr><ex>ონ</ex><abbr>ს</abbr></expan></w> 
+                    <lb n="9"/><rs type="date"><w lemma="ქორონოკონ"><expan><abbr>ქ</abbr><ex>ორონი</ex><abbr>კ</abbr><ex>ონ</ex><abbr>ს</abbr></expan></w>
                                 <num value="181">რპა</num></rs>
                 </ab>
              </div>
 </div>
 
-            
+
          <div type="translation" xml:lang="ka">
              <p>მე, ზაალ თოჴასძემ ავაშენე ეს წმიდა ეკდერი შესავედრებელად მშობელთა და მიცვალებულთა, ქორონიკონს 181.</p>
-         </div>    
-            
+         </div>
+
             <div type="commentary">
-                <p>ბიეთის ტაძარი წინუბნისწყლის ხეობაში მდებარეობს. სოფელი ბიეთის სახელწოდებით არ არსებობს - ეს სახელი მხოლოდ 
+                <p>ბიეთის ტაძარი წინუბნისწყლის ხეობაში მდებარეობს. სოფელი ბიეთის სახელწოდებით არ არსებობს - ეს სახელი მხოლოდ
                        ტაძარს ჰქვია. ბიეთის ტაძრის ნანგრევებში არსებულ ქვებზე რამდენიმე წარწერაა. ისინი ქრონოლგიურად ორ ჯგუფად იყოფა. პირველია
-                                XIII-XIV სს. მიჯნის, ორი ერთიმეორის მიყოლებით ამოკვეთილი წარწერა. ორივეში დასახელებულია ვინმე ხუაში - სხვა წყაროებით უცნობი ქტიტორი. 
-                                მეორეა ზაალ თოჴასძის თარიღიანი წარწერა 1493 წლისა (181+1312=1493), ამოკვეთილი ტაძრისათვის მიშენებულ ეკვდერის კედელზე, ამ ეკვდერის ამშენებლის, ზაალ თოჴასძის, მოსახსენებლად. 
-                                მაშასადამე, ვალერი სილოგავას აზრით, აქ დასტურდება, რომ ეკვტერი ეკლესიაში მიცვალებულთა 
-                                დასაკრძალავი ადგილი იყო.</p>                
+                                XIII-XIV სს. მიჯნის, ორი ერთიმეორის მიყოლებით ამოკვეთილი წარწერა. ორივეში დასახელებულია ვინმე ხუაში - სხვა წყაროებით უცნობი ქტიტორი.
+                                მეორეა ზაალ თოჴასძის თარიღიანი წარწერა 1493 წლისა (181+1312=1493), ამოკვეთილი ტაძრისათვის მიშენებულ ეკვდერის კედელზე, ამ ეკვდერის ამშენებლის, ზაალ თოჴასძის, მოსახსენებლად.
+                                მაშასადამე, ვალერი სილოგავას აზრით, აქ დასტურდება, რომ ეკვტერი ეკლესიაში მიცვალებულთა
+                                დასაკრძალავი ადგილი იყო.</p>
             </div>
         </body>
     </text>

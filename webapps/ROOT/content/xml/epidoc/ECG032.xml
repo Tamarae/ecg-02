@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="ka">მცხეთის ჯვრის 595/605 წწ. მოსახსენებლის ფრაგმენტი (II)</title> 
+                <title xml:lang="ka">მცხეთის ჯვრის 595/605 წწ. მოსახსენებლის ფრაგმენტი (II)</title>
                 <title xml:lang="en">Jvari Monastery, Memorial fragment from 595/605 years (II)</title>
                 <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
                 <editor xml:lang="en">Nodar Shoshiashvili</editor>
@@ -25,17 +25,17 @@
                   <msIdentifier>
                         <collection>მცხეთა</collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მოსახსენებელი</seg>
                             <seg xml:lang="en">Memorial fragment</seg>
                         </summary>
-                    </msContents> 
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
                                     <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
@@ -47,11 +47,11 @@
                                 </support>
                             </supportDesc>
                                 <layoutDesc>
-                                    <layout writtenLines="1"> 
-                                        <seg xml:lang="ka">წარწერა მდებარეობს ჯვრის ტაძრის სამხრეთ ფასადის აღმოსავლეთის ნიშაში. სამ ფილაზე გამოქანდაკებული სამი ფიგურა შეადგენს კომპოზიციას: 
+                                    <layout writtenLines="1">
+                                        <seg xml:lang="ka">წარწერა მდებარეობს ჯვრის ტაძრის სამხრეთ ფასადის აღმოსავლეთის ნიშაში. სამ ფილაზე გამოქანდაკებული სამი ფიგურა შეადგენს კომპოზიციას:
                                    ცენტრში დგას წმინდანი (ღვთისმშობელი), აპყრობილი ხელებით. აქეთ-იქით წარჩინებულთა მუხლმოდრეკილი ფიგურებია გამოქანდაკებული.
                                    ღვთისმშობლის თავს ზემოთ ამოღარულია წარწერა, რომლის ერთი სტრიქონია შემორჩენილი.</seg>
-                                        <seg xml:lang="en">The inscription is located in the east niche of the south facade of Jvari Monastery church. Three figures are embossed on the three plaques. They consist of the following scenes: the Saint (Mother of Jesus) stands in the center with her hand lifted up. 
+                                        <seg xml:lang="en">The inscription is located in the east niche of the south facade of Jvari Monastery church. Three figures are embossed on the three plaques. They consist of the following scenes: the Saint (Mother of Jesus) stands in the center with her hand lifted up.
                                             On both sides of her there are the figures of the noblemen embossed. One line engraved inscription is present above the head of Mother of Jesus.</seg>
                                         <dimensions unit="cm">
                                             <width/>
@@ -59,7 +59,7 @@
                                         </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                              <handNote script="asomtavruli" style="inscribed">
                                 <seg xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა.</seg>
@@ -74,19 +74,19 @@
                                     <seg xml:lang="ka">ჯვრის მონასტერი, მცხეთა</seg>
                                 <seg xml:lang="en">Jvari Monastery, Mtskheta</seg>
                                 </origPlace>
-                                <origDate notBefore-custom="0595" notAfter-custom="0605" precision="medium" 
+                                <origDate notBefore-custom="0595" notAfter-custom="0605" precision="medium"
                                     evidence="lettering" datingMethod="#julian">595-605 AD</origDate>
                             </origin>
                             <provenance type="found">
                                 <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863840">
                                     <seg xml:lang="ka">ჯვრის მონასტერი, მცხეთა</seg>
                                 <seg xml:lang="en">Jvari Monastery, Mtskheta</seg>
-                                </placeName> 
+                                </placeName>
                                 <!--  "41.838634, 44.734011"-->
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance> 
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">
                                 <seg xml:lang="ka">ჯვრის მონასტერი, მცხეთა</seg>
@@ -94,7 +94,7 @@
                             </placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -102,12 +102,12 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-       <revisionDesc><change when="2019-11-06" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+       <revisionDesc><change when="2019-11-06" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
-    
-   <!-- 
-    
+
+   <!--
+
    <facsimile>
         <surface>
             <graphic url="ecg032.jpg">
@@ -116,40 +116,40 @@
             </graphic>
         </surface>
     </facsimile>
-    
+
     -->
-    
+
     <text>
         <body>
             <div type="bibliography">
-                
-                    <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი<ptr target="bibliography.xml#b101"/>, <citedRange> 167</citedRange></bibl></p>
-                     <p><bibl n="2">Н. Г. Чубинашвили, Памятники типа Джвари<ptr target="bibliography.xml#b47"/>, <citedRange>148</citedRange></bibl></p>
-                  
-            </div>    
-            
+
+                    <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, <citedRange> 167</citedRange></bibl></p>
+                     <p><bibl n="2"><ptr target="#b47"/> Н. Г. Чубинашвили, Памятники типа Джвари, <citedRange>148</citedRange></bibl></p>
+
+            </div>
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!--  “წო ღთსმშობე[ლო]”.  -->
-                     
+
                 <ab>
                    <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> <w lemma="ღვთისმშობელ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr><ex>ი</ex><abbr>სმშობე</abbr><supplied reason="lost"><abbr>ლო</abbr></supplied></expan></w>
                 </ab>
-             
+
             </div>
-                
+
             <div type="translation">
                 <p xml:lang="ka">წმიდაო ღვთისმშობელო.</p>
                 <p xml:lang="en">Holy mother of Jesus.</p>
             </div>
-            
+
             <div type="apparatus" xml:space="preserve"/>
-            
+
             <div type="commentary">
                 <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #73.</p>
                 <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #73.</p>
             </div>
-  
+
          </body>
     </text>
 </TEI>

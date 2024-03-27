@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
@@ -34,9 +34,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
                                       <dimensions unit="cm">
                                         <width/>
                                         <height/>
@@ -52,15 +52,15 @@
                                         <seg xml:lang="en"></seg>
                                         <dimensions unit="cm">
                                          <width/>
-                                         <height/> 
-                                        </dimensions>  
-                                    </layout>                                   
+                                         <height/>
+                                        </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                                  <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
-                               <height></height> 
+                               <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -70,7 +70,7 @@
                                     <seg xml:lang="ka">საფარის წმ. გიორგის ეკლესია</seg>
                                     <seg xml:lang="en">Sapara St. George church</seg>
                                 </origPlace>
-                                 <origDate notBefore-custom="1400" notAfter-custom="1500" precision="medium" 
+                                 <origDate notBefore-custom="1400" notAfter-custom="1500" precision="medium"
                                     evidence="context" datingMethod="#julian">XV AD</origDate>
                             </origin>
                             <provenance type="found">
@@ -78,19 +78,19 @@
                                     <seg xml:lang="ka">საფარის წმ. გიორგის ეკლესია</seg>
                                     <seg xml:lang="en">Sapara St. George church</seg>
                                 </placeName>
-                                <!-- "41.602116, 43.031036"--> 
+                                <!-- "41.602116, 43.031036"-->
                                 <rs type="circumstances"></rs>
                                 <rs type="context"></rs>
                                 <rs type="monuList"/>
-                            </provenance>                                
+                            </provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot">
                                     <seg xml:lang="ka">საფარის წმ. გიორგის ეკლესია</seg>
                                     <seg xml:lang="en">Sapara St. George church</seg>
                                 </placeName>
                                 <idno type="invNo"/>
-                            </provenance> 
-                    </history>                   
+                            </provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -98,7 +98,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <!--<facsimile>
@@ -108,43 +108,43 @@
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
-    </facsimile>--> 
+    </facsimile>-->
     <text>
-        <body>              
+        <body>
             <div type="bibliography">
-              
-           <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
-               
+
+           <p><bibl n="1"><ptr target="#b149"/> ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა, <citedRange> 118-169</citedRange></bibl></p>
+
             </div>
 
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!--  "† ამისა აღმშ
                             ნბლსა გგლს
                             მძღორსა შნ
-                            ღნ"--> 
-                                                            
+                            ღნ"-->
+
                 <ab>
-                   <lb n="1"/>&#8224;<w lemma="ესე">ამისა</w> 
+                   <lb n="1"/>&#8224;<w lemma="ესე">ამისა</w>
                               <roleName nymRef="აღმაშენებელ"><expan><abbr>აღმშ</abbr>
                    <lb n="2" break="no"/><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლსა</abbr></expan> </roleName>
                             <persName type="local" key="გრიგოლ მოძღუარი [საფარის წმ. გიორგის ეკლესიის მაშენებელი]"><expan><abbr>გ</abbr><ex>რი</ex><abbr>გ</abbr><ex>ო</ex><abbr>ლს</abbr></expan>
                    <lb n="3"/><roleName nymRef="მოძღუარ"><expan><abbr>მ</abbr><ex>ო</ex><abbr>ძღო</abbr><ex>ჳა</ex><abbr>რსა</abbr></expan></roleName></persName>
                             <w lemma="შენდობა"><expan><abbr>შ</abbr><ex>ეუნდვე</ex><abbr>ნ</abbr></expan></w>
-                   <lb n="4"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>             
+                   <lb n="4"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
                    </ab>
-               </div>           
+               </div>
          <div type="translation">
              <p xml:lang="ka">† ამის (ტაძრის) აღმშენებელ გრიგოლ მოძღვარს შეუნდოს ღმერთმა.</p>
-         </div>    
-                             
+         </div>
+
                <div type="commentary">
                 <p xml:lang="ka">საფარის მონასტერი ძველი დროიდანვე სხვადასხვა დანიშნულების 12 ნაგებობისაგან შედგებოდა. მათ შორის მთავარია წმ. საბას
                    სახელობის ტაძარი, აგებული ბექა სამცხის სპასალარისა და მანდატურთუხუცესის მიერ XIII-XIV სს. მიჯნაზე. საფარაში ამაზე ძველი ეკლესიაც არსებობს, X ს-ის
-                   ღვთისმშობლის მიძინების სახელობის ტაძარი, რომელსაც ჩრდილოეთიდან მიდგმული აქვს ზემოხსენებული წმ. საბას ტაძარი. 
+                   ღვთისმშობლის მიძინების სახელობის ტაძარი, რომელსაც ჩრდილოეთიდან მიდგმული აქვს ზემოხსენებული წმ. საბას ტაძარი.
                    ვალერი სილოგავას აზრით, წმინდა გიორგის ტაძარი, რომელზეც ეს წარწერაა შესრულებული, აგებულია XV საუკუნეში. მასზე შესრულებული წარწერებიც
-                   თანადროული უნდა იყოს. 
-               </p>                
+                   თანადროული უნდა იყოს.
+               </p>
             </div>
         </body>
     </text>

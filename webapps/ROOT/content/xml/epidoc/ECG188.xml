@@ -53,19 +53,19 @@
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                                 <p xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა. ქარაგმის ნიშანი არ ახლავს, სიტყვები არაა გამოყოფილი ერთმანეთისგან.</p>
-                                <p xml:lang="en">Engraved Asomtavruli</p> 
+                                <p xml:lang="en">Engraved Asomtavruli</p>
                                 <dimensions unit="cm">
                                     <height>30</height>
-                                </dimensions>    
+                                </dimensions>
                             </handNote>
                         </handDesc>
                         <decoDesc>
                             <decoNote>
-                                წარწერას სამი მხრიდან შემოუყვება ლილვისებრი ჩარჩო. წახნაგის ქვედა ნაწილში გამოქანდაკებულია სიცოცხლის ხე, ხოლო მის ორივე მხარეზე- ორი ვერძი, ერთმანეთის პირისპირ. ერთ წახნაგზე ამოკვეთილია 
-                    რელიეფური "ბოლნური ჯვარი", რომლის ორივე მხარეს მაზდეიზმის საღმრთო თავსაკრავის ბაფთებია გამოსახული. 
+                                წარწერას სამი მხრიდან შემოუყვება ლილვისებრი ჩარჩო. წახნაგის ქვედა ნაწილში გამოქანდაკებულია სიცოცხლის ხე, ხოლო მის ორივე მხარეზე- ორი ვერძი, ერთმანეთის პირისპირ. ერთ წახნაგზე ამოკვეთილია
+                    რელიეფური "ბოლნური ჯვარი", რომლის ორივე მხარეს მაზდეიზმის საღმრთო თავსაკრავის ბაფთებია გამოსახული.
                             </decoNote>
                         </decoDesc>
-                        
+
                     </physDesc>
                     <history>
                         <origin>
@@ -76,7 +76,7 @@
                     </history>
                 </msDesc>
             </sourceDesc>
-       
+
         </fileDesc><encodingDesc>
     <listPrefixDef>
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
@@ -84,60 +84,60 @@
 </encodingDesc>
     </teiHeader>
     <text>
-        
-                <!-- 
+
+                <!--
                 1.  [ი(ეს)უ ქ(რისტ)ე, ს(უ)ლნ[ი] დ[ა] ხ(ორ)ცნი [შე]
-                2.  [იწყა]ლნე ამ[ა]თნი, რ(ომე)ლთა 
+                2.  [იწყა]ლნე ამ[ა]თნი, რ(ომე)ლთა
                 3.  [ა(ღხუ)მ(ა)]რთეს ესე ჯუარი. ამჱ[ნ]
                 -->
         <body>
-            
+
            <div type="bibliography">
-                
-                   <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>81-82</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                    
-                    <p><bibl n="2">ვ. ჯაფარიძე, ქართული ხელოვნებისა და დამწერლობის ახლად აღმოჩენილი უძველესი ძეგლები ქვემო ქართლიდან
-                                <citedRange>52-53</citedRange>, თბილისი, 1970<ptr target="bibliography.xml#b208"/></bibl></p>
-                  
-                   <p><bibl n="3">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, <citedRange>94-95</citedRange><ptr target="bibliography.xml#b101"/></bibl></p>
-               
-                   <p><bibl n="4">ჯაფარიძე, დმანისის არქეოლოგიური ექსპედიციის 1969 წლის მუშაობის მოკლე ანგარიში, <citedRange>60-61</citedRange>, 
-                       თბილისი, 1971<ptr target="bibliography.xml#b210"/></bibl></p>
-                       
-                   <p><bibl n="5">ვ. ჯაფარიძე, ვ. ართილაყვა, გათხრები დმანისსა და მის მიდამოებში, <citedRange>2</citedRange>, თბილისი, 
-                       1971<ptr target="bibliography.xml#b209"/></bibl></p>
-                           
-       
-                
-                
+
+                   <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>81-82</citedRange>, თბილისი, 2018</bibl></p>
+
+                    <p><bibl n="2"><ptr target="#b208"/> ვ. ჯაფარიძე, ქართული ხელოვნებისა და დამწერლობის ახლად აღმოჩენილი უძველესი ძეგლები ქვემო ქართლიდან
+                                <citedRange>52-53</citedRange>, თბილისი, 1970</bibl></p>
+
+                   <p><bibl n="3"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, <citedRange>94-95</citedRange></bibl></p>
+
+                   <p><bibl n="4"><ptr target="#b210"/> ჯაფარიძე, დმანისის არქეოლოგიური ექსპედიციის 1969 წლის მუშაობის მოკლე ანგარიში, <citedRange>60-61</citedRange>,
+                       თბილისი, 1971</bibl></p>
+
+                   <p><bibl n="5"><ptr target="#b209"/> ვ. ჯაფარიძე, ვ. ართილაყვა, გათხრები დმანისსა და მის მიდამოებში, <citedRange>2</citedRange>, თბილისი,
+                       1971</bibl></p>
+
+
+
+
             </div>
-            
-            
+
+
             <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
 
                 <ab>
-                    <lb n="1"/><supplied reason="lost"><w lemma="იესუ"><expan><abbr>ი</abbr><ex>ეს</ex><abbr>უ</abbr></expan></w></supplied> 
+                    <lb n="1"/><supplied reason="lost"><w lemma="იესუ"><expan><abbr>ი</abbr><ex>ეს</ex><abbr>უ</abbr></expan></w></supplied>
                     <supplied reason="lost"><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>ქრისტ</ex><abbr>ე</abbr></expan></w></supplied>
                     <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლნ</abbr><supplied reason="lost"><abbr>ი</abbr></supplied></expan></w>
-                    <w lemma="და">დ<supplied reason="lost">ა</supplied></w> <w lemma="ხორც"><expan><abbr>ხ</abbr><ex>ორ</ex><abbr>ცნი</abbr></expan></w> 
+                    <w lemma="და">დ<supplied reason="lost">ა</supplied></w> <w lemma="ხორც"><expan><abbr>ხ</abbr><ex>ორ</ex><abbr>ცნი</abbr></expan></w>
                     <w lemma="შეიწყალნე"><supplied reason="lost">შე</supplied>
-                    <lb n="2" break="no"/><supplied reason="lost">იწყა</supplied>ლნე</w> 
-                    <w lemma="ამათ">ამ<supplied reason="lost">ა</supplied>თნი</w> 
+                    <lb n="2" break="no"/><supplied reason="lost">იწყა</supplied>ლნე</w>
+                    <w lemma="ამათ">ამ<supplied reason="lost">ა</supplied>თნი</w>
                     <w lemma="რომელ"><expan><abbr>რ</abbr><ex>ომე</ex><abbr>ლთა</abbr></expan></w>
-                    <lb n="3"/><rs type="pn"><w lemma="აღხუმართეს"><expan><supplied reason="lost"><abbr>ა</abbr><ex>ღხუ</ex><abbr>მ</abbr><ex>ა</ex></supplied><abbr>რთეს</abbr></expan></w></rs> 
-                    <w lemma="ესე">ესე</w><w lemma="ჯუარი">ჯუარი</w> <w lemma="ამენ">ამჱ<supplied reason="lost">ნ</supplied></w>  
+                    <lb n="3"/><rs type="pn"><w lemma="აღხუმართეს"><expan><supplied reason="lost"><abbr>ა</abbr><ex>ღხუ</ex><abbr>მ</abbr><ex>ა</ex></supplied><abbr>რთეს</abbr></expan></w></rs>
+                    <w lemma="ესე">ესე</w><w lemma="ჯუარი">ჯუარი</w> <w lemma="ამენ">ამჱ<supplied reason="lost">ნ</supplied></w>
                 </ab>
-                
+
             </div>
             <div type="translation">
                 <p></p>
             </div>
             <div type="commentary">
-                <p> წარწერას სამი მხრიდან შემოუყვება ლილვისებრი ჩარჩო. წახნაგის ქვედა ნაწილში გამოქანდაკებულია სიცოცხლის ხე, ხოლო მის ორივე მხარეზე- ორი ვერძი, ერთმანეთის პირისპირ. ერთ წახნაგზე ამოკვეთილია 
-                    რელიეფური "ბოლნური ჯვარი", რომლის ორივე მხარეს მაზდეიზმის საღმრთო თავსაკრავის ბაფთებია გამოსახული. 
-                    დაზიანება: წარწერიანი წახნაგის კუთხეების ჩამომტვრევისა და ზედაპირის ატკეჩვის გამო წარწერას აკლია სამივე სტრიქონის დასაწყისი, შუა ნაწილები და პირველი სტრიქონის დასასრული. 
-                    თუმცა, წარწერის ტექსტი სრულადაა აღდგენილი.  წარწერაში კვრის აღმმართველნი სახელდების გარეშე არიან მოხსენიებულნი. საფიქრებელია, რომ კარცხლბეკის სხვა წახნაგებზე ყოფილიყო წარწერა 
-                    ამოკვეთილი, სადაც ჯვრის აღმმართველნი პიროვნულად იქნებოდნენ დასახელებულნი. 
+                <p> წარწერას სამი მხრიდან შემოუყვება ლილვისებრი ჩარჩო. წახნაგის ქვედა ნაწილში გამოქანდაკებულია სიცოცხლის ხე, ხოლო მის ორივე მხარეზე- ორი ვერძი, ერთმანეთის პირისპირ. ერთ წახნაგზე ამოკვეთილია
+                    რელიეფური "ბოლნური ჯვარი", რომლის ორივე მხარეს მაზდეიზმის საღმრთო თავსაკრავის ბაფთებია გამოსახული.
+                    დაზიანება: წარწერიანი წახნაგის კუთხეების ჩამომტვრევისა და ზედაპირის ატკეჩვის გამო წარწერას აკლია სამივე სტრიქონის დასაწყისი, შუა ნაწილები და პირველი სტრიქონის დასასრული.
+                    თუმცა, წარწერის ტექსტი სრულადაა აღდგენილი.  წარწერაში კვრის აღმმართველნი სახელდების გარეშე არიან მოხსენიებულნი. საფიქრებელია, რომ კარცხლბეკის სხვა წახნაგებზე ყოფილიყო წარწერა
+                    ამოკვეთილი, სადაც ჯვრის აღმმართველნი პიროვნულად იქნებოდნენ დასახელებულნი.
                     წარმოდგენილ გამოცემაში წარწერის დახასიათება ხდება პალეოგრაფიული ნიშნების დახასიათებით.
                 </p>
 

@@ -23,17 +23,17 @@
                         <collection>
                            ვანი
                         </collection>
-                    </msIdentifier>                    
+                    </msIdentifier>
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მემორიალური</seg>
                             <seg xml:lang="en"/>
                         </summary>
-                    </msContents>  
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/416">კედელი</objectType>
                                    </support>
@@ -41,7 +41,7 @@
                                 <layoutDesc>
                                     <layout>
                                         ვანის ნაქალაქარის კარიბჭის ძირითად კედელზე მიშენებული პატარა წარმართული სამლოცველოს ჩრდ. კედლის შიგნითა მხარეზე ზემოდან პირველსავე ქვაზე,
-                                        ქვემოდან 136 სმ-ის სიმაღლეზე არის ერთ ჰორიზონტალურ სტრიქონად ამოკაწრული ბერძნული წარწერა. ამ წარწერიდან დასავლეთისკენ, სიგანეში 1-2 ქვის გამოტოვებით 
+                                        ქვემოდან 136 სმ-ის სიმაღლეზე არის ერთ ჰორიზონტალურ სტრიქონად ამოკაწრული ბერძნული წარწერა. ამ წარწერიდან დასავლეთისკენ, სიგანეში 1-2 ქვის გამოტოვებით
                                         20 სმ-ით უფრო დაბლა პირველთან შედარებით, არის II წარწერა.
                                     <dimensions unit="cm">
                                         <width></width>
@@ -49,10 +49,10 @@
                                         <depth></depth></dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
-                                წარწერა შესრულებულია მარჯვნიდან მარცხნივ, მეორე წარწერაც ასევე მარჯვნიდან მარცხნივ არის გამოყვანილი, II-III დაზიანებული ასოებით. ორივე წარწერა ერთი ხელითაა 
+                                წარწერა შესრულებულია მარჯვნიდან მარცხნივ, მეორე წარწერაც ასევე მარჯვნიდან მარცხნივ არის გამოყვანილი, II-III დაზიანებული ასოებით. ორივე წარწერა ერთი ხელითაა
                                 დაწერილი და ეს იგივე ხელია, რომლითაც ამოკაწრულია სავედრებელი წარწერა.
                                 წარწერა დათარიღებულია პალეოგრაფიული ნიშნების (გაშლილი ω, მრგვალი σ, ν-ს მოხაზულობა, α ჩატეხილი ჰასტით) მიხედვით.
                                    <height unit="cm" precision="medium"></height>
@@ -68,16 +68,16 @@
                                 <origDate notBefore="-0400" notAfter="-0201" evidence="lettering" datingMethod="#julian">IV-III BC</origDate>
                             </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863918">ვანი</placeName> 
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863918">ვანი</placeName>
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                         
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">ვანის ნაქალაქარი</placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -97,45 +97,38 @@
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 148-149</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 148-149</citedRange></bibl></p>
+
             </div>
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!-- ΑΡCΑΝC
                             Ἄρσανς
                                                                  -->
-                     
-            
+
+
 
          <ab>
-             <persName type="local" key="არსანსი (Ἄρσανς)"><name nymRef="Ἄρσανς">Ἄρσανς</name></persName> 
-         </ab>    
-             
-         
+             <persName type="local" key="არსანსი (Ἄρσανς)"><name nymRef="Ἄρσανς">Ἄρσανς</name></persName>
+         </ab>
+
+
             </div>
-            
-                
+
+
             <div type="translation" xml:lang="ka">
                 <p>არსანსი</p></div>
-            
-           <div type="apparatus" xml:space="preserve">
-              <head>კრიტიკული აპარატი</head>
-               <p><app>
-               <rdg></rdg>
-               </app></p>
-            </div>
-           
+
+           <div type="apparatus" xml:space="preserve"/>
+
+
             <div type="commentary">
                 <p>საკუთარი სახელის ეს ფორმა (Ἄρσανς) დამოწმებულია მხოლოდ ვანის წარწერაში. არსებობს მსგავსი სახელები: Ἄρσανος (დიოდ. სიც. 17,6), Ἀρσᾶς (Oxy, VII, 1063, II (II-III),
                     Ἀρσάϊς (Teb. I, 121, 109)...</p>
-                <p>განსაკუთრებით საყურადღებოა ელინისტური ხანის ძეგლზე არც მთლად მოსალოდნელი შესრულება წარწერისა (მარჯვნიდან მარცხნივ). ეს უნდა იყოს წერის შეფარვითი მანერა. ხელოსანი 
+                <p>განსაკუთრებით საყურადღებოა ელინისტური ხანის ძეგლზე არც მთლად მოსალოდნელი შესრულება წარწერისა (მარჯვნიდან მარცხნივ). ეს უნდა იყოს წერის შეფარვითი მანერა. ხელოსანი
                 (მოქანდაკე, არქიტექტორი თუ კალატოზი) თავის სახელს ამგვარად ამჟღავნებს.</p>
             </div>
         </body>
     </text>
 </TEI>
-
-
-

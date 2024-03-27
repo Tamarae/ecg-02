@@ -20,18 +20,18 @@
             <sourceDesc>
                 <msDesc>
                    <msIdentifier>
-                        <collection>ლაგურკა</collection>                
+                        <collection>ლაგურკა</collection>
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მოსახსენებელი</seg>
                             <seg xml:lang="en"/>
                         </summary>
-                    </msContents> 
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material>ბროლი</material>
                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/240">საბეჭდავი</objectType></support></supportDesc>
                                 <layoutDesc>
@@ -43,9 +43,9 @@
                                         <depth></depth></dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
-                            <handNote>წარწერა გამოყვანილია ნეგატიურად.                             
+                            <handNote>წარწერა გამოყვანილია ნეგატიურად.
                                 <height unit="cm" precision="medium"></height>
                                 <width unit="cm" precision="medium"></width>
                                   </handNote>
@@ -57,20 +57,20 @@
                     <history>
                             <origin>
                                 <origPlace></origPlace>
-                                <origDate notBefore-custom="0501" notAfter-custom="0800" precision="medium" 
+                                <origDate notBefore-custom="0501" notAfter-custom="0800" precision="medium"
                                     evidence="lettering" datingMethod="#julian">VI-VIII AD</origDate>
                               </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot">ლაგურკა</placeName> 
+                                <placeName type ="ancientFindspot">ლაგურკა</placeName>
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                        
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">ლაგურკას ეკლესია</placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -90,31 +90,31 @@
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 88</citedRange></bibl></p>
-                    <p><bibl n="2">თინათინს ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 43</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 88</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b80"/> თინათინს ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში, <citedRange> 43</citedRange></bibl></p>
+
             </div>
 
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!--   ΚΕΒΨΙΟΡ Δ C  Α Ν Δ Ρ Ι
                         Κ[υρίου] β[άψις]           Κύριον ἔβ[α]ψ[ε] Ἰορδάνης, Ἀνδρέ[ας]  -->
-                     
-            
-     
+
+
+
          <ab>
-             <w lemma="κύριος">Κ<supplied reason="subaudible">υρίου</supplied></w> <w lemma="βάψις">β<supplied reason="subaudible">άψις</supplied></w> 
+             <w lemma="κύριος">Κ<supplied reason="subaudible">υρίου</supplied></w> <w lemma="βάψις">β<supplied reason="subaudible">άψις</supplied></w>
              <geogName type="river" nymRef="Ἰορδάνης" ref="https://pleiades.stoa.org/places/687932">Ἰορδ<supplied reason="subaudible">άνη</supplied>ς</geogName>.
              <persName type="saint"><name nymRef="Ἀνδρέας">Ἀνδρ<choice><reg>έ</reg><orig>ι</orig></choice><supplied reason="subaudible">ας</supplied></name></persName>
-         </ab>    
-           
+         </ab>
+
             </div>
-            
+
             <div type="translation" xml:lang="ka">
                 <p>უფლის მონათვლა იორდანეში. ანდრია</p>
             </div>
-            
+
             <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
               <head>კრიტიკული აპარატი</head>
               <p><app><lem>κύριος</lem>
@@ -124,7 +124,7 @@
               <rdg resp="თ. ყაუხჩიშვილი">ἔβαψε</rdg>
               </app></p>
             </div>
-           
+
             <div type="commentary">
                 <p>წარწერა პალეოგრაფიული მონაცემების მიხედვით თარიღდება.</p>
                 <p>ნივთზე აწერია სიუჟეტის დასათაურება და მფლობელის სახელი.</p>
@@ -132,7 +132,3 @@
          </body>
     </text>
 </TEI>
-
-
-
-

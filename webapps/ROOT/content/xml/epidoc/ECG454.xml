@@ -32,9 +32,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="https://www.eagle-network.eu/voc/material/lod/2">ადგილობრივი ქვა</material>
-                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1483">ფილა ფასადზე</objectType> 
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1483">ფილა ფასადზე</objectType>
                                         <dimensions unit="cm">
                                         <width>59</width>
                                         <height>35</height>
@@ -43,7 +43,7 @@
                                   </support>
                             </supportDesc>
                                 <layoutDesc>
-                                    <layout writtenLines="1"> 
+                                    <layout writtenLines="1">
                                         <dimensions unit="cm"></dimensions>
                                         <width>39</width>
                                         <height>7</height>
@@ -69,14 +69,14 @@
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance> 
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">
                                 ილორის წმინდა გიორგის ეკლესია
                             </placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -96,9 +96,25 @@
     </facsimile>
     <text>
         <body>
-            
+          <div type="bibliography" subtype="principalEdition">
+
+                  <p><bibl type="publication" subtype="principal" xml:lang="ka">
+                    <author>
+                        <persName>
+                          <forename></forename>
+                          <surname></surname>
+                        </persName>
+                    </author>
+                    <title/>
+                      <edition/>
+                      <pubPlace/>
+                      <publisher/>
+                      <date></date>
+                   </bibl></p>
+
+          </div>         
             <!-- წ(მიდაო) გ(იორგ)ი შეიწყ(ა)ლე მ(თავა)რ(ეპისკოპო)ზი გ(იორგ)ი -->
-            
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
                 <ab>
                     <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდაო</ex></expan></w> <persName ref="attestedperson.xml#person13"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></persName> <w lemma="იწყალებს"><expan><abbr>შეიწყ</abbr><ex>ა</ex><abbr>ლე</abbr></expan></w> <persName ref="attestedperson.xml#person14"><roleName><w lemma="მთავარეპისკოპოს"><expan><abbr>მ</abbr><ex>თავა</ex><abbr>რ</abbr><ex>ეპისკოპო</ex><abbr>ზი</abbr></expan></w></roleName> <expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></persName>
@@ -107,23 +123,7 @@
             <div type="translation" xml:lang="ka"><p>წმინდაო გიორგი შეიწყალე მთავარეპისკოპოსი გიორგი</p></div>
             <div type="apparatus" xml:space="preserve"/>
             <div type="commentary"><p>წარწერა ამოკვეთილია იმავე ქვის ფილაზე, რომელზეც ამოკვეთილია პირველი წარწერა. სტრიქონის შუა და დასასრული ნაწილი, ფილის გადარეცხვის შედეგად გადასულია. ფილა შეთეთრებულია კირით</p></div>
-            <div type="bibliography" subtype="principalEdition">
-                           
-                    <p><bibl type="publication" subtype="principal" xml:lang="ka">
-                      <author>
-                          <persName>
-                            <forename></forename>
-                            <surname></surname>
-                          </persName>
-                      </author>
-                      <title/>
-                        <edition/>
-                        <pubPlace/>
-                        <publisher/>
-                        <date></date>
-                     </bibl></p>
-                
-            </div>         
+
          </body>
     </text>
 </TEI>

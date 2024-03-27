@@ -37,11 +37,11 @@
                                 <support>
                                     <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
                                     <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">Facade</objectType>
-                                    
+
                                     <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
                                     <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2"> Local stone</material>
-                                    
-                                
+
+
                                 <dimensions unit="cm">
                                         <height>138</height>
                                         <width/>
@@ -52,7 +52,7 @@
                                     <layout writtenLines="1">
                                         <seg xml:lang="ka">წარწერა 1 სტრიქონიანია. იგი გამოქანდაკებულია ტაძრის ჩრდილოეთ ფასადზე, ამოქოლილი კარის თავზე,
                                        გვიანდელი სარკმლის ქვემოთ, გრძელ ბალავარზე (სიგრძე 233), გეომეტრიული სახის ჩუქურთმის ზემოთ.</seg>
-                                        <seg xml:lang="en">One line inscription. Embossed on the north facade of the church on top of 
+                                        <seg xml:lang="en">One line inscription. Embossed on the north facade of the church on top of
                                             the blocked door, under the window of later usage, on a long supportive stone (length 233 cm), above the Geometric shape carving.</seg>
                                         <dimensions unit="cm">
                                             <width>92</width>
@@ -123,10 +123,10 @@
     <text>
         <body>
            <div type="bibliography">
-              
-             <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი<ptr target="bibliography.xml#b101"/>, <citedRange> 71-72</citedRange></bibl></p>
-             <p><bibl n="2">ლ. რჩეულიშვილი, ქართული ხუროთმოძღვრების სამი უცნობი ძეგლი<ptr target="bibliography.xml#b101"/>, <citedRange> 94</citedRange></bibl></p>
-                
+
+             <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, <citedRange> 71-72</citedRange></bibl></p>
+             <p><bibl n="2"><ptr target="#b101"/> ლ. რჩეულიშვილი, ქართული ხუროთმოძღვრების სამი უცნობი ძეგლი, <citedRange> 94</citedRange></bibl></p>
+
             </div>
 
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">

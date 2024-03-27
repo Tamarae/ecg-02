@@ -25,7 +25,7 @@
                    <msIdentifier>
                         <collection>მცხეთა</collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მოსახსენებელი</seg>
@@ -35,7 +35,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2.html">ქვა</material>
                                     <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2.html">Local stone</material>
                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483.html">ფასადი</objectType>
@@ -47,29 +47,29 @@
                                 </support>
                             </supportDesc>
                                 <layoutDesc>
-                                    <layout writtenLines="13"> 
+                                    <layout writtenLines="13">
                                      <seg xml:lang="ka">წარწერა 13 სტრიქონიანია. იგი მდებარეობს ჯვრის ტაძრის აღმოსავლეთ ფასადის ცენტრალურ ბარელიეფზე (ცენტრალური
-                                   ბარელიეფის მარცხნივ), არაწესიერი სწორკუთხედის ფორმის ფილაზე, რომელსაც გარს უვლის რელიეფური ჩარჩო, 
+                                   ბარელიეფის მარცხნივ), არაწესიერი სწორკუთხედის ფორმის ფილაზე, რომელსაც გარს უვლის რელიეფური ჩარჩო,
                                    თავზე ლავგარდანით. ფილაზე გამოქანდაკებულია მუხლმოდრეკილი ქტიტორი, დემეტრე ჳპატოსი, რომლის თავზე გამოსახულია
-                                   ჰაერში ფრთებგაშლილი მიქაელ მთავარანგელოზი. დემეტრეს ფიგურა მიმართულია მარჯვნივ 
+                                   ჰაერში ფრთებგაშლილი მიქაელ მთავარანგელოზი. დემეტრეს ფიგურა მიმართულია მარჯვნივ
                                    (ე.ი. ცენტრალური რელიეფისაკენ - სტეფანოს პატრიკიოსისკენ).
-                                  წარწერა დემეტრეს ფიგურის ორივე მხარეს ორ სვეტად არის ამოღარული. მარცხენა მხარეს 7 სტრიქონია,</seg>    
+                                  წარწერა დემეტრეს ფიგურის ორივე მხარეს ორ სვეტად არის ამოღარული. მარცხენა მხარეს 7 სტრიქონია,</seg>
                                           <seg xml:lang="en">
-                                            13 line inscription. Inscription is located on the central bas-relief of the east facade of the Jvari Monastery church (on the left side of the central bas-relief), on the plaque shaped as an irregular rectangle which is encircled by an embossed frame with a cornice on top. The illustration depicts the image of Demetrius Hypatos the Ktetor of the church on his knees, the figure of Archangel Michael with open wings depicted above his head. The figure of Demetrius is turned right (towards the central bas-relief- Stephen the Patrikios). 
+                                            13 line inscription. Inscription is located on the central bas-relief of the east facade of the Jvari Monastery church (on the left side of the central bas-relief), on the plaque shaped as an irregular rectangle which is encircled by an embossed frame with a cornice on top. The illustration depicts the image of Demetrius Hypatos the Ktetor of the church on his knees, the figure of Archangel Michael with open wings depicted above his head. The figure of Demetrius is turned right (towards the central bas-relief- Stephen the Patrikios).
                                             The engraved inscription has vertical columns on both sides of Demetrius. The left one 7 line inscription, right one - 6 line.
                                         </seg>
                                       <dimensions unit="cm">
                                         <width>20</width>
                                         <height>40</height>
                                       </dimensions>
-                                        მარჯვენა მხარეს - 6 სტრიქონი. 
+                                        მარჯვენა მხარეს - 6 სტრიქონი.
                                       <dimensions unit="cm">
                                         <width>20/25</width>
                                         <height>40</height>
                                       </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                                <seg xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა.   </seg>
@@ -84,7 +84,7 @@
                                     <seg xml:lang="ka">ჯვრის მონასტერი, მცხეთა</seg>
                                     <seg xml:lang="en">Jvari Monastery, Mtskheta</seg>
                                 </origPlace>
-                                <origDate notBefore-custom="0595" notAfter-custom="0605" precision="medium" 
+                                <origDate notBefore-custom="0595" notAfter-custom="0605" precision="medium"
                                     evidence="lettering" datingMethod="#julian">595-605 AD</origDate>
                             </origin>
                            <provenance type="found">
@@ -96,7 +96,7 @@
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance> 
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">
                                     <seg xml:lang="ka">ჯვრის მონასტერი, მცხეთა</seg>
@@ -104,7 +104,7 @@
                             </placeName>
                             <idno/>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -112,10 +112,10 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-11-06" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-11-06" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
-    
+
     <facsimile>
         <surface>
             <graphic url="ecg027.jpg">
@@ -124,42 +124,42 @@
             </graphic>
         </surface>
     </facsimile>
-    
+
     <text>
         <body>
             <div type="bibliography">
-             
-                 <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი<ptr target="bibliography.xml#b101"/>, <citedRange> 163-164</citedRange></bibl></p>
-                 <p><bibl n="2">M. Brosset, Rapports I<ptr target="bibliography.xml#b21"/>, <citedRange>48-49</citedRange></bibl></p>
-                 <p><bibl n="3">J. Bartholomaei, Letter, M. Brosset, Bibliographie analytique des oeuvres de Marie-Felicité Brosset<ptr target="bibliography.xml#b16"/>, <citedRange>p.80</citedRange></bibl></p>
-                 <p><bibl n="4">თედო ჟორდანია, ქრონიკები და სხვა მასალა საქართველოს ისტორიისა და მწერლობისა<ptr target="bibliography.xml#b77"/>, <citedRange> 61</citedRange></bibl></p>
-                 <p><bibl n="5">А. Натроев, Мцхета и его собор Светицховели<ptr target="bibliography.xml#b35"/>, <citedRange>19</citedRange></bibl></p>
-                 <p><bibl n="6">ჯაჭვის წმ. ჯვრის მონასტერი<ptr target="bibliography.xml#b118"/>, <citedRange> 24</citedRange></bibl></p>
-                 <p><bibl n="7">ექვთიმე თაყაიშვილი, ჯვრის მონასტრის წარწერები<ptr target="bibliography.xml#b71"/></bibl></p>
-                 <p><bibl n="8">ივანე ჯავახიშვილი, ახლად აღმოჩენილი უძველესი ქართული ხელნაწერები და მათი მნიშვნელობა მეცნიერებისათვის<ptr target="bibliography.xml#b85"/></bibl></p>
-                 <p><bibl n="9">აკაკი შანიძე, ნაშთები III პირის ობიექტური პრეფიქსის ხმარებისა ხმოვნების წინ ქართულ ზმნებში<ptr target="bibliography.xml#b60"/>, <citedRange> 276</citedRange></bibl></p>        
-                 <p><bibl n="10">გიორგი ჩუბინაშვილი, რამოდენიმე თავი ქართული ხელოვნების ისტორიიდან<ptr target="bibliography.xml#b66"/>, <citedRange> 162</citedRange></bibl></p>
-                 <p><bibl n="11">აკაკი შანიძე, ძველი ქართულის ქრესტომათია<ptr target="bibliography.xml#b59"/></bibl></p>
-                 <p><bibl n="12">გიორგი ჩუბინაშვილი, ქართული ხელოვნების ისტორია<ptr target="bibliography.xml#b131"/>, <citedRange> 108</citedRange></bibl></p>
-                 <p><bibl n="13">ლევან მუსხელიშვილი, არქეოლოგიური ექსკურსიები მაშავრის ხეობაში<ptr target="bibliography.xml#b135"/></bibl></p>
-                 <p><bibl n="14">შ. ამირანაშვილი, ქართული ხელოვნების ისტორია<ptr target="bibliography.xml#b114"/>, <citedRange> 169</citedRange></bibl></p>
-                 <p><bibl n="15">Н. Г. Чубинашвили, Памятники типа Джвари<ptr target="bibliography.xml#b47"/>, <citedRange>143</citedRange></bibl></p>
-                 <p><bibl n="16">M. Tarchnišvili, Les récentes découverstes épigraphiques et litteraires en géorgien<ptr target="bibliography.xml#b24"/>, <citedRange>252</citedRange></bibl></p>
-                 <p><bibl n="17">I. Molitor, MIA CSCO<ptr target="bibliography.xml#b15"/></bibl></p>
-                 <p><bibl n="18">აკაკი შანიძე, ქართული ენის სტრუქტურისა და ისტორიის საკითხები<ptr target="bibliography.xml#b61"/>, <citedRange> 277</citedRange></bibl></p>
-                 <p><bibl n="19">W. Djobadze, The sculptures on Eastern Facade of the Holy Cross of Mtzkhetâ<ptr target="bibliography.xml#b33"/>, <citedRange>114</citedRange></bibl></p>
-                 <p><bibl n="20">Ш. Я. Амиранашвили, История грузинского искусства<ptr target="bibliography.xml#b56"/></bibl></p>
-                          
-            </div> 
+
+                 <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, <citedRange> 163-164</citedRange></bibl></p>
+                 <p><bibl n="2"><ptr target="#b21"/> M. Brosset, Rapports I, <citedRange>48-49</citedRange></bibl></p>
+                 <p><bibl n="3"><ptr target="#b16"/> J. Bartholomaei, Letter, M. Brosset, Bibliographie analytique des oeuvres de Marie-Felicité Brosset, <citedRange>p.80</citedRange></bibl></p>
+                 <p><bibl n="4"><ptr target="#b77"/> თედო ჟორდანია, ქრონიკები და სხვა მასალა საქართველოს ისტორიისა და მწერლობისა, <citedRange> 61</citedRange></bibl></p>
+                 <p><bibl n="5"><ptr target="#b35"/> А. Натроев, Мцхета и его собор Светицховели, <citedRange>19</citedRange></bibl></p>
+                 <p><bibl n="6"><ptr target="#b118"/> ჯაჭვის წმ. ჯვრის მონასტერი, <citedRange> 24</citedRange></bibl></p>
+                 <p><bibl n="7"><ptr target="#b71"/> ექვთიმე თაყაიშვილი, ჯვრის მონასტრის წარწერები</bibl></p>
+                 <p><bibl n="8"><ptr target="#b85"/> ივანე ჯავახიშვილი, ახლად აღმოჩენილი უძველესი ქართული ხელნაწერები და მათი მნიშვნელობა მეცნიერებისათვის</bibl></p>
+                 <p><bibl n="9"><ptr target="#b60"/> აკაკი შანიძე, ნაშთები III პირის ობიექტური პრეფიქსის ხმარებისა ხმოვნების წინ ქართულ ზმნებში, <citedRange> 276</citedRange></bibl></p>
+                 <p><bibl n="10"><ptr target="#b66"/> გიორგი ჩუბინაშვილი, რამოდენიმე თავი ქართული ხელოვნების ისტორიიდან, <citedRange> 162</citedRange></bibl></p>
+                 <p><bibl n="11"><ptr target="#b59"/> აკაკი შანიძე, ძველი ქართულის ქრესტომათია</bibl></p>
+                 <p><bibl n="12"><ptr target="#b131"/> გიორგი ჩუბინაშვილი, ქართული ხელოვნების ისტორია, <citedRange> 108</citedRange></bibl></p>
+                 <p><bibl n="13"><ptr target="#b135"/> ლევან მუსხელიშვილი, არქეოლოგიური ექსკურსიები მაშავრის ხეობაში</bibl></p>
+                 <p><bibl n="14"><ptr target="#b114"/> შ. ამირანაშვილი, ქართული ხელოვნების ისტორია, <citedRange> 169</citedRange></bibl></p>
+                 <p><bibl n="15"><ptr target="#b47"/> Н. Г. Чубинашвили, Памятники типа Джвари, <citedRange>143</citedRange></bibl></p>
+                 <p><bibl n="16"><ptr target="#b24"/> M. Tarchnišvili, Les récentes découverstes épigraphiques et litteraires en géorgien, <citedRange>252</citedRange></bibl></p>
+                 <p><bibl n="17"><ptr target="#b15"/> I. Molitor, MIA CSCO</bibl></p>
+                 <p><bibl n="18"><ptr target="#b61"/> აკაკი შანიძე, ქართული ენის სტრუქტურისა და ისტორიის საკითხები, <citedRange> 277</citedRange></bibl></p>
+                 <p><bibl n="19"><ptr target="#b33"/> W. Djobadze, The sculptures on Eastern Facade of the Holy Cross of Mtzkhetâ, <citedRange>114</citedRange></bibl></p>
+                 <p><bibl n="20"><ptr target="#b56"/> Ш. Я. Амиранашвили, История грузинского искусства</bibl></p>
+
+            </div>
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
-                        <!--  "წო 
+
+                        <!--  "წო
                             მქლ მ
                             თავ
                             არ
                             ანგ
                             ელო
-                            ზო 
+                            ზო
                             დემეტრ
                             ეს ჳპა
                             ტოსს
@@ -168,17 +168,17 @@
                             ავ” -->
               <div type="textpart" subtype="fragment" n="1">
                 <ab>
-                    <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> 
-                    <lb n="2"/><name nymRef="წმ. მიქაელ მთავარანგელოზი"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>აე</ex><abbr>ლ</abbr></expan></name> 
+                    <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w>
+                    <lb n="2"/><name nymRef="წმ. მიქაელ მთავარანგელოზი"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>აე</ex><abbr>ლ</abbr></expan></name>
                     <w lemma="მთავარანგელოზ">მ
                     <lb n="3" break="no"/>თავ
                     <lb n="4" break="no"/>არ
                     <lb n="5" break="no"/>ანგ
                     <lb n="6" break="no"/>ელო
                     <lb n="7" break="no"/>ზო</w>
-           </ab>           
-          </div> 
-            <div type="textpart" subtype="fragment" n="2">   
+           </ab>
+          </div>
+            <div type="textpart" subtype="fragment" n="2">
                     <ab>
                     <lb n="8"/><persName type="local" key="დემეტრე ჳპატოსი"><name nymRef="დემეტრე ჳპატოს">დემეტრ
                     <lb n="9" break="no"/>ეს</name> <roleName nymRef="ჳპატოს"><w lemma="ჳპატოს">ჳპა
@@ -186,29 +186,29 @@
                     <lb n="11" break="no"/>ა</w></roleName></persName> <rs type="pn"><w lemma="მეოხ-ყოფა">მეო
                     <lb n="12" break="no"/>ხ ხეყ
                     <lb n="13" break="no"/>ავ</w></rs>
-                </ab>            
+                </ab>
             </div>
           </div>
-                      
+
             <div type="translation">
                 <p  xml:lang="ka">წმიდაო მიქაელ მთავარანგელოზო, მეოხ-ეყავ დემეტრეს ჳპატოსს.</p>
                 <p xml:lang="en">Holy Archangel Michael, have mercy on Demetrius Hypatos.</p>
             </div>
-            
+
             <div type="apparatus" xml:space="preserve"/>
-            
+
             <div type="commentary">
-                <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით # 70. ივ. ჯავახიშვილის აზრით, წარწერა VI საუკუნის ბოლოს არის ამოკვეთილი. მისივე აზრით, 
+                <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით # 70. ივ. ჯავახიშვილის აზრით, წარწერა VI საუკუნის ბოლოს არის ამოკვეთილი. მისივე აზრით,
                     წარწერის სიძველის დასტური პალეოგრაფიული თვალსაზრისით არის Ⴣ გრაფემის თავშეკრულობა.
                     ამ წარწერაში ყურადღებას იპყრობს „მეოხ ხეყავ“ - ხანმეტი ფორმა. ივ. ჯავახიშვილის მიხედვით, ეკლესიის ნამდვილი აღმშენებელნი სტეფანოზ ქართლისა პატრიკიოსი და დემეტრე ჳპატოსი ძმები ყოფილან (მოქცევაჲ ქართლისაჲ II, 724).
-                  ჳპატოსობის მიღება მას მხოლოდ ბიზანტიის კეისრისგან შეეძლო იმ დროს, როდესაც აღმოსავლეთ საქართველო ბიზანტიის მეფის მფარველობის ქვეშ მოექცა, ე.ი. 591-604 წწ. შუა. 
+                  ჳპატოსობის მიღება მას მხოლოდ ბიზანტიის კეისრისგან შეეძლო იმ დროს, როდესაც აღმოსავლეთ საქართველო ბიზანტიის მეფის მფარველობის ქვეშ მოექცა, ე.ი. 591-604 წწ. შუა.
                   აქედან გამომდინარე ეს წარწერები დაახლოებით იმავე ხანას, VI ს-ის უკანასკნელ ათეულს უნდა ეკუთნოდეს.
                 </p>
                 <p xml:lang="en">
                                         According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #70.  Iv. Javakhishvili believes that the inscription can be dated to the end of the VI century. He specifies that the paleographic data proves the early origins of the inscription: the head of the grapheme Ⴣ is closed. Case of “khanmeti” ხანმეტი in the words „მეოხ ხეყავ“ is noticeable. Iv.Javakhishvili believes that the builders of the church: Stephen the Patrikios of Kartli and Demetrius Hypatos are brothers (source: Conversion of Kartli (chronicle) II, 724). Demetrius Hypatos should have received the rank of Hypatos during the period when the east part of Georgia was under the domain of the King of Byzantium, i.e. 591-604 years.
-Thus, the inscriptions should belong to the same period of the last decades of the VI century. 
+Thus, the inscriptions should belong to the same period of the last decades of the VI century.
                 </p>
-            </div>                 
+            </div>
          </body>
     </text>
 </TEI>

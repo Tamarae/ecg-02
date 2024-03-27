@@ -28,13 +28,13 @@
                             <seg xml:lang="ka">იურიდიული საბუთი</seg>
                             <seg xml:lang="en"/>
                         </summary>
-                    </msContents>  
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1483.html">ფასადი</objectType>
-                                    <material  ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                    <material  ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
                                       <dimensions unit="cm">
                                         <width></width>
                                         <height></height>
@@ -44,19 +44,19 @@
                             </supportDesc>
                                 <layoutDesc>
                                     <layout writtenLines="13">წარწერა ცამეტსტრიქონიანია. იგი შესრულებულია სოფ. კოშის ეკლესიის სამხრეთ კედელზე.
-                                        წარწერის ძირითადი ნაწილი დაწერილია ცხრა სტრიქონად. 
-                                        გამორჩენილი ნაწილი მარცხენა მხარეს არის მიწერილი ოთხ სტრიქონად, მეორე სვეტად                               
+                                        წარწერის ძირითადი ნაწილი დაწერილია ცხრა სტრიქონად.
+                                        გამორჩენილი ნაწილი მარცხენა მხარეს არის მიწერილი ოთხ სტრიქონად, მეორე სვეტად
                                       <dimensions unit="cm">
                                          <width></width>
-                                         <height></height> 
-                                      </dimensions>  
-                                    </layout>                                   
+                                         <height></height>
+                                      </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                                 <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
-                                   <height/> 
+                                   <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -67,14 +67,14 @@
                             </origin>
                             <provenance type="found">
                                 <placeName type ="ancientFindspot">სოფ. კოშის ეკლესია, სომხეთი</placeName>
-                                <!-- "40.300441, 44.152250"--> 
+                                <!-- "40.300441, 44.152250"-->
                                 <rs type="circumstances"/>
                                 <rs type="context"/>
-                                <rs type="monuList"/></provenance>                                
+                                <rs type="monuList"/></provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot">სოფ. კოშის ეკლესია, სომხეთი</placeName>
-                                <idno type="invNo"/></provenance> 
-                    </history>                   
+                                <idno type="invNo"/></provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -82,7 +82,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-12-17" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-12-17" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <facsimile>
@@ -94,17 +94,17 @@
         </surface>
     </facsimile>
     <text>
-        <body>           
+        <body>
               <div type="bibliography">
-                 
-<p><bibl n="1">ვალერი სილოგავა, ცნობები და შენიშვნები სომხეთის ქართული ეპიგრაფიკული ძეგლების გამოცემის შესახებ<ptr target="bibliography.xml#b168"/>, <citedRange> 142-175</citedRange></bibl></p>
-<p><bibl n="2">А. Г. Шанидзе, Грузинская надпись XIII века в сел. Кош (Армянская ССР)<ptr target="bibliography.xml#b175"/>, <citedRange> 7-19</citedRange></bibl></p>                   
-<p><bibl n="3">პარუირ მურადიანი, სომხეთის ქართული წარწერები, წყაროთმცოდნეობითი გამოკვლევა (სომხურ ენაზე)<ptr target="bibliography.xml#b166"/>, <citedRange> 5-256</citedRange></bibl></p>                                     
-               
+
+<p><bibl n="1"><ptr target="#b168"/> ვალერი სილოგავა, ცნობები და შენიშვნები სომხეთის ქართული ეპიგრაფიკული ძეგლების გამოცემის შესახებ, <citedRange> 142-175</citedRange></bibl></p>
+<p><bibl n="2"><ptr target="#b175"/> А. Г. Шанидзе, Грузинская надпись XIII века в сел. Кош (Армянская ССР), <citedRange> 7-19</citedRange></bibl></p>
+<p><bibl n="3"><ptr target="#b166"/> პარუირ მურადიანი, სომხეთის ქართული წარწერები, წყაროთმცოდნეობითი გამოკვლევა (სომხურ ენაზე), <citedRange> 5-256</citedRange></bibl></p>                                     
+
             </div>
-            
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                             <!-- † ს(ა)ხ(ე)ლითა ღ(მრ)თ(ი)ს(აჲ)თ(ა), მეოხ(ე)ბითა წ(მიდ)ისა ღ(მრ)თისმშ(ო)ბლ(ი)ს(ა)ჲთ(ა)
                                  ჩ(უე)ნ მ(ა)ნდატ(უ)რთუხ(უ)ცესმ(ა)ნ ივ(ა)ნე და შ(აჰა)ნშეს და მისთა ძმათა
                                  დედამ(ა)ნ ხ(ო)შ(ა)მ(ა)ნ, გაგიშჳთ თქ(უე)ნ კოშელთა ზ(ე)მოისა მზღ
@@ -112,140 +112,140 @@
                                  მისთა ძმათა დღეგრძელობის(ა)თჳს და თქ(უე)ნ გაგჳკუეთ
 {და ქუემოისა მზღვ(ა)              ეთ რომე ერთი საჴნვ(ე)ლი თქ(უე)ნითა ჴარითა და
 რი(ს)აჲ, დიკი(ს)აჲ ოდენ, კოშ      მისითა ჭურჭლითა უკ(უ)დავად იყოს ჩ(უე)ნთჳს და
-ელისა კაცისაჲ გაშო(ჳ)ე             ამისნი ჩ(უე)ნ გ(ა)მსრ(ულე)ბ(ე)ლნი ვ(ა)რთ. და ვ(ი)ნცა შეცვ(ა)ლოს 
-ბულია ღალაჲ}                    წყეულ და შ(ე)ჩ(უე)ნ(ე)ბ(უ)ლ არს წ(მიდა)თა მ(ა)დლითა-->             
-                                                           
-            
+ელისა კაცისაჲ გაშო(ჳ)ე             ამისნი ჩ(უე)ნ გ(ა)მსრ(ულე)ბ(ე)ლნი ვ(ა)რთ. და ვ(ი)ნცა შეცვ(ა)ლოს
+ბულია ღალაჲ}                    წყეულ და შ(ე)ჩ(უე)ნ(ე)ბ(უ)ლ არს წ(მიდა)თა მ(ა)დლითა-->
+
+
          <div type="textpart" subtype="column" n="1">
                 <ab>
-                   <lb n="1"/>&#8224; 
-                                <w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლითა</abbr></expan></w> 
+                   <lb n="1"/>&#8224;
+                                <w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლითა</abbr></expan></w>
                                 <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr><ex>ი</ex><abbr>ს</abbr><ex>აჲ</ex><abbr>თ</abbr><ex>ა</ex></expan></w>
-                                <w lemma="მეოხება"><expan><abbr>მეოხ</abbr><ex>ე</ex><abbr>ბითა</abbr></expan></w> 
+                                <w lemma="მეოხება"><expan><abbr>მეოხ</abbr><ex>ე</ex><abbr>ბითა</abbr></expan></w>
                                 <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდ</ex><abbr>ისა</abbr></expan></w>
                                 <w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თისმშ</abbr><ex>ო</ex><abbr>ბლ</abbr><ex>ი</ex><abbr>ს</abbr><ex>ა</ex><abbr>ჲთ</abbr><ex>ა</ex></expan></w>
-                   <lb n="2"/><w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნ</abbr></expan></w> 
-                            <persName type="local" key="ივანე II მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/ივანე_(II)_მხარგრძელი"><roleName nymRef="მანდატურთხუცეს"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ნდატ</abbr><ex>უ</ex><abbr>რთო</abbr><ex>ჳ</ex><abbr>ხ</abbr><ex>უ</ex><abbr>ცესმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></roleName> 
+                   <lb n="2"/><w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნ</abbr></expan></w>
+                            <persName type="local" key="ივანე II მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/ივანე_(II)_მხარგრძელი"><roleName nymRef="მანდატურთხუცეს"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ნდატ</abbr><ex>უ</ex><abbr>რთო</abbr><ex>ჳ</ex><abbr>ხ</abbr><ex>უ</ex><abbr>ცესმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></roleName>
                             <name nymRef="ივანე"><expan><abbr>ივ</abbr><ex>ა</ex><abbr>ნე</abbr></expan></name></persName>
                             და
                             <persName type="local" key="შანშე II მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/მხარგრძელი_შანშე_(II)"><name nymRef="შაჰანშე"><expan><abbr>შ</abbr><ex>აჰა</ex><abbr>ნშეს</abbr></expan></name> </persName>
-                            და 
-                            <w lemma="მისნი">მისთა</w> 
+                            და
+                            <w lemma="მისნი">მისთა</w>
                             <w lemma="ძმა">ძმათა</w>
-                   <lb n="3"/><w lemma="დედა"><expan><abbr>დედამ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
+                   <lb n="3"/><w lemma="დედა"><expan><abbr>დედამ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
                               <persName type="local" key="ხუაშაქ [შანშე (შაჰანშა) I მხარგრძელის მეუღლე, ლაკლაკთა ასული]"><name nymRef="ხოშა"><expan><abbr>ხ</abbr><ex>ო</ex><abbr>შ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></name> </persName>
-                              <w lemma="გაშვება">გაგიშჳთ</w> 
-                              <w lemma="თქუენ"><expan><abbr>თქ</abbr><ex>უე</ex><abbr>ნ</abbr></expan></w> 
-                              <placeName nymRef="კოში">კოშელთა</placeName> 
-                              <w lemma="ზემო"><expan><abbr>ზ</abbr><ex>ე</ex><abbr>მოისა</abbr></expan></w> 
+                              <w lemma="გაშვება">გაგიშჳთ</w>
+                              <w lemma="თქუენ"><expan><abbr>თქ</abbr><ex>უე</ex><abbr>ნ</abbr></expan></w>
+                              <placeName nymRef="კოში">კოშელთა</placeName>
+                              <w lemma="ზემო"><expan><abbr>ზ</abbr><ex>ე</ex><abbr>მოისა</abbr></expan></w>
                               <w lemma="მზღვარ"><expan><abbr>მზღ
                    <lb n="4" break="no"/>ვ</abbr><ex>ა</ex><abbr>რისა</abbr></expan></w>
-                                <w lemma="შარიად">შარიადი</w> 
-                                <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნისა</abbr></expan></w> 
-                                და 
-                                <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნთა</abbr></expan></w> 
-                                <w lemma="შვილ">შვილთა</w> 
-                                <persName type="local" key="შანშე II მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/მხარგრძელი_შანშე_(II)"><name nymRef="შაჰანშე"><expan><abbr>შ</abbr><ex>ა</ex><abbr>ჰ</abbr><ex>ა</ex><abbr>ნშეს</abbr></expan></name></persName> 
+                                <w lemma="შარიად">შარიადი</w>
+                                <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნისა</abbr></expan></w>
                                 და
-                   <lb n="5"/><w lemma="მისი">მისთა</w> 
-                                <w lemma="ძმა">ძმათა</w> 
+                                <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნთა</abbr></expan></w>
+                                <w lemma="შვილ">შვილთა</w>
+                                <persName type="local" key="შანშე II მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/მხარგრძელი_შანშე_(II)"><name nymRef="შაჰანშე"><expan><abbr>შ</abbr><ex>ა</ex><abbr>ჰ</abbr><ex>ა</ex><abbr>ნშეს</abbr></expan></name></persName>
+                                და
+                   <lb n="5"/><w lemma="მისი">მისთა</w>
+                                <w lemma="ძმა">ძმათა</w>
                                 <w lemma="დღეგრძელობა"><expan><abbr>დღეგრძელობის</abbr><ex>ა</ex><abbr>თჳს</abbr></expan></w>
                 </ab>
          </div>
-                
+
                <div type="textpart" subtype="column" n="2">
                 <ab>
-                <lb n="1"/>და 
-                            <w lemma="ქუემო">ქუემოისა</w> 
+                <lb n="1"/>და
+                            <w lemma="ქუემო">ქუემოისა</w>
                             <w lemma="მზღვარ"><expan><abbr>მზღვ</abbr><ex>ა</ex>
-                <lb n="2" break="no"/><abbr>რი</abbr><ex>ს</ex><abbr>აჲ</abbr></expan></w> 
-                            <w lemma="დიკი"><expan><abbr>დიკი</abbr><ex>ს</ex><abbr>აჲ</abbr></expan></w> 
+                <lb n="2" break="no"/><abbr>რი</abbr><ex>ს</ex><abbr>აჲ</abbr></expan></w>
+                            <w lemma="დიკი"><expan><abbr>დიკი</abbr><ex>ს</ex><abbr>აჲ</abbr></expan></w>
                             <w lemma="ოდენ">ოდენ</w>
                             <name nymRef="კოშელ">კოშ
-                <lb n="3"/>ელისა</name> 
-                            <w lemma="კაც">კაცისაჲ</w> 
+                <lb n="3"/>ელისა</name>
+                            <w lemma="კაც">კაცისაჲ</w>
                             <w lemma="გაშვება"><expan><abbr>გაშო</abbr><ex>ჳ</ex><abbr>ე
-                <lb n="4" break="no"/>ბო</abbr><ex>ჳ</ex><abbr>ლია</abbr></expan></w> 
-                            <w lemma="ღალა">ღალაჲ</w> 
+                <lb n="4" break="no"/>ბო</abbr><ex>ჳ</ex><abbr>ლია</abbr></expan></w>
+                            <w lemma="ღალა">ღალაჲ</w>
                 </ab>
                </div>
-                
+
                <div type="textpart" subtype="column" n="1">
                    <ab>
-                   <lb n="5"/>და 
-                            <w lemma="თქუენ"><expan><abbr>თქ</abbr><ex>უე</ex><abbr>ნ</abbr></expan></w> 
+                   <lb n="5"/>და
+                            <w lemma="თქუენ"><expan><abbr>თქ</abbr><ex>უე</ex><abbr>ნ</abbr></expan></w>
                             <w lemma="გაკუეთა">გაგჳკუეთ
-                   <lb n="6" break="no"/>ეთ</w> 
-                            <w lemma="რომე">რომე</w> 
-                            <w lemma="ერთ">ერთი</w> 
-                            <w lemma="სახნველი"><expan><abbr>საჴნვ</abbr><ex>ე</ex><abbr>ლი</abbr></expan></w> 
-                            <w lemma="თქუენი"><expan><abbr>თქ</abbr><ex>უე</ex><abbr>ნითა</abbr></expan></w> 
-                            <w lemma="ხარი">ჴარითა</w> 
+                   <lb n="6" break="no"/>ეთ</w>
+                            <w lemma="რომე">რომე</w>
+                            <w lemma="ერთ">ერთი</w>
+                            <w lemma="სახნველი"><expan><abbr>საჴნვ</abbr><ex>ე</ex><abbr>ლი</abbr></expan></w>
+                            <w lemma="თქუენი"><expan><abbr>თქ</abbr><ex>უე</ex><abbr>ნითა</abbr></expan></w>
+                            <w lemma="ხარი">ჴარითა</w>
                              და
                    <lb n="7"/><w lemma="მისი">მისითა</w>
-                                <w lemma="ჭურჭელ">ჭურჭლითა</w> 
-                                <w lemma="უკუდავ"><expan><abbr>უკ</abbr><ex>უ</ex><abbr>დავად</abbr></expan></w> 
-                                <w lemma="ყოფა">იყოს</w> 
-                                  <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნთჳს</abbr></expan></w> 
+                                <w lemma="ჭურჭელ">ჭურჭლითა</w>
+                                <w lemma="უკუდავ"><expan><abbr>უკ</abbr><ex>უ</ex><abbr>დავად</abbr></expan></w>
+                                <w lemma="ყოფა">იყოს</w>
+                                  <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნთჳს</abbr></expan></w>
                                   და
-                   <lb n="8"/><w lemma="ესენი">ამისნი</w> 
+                   <lb n="8"/><w lemma="ესენი">ამისნი</w>
                        <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნ</abbr></expan></w>
-                        <w lemma="გამსრულებელ"><expan><abbr>გ</abbr><ex>ა</ex><abbr>მსრ</abbr><ex>ულე</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლნი</abbr></expan></w> 
-                        <w lemma="ყოფა"><expan><abbr>ვ</abbr><ex>ა</ex><abbr>რთ</abbr></expan></w> 
-                        <w lemma="და">და</w> 
+                        <w lemma="გამსრულებელ"><expan><abbr>გ</abbr><ex>ა</ex><abbr>მსრ</abbr><ex>ულე</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლნი</abbr></expan></w>
+                        <w lemma="ყოფა"><expan><abbr>ვ</abbr><ex>ა</ex><abbr>რთ</abbr></expan></w>
+                        <w lemma="და">და</w>
                         <rs type="curse"><w lemma="ვინცა"><expan><abbr>ვ</abbr><ex>ი</ex><abbr>ნცა</abbr></expan></w>
                         <w lemma="შეცვლა"><expan><abbr>შეცვ</abbr><ex>ა</ex><abbr>ლოს</abbr></expan></w>
-                   <lb n="9"/><w lemma="წყეულ">წყეულ</w> 
-                                და 
-                                <w lemma="შეჩუენებულ"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ჩ</abbr><ex>უე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>უ</ex><abbr>ლ</abbr></expan></w> 
-                                <w lemma="ყოფა">არს</w> 
-                                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდი</ex><abbr>თა</abbr></expan></w> 
+                   <lb n="9"/><w lemma="წყეულ">წყეულ</w>
+                                და
+                                <w lemma="შეჩუენებულ"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ჩ</abbr><ex>უე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>უ</ex><abbr>ლ</abbr></expan></w>
+                                <w lemma="ყოფა">არს</w>
+                                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდი</ex><abbr>თა</abbr></expan></w>
                                 <w lemma="მადლ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>დლითა</abbr></expan></w></rs>
-                    </ab> 
+                    </ab>
              </div>
             </div>
-            
+
              <div type="apparatus" xml:space="preserve">
-                                
+
              <listApp>
-                    <app type="colamn" n="1" loc="2" > 
+                    <app type="colamn" n="1" loc="2" >
                     <lem resp="ვალერი სილოგავა"><expan>შ<ex>აჰა</ex>ნშეს</expan></lem>
                     <rdg resp="აკაკი შანიძე, პარუირ მურადიანი"><expan>შ<ex>ა</ex>ნშეს</expan></rdg>
-                 </app>    
-                    
-                <app type="colamn" n="1" loc="3,4"> 
+                 </app>
+
+                <app type="colamn" n="1" loc="3,4">
                     <lem resp="ვალერი სილოგავა"><expan>მზღვ<ex>ა</ex>რისა</expan></lem>
                     <rdg resp="აკაკი შანიძე">მზღვრისა</rdg>
-                 </app> 
-                 
-                 <app type="colamn" n="2" loc="1"> 
+                 </app>
+
+                 <app type="colamn" n="2" loc="1">
                     <lem resp="ვალერი სილოგავა"><expan>მზღვ<ex>ა</ex>რი<ex>ს</ex>აჲ</expan></lem>
                     <rdg resp="აკაკი შანიძე">მზღვრისაჲ</rdg>
-                 </app> 
-                 
-                 <app type="colamn" n="1" loc="7"> 
+                 </app>
+
+                 <app type="colamn" n="1" loc="7">
                     <lem resp="ვალერი სილოგავა"><expan>უკ<ex>უ</ex>დავად</expan></lem>
                     <rdg resp="აკაკი შანიძე, პარუირ მურადიანი">უკდავად</rdg>
-                 </app> 
-                 
-                 <app type="colamn" n="1" loc="8"> 
+                 </app>
+
+                 <app type="colamn" n="1" loc="8">
                     <lem resp="ვალერი სილოგავა"><expan>ჩ<ex>უე</ex>ნ</expan></lem>
                     <rdg resp="აკაკი შანიძე">om.</rdg>
                  </app>
-                                 
-                </listApp> 
+
+                </listApp>
             </div>
-            
+
          <div type="translation">
              <p  xml:lang="ka"> † სახელითა ღმრთისაჲთა, წმიდა ღვთისმშობლის მეოხებით, ჩუენ, მანდატურთუხუცესმა ივანემ, და  ხოშამან - შაჰანშეს და მისთა ძმათა
-                 დედამ, ჩუენი და ჩუენი შვილების, შაჰანშესა და მისთა ძმათა, დღეგრძელობისათჳს, თქუენ, ზემო მხარის კოშელნი, 
-                 გაგათავისუფლეთ შარიადისაგან, ქვემო მხარის კორშელნი - ღალის (მარცვლეულის) გადასახადისაგან. 
+                 დედამ, ჩუენი და ჩუენი შვილების, შაჰანშესა და მისთა ძმათა, დღეგრძელობისათჳს, თქუენ, ზემო მხარის კოშელნი,
+                 გაგათავისუფლეთ შარიადისაგან, ქვემო მხარის კორშელნი - ღალის (მარცვლეულის) გადასახადისაგან.
                  ხოლო თქუენ უზრუნველყავით, რომ ერთი საჴნველი თქუენი ჴარითა და ჭურჭლით მუდამ იყოს ჩვენთვის.
            ჩუენ აღმსრულებელნი ვართ (ამ გადაწყვეტილების). და ვინც შეცვალოს, წყეულ და შეჩუენებულ იყოს წმიდა მადლით.</p>
-         </div>                  
-           
+         </div>
+
             <div type="commentary">
-                <p  xml:lang="ka">წარწერა 1959 წელს პირველად გამოაქვეყნა აკაკი შანიძემ. შემდეგ კი, 1977 წელს, პარუირ მურადიანმა. 
+                <p  xml:lang="ka">წარწერა 1959 წელს პირველად გამოაქვეყნა აკაკი შანიძემ. შემდეგ კი, 1977 წელს, პარუირ მურადიანმა.
                                     წარწერა მისეული შესწორებებით 1980 წელს გამოსცა ვალერი სილოგავამ.
                     წარწერის პირველი პუბლიკაციისას დაშვებული გაუგებრობის შედეგად მასში დასახელებული ივანე მანდატურთუხუცესი, შეცდომით ივან I-ად, ზაქარია
                 ამირსპასალარის ძმად იქნა მიჩნეული და ამდენად წარწერაც არასწორად დათარიღდა. ამ შეცდომას იმეორებს პარუირ მურადიანიც. იგი აკაკი შანიძის მსგავსად
@@ -253,7 +253,7 @@
                 მანდატურთუხუცესის († 1261) ძე, ზაქარია ამირსპასალარისა და მანდატურთუხუცესის († 1212) შვილისშვილი და, მაშასადამე, ივანე I მხარგრძელის († 1227)
                 ძმისწულის შვილი. ივანე I ჯერ იყო მსახურთუხუცესი, ხოლო შემდეგ - ათაბაგი. მანდატურთუხუცესი იგი არ ყოფილა. არც ერთი სახის საისტორიო
                 წყარო, არც ქართულ და არც სომხურ ენებზე, ივანე I-ს მანდატურთუხუცესად არ ასახელებს. ვალერი სილოგავას დათარიღებით, წარწერა 1270-1285 წლებშია
-                შესრულებული, ვინაიდან ივანე II მხარგრძელი მანდატურთუხუცესი სწორედ ამ წლებში იყო.</p>                
+                შესრულებული, ვინაიდან ივანე II მხარგრძელი მანდატურთუხუცესი სწორედ ამ წლებში იყო.</p>
             </div>
          </body>
     </text>

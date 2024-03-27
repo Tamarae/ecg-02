@@ -7,7 +7,7 @@
             <titleStmt>
                 <title>ოქროს ბეჭედი</title>
                 <editor>თინათინ ყაუხჩიშვილი</editor>
-                <editor>ქ. ჯავახიშვილი</editor> 
+                <editor>ქ. ჯავახიშვილი</editor>
                 <editor>გ. ნემსაძე</editor>
             </titleStmt>
             <publicationStmt>
@@ -35,12 +35,12 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="http://www.eagle-network.eu/voc/material/lod/112">ოქრო</material>
                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/168">ბეჭედი</objectType></support></supportDesc>
                                 <layoutDesc>
                                     <layout writtenLines="2">
-                                      ოქროს ბეჭედზე დამაგრებულია შავი, გაუმჭვირვალე მინის თვალი, რომელზედაც გამოსახული მამაკაცი პროფილში (სპეციალისტთა აზრით, რეალისტურად 
+                                      ოქროს ბეჭედზე დამაგრებულია შავი, გაუმჭვირვალე მინის თვალი, რომელზედაც გამოსახული მამაკაცი პროფილში (სპეციალისტთა აზრით, რეალისტურად
                                       შესრულებული პორტრეტი). კეფისა და მარჯვენა მხრის უკან ბერძნული წარწერაა ორ სტრიქონად.
                                       <dimensions unit="mm">
                                         <width>15</width>
@@ -48,7 +48,7 @@
                                         <depth></depth></dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
                                 წარწერა ამოჭრილია ზედაპირულად და ძალიან მცირე ზომის ასოებით. კიდეზე ასოების ნაწილი გადაცვეთილია (შესაძლოა გემის ბუდეში ჩასმის დროს თვალი გადახეხეს?)
@@ -62,20 +62,20 @@
                     <history>
                             <origin>
                                 <origPlace>ზღუდერი</origPlace>
-                                <origDate notBefore-custom="0201" notAfter-custom="0300" precision="medium" 
+                                <origDate notBefore-custom="0201" notAfter-custom="0300" precision="medium"
                                     evidence="lettering" datingMethod="#julian">III AD</origDate>
                               </origin>
                             <provenance>
-                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863925">ზღუდერი</placeName> 
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863925">ზღუდერი</placeName>
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                         
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">საქართველოს მუზეუმი</placeName>
                             <idno>№ 1189</idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -83,7 +83,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-    </teiHeader>    
+    </teiHeader>
     <facsimile>
         <surface>
             <graphic url="ecg273.jpg">
@@ -91,45 +91,43 @@
                 <desc xml:lang="en">Gold ring from Zghuderi</desc>
             </graphic>
         </surface>
-    </facsimile>    
+    </facsimile>
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 263</citedRange></bibl></p>
-                    <p><bibl n="2">ქ. ჯავახიშვილი, გ. ნემსაძე, ზღუდერის სამაროვნის გლიპტიკური ძეგლები<ptr target="bibliography.xml#b154"/>, <citedRange> 129-154</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 263</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b154"/> ქ. ჯავახიშვილი, გ. ნემსაძე, ზღუდერის სამაროვნის გლიპტიკური ძეგლები, <citedRange> 129-154</citedRange></bibl></p>
+
             </div>
 
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!--  Γεμ[ίν]ου Γεμ[νί]ου  -->
-                     
+
          <ab>
              <lb n="1"/><persName><name nymRef="Γέμινος">Γεμ<supplied reason="subaudible">ίν</supplied>
              <lb n="2" break="no"/>ου</name></persName>
-         </ab>    
+         </ab>
 
             </div>
-                
+
             <div type="translation" xml:lang="ka">
                 <p>გემინოსისა</p>
             </div>
-            
+
            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
               <head>კრიტიკული აპარატი</head>
               <p><app loc="1"><lem>Γεμίνος</lem>
               <rdg resp="თ. ყაუხჩიშვილი">Γεμνίος</rdg>
               </app></p>
             </div>
-           
+
             <div type="commentary">
                 <p>სპეციალისტებს გემაზე მოთავსებული წარწერა ქვისმჭრელის სახელად მიაჩნიათ, ხოლო თვით ნივთი რომაული გლიპტიკის ხელოვნების ნიმუშად.</p>
                 <p>წარწერა პალეოგრაფიულად (Υ, Ε) I საუკუნეებით თარიღდება. გლიპტიკური ანაზილის საფუძველზე ის III ს-ით არის დათარიღებული.</p>
              </div>
-            
+
         </body>
     </text>
 </TEI>
-
-

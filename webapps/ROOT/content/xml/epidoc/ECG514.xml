@@ -93,16 +93,16 @@
     <text>
         <body>
            <div type="bibliography">
-               
-                <p><bibl n="1">თამაზ გოგოლაძე,თორის ხეობის ეპიგრაფიკული კორპუსი<ptr target="bibliography.xml#b234"/>,<citedRange>65-66</citedRange>2019</bibl></p>
-                <p><bibl n="2"> გიორგი გაგოშიძე                                 <ptr target="bibliography.xml#b130"/>,<citedRange> 134</citedRange>1987 </bibl></p>
-            
+
+                <p><bibl n="1"><ptr target="#b234"/> თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი,<citedRange>65-66</citedRange>2019</bibl></p>
+                <p><bibl n="2"><ptr target="#b130"/> გიორგი გაგოშიძე                                 ,<citedRange> 134</citedRange>1987 </bibl></p>
+
            </div>
-            <div type="edition"  xml:space="preserve" xml:lang="ka" ana="mtavruli">     
+            <div type="edition"  xml:space="preserve" xml:lang="ka" ana="mtavruli">
               <!--ა,ბ,გ,დ,ე,ვ,| კ,ლ,მ[...]-->
                 <ab>
                     <lb n="1"/>აბგდევ
-                    <lb n="2"/>კლმ 
+                    <lb n="2"/>კლმ
 
                 </ab>
             </div>

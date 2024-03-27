@@ -117,8 +117,8 @@
             
             <div type="bibliography">
                 
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>117-118</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                <p><bibl n="2">დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>108</citedRange> თბილისი, 2014<ptr target="bibliography.xml#b213"/></bibl></p>
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>117-118</citedRange>, თბილისი, 2018</bibl></p>
+                <p><bibl n="2"><ptr target="#b213"/> დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>108</citedRange> თბილისი, 2014</bibl></p>
             </div>
 
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">

@@ -75,23 +75,23 @@
                             </origPlace>
                            <origDate notBefore="0400" notAfter="0600">V-VI AD</origDate>
                         </origin>
-                        
+
                         <provenance type="found" when="1937">
                             <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">
                                 <seg xml:lang="ka">ბოლნისის სიონი</seg>
                                 <seg xml:lang="en">Bolnisi Sioni</seg>
                             </placeName>
-                            <!-- 41.389081, 44.512551 --> 
+                            <!-- 41.389081, 44.512551 -->
                             <rs type="monuList"/>
                             <rs type="circumstances">
-                                <seg xml:lang="ka">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში, 
-                                9 კმ. მანძილზე ქ. ბოლნისიდან სამხრეთით, 1 კმ. მანძილზე სოფ. ბონის-ხაჩინიდან. 
+                                <seg xml:lang="ka">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში,
+                                9 კმ. მანძილზე ქ. ბოლნისიდან სამხრეთით, 1 კმ. მანძილზე სოფ. ბონის-ხაჩინიდან.
                                 წარწერა ბოლნისის სიონის ტერიტორიაზე 1937 წელს აღმოაჩინა კულტურულ ძეგლთა
                             დაცვის კომიტეტის მიერ მოწყობილმა არქეოლოგიურმა ექსპედიციამ, რომელსაც ლევან მუსხელიშვილი ხელმძღვანელობდა.</seg>
                                 <seg xml:lang="en">Bolnisi Sioni Cathedral is located in Kvemo Kartli, 9 km away from city Bolnisi to the south, 1 km distance from the village Bonis-Khachini. The inscription was discovered during the archaeological expedition held by the Cultural Heritage Preservation Committee supervised by Levan Muskhelishvili in 1937.</seg>
                             </rs>
                             <rs type="context"/>
-                        </provenance>                     
+                        </provenance>
                         <provenance type="observed">
                             <placeName type="modernSpot" ref="http://museum.ge/">
                                 <seg xml:lang="ka">საქართველოს ეროვნული მუზეუმი</seg>
@@ -123,10 +123,10 @@
     <text>
         <body>
            <div type="bibliography">
-                
-                    <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები<ptr target="bibliography.xml#b101"/>, <citedRange> 77-78</citedRange></bibl></p>
-                    <p><bibl n="3">საქართველოს სახელმწიფო მუზეუმის ქართული ეპიგრაფიკული ძეგლების კატალოგი<ptr target="bibliography.xml#b111"/>, <citedRange> 43-44</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები, <citedRange> 77-78</citedRange></bibl></p>
+                    <p><bibl n="3"><ptr target="#b111"/> საქართველოს სახელმწიფო მუზეუმის ქართული ეპიგრაფიკული ძეგლების კატალოგი, <citedRange> 43-44</citedRange></bibl></p>
+
             </div>
 
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">

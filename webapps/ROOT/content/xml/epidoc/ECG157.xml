@@ -30,9 +30,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259"></objectType> <!-- დასაზუსტებელია ობიექტის ტიპი -->
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75"></material>  <!-- დასაზუსტებელია მასალა, სავარაუდოდ, იგივე რაც ფასადის ქართულ წარწერებში -->                                 
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75"></material>  <!-- დასაზუსტებელია მასალა, სავარაუდოდ, იგივე რაც ფასადის ქართულ წარწერებში -->
                                       <dimensions unit="cm">
                                         <width/>
                                         <height/>
@@ -43,24 +43,24 @@
                                     <layout>
                                       <dimensions unit="cm">
                                          <width/>
-                                         <height/> 
-                                      </dimensions>  
-                                    </layout>                                   
+                                         <height/>
+                                      </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
-                                    გუმბათის ყელის აღმოსავლეთის ფასადის ცენტრალურ წახნაგზე, სარკმლის თავზე, 
-                                    მოთავსებული  რელიეფის (წმინდანის წინაშე მუხლმოყრილი საერო პირი) მარცხენა კიდეზე, 
-                                    ზემოდან ქვემოთ, ხუთ სტრიქონში (S=27X40), სომხური ასომთავრული წარწერა 
-                                    (მრგლოვანი ასომთავრული მიდრეკილი კუთხოვანი ასომთავრულისკენ) 
+                                    გუმბათის ყელის აღმოსავლეთის ფასადის ცენტრალურ წახნაგზე, სარკმლის თავზე,
+                                    მოთავსებული  რელიეფის (წმინდანის წინაშე მუხლმოყრილი საერო პირი) მარცხენა კიდეზე,
+                                    ზემოდან ქვემოთ, ხუთ სტრიქონში (S=27X40), სომხური ასომთავრული წარწერა
+                                    (მრგლოვანი ასომთავრული მიდრეკილი კუთხოვანი ასომთავრულისკენ)
                                     (აგრეთვე რესტავრაციის პერიოდისა Xს-ის 80-იანი წლები)
 
                                    <height unit="cm"> <!-- ხომ არ აჯობებს დაიმენშენი ჩავსვა და ზომა დაიმენშენს მივანიჭო? -->
                                    </height>
                                     <width/>
                                     <depth/>
-                                    
+
                             </handNote>
                         </handDesc>
                         <decoDesc>
@@ -78,17 +78,17 @@
                                 <placeName type ="ancientFindspot" ref="http://pleiades.stoa.org/places/863799">
                                     ატენის სიონი
                                 </placeName> <!-- ბმულები ყველგან გასასწორებელი -->
-                                <rs type="circumstances"/> 
+                                <rs type="circumstances"/>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                                
+                            </provenance>
                             <provenance type="observed" when="2016">
                                 <placeName type="modernSpot">
                                     ატენის სიონი
                                 </placeName>
                                 <idno type="invNo"/>
-                            </provenance> 
-                    </history>                   
+                            </provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -98,22 +98,25 @@
 </encodingDesc>
     </teiHeader>
     <text>
-        <body>           
+        <body>
               <div type="bibliography">
-                   
-                    <p><bibl n="1"></bibl></p>
-                 
+
+                <p><bibl n="1">
+                    <ptr target="#b185"/> ზაზა ალექსიძე, ატენის სიონის სომხური წარწერები
+
+                </bibl></p>
+
               </div>
-            
+
             <div type="edition" xml:lang="hy" xml:space="preserve">
-                
+
                         <!--     1.ԳՐԻ
                                  2. ԳՈՐ
                                  3. Դ
                                  4. ԱՊ
                                  5. Ս
-  --> 
-                                                            
+  -->
+
 
                 <ab>
                    <lb n="1"/><name type="local" key="გრიგორი (Գրիգոր)">Գրի
@@ -125,17 +128,17 @@
                </div>
          <div type="translation" xml:lang="ka">
              <p>გრიგორ დაპსი</p>
-         </div>    
+         </div>
           <div type="translation" xml:lang="hy">
              <p>Գրիգոր Դապս</p>
-         </div> 
-                               
+         </div>
+
             <div type="apparatus" xml:space="preserve"/>
-            
-            
-                
-            <div type="commentary"/>           
-            
+
+
+
+            <div type="commentary"/>
+
 
         </body>
     </text>

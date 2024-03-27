@@ -5,8 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="ka">წარწერის ფრაგმენტი შალვა ერისთავთ-ერისთავისა, მეჭურჭლეთუხუცესისა, მანდატურთუხუცესისა</title>
-                <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
+                <title>წარწერის ფრაგმენტი შალვა ერისთავთ-ერისთავისა, მეჭურჭლეთუხუცესისა, მანდატურთუხუცესისა</title>
             </titleStmt>
             <publicationStmt>
                  <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
@@ -85,7 +84,7 @@
     <!-- წარწერის ფოტოდოკუმენტაცია -->
     <facsimile>
         <surface>
-            <graphic url="ecg529.jpg">
+            <graphic url="ecg497.jpg">
                 <desc xml:lang="ka">წარწერის ფრაგმენტი</desc>
             </graphic>
         </surface>
@@ -93,13 +92,13 @@
     <text>
         <body>
            <div type="bibliography">
-               
-                <p><bibl n="1">თამაზ გოგოლაძე,თორის ხეობის ეპიგრაფიკული კორპუსი <ptr target="bibliography.xml#b234"/>,<citedRange>91-92</citedRange>1987</bibl></p>
-                <p><bibl n="2">დევი ბერძენიშვილი, არქიტექტურულ-ისტორიული გზამკვლევი "გუჯარეთი" <ptr target="bibliography.xml#b235"/>,<citedRange>46</citedRange>1987</bibl></p>
 
-		   
+                <p><bibl n="1"><ptr target="#b234"/> თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი, <citedRange>91-92</citedRange>1987</bibl></p>
+                <p><bibl n="2"><ptr target="#b235"/> დევი ბერძენიშვილი, არქიტექტურულ-ისტორიული გზამკვლევი "გუჯარეთი", <citedRange>46</citedRange>1987</bibl></p>
+
+
            </div>
-            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">     
+            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
                         <!--"[...] - შ{ა}ლვა[...]"-->
                 <ab>
                     <lb n="1"/>

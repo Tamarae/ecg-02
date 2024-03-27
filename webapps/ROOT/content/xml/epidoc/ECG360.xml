@@ -5,13 +5,12 @@
         <fileDesc>
 
             <titleStmt>
-                <title xml:lang="ka">უკანგორი, მოსახსენებელი თათვარაზისა</title>
-                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <title>უკანგორი, მოსახსენებელი თათვარაზისა</title>
             </titleStmt>
 
             <publicationStmt>
-                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
-                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი
+                </authority>
                  <idno type="filename">ECG360</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
@@ -96,7 +95,21 @@
 
     <text>
         <body>
+        <div type="bibliography">
 
+
+                 <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი,
+                        ტ. I აღმოსავლედ და სამხრეთ საქართველო (V-X სს.)
+                        <citedRange>89-90</citedRange>
+                    </bibl></p>
+
+                 <p><bibl n="2">კორნელი დანელია, ზურაბ სარჯველაძე, ქართული პალეოგრაფია 1997 <citedRange>25-26</citedRange></bibl></p>
+                 <p><bibl n="3">ლ. მუსხელიშვილი, არქეოლოგიური ექსკურსიები მაშავრის ხეობაში, თბილისი, 1941, <citedRange>8-23</citedRange> </bibl></p>
+                 <p><bibl n="4">ლ. მუსხელიშვილი, უკანგორის ისტორიული ნაშთები, ენიმკის მოამბე, ტ. X, 1941, <citedRange>159-182</citedRange></bibl></p>
+                 <p><bibl n="5">ქართული საბჭოთა ენციკლოპედია, უკანგორი, თბილისი, 1986,  <citedRange>119</citedRange></bibl></p>
+                 <p><bibl n="6">ვ. შუბითიძე ქართული ციხესიმაგრეები და ეკლესია მონასტრები, თბილისი, 2012, <citedRange>68</citedRange> </bibl></p>
+
+            </div>
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
 
 
@@ -108,8 +121,8 @@
                         [ვას]ა [მომი]ჴსე[ნ]ე[თ].
  -->
                 <ab>
-                     <lb n="1"/><persName type="local" key="პეტრჱ ხუცესი">პეტრჱს</persName> <roleName nymRef="ხუცესობა"><w lemma="ხუცესობა"><expan><abbr>ხუც</abbr><ex>ე</ex><abbr>სობას</abbr></expan><supplied reason="lost">ა</supplied></w></roleName>
-                     <lb n="2"/><w lemma="მე">მე</w> <persName type="local" key="თათვარაზ">თათვარაზ</persName> <w lemma="აღხუმართა" type="khanmeti">აღხუ
+                     <lb n="1"/><persName>პეტრჱს</persName> <roleName><w lemma="ხუცესობა"><expan><abbr>ხუც</abbr><ex>ე</ex><abbr>სობას</abbr></expan><supplied reason="lost">ა</supplied></w></roleName>
+                     <lb n="2"/><w lemma="მე">მე</w> <persName>თათვარაზ</persName> <w lemma="აღხუმართა" type="khanmeti">აღხუ
                      <lb n="3" break="no"/>მ<supplied reason="lost">ა</supplied>რთე</w> <w lemma="ესე">ესე</w> <w lemma="ჯუარი">ჯუარი</w> <w lemma="სახელი">სახე
                      <lb n="4" break="no"/><supplied reason="lost">ლით</supplied>ა</w> <w lemma="ღმერთი"><expan><abbr>ღ</abbr><ex>მრთისა</ex><abbr>ჲ</abbr><ex>თა</ex></expan></w> <w lemma="შეწევნა">შეწევნითა</w> <w lemma="იესუ"><expan><abbr>ი</abbr><ex>ესუ</ex></expan></w> <w lemma="ქრისტჱ"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ჱსი</abbr></expan>
                      <lb n="5" break="no"/><supplied reason="lost">თა</supplied></w> <w lemma="რომელი"><expan><abbr>რ</abbr><ex>ომელმა</ex><abbr>ნ</abbr></expan></w> <w lemma="თაყვანი">თ<supplied reason="lost">ა</supplied>ჳყანი</w> <w lemma="სცხო">სხ<supplied reason="lost">ც</supplied>ე<supplied reason="lost">თ</supplied></w> <w lemma="ლოცვა">ლო<supplied reason="lost">ც</supplied>
@@ -132,17 +145,7 @@
                 <p n="3">წარმოდგენილი დათარიღების საფუძველი: 1) პალეოგრაფიული ნიშნები: ა) ბ რკალშეკრულია; ბ) ყ შ - რკალგახსნილია; გ) რელიეფურობა, დუქტუსი; 2) ტექსტის ხანმეტობა.</p>
             </div>
 
-            <div type="bibliography">
-
-
-                 <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი<ptr target="bibliography.xml#b101"/>, <citedRange>88-89</citedRange></bibl></p>
-
-                 <p><bibl n="2">ზ. სარჯველაძე, კ. დანელია, ქართული პალეოგრაფია<ptr target="bibliography.xml#b92"/>, <citedRange>25-26</citedRange></bibl></p>
-                 <p><bibl n="3">ლ. მუსხელიშვილი, არქეოლოგიური ექსკურსიები მაშავრის ხეობაში<ptr target="bibliography.xml#b135"/>, <citedRange>8-23</citedRange></bibl></p>
-                 <p><bibl n="4">ლ. მუსხელიშვილი, უკანგორის ისტორიული ნაშთები<ptr target="bibliography.xml#b183"/>, <citedRange>159-182</citedRange></bibl></p>
-                 <p><bibl n="5">ვ. შუბითიძე, ქართული ციხესიმაგრეები და ეკლესია მონასტრები<ptr target="bibliography.xml#b92"/>, <citedRange>68</citedRange></bibl></p>
-
-            </div>
+           
         </body>
     </text>
 </TEI>

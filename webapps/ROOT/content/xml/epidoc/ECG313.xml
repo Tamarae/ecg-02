@@ -25,17 +25,17 @@
                         <collection>
                            სამთავრო
                         </collection>
-                    </msIdentifier>                    
+                    </msIdentifier>
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მემორიალური</seg>
                             <seg xml:lang="en"/>
                         </summary>
-                    </msContents>  
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="https://www.eagle-network.eu/voc/material/lod/111">რკინა</material>
                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/168">ბეჭედი</objectType></support></supportDesc>
                                 <layoutDesc>
@@ -47,7 +47,7 @@
                                         <depth></depth></dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
                                 <height unit="cm" precision="medium"></height>
@@ -63,20 +63,20 @@
                     <history>
                             <origin>
                                 <origPlace>სამთავრო</origPlace>
-                                <origDate notBefore-custom="0001" notAfter-custom="0200" precision="medium" 
+                                <origDate notBefore-custom="0001" notAfter-custom="0200" precision="medium"
                                     evidence="lettering" datingMethod="#julian">I-II AD</origDate>
                               </origin>
                             <provenance type="found" when="1940">
-                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863882">სამთავრო</placeName> 
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863882">სამთავრო</placeName>
                                 <rs type="circumstances">ნივთი აღმოჩენილია არმაზში, ქალის სამარხში.</rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                         
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">საქართველოს მუზეუმი</placeName>
                             <idno>№ 300</idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -96,50 +96,43 @@
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 261</citedRange></bibl></p>
-                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 250-260</citedRange></bibl></p>
-                    <p><bibl n="3">H. S. Nyberg, Quelques inscriptions antiques découvertes rècemment en Georgie<ptr target="bibliography.xml#b173"/>, <citedRange>231</citedRange></bibl></p>
-                    <p><bibl n="4">М. И. Максимова, Стеклянные многогранные печати найденные на территории Грузии<ptr target="bibliography.xml#b174"/>, <citedRange> 84-85</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 261</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b80"/> თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში, <citedRange> 250-260</citedRange></bibl></p>
+                    <p><bibl n="3"><ptr target="#b173"/> H. S. Nyberg, Quelques inscriptions antiques découvertes rècemment en Georgie, <citedRange>231</citedRange></bibl></p>
+                    <p><bibl n="4"><ptr target="#b174"/> М. И. Максимова, Стеклянные многогранные печати найденные на территории Грузии, <citedRange> 84-85</citedRange></bibl></p>
+
             </div>
-         
+
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!--  Κουάκ  -->
 
          <ab>
              <persName><name nymRef="Κουάκ">Κουάκ</name></persName>
-         </ab>    
-             
-         
+         </ab>
+
+
             </div>
-                
+
             <div type="translation" xml:lang="ka">
                 <p>კოვაკ (ან კუაკ)</p>
             </div>
-            
+
            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
               <head>კრიტიკული აპარატი</head>
               <p><app><lem></lem>
               <rdg></rdg>
               </app></p>
             </div>
-           
+
             <div type="commentary">
-                <p>წარწერაში მოხსენიებული უნდა იყოს ქალის სახელი (ნივთი ქალის სამარხშია მოპოვებული), ნივთი მისი საბეჭდავი იყო. კოვაკი ირანული(?) წარმოშობის სახელი უნდა იყოს. 
+                <p>წარწერაში მოხსენიებული უნდა იყოს ქალის სახელი (ნივთი ქალის სამარხშია მოპოვებული), ნივთი მისი საბეჭდავი იყო. კოვაკი ირანული(?) წარმოშობის სახელი უნდა იყოს.
                 გემა მიჩნეულია ქართულ ნახელავად.</p>
-                <p>დამწერლობის თვალსაზრისით წარწერა მაინცდამაინც რელიეფური არ არის. ზოგი ასოს მოხაზულობის (Α, Υ) და ენობრივი  მონაცემების (υ გადმოსცემს "ვ" ბგერას? ან 
+                <p>დამწერლობის თვალსაზრისით წარწერა მაინცდამაინც რელიეფური არ არის. ზოგი ასოს მოხაზულობის (Α, Υ) და ენობრივი  მონაცემების (υ გადმოსცემს "ვ" ბგერას? ან
                     მთლიანად ου-კომპლექსი "ვ"-სთვის არის?) საფუძველზე იგი I საუკუნეებით თარიღდება. ნივთი მხატვრული ანალიზის საფუძველზე II ს-ით არის დათარიღებული.</p>
             </div>
-            
+
         </body>
     </text>
 </TEI>
-
-
-
-
-
-
-

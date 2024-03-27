@@ -23,17 +23,17 @@
                         <collection>
                            ითხვისი
                         </collection>
-                    </msIdentifier>                    
+                    </msIdentifier>
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მემორიალური</seg>
                             <seg xml:lang="en"/>
                         </summary>
-                    </msContents> 
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material></material>
                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/305">ჯამი</objectType>
                                 </support>
@@ -46,7 +46,7 @@
                                         <depth></depth></dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
                                 <height/>
@@ -59,20 +59,20 @@
                     <history>
                             <origin>
                                 <origPlace>ითხვისი</origPlace>
-                                <origDate notBefore-custom="-0500" notAfter-custom="-0401" precision="medium" 
+                                <origDate notBefore-custom="-0500" notAfter-custom="-0401" precision="medium"
                                     evidence="lettering" datingMethod="#julian">V BC</origDate>
                               </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot">ითხვისი</placeName> 
+                                <placeName type ="ancientFindspot">ითხვისი</placeName>
                                 <rs type="circumstances">ჯამი აღმოჩენილია ძვ.წ. V საუკუნის იზოლირებულ სამარხში.</rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                        
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot"></placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -80,7 +80,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-    </teiHeader>   
+    </teiHeader>
   <facsimile>
         <surface>
             <graphic url="ecg299.jpg">
@@ -88,53 +88,47 @@
                 <desc xml:lang="en">Vessel from Itkhvisi</desc>
             </graphic>
         </surface>
-    </facsimile>  
+    </facsimile>
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">დევიდ ბრაუნდი, საქართველო ანტიკურ ხანაში: კოლხეთისა და ამიერკავკასიის იბერიის ისტორია ძვ.წ. 550-ახ.წ. 562 წლები<ptr target="bibliography.xml#b68"/>, <citedRange> 148</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b68"/> დევიდ ბრაუნდი, საქართველო ანტიკურ ხანაში: კოლხეთისა და ამიერკავკასიის იბერიის ისტორია ძვ.წ. 550-ახ.წ. 562 წლები, <citedRange> 148</citedRange></bibl></p>
+
             </div>
-        
+
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!-- ΜΗΤΟΣ -->
-                     
+
 
          <ab>
              <persName><name nymRef="Μητος">Μητος</name></persName>
-         </ab>    
-             
-         
+         </ab>
+
+
             </div>
-                
+
             <div type="translation" xml:lang="ka">
                 <p>მეტოსი</p>
             </div>
-            
+
            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
               <head>კრიტიკული აპარატი</head>
               <p><app><lem></lem>
               <rdg></rdg>
               </app></p>
             </div>
-           
+
             <div type="commentary">
-                <p>ჯამზე სახელი ამოკაწრულია ბერძნულად, ტიპური ბერძნული დაბოლოებით, მაგრამ თვითონ სახელი ბერძნული არ ჩანს. ეს ბერძნული ასოებით შესრულებული და ბერძნული 
-                ფორმით გადმოცემული ადგილობრივი კოლხური სახელი უნდა იყოს. იმავე სამარხში აღმოჩნდა კოლხური წარმოების დოქი ყურზე ბერძნულად ამოკაწრული სახელ მეტოსის 
-                თანხმოვნებით (მონოგრამაში ხმოვნების გამოტოვება შეიძლება რეგიონში არამეულის გავლენის შედეგი იყოს). თუ მხედველობაში მივიღებთ ამ მეორე ნიშანდადებულ ჭურჭელს, 
-                სავსებით მიზანშეწონილია იმაზე ფიქრი, რომ მეტოსი სამარხში დაკრძალული მიცვალებულის სახელი იყო. შავლაკიანი ჯამი, ისევე, როგორც ამავე სამარხში ჩატანებული 
-                დახლოებით ძვ.წ. 470 წელს დამზადებული შავფიგურული სტილის კილიკი, მისი შეძლებულობის დამადასტურებელია. დანარჩენ ინვენტარს შორის იყო ვერცხლის ომფალოსიანი 
+                <p>ჯამზე სახელი ამოკაწრულია ბერძნულად, ტიპური ბერძნული დაბოლოებით, მაგრამ თვითონ სახელი ბერძნული არ ჩანს. ეს ბერძნული ასოებით შესრულებული და ბერძნული
+                ფორმით გადმოცემული ადგილობრივი კოლხური სახელი უნდა იყოს. იმავე სამარხში აღმოჩნდა კოლხური წარმოების დოქი ყურზე ბერძნულად ამოკაწრული სახელ მეტოსის
+                თანხმოვნებით (მონოგრამაში ხმოვნების გამოტოვება შეიძლება რეგიონში არამეულის გავლენის შედეგი იყოს). თუ მხედველობაში მივიღებთ ამ მეორე ნიშანდადებულ ჭურჭელს,
+                სავსებით მიზანშეწონილია იმაზე ფიქრი, რომ მეტოსი სამარხში დაკრძალული მიცვალებულის სახელი იყო. შავლაკიანი ჯამი, ისევე, როგორც ამავე სამარხში ჩატანებული
+                დახლოებით ძვ.წ. 470 წელს დამზადებული შავფიგურული სტილის კილიკი, მისი შეძლებულობის დამადასტურებელია. დანარჩენ ინვენტარს შორის იყო ვერცხლის ომფალოსიანი
                 თასი და კიდევ უფრო მნიშვნელოვანი - ვერცხლის დიადემა.</p>
-                
+
             </div>
          </body>
     </text>
 </TEI>
-
-
-
-
-
-

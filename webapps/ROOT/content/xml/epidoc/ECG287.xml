@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="https://www.eagle-network.eu/voc/material/lod/131">თიხა</material>
                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/17">ამფორა</objectType></support></supportDesc>
                                 <layoutDesc>
@@ -45,9 +45,9 @@
                                         <depth></depth></dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
-                            <handNote>                                
+                            <handNote>
                                 <height unit="cm" precision="medium">0,6-0,8</height>
                                 <width unit="cm" precision="medium">0,4-0,7</width>
                                   </handNote>
@@ -62,16 +62,16 @@
                                 <origDate notBefore-custom="0101" notAfter-custom="0300" precision="medium" datingMethod="#julian">II-III AD</origDate>
                               </origin>
                             <provenance type="found" when="1958">
-                                <placeName type ="ancientFindspot" ref="hhttps://pleiades.stoa.org/places/857107">სოხუმი</placeName> 
+                                <placeName type ="ancientFindspot" ref="hhttps://pleiades.stoa.org/places/857107">სოხუმი</placeName>
                                 <rs type="circumstances">ნივთი მოპოვებულია სოხუმის ციხესთან</rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                         
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">სოხუმის მუზეუმი</placeName>
                             <idno>N 67-28</idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -79,7 +79,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-    </teiHeader>    
+    </teiHeader>
     <facsimile>
         <surface>
             <graphic url="ecg287.jpg">
@@ -87,47 +87,42 @@
                 <desc xml:lang="en">Sukhumi amphora, 1958</desc>
             </graphic>
         </surface>
-    </facsimile>    
+    </facsimile>
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 78</citedRange></bibl></p>
-                    <p><bibl n="2">Л. А. Шервашидзе, Л. Н. Соловьев, Исследование древнего Севастополиса<ptr target="bibliography.xml#b163"/>, <citedRange> 171-179</citedRange></bibl></p>              
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 78</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b163"/> Л. А. Шервашидзе, Л. Н. Соловьев, Исследование древнего Севастополиса, <citedRange> 171-179</citedRange></bibl></p>              
+
             </div>
-          
+
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!-- ΗΡΑΚΛ  -->
          <ab>
              <placeName nymRef="Ἡρακλείας">Ἡρακλ<supplied reason="subaudible">είας</supplied></placeName>
-         </ab>    
-             
-         
+         </ab>
+
+
             </div>
-                
+
             <div type="translation" xml:lang="ka">
                 <p>ჰერაკლეის</p>
             </div>
-            
+
            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
               <head>კრიტიკული აპარატი</head>
               <p><app><lem></lem>
               <rdg></rdg>
               </app></p>
             </div>
-           
+
             <div type="commentary">
-                <p>წარწერას საგანგებო დამათარიღებელი ნიშნები არა აქვს. ნატეხი არქ. მონაცემების, დიოსკურიისა და სხვა საზღვაო ქალაქების ინტენსიური ურთიერთობის საფუძველზე განეკუთვნება 
+                <p>წარწერას საგანგებო დამათარიღებელი ნიშნები არა აქვს. ნატეხი არქ. მონაცემების, დიოსკურიისა და სხვა საზღვაო ქალაქების ინტენსიური ურთიერთობის საფუძველზე განეკუთვნება
                 გვიანანტიკურ ხანას.</p>
             </div>
-        
+
          </body>
     </text>
 </TEI>
-
-
-
-
-

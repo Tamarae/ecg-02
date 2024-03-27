@@ -93,10 +93,8 @@
         <body>
            <div type="bibliography">
                
-                <p><bibl n="1">გიორგი გაგოშიძე<ptr target="bibliography.xml#b130"/>,<citedRange>ხატი მოვიდა</citedRange>2020</bibl></p>
-            
            </div>
-            <div type="edition" xml:space="preserve" xml:lang="ka" ana="nuskhuri">  
+            <div type="edition" xml:space="preserve" xml:lang="ka" ana="nuskhuri">
               <!--წ(მიდა)ო ხ(ატო ღ(მრ)თ(ა)ებისაო-->
                 <ab>
 

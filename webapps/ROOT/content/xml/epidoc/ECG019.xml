@@ -20,7 +20,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <collection>ვაშნარი</collection>                
+                        <collection>ვაშნარი</collection>
                     </msIdentifier>
                     <msContents>
                         <summary>
@@ -31,7 +31,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/66">მოთეთრო კირქვა</material>
                                     <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/66">Limestone</material>
                                    <objectType/>
@@ -40,10 +40,10 @@
                                 <layoutDesc>
                                     <layout writtenLines="9">
                                         <p xml:lang="ka">ქვის ერთი მხარე საგანგებოდაა დამუშავებული და ზედ გამოყვანილია ჩაჭრილი მთავრული წარწერა. ქვის მარჯვენა გვერდი, უკანა და ქვედა  მხარეები კარგადაა დამუშავებული,
-                                მარცხენა გვერდი  - არა. საფიქრებელია, რომ წარწერა იქნებოდა ამ ქვის მარცხნივ მდებარე ქვაზედაც და ამ ჩვენამდე მოღწეულ ქვაზე არის სტრიქონთა მარჯვენა ნაწილები.  
+                                მარცხენა გვერდი  - არა. საფიქრებელია, რომ წარწერა იქნებოდა ამ ქვის მარცხნივ მდებარე ქვაზედაც და ამ ჩვენამდე მოღწეულ ქვაზე არის სტრიქონთა მარჯვენა ნაწილები.
                                 I-IV სტრიქონებს ქვის დაზიანებულობის გამო აკლიათ ბოლო ასოები. III-IV  სტრიქონებს შუაში აკლიათ დაახლ. 4-5 ასო.
                                 V სტრიქონიდან ქვემოთ ქვაზე დაახლ. 10-10 ასოა განადგურებული.</p>
-                                <p xml:lang="en">One side of the stone is smoothly carved and it has Engraved Asomtavruli inscription. The right side of the stone, back side and bottom side are smoothly carved unlike the left side. We suppose that there could have been an inscription on the left side too and what has survived 
+                                <p xml:lang="en">One side of the stone is smoothly carved and it has Engraved Asomtavruli inscription. The right side of the stone, back side and bottom side are smoothly carved unlike the left side. We suppose that there could have been an inscription on the left side too and what has survived
                                     are the right parts of the lines. 1st-4th lines are missing the last letters. 3rd-4th lines are also missing the middle letters, approx 4-5. 5th line on the bottom of the stone approx 10-10 letters are lost.</p>
                                       <dimensions unit="cm">
                                         <width>22</width>
@@ -52,10 +52,10 @@
                                         </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
-                                
+
                                    <height unit="cm" precision="medium"> 1,5 - 2</height>
                                 <width unit="cm" precision="medium"> 0,9 - 1,3</width>
                                   </handNote>
@@ -67,11 +67,11 @@
                                     <seg xml:lang="ka">ვაშნარი</seg>
                                     <seg xml:lang="en">Vashnari</seg>
                                 </origPlace>
-                                <origDate notBefore-custom="0501" notAfter-custom="0700" precision="medium" 
+                                <origDate notBefore-custom="0501" notAfter-custom="0700" precision="medium"
                                     evidence="lettering" datingMethod="#julian">
-                                    <seg xml:lang="ka">წარწერა პალეოგრაფიული ნიშნებით (ცალკეული ასოთა მოხაზულობა (α, ε, σ, ζ, φ), ასოთა კუთხეები - ჩაღრმავებული), ენის                                                 
+                                    <seg xml:lang="ka">წარწერა პალეოგრაფიული ნიშნებით (ცალკეული ასოთა მოხაზულობა (α, ε, σ, ζ, φ), ასოთა კუთხეები - ჩაღრმავებული), ენის
                                     ნორმებით (დაცულია αι-დიფთონგი, არაა დაცული ει-დიფთონგი) VI-VII სს-ით უნდა დათარიღდეს.</seg>
-                                    <seg xml:lang="en">According to paleographic data (the shape of particular letters (α, ε, σ, ζ, φ), the angles of the letter - deeply carved), 
+                                    <seg xml:lang="en">According to paleographic data (the shape of particular letters (α, ε, σ, ζ, φ), the angles of the letter - deeply carved),
                                         language norms ( αι diphthong present, ει diphthong is not represented) the inscription can be dated to  VI-VII  centuries.</seg>
                                 </origDate>
                             </origin>
@@ -79,14 +79,14 @@
                                 <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/857368">
                                     <seg xml:lang="ka">ვაშნარი</seg>
                                     <seg xml:lang="en">Vashnari</seg>
-                                </placeName> 
+                                </placeName>
                                 <rs type="circumstances">
                                     <seg xml:lang="ka">ქვა მოპოვებულია ვაშნარის ბაზილიკური ეკლესიის გათხრების დროს.</seg>
                                     <seg xml:lang="en">The stone was found during the excavations of Vashnari basilica church.</seg>
                                 </rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                         
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot" ref="https://ka.wikipedia.org/wiki/ოზურგეთის_ისტორიული_მუზეუმი">
                                 <seg xml:lang="ka">ოზურგეთის მხარეთმცოდნეობის მუზეუმი</seg>
@@ -94,7 +94,7 @@
                             </placeName>
                             <idno>54</idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -102,7 +102,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-    </teiHeader>   
+    </teiHeader>
     <facsimile>
         <surface>
             <graphic url="ecg019.jpg">
@@ -110,31 +110,31 @@
                 <desc xml:lang="en">Stone from Vashnari, 1949</desc>
             </graphic>
         </surface>
-    </facsimile>   
+    </facsimile>
     <text>
         <body>
-            
+
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 135</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"> <ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 135</citedRange></bibl></p>
+
             </div>
- 
+
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
-                        <!-- ]ντες δαινυ[μένος]... 
-                            ἐκ παρθενικῆς... 
-                            φθιτὸ[ς]... ἅπας ε... 
-                            [ἀλάσ]τωρ (?) α...α καὶ... 
-                            [ηδέλ]φισεν... 
+
+                        <!-- ]ντες δαινυ[μένος]...
+                            ἐκ παρθενικῆς...
+                            φθιτὸ[ς]... ἅπας ε...
+                            [ἀλάσ]τωρ (?) α...α καὶ...
+                            [ηδέλ]φισεν...
                             [βα]πτίζειν ...
-                            ν σ... 
+                            ν σ...
                             ενε...
                             α
                                                                          -->
-           
+
          <ab>
-             <lb n="1"/> <unclear>ντες</unclear> <w lemma="δαινύω">δαινυ<supplied reason="lost">μένος</supplied></w> <!--  <gap reason="lost" extent="unknown" unit="character"></gap>--> 
+             <lb n="1"/> <unclear>ντες</unclear> <w lemma="δαινύω">δαινυ<supplied reason="lost">μένος</supplied></w> <!--  <gap reason="lost" extent="unknown" unit="character"></gap>-->
              <lb n="2"/> <w lemma="ἐκ">ἐκ</w> <w lemma="παρθενικός">παρθενικῆς</w> <gap reason="lost" extent="unknown" unit="character"></gap>
              <lb n="3"/> <w lemma="φθιτός">φθιτὸς</w> <gap reason="lost" extent="unknown" unit="character"></gap> <w lemma="ἅπας">ἅπας</w> ε...
              <lb n="4"/> <w lemma="ἀλάστωρ"><supplied reason="lost">ἀλάσ</supplied>τωρ</w> (?) α...α <w lemma="καί">καὶ</w> <gap reason="lost" extent="unknown" unit="character"></gap>
@@ -143,18 +143,18 @@
              <lb n="7"/> <unclear>ν σ... </unclear>
              <lb n="8"/> <unclear>ενε...</unclear>
              <lb n="9"/> <unclear>α</unclear>
-         </ab>    
-             
-         
+         </ab>
+
+
             </div>
-                
+
             <div type="translation" >
                 <p xml:lang="ka">მათ, ვისაც ერთად აქვთ პურობა.. საქალებოდან ... გარდაცვლილი და ყოველი ცოდვილი... ძმად შერაცხა (ან შეუმსუბუქა) ნათლისღება.</p>
                 <p xml:lang="en">Those who share the bread to … from the women’s chambers... all deceased and sinners...regarded them as brothers and (gave them relief) and baptized.</p>
             </div>
-            
+
            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-  
+
               <p><app loc="5"><lem>ἀδελφίζω</lem>
               <rdg resp="თინათინ ყაუხჩიშვილი"> ეს სიტყვა შესაძლოა ჩანაცვლდეს შემდეგი სიტყვით "κουφίζω"</rdg>
               </app></p>
@@ -162,10 +162,10 @@
                <rdg>წარწერაში ეს სიტყვა βαπτιζιν ფორმითაა წარმოდგენილი.</rdg>
                </app></p>
             </div>
-           
+
             <div type="commentary">
                 <p xml:lang="ka">წარწერა მოასწავებს იმას, რომ იმ ბაზილიკური ტიპის ეკლესიას, რომლის ნანგრევებშიც არის ეს ქვა მოპოვებული, ჰქონდა ნაწილები: სანათლავი და საქალებო.
-               ძეგლი არქეოლოგთა მიერ V-VIII სს-ით არის დათარიღებული, საკუთრივ ტაძრები - V-VI სს-ით, ტაძრები 
+               ძეგლი არქეოლოგთა მიერ V-VIII სს-ით არის დათარიღებული, საკუთრივ ტაძრები - V-VI სს-ით, ტაძრები
                    არქიტექტურული თვალსაზრისით VI ს-ით არის დათარიღებული.</p>
                 <p xml:lang="en">
                     The word Ἀδελφίζω  can be replaced with the word "κουφίζω" according to Tinatin Kaukhchishvili.
@@ -178,6 +178,3 @@ The inscription proved that the basilica church where this stone was found had t
         </body>
     </text>
 </TEI>
-
-
-

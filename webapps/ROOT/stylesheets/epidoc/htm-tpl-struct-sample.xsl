@@ -53,10 +53,7 @@
   <xsl:template name="sample-body-structure">
     <div id="metadata">
         <xsl:if test="//t:support//t:p//text() or //t:support/t:rs[not(@type='decoration')]//text()">
-          <p>
-            <b>
-              Description:  
-            </b>
+          <p><b>Description: </b>
             <xsl:apply-templates select="//t:support/t:p" mode="sample-dimensions"/>
             <xsl:text> </xsl:text>
             <xsl:for-each select="//t:support/t:rs[not(@type='decoration')]">
@@ -69,34 +66,22 @@
         </xsl:if>
       
         <xsl:if test="//t:support/t:material//text()">
-          <p>
-            <b>
-              <i18n:text i18n:key="epidoc-xslt-iospe-material">Material:  </i18n:text>
-           </b>
-            <xsl:apply-templates select="//t:support/t:material"/>
-          </p>
+          <p><b>
+            <i18n:text i18n:key="epidoc-xslt-iospe-material">Material: </i18n:text></b><xsl:apply-templates select="//t:support/t:material"/></p>
         </xsl:if>
       
       <xsl:if test="//t:support/t:objectType//text()">
-      <p><b>
-        <i18n:text i18n:key="epidoc-xslt-iospe-monument-type">Object type: </i18n:text>
-      </b><xsl:apply-templates select="//t:support/t:objectType"/>
-        </p>
+          <p><b>
+            <i18n:text i18n:key="epidoc-xslt-iospe-monument-type">Object type: </i18n:text></b><xsl:apply-templates select="//t:support/t:objectType"/></p>
         </xsl:if>
       
       <xsl:if test="//t:support/t:dimensions//text()">
-          <p>
-            <b>
-              <i18n:text i18n:key="epidoc-xslt-iospe-dimensions">Dimensions: </i18n:text>
-            </b>
-            <xsl:apply-templates select="//t:support/t:dimensions" mode="sample-dimensions"/></p>
+        <p><b><i18n:text i18n:key="epidoc-xslt-iospe-dimensions">Dimensions: </i18n:text></b><xsl:apply-templates select="//t:support/t:dimensions" mode="sample-dimensions"/></p>
         </xsl:if>
       
       <xsl:if test="//t:decoDesc//text() or //t:support/t:rs[@type='decoration']">
-        <p>
-          <b>
-            <i18n:text i18n:key="epidoc-xslt-iospe-deconote">Decoration: </i18n:text>
-          </b>
+        <p><b>
+          <i18n:text i18n:key="epidoc-xslt-iospe-deconote">Decoration: </i18n:text></b>
           <xsl:apply-templates select="//t:decoDesc"/>
           <xsl:text> </xsl:text>
           <xsl:apply-templates select="//t:support/t:rs[@type='decoration']"/>
@@ -104,34 +89,24 @@
       </xsl:if>
       
       <xsl:if test="//t:supportDesc//t:condition//text()">
-        <p>
-          <b>
-            <i18n:text i18n:key="epidoc-xslt-iospe-condition">Condition: </i18n:text>
-          </b>
+        <p><b><i18n:text i18n:key="epidoc-xslt-iospe-condition">Condition: </i18n:text>s</b>
           <xsl:value-of select="//t:supportDesc//t:condition"/>
         </p>
       </xsl:if>
       
       <xsl:if test="//t:layoutDesc/t:layout//text()">
-        <p>
-          <b>
-            <i18n:text i18n:key="epidoc-xslt-inslib-text">Text: </i18n:text>
-          </b>
+        <p><b><i18n:text i18n:key="epidoc-xslt-inslib-text">Text: </i18n:text></b>
           <xsl:apply-templates select="//t:layoutDesc/t:layout" mode="sample-dimensions"/>
       </p>
       </xsl:if>
       
       <xsl:if test="//t:handDesc//text()">
-        <p><b>
-          <i18n:text i18n:key="epidoc-xslt-iospe-style-lettering">Letters: </i18n:text>
-        </b>
+        <p><b><i18n:text i18n:key="epidoc-xslt-iospe-style-lettering">Letters:</i18n:text> </b>
           <xsl:apply-templates select="//t:handDesc"/>
         </p>
       </xsl:if>
       
-      <p><b>
-        <i18n:text i18n:key="epidoc-xslt-inslib-date">Date: </i18n:text>
-      </b>
+      <p><b><i18n:text i18n:key="epidoc-xslt-inslib-date">Date: </i18n:text></b>
         <xsl:choose>
           <xsl:when test="//t:origin/t:origDate//text()">
             <xsl:apply-templates select="//t:origin/t:origDate"/>
@@ -159,28 +134,20 @@
               <xsl:text>)</xsl:text>
             </xsl:if>
           </xsl:when>
-          <xsl:otherwise>
-            <i18n:text i18n:key="epidoc-xslt-iospe-unknown">Unknown</i18n:text>
-          </xsl:otherwise>
+          <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-iospe-unknown">Unknown.</i18n:text>s</xsl:otherwise>
         </xsl:choose>
       </p>
       
-      <p><b>
-        <i18n:text i18n:key="epidoc-xslt-inslib-findspot">Findspot: </i18n:text>
-      </b>
+      <p><b><i18n:text i18n:key="epidoc-xslt-inslib-findspot">Findspot:</i18n:text> </b>
         <xsl:choose>
           <xsl:when test="//t:provenance[@type='found']//text()">
             <xsl:apply-templates select="//t:provenance[@type='found']"/>
           </xsl:when>
-          <xsl:otherwise>
-            <i18n:text i18n:key="epidoc-xslt-iospe-unknown">Unknown</i18n:text>
-          </xsl:otherwise>
+          <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-iospe-unknown">Unknown</i18n:text></xsl:otherwise>
         </xsl:choose>
       </p>
       
-      <p><b>
-        <i18n:text i18n:key="epidoc-xslt-inslib-original-location">Original location: </i18n:text>
-      </b>
+      <p><b><i18n:text i18n:key="epidoc-xslt-inslib-original-location">Original location:</i18n:text> </b>
         <xsl:choose>
           <xsl:when test="//t:origin/t:origPlace//text()">
             <xsl:apply-templates select="//t:origin/t:origPlace"/>
@@ -188,15 +155,11 @@
           <xsl:when test="//t:origin/t:placeName//text()">
             <xsl:apply-templates select="//t:origin/t:placeName"/>
           </xsl:when>
-          <xsl:otherwise>
-            <i18n:text i18n:key="epidoc-xslt-iospe-unknown">Unknown</i18n:text>
-          </xsl:otherwise>
+          <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-iospe-unknown">Unknown</i18n:text></xsl:otherwise>
         </xsl:choose>
       </p>
       
-      <p><b>
-        <i18n:text i18n:key="epidoc-xslt-inslib-repository">Current repository: </i18n:text>
-      </b>
+      <p><b><i18n:text i18n:key="epidoc-xslt-inslib-repository">Current repository:</i18n:text>s </b>
         <xsl:choose>
           <xsl:when test="//t:msIdentifier//t:repository//text()">
             <xsl:for-each select="//t:msIdentifier//t:repository">
@@ -234,16 +197,12 @@
               </xsl:if>
             </xsl:for-each>
           </xsl:when>
-          <xsl:otherwise>
-            <i18n:text i18n:key="epidoc-xslt-iospe-unknown">Unknown</i18n:text>
-          </xsl:otherwise>
+          <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-inslib-repository">Unknown</i18n:text></xsl:otherwise>
         </xsl:choose>
       </p>
       
       <xsl:if test="//t:provenance[@type='observed' or @type='not-observed' or @type='transferred']//text()">
-        <p><b>
-          <i18n:text i18n:key="epidoc-xslt-inslib-last-recorded-location">Last recorded location(s): </i18n:text>
-        </b>
+        <p><b><i18n:text i18n:key="epidoc-xslt-inslib-last-recorded-location">Last recorded location(s):</i18n:text> </b>
           <xsl:for-each select="//t:provenance[@type='observed' or @type='not-observed' or @type='transferred']">
             <xsl:apply-templates select="."/>
             <xsl:if test="position()!=last()">
@@ -253,9 +212,7 @@
         </p>
       </xsl:if>
       
-     <!--  <p><b>
-        Text type: 
-      </b>
+      <p><b><i18n:text i18n:key="facet-inscription_category">Text type:</i18n:text> </b>
         <xsl:choose>
           <xsl:when test="//t:textClass//t:keywords//t:term[@type='textType']">
             <xsl:apply-templates select="//t:textClass//t:keywords//t:term[@type='textType']"/><xsl:text> </xsl:text>
@@ -272,16 +229,12 @@
           <xsl:when test="//t:msDesc//t:msItem[@class]">
             <xsl:value-of select="//t:msDesc//t:msItem/@class"/>
           </xsl:when>
-          <xsl:otherwise>
-            <i18n:text i18n:key="epidoc-xslt-iospe-unknown">Unknown</i18n:text>
-          </xsl:otherwise>
+          <xsl:otherwise>Unknown</xsl:otherwise>
         </xsl:choose>
       </p>
-       -->
+    <!-- 
       <xsl:if test="//t:msDesc/t:msContents/t:msItem/t:p//text() or //t:msContents//t:summary//text()">
-        <p><b>
-          <i18n:text i18n:key="facet-inscription_category">Summary: </i18n:text>
-        </b>
+        <p><b>Summary: </b>
           <xsl:choose>
             <xsl:when test="//t:msDesc/t:msContents/t:msItem/t:p">
               <xsl:value-of select="//t:msDesc/t:msContents/t:msItem/t:p"/>
@@ -294,19 +247,15 @@
       </xsl:if>
       
       <xsl:if test="//t:textClass//t:keywords//text()">
-        <p><b>
-          Keywords: 
-        </b>
+        <p><b>Keywords: </b>
           <xsl:apply-templates select="//t:textClass//t:keywords"/>
         </p>
-      </xsl:if>
+      </xsl:if>-->
     </div>
     
     <div id="file_metadata">
       <xsl:if test="//t:titleStmt//t:editor//text()">
-        <p><b>
-          <i18n:text i18n:key="editor">Editor(s): </i18n:text>
-        </b>
+        <p><b><i18n:text i18n:key="editor">Editor(s): </i18n:text></b>
           <xsl:for-each select="//t:editor">
             <xsl:apply-templates select="."/>
             <xsl:if test="@role">
@@ -320,9 +269,7 @@
       </xsl:if>
       
       <xsl:if test="//t:revisionDesc//t:change">
-        <p><b>
-          <i18n:text i18n:key="epidoc-xslt-iospe-changes">Changes history: </i18n:text>
-        </b>
+        <p><b><i18n:text i18n:key="epidoc-xslt-iospe-changes">Changes history:</i18n:text></b>
           <xsl:for-each select="//t:change">
             <xsl:value-of select="@when"/><xsl:text> </xsl:text>
             <xsl:value-of select="@who"/><xsl:text> </xsl:text>
@@ -335,9 +282,7 @@
       </xsl:if>
       
       <xsl:if test="//t:publicationStmt[descendant::t:*[not(self::t:idno)]//text()]">
-        <p><b>
-          <i18n:text i18n:key="epidoc-xslt-iospe-public">Publication details:  </i18n:text>
-        </b>
+        <p><b><i18n:text i18n:key="epidoc-xslt-iospe-public">Publication details:</i18n:text> </b>
           <xsl:for-each select="//t:publicationStmt/t:*[not(self::t:idno)] ">
             <xsl:apply-templates select="."/>
             <xsl:if test="position()!=last()">
@@ -350,9 +295,7 @@
     
     <div class="section-container tabs" data-section="tabs">
       <section>
-        <p class="title" data-section-title="data-section-title"><a href="#">
-          <i18n:text i18n:key="epidoc-xslt-inslib-edition">Interpretive</i18n:text>
-        </a></p>
+        <p class="title" data-section-title="data-section-title"><a href="#"><i18n:text i18n:key="epidoc-xslt-inslib-edition">Interpretive</i18n:text></a></p>
         <div class="content" id="edition" data-section-content="data-section-content">
           <!-- Edited text output -->
           <xsl:variable name="edtxt">
@@ -365,14 +308,13 @@
         </div>
       </section>
       <section>
-        <p class="title" data-section-title="data-section-title"><a href="#">
-          <i18n:text i18n:key="epidoc-xslt-inslib-diplomatic">Diplomatic</i18n:text>
-        </a></p>
+        <p class="title" data-section-title="data-section-title"><a href="#"><i18n:text i18n:key="epidoc-xslt-inslib-diplomatic">Diplomatic</i18n:text></a></p>
         <div class="content" id="diplomatic" data-section-content="data-section-content">
           <!-- Edited text output -->
           <xsl:variable name="edtxt">
             <xsl:apply-templates select="//t:div[@type='edition']">
               <xsl:with-param name="parm-edition-type" select="'diplomatic'" tunnel="yes"/>
+              <xsl:with-param name="parm-verse-lines" select="'off'" tunnel="yes"/>
             </xsl:apply-templates>
           </xsl:variable>
           <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
@@ -397,9 +339,7 @@
         <!-- Translation text output -->
         <xsl:variable name="transtxt">
           <xsl:for-each select="//t:div[@type='translation']">
-            <h3>
-              <i18n:text i18n:key="epidoc-xslt-iospe-translation">Translation</i18n:text>
-              
+            <h3><i18n:text i18n:key="epidoc-xslt-iospe-translation">Translation</i18n:text>
               <xsl:if test="@xml:lang"><xsl:text> (</xsl:text>
                 <xsl:choose>
                   <xsl:when test="@xml:lang='en'"><xsl:text>English</xsl:text></xsl:when>
@@ -409,14 +349,12 @@
                   <xsl:when test="@xml:lang='ru'"><xsl:text>Russian</xsl:text></xsl:when>
                   <xsl:when test="@xml:lang='ar'"><xsl:text>Arabic</xsl:text></xsl:when>
                   <xsl:when test="@xml:lang='es'"><xsl:text>Spanish</xsl:text></xsl:when>
-                  <xsl:when test="@xml:lang='ka'"><xsl:text>Georgian</xsl:text></xsl:when>
-                  <xsl:when test="@xml:lang='hy'"><xsl:text>Armenian</xsl:text></xsl:when>
                   <xsl:otherwise><xsl:value-of select="@xml:lang"/></xsl:otherwise>
                 </xsl:choose>
                 <xsl:text>)</xsl:text></xsl:if></h3>
             <xsl:if test="@resp"><p><xsl:text>Translation by </xsl:text><xsl:value-of select="translate(@resp, '#', '')"/></p></xsl:if>
             <xsl:if test="@source"><p><xsl:text>Translation from </xsl:text><xsl:value-of select="translate(@source, '#', '')"/></p></xsl:if>
-            <xsl:apply-templates select="descendant::t:p"/>
+            <xsl:apply-templates select="descendant::t:p|descendant::t:ab"/>
           </xsl:for-each>
         </xsl:variable>
         <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
@@ -429,8 +367,7 @@
         <!-- Commentary text output -->
         <xsl:variable name="commtxt">
           <xsl:for-each select="//t:div[@type='commentary']">
-            <h3>
-              <i18n:text i18n:key="epidoc-xslt-iospe-commentary">Commentary</i18n:text>
+            <h3><i18n:text i18n:key="epidoc-xslt-iospe-commentary">Commentary</i18n:text>
               <xsl:if test="@subtype"><xsl:text> (</xsl:text><xsl:value-of select="@subtype"/><xsl:text>)</xsl:text></xsl:if></h3>
             <xsl:apply-templates select="descendant::t:p"/>
           </xsl:for-each>
@@ -440,62 +377,39 @@
       </div>
     </xsl:if>
     
-<!--  <xsl:if test="//t:div[@type='bibliography']//text() or //t:teiHeader//t:listBibl//text()">
+    <xsl:if test="//t:div[@type='bibliography']//text() or //t:teiHeader//t:listBibl//text()">
       <div id="bibliography">
-    <xsl:for-each select="//t:div[@type='bibliography']">
-        <h3>
-          <i18n:text i18n:key="epidoc-xslt-inslib-bibliography">Bibliography: </i18n:text>
-         <xsl:if test="@subtype"><xsl:text> (</xsl:text><xsl:value-of select="@subtype"/><xsl:text>)</xsl:text></xsl:if>
-        </h3>
-      <xsl:apply-templates select="descendant::t:p"/> 
-        <xsl:apply-templates select="descendant::t:bibl"/>
+      <xsl:for-each select="//t:div[@type='bibliography']">
+        <h3><i18n:text i18n:key="epidoc-xslt-inslib-bibliography">Bibliography</i18n:text>
+          <xsl:if test="@subtype"><xsl:text> (</xsl:text><xsl:value-of select="@subtype"/><xsl:text>)</xsl:text></xsl:if></h3>
+        <xsl:apply-templates select="descendant::t:p"/>
+        <xsl:apply-templates select="descendant::t:listBibl"/>
       </xsl:for-each>
-        
-   <xsl:for-each select="//t:teiHeader//t:bibl">
-          <h3>
-            <i18n:text i18n:key="epidoc-xslt-inslib-bibliography">Bibliography: </i18n:text>
+
+        <xsl:for-each select="//t:teiHeader//t:listBibl">
+          <h3><i18n:text i18n:key="epidoc-xslt-inslib-bibliography">Bibliography</i18n:text>
             <xsl:if test="@type"><xsl:text> (</xsl:text><xsl:value-of select="@type"/><xsl:text>)</xsl:text></xsl:if></h3>
           <p><xsl:apply-templates select="descendant::t:bibl"/></p>
-        </xsl:for-each> 
+        </xsl:for-each>
       
-  <xsl:if test="//t:creation//text()">
-        <p><b>
-          Text constituted from: </b>
+      <xsl:if test="//t:creation//text()">
+        <p><b>Text constituted from: </b>
           <xsl:apply-templates select="//t:creation"/>
         </p>
       </xsl:if>
     </div>
-    </xsl:if> -->
-    
-    
-    <xsl:if test="//t:div[@type='bibliography']">
-      <div id="bibliography">
-        <xsl:for-each select="//t:div[@type='bibliography']">
-        <h3>
-          <i18n:text i18n:key="epidoc-xslt-inslib-bibliography">Bibliography: </i18n:text>
-        </h3>
-          <p><xsl:apply-templates select="descendant::t:p"/></p> 
-      <!--   <p><xsl:apply-templates select=" descendant::t:bibl"/></p>-->  
-        </xsl:for-each>
-      </div>
     </xsl:if>
-    
-    
-  
-    
     
     <xsl:if test="//t:facsimile">
       <div id="images">
-        <h3>
-          <i18n:text i18n:key="epidoc-xslt-inslib-images">Images </i18n:text>
-        </h3>
+        <h3><i18n:text i18n:key="epidoc-xslt-inslib-images">Images</i18n:text></h3>
         <xsl:choose>
           <xsl:when test="//t:facsimile//t:graphic">
             <xsl:for-each select="//t:facsimile//t:graphic">
               <span>&#160;</span>
               <xsl:choose>
                 <xsl:when test="contains(@url,'http')">
-                  <a target="_blank"><xsl:attribute name="href"><xsl:value-of select="@url"/></xsl:attribute>[Open image]</a>
+                  <a target="_blank" href="{@url}">[Open image]</a>
                 </xsl:when>
                 <xsl:otherwise>
                   <xsl:apply-templates select="." />
@@ -553,39 +467,9 @@
     </xsl:if>
   </xsl:template>
   
-  <!-- external links -->
-  <xsl:template match="t:*[starts-with(@ref, 'http')]|t:ref[starts-with(@target, 'http')]|t:ref[starts-with(@corresp, 'http')]">
-    <xsl:choose>
-      <xsl:when test="starts-with(@ref, 'http')">
-        <a>
-          <xsl:attribute name="href"><xsl:value-of select="@ref"/></xsl:attribute>
-          <xsl:apply-templates/>
-        </a>
-      </xsl:when>
-      <xsl:when test="starts-with(@target, 'http')">
-        <a>
-          <xsl:attribute name="href"><xsl:value-of select="@target"/></xsl:attribute>
-          <xsl:apply-templates/>
-        </a>
-      </xsl:when>
-      <xsl:when test="starts-with(@corresp, 'http')">
-        <a>
-          <xsl:attribute name="href"><xsl:value-of select="@corresp"/></xsl:attribute>
-          <xsl:apply-templates/>
-        </a>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:apply-templates/>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
+  <!-- uncomment the following template to activate external links in @ref -->
+    <!--<xsl:template priority="10" match="t:*[starts-with(@ref, 'http')]">
+      <a href="{@ref}" target="_blank"><xsl:apply-templates/></a>
+    </xsl:template>-->
   
-  <!-- <ptr/> in bibliographic references; to be adapted to link @target to full bibliographic reference -->
-  <xsl:template match="t:ptr[ancestor::t:bibl][@target]">
-    <xsl:value-of select="translate(@target, '#', '')"/>
-  </xsl:template>
-  
-  
-  
-
 </xsl:stylesheet>

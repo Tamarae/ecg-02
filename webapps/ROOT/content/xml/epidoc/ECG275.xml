@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="https://www.eagle-network.eu/voc/material/lod/109">ბრინჯაო</material>
                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/168">ბეჭედი</objectType>
                                 </support>
@@ -49,7 +49,7 @@
                                         </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote><p/>
                                 <height/>
@@ -62,20 +62,20 @@
                     <history>
                             <origin>
                                 <origPlace>სამთავრო</origPlace>
-                                <origDate notBefore-custom="0001" notAfter-custom="0300" precision="medium" 
+                                <origDate notBefore-custom="0001" notAfter-custom="0300" precision="medium"
                                     evidence="lettering" datingMethod="#julian">I-III AD</origDate>
                               </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863882">სამთავრო</placeName> 
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863882">სამთავრო</placeName>
                                 <rs type="circumstances">ნივთი მოპოვებულია ბაიერნისეული გათხრების დროს.</rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                        
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">საქართველოს ეროვნული მუზეუმი</placeName>
                             <idno>№ 350</idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -95,34 +95,34 @@
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 265-266</citedRange></bibl></p>
-                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 259</citedRange></bibl></p>
-                    <p><bibl n="3">A. Zakharow, Gemmen und Siegel des Museums Georgiens<ptr target="bibliography.xml#b155"/>, <citedRange>263</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 265-266</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b80"/> თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში, <citedRange> 259</citedRange></bibl></p>
+                    <p><bibl n="3"><ptr target="#b155"/> A. Zakharow, Gemmen und Siegel des Museums Georgiens, <citedRange>263</citedRange></bibl></p>
+
             </div>
 
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!--  Α  -->
          <ab>
              <g type="monogram">Α</g>
-         </ab>    
-             
-         
+         </ab>
+
+
             </div>
-                
+
             <div type="translation" xml:lang="ka">
                 <p></p>
             </div>
-            
+
            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
               <head>კრიტიკული აპარატი</head>
               <p><app><lem></lem>
               <rdg></rdg>
               </app></p>
             </div>
-           
+
             <div type="commentary">
                 <p>ლიგატურა-მონოგრამა რომელიმე პირის სახელს უნდა წარმოადგენდეს. სახელი გაშიფრული არ არის.</p>
                 <p>დათარიღება ხდება ძირითადი ასოს მოხაზულობის მიხედვით.</p>
@@ -130,5 +130,3 @@
          </body>
     </text>
 </TEI>
-
-

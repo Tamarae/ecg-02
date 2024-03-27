@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ვანის ქვაბების პოეტური წარწერა II</title> 
+                <title>ვანის ქვაბების პოეტური წარწერა II</title>
                 <editor>შერმადინ ონიანი</editor>
             </titleStmt>
             <publicationStmt>
@@ -32,9 +32,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
                                       <dimensions unit="cm">
                                         <width>30</width>
                                         <height>12</height>
@@ -43,37 +43,37 @@
                                 </support>
                             </supportDesc>
                                 <layoutDesc>
-                                    <layout writtenLines="5">წარწერა ხუთსტრიქონიანია. იგი მოთავსებულია ეკლესიის დასავლეთის ქვედა სარკმელში, მარჯვენა მხარეს 
+                                    <layout writtenLines="5">წარწერა ხუთსტრიქონიანია. იგი მოთავსებულია ეკლესიის დასავლეთის ქვედა სარკმელში, მარჯვენა მხარეს
                                         <dimensions unit="cm">
                                          <width></width>
-                                         <height></height> 
-                                          </dimensions>  
-                                    </layout>                                   
+                                         <height></height>
+                                          </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="mkhedruli">
                                 <rs type="execution">ფრესკული</rs> <rs type="script">მხედრული</rs> წარწერა
-                                   <height></height> 
+                                   <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                             <origin>
                                 <origPlace>ვანის ქვაბები, ასპინძის მუნიციპალიტეტი</origPlace>
-                                <origDate notBefore-custom="1400" notAfter-custom="1500" 
+                                <origDate notBefore-custom="1400" notAfter-custom="1500"
                                     evidence="lettering" datingMethod="#julian">XV AD</origDate>
                             </origin>
                             <provenance type="found">
                                 <placeName type ="ancientFindspot">ვანის ქვაბები, ასპინძის მუნიციპალიტეტი</placeName>
-                                <!-- "41.382444, 43.308084"--> 
+                                <!-- "41.382444, 43.308084"-->
                                 <rs type="circumstances"></rs>
                                 <rs type="context"></rs>
-                                <rs type="monuList"/></provenance>                                
+                                <rs type="monuList"/></provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot">ვანის ქვაბები, ასპინძის მუნიციპალიტეტი</placeName>
-                                <idno type="invNo"/></provenance> 
-                    </history>                   
+                                <idno type="invNo"/></provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -81,7 +81,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <!--<facsimile>
@@ -91,45 +91,45 @@
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
-    </facsimile>   --> 
+    </facsimile>   -->
     <text>
-        <body>  
+        <body>
          <div type="bibliography">
-                
-     <p><bibl n="1">შერმადინ ონიანი, ვანის ქვაბთა ორი პოეტური წარწერა<ptr target="bibliography.xml#b147"/>, <citedRange> 33-37</citedRange></bibl></p>
-            
+
+     <p><bibl n="1"><ptr target="#b147"/> შერმადინ ონიანი, ვანის ქვაბთა ორი პოეტური წარწერა, <citedRange> 33-37</citedRange></bibl></p>
+
                </div>
- 
-            
+
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!--† წავალ [შე]ვერთ[ვი] მძოვართა
                         და ჯოგთა არნებ[ი]სთ, მრ[ავალთ მბრძლთა]
                         ვაომებ ჩმის არ ნებსთ
-                        --> 
+                        -->
                 <ab>
-                   <lb n="1"/>† <w lemma="წასვლა">წავალ</w> 
-                                <w lemma="შერევა"><supplied reason="lost">შე</supplied>ვერთ<supplied reason="lost">ვი</supplied></w> 
-                   <lb n="2"/><w lemma="მძოვარ">მძოვართა</w> 
-                               და 
-                   <lb n="3"/><w lemma="ჯოგ">ჯოგთა</w> 
+                   <lb n="1"/>† <w lemma="წასვლა">წავალ</w>
+                                <w lemma="შერევა"><supplied reason="lost">შე</supplied>ვერთ<supplied reason="lost">ვი</supplied></w>
+                   <lb n="2"/><w lemma="მძოვარ">მძოვართა</w>
+                               და
+                   <lb n="3"/><w lemma="ჯოგ">ჯოგთა</w>
                                 <w lemma="არსება"><expan><abbr>არნებ</abbr><supplied reason="lost">ი</supplied><abbr>ს</abbr><ex>ა</ex><abbr>თ</abbr><ex>ა</ex></expan></w>
-                   <lb n="4"/><w lemma="მრავალ"><expan><abbr>მრ</abbr><supplied reason="lost"><abbr>ავალთ</abbr></supplied><ex>ა</ex></expan></w> 
+                   <lb n="4"/><w lemma="მრავალ"><expan><abbr>მრ</abbr><supplied reason="lost"><abbr>ავალთ</abbr></supplied><ex>ა</ex></expan></w>
                                 <w lemma="მბრძოლ"><expan><supplied reason="lost"><abbr>მბრძ</abbr><ex>ო</ex><abbr>ლთა</abbr></supplied></expan></w>
-                   <lb n="5"/><w lemma="ომი">ვაომებ</w> 
-                            <w lemma="ჩემი"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მის</abbr><ex>ა</ex></expan></w> 
-                            <w lemma="არ">არ</w> 
-                            <w lemma="ნება"><expan><abbr>ნებ</abbr><ex>ი</ex><abbr>ს</abbr><ex>ა</ex><abbr>თ</abbr><ex>ა</ex></expan></w>                    
+                   <lb n="5"/><w lemma="ომი">ვაომებ</w>
+                            <w lemma="ჩემი"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მის</abbr><ex>ა</ex></expan></w>
+                            <w lemma="არ">არ</w>
+                            <w lemma="ნება"><expan><abbr>ნებ</abbr><ex>ი</ex><abbr>ს</abbr><ex>ა</ex><abbr>თ</abbr><ex>ა</ex></expan></w>
                 </ab>
                </div>
-              
-            
+
+
          <div type="translation" xml:lang="ka">
              <p>† წავალ, შევუერთდები ბალახის მძოველ ცხოველთა და ჯიხვთა ჯოგებს. ვაომებ მრავალთა მებრძოლთა -
              ჩემი ნების არ შემსრულებელთ.</p>
-         </div>    
-                             
-                
+         </div>
+
+
             <div type="commentary">
                 <p>ვანის ქვაბთა მონასტერი მდებარეობს ჯავახეთში, ასპინძის რაიონში, მდ. მტკვრის მარჯვენა ნაპირას,
                 ვარძიასა და თმოგვს შორის, ვარძიიდან სამი კილომეტრის დაშორებით. მონასტერი გამოკვეთილია
@@ -137,14 +137,14 @@
                 გადარჩენილია ჯვრის ტიპის პატარა გუმბათიანი, თეთრად შელესილი ეკლესია. მისი კედლები მთლიანად დაფარულია
                 XV საუკუნის მეორე ნახევრის მხედრული წარწერებითა და ნახატებით. პროზაულ წარწერებთან ერთად გვხვდება ლექსებიც,
                 რომლებშიც მოყვანილია „ვეფხისტყაოსნისა“ და „როსტომიანის“ ფრაგმენტები, აგრეთვე XII-XV საუკუნეების
-                ლირიკული პოეზიის ნიმუშები, როგორც ლიტერატურული, ასევე ფოლკლორული. 
-                
-                წარწერის ავტორია გულქანი, რომლის ვინაობა უცნობია. ზოგადად კი, იგი 
-                დიდგვაროვანი, სამცხე-საათაბაგოს მკვიდრი, თავისი დროისათვის განსწავლული მანდილოსანი უნდა იყოს, მხატვარი 
+                ლირიკული პოეზიის ნიმუშები, როგორც ლიტერატურული, ასევე ფოლკლორული.
+
+                წარწერის ავტორია გულქანი, რომლის ვინაობა უცნობია. ზოგადად კი, იგი
+                დიდგვაროვანი, სამცხე-საათაბაგოს მკვიდრი, თავისი დროისათვის განსწავლული მანდილოსანი უნდა იყოს, მხატვარი
                 და კალიგრაფი. წარწერა წარმოადგენს სატრფიალო ხასიათის ორტაეპიან მაჯამას. იგი მცირე ჟანრის ლირიკული პოეზიის ნიმუშია.
                შერმადინ ონიანის აზრით, ის შექმნილი უნდა იყოს XII-XIII საუკუნეებში.
-                წარწერაში ნახსენები სიტყვა „არნი“ ნიშნავს ჯიხვს. 
-                </p>                
+                წარწერაში ნახსენები სიტყვა „არნი“ ნიშნავს ჯიხვს.
+                </p>
             </div>
         </body>
     </text>

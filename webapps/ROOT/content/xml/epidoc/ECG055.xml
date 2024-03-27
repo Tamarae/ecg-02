@@ -25,14 +25,14 @@
                     <msIdentifier>
                         <collection>ბოლნისი</collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მემორიალური</seg>
                             <seg xml:lang="en">Memorial</seg>
                         </summary>
                     </msContents>
-                    
+
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
@@ -81,11 +81,11 @@
                                 <seg xml:lang="ka">ბოლნისის სიონი</seg>
                                 <seg xml:lang="en">Bolnisi Sioni</seg>
                             </placeName>
-                            <!-- 41.389081, 44.512551 --> 
+                            <!-- 41.389081, 44.512551 -->
                             <rs type="monuList"/>
                             <rs type="circumstances">
-                                <seg xml:lang="ka">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში, 9 კმ. მანძილზე 
-                                ქ. ბოლნისიდან სამხრეთით, 1 კმ. მანძილზე სოფ. ბონის-ხაჩინიდან. ეს წარწერა 1937 წელს აღმოაჩინა კულტურულ ძეგლთა დაცვის 
+                                <seg xml:lang="ka">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში, 9 კმ. მანძილზე
+                                ქ. ბოლნისიდან სამხრეთით, 1 კმ. მანძილზე სოფ. ბონის-ხაჩინიდან. ეს წარწერა 1937 წელს აღმოაჩინა კულტურულ ძეგლთა დაცვის
                                 კომიტეტის მიერ მოწყობილმა არქეოლოგიურმა ექსპედიციამ, რომელსაც ლევან მუსხელიშვილი ხელმძღვანელობდა.</seg>
                                 <seg xml:lang="en">Bolnisi Sioni Cathedral is located in Kvemo Kartli, 9 km away from city Bolnisi to the south, 1 km distance from the village Bonis-Khachini. The inscription was discovered during the archaeological expedition held by the Cultural Heritage Preservation Committee supervised by Levan Muskhelishvili in 1937. </seg>
                             </rs>
@@ -106,10 +106,10 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
-            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc> 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
-        
+
     <facsimile>
         <surface>
             <graphic url="ecg055.jpg">
@@ -118,50 +118,50 @@
             </graphic>
         </surface>
     </facsimile>
-    
+
     <text>
         <body>
             <div type="bibliography">
-          
-         <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები<ptr target="bibliography.xml#b101"/>, <citedRange> 74-75</citedRange></bibl></p>
-         <p><bibl n="2">ლევან მუსხელიშვილი, ბოლნისი<ptr target="bibliography.xml#b93"/>, <citedRange> 330-332</citedRange></bibl></p>
-         <p><bibl n="3">Н. Г. Чубинашвили, Болнисский сион<ptr target="bibliography.xml#b45"/>, <citedRange>40, 73</citedRange></bibl></p>
-         <p><bibl n="4">დავით ბერძენიშვილი, ბოლნისის ისტორიული გეოგრაფიის საკითხები<ptr target="bibliography.xml#b14"/>, <citedRange> 23</citedRange></bibl></p>
-         <p><bibl n="5">Н. Г. Чубинашвили, Хандиси<ptr target="bibliography.xml#b48"/>, <citedRange>65</citedRange></bibl></p>
-        
-            </div> 
-            
+
+         <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები, <citedRange> 74-75</citedRange></bibl></p>
+         <p><bibl n="2"><ptr target="#b93"/> ლევან მუსხელიშვილი, ბოლნისი, <citedRange> 330-332</citedRange></bibl></p>
+         <p><bibl n="3"><ptr target="#b45"/> Н. Г. Чубинашвили, Болнисский сион, <citedRange>40, 73</citedRange></bibl></p>
+         <p><bibl n="4"><ptr target="#b14"/> დავით ბერძენიშვილი, ბოლნისის ისტორიული გეოგრაფიის საკითხები, <citedRange> 23</citedRange></bibl></p>
+         <p><bibl n="5"><ptr target="#b48"/> Н. Г. Чубинашвили, Хандиси, <citedRange>65</citedRange></bibl></p>
+
+            </div>
+
              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
 
                     <!-- „ესე ჯ"ი ვ"ნ ნ"პჲ“  -->
-            
+
                        <ab>
-                            <lb n="1"/><w lemma="ესე">ესე</w> 
-                                <w lemma="ჯუარ"><expan><abbr>ჯ</abbr><ex>უარ</ex><abbr>ი</abbr></expan></w> 
-                                <persName type="local" key="ვარდან ხაპეტი"><name nymRef="ვარდან"><expan><abbr>ვ</abbr><ex>არდა</ex><abbr>ნ</abbr></expan></name> 
+                            <lb n="1"/><w lemma="ესე">ესე</w>
+                                <w lemma="ჯუარ"><expan><abbr>ჯ</abbr><ex>უარ</ex><abbr>ი</abbr></expan></w>
+                                <persName type="local" key="ვარდან ხაპეტი"><name nymRef="ვარდან"><expan><abbr>ვ</abbr><ex>არდა</ex><abbr>ნ</abbr></expan></name>
                             <roleName><w lemma="ნახპეტ"><expan><abbr>ნ</abbr><ex>ახ</ex><abbr>პ</abbr><ex>ეტისა</ex><abbr>ჲ</abbr></expan></w></roleName></persName>
-                       </ab>                                                      
-                
+                       </ab>
+
             </div>
 
             <div type="translation" >
                 <p xml:lang="ka">ვარდან ნახპეტის ეს ჯვარი</p>
                 <p xml:lang="en">This Cross of Vardan Nakhpet</p>
             </div>
-            
+
             <div type="apparatus" xml:space="preserve">
-                 
-                <p><app loc="1"> <lem>ვარდან</lem> 
+
+                <p><app loc="1"> <lem>ვარდან</lem>
                     <rdg resp="გიორგი ჩუბინაშვილი, ივანე ჯავახიშვილი">ვარსქენ</rdg>
                                 </app></p>
-                
-                <p><app loc="1"> <lem>ნახპეტ</lem> 
+
+                <p><app loc="1"> <lem>ნახპეტ</lem>
                 <rdg resp="გიორგი ჩუბინაშვილი, ივანე ჯავახიშვილი">ნაჰაპეტისაჲ</rdg>
                    </app></p>
             </div>
 
             <div type="commentary">
-                <p xml:lang="ka"> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #7. წარწერას განკვეთილობის ნიშნები არ ახლავს. სიტყვები ერთმანეთისაგან არ არის დაცილებული. 
+                <p xml:lang="ka"> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #7. წარწერას განკვეთილობის ნიშნები არ ახლავს. სიტყვები ერთმანეთისაგან არ არის დაცილებული.
                     ქარაგმის ნიშნად ნახმარია გრძელი, სწორი, განივი ხაზი. ლევან მუსხელიშვილი ვარდან ნახპეტს „ვარსქენად“ კითხულობს.</p>
                 <p xml:lang="en">According to the Corpus of Georgian inscriptions by Nodar Shoshiashvili, the inscription N7 does not have spaces. No spaces between the words. and the sign for abbreviation is a long straight horizontal line. Levan Muskhelishvili identifies the name Vardan Nakhpet as “Varsken”.</p>
             </div>

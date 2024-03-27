@@ -16,7 +16,7 @@
                 <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
                     დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით</licence>
                 </availability>
-                
+
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -25,7 +25,7 @@
                             დმანისი
                         </collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">განმარტებითი</seg>
@@ -41,10 +41,10 @@
                                 <dimensions unit="cm">
                                     <height>400</height>
                                     <width>635</width>
-                                </dimensions>                        
+                                </dimensions>
                             </support>
                             </supportDesc>
-                            
+
                             <layoutDesc>
                                 <layout>
                                     <p>რელიეფური ჯვრის განივი მკლავების ქვეშ ამოღარულია ასომთავრული წარწერა</p>
@@ -57,7 +57,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli">
-                                <p xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა</p> 
+                                <p xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა</p>
                                 <dimensions unit="cm"><height>8-15</height>
                                 </dimensions>
                             </handNote>
@@ -68,7 +68,7 @@
                             <origPlace>მამულა, ღვთისმშობლის ეკლესია</origPlace>
                             <origDate >IX-X სს.</origDate>
                         </origin>
-                        
+
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -78,11 +78,11 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    
-    
-    <!-- 
-    
-        
+
+
+    <!--
+
+
     <facsimile>
         <surface>
             <graphic url="tskise_01.jpg">
@@ -91,44 +91,42 @@
             </graphic>
         </surface>
     </facsimile>
-    
+
     -->
-    
+
     <text>
-        
-        <!-- 
+
+        <!--
             1. წ(მიდ)ჲ  მ(ა)რ(ია)მ
         -->
         <body>
-            
+
             <div type="bibliography">
-                
-                   <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>92</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                    <p><bibl n="2">Е. Такайсшвили, Археологические екскурсии разыскания и заметки, IV <citedRange>106</citedRange>, Тб. 1913<ptr target="bibliography.xml#b212"/></bibl></p>
-                    <p><bibl n="3">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>14</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
+
+                   <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>92</citedRange>, თბილისი, 2018</bibl></p>
+                    <p><bibl n="2"><ptr target="#b212"/> Е. Такайсшвили, Археологические екскурсии разыскания и заметки, IV <citedRange>106</citedRange>, Тб. 1913</bibl></p>
+                    <p><bibl n="3"><ptr target="#b216"/> გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>14</citedRange>, თბილისი, 2016</bibl></p>
             </div>
 
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
 
             <ab>
-                <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდ</ex></expan><abbr>ჲ</abbr></w> 
+                <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდ</ex></expan><abbr>ჲ</abbr></w>
                 <lb n="2"/><name nymRef="მარიამ ღვთისმშობელი"><expan><abbr>მ</abbr><ex>ა</ex><abbr>რ</abbr><ex>ია</ex><abbr>მ</abbr></expan></name>
             </ab>
-            
-         </div>   
-            
+
+         </div>
+
              <div type="translation"/>
-            
+
             <div type="commentary">
                 <p> ღვთისმშობლის ეკლესიის აღმ. ფასადზე, სარკმლის მარჯვნივ, ერთ მთლიან ქვაზე, მიწიდან 2,20 სიმაღლეზე, რელიეფური ჯვრის განივი მკლავების ქვეშ ამოღარულია
-                1 სტრ. ასომთავრული წარწერა. ქარაგმა განივი, სწორი ხაზი. 
-                დაზიანება: წარწერა სრულად არის მოღწეული.  
+                1 სტრ. ასომთავრული წარწერა. ქარაგმა განივი, სწორი ხაზი.
+                დაზიანება: წარწერა სრულად არის მოღწეული.
                 წარმოდგენილი დათარიღების საფუძველი პალეოგრაფიული ნიშნებია, მიდრეკილება განუსხურებისაკენ. </p>
             </div>
-            
+
 
         </body>
     </text>
 </TEI>
-
-

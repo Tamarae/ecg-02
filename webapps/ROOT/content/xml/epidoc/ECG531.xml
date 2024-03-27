@@ -95,15 +95,15 @@
     <text>
         <body>
            <div type="bibliography">
-               
-                <p><bibl n="1">თამაზ გოგოლაძე,თორის ხეობის ეპიგრაფიკული კორპუსი<ptr target="bibliography.xml#b234"/>,<citedRange>99-102</citedRange>1987</bibl></p>
-		        <p><bibl n="2">სერგი მაკალათია, ბორჯომის ხეობა<ptr target="bibliography.xml#b236"/>,<citedRange>16-17</citedRange>1957</bibl></p>
-                <p><bibl n="3"> დევი ბერძენიშვილი, ნარკვევები საქართველოს ისტორიული გეოგრაფიიდან<ptr target="bibliography.xml#b239"/>,<citedRange>45-46 </citedRange>1985</bibl></p>
-                <p><bibl n="4">დევი ბერძენიშვილი, არქიტექტურულ-ისტორიული გზამკვლევი "გუჯარეთი"<ptr target="bibliography.xml#b240"/>,<citedRange>16-18</citedRange>1987</bibl></p>
 
-		   
+                <p><bibl n="1"><ptr target="#b234"/> თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი,<citedRange>99-102</citedRange>1987</bibl></p>
+		            <p><bibl n="2"><ptr target="#b236"/> სერგი მაკალათია, ბორჯომის ხეობას,<citedRange>16-17</citedRange>1957</bibl></p>
+                <p><bibl n="3"><ptr target="#b239"/> დევი ბერძენიშვილი, ნარკვევები საქართველოს ისტორიული გეოგრაფიიდან,<citedRange>45-46 </citedRange>1985</bibl></p>
+                <p><bibl n="4"><ptr target="#b240"/> დევი ბერძენიშვილი, არქიტექტურულ-ისტორიული გზამკვლევი "გუჯარეთი",<citedRange>16-18</citedRange>1987</bibl></p>
+
+
            </div>
-            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">     
+            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
                         <!--"გ(აბრიე)ლ, თ(ევდორ)ე. | ადიდოს | ღ(მერთმა)ნ სულ|ი ოქროი|სი.
 						ჩ(უე)ნ, მისთ|ა ძმა|თა თ|ევდორ{ე} | და გ{ა}ბ{რიე}ლ | ესე ბარ|ძიმი | ვამსახ|ურ{ე}თ | წმ(ი)დ(ა)სა | გ(იორგ)ის ყუდ|ევისა|სა, ა(მე)ნ".1"-->
                 <ab>

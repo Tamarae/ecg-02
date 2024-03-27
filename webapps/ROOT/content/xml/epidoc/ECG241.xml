@@ -25,7 +25,7 @@
                             დმანისი
                         </collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">საამშენებლო</seg>
@@ -56,7 +56,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა. გამოყენებულია ნუსხური გრაფემებიც. წარწერას განკვეთილობის ნიშნები არ ახლდა. 
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა. გამოყენებულია ნუსხური გრაფემებიც. წარწერას განკვეთილობის ნიშნები არ ახლდა.
                                 ქარაგმის ნიშნად გამოყენებული იყო განივი, მოკლე, სწორი ხაზი.
                                 <dimensions unit="сm">
                                     <height/>
@@ -70,7 +70,7 @@
                             <origDate>XII AD</origDate>
                         </origin>
                         <provenance type="observed">
-                            <placeName type="modernSpot"/> 
+                            <placeName type="modernSpot"/>
                             <rs type="circumstances"/>
                             <idno/>
                         </provenance>
@@ -83,9 +83,9 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    
-    
-      <!-- 
+
+
+      <!--
     <facsimile>
         <surface>
             <graphic url="tskise_01.jpg">
@@ -94,30 +94,30 @@
             </graphic>
         </surface>
     </facsimile> -->
-    
+
     <text>
         <!--
         1.ად(იდე)ნ ღ
         2.(მერთ)მ(ა)ნ ხ(იჭა)ჭ ე(რისთავთ)
         3.-ერ(ისთა)ვი. ა
-        4.ღ(ე)შ(ე)ნ(ა) წ(მიდა)ჲ 
+        4.ღ(ე)შ(ე)ნ(ა) წ(მიდა)ჲ
         5.ეკ(ლესია)ჲ ს(ა)დ
         6.(იდე)ბ(ელა)დ და
         7. ს(ა)ლ(ო)ცვ(ე)
         8.ლ(ა)დ მ[ათთა და მშობელთა (ან მომავალთა) მათთათჳს, ა(მე)ნ.]
-        
+
         -->
         <body>
-                
+
                 <div type="bibliography">
-                
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>138-139</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                 <p><bibl n="2">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>31</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
-                <p><bibl n="3">დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>145-146</citedRange> თბილისი, 2014<ptr target="bibliography.xml#b213"/></bibl></p>
-              
+
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>138-139</citedRange>, თბილისი, 2018</bibl></p>
+                 <p><bibl n="2"><ptr target="#b216"/> გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>31</citedRange>, თბილისი, 2016</bibl></p>
+                <p><bibl n="3"><ptr target="#b213"/> დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>145-146</citedRange> თბილისი, 2014</bibl></p>
+
             </div>
-                
-                
+
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
 
             <ab>
@@ -125,44 +125,44 @@
                            <w lemma="ღმერთ"><expan><abbr>ღ</abbr>
                 <lb n="2" break="no"/><ex>მერთ</ex><abbr>მ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
                            <persName type="local" key="ხიჭაჭ [შარას ძე] ერისთავი"><expan><abbr>ხ</abbr><ex>იჭა</ex><abbr>ჭ</abbr></expan></persName>
-                           <roleName nymRef="ერისთავ"><expan><abbr>ე</abbr><ex>რისთავთ</ex>        
+                           <roleName nymRef="ერისთავ"><expan><abbr>ე</abbr><ex>რისთავთ</ex>
                 <lb n="3" break="no"/><abbr>ერ</abbr><ex>ისთა</ex><abbr>ვი</abbr></expan></roleName>
-                           <w lemma="შენება"><expan><abbr>ა      
-                <lb n="4" break="no"/>ღ</abbr><ex>ე</ex><abbr>შ</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ა</ex></expan></w>   
+                           <w lemma="შენება"><expan><abbr>ა
+                <lb n="4" break="no"/>ღ</abbr><ex>ე</ex><abbr>შ</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ა</ex></expan></w>
                            <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ჲ</abbr></expan></w>
                 <lb n="5"/><w lemma="ეკლესია"><expan><abbr>ეკ</abbr><ex>ლესია</ex><abbr>ჲ</abbr></expan></w>
                            <w lemma="დიდება"><expan><abbr>ს</abbr><ex>ა</ex><abbr>დ</abbr>
-                <lb n="6" break="no"/><ex>იდე</ex><abbr>ბ</abbr><ex>ელა</ex><abbr>დ</abbr></expan></w>             
+                <lb n="6" break="no"/><ex>იდე</ex><abbr>ბ</abbr><ex>ელა</ex><abbr>დ</abbr></expan></w>
                            და
                 <lb n="7"/><w lemma="ლოცვა"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ცვ</abbr><ex>ე</ex>
-                <lb n="8" break="no"/><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>  
+                <lb n="8" break="no"/><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
                            <w lemma="მათ">მ<supplied reason="lost">ათთა</supplied></w>
                            <supplied reason="lost"><w lemma="და">და</w>
-                           <w lemma="მშობელ">მშობელთა</w>                     
+                           <w lemma="მშობელ">მშობელთა</w>
                            <w lemma="მათ">მათთათჳს</w>
                            <w lemma="ამენ"><expan><abbr>ა</abbr><ex>მე</ex><abbr>ნ</abbr></expan></w></supplied>
                 </ab>
-             
+
             </div>
- 
-               
+
+
                 <div type="translation"/>
 
-                
+
                 <div type="commentary">
                      <p>წარწერას მიაკვლია დ. ბერძენიშვილმა. მისი ინფორმაციით წარწერიანი ქვა
                         ადგილობრივი მოსახლის ყორეში იყო ჩატანებული, თუმცა ამჟამად მისი ზუსტი
                         ადგილმდებარეობა უცნობია. გ. ოთხმეზურის ექსპედიციამ წარწერა ვერ ნახა
                         (შესაძლებელია ადღილობრივმა მოსახლეობამ არ აჩვენა). სარგებლობენ დ.
-                        ბერძენიშვილის გამოცემით. 
+                        ბერძენიშვილის გამოცემით.
                         დაზიანება: წარწერის დასასრული დაღუპულია. ეპიგრაფიკული ძეგლებისთვის დამახასიათებელი ტრაფარეტული დაბოლოვების
                         გათვალისწინებით შესაძლებელია ვივარაუდოთ შემდეგი სახის აღდგენა:
-                        ...სადიდებლად და სალოცველად მ[ათთა და მშობელთა (ან მომავალთა) მათთათჳს, ა(მე)ნ]. 
+                        ...სადიდებლად და სალოცველად მ[ათთა და მშობელთა (ან მომავალთა) მათთათჳს, ა(მე)ნ].
                         წარწერის დათარიღების საფუძველი: შინაარსი: ხიჭაჭ შარას-ძის ტიტული,
                         ერისთავთ-ერისთავი. სავარაუდოა, რომ ის მხარის გამგებელი გამხდარიყო ბაღვაშთა
                         დამხობის (1103 წ.) შემდეგ. წარწერის პალეოგრაფიული ნიშნები არ ეწინააღმდეგება ასეთ დათარიღებას</p>
                 </div>
- 
+
         </body>
     </text>
 </TEI>

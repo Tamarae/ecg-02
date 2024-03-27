@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
@@ -34,11 +34,11 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
                                     <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">Plaque</objectType>
                                     <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
-                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>                                    
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
                                       <dimensions unit="cm">
                                         <width/>
                                         <height/>
@@ -50,17 +50,17 @@
                                     <layout writtenLines="8">წარწერა რვასტრიქონიანია
                                       <dimensions unit="cm">
                                          <width/>
-                                         <height/> 
-                                      </dimensions>  
-                                    </layout>                                   
+                                         <height/>
+                                      </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli_n" style="inscribed">
                                 <seg xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ნუსხურნარევი ასომთავრული</rs></seg>
-                                <seg xml:lang="en">Eight line inscription 
+                                <seg xml:lang="en">Eight line inscription
 Engraved AsomTavruli inscription mixed with Nuskhuri alphabet</seg>
-                                   <height/> 
+                                   <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -77,19 +77,19 @@ Engraved AsomTavruli inscription mixed with Nuskhuri alphabet</seg>
                                     <seg xml:lang="ka">საროს ციხე</seg>
                                     <seg xml:lang="en">Saro Castle</seg>
                                 </placeName>
-                                <!-- "41.506576, 43.282126"--> 
+                                <!-- "41.506576, 43.282126"-->
                                 <rs type="circumstances"/>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                                
+                            </provenance>
                             <provenance type="observed">
                                  <placeName type="modernSpot" ref="http://museum.ge">
                                      <seg xml:lang="ka">საქართველოს ეროვნული მუზეუმი</seg>
                                      <seg xml:lang="en">National Museum of Georgia</seg>
                                  </placeName>
                                   <idno type="invNo"/>
-                            </provenance> 
-                    </history>                   
+                            </provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -97,9 +97,9 @@ Engraved AsomTavruli inscription mixed with Nuskhuri alphabet</seg>
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
-    </teiHeader>      
+    </teiHeader>
     <facsimile>
         <surface>
             <graphic url="ecg085.jpg">
@@ -107,78 +107,78 @@ Engraved AsomTavruli inscription mixed with Nuskhuri alphabet</seg>
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
-    </facsimile>   
+    </facsimile>
     <text>
-        <body>              
+        <body>
              <div type="bibliography">
-              
-         <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
-               
+
+         <p><bibl n="1"><ptr target="#b149"/> ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა, <citedRange> 118-169</citedRange></bibl></p>
+
             </div>
-           
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!--  ქე, ადნ ძრი და [ო]
-                            ძლი მეფთმფე 
-                            დტე რლნ რჴი მმთ 
+                            ძლი მეფთმფე
+                            დტე რლნ რჴი მმთ
                             გბძა მს ჟმსა ესე
                             ცხე ავაგთ მე ვ
-                            აჩე დავწერენ 
+                            აჩე დავწერენ
                             გ[რ]გსნ და მჭას მ
-                            მული--> 
-                                                            
+                            მული-->
+
                 <ab>
-                   <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
-                              <w lemma="დიდება"><expan><abbr>ად</abbr><ex>იდე</ex><abbr>ნ</abbr></expan></w> 
-                              <w lemma="ძლიერ"><expan><abbr>ძ</abbr><ex>ლიე</ex><abbr>რი</abbr></expan></w> 
-                               და 
+                   <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
+                              <w lemma="დიდება"><expan><abbr>ად</abbr><ex>იდე</ex><abbr>ნ</abbr></expan></w>
+                              <w lemma="ძლიერ"><expan><abbr>ძ</abbr><ex>ლიე</ex><abbr>რი</abbr></expan></w>
+                               და
                               <w lemma="უძლეველ"><expan><abbr>ო</abbr><ex>ჳ</ex>
-                   <lb n="2" break="no"/><abbr>ძ</abbr><ex>ლევე</ex><abbr>ლი</abbr></expan></w> 
-                                <roleName nymRef="მეფეთა მეფე"><w lemma="მეფეთა მეფე"><expan><abbr>მეფ</abbr><ex>ე</ex><abbr>თ</abbr><ex>ა</ex></expan> 
+                   <lb n="2" break="no"/><abbr>ძ</abbr><ex>ლევე</ex><abbr>ლი</abbr></expan></w>
+                                <roleName nymRef="მეფეთა მეფე"><w lemma="მეფეთა მეფე"><expan><abbr>მეფ</abbr><ex>ე</ex><abbr>თ</abbr><ex>ა</ex></expan>
                                 <expan><abbr>მ</abbr><ex>ე</ex><abbr>ფე</abbr></expan></w></roleName>
                     <lb n="3"/><persName type="local" key="დემეტრე I"><expan><abbr>დ</abbr><ex>ემე</ex><abbr>ტ</abbr><ex>რ</ex><abbr>ე</abbr></expan> </persName>
                                 <w lemma="რომელ"><expan><abbr>რ</abbr><ex>ომე</ex><abbr>ლ</abbr><ex>მა</ex><abbr>ნ</abbr></expan></w>
-                                <placeName nymRef="რეჴი"><w lemma="რეჴი"><expan><abbr>რ</abbr><ex>ე</ex><abbr>ჴი</abbr></expan></w></placeName> 
+                                <placeName nymRef="რეჴი"><w lemma="რეჴი"><expan><abbr>რ</abbr><ex>ე</ex><abbr>ჴი</abbr></expan></w></placeName>
                                 <w lemma="მამულ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ულობი</ex><abbr>თ</abbr></expan></w>
-                    <lb n="4"/><w lemma="ბოძება"><expan><abbr>გ</abbr><ex>ჳ</ex><abbr>ბ</abbr><ex>ო</ex><abbr>ძა</abbr></expan></w> 
-                                <w lemma="იგი"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ს</abbr></expan></w> 
-                                <w lemma="ჟამ"><expan><abbr>ჟ</abbr><ex>ა</ex><abbr>მსა</abbr></expan></w> 
-                                <w lemma="ესე">ესე</w>  
-                    <lb n="5"/><w lemma="ციხე"><expan><abbr>ც</abbr><ex>ი</ex><abbr>ხე</abbr></expan></w> 
-                                <w lemma="აგება"><expan><abbr>ავაგ</abbr><ex>ე</ex><abbr>თ</abbr></expan></w> 
-                                <w lemma="მე">მე</w> 
+                    <lb n="4"/><w lemma="ბოძება"><expan><abbr>გ</abbr><ex>ჳ</ex><abbr>ბ</abbr><ex>ო</ex><abbr>ძა</abbr></expan></w>
+                                <w lemma="იგი"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ს</abbr></expan></w>
+                                <w lemma="ჟამ"><expan><abbr>ჟ</abbr><ex>ა</ex><abbr>მსა</abbr></expan></w>
+                                <w lemma="ესე">ესე</w>
+                    <lb n="5"/><w lemma="ციხე"><expan><abbr>ც</abbr><ex>ი</ex><abbr>ხე</abbr></expan></w>
+                                <w lemma="აგება"><expan><abbr>ავაგ</abbr><ex>ე</ex><abbr>თ</abbr></expan></w>
+                                <w lemma="მე">მე</w>
                                 <persName type="local" key="ვაჩე გურგენის ძე [საროს ციხის მაშენებელი]"><expan><abbr>ვ</abbr>
                     <lb n="6" break="no"/><ex>ა</ex><abbr>ჩე</abbr></expan> </persName>
-                                <w lemma="დაწერა">დავწერე</w> 
-                                <w lemma="ძე"><expan><ex>ძემა</ex><abbr>ნ</abbr></expan></w> 
-                    <lb n="7"/><persName type="local" key="გურგენ [მამა საროს ციხის მაშენებლის, ვაჩესი]"><expan><abbr>გ</abbr><ex>უ</ex><supplied reason="lost"><abbr>რ</abbr></supplied><abbr>გ</abbr><ex>ენი</ex><abbr>ს</abbr><ex>მა</ex><abbr>ნ</abbr></expan></persName> 
-                                და <placeName nymRef="მაჭა"><w lemma="მაჭა"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ჭას</abbr></expan></w></placeName> 
+                                <w lemma="დაწერა">დავწერე</w>
+                                <w lemma="ძე"><expan><ex>ძემა</ex><abbr>ნ</abbr></expan></w>
+                    <lb n="7"/><persName type="local" key="გურგენ [მამა საროს ციხის მაშენებლის, ვაჩესი]"><expan><abbr>გ</abbr><ex>უ</ex><supplied reason="lost"><abbr>რ</abbr></supplied><abbr>გ</abbr><ex>ენი</ex><abbr>ს</abbr><ex>მა</ex><abbr>ნ</abbr></expan></persName>
+                                და <placeName nymRef="მაჭა"><w lemma="მაჭა"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ჭას</abbr></expan></w></placeName>
                                 <w lemma="მამულ"><expan><abbr>მ</abbr><ex>ა</ex>
                     <lb n="8" break="no"/><abbr>მული</abbr></expan></w>
                 </ab>
                </div>
-              
-            
+
+
          <div type="translation" >
-             <p xml:lang="ka">ქრისტე, ადიდე ძლიერი და უძლეველი მეფეთა მეფე დემეტრე, რომელმაც რეხი მამულებით გვიბოძა. 
+             <p xml:lang="ka">ქრისტე, ადიდე ძლიერი და უძლეველი მეფეთა მეფე დემეტრე, რომელმაც რეხი მამულებით გვიბოძა.
                  იმ დროს ეს ციხე ავაგეთ. მე, ვაჩემ, დავწერე, გურგენის ძემ. და მაჭას მამული.</p>
              <p xml:lang="en">Christ, glorify the powerful and unconquerable King of the Kings Demetre, who presented us Rekhi with its surroundings. We built this fortress during his time. I, Vache, Son of Gurgen wrote this. And lands of Macha</p>
-         </div>    
-                               
+         </div>
+
             <div type="commentary">
                 <p xml:lang="ka">საროს ციხის ნანგრევები, თითქმის ციკლოპური ზომის ქვები, დღესაც შემორჩენილია და მეტად
                 შთამბეჭდავია. სარო და მისი მიმდებარე ტერიტორია ყოველთვის ჯავახეთის ნაწილად ითვლებოდა, თუმცა დღეს მისი მთავარანგელოზთა
                 სახელობის ეკლესია ახალციხის ეპარქიაში შედის. საროს ციხის წარწერა, როგორც წერილობითი ძეგლი, საინტერესოა დამწერლობის თვალსაზრისით. ამ ასომთავრულ წარწერაში დიდი რაოდენობითაა შერეული, ჩართული
-                ნუსხური ასოები - ა, ბ, გ, დ, ვ, თ, ი, ლ, ო, ტ, ც. საროს ციხის საამშენებლო წარწერა იმავდროულად არის მეფის მიერ ფეოდალისათვის სოფლების მამულობით ბოძების დოკუმენტი, 
-                ეპიგრაფიკული საბუთი. მასში დასახელებულია დემეტრე I და წარწერას სწორედ ამის მიხედვით ათარიღებს 1125-1155 წლებით ვალერი სილოგავა. წარწერაში აღნიშნულია, 
+                ნუსხური ასოები - ა, ბ, გ, დ, ვ, თ, ი, ლ, ო, ტ, ც. საროს ციხის საამშენებლო წარწერა იმავდროულად არის მეფის მიერ ფეოდალისათვის სოფლების მამულობით ბოძების დოკუმენტი,
+                ეპიგრაფიკული საბუთი. მასში დასახელებულია დემეტრე I და წარწერას სწორედ ამის მიხედვით ათარიღებს 1125-1155 წლებით ვალერი სილოგავა. წარწერაში აღნიშნულია,
                 მეფემ რომ რეჴი და მაჭა (სოფლების სახელებია) მამულობით გვიბოძა, „მას ჟამსა ესე ციხე ავაგეთ“. ამის შემდეგ აღნიშნულია: „მე, ვაჩე დავწერე, ძემან გურგენისმან“.
                 ვალერი სილოგავას აზრით, ეს ტექსტი თავისი შინაარსით თითქოს წარწერის ტექნიკური შემსრულებლის სახელს გადმოსცემს, მაგრამ სინადვილეში ასე არ არის.
                 ამის წინა ტექსტში არც ისაა აღნიშნული, თუ ვინ ააგო „ესე ციხე“ და არც ის, თუ ვის უბოძა მეფე დემეტრემ რეჴი. ისე გამოდის, რომ არც ციხის ამგების სახელია ცნობილი
                 და არც იმისი, ვისაც სოფლები ებოძა. ცხადია, ასეთ ბოძებას არანაირი იურიდიული ძალა არ ექნებოდა. ამიტომ ციხის ამგებად და რეჴის მამულობით მიმღებად
                 ვაჩე გურგენისძე უნდა მივიჩნიოთ, რომლის სახელი და გვარი ტექსტის ბოლოსაა ამოკვეთილი. წარწერის ბოლოს აღნიშნული მაჭა, ისევე როგორც რეჴი, დღეს დაკარგული
-                ტოპონიმებია, რომლებიც სამცხეში იქნებოდა. მაჭა, სავარაუდოდ, ვაჩე გურგენისძეს რეჴის ბოძების შემდეგ ებოძა და ცნობა ამის შესახებ ქვაზე გვიან ამოკვეთეს, 
+                ტოპონიმებია, რომლებიც სამცხეში იქნებოდა. მაჭა, სავარაუდოდ, ვაჩე გურგენისძეს რეჴის ბოძების შემდეგ ებოძა და ცნობა ამის შესახებ ქვაზე გვიან ამოკვეთეს,
                ან ვაჩემ მას იმთავითვე ფლობდა და რეჴის ბოძებასთან და ციხის აშენებასთან ერთად ხელახლა დაუმტკიცეს. „და მაჭას მამული“ ტექსტში უნდა ჩაიწეროს
-                „რეჴი მამულობით გჳბოძას“ შემდეგ და მთელი მსჯელობა გასაგები გახდება.</p>                
+                „რეჴი მამულობით გჳბოძას“ შემდეგ და მთელი მსჯელობა გასაგები გახდება.</p>
             </div>
         </body>
     </text>

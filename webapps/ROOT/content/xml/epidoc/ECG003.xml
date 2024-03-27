@@ -130,7 +130,7 @@
 
             <div type="bibliography">
                 
-                    <p><bibl sameAs="bib:b82"><ptr target="bibliography.xml#b82"/>თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange>122</citedRange></bibl></p>
+                    <p><ptr target="#b82"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange>122</citedRange></p>
                 
             </div>
 

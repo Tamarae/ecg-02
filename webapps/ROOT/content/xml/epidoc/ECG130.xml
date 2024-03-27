@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
@@ -31,9 +31,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
-                                    <material ref="https://www.eagle-network.eu/voc/material/lod/75">ნაცრისფერი კირქვა</material>                                   
+                                    <material ref="https://www.eagle-network.eu/voc/material/lod/75">ნაცრისფერი კირქვა</material>
                                       <dimensions unit="cm">
                                         <width>66</width>
                                         <height>25</height>
@@ -44,42 +44,42 @@
                                 <layoutDesc>
                                     <layout writtenLines="7">I ფრაგმენტი ერთსტრიქონიანია, II - ერთსტრიქონიანი, ხოლო III - სამსტრიქონიანი.
                                         წარწერები შესრულებულია მიძინების ტაძრის კანკელის ერთ-ერთ ფილაზე, რომელზეც წარმოდგენილია ვედრების კომპოზიცია: მაცხოვრის გამოსახულება ჯვრული ნიმბით. მისგან შემორჩენილია
-                                რელიეფით გამოყვანილი თავი - გადამტვრეული შუბლს ზემოთ და კისრის ქვემოთ. ახლდა ერთსტრიქონიანი განმარტებითი წარწერა, რომლის დაზიანებული ასოებია 
+                                რელიეფით გამოყვანილი თავი - გადამტვრეული შუბლს ზემოთ და კისრის ქვემოთ. ახლდა ერთსტრიქონიანი განმარტებითი წარწერა, რომლის დაზიანებული ასოებია
                                 მოღწეული. მარცხნივ გამოსახული ყოფილა ღვთისმშობელი. შემორჩენილია თავის გამოსახულება - გადამტვრეული ასევე შუბლს ზემოთ და კისრის ქვემოთ. მისგან მარცხნივ
-                                ამოკვეთილია განმარტებითი წარწერა, რომლის დასასრული დაღუპულია. მაცხოვრის მარჯვნივ გამოსახული იქნებოდა წმ. იოანე ნათლისმცემელი, 
+                                ამოკვეთილია განმარტებითი წარწერა, რომლის დასასრული დაღუპულია. მაცხოვრის მარჯვნივ გამოსახული იქნებოდა წმ. იოანე ნათლისმცემელი,
                                 რომლისგანაც შემორჩენილია მხოლოდ ნიმბის მცირე ფრაგმენტი მარცხენა ნაწილში. თანმხლები განმარტებითი წარწერა მთლიანად დაღუპულია.
                                         <dimensions unit="cm">
                                          <width/>
-                                         <height/> 
-                                        </dimensions>  
-                                    </layout>                                   
+                                         <height/>
+                                        </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                       <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერები
                        კლასიკური კიდურწაისრული დამწერლობით, ასოთა კვეთის ღარები ამოწითლებულია სინგურით
-                                   <height unit="cm">2.5-4</height> 
+                                   <height unit="cm">2.5-4</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                             <origin>
                                 <origPlace>საფარის მონასტრის მიძინების ტაძარი</origPlace>
-                                 <origDate notBefore-custom="1000" notAfter-custom="1100" precision="medium" 
+                                 <origDate notBefore-custom="1000" notAfter-custom="1100" precision="medium"
                                     evidence="lettering" datingMethod="#julian">XI AD</origDate>
                             </origin>
                             <provenance type="found">
                                 <placeName type ="ancientFindspot" when="1982">საფარის მონასტრის მიძინების ტაძარი</placeName>
-                                <!-- "41.602116, 43.031036"--> 
+                                <!-- "41.602116, 43.031036"-->
                                 <rs type="circumstances">კანკელის ფილა, რომელზეც წარწერებია შესრულებული, 1982 წელს აღმოჩნდა ტაძარში ჩატარებული
                                 არქეოლოგიური გათხრების დროს</rs>
                                 <rs type="context"/>
-                                <rs type="monuList"/></provenance>                                
+                                <rs type="monuList"/></provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot" ref="http://museum.ge/">სამცხე-ჯავახეთის მუზეუმი</placeName>
-                                <idno type="invNo"/>5529</provenance> 
-                    </history>                   
+                                <idno type="invNo"/>5529</provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -87,7 +87,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <!-- <facsimile>
@@ -99,28 +99,28 @@
         </surface>
     </facsimile> -->
     <text>
-        <body>  
+        <body>
          <div type="bibliography">
-                      
-   <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>              
-   <p><bibl n="2">ვალერი სილოგავა, სამცხე-ჯავახეთის ისტორიული მუზეუმის ქართული ეპიგრაფიკული ძეგლები, კატალოგი-გზამკვლევი<ptr target="bibliography.xml#b150"/>, <citedRange> 29-30</citedRange></bibl></p>               
-             
+
+   <p><bibl n="1"><ptr target="#b149"/> ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა, <citedRange> 118-169</citedRange></bibl></p>
+   <p><bibl n="2"><ptr target="#b150"/> ვალერი სილოგავა, სამცხე-ჯავახეთის ისტორიული მუზეუმის ქართული ეპიგრაფიკული ძეგლები, კატალოგი-გზამკვლევი, <citedRange> 29-30</citedRange></bibl></p>               
+
             </div>
 
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!--  " 1. დდჲ ღ
                                    [თ]
                                    [ჲ]
                                 2. მცხჲ
                                 3. [ჲე ნთ
                                     ც
-                                    ჲ]"--> 
-                                                            
-            
+                                    ჲ]"-->
+
+
          <div type="textpart" subtype="fragment" n="1">
                 <ab>
-                   <lb n="1"/><w lemma="დედა"><expan><abbr>დ</abbr><ex>ე</ex><abbr>დ</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></w> 
+                   <lb n="1"/><w lemma="დედა"><expan><abbr>დ</abbr><ex>ე</ex><abbr>დ</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></w>
                             <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრ</ex>
                    <lb n="2" break="no"/><supplied reason="lost"><abbr>თ</abbr></supplied><ex>ისა</ex>
                    <lb n="3" break="no"/><supplied reason="lost"><abbr>ჲ</abbr></supplied></expan></w>
@@ -133,24 +133,24 @@
               </div>
                    <div type="textpart" subtype="fragment" n="3">
                 <ab>
-                   <lb n="1"/><name nymRef="იოვანე"><expan><supplied reason="lost"><abbr>ჲ</abbr><ex>ოვან</ex><abbr>ე</abbr></supplied></expan></name> 
+                   <lb n="1"/><name nymRef="იოვანე"><expan><supplied reason="lost"><abbr>ჲ</abbr><ex>ოვან</ex><abbr>ე</abbr></supplied></expan></name>
                             <w lemma="ნათლისმცემელ"><expan><supplied reason="lost"><abbr>ნ</abbr><ex>ა</ex><abbr>თ</abbr><ex>ლისმ</ex>
                    <lb n="2" break="no"/><abbr>ც</abbr><ex>ემელ</ex>
                    <lb n="3" break="no"/><abbr>ჲ</abbr></supplied></expan></w>
                    </ab>
                </div>
             </div>
- 
-            
-              
-            
+
+
+
+
          <div type="translation" xml:lang="ka">
              <p>1. დედა ღმრთისა; 2. მაცხოვარი; 3. იოვანე ნათლისმცემელი. </p>
-         </div>    
-                             
+         </div>
+
                <div type="commentary">
                 <p>საფარის მონასტერი ძველი დროიდანვე სხვადასხვა დანიშნულების 12 ნაგებობისაგან შედგებოდა. მათ შორის არის მიძინების ტაძარი.
-                 </p> 
+                 </p>
             </div>
         </body>
     </text>

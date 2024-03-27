@@ -23,7 +23,7 @@
                     <msIdentifier>
                         <collection>ატენი</collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">საამშენებლო</seg>
@@ -41,7 +41,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc>
-                                <layout writtenLines="13">სამხრეთის ფასადზე, ცოკოლიდან მეხუთე და მეექვსე წყებაში მოთავსებული ცამეტსტრიქონიანი წარწერა  
+                                <layout writtenLines="13">სამხრეთის ფასადზე, ცოკოლიდან მეხუთე და მეექვსე წყებაში მოთავსებული ცამეტსტრიქონიანი წარწერა
                                     <dimensions unit="cm">
                                         <height/>
                                         <width/>
@@ -67,7 +67,7 @@
                             <rs type="monuList"/>
                             <rs type="circumstances"/>
                             <rs type="context"/>
-                        </provenance>           
+                        </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -86,114 +86,114 @@
             </graphic>
         </surface>
     </facsimile>
-    
+
     <text>
-        <body>          
+        <body>
              <div type="bibliography">
-                           
-                    <p><bibl n="1">თეიმურაზ ბარნაველი, ატენი სიონის წარწერები<ptr target="bibliography.xml#b128"/>, <citedRange> 37-39</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b128"/> თეიმურაზ ბარნაველი, ატენი სიონის წარწერები, <citedRange> 37-39</citedRange></bibl></p>
+
             </div>
-            
+
             <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
 
                     <!-- ქ. სახელითა ღმრთისაჲთა მე, გურგანელმან, მირიანის ყმამან
-                        თარხუნის ძისამან, ატენის ციხისთავმან, ავაგენ ატენს სახლნი 
-                        და ქულბაგი მას ჟამსა, ოდეს, ადიდენ ღმერთმან, ძლიერმან მეფეთა მეფემან 
-                        ბაგრატ უბრძანეს მიწასა მათსა მირიანს პატრონსა ჩემსა, 
+                        თარხუნის ძისამან, ატენის ციხისთავმან, ავაგენ ატენს სახლნი
+                        და ქულბაგი მას ჟამსა, ოდეს, ადიდენ ღმერთმან, ძლიერმან მეფეთა მეფემან
+                        ბაგრატ უბრძანეს მიწასა მათსა მირიანს პატრონსა ჩემსა,
                         სეფისა ზოჳარსა შიდა ქალაქისა შენებაჲ; გაუმარჯოჳა ღმერთმან
-                        და ბედმან მეფობისა მათისამან, ვითა სწადდა მეფობასა მათსა, ეგრე 
+                        და ბედმან მეფობისა მათისამან, ვითა სწადდა მეფობასა მათსა, ეგრე
                         ავაშენეთ დარბაზი და ქალაქი. შეგჳიწყალა მეფობამან მათმან, სასახლენი ადგილნი და საქულბაგე
-                        ნი მკჳდრად, ნებიერობით გჳიბოძა მირიანს და ყმათა მისთა, რომელთაცა შენებაჲ 
+                        ნი მკჳდრად, ნებიერობით გჳიბოძა მირიანს და ყმათა მისთა, რომელთაცა შენებაჲ
                         *შენებაჲ შეეძლო. მე ავაგე სახლი და ქულბაგი და შევწირე წმიდასა სიონსა ატე
                         ნ(ნ)ისასა, საყოფელსა წმიდასა ღმრთისმშობელისასა, სალოცველად ჰგიამცა უკუნისამდე ძრიელი მ
-                        ეფეთა მეფჱ ბაგრატ სევასტოსი და ძე მათი გიორგი კურაპალატი და სალოცველად სულისა მირიან მიწისა მათისა, 
+                        ეფეთა მეფჱ ბაგრატ სევასტოსი და ძე მათი გიორგი კურაპალატი და სალოცველად სულისა მირიან მიწისა მათისა,
                         გამზრდელისა პატრონისა ჩემისათჳინ დავდევ დღე თევდორობაჲ აღა
                         პად, გარდაიჴდიდეს მამასახლისი წინამძღუარი სიონისაჲ ვინცა იყოს.  -->
-                <ab>        
-                    <lb n="1"/><expan><abbr>ქ</abbr><ex>რისტე</ex></expan> <w lemma="სახელ">სახელითა</w> <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თისაჲთა</abbr></expan></w> 
-                            <w lemma="მე">მე</w> 
-                            <persName type="local" key="გურგანელ [ატენის ციხისთავი]"><name nymRef="გურგანელ"><expan><abbr>გ</abbr><ex>უ</ex><abbr>რგ</abbr><ex>ა</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ლმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></name></persName> 
+                <ab>
+                    <lb n="1"/><expan><abbr>ქ</abbr><ex>რისტე</ex></expan> <w lemma="სახელ">სახელითა</w> <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თისაჲთა</abbr></expan></w>
+                            <w lemma="მე">მე</w>
+                            <persName type="local" key="გურგანელ [ატენის ციხისთავი]"><name nymRef="გურგანელ"><expan><abbr>გ</abbr><ex>უ</ex><abbr>რგ</abbr><ex>ა</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ლმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></name></persName>
                             <persName type="local" key="მირიან"><name nymRef="მირიან"><expan><abbr>მ</abbr><ex>ი</ex><abbr>რიანის</abbr></expan></name> </persName>
                             <w lemma="ყმა"><expan><abbr>ყმამ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
                     <lb n="2"/><persName type="local" key="თარხუნ"><name nymRef="თარხუნ">თარხუნის</name> </persName>
-                            <w lemma="ძე"><expan><abbr>ძისამ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
-                            <roleName nymRef="ატენის ციხისთავი"><placeName nymRef="ატენი">ატენის</placeName> 
-                            <roleName nymRef="ციხისთავი"><expan><abbr>ც</abbr><ex>ი</ex><abbr>ხისთ</abbr><ex>ა</ex><abbr>ვმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></roleName></roleName> 
-                            <w lemma="აგებს"><expan><abbr>ავაგ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w> <placeName nymRef="ატენი"><expan><abbr>ატ</abbr><ex>ე</ex><abbr>ნს</abbr></expan></placeName> 
+                            <w lemma="ძე"><expan><abbr>ძისამ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
+                            <roleName nymRef="ატენის ციხისთავი"><placeName nymRef="ატენი">ატენის</placeName>
+                            <roleName nymRef="ციხისთავი"><expan><abbr>ც</abbr><ex>ი</ex><abbr>ხისთ</abbr><ex>ა</ex><abbr>ვმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></roleName></roleName>
+                            <w lemma="აგებს"><expan><abbr>ავაგ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w> <placeName nymRef="ატენი"><expan><abbr>ატ</abbr><ex>ე</ex><abbr>ნს</abbr></expan></placeName>
                             <w lemma="სახლ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><abbr>ლნი</abbr></expan></w>
-                    <lb n="3"/>და <w lemma="ქულბაგი"><expan><abbr>ქულბ</abbr><ex>ა</ex><abbr>გი</abbr></expan></w> მას 
-                            <w lemma="ჟამ"><expan><abbr>ჟ</abbr><ex>ა</ex><abbr>მსა</abbr></expan></w> 
-                            <w lemma="ოდეს"><expan><abbr>ოდ</abbr><ex>ე</ex><abbr>ს</abbr></expan></w> 
-                            <w lemma="ადიდებს"><expan><abbr>ად</abbr><ex>ი</ex><abbr>დ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w> 
-                            <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> 
-                            <w lemma="ძლიერ"><expan><abbr>ძლიერმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
-                            <roleName nymRef="მეფეთა მეფე"><w lemma="მეფე"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფ</abbr><ex>ე</ex><abbr>თა</abbr></expan></w> 
+                    <lb n="3"/>და <w lemma="ქულბაგი"><expan><abbr>ქულბ</abbr><ex>ა</ex><abbr>გი</abbr></expan></w> მას
+                            <w lemma="ჟამ"><expan><abbr>ჟ</abbr><ex>ა</ex><abbr>მსა</abbr></expan></w>
+                            <w lemma="ოდეს"><expan><abbr>ოდ</abbr><ex>ე</ex><abbr>ს</abbr></expan></w>
+                            <w lemma="ადიდებს"><expan><abbr>ად</abbr><ex>ი</ex><abbr>დ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w>
+                            <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
+                            <w lemma="ძლიერ"><expan><abbr>ძლიერმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
+                            <roleName nymRef="მეფეთა მეფე"><w lemma="მეფე"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფ</abbr><ex>ე</ex><abbr>თა</abbr></expan></w>
                             <w lemma="მეფე"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფ</abbr><ex>ე</ex><abbr>მ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w></roleName>
-                    <lb n="4"/><name nymRef="მეფეთა მეფე ბაგრატ"><expan><abbr>ბ</abbr><ex>ა</ex><abbr>გრ</abbr><ex>ა</ex><abbr>ტ</abbr></expan></name> 
-                                <w lemma="უბრძანებს"><expan><abbr>უბრძ</abbr><ex>ა</ex><abbr>ნეს</abbr></expan></w> 
-                                <w lemma="მიწა">მიწასა</w> 
-                                <w><expan><abbr>მ</abbr><ex>ა</ex><abbr>თსა</abbr></expan></w> 
-                                <name nymRef="მირიან"><expan><abbr>მირ</abbr><ex>ი</ex><abbr>ანს</abbr></expan></name> 
+                    <lb n="4"/><name nymRef="მეფეთა მეფე ბაგრატ"><expan><abbr>ბ</abbr><ex>ა</ex><abbr>გრ</abbr><ex>ა</ex><abbr>ტ</abbr></expan></name>
+                                <w lemma="უბრძანებს"><expan><abbr>უბრძ</abbr><ex>ა</ex><abbr>ნეს</abbr></expan></w>
+                                <w lemma="მიწა">მიწასა</w>
+                                <w><expan><abbr>მ</abbr><ex>ა</ex><abbr>თსა</abbr></expan></w>
+                                <name nymRef="მირიან"><expan><abbr>მირ</abbr><ex>ი</ex><abbr>ანს</abbr></expan></name>
                                 <roleName nymRef="პატრონი"><w lemma="პატრონ"><expan><abbr>პ</abbr><ex>ა</ex><abbr>ტრ</abbr><ex>ო</ex><abbr>ნსა</abbr></expan></w></roleName> ჩემსა
-                    <lb n="5"/><w lemma="სეფა">სეფისა</w> <w lemma="ზოჳარ">ზოჳარსა</w> <w lemma="შიდა">შიდა</w> <w lemma="ქალაქ"><expan><abbr>ქ</abbr><ex>ა</ex><abbr>ლაქ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w> 
-                                <w lemma="შენება">შენებაჲ</w> 
-                                <w>გაუმარჯოჳა</w> 
+                    <lb n="5"/><w lemma="სეფა">სეფისა</w> <w lemma="ზოჳარ">ზოჳარსა</w> <w lemma="შიდა">შიდა</w> <w lemma="ქალაქ"><expan><abbr>ქ</abbr><ex>ა</ex><abbr>ლაქ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w>
+                                <w lemma="შენება">შენებაჲ</w>
+                                <w>გაუმარჯოჳა</w>
                                 <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
-                    <lb n="6"/>და <w lemma="ბედ"><expan><abbr>ბედმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
-                                  <w lemma="მეფობა"><expan><abbr>მეფ</abbr><ex>ო</ex><abbr>ბისა</abbr></expan></w> 
-                                  <w><expan><abbr>მ</abbr><ex>ა</ex><abbr>თისამ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> ვითა <w lemma="სწადია">სწადდა</w> <w lemma="მეფობა">მეფობასა</w> 
+                    <lb n="6"/>და <w lemma="ბედ"><expan><abbr>ბედმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
+                                  <w lemma="მეფობა"><expan><abbr>მეფ</abbr><ex>ო</ex><abbr>ბისა</abbr></expan></w>
+                                  <w><expan><abbr>მ</abbr><ex>ა</ex><abbr>თისამ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> ვითა <w lemma="სწადია">სწადდა</w> <w lemma="მეფობა">მეფობასა</w>
                                   <w><expan><abbr>მ</abbr><ex>ა</ex><abbr>თსა</abbr></expan></w> ეგრე
-                    <lb n="7"/><w lemma="აშენებს"><expan><abbr>ავ</abbr><ex>ა</ex><abbr>შ</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>თ</abbr></expan></w> 
-                               <w lemma="დარბაზ"><expan><abbr>დ</abbr><ex>ა</ex><abbr>რბ</abbr><ex>ა</ex><abbr>ზი</abbr></expan></w> და 
-                               <w lemma="ქალაქ"><expan><abbr>ქ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ა</ex><abbr>ქი</abbr></expan></w> 
-                               <w><expan><abbr>შ</abbr><ex>ე</ex><abbr>გ</abbr><ex>ჳი</ex><abbr>წ</abbr><ex>ყა</ex><abbr>ლნა</abbr></expan></w> 
-                               <w lemma="მეფობა"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფ</abbr><ex>ო</ex><abbr>ბამ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
-                               <w><expan><abbr>მ</abbr><ex>ა</ex><abbr>თმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
-                               <w lemma="სასახლე"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ს</abbr><ex>ა</ex><abbr>ხლ</abbr><ex>ე</ex><abbr>ნი</abbr></expan></w> <w lemma="ადგილ">ადგილნი</w> და 
+                    <lb n="7"/><w lemma="აშენებს"><expan><abbr>ავ</abbr><ex>ა</ex><abbr>შ</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>თ</abbr></expan></w>
+                               <w lemma="დარბაზ"><expan><abbr>დ</abbr><ex>ა</ex><abbr>რბ</abbr><ex>ა</ex><abbr>ზი</abbr></expan></w> და
+                               <w lemma="ქალაქ"><expan><abbr>ქ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ა</ex><abbr>ქი</abbr></expan></w>
+                               <w><expan><abbr>შ</abbr><ex>ე</ex><abbr>გ</abbr><ex>ჳი</ex><abbr>წ</abbr><ex>ყა</ex><abbr>ლნა</abbr></expan></w>
+                               <w lemma="მეფობა"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფ</abbr><ex>ო</ex><abbr>ბამ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
+                               <w><expan><abbr>მ</abbr><ex>ა</ex><abbr>თმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
+                               <w lemma="სასახლე"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ს</abbr><ex>ა</ex><abbr>ხლ</abbr><ex>ე</ex><abbr>ნი</abbr></expan></w> <w lemma="ადგილ">ადგილნი</w> და
                                <w lemma="საქულბაგე"><expan><abbr>საქ</abbr><ex>უ</ex><abbr>ლბაგე
-                    <lb n="8" break="no"/>ნი</abbr></expan></w> <w><expan><abbr>მკჳდრ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> <w lemma="ნებიერობა">ნებიერობით</w> <w lemma="გვიბოძებს">გჳიბოძა</w> 
-                              <name nymRef="მირიან"><expan><abbr>მ</abbr><ex>ი</ex><abbr>რ</abbr><ex>ია</ex><abbr>ნს</abbr></expan></name> და <roleName nymRef="ყმა"><w lemma="ყმა">ყმათა</w></roleName> მისთა 
+                    <lb n="8" break="no"/>ნი</abbr></expan></w> <w><expan><abbr>მკჳდრ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> <w lemma="ნებიერობა">ნებიერობით</w> <w lemma="გვიბოძებს">გჳიბოძა</w>
+                              <name nymRef="მირიან"><expan><abbr>მ</abbr><ex>ი</ex><abbr>რ</abbr><ex>ია</ex><abbr>ნს</abbr></expan></name> და <roleName nymRef="ყმა"><w lemma="ყმა">ყმათა</w></roleName> მისთა
                               <w><expan><abbr>რ</abbr><ex>ომე</ex><abbr>ლთაცა</abbr></expan></w> <w lemma="შენება">შენებაჲ</w>
-                    <lb n="9"/><del rend="erasure">შენებაჲ</del> <w lemma="შეუძლია">შეეძლო</w> <w lemma="მე">მე</w> <w lemma="აგებს">ავაგე</w> <w lemma="სახლ">სახლი</w> და <w lemma="ქულბაგი">ქულბაგი</w> და 
+                    <lb n="9"/><del rend="erasure">შენებაჲ</del> <w lemma="შეუძლია">შეეძლო</w> <w lemma="მე">მე</w> <w lemma="აგებს">ავაგე</w> <w lemma="სახლ">სახლი</w> და <w lemma="ქულბაგი">ქულბაგი</w> და
                                 <w lemma="შესწირავს">შევწირე</w> <w lemma="წმიდა"><expan><abbr>წმ</abbr><ex>იდა</ex><abbr>სა</abbr></expan></w> <w lemma="სიონ">სიონსა</w> <placeName nymRef="ატენ">ატე
-                    <lb n="10" break="no"/><choice><sic>ნნ</sic><corr>ნ</corr></choice>ისასა</placeName> 
-                                <w lemma="საყოფელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ყ</abbr><ex>ო</ex><abbr>ფ</abbr><ex>ე</ex><abbr>ლსა</abbr></expan></w> 
-                                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მი</ex><abbr>დისა</abbr></expan></w> 
-                                <w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თისმშ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლის</abbr><ex>ა</ex><abbr>სა</abbr></expan></w> 
-                                <w lemma="სალოცველ"><expan><abbr>სალ</abbr><ex>ო</ex><abbr>ცვ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> 
-                                <w lemma="ჰგიეს">ჰგიამცა</w> <w lemma="უკუნისამდე"><expan><abbr>უკ</abbr><ex>უნისამდ</ex><abbr>ე</abbr></expan></w> <w lemma="ძრიელ">ძრიელი</w> 
+                    <lb n="10" break="no"/><choice><sic>ნნ</sic><corr>ნ</corr></choice>ისასა</placeName>
+                                <w lemma="საყოფელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ყ</abbr><ex>ო</ex><abbr>ფ</abbr><ex>ე</ex><abbr>ლსა</abbr></expan></w>
+                                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მი</ex><abbr>დისა</abbr></expan></w>
+                                <w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თისმშ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლის</abbr><ex>ა</ex><abbr>სა</abbr></expan></w>
+                                <w lemma="სალოცველ"><expan><abbr>სალ</abbr><ex>ო</ex><abbr>ცვ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
+                                <w lemma="ჰგიეს">ჰგიამცა</w> <w lemma="უკუნისამდე"><expan><abbr>უკ</abbr><ex>უნისამდ</ex><abbr>ე</abbr></expan></w> <w lemma="ძრიელ">ძრიელი</w>
                                 <roleName nymRef="მეფეთა მეფე"><w lemma="მეფე"><expan><abbr>მ</abbr>
-                    <lb n="11" break="no"/><ex>ე</ex><abbr>ფ</abbr><ex>ე</ex><abbr>თა</abbr></expan></w> <w lemma="მეფე"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფჱ</abbr></expan></w></roleName> 
-                                <name nymRef="მეფეთა მეფე ბაგრატ"><expan><abbr>ბ</abbr><ex>ა</ex><abbr>გრ</abbr><ex>ა</ex><abbr>ტ</abbr></expan></name> <roleName nymRef="სევასტოს"><w lemma="სევასტოს">სევასტოსი</w></roleName> და <w lemma="ძე">ძე</w> მათი 
-                                <name nymRef="გიორგი კურაპალატი"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan> <roleName nymRef="კურაპალატ"><expan><abbr>კ</abbr><ex>ურაპალა</ex><abbr>ტი</abbr></expan></roleName></name> და 
-                                <w lemma="სალოცველ"><expan><abbr>სალ</abbr><ex>ო</ex><abbr>ცვ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლისა</abbr></expan></w> 
+                    <lb n="11" break="no"/><ex>ე</ex><abbr>ფ</abbr><ex>ე</ex><abbr>თა</abbr></expan></w> <w lemma="მეფე"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფჱ</abbr></expan></w></roleName>
+                                <name nymRef="მეფეთა მეფე ბაგრატ"><expan><abbr>ბ</abbr><ex>ა</ex><abbr>გრ</abbr><ex>ა</ex><abbr>ტ</abbr></expan></name> <roleName nymRef="სევასტოს"><w lemma="სევასტოს">სევასტოსი</w></roleName> და <w lemma="ძე">ძე</w> მათი
+                                <name nymRef="გიორგი კურაპალატი"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan> <roleName nymRef="კურაპალატ"><expan><abbr>კ</abbr><ex>ურაპალა</ex><abbr>ტი</abbr></expan></roleName></name> და
+                                <w lemma="სალოცველ"><expan><abbr>სალ</abbr><ex>ო</ex><abbr>ცვ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლისა</abbr></expan></w>
                                 <name nymRef="მირიან"><expan><abbr>მ</abbr><ex>ი</ex><abbr>რ</abbr><ex>ია</ex><abbr>ნ</abbr></expan></name> <w lemma="მიწა">მიწისა</w> <w><expan><abbr>მ</abbr><ex>ა</ex><abbr>თისა</abbr></expan></w>
                     <lb n="12"/><w lemma="გამზრდელ">გამზრდელისა</w> <roleName nymRef="პატრონ"><w lemma="პატრონ">პატრონისა</w></roleName> <w>ჩემისათჳინ</w> <w lemma="დებს">დავდევ</w> <rs type="date"><w lemma="დღე">დღე</w> <w lemma="თევდორობა">თევდორობაჲ</w></rs> <w lemma="აღაპ">აღა
-                    <lb n="13" break="no"/>პად</w> <w lemma="გარდაიჴდის">გარდაიჴდიდეს</w> 
-                            <roleName nymRef="მამასახლის"><w><expan><abbr>მ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ა</ex><abbr>ს</abbr><ex>ა</ex><abbr>ხლისი</abbr></expan></w></roleName> 
+                    <lb n="13" break="no"/>პად</w> <w lemma="გარდაიჴდის">გარდაიჴდიდეს</w>
+                            <roleName nymRef="მამასახლის"><w><expan><abbr>მ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ა</ex><abbr>ს</abbr><ex>ა</ex><abbr>ხლისი</abbr></expan></w></roleName>
                             <roleName nymRef="წინამძღუარი სიონისაჲ"><roleName><w><expan><abbr>წინამძღ</abbr><ex>უა</ex><abbr>რი</abbr></expan></w></roleName> <w lemma="სიონ">სიონისაჲ</w></roleName> <w>ვინცა</w> <w>იყოს</w>
-                </ab>        
+                </ab>
             </div>
-            
+
             <div type="translation" xml:lang="ka">
-                <p>ქ. სახელითა ღმრთისაჲთა მე, გურგანელმან, მირიანის ყმამან თარხუნის ძისამან, ატენის ციხისთავმან, 
-                        ავაგენ ატენს სახლნი და ქულბაგი მას ჟამსა, ოდეს, ადიდენ ღმერთმან, ძლიერმან მეფეთა მეფემან ბაგრატ უბრძანეს 
-                        მიწასა მათსა მირიანს პატრონსა ჩემსა, სეფისა ზოჳარსა შიდა ქალაქისა შენებაჲ; გაუმარჯოჳა ღმერთმანდა ბედმან მეფობისა მათისამან, 
-                        ვითა სწადდა მეფობასა მათსა, ეგრე ავაშენეთ დარბაზი და ქალაქი. შეგჳიწყალა მეფობამან მათმან, სასახლენი ადგილნი და საქულბაგენი 
-                        მკჳდრად, ნებიერობით გჳიბოძა მირიანს და ყმათა მისთა, რომელთაცა შენება შეეძლო. მე ავაგე სახლი და ქულბაგი და შევწირე წმიდასა სიონსა 
-                        ატენ(ნ)ისასა, საყოფელსა წმიდასა ღმრთისმშობელისასა, სალოცველად ჰგიამცა უკუნისამდე ძრიელი მეფეთა მეფჱ ბაგრატ სევასტოსი და ძე მათი გიორგი კურაპალატი 
-                        და სალოცველად სულისა მირიან მიწისა მათისა, გამზრდელისა პატრონისა ჩემისათჳინ დავდევ დღე თევდორობა აღაპად, გარდაიჴდიდეს მამასახლისი წინამძღუარი 
-                        სიონისაჲ ვინცა იყოს</p>                                                                           
+                <p>ქ. სახელითა ღმრთისაჲთა მე, გურგანელმან, მირიანის ყმამან თარხუნის ძისამან, ატენის ციხისთავმან,
+                        ავაგენ ატენს სახლნი და ქულბაგი მას ჟამსა, ოდეს, ადიდენ ღმერთმან, ძლიერმან მეფეთა მეფემან ბაგრატ უბრძანეს
+                        მიწასა მათსა მირიანს პატრონსა ჩემსა, სეფისა ზოჳარსა შიდა ქალაქისა შენებაჲ; გაუმარჯოჳა ღმერთმანდა ბედმან მეფობისა მათისამან,
+                        ვითა სწადდა მეფობასა მათსა, ეგრე ავაშენეთ დარბაზი და ქალაქი. შეგჳიწყალა მეფობამან მათმან, სასახლენი ადგილნი და საქულბაგენი
+                        მკჳდრად, ნებიერობით გჳიბოძა მირიანს და ყმათა მისთა, რომელთაცა შენება შეეძლო. მე ავაგე სახლი და ქულბაგი და შევწირე წმიდასა სიონსა
+                        ატენ(ნ)ისასა, საყოფელსა წმიდასა ღმრთისმშობელისასა, სალოცველად ჰგიამცა უკუნისამდე ძრიელი მეფეთა მეფჱ ბაგრატ სევასტოსი და ძე მათი გიორგი კურაპალატი
+                        და სალოცველად სულისა მირიან მიწისა მათისა, გამზრდელისა პატრონისა ჩემისათჳინ დავდევ დღე თევდორობა აღაპად, გარდაიჴდიდეს მამასახლისი წინამძღუარი
+                        სიონისაჲ ვინცა იყოს</p>
             </div>
-            
-            <div type="apparatus" xml:space="preserve">
-            </div>          
-               
+
+            <div type="apparatus" xml:space="preserve"/>
+
+
             <div type="commentary">
                 <p></p>
             </div>
-            
+
         </body>
     </text>
 </TEI>

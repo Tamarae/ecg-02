@@ -5,12 +5,11 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="ka">ჭყონდიდის სანათლავის საამშენებლო წარწერა, 996 წ.</title>
-                <editor xml:lang="ka">ვალერი სილოგავა</editor>
+                <title>ჭყონდიდის სანათლავის საამშენებლო წარწერა, 996 წ.</title>
+                <editor>ვალერი სილოგავა</editor>
             </titleStmt>
             <publicationStmt>
-               <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
-                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
                  <idno type="filename">ECG915</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
@@ -36,10 +35,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
-                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/416">სანათლავი</objectType>
-                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
-                                   <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/416">Wall of Baptistery</objectType>
+                                   <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/416">სანათლავი</objectType>
                                    </support>
                                    </supportDesc>
                                 <layoutDesc>
@@ -61,26 +58,20 @@
                     <history>
 
                            <origin>
-                                <origPlace>
-                                <seg xml:lang="ka">ჭყონდიდი</seg>
-                            <seg xml:lang="en">Chkondidi</seg>
-                                </origPlace>
+                                <origPlace>ჭყონდიდი</origPlace>
                                 <origDate>996</origDate>
                             </origin>
 
                         <provenance type="found" when="1937">
-                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">
-                            <seg xml:lang="ka">ჭყონდიდი</seg>
-                            <seg xml:lang="en">Chkondidi</seg>
-                            </placeName>
+                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">ჭყონდიდი</placeName>
                             <!--  -->
-                            <rs type="monuList"/>
-                            <rs type="circumstances"/>
+                            <rs type="monuList">ჭყონდიდი</rs>
+                            <rs type="circumstances"></rs>
                             <rs type="context"/>
                         </provenance>
 
                         <provenance type="not-observed" subtype="destroyed">
-                            <placeName type="modernSpot"/>
+                            <placeName type="modernSpot"></placeName>
                              <idno type="invNo"/>
                         </provenance>
 
@@ -107,6 +98,11 @@
     -->
     <text>
         <body>
+          <div type="bibliography">
+
+                   <p><bibl n="1"><ptr target="#b119"/> ვალერი სილოგავა, სამეგრელო-აფხაზეთის ქართული ეპიგრაფიკა, <citedRange>49-51</citedRange></bibl></p>
+
+          </div>
             <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
 
                         <!-- [† ადიდენ ღმერთმან ბაგრატ] მეფჱ აფხაზთა [და ქართველთა, ორთავე შინ]ა ცხ(ო)რ(ე)ბ(ა)თა აღაშენა წ(მიდა)ჲ ესე სანათლა[ვი]
@@ -116,7 +112,7 @@
                  <ab>
                      &#8224; <supplied reason="lost"><w lemma="ადიდებს">ადიდენ</w></supplied>
                      <supplied reason="lost"><w lemma="ღმერთ">ღმერთმან</w></supplied>
-                     <supplied reason="lost"><persName type="local" key ="ბაგრატ III" ref="https://en.wikipedia.org/wiki/Bagrat_III_of_Georgia"><name nymRef="ბაგრატ III">ბაგრატ</name></persName></supplied>
+                     <supplied reason="lost"><persName type="ka" ref="ruler.xml#bagrat3"><name nymRef="ბაგრატ III">ბაგრატ</name></persName></supplied>
                      <roleName nymRef="მეფე">მეფჱ</roleName>
                      <placeName type="ethnic" nymRef="აფხაზ">აფხაზთა</placeName>
                      <supplied reason="lost">და</supplied>
@@ -150,11 +146,7 @@
                 მოპირკეთების დროს.</p>
             </div>
 
-            <div type="bibliography">
-                
-                     <p><bibl n="1">ვალერი სილოგავა, სამეგრელო-აფხაზეთის ქართული ეპიგრაფიკა <ptr target="#b119"/>, <citedRange>49-51</citedRange></bibl></p>
-                
-            </div>
+
         </body>
     </text>
 </TEI>

@@ -42,10 +42,9 @@
                                         20 სტრიქონიანი წარწერა; მის მარჯვნივ არის 6 სტრიქონიანი წარწერა მარჯვენა კიდის გასწვრივ, გამოყვანილია ისე, რომ I სტრიქონი კიდეზეა, ხოლო VI 
                                         ცენტრთანაა. ცენტრალური წარწერის მარცხნივ არის 5 სტრიქონიანი წარწერა, აქ I სტრიქონი ცენტრთანაა, V კი თვლის კიდეზე.
                                       <dimensions unit="mm">
-                                        <width/>
-                                        <height/>
-                                        <depth/>
-                                      </dimensions>
+                                        <width></width>
+                                        <height></height>
+                                        <depth></depth></dimensions>
                                     </layout>
                                 </layoutDesc>
                         </objectDesc>                        
@@ -53,7 +52,8 @@
                             <handNote>
                                 გულსაკიდის ამოზნექილ ქვედაპირზე ჩაჭრილია ბერძნული ასომთავრული წარწერა. წარწერიანი მხარის ქვემოთა ნაწილის მარცხენა კუთხე ამოტეხილია, ასოები 
                                 ძალიან წვრილად არის ჩაჭრილი, შედარებით დაუდევრად, მაგრამ მკაფიოდ და კუთხეები ჩაჭდეულია.
-
+                                <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
                                   </handNote>
                         </handDesc>
                         <decoDesc>
@@ -78,7 +78,11 @@
                     </history>                   
                 </msDesc>
             </sourceDesc>
-        </fileDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
     </teiHeader>
     <facsimile>
         <surface>
@@ -92,7 +96,7 @@
         <body>
              <div type="bibliography">
                 
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 264-265</citedRange></bibl></p>
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 264-265</citedRange></bibl></p>
                 
             </div>
             

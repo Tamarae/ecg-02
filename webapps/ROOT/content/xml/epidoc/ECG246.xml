@@ -13,7 +13,7 @@
                 <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
                 <idno type="filename">ECG246</idno>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/"> 
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
                         დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით
                     </licence>
                 </availability>
@@ -45,7 +45,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout writtenLines="2">
-                                        შესრულებულია ეკლესიის სამხრეთ-აღმოსავლეთ კუთხესთან, მიწაზე არსებულ განადგურებული ქვაჯვარის ბაზისზე, აღმოსავლეთ ფასადზე. 
+                                        შესრულებულია ეკლესიის სამხრეთ-აღმოსავლეთ კუთხესთან, მიწაზე არსებულ განადგურებული ქვაჯვარის ბაზისზე, აღმოსავლეთ ფასადზე.
                                         2 სტრიქონად. ფრაგმენტული.
                                     <dimensions unit="cm">
                                         <width>30</width>
@@ -87,7 +87,7 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    <!-- 
+    <!--
     <facsimile>
         <surface>
             <graphic url="tskise_01.jpg">
@@ -102,37 +102,37 @@
         2.ხ(უ)ცეს[ს][ა] საბა
         -->
         <body>
-                
+
             <div type="bibliography">
-                
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>147-148</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                <p><bibl n="2">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>36</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
+
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>147-148</citedRange>, თბილისი, 2018</bibl></p>
+                <p><bibl n="2"><ptr target="#b216"/> გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>36</citedRange>, თბილისი, 2016</bibl></p>
             </div>
-                
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
 
             <ab>
-                <lb n="1"/><w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><supplied reason="omitted" precision="high"><abbr>ხ</abbr></supplied><supplied reason="lost" precision="medium"><abbr>ელითა</abbr></supplied></expan></w>  
-                           <w lemma="ღმერთ"><expan><supplied reason="lost" precision="medium"><abbr>ღ</abbr><ex>მრთისაჲ</ex></supplied><supplied reason="omitted" precision="high"><abbr>თ</abbr></supplied><supplied reason="lost" precision="low"><abbr>ა</abbr></supplied></expan></w> 
+                <lb n="1"/><w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><supplied reason="omitted" precision="high"><abbr>ხ</abbr></supplied><supplied reason="lost" precision="medium"><abbr>ელითა</abbr></supplied></expan></w>
+                           <w lemma="ღმერთ"><expan><supplied reason="lost" precision="medium"><abbr>ღ</abbr><ex>მრთისაჲ</ex></supplied><supplied reason="omitted" precision="high"><abbr>თ</abbr></supplied><supplied reason="lost" precision="low"><abbr>ა</abbr></supplied></expan></w>
                            <gap reason="lost" extent="unknown" unit="character"/>
-                <lb n="2"/><roleName nymRef="ხუცეს"><expan><abbr>ხ</abbr><ex>უ</ex><abbr>ცეს</abbr><supplied reason="omitted" precision="high"><abbr>ს</abbr></supplied><supplied reason="lost" precision="medium"><abbr>ა</abbr></supplied></expan></roleName>   
-                          <persName type="local" key="ხუცესი საბა"><name nymRef="საბა">საბა</name></persName>   
+                <lb n="2"/><roleName nymRef="ხუცეს"><expan><abbr>ხ</abbr><ex>უ</ex><abbr>ცეს</abbr><supplied reason="omitted" precision="high"><abbr>ს</abbr></supplied><supplied reason="lost" precision="medium"><abbr>ა</abbr></supplied></expan></roleName>
+                          <persName type="local" key="ხუცესი საბა"><name nymRef="საბა">საბა</name></persName>
                 </ab>
-             
+
             </div>
-            
+
 
                 <div type="translation"/>
-                
+
                 <div type="commentary">
                     <p>დაზიანება: ქვის ზედაპირი გადარეცხილია, ზოგ ადგილას ამოტეხილი. წარწერა
                         სავარაუდოდ ჩრდილო წახნაგზეც გრძელდებოდა, თუმცა, აღნიშნული დაზიანებების გამო
-                        წარწერა ფრაგმენტულად იკითხება. 
-                        წარწერის დათარიღების საფუძველი: უნდა იყოს ეკლესიის საამშენებლო წარწერის თანადროული. 
-                        გიორგი ოთხმეზურს 2016 წლის გამოცემაში წარწერა შემდეგნაირად აქვს წაკითხული: 
+                        წარწერა ფრაგმენტულად იკითხება.
+                        წარწერის დათარიღების საფუძველი: უნდა იყოს ეკლესიის საამშენებლო წარწერის თანადროული.
+                        გიორგი ოთხმეზურს 2016 წლის გამოცემაში წარწერა შემდეგნაირად აქვს წაკითხული:
                         ხუცე(მან) საბა (აღჰუმართე ჯუარი ესე)</p>
                 </div>
-      
+
         </body>
     </text>
 </TEI>

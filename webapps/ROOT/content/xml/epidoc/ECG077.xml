@@ -122,16 +122,16 @@
         <body>
              <div type="bibliography">
                 
-                    <p><bibl n="1"><ptr target="bibliography.xml#b147"/>გიორგი წერეთელი, მცხეთის ბერძნული წარწერა ვესპასიანეს ხანისა, <citedRange> 1-23</citedRange></bibl></p>
-                    <p><bibl n="2"><ptr target="bibliography.xml#b136"/>თინათინ ყაუხჩიშვილი, საქართველოს ისტორიის ძველი ბერძნული წყაროები, <citedRange> 241-245</citedRange></bibl></p>
-                    <p><bibl n="3"><ptr target="bibliography.xml#b130"/>თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 251-252</citedRange></bibl></p>
-                    <p><bibl n="4"><ptr target="bibliography.xml#b148"/>Anna Boltounova, Quelques notes sur l'inscription de Vespasien, trouvée à Mtskhetha, <citedRange>213-222</citedRange></bibl></p>
-                    <p><bibl n="5"><ptr target="bibliography.xml#b149"/>თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, ტ. II <citedRange> 251-252</citedRange></bibl></p> 
-                    <p><bibl n="6"><ptr target="bibliography.xml#b150"/>მცხეთა: არქეოლოგიური კვლევა-ძიების შედეგები, ტ. 11, <citedRange> 41;  135</citedRange></bibl></p>
-                    <p><bibl n="7"><ptr target="bibliography.xml#b132"/>თინათინ ყაუხჩიშვილი, ახალი ბერძნული წარწერები არმაზციხე-ბაგინეთიდან<citedRange></citedRange></bibl></p>
-                    <p><bibl n="8"><ptr target="bibliography.xml#b133"/>თინათინ ყაუხჩიშვილი, ახალი ბერძნული წარწერა არმაზციხე-ბაგინეთიდან (II), <citedRange> 11-14</citedRange></bibl></p>
-                    <p><bibl n="9"><ptr target="bibliography.xml#b80"/>თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში, <citedRange> 234-240</citedRange></bibl></p> 
-                    <p><bibl n="10"><ptr target="bibliography.xml#b68"/>დევიდ ბრაუნდი, საქართველო ანტიკურ ხანაში: კოლხეთისა და ამიერკავკასიის იბერიის ისტორია ძვ.წ. 550-ახ.წ. 562 წლები, <citedRange> 327-329</citedRange></bibl></p>                                             
+                    <p><bibl n="1"><ptr target="#b147"/>გიორგი წერეთელი, მცხეთის ბერძნული წარწერა ვესპასიანეს ხანისა, <citedRange> 1-23</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b136"/>თინათინ ყაუხჩიშვილი, საქართველოს ისტორიის ძველი ბერძნული წყაროები, <citedRange> 241-245</citedRange></bibl></p>
+                    <p><bibl n="3"><ptr target="#b130"/>თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 251-252</citedRange></bibl></p>
+                    <p><bibl n="4"><ptr target="#b148"/>Anna Boltounova, Quelques notes sur l'inscription de Vespasien, trouvée à Mtskhetha, <citedRange>213-222</citedRange></bibl></p>
+                    <p><bibl n="5"><ptr target="#b149"/>თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, ტ. II <citedRange> 251-252</citedRange></bibl></p> 
+                    <p><bibl n="6"><ptr target="#b150"/>მცხეთა: არქეოლოგიური კვლევა-ძიების შედეგები, ტ. 11, <citedRange> 41;  135</citedRange></bibl></p>
+                    <p><bibl n="7"><ptr target="#b132"/>თინათინ ყაუხჩიშვილი, ახალი ბერძნული წარწერები არმაზციხე-ბაგინეთიდან<citedRange></citedRange></bibl></p>
+                    <p><bibl n="8"><ptr target="#b133"/>თინათინ ყაუხჩიშვილი, ახალი ბერძნული წარწერა არმაზციხე-ბაგინეთიდან (II), <citedRange> 11-14</citedRange></bibl></p>
+                    <p><bibl n="9"><ptr target="#b80"/>თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში, <citedRange> 234-240</citedRange></bibl></p> 
+                    <p><bibl n="10"><ptr target="#b68"/>დევიდ ბრაუნდი, საქართველო ანტიკურ ხანაში: კოლხეთისა და ამიერკავკასიის იბერიის ისტორია ძვ.წ. 550-ახ.წ. 562 წლები, <citedRange> 327-329</citedRange></bibl></p>                                             
                 
             </div>
   

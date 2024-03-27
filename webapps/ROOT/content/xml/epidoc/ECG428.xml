@@ -34,14 +34,14 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="https://www.eagle-network.eu/voc/material/lod/30">ქვა</material>
                                    <objectType>კედელი</objectType>
                                 </support>
                             </supportDesc>
                                 <layoutDesc>
                                     <layout>
-                                      აბულბუგის მცირე, ერთნავიანი რესტავრირებული ეკლესიის დასავლეთ კედელში გარედან, დაახლოებით ადამიანის სიმაღლეზე ჩადგმულია ქვა, რომელზედაც გამოსახულია 
+                                      აბულბუგის მცირე, ერთნავიანი რესტავრირებული ეკლესიის დასავლეთ კედელში გარედან, დაახლოებით ადამიანის სიმაღლეზე ჩადგმულია ქვა, რომელზედაც გამოსახულია
                                       ბოლნური ჯვარი და მის ქვეშ ბერძნული ასოები.
                                     <dimensions unit="cm">
                                         <width></width>
@@ -49,7 +49,7 @@
                                         <depth></depth></dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
                              <height/>
@@ -62,20 +62,20 @@
                     <history>
                             <origin>
                                 <origPlace></origPlace>
-                                <origDate notBefore-custom="0501" notAfter-custom="0700" precision="medium" 
+                                <origDate notBefore-custom="0501" notAfter-custom="0700" precision="medium"
                                     evidence="lettering" datingMethod="#julian">VI-VII AD</origDate>
                               </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot">აბულბუგის ეკლესია</placeName> 
+                                <placeName type ="ancientFindspot">აბულბუგის ეკლესია</placeName>
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                         
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">აბულბუგი</placeName>
                             <idno/>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -95,39 +95,39 @@
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 241</citedRange></bibl></p>
-                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 292-293</citedRange></bibl></p>
-                    <p><bibl n="3">ლ. მუსხელიშვილი, არქეოლოგიური ექსკურსიები მაშავრის ხეობაში<ptr target="bibliography.xml#b135"/>, <citedRange> 24-26</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 241</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b80"/> თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში, <citedRange> 292-293</citedRange></bibl></p>
+                    <p><bibl n="3"><ptr target="#b135"/> ლ. მუსხელიშვილი, არქეოლოგიური ექსკურსიები მაშავრის ხეობაში, <citedRange> 24-26</citedRange></bibl></p>
+
             </div>
 
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!--  ΑΩ -->
                  <ab>
                      <!-- <choice><abbr>ΑΩ</abbr><expan>ἐγὼ ἐίμι τὸ ἄλφα καὶ τὸ ὦ</expan></choice> -->ΑΩ
                     <!--<w lemma="ἐγώ εἰμι τὸ ἄλφα καὶ τὸ ὦ"><expan><abbr>Α</abbr><ex>ἐγώ εἰμι τὸ ἄλφα καὶ τὸ ὦ</ex><abbr>Ω</abbr></expan></w> --> <!-- NB  არასწორადაა ექსპანი -->
                  </ab>
-                
+
             </div>
-            
+
             <div type="translation" xml:lang="ka">
                 <p>მე ვარ ანი და ჰოე...</p>
             </div>
-            
+
             <div type="apparatus" xml:space="preserve">                                                               <!-- კრიტიკული აპარატი -->
               <head>კრიტიკული აპარატი</head>
               <p><app><lem></lem>
               <rdg></rdg>
               </app></p>
             </div>
-           
+
             <div type="commentary">
-                <p>როგორც ცნობილია, წარწერაში გამოყენებული აღნიშვნა პირველი საუკუნეებიდან მომდინარეობს. იგი ქრისტეს სიმბოლოა და წარმოადგენს იოანეს გამოცხადებიდან ადგილს, შეიძლება 
+                <p>როგორც ცნობილია, წარწერაში გამოყენებული აღნიშვნა პირველი საუკუნეებიდან მომდინარეობს. იგი ქრისტეს სიმბოლოა და წარმოადგენს იოანეს გამოცხადებიდან ადგილს, შეიძლება
                 ითქვას, შემოკლებით გადმოცემას. ეს ადგილია: 1,8 და 21,6: "ἐγώ εἰμι τὸ ἄλφα καὶ τὸ ὦ... λέγει Κύριος ὁ θεός" ("მე ვარ ანი და ჰოე... იტყვს უფალი").</p>
                 <p>ქვა ამჟამად სწორად არაა ჩადგმული (180 გრადუსით არის შესაბრუნებელი), ჩანს ძველი მასალა (დაახლოებით VI-VII სს-ის ქვა) გამოიყენეს შემდეგ და ისე ჩასვეს, როგორც მოხვდათ.</p>
-                <p>წარწერა საინტერესოა პალეოგრაფიული თვალსაზრისით: α საკმაოდ სტილიზებულია (ბევრი დამატებითი შტრიხი აქვს), ხოლო ω წესიერი ფორმისა არც კია, მთლიანად შესაბრუნებელია. 
+                <p>წარწერა საინტერესოა პალეოგრაფიული თვალსაზრისით: α საკმაოდ სტილიზებულია (ბევრი დამატებითი შტრიხი აქვს), ხოლო ω წესიერი ფორმისა არც კია, მთლიანად შესაბრუნებელია.
                 სავარაუდოდ ეს ადგილობრივი მჭრელის შეცდომა უნდა იყოს.</p>
                 </div>
 

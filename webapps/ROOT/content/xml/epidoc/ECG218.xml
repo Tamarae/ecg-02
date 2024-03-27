@@ -24,7 +24,7 @@
                             დმანისი
                         </collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მოსახსენებელი</seg>
@@ -53,7 +53,7 @@
                                 <p>ნუსხურნარევი ასომთავრული წარწერა</p>
                                 <dimensions unit="mm">
                                     <height>30-60</height>
-                                </dimensions>        
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -74,8 +74,8 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-          <!-- 
-     
+          <!--
+
     <facsimile>
         <surface>
             <graphic url="tskise_01.jpg">
@@ -84,38 +84,38 @@
             </graphic>
         </surface>
     </facsimile> -->
-    
-    
+
+
     <text>
-        
-        <!-- 
-    1. ქ(რისტ)ე, შ(ეი)წყ(ალ)ე შ(ა)რ(ია)ქაჲ 
+
+        <!--
+    1. ქ(რისტ)ე, შ(ეი)წყ(ალ)ე შ(ა)რ(ია)ქაჲ
      -->
-        
+
         <body>
-            
+
              <div type="bibliography">
-                
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>109</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                <p><bibl n="2">დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>112</citedRange> თბილისი, 2014<ptr target="bibliography.xml#b213"/></bibl></p>
-                <p><bibl n="3">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>15</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
-                
-                 <p><bibl n="4">Е. Такайсшвили, Археологические екскурсии разыскания и заметки, IV <citedRange>103</citedRange>, Тб. 1913<ptr target="bibliography.xml#b212"/></bibl></p>
-                 
-                
+
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>109</citedRange>, თბილისი, 2018</bibl></p>
+                <p><bibl n="2"><ptr target="#b213"/> დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>112</citedRange> თბილისი, 2014</bibl></p>
+                <p><bibl n="3"><ptr target="#b216"/> გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>15</citedRange>, თბილისი, 2016</bibl></p>
+
+                 <p><bibl n="4"><ptr target="#b212"/> Е. Такайсшвили, Археологические екскурсии разыскания и заметки, IV <citedRange>103</citedRange>, Тб. 1913</bibl></p>
+
+
             </div>
 
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
                     <ab>
-                        <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
+                        <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
                                     <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეი</ex><abbr>წყ</abbr><ex>ალ</ex><abbr>ე</abbr></expan></w>
                                     <persName type="local" key="შარიქაჲ"><expan><abbr>შ</abbr><ex>ა</ex><abbr>რ</abbr><ex>ია</ex><abbr>ქაჲ</abbr></expan></persName>
                     </ab>
             </div>
-            
+
             <div type="translation"/>
-            
-            
+
+
             <div type="commentary">
                 <p> სოფლის ცენტრში მდგარი ეკლესიის დას. ფასადზე, სარკმლის დაბლა დიდი ქვის ზედა კიდეზე ამოღარულია1 სტრ. ნუსხურნარევი ასომთავრული კიდურწერტილოვანი მოსახსენებელი წარწერა.
                     ქარაგმის ნიშნად გამოყენებულია კიდურწერტილოვანი, სწორი, მოკლე, განივი ხაზი. განკვეთილობის ნიშნები არ ახლავს.
@@ -123,24 +123,8 @@
                     წარმოდგენილი დათარიღების საფუძველი:  პალეოგრაფიულ ნიშნები- კიდურწერტილოვანი დამწერლობა; გაკუთხოვანებული გრაფემები; მიდრეკილება განუსხურებისკენ.
                 </p>
             </div>
-            
-           
+
+
         </body>
     </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

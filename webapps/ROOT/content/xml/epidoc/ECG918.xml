@@ -5,12 +5,11 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="ka">[იოვანე ჭყონდიდელის] ეპიტაფიის ფრაგმენტები</title>
-                <editor xml:lang="ka">ვალერი სილოგავა</editor>
+                <title>[იოვანე ჭყონდიდელის] ეპიტაფიის ფრაგმენტები</title>
+                <editor>ვალერი სილოგავა</editor>
             </titleStmt>
             <publicationStmt>
-                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
-                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
                  <idno type="filename">ECG918</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
@@ -36,10 +35,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">თეთრი კირქვა</material>
-                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/416">კედელი</objectType>
-                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Limestone</material>
-                                   <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/416">Wall</objectType>
+                                   <material ref="http://www.eagle-network.eu/voc/material/lod/2">თეთრი კირქვა</material>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/416">კედელი</objectType>
                                      <dimensions unit="cm">
                                         <width>46</width>
                                          <height>44</height>
@@ -67,29 +64,20 @@
                     <history>
 
                            <origin>
-                                <origPlace>
-                                    <seg xml:lang="ka">ჭყონდიდი</seg>
-                            <seg xml:lang="en">Chkondidi</seg>
-                                </origPlace>
+                                <origPlace>ჭყონდიდი</origPlace>
                                 <origDate>X AD</origDate>
                             </origin>
 
                         <provenance type="found" when="1937">
-                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">
-                               <seg xml:lang="ka">ჭყონდიდი</seg>
-                            <seg xml:lang="en">Chkondidi</seg>
-                            </placeName>
+                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">ჭყონდიდი</placeName>
                             <!--  -->
-                            <rs type="monuList"/>
-                            <rs type="circumstances"/>
+                            <rs type="monuList">ჭყონდიდი</rs>
+                            <rs type="circumstances"></rs>
                             <rs type="context"/>
                         </provenance>
 
                         <provenance type="observed">
-                            <placeName type="modernSpot">
-                               <seg xml:lang="ka">ჭყონდიდი</seg>
-                            <seg xml:lang="en">Chkondidi</seg>
-                            </placeName>
+                            <placeName type="modernSpot">ჭყონდიდი</placeName>
                              <idno type="invNo"/>
                         </provenance>
 
@@ -116,6 +104,11 @@
     -->
     <text>
         <body>
+          <div type="bibliography">
+
+                   <p><bibl n="1"><ptr target="#b119"/> ვალერი სილოგავა, სამეგრელო-აფხაზეთის ქართული ეპიგრაფიკა, <citedRange>49-51</citedRange></bibl></p>
+
+          </div>
             <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
 
                         <!--  [...]თხსევსქიმე
@@ -156,11 +149,7 @@
                 <p/>
             </div>
 
-            <div type="bibliography">
-                
-                     <p><bibl n="1">ვალერი სილოგავა, სამეგრელო-აფხაზეთის ქართული ეპიგრაფიკა <ptr target="bibliography.xml#b119"/>, <citedRange>49-51</citedRange></bibl></p>
-                
-            </div>
+
         </body>
     </text>
 </TEI>

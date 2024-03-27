@@ -5,12 +5,11 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="ka">ჭყონდიდი, შერგილ დადიანის წარწერა</title>
-                <editor xml:lang="ka">ვალერი სილოგავა</editor>
+                <title>ჭყონდიდი, შერგილ დადიანის წარწერა</title>
+                <editor>ვალერი სილოგავა</editor>
             </titleStmt>
             <publicationStmt>
-                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
-                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
                  <idno type="filename">ECG920</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
@@ -36,10 +35,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
-                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/416">კედელი</objectType>
-                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
-                                   <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/416">Wall</objectType>
+                                   <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/416">კედელი</objectType>
                                    </support>
                                    </supportDesc>
                                 <layoutDesc>
@@ -60,29 +57,20 @@
                     <history>
 
                            <origin>
-                                <origPlace>
-                          <seg xml:lang="ka">ჭყონდიდი</seg>
-                            <seg xml:lang="en">Chkondidi</seg>
-                                </origPlace>
+                                <origPlace>ჭყონდიდი</origPlace>
                                 <origDate>X AD</origDate>
                             </origin>
 
                         <provenance type="found" when="1937">
-                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">
-                                <seg xml:lang="ka">ჭყონდიდი</seg>
-                            <seg xml:lang="en">Chkondidi</seg>
-                            </placeName>
+                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">ჭყონდიდი</placeName>
                             <!--  -->
-                            <rs type="monuList"/>
-                            <rs type="circumstances"/>
+                            <rs type="monuList">ჭყონდიდი</rs>
+                            <rs type="circumstances"></rs>
                             <rs type="context"/>
                         </provenance>
 
                         <provenance type="observed">
-                            <placeName type="modernSpot">
-                            <seg xml:lang="ka">ჭყონდიდი</seg>
-                            <seg xml:lang="en">Chkondidi</seg>
-                            </placeName>
+                            <placeName type="modernSpot">ჭყონდიდი</placeName>
                              <idno type="invNo"/>
                         </provenance>
 
@@ -109,6 +97,11 @@
     -->
     <text>
         <body>
+          <div type="bibliography">
+
+                   <p><bibl n="1"><ptr target="#b119"/> ვალერი სილოგავა, სამეგრელო-აფხაზეთის ქართული ეპიგრაფიკა, <citedRange>58</citedRange></bibl></p>
+
+          </div>
             <div type="edition"  xml:space="preserve" xml:lang="ka" ana="mtavruli">
 
                         <!-- დადიანი || შერგილ || დადიანი -->
@@ -116,19 +109,19 @@
 
                  <div type="textpart" n="1">
                      <ab>
-                         <lb n="1"/><persName type="local" key="შერგილ დადიანი"><name nymRef="დადიანი">დადიანი</name></persName>
+                         <lb n="1"/><persName><name nymRef="დადიანი">დადიანი</name></persName>
                     </ab>
                  </div>
 
                 <div type="textpart" n="2">
                      <ab>
-                         <lb n="1"/><name nymRef="შერგილ დადიანი">შერგილ</name>
+                         <lb n="1"/><persName><name nymRef="შერგილ დადიანი">შერგილ</name></persName>
                     </ab>
                  </div>
 
                 <div type="textpart" n="3">
                      <ab>
-                         <lb n="1"/><name nymRef="დადიანი">დადიანი</name>
+                         <lb n="1"/><persName><name nymRef="დადიანი">დადიანი</name></persName>
                     </ab>
                  </div>
 
@@ -145,11 +138,7 @@
                 <p/>
             </div>
 
-            <div type="bibliography">
-                
-                     <p><bibl n="1">ვალერი სილოგავა, სამეგრელო-აფხაზეთის ქართული ეპიგრაფიკა <ptr target="bibliography.xml#b119"/>, <citedRange>58</citedRange></bibl></p>
-                
-            </div>
+
         </body>
     </text>
 </TEI>

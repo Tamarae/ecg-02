@@ -57,16 +57,16 @@
                                    </layout>
                             </layoutDesc>
                         </objectDesc>
-                        
+
                         <handDesc>
                             <handNote script="asomtavruli" style="embossed">
                                 <seg xml:lang="ka"><rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
                                 <seg xml:lang="en">Embossed Asomtavruli inscription</seg>
-                                <height unit="cm">3</height>  
+                                <height unit="cm">3</height>
                               </handNote>
                         </handDesc>
               </physDesc>
-                    
+
                     <history>
                         <origin>
                             <origPlace ref="https://memkvidreoba.gov.ge/objects/immovable/immovableObject?id=24984">
@@ -75,23 +75,23 @@
                             </origPlace>
                            <origDate notBefore="0400" notAfter="0600">V-VI AD</origDate>
                         </origin>
-                        
+
                         <provenance type="found" when="1937">
                             <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">
                                 <seg xml:lang="ka">ბოლნისის სიონი</seg>
                                 <seg xml:lang="en">Bolnisi Sioni</seg>
                             </placeName>
-                            <!-- 41.389081, 44.512551 --> 
+                            <!-- 41.389081, 44.512551 -->
                             <rs type="monuList"/>
                             <rs type="circumstances">
-                                <seg xml:lang="ka">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში, 
-                                9 კმ. მანძილზე ქ. ბოლნისიდან სამხრეთით, 1 კმ. მანძილზე სოფ. ბონის-ხაჩინიდან. 
+                                <seg xml:lang="ka">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში,
+                                9 კმ. მანძილზე ქ. ბოლნისიდან სამხრეთით, 1 კმ. მანძილზე სოფ. ბონის-ხაჩინიდან.
                                 წარწერა ბოლნისის სიონის ტერიტორიაზე 1937 წელს აღმოაჩინა კულტურულ ძეგლთა
                             დაცვის კომიტეტის მიერ მოწყობილმა არქეოლოგიურმა ექსპედიციამ, რომელსაც ლევან მუსხელიშვილი ხელმძღვანელობდა.</seg>
                                 <seg xml:lang="en">Bolnisi Sioni Cathedral is located in Kvemo Kartli, 9 km away from city Bolnisi to the south, 1 km distance from the village Bonis-Khachini. The inscription was discovered during the archaeological expedition held by the Cultural Heritage Preservation Committee supervised by Levan Muskhelishvili in 1937.</seg>
                             </rs>
                             <rs type="context"/>
-                        </provenance>                     
+                        </provenance>
                         <provenance type="observed">
                             <placeName type="modernSpot" ref="http://museum.ge/">
                                 <seg xml:lang="ka">საქართველოს ეროვნული მუზეუმი</seg>
@@ -107,7 +107,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
  <facsimile>
@@ -120,35 +120,35 @@
     </facsimile>
     <text>
         <body>
-            <div type="bibliography"> 
-                
-                    <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები<ptr target="bibliography.xml#b101"/>, <citedRange> 76-77</citedRange></bibl></p>
-                    <p><bibl n="2">Н. Г. Чубинашвили, Болнисский сион<ptr target="bibliography.xml#b45"/>, <citedRange>101</citedRange></bibl></p>
-                    <p><bibl n="3">საქართველოს სახელმწიფო მუზეუმის ქართული ეპიგრაფიკული ძეგლების კატალოგი<ptr target="bibliography.xml#b111"/>, <citedRange> 41-42</citedRange></bibl></p>
-                
-            </div> 
-            
-              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">               
+            <div type="bibliography">
+
+                    <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები, <citedRange> 76-77</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b45"/> Н. Г. Чубинашвили, Болнисский сион, <citedRange>101</citedRange></bibl></p>
+                    <p><bibl n="3"><ptr target="#b111"/> საქართველოს სახელმწიფო მუზეუმის ქართული ეპიგრაფიკული ძეგლების კატალოგი, <citedRange> 41-42</citedRange></bibl></p>
+
+            </div>
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
                     <!-- „განდი“  -->
-           
+
    <ab>
    <lb n="1"/> განდი
-   </ab>                                                       
-      </div>  
-            
+   </ab>
+      </div>
+
             <div type="translation">
-                <p xml:lang="ka"> განდი </p> 
+                <p xml:lang="ka"> განდი </p>
                 <p xml:lang="en">Gandi</p>
-            </div>                                                                                                                                                                                                                                                               
-            
-            
+            </div>
+
+
             <div type="apparatus" xml:space="preserve"/>
-            
+
 
             <div type="commentary">
                 <p xml:lang="ka"> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #10. წარწერას განკვეთილობისა და ქარაგმის ნიშნები არ ახლავს.</p>
                 <p xml:lang="en">According to the Corpus of Georgian inscriptions by Nodar Shoshiashvili the inscription N10. No sign of the spaces between words or the abbreviations.</p>
-               </div>               
+               </div>
         </body>
     </text>
 </TEI>

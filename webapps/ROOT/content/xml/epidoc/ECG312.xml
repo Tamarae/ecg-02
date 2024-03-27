@@ -48,8 +48,10 @@
                         </objectDesc>                        
                         <handDesc>
                             <handNote>
-                                <p>ასოები ნეგატიურად არის შესრულებული.</p>                                  
-                            </handNote>
+                                <p>ასოები ნეგატიურად არის შესრულებული.</p>
+                               <height unit="cm" precision="medium"></height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
                         </handDesc>
                         <decoDesc>
                             <decoNote>ბეჭდის თვალზე გამოსახულია საყურიანი მამაკაცის პროფილი.</decoNote>
@@ -92,8 +94,8 @@
         <body>
              <div type="bibliography">
                 
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/> <citedRange>261</citedRange></bibl></p>
-                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/> <citedRange>263</citedRange></bibl></p>
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="#b130"/> <citedRange>261</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b80"/> თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში <citedRange>263</citedRange></bibl></p>
                 
             </div>
             

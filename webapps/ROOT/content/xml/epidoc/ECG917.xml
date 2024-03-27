@@ -5,12 +5,11 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="ka">ჭყონდიდის წარწერა მაცხოვრის გამოსახულების გარშემო</title>
-                <editor xml:lang="ka">ვალერი სილოგავა</editor>
+                <title>ჭყონდიდის წარწერა მაცხოვრის გამოსახულების გარშემო</title>
+                <editor>ვალერი სილოგავა</editor>
             </titleStmt>
             <publicationStmt>
-                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
-                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
                  <idno type="filename">ECG917</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
@@ -36,8 +35,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
-                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/416">კედელი</objectType>
+                                   <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/416">კედელი</objectType>
                                    </support>
                                    </supportDesc>
                                 <layoutDesc>
@@ -59,30 +58,20 @@
                     <history>
 
                            <origin>
-                                <origPlace>
-                                <seg xml:lang="ka">ჭყონდიდი</seg>
-                                <seg xml:lang="en">Chkondidi</seg>
-                                </origPlace>
+                                <origPlace>ჭყონდიდი</origPlace>
                                 <origDate>X AD</origDate>
                             </origin>
 
                         <provenance type="found" when="1937">
-                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">
-                            <seg xml:lang="ka">ჭყონდიდი</seg>
-                            <seg xml:lang="en">Chkondidi</seg>
-                            
-                            </placeName>
+                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">ჭყონდიდი</placeName>
                             <!--  -->
-                            <rs type="monuList"/>
-                            <rs type="circumstances"/>
+                            <rs type="monuList">ჭყონდიდი</rs>
+                            <rs type="circumstances"></rs>
                             <rs type="context"/>
                         </provenance>
 
                         <provenance type="observed">
-                            <placeName type="modernSpot">
-                            <seg xml:lang="ka">ჭყონდიდი</seg>
-                            <seg xml:lang="en">Chkondidi</seg>
-                            </placeName>
+                            <placeName type="modernSpot">ჭყონდიდი</placeName>
                              <idno type="invNo"/>
                         </provenance>
 
@@ -109,6 +98,11 @@
     -->
     <text>
         <body>
+          <div type="bibliography">
+
+                   <p><bibl n="1"><ptr target="#b119"/> ვალერი სილოგავა, სამეგრელო-აფხაზეთის ქართული ეპიგრაფიკა, <citedRange>53-54</citedRange></bibl></p>
+
+          </div>
             <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
 
                        <!--   ი(ეს)უ ქ(რისტ)ე
@@ -116,8 +110,8 @@
 
 
                  <ab>
-                        <lb n="1"/><w lemma="იესუ"><expan><abbr>ი</abbr><ex>ეს</ex><abbr>უ</abbr></expan></w>
-                        <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
+                        <lb n="1"/><persName type="divine" ref="divine.xml#iesous"><name nymRef="იესუ"><expan><abbr>ი</abbr><ex>ეს</ex><abbr>უ</abbr></expan></name></persName>
+                        <persName type="divine" ref="divine.xml#iesous"><name nymRef="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></name></persName>
                         <lb n="2"/><w lemma="მე">მე</w> <w lemma="ჰყოფს">ვ
                         <lb n="3" break="no"/>ყო</w>
                         <lb n="4"/><w lemma="ცა"><expan><abbr>ც</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
@@ -152,11 +146,7 @@
                 <p/>
             </div>
 
-            <div type="bibliography">
-                
-                     <p><bibl n="1">ვალერი სილოგავა, სამეგრელო-აფხაზეთის ქართული ეპიგრაფიკა <ptr target="bibliography.xml#b119"/>, <citedRange>53-54</citedRange></bibl></p>
-                
-            </div>
+
         </body>
     </text>
 </TEI>

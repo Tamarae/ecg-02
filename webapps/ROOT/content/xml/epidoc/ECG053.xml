@@ -25,14 +25,14 @@
                     <msIdentifier>
                         <collection>ბოლნისი</collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მოსახსენებელი</seg>
                             <seg xml:lang="en">Memorial</seg>
                         </summary>
                     </msContents>
-                    
+
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
@@ -48,7 +48,7 @@
                                 </support>
                             </supportDesc>
                             <layoutDesc>
-                                <layout writtenLines="8"> 
+                                <layout writtenLines="8">
                                     <seg xml:lang="ka">წარწერა რვასტრიქონიანია. იგი მდებარეობს ბოლნისის სიონის აღმოსავლეთის ფასადზე, აფსიდის სარკმლის თავზე.
                                     წარწერის ცენტრში, მე-3-6 სტრიქონებს შორის, მოთავსებულია მედალიონში ჩასმული „ბოლნური ჯვარი“.</seg>
                                     <seg xml:lang="en">Eight line inscription. The inscription is located on the east facade of Bolnisi Sioni Cathedral on top of the window apse. There is the medallion with the shape of “Bolnisi Cross” in the middle of the inscription between the lines 3-6.  </seg>
@@ -60,14 +60,14 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                          
+
                             <handNote script="asomtavruli" style="embossed">
                                  <seg xml:lang="ka"><rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
                                 <seg xml:lang="en">Embossed Asomtavruli inscription</seg>
                                 <height unit="cm">6</height>
                             </handNote>
                         </handDesc>
-                    </physDesc>        
+                    </physDesc>
                     <history>
                         <origin>
                             <origPlace ref="https://memkvidreoba.gov.ge/objects/immovable/immovableObject?id=24984">
@@ -81,15 +81,15 @@
                                 <seg xml:lang="ka">ბოლნისის სიონი</seg>
                                 <seg xml:lang="en">Bolnisi Sioni</seg>
                             </placeName>
-                            <!-- 41.389081, 44.512551 --> 
+                            <!-- 41.389081, 44.512551 -->
                             <rs type="monuList"/>
                             <rs type="circumstances">
-                                <seg xml:lang="ka">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში, 
+                                <seg xml:lang="ka">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში,
                                 9 კმ. მანძილზე ქ. ბოლნისიდან სამხრეთით, 1 კმ. მანძილზე სოფ. ბოლნის-ხაჩინიდან.</seg>
                                 <seg xml:lang="en">Bolnisi Sioni Cathedral is located in Kvemo Kartli, 9 km away from city Bolnisi to the south, 1 km distance from the village Bonis-Khachini. </seg>
                             </rs>
                             <rs type="context"/>
-                        </provenance>            
+                        </provenance>
                         <provenance type="observed">
                             <placeName type="modernSpot">
                                 <seg xml:lang="ka">ბოლნისის სიონი</seg>
@@ -103,10 +103,10 @@
         </fileDesc>
 
 
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
-            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc> 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
+            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
-        
+
     <facsimile>
         <surface>
             <graphic url="https://drive.google.com/file/d/1OdZX9sL-_i0FdoNYMZPNl3MAYmmus1rW/view?usp=sharing">
@@ -114,44 +114,44 @@
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
-    </facsimile>  
-    
+    </facsimile>
+
     <text>
         <body>
             <div type="bibliography">
-                
-     <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები<ptr target="bibliography.xml#b101"/>, <citedRange> 67-68</citedRange></bibl></p>
-     <p><bibl n="2">კორნელი დანელია, ზურაბ სარჯველაძე, ქართული პალეოგრაფია<ptr target="bibliography.xml#b92"/>, <citedRange> 16-17</citedRange></bibl></p>  
-     <p><bibl n="3">M. Brosset, Letres dn M. Bartholomaei relatives aux auntiquites géorgienns<ptr target="bibliography.xml#b19"/></bibl></p>
-     <p><bibl n="4">ივანე ჯავახიშვილი, ახლად აღმოჩენილი უძველესი ქართული ხელნაწერები და მათი მნიშვნელობა მეცნიერებისათვის<ptr target="bibliography.xml#b85"/>, <citedRange> 320-323</citedRange></bibl></p>
-     <p><bibl n="5">აკაკი შანიძე, ნაშთები III პირის ობიექტური პრეფიქსის ხმარებისა ხმოვნების წინ ქართულ ზმნაში<ptr target="bibliography.xml#b60"/>, <citedRange> 277</citedRange></bibl></p>
-     <p><bibl n="6">ივანე ჯავახიშვილი, ქართული დამწერლობათმცოდნეობა ანუ პალეოგრაფია<ptr target="bibliography.xml#b86"/>, <citedRange> 158</citedRange></bibl></p>
-     <p><bibl n="7">გიორგი ჩუბინაშვილი, რამოდენიმე თავი ქართული ხელოვნების ისტორიიდან<ptr target="bibliography.xml#b66"/>, <citedRange> 61</citedRange></bibl></p>
-     <p><bibl n="8">აკაკი შანიძე, ძველი ქართულის ქრესტომათია ლექსიკონითურთ<ptr target="bibliography.xml#b59"/>, <citedRange> 1, 107</citedRange></bibl></p>
-     <p><bibl n="9">გიორგი ჩუბინაშვილი, ქართული ხელოვნების ისტორია<ptr target="bibliography.xml#b131"/>, <citedRange> 42</citedRange></bibl></p>
-     <p><bibl n="10">ლევან მუსხელიშვილი, ბოლნისი<ptr target="bibliography.xml#b93"/>, <citedRange>  328-329</citedRange></bibl></p>
-     <p><bibl n="11">Н. Г. Чубинашвили, Болнисский сион<ptr target="bibliography.xml#b45"/>, <citedRange>63-68</citedRange></bibl></p>
-     <p><bibl n="12">ივანე ჯავახიშვილი, ქართული დამწერლობათმცოდნეობა ანუ პალეოგრაფია<ptr target="bibliography.xml#b87"/>, <citedRange> 163, 279-280</citedRange></bibl></p>
-     <p><bibl n="13">ილია აბულაძე, ქართლი წერის ნიმუშები, პალეოგრაფიული ალბომი<ptr target="bibliography.xml#b88"/>, <citedRange> 4-5</citedRange></bibl></p> 
-     <p><bibl n="14">ქართული ენის ისტორიული ქრესტომათია<ptr target="bibliography.xml#b112"/></bibl></p>            
-     <p><bibl n="15">M. Tarchnišvili, Les récentes découverstes épigraphiques et litteraires en géorgien<ptr target="bibliography.xml#b24"/>, <citedRange>250</citedRange></bibl></p>              
-     <p><bibl n="16">I. Molitor MIA CSCO<ptr target="bibliography.xml#b15"/>, <citedRange>1, 1</citedRange></bibl></p>
-     <p><bibl n="17">აკაკი შანიძე, ქართული ენის სტრუქტურისა და ისტორიის საკითხები<ptr target="bibliography.xml#b61"/>, <citedRange> 278</citedRange></bibl></p>
-     <p><bibl n="18">შალვა ამირანაშვილი, ბოლნისის  ტაძრის აგების თარიღის დაზუსტებისათვის<ptr target="bibliography.xml#b113"/>, <citedRange>3</citedRange></bibl></p>
-     <p><bibl n="19">G. Deeters, Das Alter der georgischen Schrift<ptr target="bibliography.xml#b12"/>, <citedRange>p.63</citedRange></bibl></p>
-     <p><bibl n="20">კორნელი კეკელიძე, ბოლნისის ტაძრის წარწერების ინტერპრეტაციისათვის<ptr target="bibliography.xml#b90"/>, <citedRange> 418</citedRange></bibl></p>
-     <p><bibl n="21">ნ. ჯანბერიძე, ქართული არქიტექტურის ძეგლები<ptr target="bibliography.xml#b89"/></bibl></p>
-     <p><bibl n="22">В. Беридзе, Грузинская архитектура с древнейших времен до начала ΧΧ века<ptr target="bibliography.xml#b36"/>, <citedRange>27</citedRange></bibl></p>          
-     <p><bibl n="23">ილია აბულაძე, ქართლი წერის ნიმუშები, პალეოგრაფიული ალბომი<ptr target="bibliography.xml#b89"/>, <citedRange> 8-9</citedRange></bibl></p>                                  
-     <p><bibl n="24">Н. Г. Чубинашвили, Хандиси<ptr target="bibliography.xml#b48"/>, <citedRange>64</citedRange></bibl></p>               
-     <p><bibl n="25">აკაკი შანიძე, ბოლნისის წარწერები<ptr target="bibliography.xml#b57"/>, <citedRange> 29</citedRange></bibl></p>
-     <p><bibl n="26">რამაზ პატარიძე, ბოლნისის ტაძრის სამშენებლო წარწერები<ptr target="bibliography.xml#b137"/>, <citedRange> 140-159</citedRange></bibl></p>
-     <p><bibl n="27">ბ. მჭედლიშვილი, ბოლნისის სიონის დათარიღებისათვის<ptr target="bibliography.xml#b138"/>, <citedRange> 100-114</citedRange></bibl></p>
-     <p><bibl n="28">ე. მაჭავარიანი ბოლნისის სიონის საამშენებლო წარწერა<ptr target="bibliography.xml#b140"/></bibl></p>
-     <p><bibl n="29">გურამ ყიფიანი, ბოლნისის სიონის უძველესი წარწერა<ptr target="bibliography.xml#b139"/>, <citedRange> 666-675</citedRange></bibl></p>
-       
-            </div> 
-            
+
+     <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები, <citedRange> 67-68</citedRange></bibl></p>
+     <p><bibl n="2"><ptr target="#b92"/> კორნელი დანელია, ზურაბ სარჯველაძე, ქართული პალეოგრაფია, <citedRange> 16-17</citedRange></bibl></p>
+     <p><bibl n="3"><ptr target="#b19"/> M. Brosset, Letres dn M. Bartholomaei relatives aux auntiquites géorgienns</bibl></p>
+     <p><bibl n="4"><ptr target="#b85"/> ივანე ჯავახიშვილი, ახლად აღმოჩენილი უძველესი ქართული ხელნაწერები და მათი მნიშვნელობა მეცნიერებისათვის, <citedRange> 320-323</citedRange></bibl></p>
+     <p><bibl n="5"><ptr target="#b60"/> აკაკი შანიძე, ნაშთები III პირის ობიექტური პრეფიქსის ხმარებისა ხმოვნების წინ ქართულ ზმნაში, <citedRange> 277</citedRange></bibl></p>
+     <p><bibl n="6"><ptr target="#b86"/> ივანე ჯავახიშვილი, ქართული დამწერლობათმცოდნეობა ანუ პალეოგრაფია, <citedRange> 158</citedRange></bibl></p>
+     <p><bibl n="7"><ptr target="#b66"/> გიორგი ჩუბინაშვილი, რამოდენიმე თავი ქართული ხელოვნების ისტორიიდან, <citedRange> 61</citedRange></bibl></p>
+     <p><bibl n="8"><ptr target="#b59"/> აკაკი შანიძე, ძველი ქართულის ქრესტომათია ლექსიკონითურთ, <citedRange> 1, 107</citedRange></bibl></p>
+     <p><bibl n="9"><ptr target="#b131"/> გიორგი ჩუბინაშვილი, ქართული ხელოვნების ისტორია, <citedRange> 42</citedRange></bibl></p>
+     <p><bibl n="10"><ptr target="#b93"/> ლევან მუსხელიშვილი, ბოლნისი, <citedRange>  328-329</citedRange></bibl></p>
+     <p><bibl n="11"><ptr target="#b45"/> Н. Г. Чубинашвили, Болнисский сион, <citedRange>63-68</citedRange></bibl></p>
+     <p><bibl n="12"><ptr target="#b87"/> ივანე ჯავახიშვილი, ქართული დამწერლობათმცოდნეობა ანუ პალეოგრაფია, <citedRange> 163, 279-280</citedRange></bibl></p>
+     <p><bibl n="13"><ptr target="#b88"/> ილია აბულაძე, ქართლი წერის ნიმუშები, პალეოგრაფიული ალბომი, <citedRange> 4-5</citedRange></bibl></p>
+     <p><bibl n="14"><ptr target="#b112"/> ქართული ენის ისტორიული ქრესტომათია</bibl></p>
+     <p><bibl n="15"><ptr target="#b24"/> M. Tarchnišvili, Les récentes découverstes épigraphiques et litteraires en géorgien, <citedRange>250</citedRange></bibl></p>
+     <p><bibl n="16"><ptr target="#b15"/> I. Molitor MIA CSCO, <citedRange>1, 1</citedRange></bibl></p>
+     <p><bibl n="17"><ptr target="#b61"/> აკაკი შანიძე, ქართული ენის სტრუქტურისა და ისტორიის საკითხები, <citedRange> 278</citedRange></bibl></p>
+     <p><bibl n="18"><ptr target="#b113"/> შალვა ამირანაშვილი, ბოლნისის  ტაძრის აგების თარიღის დაზუსტებისათვის, <citedRange>3</citedRange></bibl></p>
+     <p><bibl n="19"><ptr target="#b12"/> G. Deeters, Das Alter der georgischen Schrift, <citedRange>p.63</citedRange></bibl></p>
+     <p><bibl n="20"><ptr target="#b90"/> კორნელი კეკელიძე, ბოლნისის ტაძრის წარწერების ინტერპრეტაციისათვის, <citedRange> 418</citedRange></bibl></p>
+     <p><bibl n="21"><ptr target="#b89"/> ნ. ჯანბერიძე, ქართული არქიტექტურის ძეგლები</bibl></p>
+     <p><bibl n="22"><ptr target="#b36"/> В. Беридзе, Грузинская архитектура с древнейших времен до начала ΧΧ века, <citedRange>27</citedRange></bibl></p>
+     <p><bibl n="23"><ptr target="#b89"/> ილია აბულაძე, ქართლი წერის ნიმუშები, პალეოგრაფიული ალბომი, <citedRange> 8-9</citedRange></bibl></p>
+     <p><bibl n="24"><ptr target="#b48"/> Н. Г. Чубинашвили, Хандиси, <citedRange>64</citedRange></bibl></p>
+     <p><bibl n="25"><ptr target="#b57"/> აკაკი შანიძე, ბოლნისის წარწერები, <citedRange> 29</citedRange></bibl></p>
+     <p><bibl n="26"><ptr target="#b137"/> რამაზ პატარიძე, ბოლნისის ტაძრის სამშენებლო წარწერები, <citedRange> 140-159</citedRange></bibl></p>
+     <p><bibl n="27"><ptr target="#b138"/> ბ. მჭედლიშვილი, ბოლნისის სიონის დათარიღებისათვის, <citedRange> 100-114</citedRange></bibl></p>
+     <p><bibl n="28"><ptr target="#b140"/> ე. მაჭავარიანი ბოლნისის სიონის საამშენებლო წარწერა</bibl></p>
+     <p><bibl n="29"><ptr target="#b139"/> გურამ ყიფიანი, ბოლნისის სიონის უძველესი წარწერა, <citedRange> 666-675</citedRange></bibl></p>
+
+            </div>
+
             <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
 
                     <!--  ქ(რისტ)ე, დ(ავი)თ ეპ[ისკ]ოპისი კრებ[უ]
@@ -163,69 +163,69 @@
                            [მშრ]ომელთა ამას ეკლე
                            [სიასა ში]ნა შეხეწიე, ი(ყავნ) ი(ყავნ) -->
 
-                 <ab> 
-                 <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
+                 <ab>
+                 <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
                         <persName type="local" key="დავით [ბოლნელი] ეპისკოპოსი"><name nymRef="დავით ეპისკოპოსი"><expan><abbr>დ</abbr><ex>ავი</ex><abbr>თ</abbr></expan></name> </persName>
-                        <roleName nymRef="ეპისკოპოს"><w lemma="ეპისკოპოს">ეპ<supplied reason="lost">ისკ</supplied>ოპისი</w></roleName> 
+                        <roleName nymRef="ეპისკოპოს"><w lemma="ეპისკოპოს">ეპ<supplied reason="lost">ისკ</supplied>ოპისი</w></roleName>
                         <w lemma="კრებულ">კრებ<supplied reason="lost">უ</supplied>
-                 <lb n="2" break="no"/>ლითურთ </w> 
-                                   და 
+                 <lb n="2" break="no"/>ლითურთ </w>
+                                   და
                                 <w lemma="ესე">ამას</w> <w lemma="ეკლესია">ეკ
                  <lb n="3" break="no"/>ლესია<supplied reason="lost">ს</supplied>ა</w> <w lemma="შინა">შინა</w> <w lemma="შენ">შენდ
                  <lb n="4" break="no"/>ა</w> <w lemma="მიმართ">მიმართ</w> <w lemma="თავყანისმცემელ">თაჳ
                  <lb n="5" break="no"/>ყანისმცემელ
-                 <lb n="6" break="no"/>ნი</w> <w lemma="შეწყალება">შეიწყალენ</w> 
+                 <lb n="6" break="no"/>ნი</w> <w lemma="შეწყალება">შეიწყალენ</w>
                             და
-                 <lb n="7"/><w lemma="მშრომელ"><supplied reason="lost">მშრ</supplied>ომელთა</w> 
+                 <lb n="7"/><w lemma="მშრომელ"><supplied reason="lost">მშრ</supplied>ომელთა</w>
                             <w lemma="ესე">ამას</w> <w lemma="ეკლესია">ეკლე
-                 <lb n="8" break="no"/><supplied reason="lost">სიასა</supplied></w> 
-                            <w lemma="შინა"><supplied reason="lost">ში</supplied>ნა</w> 
-                       		<rs type="pn"><w lemma="შეწევნა">შეხეწიე</w></rs> 
-                       		<w lemma="ყოფა"><expan><abbr>ი</abbr><ex>ყავნ</ex></expan></w> 
+                 <lb n="8" break="no"/><supplied reason="lost">სიასა</supplied></w>
+                            <w lemma="შინა"><supplied reason="lost">ში</supplied>ნა</w>
+                       		<rs type="pn"><w lemma="შეწევნა">შეხეწიე</w></rs>
                        		<w lemma="ყოფა"><expan><abbr>ი</abbr><ex>ყავნ</ex></expan></w>
-                            </ab>                                                    
-                        
+                       		<w lemma="ყოფა"><expan><abbr>ი</abbr><ex>ყავნ</ex></expan></w>
+                            </ab>
+
             </div>
-            
+
             <div type="translation">
-                <p xml:lang="ka">ქრისტე, შეიწყალე დავით ეპისკოპოსი კრებულითურ და ამ ეკლესიაში შენდამი თაყვანისმცემლები, შეეწიე ამ ეკლესიაში 
+                <p xml:lang="ka">ქრისტე, შეიწყალე დავით ეპისკოპოსი კრებულითურ და ამ ეკლესიაში შენდამი თაყვანისმცემლები, შეეწიე ამ ეკლესიაში
                     მშრომელთ ამინ, ამინ.</p>
                 <p xml:lang="en">Christ, have mercy on Bishop David with his congregation and on all the faithful who worship you in this church, aid the laborers of this church (According to Korneli Kekelidze, the “laborers” refer to those who look after the sick or bury the dead), Amen, Amen </p>
             </div>
-            
+
             <div type="apparatus" xml:space="preserve">
-                <p><app loc="8"> <lem>ყოფა</lem> 
+                <p><app loc="8"> <lem>ყოფა</lem>
                  <rdg resp="სარგის კაკაბაძე">ინდიქტიონი</rdg>
                  </app></p>
-                
-                 <p><app loc="8"> <lem>ყოფა</lem> 
+
+                 <p><app loc="8"> <lem>ყოფა</lem>
                  <rdg resp="სარგის კაკაბაძე"><num value="10">ი</num></rdg>
                  </app></p>
              </div>
-            
+
             <div type="commentary">
                 <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #3. წარწერა პირველად გამოსცა მარი ბროსემ 1856 წელს (იხ. Melanges Asiatiques, II,  322-323).
-                    წარწერას განკვეთილობის ნიშნები არ ახლავს. სიტყვები ერთმანეთისაგან არ არის დაცილებული. 
+                    წარწერას განკვეთილობის ნიშნები არ ახლავს. სიტყვები ერთმანეთისაგან არ არის დაცილებული.
                     ქარაგმის ნიშნად ნახმარია მოკლე, სწორი, განივი ხაზი (მისი ნაშთი ჩანს მხოლოდ ტექსტის მეორე სიტყვაზე. პირველ სიტყვაზე ქარაგმის ადგილი დაზიანებულია).
-                    წარწერა პალეოგრაფიული თვალსაზრისით ფრიად არქაულია: თავშეკრულია Ⴁ, Ⴗ და Ⴣ გრაფემები. 
+                    წარწერა პალეოგრაფიული თვალსაზრისით ფრიად არქაულია: თავშეკრულია Ⴁ, Ⴗ და Ⴣ გრაფემები.
                     მესამე სტრიქონში შ თავშეკრულია (შინა).
-                    ენობრივი თვალსაზრისით საინტერესოა ხანმეტი ზმნური ფორმა: შეხეწიე, ხ - მესამე ირიბი ობიექტური პირის ნიშანი). 
-                    
+                    ენობრივი თვალსაზრისით საინტერესოა ხანმეტი ზმნური ფორმა: შეხეწიე, ხ - მესამე ირიბი ობიექტური პირის ნიშანი).
+
                     კორნელი კეკელიძის მიხედვით, მშრომელი ნიშნავს ავადმყოფთა მომვლელს ან გარდაცვალებულთა დამსაფლავებელს.
-                    
-                    ივანე ჯავახიშვილის მიხედვით, დავით ბოლნელი ეპისკოპოსი კრებულითურთ, როგორც ეტყობა, ამ ეკლესიაში მშრომელთა ჯგუფს არ ეკუთვნის, 
-                    არც ისა ჩანს, რომ იგი აღმაშენებელი იყოს. მისივე გამოკვლევით, იმ საეკლესიო კრების ძეგლისწერას, რომელიც კავად სპარსთა მეფის დროს ბაბგენ სომეხთა 
-                    კათალიკოზისა და გაბრიელ ქართლისა კათალიკოზის მეთაურობითა და ორივე ეკლესიის წარმომადგენელთა თანადასწრებით მოხდა ქალკიდონის კრების აღსარების 
-                    უარსაყოფელად, ქართველ ეპისკოპოსთაგან ხელს აწერდა დავით ეპისკოპოსი ბოლნისისა. ივანე ჯავახიშვილის აზრით, შესაძლებელია ეს სწორედ ის დავით ბოლნისის 
-                    ეპისკოპოსია, რომელმაც ზემოაღნიშნული წარწერა ამოაჭრევინა. რასაკვირველია, ბოლნელ ეპისკოპოსთა შორის დავითი შეიძლება სხვაც ყოფილიყო. 
-                    მაგრამ მწყემსმთავართა შორის მაშინდელ საქართველოში ერთგვარი 
+
+                    ივანე ჯავახიშვილის მიხედვით, დავით ბოლნელი ეპისკოპოსი კრებულითურთ, როგორც ეტყობა, ამ ეკლესიაში მშრომელთა ჯგუფს არ ეკუთვნის,
+                    არც ისა ჩანს, რომ იგი აღმაშენებელი იყოს. მისივე გამოკვლევით, იმ საეკლესიო კრების ძეგლისწერას, რომელიც კავად სპარსთა მეფის დროს ბაბგენ სომეხთა
+                    კათალიკოზისა და გაბრიელ ქართლისა კათალიკოზის მეთაურობითა და ორივე ეკლესიის წარმომადგენელთა თანადასწრებით მოხდა ქალკიდონის კრების აღსარების
+                    უარსაყოფელად, ქართველ ეპისკოპოსთაგან ხელს აწერდა დავით ეპისკოპოსი ბოლნისისა. ივანე ჯავახიშვილის აზრით, შესაძლებელია ეს სწორედ ის დავით ბოლნისის
+                    ეპისკოპოსია, რომელმაც ზემოაღნიშნული წარწერა ამოაჭრევინა. რასაკვირველია, ბოლნელ ეპისკოპოსთა შორის დავითი შეიძლება სხვაც ყოფილიყო.
+                    მაგრამ მწყემსმთავართა შორის მაშინდელ საქართველოში ერთგვარი
                     სახელი ხშირად არ მეორდებოდა. უშუალოდ სახელი დავითიც უძველეს ხანაში ისე გავრცელებული არ ყოფილა, როგორც შემდეგში, როდესაც ბაგრატიონიანთა დავით
-                    წინასწარმეტყველისა და მეფისაგან ჩამომავლობის რწმენა განმტკიცდა. რადგანაც დავით ეპისკოპოსი ამ 505-506 წ. საეკლესიო კრების მონაწილე ყოფილა, ივანე 
+                    წინასწარმეტყველისა და მეფისაგან ჩამომავლობის რწმენა განმტკიცდა. რადგანაც დავით ეპისკოპოსი ამ 505-506 წ. საეკლესიო კრების მონაწილე ყოფილა, ივანე
                     ჯავახიშვილი ასკვნის, რომ წარწერა ან V საუკუნის დამლევს, ან VI საუკუნის დამდეგს უნდა ეკუთვნოდეს.
                     </p>
                 <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili, the inscription N3 was first published by Mari Brose in 1856 (See Melanges Asiatiques, II, pp. 322-323). The inscription does not have spaces between the words. No spaces between the words., and the symbol of abbreviation is a short, straight horizontal line (its remains are only visible on the second word in the text, the other one on top of the first word is damaged). The inscription is quite archaic in paleographic terms. The graphemes ბ, ყ and ჳ have their heads engaged. შ is also engaged on top in the 3rd line (in the word shina). In linguistic terms a special interest attaches to the Khanmeti type verbal form: შეხეწიე (shekhetsie), ხ - is the indirect object pronoun of the third person.
                 According to Korneli Kekelidze the “laborers” refer to those who look after the sick or bury the dead.
-According to Ivane Javakhishvili, Bishop David with his accompanied people were not the builders of this church, there is no proof that he was involved in the construction works. He also suggests that Bishop David from Bolnisi had signed the ecumenical document that was registered by Kavad, King of Persia, Babgen, Catholicos-Patriarch of Armenia and Gabriel, Catholicos Patriarch of Kartli for neglecting the resolution of the council Chalcedon. Ivane Javakhishvili considers that Bishop David mentioned in the inscription is the same person who ordered to carve the above mentioned inscription. It is clearly possible that the name David could have been the name of other Bishops of Bolnisi Cathedral. 
+According to Ivane Javakhishvili, Bishop David with his accompanied people were not the builders of this church, there is no proof that he was involved in the construction works. He also suggests that Bishop David from Bolnisi had signed the ecumenical document that was registered by Kavad, King of Persia, Babgen, Catholicos-Patriarch of Armenia and Gabriel, Catholicos Patriarch of Kartli for neglecting the resolution of the council Chalcedon. Ivane Javakhishvili considers that Bishop David mentioned in the inscription is the same person who ordered to carve the above mentioned inscription. It is clearly possible that the name David could have been the name of other Bishops of Bolnisi Cathedral.
 It is also true that the names of the patriarchs were not repeated that often by that time in Georgia. The name “David” was not that widespread in ancient times than it was later when the belief about the heritage of Bagrationi dynasty from Biblical David was a common belief in Georgia. As Bishop David is a participant of this ecumenical council, Ivane Javakhishvili assumes that the inscription should be dated to the end of the V century or beginning of the VI century.
 
                 </p>

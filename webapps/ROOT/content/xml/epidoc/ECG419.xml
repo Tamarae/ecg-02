@@ -22,7 +22,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <collection>დოლი</collection>                
+                        <collection>დოლი</collection>
                     </msIdentifier>
                     <msContents>
                         <summary>
@@ -33,13 +33,13 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="https://www.eagle-network.eu/voc/material/lod/115">ვერცხლი</material>
                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/123">ხატი</objectType></support></supportDesc>
                                 <layoutDesc>
                                     <layout>
-                                       ვერცხლის დაუფარავ ქართულწარწერებიან ჩარჩოში ჩასმულია ვერცხლის ოქროთი დაფერილი ნაჭედი, თვლებით შემკული ხატი, რომელიც ძალიან არის 
-                                       დაზიანებული. ხატზე შერჩენილია ბერძნული მთავრული წარწერები, ხატის მარცხნივ ზემოთა კუთხეში; მარჯვნივ ზემოთა კუთხეში; ცენტრალურ ადგილას - მარიამი ყრმით (გამოსახულებების 
+                                       ვერცხლის დაუფარავ ქართულწარწერებიან ჩარჩოში ჩასმულია ვერცხლის ოქროთი დაფერილი ნაჭედი, თვლებით შემკული ხატი, რომელიც ძალიან არის
+                                       დაზიანებული. ხატზე შერჩენილია ბერძნული მთავრული წარწერები, ხატის მარცხნივ ზემოთა კუთხეში; მარჯვნივ ზემოთა კუთხეში; ცენტრალურ ადგილას - მარიამი ყრმით (გამოსახულებების
                               კონტურებია მხოლოდ, შარავანდი თვლებით და მინანქრებით) შესაბამისი წარწერით, მარიამის თავის გასწვრივ ორ სტრიქონად არის წარწერა, რომლის სიგანეა 12 სმ.
                                     <dimensions unit="cm">
                                         <width>43</width>
@@ -47,9 +47,9 @@
                                         <depth></depth></dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
-                            <handNote> 
+                            <handNote>
                              მარიამის თავის გასწვრივ გამოყვანილი წარწერის ასოების სიმაღლეა 1,9-2 სმ.
                              წარწერებს ახასიათებს: დიაკრიტიკული ნიშნები, ლიგატურები, სიტყვათშემოკლებები, ο||ω, იტაციზმი.
                                 <height unit="cm" precision="medium"></height>
@@ -63,20 +63,20 @@
                     <history>
                             <origin>
                                 <origPlace></origPlace>
-                                <origDate notBefore-custom="1001" notAfter-custom="1100" precision="medium" 
+                                <origDate notBefore-custom="1001" notAfter-custom="1100" precision="medium"
                                     evidence="lettering" datingMethod="#julian">XI AD</origDate>
                               </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot">დოლი</placeName> 
+                                <placeName type ="ancientFindspot">დოლი</placeName>
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                     
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">სოფ. დოლის ერთ-ერთი კოშკი.</placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -96,45 +96,45 @@
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 91</citedRange></bibl></p>
-                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 48-49</citedRange></bibl></p>
-                    <p><bibl n="3">И. Помяловский, Сборник греческих и латинских надписей Кавказа<ptr target="bibliography.xml#b180"/>, <citedRange> 47</citedRange></bibl></p>
-                    <p><bibl n="3">Д. З. Бакрадзе, Сванетия<ptr target="bibliography.xml#b181"/>, <citedRange> 79</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 91</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b80"/> თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში, <citedRange> 48-49</citedRange></bibl></p>
+                    <p><bibl n="3"><ptr target="#b180"/> И. Помяловский, Сборник греческих и латинских надписей Кавказа, <citedRange> 47</citedRange></bibl></p>
+                    <p><bibl n="3"><ptr target="#b181"/> Д. З. Бакрадзе, Сванетия, <citedRange> 79</citedRange></bibl></p>
+
             </div>
 
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
-                        <!--   ΜΪΧ Μιχ[αήλ]   
-                        ΓΑΒ  ΡΪ ΗΛ   Γαβριήλ 
+
+                        <!--   ΜΪΧ Μιχ[αήλ]
+                        ΓΑΒ  ΡΪ ΗΛ   Γαβριήλ
                         ΙC ΧC   Ἰ[ησοῦ]ς Χ[ριστό]ς
                         ΗΑΓΪΩΡΪΤΗCΑ  ΜΗΡ  ΘΥ   ἡ ἁγιορείτισσα μ[ήτ]ηρ θ[εο]ῦ  -->
-                     
-            
+
+
          <div type="textpart" subtype="section" n="1">
          <ab>
              <persName type="saint"><name nymRef="Μιχαήλ"><expan><abbr>Μιχ</abbr><ex>αήλ</ex></expan></name></persName>
-         </ab>    
+         </ab>
           </div>
                 <div type="textpart" subtype="section" n="2">
          <ab>
              <persName type="saint"><name nymRef="Γαβριήλ">Γαβριήλ</name></persName>
-         </ab>    
+         </ab>
           </div>
                 <div type="textpart" subtype="section" n="3">
          <ab>
              <persName type="saint"><name nymRef="Ἰησοῦς"><expan><abbr>Ἰ</abbr><ex>ησοῦ</ex><abbr>ς</abbr></expan></name> <name nymRef="Χριστός"><expan><abbr>Χ</abbr><ex>ριστό</ex><abbr>ς</abbr></expan></name></persName>
-         </ab>    
+         </ab>
           </div>
                 <div type="textpart" subtype="section" n="4">
          <ab>
-             <w lemma="ὁ">ἡ</w> <w lemma="ἁγιορείτης"><hi rend="ligature">ἁγ</hi>ι<choice><reg>ο</reg><orig>ω</orig></choice>ρ<supplied reason="subaudible">ε</supplied>ί<hi rend="ligature">τ<choice><reg>ι</reg><orig>η</orig></choice></hi>σσα</w> 
+             <w lemma="ὁ">ἡ</w> <w lemma="ἁγιορείτης"><hi rend="ligature">ἁγ</hi>ι<choice><reg>ο</reg><orig>ω</orig></choice>ρ<supplied reason="subaudible">ε</supplied>ί<hi rend="ligature">τ<choice><reg>ι</reg><orig>η</orig></choice></hi>σσα</w>
              <w lemma="μήτηρ"><expan><abbr>μ</abbr><ex>ήτ</ex><abbr>ηρ</abbr></expan></w> <w lemma="θεός"><expan><abbr>θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan></w>
-         </ab>    
+         </ab>
           </div>
             </div>
-            
+
             <div type="translation" subtype="section" n="1" xml:lang="ka">
                 <p>მიქაელი</p>
             </div>
@@ -147,28 +147,27 @@
             <div type="translation" subtype="fragment" n="4" xml:lang="ka">
                 <p>მთაწმინდელი, დედა ღვთისა</p>
             </div>
-            
+
             <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
               <head>კრიტიკული აპარატი</head>
               <p><app><lem></lem>
               <rdg></rdg>
               </app></p>
             </div>
-           
+
             <div type="commentary">
                 <p>ღვთისმშობლის ეპითეტი - მთაწმინდელი, მთაწმინდისა - არაა საყოველთაოდ გავრცელებული.</p>
-                <p>დათარიღება ხდება წარწერის ენობრივი და პალეოგრაფიული თავისებურებების, ხატის ქართული ისტორიული წარწერების (მეფე გიორგი I-ისა და დავით ხამბაშის ძე 
+                <p>დათარიღება ხდება წარწერის ენობრივი და პალეოგრაფიული თავისებურებების, ხატის ქართული ისტორიული წარწერების (მეფე გიორგი I-ისა და დავით ხამბაშის ძე
                     ჭყონდიდელი მთავარეპისკოპოსის მოხსენიებით) მიხედვით.</p>
-                <p>ეს წარწერა თინათინ ყაუხჩიშვილს აღებული აქვს პომიალოვსკის კრებულიდან ( 47). ბაქრაძის შრომიდან (Свнетия..  79, приложение №18) და ს. ყაუხჩიშვილის 
-                სვანეთის ექსპედიციის დღიურიდან. პომიალოვსკი სარგებლობს ბაქრაძის მიერ გადმოღებული პირით და, ჩანს, მასთან ერთად შენიშნავს: "В последнем слове кроется прозвание 
-                Богоматери с окончением на ισσα, вроде Πορταΐτισσα", თვით ეს სიტყვაც მოცემული აქვთ ამავე ფორმით πϊωριήσα. ს. ყაუხჩიშვილის დღიურში და 1931 წლის სვანეთის 
-                ექსპედიციის მიერ გადაღებულ ფოტოსურათზე გარკვევით იკითხება ΑΓϊωΡΙΤΗCΑ. მთავარანგელოზის გამოსახულებები შესატყვისი წარწერებით მხოლოდ ს. ყაუხჩიშვილის 
+                <p>ეს წარწერა თინათინ ყაუხჩიშვილს აღებული აქვს პომიალოვსკის კრებულიდან ( 47). ბაქრაძის შრომიდან (Свнетия..  79, приложение №18) და ს. ყაუხჩიშვილის
+                სვანეთის ექსპედიციის დღიურიდან. პომიალოვსკი სარგებლობს ბაქრაძის მიერ გადმოღებული პირით და, ჩანს, მასთან ერთად შენიშნავს: "В последнем слове кроется прозвание
+                Богоматери с окончением на ισσα, вроде Πορταΐτισσα", თვით ეს სიტყვაც მოცემული აქვთ ამავე ფორმით πϊωριήσα. ს. ყაუხჩიშვილის დღიურში და 1931 წლის სვანეთის
+                ექსპედიციის მიერ გადაღებულ ფოტოსურათზე გარკვევით იკითხება ΑΓϊωΡΙΤΗCΑ. მთავარანგელოზის გამოსახულებები შესატყვისი წარწერებით მხოლოდ ს. ყაუხჩიშვილის
                 დღიურში არის მოხსენებული.</p>
-                <p>ყურადღებას იპყრობს ფორმა αγϊωρϊτησα - ბერძნულ ლექსიკონში დადასტურებულია ფორმა ὁ ἁγιορείτης (δημ. μοναχὸς τοῦ Ἁγίου Ὄρους), შესაძლებელია მდედრობითისათვის 
+                <p>ყურადღებას იპყრობს ფორმა αγϊωρϊτησα - ბერძნულ ლექსიკონში დადასტურებულია ფორმა ὁ ἁγιορείτης (δημ. μοναχὸς τοῦ Ἁγίου Ὄρους), შესაძლებელია მდედრობითისათვის
                 წარმოებულია აქედან ἁγιορείτισσα (Πορταΐτισσα-ს ანალოგიით).</p>
             </div>
 
         </body>
     </text>
 </TEI>
-

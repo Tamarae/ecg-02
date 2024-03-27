@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
     <teiHeader>
@@ -25,9 +25,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259"></objectType> <!-- დასაზუსტებელია ობიექტის ტიპი -->
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75"></material>  <!-- დასაზუსტებელია მასალა, სავარაუდოდ, იგივე რაც ფასადის ქართულ წარწერებში -->                                 
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75"></material>  <!-- დასაზუსტებელია მასალა, სავარაუდოდ, იგივე რაც ფასადის ქართულ წარწერებში -->
                                       <dimensions unit="cm">
                                         <width/>
                                         <height/>
@@ -38,24 +38,24 @@
                                     <layout>
                                       <dimensions unit="cm">
                                          <width/>
-                                         <height/> 
-                                      </dimensions>  
-                                    </layout>                                   
+                                         <height/>
+                                      </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
-                                    წარწერა შესრულებულია სომხური ასომთავრულით (ერკათაგირ), ოთხი სტრიქონი, სავარაუდოდ ზედა ერთიც უნდა ყოფილიყო, წარწერა არ არის ღრმად ამოკვეთილი, 
-                                    ძლიერაა დაზიანებული, მკვლევართა ნაწილი მას წარწერად კი არა, 
-                                    გრაფიტად მიიჩნევს, აბულაძის დათარიღებით (პალეოგრაფიული, შინაარსობლივი და ისტორიული ანალიზის საფუძველზე)  
-                                    იგი VIIს-ის შემდგომ უნდა იყოს შესრულებული და არაა ამავე ქვის მეორე მხარეს  შესრულებული ქართული ასომთავრული წარწერის თანადროული 
+                                    წარწერა შესრულებულია სომხური ასომთავრულით (ერკათაგირ), ოთხი სტრიქონი, სავარაუდოდ ზედა ერთიც უნდა ყოფილიყო, წარწერა არ არის ღრმად ამოკვეთილი,
+                                    ძლიერაა დაზიანებული, მკვლევართა ნაწილი მას წარწერად კი არა,
+                                    გრაფიტად მიიჩნევს, აბულაძის დათარიღებით (პალეოგრაფიული, შინაარსობლივი და ისტორიული ანალიზის საფუძველზე)
+                                    იგი VIIს-ის შემდგომ უნდა იყოს შესრულებული და არაა ამავე ქვის მეორე მხარეს  შესრულებული ქართული ასომთავრული წარწერის თანადროული
                                     (ქართული წარწერის თარიღის ზედა ზღვარი VIIს-ის პირველი წლებია).
 
                                    <height unit="cm"> <!-- ხომ არ აჯობებს დაიმენშენი ჩავსვა და ზომა დაიმენშენს მივანიჭო? -->
                                    </height>
                                     <width/>
                                     <depth/>
-                                    
+
                             </handNote>
                         </handDesc>
                         <decoDesc>
@@ -72,18 +72,18 @@
                             <provenance type="found" when="1993">
                                 <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863813">
                                     მცხეთის ჯვარი
-                                </placeName> 
-                                <rs type="circumstances"/> 
+                                </placeName>
+                                <rs type="circumstances"/>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                                
+                            </provenance>
                             <provenance type="observed" when="2016">
                                 <placeName type="modernSpot">
                                     მცხეთის ჯვარი
                                 </placeName>
                                 <idno type="invNo"/>
-                            </provenance> 
-                    </history>                   
+                            </provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -93,48 +93,51 @@
 </encodingDesc>
     </teiHeader>
     <text>
-        <body>           
+        <body>
 
             <div type="bibliography" subtype="otherPublications">
-                                            
-                    <p><bibl></bibl></p>
-                
+
+              <p><bibl n="1">
+                  <ptr target="#b185"/> ზაზა ალექსიძე, ატენის სიონის სომხური წარწერები
+
+              </bibl></p>
+
             </div>
-            
+
    <div type="edition" xml:lang="hy" xml:space="preserve">
-                
+
                         <!--     [..[ՅՍ]   Ի  ՓՐԿՈՒ[Թ՟Ի ԵՒ ՅԻՇ]
                                 ԱՏ(Ա)Կ    ՀՈԳՒ[ՈՑ ԵՒ Մ]
                                 ԱՐ(Մ)ՆՈՑ ԵՒ
                                 Թ
 
-  --> 
-                                                            
-         
+  -->
+
+
                 <ab>
                    <lb n="1"/>[..[ՅՍ]   Ի  ՓՐԿՈՒ[Թ՟Ի ԵՒ ՅԻՇ]
                    <lb n="2"/>ԱՏ(Ա)Կ    ՀՈԳՒ[ՈՑ ԵՒ Մ]
                    <lb n="3"/>ԱՐ(Մ)ՆՈՑ ԵՒ
                    <lb n="4"/>Թ
                 </ab>
-               
+
    </div>
          <div type="translation">
              <p xml:lang="ka">აღემართა ჯუარი ესე სახსნელად და სახსენებლად სულთა და ხორცთა და</p>
-         </div>    
+         </div>
           <div type="translation" xml:lang="hy">
              <p>Կանգնեցաւ խաչս այս ի փրկութ՟ի եւ յիշատակ հոգւոց եւ մարմնոց եւ Թ </p>
-         </div> 
-                               
+         </div>
+
             <div type="apparatus" xml:space="preserve"/>
 
-            
-            
-                
-            <div type="commentary"/>           
-            
-                   
-          
+
+
+
+            <div type="commentary"/>
+
+
+
 
         </body>
     </text>

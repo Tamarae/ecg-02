@@ -28,7 +28,7 @@
                                 <support>
                                     <objectType>კრამიტის ნატეხი</objectType>
                                     <material>კრამიტი</material>
-                                
+
                             </support>
                             </supportDesc>
                             <layoutDesc>
@@ -46,7 +46,7 @@
                             <handNote><p> სარკისებური წაკითხვის შემთხვევაში იძლევა ნუსხურ ნიშნებს </p>
                                 <dimensions unit="mm">
                                     <height></height>
-                                </dimensions>    
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -56,7 +56,7 @@
                             <origDate >IX-X AD</origDate>
                         </origin>
                         <provenance ></provenance>
-                        
+
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -66,20 +66,20 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    <text><!-- 
+    <text><!--
     1. ო
     -->
         <body>
-            
-                
-            
+
+
+
             <div type="bibliography">
-                
-                   <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>95</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                   <p><bibl n="2">დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>85</citedRange> თბილისი, 2014<ptr target="bibliography.xml#b213"/></bibl></p>
-                    
+
+                   <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>95</citedRange>, თბილისი, 2018</bibl></p>
+                   <p><bibl n="2"><ptr target="#b213"/> დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>85</citedRange> თბილისი, 2014</bibl></p>
+
                 </div>
-            
+
             <div type="edition" xml:space="preserve">
                 <div type="textpart" subtype="fragment" n="1">
                 <ab>
@@ -87,12 +87,12 @@
                 </ab>
                 </div>
             </div>
-                
+
             <div type="translation">
                 <p/>
             </div>
             <div type="commentary">
-                <p>კრამიტის ნატეხი, რომელზეც ამოკვეთილია ორი გრაფემა, სარკისებური წაკითხვის შემთხვევაში იძლევა ნუსხურ "უ" - ს. ფილაზე სხვა ასოების კვალი არ ჩანს. 
+                <p>კრამიტის ნატეხი, რომელზეც ამოკვეთილია ორი გრაფემა, სარკისებური წაკითხვის შემთხვევაში იძლევა ნუსხურ "უ" - ს. ფილაზე სხვა ასოების კვალი არ ჩანს.
                     დაზიანება: წარწერაფრამნეტულია.
                     წარწერის დათარიღება წინა გამოცემაში: IX-X სს. (ალექსიძე)
                     წარმოდგენილ გამოცემაში გაზიარებულია მოცემული დათარიღება.
@@ -102,11 +102,3 @@
         </body>
     </text>
 </TEI>
-
-
-
-
-
-
-
-

@@ -21,7 +21,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <collection>წებელდა</collection>                
+                        <collection>წებელდა</collection>
                     </msIdentifier>
                     <msContents>
                         <summary>
@@ -32,7 +32,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/107">თუთია</material>
                                     <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/107">Zinc</material>
                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/165">მედალიონი</objectType>
@@ -40,7 +40,7 @@
                                 </support>
                             </supportDesc>
                                 <layoutDesc>
-                                   <layout> 
+                                   <layout>
                                        <p xml:lang="ka">თუთიის ჩამოსხმულ მედალიონზე რელიეფურად გამოსახულია ადგილობრივი წარმართი ქალღმერთი, ან გორგონა, ხოლო ირგვლივ არის ბერძნული მთავრული წარწერა.</p>
                                        <p xml:lang="en">The ornament of pagan goddess or Gorgon embossed on a cast metal medallion of zinc, it has Greek capital letter inscription around it</p>
                                         <width/>
@@ -48,9 +48,9 @@
                                         <dim unit="cm">2.5</dim>
                                    </layout>
                                    </layoutDesc>
-                        </objectDesc>                                  
+                        </objectDesc>
                         <handDesc>
-                            <handNote>                              
+                            <handNote>
                                     <height unit="cm">0.25</height>
                             </handNote>
                         </handDesc>
@@ -66,11 +66,11 @@
                                 <p xml:lang="en">The date of inscription is determined according to the shape of the letters.</p>
                             </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/857034">წებელდა</placeName> 
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/857034">წებელდა</placeName>
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                    
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">
                                 <seg xml:lang="ka">სოხუმის მუზეუმი</seg>
@@ -78,7 +78,7 @@
                             </placeName>
                             <idno>№611</idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -86,7 +86,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-    </teiHeader>    
+    </teiHeader>
     <facsimile>
         <surface>
             <graphic url="ecg017.jpg">
@@ -94,36 +94,36 @@
                 <desc xml:lang="en">Medallion from Tsebelda</desc>
             </graphic>
         </surface>
-    </facsimile>   
+    </facsimile>
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 76</citedRange></bibl></p>
-                
-            </div> 
-            
-            <div type="edition" xml:lang="grc" xml:space="preserve">
-                
-                        <!-- εἷς θεὸς ὁ βοηθῆν τῷ φοροῦ[ν]τι  -->
-                     
-   
-             <ab><w lemma="εἷς">εἷς</w> <w lemma="θεὸς">θεὸς</w> <w lemma="ὁ">ὁ</w> <w lemma="βοηθῶ">βοηθῶν</w> <w lemma="ὁ">τῷ</w> <w lemma="φορῶ">φοροῦ<supplied reason="subaudible">ν</supplied>τι</w></ab>
-             
-         
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 76</citedRange></bibl></p>
+
             </div>
-                
+
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+
+                        <!-- εἷς θεὸς ὁ βοηθῆν τῷ φοροῦ[ν]τι  -->
+
+
+             <ab><w lemma="εἷς">εἷς</w> <w lemma="θεὸς">θεὸς</w> <w lemma="ὁ">ὁ</w> <w lemma="βοηθῶ">βοηθῶν</w> <w lemma="ὁ">τῷ</w> <w lemma="φορῶ">φοροῦ<supplied reason="subaudible">ν</supplied>τι</w></ab>
+
+
+            </div>
+
             <div type="translation">
                 <p xml:lang="ka">ერთია ღმერთი, შემწე (ამ მედალიონის) მატარებლის.</p>
                 <p xml:lang="en">Only God has mercy on the carrier (of this medallion).</p>
             </div>
-            
-            
+
+
             <div type="commentary">
-                <p>დათარიღების საფუძველია ასოთა მოხაზულობა, შესაბამისი ფორმულების სიხშირე გვიანრომაულ და ადრებიზანტიურ წარწერებში, 
+                <p>დათარიღების საფუძველია ასოთა მოხაზულობა, შესაბამისი ფორმულების სიხშირე გვიანრომაულ და ადრებიზანტიურ წარწერებში,
                     ნივთის ხელოვნებათმცოდნეობითი თვალსაზრისით შესწავლა, თანმხლები არქეოლოგიური ინვენტარი.</p>
             </div>
-            
+
         </body>
     </text>
 </TEI>

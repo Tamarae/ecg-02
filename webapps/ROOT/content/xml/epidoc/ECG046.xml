@@ -24,7 +24,7 @@
                 <msDesc type="fragmentary">
                     <msIdentifier>
                         <collection>ბოლნისი</collection>
-                    </msIdentifier> 
+                    </msIdentifier>
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მოსახსენებელი</seg>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/30">მწვანე ტუფი</material>
                                     <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/30">Tuff</material>
                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
@@ -46,8 +46,8 @@
                                     </dimensions>
                                 </support></supportDesc>
                                 <layoutDesc>
-                                    <layout writtenLines="1"> 
-                                       <seg xml:lang="ka">წარწერა 1 სტრიქონიანია. იგი შესრულებულია ქვაზე, რომლის ზედა ნაწილში გამოქანდაკებულია რელიეფური, ხვეული თოკის მსგავსი ჩარჩოს მედალიონში 
+                                    <layout writtenLines="1">
+                                       <seg xml:lang="ka">წარწერა 1 სტრიქონიანია. იგი შესრულებულია ქვაზე, რომლის ზედა ნაწილში გამოქანდაკებულია რელიეფური, ხვეული თოკის მსგავსი ჩარჩოს მედალიონში
                                        ჩასმული „ბოლნური ჯვარი“, მარტივი მკლავებით. ჯვრის ზემოთ, დადაბლებულ სწორკუთხა ფონზე, ამოკვეთილია წარწერა.</seg>
                                         <seg xml:lang="en">One line inscription. The inscription is embossed on the stone that has the figure of “Bolnisi Cross” on its upper part; the cross is embedded in a medallion with a frame like braided rope. The crossbars are simple. The inscription is carved above the cross on the lowered background. </seg>
                                         <dimensions unit="cm">
@@ -56,7 +56,7 @@
                                         <depth></depth></dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                                 <handNote script="asomtavruli" style="embossed">
                                  <seg xml:lang="ka"><rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
@@ -72,7 +72,7 @@
                                     <seg xml:lang="ka">ლამაზი გორა, ბოლნისი</seg>
                                     <seg xml:lang="en">Lamazi Gora, Bolnisi</seg>
                                 </origPlace>
-                                <origDate notBefore-custom="0400" notAfter-custom="0600" precision="medium" 
+                                <origDate notBefore-custom="0400" notAfter-custom="0600" precision="medium"
                                     evidence="lettering" datingMethod="#julian">V-VI AD</origDate>
                             </origin>
                             <provenance type="found" when="1959">
@@ -83,15 +83,15 @@
                                 <!-- "41.449801, 44.548284"-->
                                 <rs type="circumstances">
                                     <seg xml:lang="ka">ძეგლი აღმოჩენილია ივანე ჯავახიშვილის სახელობის ისტორიის ინსტიტუტის არქეოლოგიური ექსპედიციის მიერ,
-                                    რომელსაც ი. გრძელიშვილი ხელმძღვანელობდა. ბოლნისის სიონიდან ჩრდილო-დასავლეთით, დაახლოებით 800 მეტრის დაშორებით მდებარეობს ბორცვი, 
+                                    რომელსაც ი. გრძელიშვილი ხელმძღვანელობდა. ბოლნისის სიონიდან ჩრდილო-დასავლეთით, დაახლოებით 800 მეტრის დაშორებით მდებარეობს ბორცვი,
                                     რომელსაც ადგილობრივი მოსახლეობა „ლამაზ გორას“ უწოდებს. სწორედ ამ გორაზე ჩაატარა ექსპედიციამ გათხრები და შუა ადგილას გამოავლინა
                                     სამეკლესიანი ბაზილიკის ნანგრევები. ვარაუდობენ, რომ ეს იყო სამონასტრო კომპლექსი, რომელსაც ეჭირა 1000 კვ.მ. ფართობი. ამ ტერიტორიაზე
                                     აღმოჩნდა ათეული ქვაჯვარი ასომთავრული წარწერებით. ძეგლი იპოვეს 1959 წელს.</seg>
                                     <seg xml:lang="en">The monument was discovered by the archeological expedition of Ivane Javakhishvili Institute of History supervised by I. Grdzelishvili. The hill that the locals call “Lamazi Gora” (a beautiful hill) is located 800 meters from Bolnisi Sioni Cathedral to the north-west. During the excavations of the hill the ruins of three-church basilica was found in the middle of it. The territory of the monastery could have been 1000 sq m. Up to ten stone crosses with Asomtavruli inscriptions were found in this territory. The monument was discovered in 1959.</seg>
-                                </rs> 
+                                </rs>
                                 <rs type="context"></rs>
                                 <rs type="monuList"/>
-                            </provenance> 
+                            </provenance>
                              <provenance type="observed">
                             <placeName type="modernSpot" ref="http://museum.ge/">
                                 <seg xml:lang="ka">საქართველოს ეროვნული მუზეუმი</seg>
@@ -99,7 +99,7 @@
                             </placeName>
                             <idno type="invNo">1187</idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -107,7 +107,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
      <facsimile>
@@ -121,31 +121,31 @@
     <text>
         <body>
             <div type="bibliography">
-                  
-                  <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები<ptr target="bibliography.xml#b101"/>, <citedRange> 86</citedRange></bibl></p>
-                  <p><bibl n="2">ჯ. ამირანაშვილი, ადრეფეოდალური ხანის ქართული არქიტექტურისა და რელიეფური ქანდაკების ძეგლები<ptr target="bibliography.xml#b136"/>, <citedRange> 36</citedRange></bibl></p> 
-                
-            </div> 
-            
+
+                  <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები, <citedRange> 86</citedRange></bibl></p>
+                  <p><bibl n="2"><ptr target="#b136"/> ჯ. ამირანაშვილი, ადრეფეოდალური ხანის ქართული არქიტექტურისა და რელიეფური ქანდაკების ძეგლები, <citedRange> 36</citedRange></bibl></p> 
+
+            </div>
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!--  "[ა]ბაზ ა[ზ]იარენ"-->
-                                 
+
                 <ab>
                    <lb n="1"/> <!--  <gap reason="lost" extent="unknown" unit="character"></gap>--> <persName type="local" key="აბაზ"><supplied reason="lost">ა</supplied>ბაზ</persName>
                     <w lemma="ზიარება">ა<supplied reason="lost">ზ</supplied>იარენ</w>
                  </ab>
-             
+
             </div>
-                
+
             <div type="translation">
                 <p xml:lang="ka">...აბაზ აზიარენ.</p>
                 <p xml:lang="en">...May Abaz receive the eucharist</p>
             </div>
-            
+
             <div type="apparatus" xml:space="preserve">
                          </div>
-            
+
             <div type="commentary">
                 <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #22. წარწერაში განკვეთილობისა და ქარაგმის ნიშნები არ ჩანს. სიტყვები ერთმანეთისგან არ არის დაცილებული.</p>
                 <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #22. The inscription does not contain any mark of separation or abbreviation.</p>

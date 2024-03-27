@@ -5,8 +5,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="ka">წარწერა მთავარი კარიბჭის თავზე</title>
-                <editor xml:lang="ka">ზაზა ალექსიძე</editor>
+                <title>წარწერა მთავარი კარიბჭის თავზე</title>
+                <editor></editor>
             </titleStmt>
             <publicationStmt>
                  <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
@@ -107,7 +107,7 @@
 
             <div type="bibliography">
                 
-                    <p><bibl n="1">ზაზა ალექსიძე, გარეჯის ეპიგრაფიკული ძეგლები, <citedRange>80</citedRange></bibl></p>
+                    <p><bibl n="1">გარეჯის ეპიგრაფიკული ძეგლები, <citedRange>80</citedRange></bibl></p>
                     <p><bibl n="2">მღვდელმონაზონი კალისტრატე, <citedRange>4-5</citedRange></bibl></p>
                 
             </div>
@@ -127,20 +127,20 @@
                               <w lemma="მას"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ს</abbr></expan></w>
                               <w lemma="შინ"><expan><abbr>შ</abbr><ex>ინ</ex><abbr>ა</abbr></expan></w>
                               დ<supplied reason="undefined" >ა</supplied> 
-                              <w lemma="ავლა">აუ<supplied reason="undefined">ო       
+                              <w lemma="ავლა">აუ<supplied reason="undefined">ო       <!-- აქ „ო“ იმიტომ გამოვყავი ასე, რომ მკვლევარს აქვს ამოკითხული წინა შემთხვევის მსგავსად. -->
                  <lb n="3" break="no"/>ვარო</supplied></w>
                               <w lemma="უფალი"><expan><abbr>უ</abbr><ex>ფალს</ex><abbr>ა</abbr></expan></w>
                               <w lemma="ესე">ესე</w>
                               <w lemma="არს">არს</w>
                               <w lemma="ბჭე">ბჭე</w>
-                              <w lemma="უფალი"><expan><abbr>უ</abbr><ex>ფლ</ex><abbr>ის</abbr><ex>ა</ex><supplied reason="undefined">ჲ</supplied></expan></w> 
+                              <w lemma="უფალი"><expan><abbr>უ</abbr><ex>ფლ</ex><abbr>ის</abbr><ex>ა</ex><supplied reason="undefined">ჲ</supplied></expan></w> <!-- აქ იოტაა დამატებული მლვლევარის მიერ -->
                               და
                  <lb n="4"/><w lemma="მართალ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>რთ</abbr><ex>ა</ex><abbr>ლნი</abbr></expan></w>
                                <w lemma="ვლა">შევლენ</w>
                                <w lemma="ამას"><expan><abbr>ამ</abbr><ex>ა</ex><abbr>ს</abbr></expan></w>
                                <w lemma="შინ"><expan><abbr>შ</abbr><ex>ინ</ex><abbr>ა</abbr></expan></w>
                                <rs type="date"><w lemma="ქრონიკონ"><expan><abbr>ქ</abbr><ex>ორონი</ex><abbr>კ</abbr><ex>ონ</ex><abbr>სა</abbr></expan></w>
-                               <num value="123">ტპგ</num></rs> ჻ 
+                               <num value="123">ტპგ</num></rs> ჻    <!-- ჩაწერე რეალური რიცხვითი მნიშვნელობა -->
                    </ab>
 
             </div>

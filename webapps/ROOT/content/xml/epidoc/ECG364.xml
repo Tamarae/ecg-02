@@ -103,7 +103,7 @@
         <body>
             <div type="bibliography">
                 
-                    <p><bibl n="1">შაჰბან ჰაფიზოვი, ქართული, ქართულ-ხუნძური და ხუნძური წარწერები მთიან ხუნძეთში (დაღესტანი)<ptr target="bibliography.xml#b141"/>, <citedRange> 117-120</citedRange></bibl></p>
+                    <p><bibl n="1"><ptr target="#b141"/> შაჰბან ჰაფიზოვი, ქართული, ქართულ-ხუნძური და ხუნძური წარწერები მთიან ხუნძეთში (დაღესტანი), <citedRange> 117-120</citedRange></bibl></p>
                  
             </div>
             

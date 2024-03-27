@@ -12,7 +12,7 @@
                 <editor>ნიკო ბერძენიშვილი</editor>
                 <editor>ვ. ცისკარიშვილი</editor>
                 <editor>ი. გვარამაძე</editor>
-                
+
             </titleStmt>
             <publicationStmt>
                 <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
@@ -26,11 +26,11 @@
                     </msIdentifier>
                     <physDesc>
                         <objectDesc>
-                            <supportDesc><support> 
+                            <supportDesc><support>
                                 <objectType ref="https://www.eagle-network.eu/voc/objtyp">ფასადი</objectType>
                                 <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
-                                <dimensions> 
-                                <width/> 
+                                <dimensions>
+                                <width/>
                                 <height/>
                                 </dimensions>
                             </support>
@@ -38,8 +38,8 @@
                             <layoutDesc>
                                 <layout writtenLines="1">
                                 ერთი სტრიქონი; ამოკვეთილი ნახევარწრიულად ტაძრის სამხრეთ ფასადზე - შესასვლელის მარჯვნივ, ოდნავ ზემოთ, ამბრაზურის კამარის სამ სხვადასხვა, ნახევარწრიულად განლაგებულ ფილებზე
-                                <dimensions unit="cm"> 
-                                    <width>84</width> 
+                                <dimensions unit="cm">
+                                    <width>84</width>
                                     <height/>
                                 </dimensions>
                             </layout>
@@ -50,7 +50,7 @@
                         ამოკვეთილი ასომთავრული წარწერა. განკვეთილობის ნიშნები არ აქვს; ქარაგმის ნიშანი: განივი, სწორი ხაზი.
                         <dimensions unit="cm">
                             <height>5-6-6.5</height>
-                        </dimensions> 
+                        </dimensions>
                         </handNote>
                         </handDesc>
                     </physDesc>
@@ -76,77 +76,77 @@
     <text>
         <!--
         1.&#10013; ქ(რისტ)ე შ(ეიწყალ)ე ს(უ)ლი მ(ო)ლ(ო)ზ(ონი)სი ა(მე)ნ
-        --> 
+        -->
         <body>
                         <div type="bibliography">
                 <p>
-                    <bibl n="1">ვალერი სილოგავა, კუმურდო, <citedRange>58-59</citedRange>, თბილისი 1994<ptr target="bibliography.xml#b198"/></bibl>
+                    <bibl n="1"><ptr target="#b198"/> ვალერი სილოგავა, კუმურდო, <citedRange>58-59</citedRange>, თბილისი 1994</bibl>
                 </p>
-                
-                
+
+
                 <p>
-                    <bibl n="2">M. Brosset, Rapports sur un voyage archeologique dans la Georgie et dans l'Armenie execute en 1847-1848
-                        V. II <citedRange>170</citedRange>St. Petersburg, 1850 <ptr target="bibliography.xml#b189"/>
+                    <bibl n="2"><ptr target="#b189"/> M. Brosset, Rapports sur un voyage archeologique dans la Georgie et dans l'Armenie execute en 1847-1848
+                        V. II <citedRange>170</citedRange>St. Petersburg, 1850
                     </bibl>
                 </p>
-                
+
                 <p>
-                    <bibl n="3">
-                        И.П. Ростомов, Аxалкалакский уъезд в арxеологическом отношении, <citedRange>87</citedRange>, 1898<ptr target="bibliography.xml#b199"/>
+                    <bibl n="3"><ptr target="#b199"/> 
+                        И.П. Ростомов, Аxалкалакский уъезд в арxеологическом отношении, <citedRange>87</citedRange>, 1898
                     </bibl>
                 </p>
-                
+
                 <p>
-                    <bibl n="4">
-                        Е.С. Такайшвили, Христианские памятники, <citedRange>39</citedRange>, Москва, 1909<ptr target="bibliography.xml#b153"/>
+                    <bibl n="4"><ptr target="#b153"/>
+                        Е.С. Такайшвили, Христианские памятники, <citedRange>39</citedRange>, Москва, 1909
                     </bibl>
                 </p>
-                
+
                 <p>
-                    <bibl n="5">
-                        ვ. ცისკარიშვილი, ჯავახეთის ეპიგრაფიკა, როგორც საისტორიო წყარო, <citedRange>17-18</citedRange>, თბილისი, 1959<ptr target="bibliography.xml#b200"/>
+                    <bibl n="5"><ptr target="#b200"/>
+                        ვ. ცისკარიშვილი, ჯავახეთის ეპიგრაფიკა, როგორც საისტორიო წყარო, <citedRange>17-18</citedRange>, თბილისი, 1959
                     </bibl>
                 </p>
-                
+
                 <p>
-                    <bibl n="6">
+                    <bibl n="6"><ptr target="#b201"/>
                         ნ. ბერძენიშვილი, ჯავახეთის 1933 წლის ექსპედიციის დღიური, იხ. მისი "საქართველის ისტორიის საკითხები", ისტორიული გეოგრაფია, ტ. I, <citedRange>133</citedRange>
-                        თბილისი, 1964<ptr target="bibliography.xml#b201"/>
+                        თბილისი, 1964
                     </bibl>
                 </p>
-                
+
                 <p>
-                    <bibl n="7">ი. გვარამაძე, "დროება" არქეოლოგიური შენიშვნები, <citedRange>00</citedRange>, თბილისი, 1982<ptr target="bibliography.xml#b202"/></bibl>
+                    <bibl n="7"><ptr target="#b202"/></bibl> ი. გვარამაძე, "დროება" არქეოლოგიური შენიშვნები, <citedRange>00</citedRange>, თბილისი, 1982
                 </p>
-                
+
             </div>
-            
+
 
                          <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
 
                        <ab>
-                           <lb n="1"/> &#10013;<expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan> <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> 
-                           <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლი</abbr></expan></w> 
-                           <persName type="local" key="მოლოზონ"><expan><abbr>მ</abbr><ex>ო</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ზ</abbr><ex>ონი</ex><abbr>სი</abbr></expan></persName> 
-                           <w lemma="ამენ"><expan><abbr>ა</abbr><ex>მე</ex><abbr>ნ</abbr></expan></w>         
+                           <lb n="1"/> &#10013;<expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan> <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w>
+                           <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლი</abbr></expan></w>
+                           <persName type="local" key="მოლოზონ"><expan><abbr>მ</abbr><ex>ო</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ზ</abbr><ex>ონი</ex><abbr>სი</abbr></expan></persName>
+                           <w lemma="ამენ"><expan><abbr>ა</abbr><ex>მე</ex><abbr>ნ</abbr></expan></w>
                         </ab>
-             
+
             </div>
-            
-           
-                
-          
-                
-         
+
+
+
+
+
+
 
             <div type="translation">
                 <p></p>
             </div>
-            
+
             <div type="commentary">
                 <p>წარწერის შიდა ფილა ნაცრისფერია, ხოლო გვერდითი ფილები - ღვინისფერი</p>
             </div>
-            
+
         </body>
     </text>
 </TEI>

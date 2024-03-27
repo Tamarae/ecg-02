@@ -121,21 +121,21 @@
     <text>
         <body>
             <div type="bibliography">
-                
-             <p><bibl n="1"><ptr target="bibliography.xml#b101"/>ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, <citedRange> 97-99</citedRange></bibl></p>
-             <p><bibl n="2"><ptr target="bibliography.xml#b92"/>კორნელი დანელია, ზურაბ სარჯველაძე, ქართული პალეოგრაფია, <citedRange> 34</citedRange></bibl></p>
-             <p><bibl n="3"><ptr target="bibliography.xml#b59"/>აკაკი შანიძე, ძველი ქართულის ქრესტომათია ლექსიკონითურთ, <citedRange> 25, 108</citedRange></bibl></p>
-            <p><bibl n="4"><ptr target="bibliography.xml#b110"/>სიმონ ჯანაშია, ფეოდალური რევოლუცია საქართველოში, <citedRange> 99</citedRange></bibl></p>
-             <p><bibl n="5"><ptr target="bibliography.xml#b58"/>აკაკი შანიძე, ხუნამისის წარწერის განმარტებისათვის, <citedRange> 222-223</citedRange></bibl></p>
-             <p><bibl n="6"><ptr target="bibliography.xml#b112"/>ქართული ენის ისტორიული ქრესტომათია, <citedRange> 2-3</citedRange></bibl></p>
-             <p><bibl n="7"><ptr target="bibliography.xml#b23"/>M. Tarchnišvili, Le soulévement de Bardas Skléros, <citedRange> 253-254</citedRange></bibl></p>
-            <p><bibl n="8"><ptr target="bibliography.xml#b111"/>საქართველოს სახელმწიფო მუზეუმის ქართული ეპიგრაფიკული ძეგლების კატალოგი, <citedRange> 19</citedRange></bibl></p>
-        <!--    <p><bibl n="9"><ptr target="bibliography.xml#b15"/>I. Molitor MIA CSCO</bibl></p>  -->
-          <p><bibl n="10"><ptr target="bibliography.xml#b46"/>Н. Г. Чубинашвили, Зедазени, Кликис-Джвари, Гвиара, <citedRange> 10</citedRange></bibl></p>
-           <p><bibl n="11"><ptr target="bibliography.xml#b26"/>N. Tchubinachvili. Gáscension de la Croix, <citedRange> 206-208</citedRange></bibl></p>
-            <p><bibl n="12"><ptr target="bibliography.xml#b62"/>ალ. გამყრელიძე, ქართული დამწერლობის უძველესი ნიმუშები, <citedRange> 22</citedRange></bibl></p>
-           <p><bibl n="13"><ptr target="bibliography.xml#b76"/>ვალერი სილოგავა, ქართული სამართლის ძეგლები დასავლეთ საქართველოს ლაპიდარულ წარწერებში, <citedRange> 146</citedRange></bibl></p>
-             
+
+             <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, <citedRange> 97-99</citedRange></bibl></p>
+             <p><bibl n="2"><ptr target="#b92"/> კორნელი დანელია, ზურაბ სარჯველაძე, ქართული პალეოგრაფია, <citedRange> 34</citedRange></bibl></p>
+             <p><bibl n="3"><ptr target="#b59"/> აკაკი შანიძე, ძველი ქართულის ქრესტომათია ლექსიკონითურთ, <citedRange> 25, 108</citedRange></bibl></p>
+            <p><bibl n="4"><ptr target="#b110"/> სიმონ ჯანაშია, ფეოდალური რევოლუცია საქართველოში, <citedRange> 99</citedRange></bibl></p>
+             <p><bibl n="5"><ptr target="#b58"/> აკაკი შანიძე, ხუნამისის წარწერის განმარტებისათვის, <citedRange> 222-223</citedRange></bibl></p>
+             <p><bibl n="6"><ptr target="#b112"/> ქართული ენის ისტორიული ქრესტომათია, <citedRange> 2-3</citedRange></bibl></p>
+             <p><bibl n="7"><ptr target="#b23"/> M. Tarchnišvili, Le soulévement de Bardas Skléros, <citedRange> 253-254</citedRange></bibl></p>
+            <p><bibl n="8"><ptr target="#b111"/> საქართველოს სახელმწიფო მუზეუმის ქართული ეპიგრაფიკული ძეგლების კატალოგი, <citedRange> 19</citedRange></bibl></p>
+        <!--    <p><bibl n="9"><ptr target="#b15"/>I. Molitor MIA CSCO</bibl></p>  -->
+          <p><bibl n="10"><ptr target="#b46"/> Н. Г. Чубинашвили, Зедазени, Кликис-Джвари, Гвиара, <citedRange> 10</citedRange></bibl></p>
+           <p><bibl n="11"><ptr target="#b26"/> N. Tchubinachvili. Gáscension de la Croix, <citedRange> 206-208</citedRange></bibl></p>
+            <p><bibl n="12"><ptr target="#b62"/> ალ. გამყრელიძე, ქართული დამწერლობის უძველესი ნიმუშები, <citedRange> 22</citedRange></bibl></p>
+           <p><bibl n="13"><ptr target="#b76"/> ვალერი სილოგავა, ქართული სამართლის ძეგლები დასავლეთ საქართველოს ლაპიდარულ წარწერებში, <citedRange> 146</citedRange></bibl></p>
+
             </div>
 
             <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">

@@ -32,7 +32,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material></material>
                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/53">კვარცხლბეკი</objectType>
                                     <objectType xml:lang="en"  ref="http://www.eagle-network.eu/voc/objtyp/lod/53"></objectType>
@@ -46,18 +46,18 @@
                                         <width>18</width>
                                         <height>60</height>
                                         <depth/>
-                                      </dimensions>                              
+                                      </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
                                 <p xml:lang="ka">ასოები რელიეფურია, ძირითადად კუთხოვანი.
-		                        წარწერის I სტრიქონი არის მთელ წახნაგზე, კამარის თავზე სტრიქონის ზედა ნაწილი საკმაოდ გადაცვეთილია. შემდეგი სტრიქონები შუაში გაწყვეტილია კამარით. სტრიქონთა მარცხენა მხარე 
+		                        წარწერის I სტრიქონი არის მთელ წახნაგზე, კამარის თავზე სტრიქონის ზედა ნაწილი საკმაოდ გადაცვეთილია. შემდეგი სტრიქონები შუაში გაწყვეტილია კამარით. სტრიქონთა მარცხენა მხარე
 		                        ასევე გადაცვეთილია. წარწერა შეიცავს 6 სტრიქონს, პირველი ოთხი სტრიქონი უფრო ლაღად არის ნაწერი, ბოლო ორი უფრო მომჭირნედ არის გამოყვანილი.</p>
                                 <p xml:lang="en">
-                                    Embossed letters are mostly square shaped. The 1st line is on the entire side- facade. The inscription on the top of the arch is eroded. The next lines are interrupted by the arch. The left side of the lines is also eroded. 
-                                    The inscription contains six lines, the first four lines are shaped more freely, and the last two lines are fitted close together. 
+                                    Embossed letters are mostly square shaped. The 1st line is on the entire side- facade. The inscription on the top of the arch is eroded. The next lines are interrupted by the arch. The left side of the lines is also eroded.
+                                    The inscription contains six lines, the first four lines are shaped more freely, and the last two lines are fitted close together.
                                 </p>
                                 <height unit="cm" precision="medium">3 - 2,5 სმ</height>
                                 <width unit="cm" precision="medium"></width>
@@ -68,8 +68,8 @@
                                 <p xml:lang="ka">კვარცხლბეკის ორ მოპირდაპირე წახნაგზე ამოკვეთილია თითო ბოლნურჯვრიანი მედალიონი, ხოლო წახნაგთა მეორე წყვილზე მოჩუქურთმებულ კამარებში გამოხატულია მოგრძო ჯვრები
                                 და კამარის გაკეთების შემდეგ ამ წახნაგებზე გამოყვანილია ბერძნული წარწერები. </p>
                                 <p xml:lang="en">
-                                    The medallions with “Bolnisi Cross” ornament are embossed on the opposite sides of the pedestal, the oval shape crosses are ornamented on the other couple of ornamentally 
-                                    carved arches and on the joining part of the side-facades there we see the Greek inscriptions. 
+                                    The medallions with “Bolnisi Cross” ornament are embossed on the opposite sides of the pedestal, the oval shape crosses are ornamented on the other couple of ornamentally
+                                    carved arches and on the joining part of the side-facades there we see the Greek inscriptions.
                                 </p>
                             </decoNote>
                         </decoDesc>
@@ -80,17 +80,17 @@
                                     <seg xml:lang="ka">კაზრეთი</seg>
                                     <seg xml:lang="en">Kazreti</seg>
                                 </origPlace>
-                                <origDate notBefore="0501" notAfter="0700" precision="medium" evidence="lettering" datingMethod="#julian">VI-VII AD</origDate>                        
+                                <origDate notBefore="0501" notAfter="0700" precision="medium" evidence="lettering" datingMethod="#julian">VI-VII AD</origDate>
                               </origin>
                             <provenance type="found" when="1964">
                                 <placeName type ="ancientFindspot">
                                     <seg xml:lang="ka">კაზრეთი</seg>
                                     <seg xml:lang="en">Kazreti</seg>
-                                </placeName> 
+                                </placeName>
                                 <rs type="circumstances"/>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                         
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot" ref="http://museum.ge/">
                                 <seg xml:lang="ka">საქართველოს ეროვნული მუზეუმის ლაპიდარიუმი</seg>
@@ -98,7 +98,7 @@
                             </placeName>
                             <idno/>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -106,7 +106,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-    </teiHeader>   
+    </teiHeader>
     <facsimile>
         <surface>
             <graphic url="ecg018.jpg">
@@ -115,18 +115,18 @@
             </graphic>
         </surface>
     </facsimile>
-    
+
     <text>
         <body>
-            
+
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 257-258</citedRange></bibl></p>
-                
-            </div> 
-            
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 257-258</citedRange></bibl></p>
+
+            </div>
+
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!-- † ὑπὲρ ε[ὐ]χῆς Συμεώ
 		                        νου καὶ Ἀουλιανοῦ
 		                        μετὰ παντὸς
@@ -136,7 +136,7 @@
 
 
                                                                          -->
-                     
+
          <ab>
              <lb n="1"/><g type="cross">&#10013;</g><w lemma="ὑπέρ">ὑπὲρ</w> <w lemma="εὐχή">ε<supplied reason="lost">ὐ</supplied>χῆς</w> <persName type="local" key="სიმეონი (Συμεῶν)"><name nymRef="Συμεῶν">Συμεώ
              <lb n="2" break="no"/> νου</name></persName> καὶ <persName type="local" key="ავლიანოსი (Ἀουλιανός)"><name nymRef="Ἀουλιανός">Ἀουλιανοῦ</name></persName>
@@ -144,34 +144,31 @@
              <lb n="4"/> <w lemma="ὁ">τοῦ</w> <w lemma="οἶκος">οἴκου</w> <w lemma="αὐτοί">αὐ
              <lb n="5" break="no"/> τῶν</w>. <w lemma="κύριος"><expan><abbr>κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></w>, <w lemma="βοηθῶ">βοήθ<choice><reg>ει</reg><orig>ι</orig></choice></w>
              <lb n="6"/> <persName type="local" key="თეოდოროსი (Θεώδορος)"><name nymRef="Θεώδορος">Θεώδορον</name></persName>
-          </ab>    
-             
-         
+          </ab>
+
+
             </div>
-                
+
             <div type="translation">
                 <p  xml:lang="ka">ქ. სალოცველად სიმეონისა და ავლიანოსისა ყოვლითა მათითა სახლითურთ. უფალო, შეეწიე თეოდორეს.</p>
                 <p xml:lang="en">Ch. By praying for Simeon and Avlianos and their household. God, have mercy on Theolores.</p>
             </div>
-            
-           
+
+
             <div type="commentary">
-                <p xml:lang="ka">პალეოგრაფიული მონაცემებით (α ჩატეხილი შუა ხაზით, π – გაგრძელებული ჰოტიზონტალური შტრიხით, კუთხოვანი ასოებით Ε, Ш) და 
+                <p xml:lang="ka">პალეოგრაფიული მონაცემებით (α ჩატეხილი შუა ხაზით, π – გაგრძელებული ჰოტიზონტალური შტრიხით, კუთხოვანი ასოებით Ε, Ш) და
                                     ენობრივი თავისებურებებით (იტაციზმი; ο||ω–ს მონაცვლეობა; βοήθει ზმნასთან დამატება accusativus–ში) წარწერა V-VIII სს–ით AD თარიღდება. შეიძლება თარიღის მეტი დაზუსტება –
-                                    VI-VII სს–ით. ხელოვნებათმცოდნეთა აზრით, ძეგლი ჯვრებისა და ორნამენტების მიხედვით მთლიანად V ს–ისაა (ვ. ჯაფარიძე); არის აზრი, რომ ბოლნური ჯვრები V-VI ს–ისაა, ხოლო წარწერიანი წახნაგები 
+                                    VI-VII სს–ით. ხელოვნებათმცოდნეთა აზრით, ძეგლი ჯვრებისა და ორნამენტების მიხედვით მთლიანად V ს–ისაა (ვ. ჯაფარიძე); არის აზრი, რომ ბოლნური ჯვრები V-VI ს–ისაა, ხოლო წარწერიანი წახნაგები
                             მოგრძო ჯვრებითა და ჩუქურთმიანი კამარებით VIII-IX სს–ისა (ვ. დოლიძე).
-               სხვა წყაროებით უცნობ პირებს, სიმეონსა და ავლიანეს რაღაცა დამსახურებისათვის თავისი და თავისი სახლის, ოჯახის სალოცველად აღუმართავთ ეს სტელა, ხოლო თეოდორე, ამ სტელის 
+               სხვა წყაროებით უცნობ პირებს, სიმეონსა და ავლიანეს რაღაცა დამსახურებისათვის თავისი და თავისი სახლის, ოჯახის სალოცველად აღუმართავთ ეს სტელა, ხოლო თეოდორე, ამ სტელის
                 გამკეთებელი, ხელოვანი, თუ ოსტატი უფალს შეწევნას სთხოვს.</p>
-                
+
                 <p xml:lang="en">
-                    According to the paleographic data ( α with broken crossbar, π - with horizontal line, square shape Ε, Ш) and linguistic characteristics (itacism, interchangeable ο||ω, βοήθει added to the verb in accusativus) the inscription can be dated to V-VIII AD. 
-                    We can give a more precise date - VI-VII. According to the art historians the monument is V century (V. Japaridze); it is also considered that the Bolnisi Crosses are from the V-VI century, 
+                    According to the paleographic data ( α with broken crossbar, π - with horizontal line, square shape Ε, Ш) and linguistic characteristics (itacism, interchangeable ο||ω, βοήθει added to the verb in accusativus) the inscription can be dated to V-VIII AD.
+                    We can give a more precise date - VI-VII. According to the art historians the monument is V century (V. Japaridze); it is also considered that the Bolnisi Crosses are from the V-VI century,
                     the side-facade inscriptions and oval shape crosses and ornamented arches are VIII-IX century (V. Dolidze). According to the other sources, Simeon and Avlianos as a sign of some achievement had erected this stele as a place for prayers for their house and family members, while Theodorus the craftsman of the stele and master is asking for the mercy from God.
                 </p>
             </div>
         </body>
     </text>
 </TEI>
-
-
-

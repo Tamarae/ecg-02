@@ -13,7 +13,7 @@
                 <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
                 <idno type="filename">ECG229</idno>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/"> 
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
                         დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით
                     </licence>
                 </availability>
@@ -25,7 +25,7 @@
                             დმანისი
                         </collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">საამშენებლო</seg>
@@ -46,7 +46,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout writtenLines="5">
-                                    5 სტრიქონიანი წარწერა ამოკვეთილია ბალავრს ქვაზე.                                                          
+                                    5 სტრიქონიანი წარწერა ამოკვეთილია ბალავრს ქვაზე.
                                     <dimensions unit="cm">
                                         <width>138</width>
                                         <height>51</height>
@@ -88,10 +88,10 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    
-    <!-- 
-    
-        
+
+    <!--
+
+
     <facsimile>
         <surface>
             <graphic url="tskise_01.jpg">
@@ -100,58 +100,58 @@
             </graphic>
         </surface>
     </facsimile>
-    
+
     -->
-    
-    
+
+
     <text>
         <!--
         1.ქ. სახ(ე)ლით(ა) ღ(მრთისაჲთ)ა, ესე ეკლეს(ი)ა წ(მიდის)ა გ(იორგ)ისი
         2.მ(ა)ს ჟამს(ა) აღეშენ(ა) ოდეს ჲ(ო)ვ(ა)ნ(ე)ს ჰქ(ო)ნდა ნ(ი)კ(ო)ლ(ო)ზ(ი)ს
         3.ძესა, ს(ა)დ(იდე)ბელ(ა)დ ს(უ)ლისა მ(ა)თის(ა), დღჱგრ
-        4.ძ(ე)ლებ(ი)სათჳ(ს)ძის(ა) მ(ა)თ(ის)ა ნიკ(ო)ლ(ო)ზ(ი)ს(ა) †   
+        4.ძ(ე)ლებ(ი)სათჳ(ს)ძის(ა) მ(ა)თ(ის)ა ნიკ(ო)ლ(ო)ზ(ი)ს(ა) †
         5.ქ(ო)რო(ნი)კონი ჲყო სჲ
         -->
         <body>
-                
+
                  <div type="bibliography">
-                
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>125-126</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                <p><bibl n="2">დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>110</citedRange> თბილისი, 2014<ptr target="bibliography.xml#b213"/></bibl></p>
-                <p><bibl n="4">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>26</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
+
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>125-126</citedRange>, თბილისი, 2018</bibl></p>
+                <p><bibl n="2"><ptr target="#b213"/> დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>110</citedRange> თბილისი, 2014</bibl></p>
+                <p><bibl n="4"><ptr target="#b216"/> გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>26</citedRange>, თბილისი, 2016</bibl></p>
             </div>
             <div type="edition" xml:lang="ka" xml:space="preserve" ana="mtavruli">
 
             <ab>
                 <lb n="1"/>&#10013;
-                           <w lemma="სახელ"><expan><abbr>სახ</abbr><ex>ე</ex><abbr>ლით</abbr><ex>ა</ex></expan></w> 
-                           <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთისაჲთ</ex><abbr>ა</abbr></expan></w> 
-                           <w lemma="ესე">ესე</w> 
-                           <w lemma="ეკლესია"><expan><abbr>ეკლეს</abbr><ex>ი</ex><abbr>ა</abbr></expan></w> 
-                           <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდის</ex><abbr>ა</abbr></expan></w> 
-                           <name nymRef="გიორგი"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ისი</abbr></expan></name> 
-                <lb n="2"/><w lemma="მას">მას</w> 
-                           <w lemma="ჟამ"><expan><abbr>ჟამს</abbr><ex>ა</ex></expan></w> 
-                           <w lemma="შენება"><expan><abbr>აღეშენ</abbr><ex>ა</ex></expan></w> 
-                           <w lemma="ოდეს">ოდეს</w> 
-                           <persName type="local" key="ჲოვანე ნიკოლოზის ძე"><expan><abbr>ჲ</abbr><ex>ო</ex><abbr>ვ</abbr><ex>ა</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ს</abbr></expan></persName> 
-                           <w lemma="აქვს"><expan><abbr>ჰქ</abbr><ex>ო</ex><abbr>ნდა</abbr></expan></w> 
+                           <w lemma="სახელ"><expan><abbr>სახ</abbr><ex>ე</ex><abbr>ლით</abbr><ex>ა</ex></expan></w>
+                           <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთისაჲთ</ex><abbr>ა</abbr></expan></w>
+                           <w lemma="ესე">ესე</w>
+                           <w lemma="ეკლესია"><expan><abbr>ეკლეს</abbr><ex>ი</ex><abbr>ა</abbr></expan></w>
+                           <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდის</ex><abbr>ა</abbr></expan></w>
+                           <name nymRef="გიორგი"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ისი</abbr></expan></name>
+                <lb n="2"/><w lemma="მას">მას</w>
+                           <w lemma="ჟამ"><expan><abbr>ჟამს</abbr><ex>ა</ex></expan></w>
+                           <w lemma="შენება"><expan><abbr>აღეშენ</abbr><ex>ა</ex></expan></w>
+                           <w lemma="ოდეს">ოდეს</w>
+                           <persName type="local" key="ჲოვანე ნიკოლოზის ძე"><expan><abbr>ჲ</abbr><ex>ო</ex><abbr>ვ</abbr><ex>ა</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ს</abbr></expan></persName>
+                           <w lemma="აქვს"><expan><abbr>ჰქ</abbr><ex>ო</ex><abbr>ნდა</abbr></expan></w>
                            <persName type="local" key="ნიკოლოზ"><expan><abbr>ნ</abbr><ex>ი</ex><abbr>კ</abbr><ex>ო</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ზ</abbr><ex>ი</ex><abbr>ს</abbr></expan></persName>
-                <lb n="3"/><w lemma="ძე">ძესა</w> 
-                           <w lemma="სადიდებელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>დ</abbr><ex>იდე</ex><abbr>ბელ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> 
-                           <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლისა</abbr></expan></w> 
-                           <w lemma="მათ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>თის</abbr><ex>ა</ex></expan></w> 
+                <lb n="3"/><w lemma="ძე">ძესა</w>
+                           <w lemma="სადიდებელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>დ</abbr><ex>იდე</ex><abbr>ბელ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
+                           <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლისა</abbr></expan></w>
+                           <w lemma="მათ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>თის</abbr><ex>ა</ex></expan></w>
                            <w lemma="დღეგრძელება"><expan><abbr>დღჱგრ
-                <lb n="4" break="no"/>ძ</abbr><ex>ე</ex><abbr>ლებ</abbr><ex>ი</ex><abbr>სათჳ</abbr><ex>ს</ex></expan></w> 
+                <lb n="4" break="no"/>ძ</abbr><ex>ე</ex><abbr>ლებ</abbr><ex>ი</ex><abbr>სათჳ</abbr><ex>ს</ex></expan></w>
                            <w lemma="ძე"><expan><abbr>ძის</abbr><ex>ა</ex></expan></w>
                            <w lemma="მათ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>თ</abbr><ex>ის</ex><abbr>ა</abbr></expan></w>
                            <persName><name nymRef="ნიკოლოზ"><expan><abbr>ნიკ</abbr><ex>ო</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ზ</abbr><ex>ი</ex><abbr>ს</abbr><ex>ა</ex></expan></name></persName>
                            &#10013;
-                <lb n="5"/><rs type="date"><w lemma="ქორონიკონ"><expan><abbr>ქ</abbr><ex>ო</ex><abbr>რო</abbr><ex>ნი</ex><abbr>კონი</abbr></expan></w> 
+                <lb n="5"/><rs type="date"><w lemma="ქორონიკონ"><expan><abbr>ქ</abbr><ex>ო</ex><abbr>რო</abbr><ex>ნი</ex><abbr>კონი</abbr></expan></w>
                            <w lemma="ყოფნა">ჲყო</w>
-                           <num value="260">სჲ</num> </rs>  
+                           <num value="260">სჲ</num> </rs>
                 </ab>
-             
+
             </div>
 
 
@@ -164,13 +164,13 @@
                 <div type="commentary">
                     <p>წარწერა მოთავსებულია სოფ. ქვემო ყარაბულახის თავზე, გორის წვერზე მდებარე დანგრეული სარკის წმ. გიორგის ეკლესიასთან.
                         დაზიანება: მზისა და ნალექის გამო ბალავრის ზედაპირი გადარეცხილია და დაზიანება
-                        წარწერაზეც აისახა, თუმცა ტექსტი ჯერ კიდევ გარკვევით იკითხება; 
-                        წარწერას ახლავს თარიღი: ქორონიკონი სჲ - 260 (260+780=1040); 
+                        წარწერაზეც აისახა, თუმცა ტექსტი ჯერ კიდევ გარკვევით იკითხება;
+                        წარწერას ახლავს თარიღი: ქორონიკონი სჲ - 260 (260+780=1040);
                         მეორე ხაზზე დ. ბერძენიშვილი კითხულობს: იოვანეს, მესამე-მეოთხე ხაზზე გ. ოთხმეზური კითხულობს:
                         დღჱგრძ(ე)ლებ(ი)სათჳ(ს), დ. ბერძენიშვილი - დღეგრძჱლებისათვის, ხოლო თვითონ
                         გიორგი ოთხმეზური 2016 წელს კითხულობს: დღჱგრძელებისათუჲს</p>
                 </div>
-        
+
         </body>
     </text>
 </TEI>

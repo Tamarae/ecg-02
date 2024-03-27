@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="ka">დაწერილი ივანე ლომსიანისძისა მიჯის ეკლესიისადმი</title>
-                <editor xml:lang="ka">გიორგი ოთხმეზური</editor>                
+                <editor xml:lang="ka">გიორგი ოთხმეზური</editor>
             </titleStmt>
             <publicationStmt>
                 <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
@@ -25,7 +25,7 @@
                             დმანისი
                         </collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">ფრაგმენტი</seg>
@@ -57,7 +57,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
-                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა. ქარაგმისა და განკვეთილობის ნიშნები არ ახლავს.   
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა. ქარაგმისა და განკვეთილობის ნიშნები არ ახლავს.
                                 <dimensions unit="cm">
                                     <height>2,1-4,5</height>
                                 </dimensions>
@@ -83,8 +83,8 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    
-          <!-- 
+
+          <!--
     <facsimile>
         <surface>
             <graphic url="tskise_01.jpg">
@@ -93,8 +93,8 @@
             </graphic>
         </surface>
     </facsimile> -->
-    
-    
+
+
     <text>
         <!--
         1.სახელითა ღ(მრ)თისაჲ
@@ -104,58 +104,58 @@
         5.მ(ი)ქ(აე)[ლ]...[ა]...[ვ]...
         -->
         <body>
-                
+
                 <div type="bibliography">
-                
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>133-134</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                 <p><bibl n="2">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>29</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
-                <p><bibl n="3">დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>147</citedRange> თბილისი, 2014<ptr target="bibliography.xml#b213"/></bibl></p>
-              
+
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>133-134</citedRange>, თბილისი, 2018</bibl></p>
+                 <p><bibl n="2"><ptr target="#b216"/> გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>29</citedRange>, თბილისი, 2016</bibl></p>
+                <p><bibl n="3"><ptr target="#b213"/> დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>147</citedRange> თბილისი, 2014</bibl></p>
+
             </div>
-                
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
 
             <ab>
-                <lb n="1"/><w lemma="სახელ">სახელითა</w>    
-                           <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თისაჲ</abbr>              
-                <lb n="2" break="no"/><supplied reason="lost" precision="medium"><abbr>თ</abbr></supplied><abbr>აჲ</abbr></expan></w> 
-                           <w lemma="მე">მე</w> 
-                           <persName type="local" key="ივანე ლომსიანიძე">ივანე 
+                <lb n="1"/><w lemma="სახელ">სახელითა</w>
+                           <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თისაჲ</abbr>
+                <lb n="2" break="no"/><supplied reason="lost" precision="medium"><abbr>თ</abbr></supplied><abbr>აჲ</abbr></expan></w>
+                           <w lemma="მე">მე</w>
+                           <persName type="local" key="ივანე ლომსიანიძე">ივანე
                            <expan><abbr>ლომსია</abbr>
-                <lb n="3" break="no"/><abbr>ნისძემ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></persName> 
-                           <w lemma="წერა"><expan><abbr>დავ</abbr><ex>უ</ex><abbr>წერე</abbr></expan></w> 
+                <lb n="3" break="no"/><abbr>ნისძემ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></persName>
+                           <w lemma="წერა"><expan><abbr>დავ</abbr><ex>უ</ex><abbr>წერე</abbr></expan></w>
                            <placeName nymRef="მიჯა">მიჯაჲს
                 <lb n="4" break="no"/>ა</placeName>
-                           <w lemma="ეკლესია"><expan><abbr>ე</abbr><supplied reason="lost" precision="medium"><abbr>კ</abbr></supplied><abbr>ლე</abbr><ex>სია</ex><abbr>სა</abbr></expan></w>  
+                           <w lemma="ეკლესია"><expan><abbr>ე</abbr><supplied reason="lost" precision="medium"><abbr>კ</abbr></supplied><abbr>ლე</abbr><ex>სია</ex><abbr>სა</abbr></expan></w>
                            <w lemma="და"><supplied reason="lost" precision="medium">და</supplied></w>
                            <w lemma="დება"><expan><supplied reason="omitted" precision="high"><abbr>დ</abbr></supplied><ex>ა</ex><abbr>ვ</abbr><supplied reason="lost" precision="medium"><abbr>დევ</abbr></supplied></expan></w>
-                           <placeName nymRef="მიჯა"><expan><abbr>მიჯ</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></placeName>   
-                <lb n="5"/><persName type="local" key="მიქაელ"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>აე</ex><supplied reason="lost" precision="medium"><abbr>ლ</abbr></supplied></expan></persName> 
-                           
+                           <placeName nymRef="მიჯა"><expan><abbr>მიჯ</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></placeName>
+                <lb n="5"/><persName type="local" key="მიქაელ"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>აე</ex><supplied reason="lost" precision="medium"><abbr>ლ</abbr></supplied></expan></persName>
+
                            <supplied reason="lost" precision="medium">ა</supplied>
-                           
+
                            <supplied reason="lost" precision="medium">ვ</supplied>
-                          
+
                 </ab>
-             
+
             </div>
-            
+
 
                 <div type="commentary">
-                    <p>შესრულებული იყო სოფ. მიჯას (ჯავახი) ეკლესიაზე. 
+                    <p>შესრულებული იყო სოფ. მიჯას (ჯავახი) ეკლესიაზე.
                         მოგვიანებით სოფ. მიჯადან მოსახლეობა გადასახლებულა სოფ. განთიადში, სადაც
                         წაუღიათ მიჯას ეკლესიის ეს და სხვა წარწერიანი ქვები და მე-19 საუკუნის
                         ეკლესიის იატაკში ჩაუშენებიათ. დღეს მიჯას წარწერიანი ქვები განთიადის ეკლესიის
-                        იატაკიდან ამოლაგებულია და ეკლესიის ეზოში ღია ცის ქვეშ აწყვია. 
+                        იატაკიდან ამოლაგებულია და ეკლესიის ეზოში ღია ცის ქვეშ აწყვია.
                         დაზიანება: წარწერიანი ქვა ბოლო რამდენიმე წელია ღია ცის ქვეშ დევს, რის გამოც,
                         გამოქარვისა და გადარეცხვის შედეგად, ისედაც დაზიანებული წარწერა კიდევ უფრო
-                        რთულად იკითხება, განსაკუთრებით IV და V სტრიქონები. 
+                        რთულად იკითხება, განსაკუთრებით IV და V სტრიქონები.
                         წარწერის დათარიღებს საფუძველი: 1) შინაარსი - ივანე ლომსიანისძის მოხსენიება. დ.
                         ბერძენიშვილის თვალსაზრისით, ის უნდა იყოს ბაგრატ IV-ის თანამედროვე აზნაურ
                         ლომსიანნის შთამომავალი; შესაძლოა XI საუკუნის 40-იან წლებში მეფისადმი
                         ერთგულების სანაცვლოდ მიიღეს მათ მამულები ქვემო ქართლში და იქ თავიანთი
                         გლეხები ჩაასახლეს ჯავახეთიდან. ამიტომ უწოდებდნენ მიჯას ჯავახს; 2)
-                        პალეოგრაფიული ნიშნები არ ეწინააღმდეგება აღნიშნულ დათარიღებას. 
+                        პალეოგრაფიული ნიშნები არ ეწინააღმდეგება აღნიშნულ დათარიღებას.
                         განსხვავებული
                         წაკითხვა: დ. ბერძენიშვილი I სტრიქონზე კითხულობს: ღმრთისაჲთა, IV-ზე
                         - ეკლესიასა მ ვირე, V-ზე - მიჯა ჰლხს; გ. ოთხმეზური 2016 წლის გამოცემაში

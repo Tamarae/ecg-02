@@ -24,24 +24,24 @@
                         <collection>
                            წებელდა
                         </collection>
-                    </msIdentifier>                   
+                    </msIdentifier>
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">სავედრებელი</seg>
                             <seg xml:lang="en"/>
                         </summary>
-                    </msContents> 
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="https://www.eagle-network.eu/voc/material/lod/109">ბრინჯაო</material>
                                    <objectType>ბალთა</objectType></support></supportDesc>
-                                <layoutDesc>                                   
+                                <layoutDesc>
                                     <layout writtenLines="4">
-                                        <p>ორწყება პუნქტირით გაკეთებულ ჩარჩოში შესრულებულია ოთხსტრიქონიანი ასომთავრული ბერძნული წარწერა (წარწერას უჭირავს ფართობი 
-                                    2,5 სმ x 1,5 სმ), ამჟამად ძალიან დაზიანებული. პირველი სტრიქონი სრულადაა (შესაძლოა თავში აკლია 1 ასო), II სტრიქონში თავში დაზიანებულია 1 ასო, 
-                                ბოლოში ცუდად ჩანს 1 ასო. ივარაუდება 1 ან 2 ასო კიდევ. III სტრიქონს თავში აკლია 1 ასო, მოჩანს ცუდად 3 ასო, შემდეგ აკლია ალბათ 2 ასო, დაზიანებულია 
+                                        <p>ორწყება პუნქტირით გაკეთებულ ჩარჩოში შესრულებულია ოთხსტრიქონიანი ასომთავრული ბერძნული წარწერა (წარწერას უჭირავს ფართობი
+                                    2,5 სმ x 1,5 სმ), ამჟამად ძალიან დაზიანებული. პირველი სტრიქონი სრულადაა (შესაძლოა თავში აკლია 1 ასო), II სტრიქონში თავში დაზიანებულია 1 ასო,
+                                ბოლოში ცუდად ჩანს 1 ასო. ივარაუდება 1 ან 2 ასო კიდევ. III სტრიქონს თავში აკლია 1 ასო, მოჩანს ცუდად 3 ასო, შემდეგ აკლია ალბათ 2 ასო, დაზიანებულია
                                 მომდევნო და მოჩანს უკანასკნელი ასო. IV სტრიქონში ჩანს პირველი 3 ასო. შესაძლოა, მეტი არაფერი იყო.</p>
                                       <dimensions unit="cm">
                                         <width>3,5</width>
@@ -49,7 +49,7 @@
                                         <depth></depth></dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
                                 <p>წარწერა შესრულებულია პუნქტირით.</p>
@@ -64,20 +64,20 @@
                     <history>
                             <origin>
                                 <origPlace>წებელდა (ლარი)</origPlace>
-                                <origDate notBefore-custom="0401" notAfter-custom="0600" precision="medium" 
+                                <origDate notBefore-custom="0401" notAfter-custom="0600" precision="medium"
                                     evidence="lettering" datingMethod="#julian">V-VI AD</origDate>
                               </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/857034">წებელდა</placeName> 
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/857034">წებელდა</placeName>
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                         
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">სოხუმის მუზეუმი</placeName>
                             <idno>№ 74-61/152</idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -97,55 +97,51 @@
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 75-76</citedRange></bibl></p>
-                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b137"/>, <citedRange> 75-76</citedRange></bibl></p>
-                    <p><bibl n="3">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b82"/>, <citedRange> 75-76</citedRange></bibl></p>
-                    <p><bibl n="4">Ю. Н. Воронов, Археологическая карта Абхазии<ptr target="bibliography.xml#b169"/><citedRange></citedRange></bibl></p>
-                    <p><bibl n="5">Ю. Н. Воронов, Тайна Цебельдской долины<ptr target="bibliography.xml#b170"/>, <citedRange> 79</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 75-76</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b137"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 75-76</citedRange></bibl></p>
+                    <p><bibl n="3"><ptr target="#b82"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 75-76</citedRange></bibl></p>
+                    <p><bibl n="4"><ptr target="#b169"/> Ю. Н. Воронов, Археологическая карта Абхазии<citedRange></citedRange></bibl></p>
+                    <p><bibl n="5"><ptr target="#b170"/> Ю. Н. Воронов, Тайна Цебельдской долины, <citedRange> 79</citedRange></bibl></p>
+
             </div>
-       
+
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!--  ἅγιε Πλά
-                            [τ]ων, βοήθ[ει] 
+                            [τ]ων, βοήθ[ει]
                             [τ]ὸν φ[ορ]οῦ
                             ντα   -->
-                     
-            
+
+
 
          <ab>
              <lb n="1"/><w lemma="ἅγιος">ἅγιε</w> <persName><name type="saint" nymRef="Πλάτων">Πλά
              <lb n="2" break="no"/><supplied reason="lost">τ</supplied>ων</name></persName>, <w lemma="βοηθῶ">βοήθ<supplied reason="lost">ει</supplied></w>
              <lb n="3"/><w lemma="ὀ"><supplied reason="lost">τ</supplied>ὸν</w> <w lemma="φορέω">φ<supplied reason="lost">ορ</supplied>οῦ
              <lb n="4" break="no"/>ντα</w>
-         </ab>    
-             
-         
+         </ab>
+
+
             </div>
-                
+
             <div type="translation" xml:lang="ka">
                 <p>წმიდაო პლატონ, შეეწიე (ამის) მატარებელს.</p>
             </div>
-            
+
            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
               <head>კრიტიკული აპარატი</head>
               <p><app><lem></lem>
               <rdg></rdg>
               </app></p>
             </div>
-           
+
             <div type="commentary">
                 <p>დათარიღების საფუძველია ასოთა მოხაზულობა (ძირითადად Α, Β, Ε, Π ასოების), ენობრივი მონაცემი (βοήθει-ზმნასთან დამატება acc-ში).</p>
                 <p>სხვა დათარიღების მიხედვით ნივთი მიეკუთვნება VII ს-ს, დათარიღების საფუძველია ბალთის ფორმა.</p>
                 <p>წარწერის პირები (გაშიფრვისა და მსჯელობის გარეშე), რაც მთლად ზუსტი არაა, მოყვანილია ი. ვირონოვის შრომებში.</p>
             </div>
-            
+
         </body>
     </text>
 </TEI>
-
-
-
-

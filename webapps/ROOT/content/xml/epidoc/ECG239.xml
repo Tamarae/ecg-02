@@ -25,7 +25,7 @@
                             დმანისი
                         </collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">ფრაგმენტი</seg>
@@ -56,7 +56,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
-                               <p xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა. ქარაგმისა და განკვეთილობის ნიშნები არ ახლავს.</p> 
+                               <p xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა. ქარაგმისა და განკვეთილობის ნიშნები არ ახლავს.</p>
                                 <dimensions unit="cm">
                                     <height>2,5-6</height>
                                 </dimensions>
@@ -82,9 +82,9 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    
-    
-          <!-- 
+
+
+          <!--
     <facsimile>
         <surface>
             <graphic url="tskise_01.jpg">
@@ -93,8 +93,8 @@
             </graphic>
         </surface>
     </facsimile> -->
-    
-    
+
+
     <text>
         <!--
         1....[სუ]ლი (?) ვ(ითა)რ(ცა)? ია...
@@ -103,12 +103,12 @@
         4....ი(ვა)ნე (?) - იხ - ის.
         -->
         <body>
-            
+
             <div type="bibliography">
-                
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>136-137</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                 <p><bibl n="4">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>30</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
-              
+
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>136-137</citedRange>, თბილისი, 2018</bibl></p>
+                 <p><bibl n="4"><ptr target="#b216"/> გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>30</citedRange>, თბილისი, 2016</bibl></p>
+
             </div>
 
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
@@ -117,8 +117,8 @@
                 <lb n="1"/>
                            <w lemma="სულ"><supplied reason="lost" precision="low">სუ</supplied>ლი</w>
                            <w lemma="ვითარ"><supplied reason="lost" precision="low"><expan><abbr>ვ</abbr><ex>ითა</ex><abbr>რ</abbr><ex>ცა</ex></expan></supplied></w>
-                           <orig n="unresolved">ია</orig> 
-                          
+                           <orig n="unresolved">ია</orig>
+
                 <lb n="2"/><orig n="unresolved">ნ</orig> <gap reason="lost" quantity="1" unit="character"/> <orig n="unresolved">ი</orig> <supplied reason="lost" precision="medium"><orig n="unresolved">ფ</orig></supplied> <gap reason="lost" quantity="2" unit="character"/>
                            <w lemma="ჩემ"><expan><supplied reason="lost" precision="low"><abbr>ჩ</abbr><ex>ემს</ex></supplied>ა</expan></w>
                            <w lemma="შემდგომად">შემ
@@ -126,27 +126,27 @@
                            <w lemma="მტკიცება"><supplied reason="lost" precision="medium">დაამ</supplied>ტკი<supplied reason="lost" precision="medium">ცენ</supplied></w>
                            <orig n="unresolved">ინს</orig> <gap reason="lost" extent="unknown" unit="character"/>
               <lb n="4"/>
-                          <persName type="local" key="ივანე"><expan><abbr>ი</abbr><ex>ვა</ex><abbr>ნე</abbr></expan></persName> 
-                         
+                          <persName type="local" key="ივანე"><expan><abbr>ი</abbr><ex>ვა</ex><abbr>ნე</abbr></expan></persName>
+
                 </ab>
-             
+
             </div>
 
 
-                 
 
-             
+
+
                 <div type="translation"/>
 
-                
+
                 <div type="commentary">
                     <p>მოგვიანებით სოფ. მიჯადან მოსახლეობა გადასახლებულა სოფ. განთიადში, სადაც
                         წაუღიათ მიჯას ეკლესიის ეს და სხვა წარწერიანი ქვები და მე-19 საუკუნის
                         ეკლესიის იატაკში ჩაუშენებიათ. დღეს მიჯას წარწერიანი ქვები განთიადის ეკლესიის
-                        იატაკიდან ამოლაგებულია და ეკლესიის ეზოში ღია ცის ქვეშ აწყვია. 
+                        იატაკიდან ამოლაგებულია და ეკლესიის ეზოში ღია ცის ქვეშ აწყვია.
                         დაზიანება: წარწერიანი ქვა ბოლო რამდენიმე წელია ღია ცის ქვეშ დევს, რის გამოც გამოქარვისა
                         და გადარეცხვის შედეგად, ისედაც დაზიანებული წარწერა კიდევ უფრო რთულად
-                        იკითხება. თავნაკლული. აკლია შუაშიც. 
+                        იკითხება. თავნაკლული. აკლია შუაშიც.
                         წარწერის დათარიღების საფუძველი: პალეოგრაფიულად თანადროული უნდა იყოს ივანე ლომსიანიძის წარწერისა</p>
                 </div>
 

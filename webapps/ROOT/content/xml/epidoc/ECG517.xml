@@ -92,17 +92,17 @@
     <text>
         <body>
            <div type="bibliography">
-               
-                <p><bibl n="1">გიორგი გაგოშიძე<ptr target="bibliography.xml#b234"/>,<citedRange>134</citedRange>2020</bibl></p>
-            
+
+              
+
            </div>
-            <div type="edition"  xml:space="preserve" xml:lang="ka" ana="nuskhuri">    
+            <div type="edition"  xml:space="preserve" xml:lang="ka" ana="nuskhuri">
               <!--ქ(რისტე), კ(ჳრიკ)ე შ(ეიწყალ)ე-->
                 <ab>
-                    <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
+                    <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
                     <persName type="local" key="კვირიკე"><expan><abbr>კ</abbr>ჳრიკ<ex></ex><abbr>ე</abbr></expan></persName>
-                               <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> 
-                               
+                               <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w>
+
                 </ab>
             </div>
             <div type="translation" xml:lang="ka"/>

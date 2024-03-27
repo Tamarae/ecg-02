@@ -26,7 +26,7 @@
                                 <support>
                                     <objectype>კრამიტის ფილა</objectype>
                                 <material ref="https://www.eagle-network.eu/voc/objtyp/lod/1402">ქვა</material>
-                                
+
                             </support>
                             </supportDesc>
                             <layoutDesc>
@@ -38,7 +38,7 @@
                                     <depth/>
                                 </dimesions>
                                 </layout>
-                                
+
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -46,7 +46,7 @@
                                 <p>ნუსხური გრაფემა,ქარაგმისა და განკვეთილობის ნიშნების გარეშე</p>
                                 <dimensions unit="mm">
                                     <height/>
-                                </dimensions>        
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -57,7 +57,7 @@
                         </origin>
                         <provenance><placename>დმანისის ნაქალაქარის ტერიტორია, X ნაგებობის №2 ოთახი</placename>
                         </provenance>
-                        
+
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -67,48 +67,43 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    <text><!-- 
+    <text><!--
     1. ჯ შ ო
      -->
-        
+
         <body>
             <div type="bibliography">
-                
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>99</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                
-                <p><bibl n="2">ჯ. კოპალიანი, წარწერიანი არქეოლოგიური მასალა დმანისის ნაქალაქარის შიდა ციხიდან, დმანისი, <cittedRange>79-80</cittedRange>, თბილისი, 1998<ptr target="bibliography.xml#b214"/></bibl></p>
+
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>99</citedRange>, თბილისი, 2018</bibl></p>
+
+                <p><bibl n="2"><ptr target="#b214"/> ჯ. კოპალიანი, წარწერიანი არქეოლოგიური მასალა დმანისის ნაქალაქარის შიდა ციხიდან, დმანისი, <cittedRange>79-80</cittedRange>, თბილისი, 1998</bibl></p>
             </div>
-            
-            
+
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-              
+
                     <ab>
                         <lb n="1"/> ჯ შ ო
-                        
-                        
+
+
                     </ab>
-                 
-                
+
+
             </div>
-            
+
             <div type="translation">
                 <p/>
-                    
-                
+
+
             </div>
             <div type="commentary">
-                <p>აღმოჩნდა არქეოლოგიური გათხრებისას დმანისის ნაქალაქარის ტერიტორიაზე X ნაგებობის № 2 ოთახში. 
+                <p>აღმოჩნდა არქეოლოგიური გათხრებისას დმანისის ნაქალაქარის ტერიტორიაზე X ნაგებობის № 2 ოთახში.
                     დაზიანება: წარწერა სრულადაა მოღწეული.
-                    წარწერის დათარიღება წინა გამოცემაში: IX-X სს. 
-                    წარმოდგენილ გამოცემაში პალეოგრაფიული ნიშნების გათვალისწინებით, გაზიარებულია მოცემული დათარიღება. 
+                    წარწერის დათარიღება წინა გამოცემაში: IX-X სს.
+                    წარმოდგენილ გამოცემაში პალეოგრაფიული ნიშნების გათვალისწინებით, გაზიარებულია მოცემული დათარიღება.
                 </p>
             </div>
 
         </body>
     </text>
 </TEI>
-
-
-
-
-

@@ -20,7 +20,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <collection>მაცხვარიში</collection>                
+                        <collection>მაცხვარიში</collection>
                     </msIdentifier>
                     <msContents>
                         <summary>
@@ -31,12 +31,12 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material></material>
                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/178">ფრესკა</objectType></support></supportDesc>
                                 <layoutDesc>
                                     <layout>
-                                        მაცხვარიშის ეკლესიაში, საკურთხეველში XII საუკუნის ფრესკაზე გამოსახულია ქრისტე, აქეთ-იქით მარიამითა და იოანე ნათლისმცემლით. მათ აქვთ 
+                                        მაცხვარიშის ეკლესიაში, საკურთხეველში XII საუკუნის ფრესკაზე გამოსახულია ქრისტე, აქეთ-იქით მარიამითა და იოანე ნათლისმცემლით. მათ აქვთ
                                         შემორჩენილი ბერძნული წარწერა, სხვა ყველა წარწერა ქართულია (თვით ქრისტეს ხელში გადაშლილ სახარებაზედაც).
                                     <dimensions unit="cm">
                                         <width></width>
@@ -44,10 +44,10 @@
                                         <depth></depth></dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
-                            <handNote> 
-                                <p>ბერძნული წარწერა დაქარაგმებული და ლიგატურების შემცველია.</p>                               
+                            <handNote>
+                                <p>ბერძნული წარწერა დაქარაგმებული და ლიგატურების შემცველია.</p>
                                 <p>ამ ჩვეულებრივი შინაარსის მქონე წარწერაში ყურადღებას იპყრობს ქარაგმის მოხაზულობა ⌒⌒, რაც IX საუკუნეზე ადრე არ გვხვდება ბერძნულ დამწერლობაში.</p>
                                 <p>დათარიღება ხდება პალეოგრაფიული ნიშნების მიხედვით (განსაკუთრებით ქარაგმების მოხაზულობით).</p>
                                 <height unit="cm" precision="medium"></height>
@@ -58,20 +58,20 @@
                     <history>
                             <origin>
                                 <origPlace>მაცხვარიში</origPlace>
-                                <origDate notBefore-custom="1101" notAfter-custom="1200" precision="medium" 
+                                <origDate notBefore-custom="1101" notAfter-custom="1200" precision="medium"
                                     evidence="lettering" datingMethod="#julian">XII AD</origDate>
                               </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot">მაცხვარიში</placeName> 
+                                <placeName type ="ancientFindspot">მაცხვარიში</placeName>
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                         
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot"></placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -91,49 +91,49 @@
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 83</citedRange></bibl></p>
-                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, საქართველოს ისტორიის ძველი ბერძნული წყაროები<ptr target="bibliography.xml#b136"/>, <citedRange> 36-37</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 83</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b136"/> თინათინ ყაუხჩიშვილი, საქართველოს ისტორიის ძველი ბერძნული წყაროები, <citedRange> 36-37</citedRange></bibl></p>
+
             </div>
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
-                        <!--  μηρ θυ ΙΑΩ ΡΟ 
+
+                        <!--  μηρ θυ ΙΑΩ ΡΟ
                         μήτηρ θεοῦ     ὁ  ἅ[γιος]  Ἰω[άννης] πρ[όδρομ]ος -->
-                     
-            
+
+
          <div type="textpart" subtype="section" n="1">
          <ab>
-             <w lemma="μήτηρ"><expan><abbr>μή</abbr><ex>τη</ex><abbr>ρ</abbr></expan></w> <w lemma="θεός"><expan><abbr>θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan></w> 
-         </ab>    
+             <w lemma="μήτηρ"><expan><abbr>μή</abbr><ex>τη</ex><abbr>ρ</abbr></expan></w> <w lemma="θεός"><expan><abbr>θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan></w>
+         </ab>
           </div>
                 <div type="textpart" subtype="section" n="2">
            <ab>
-               <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="ἅγιος"><expan><abbr>ἅ</abbr><ex>γιος</ex></expan></w> 
+               <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="ἅγιος"><expan><abbr>ἅ</abbr><ex>γιος</ex></expan></w>
                <name nymRef="Ἰωάννης"><expan><abbr>Ἰω</abbr><ex>άννης</ex></expan></name>
                <w lemma="πρόδρομος"><expan><hi rend="ligature"><abbr>πρ</abbr></hi><ex>όδρομ</ex><hi rend="ligature"><abbr>ος</abbr></hi></expan></w></persName>
-            </ab>  
+            </ab>
          </div>
             </div>
-            
+
             <div type="translation" subtype="section" n="1" xml:lang="ka">
                 <p>დედა ღვთისა</p>
             </div>
             <div type="translation" subtype="section" n="2" xml:lang="ka">
                 <p>წმიდა იოანე წინამორბედი</p>
                 </div>
-            
+
             <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
               <head>კრიტიკული აპარატი</head>
               <p><app><lem></lem>
               <rdg></rdg>
               </app></p>
             </div>
-           
-            <div type="commentary">          
-                <p>ტაძარში კანკელი ხისაა, ფანერებით, თითქოს რუსული ხელობის და ზედ აქა-იქ აწერია ბერძნულად: Μ~Ρ Θ~Υ μήτηρ θεοῦ - დედა ღვთისა, და ქრისტეს ნიმბში: 
-                    ὁ ὤν - არსი. ეს უკანასკნელი წარწერები ბევრად უფრო ახალია, ვიდრე ეკლესიის სხვა წარწერები და მათ შორის ბერძნული (ქართული და ბერძნული წარწერები 
-                ერთდროული არის). როგორც ქართული წარწერიდან ჩანს, ეკლესია მოხატულია XII საუკუნეში (დიმიტრის მეფობის მე-15 წელს, ე.ი. 1140 წ.) მიქაელ მაღლაკელის 
+
+            <div type="commentary">
+                <p>ტაძარში კანკელი ხისაა, ფანერებით, თითქოს რუსული ხელობის და ზედ აქა-იქ აწერია ბერძნულად: Μ~Ρ Θ~Υ μήτηρ θεοῦ - დედა ღვთისა, და ქრისტეს ნიმბში:
+                    ὁ ὤν - არსი. ეს უკანასკნელი წარწერები ბევრად უფრო ახალია, ვიდრე ეკლესიის სხვა წარწერები და მათ შორის ბერძნული (ქართული და ბერძნული წარწერები
+                ერთდროული არის). როგორც ქართული წარწერიდან ჩანს, ეკლესია მოხატულია XII საუკუნეში (დიმიტრის მეფობის მე-15 წელს, ე.ი. 1140 წ.) მიქაელ მაღლაკელის
                 მიერ, ხოლო აგებულია უფრო ადრე. ბერძნული წარწერაც XII ს-ისა, კერძოდ 1140 წლისა არის.</p>
             </div>
          </body>

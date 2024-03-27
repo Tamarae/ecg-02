@@ -26,17 +26,17 @@
                         <collection>
                            ზღუდერი
                         </collection>
-                    </msIdentifier>                    
+                    </msIdentifier>
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მემორიალური</seg>
                             <seg xml:lang="en"/>
                         </summary>
-                    </msContents>  
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="http://www.eagle-network.eu/voc/material/lod/112">ოქრო</material>
                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1747">ბეჭედი - საბეჭდავი</objectType>
                                 </support></supportDesc>
@@ -48,35 +48,35 @@
                                       </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
                                 <height/>
                             </handNote>
                         </handDesc>
                         <decoDesc>
-                            <decoNote xml:lang="ka">საბეჭდავზე გამოსახულია ერთმანეთისკენ მიბრუნებული, შეპირისპირებული წყვილი. მამაკაცის ფიგურა წვერიანია, როგორც ეს იბერიელ 
+                            <decoNote xml:lang="ka">საბეჭდავზე გამოსახულია ერთმანეთისკენ მიბრუნებული, შეპირისპირებული წყვილი. მამაკაცის ფიგურა წვერიანია, როგორც ეს იბერიელ
                 დიდგვაროვანთათვის უნდა ყოფილიყო მიღებული.</decoNote>
                         </decoDesc>
                     </physDesc>
                     <history>
                             <origin>
                                 <origPlace>ზღუდერი</origPlace>
-                                <origDate notBefore-custom="0201" notAfter-custom="0300" precision="medium" 
+                                <origDate notBefore-custom="0201" notAfter-custom="0300" precision="medium"
                                     evidence="lettering" datingMethod="#julian">III AD</origDate>
                               </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863925">ზღუდერი</placeName> 
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863925">ზღუდერი</placeName>
                                 <rs type="circumstances">საბეჭდავი აღმოჩენილია ზღუდერის N1 სამარხში.</rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                         
+                            </provenance>
                             <provenance type="observed">
-                            <placeName type="modernSpot">                                
+                            <placeName type="modernSpot">
                             </placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -96,45 +96,36 @@
     <text>
         <body>
             <div type="bibliography">
-                
-                    <p><bibl n="1">დევიდ ბრაუნდი, საქართველო ანტიკურ ხანაში: კოლხეთისა და ამიერკავკასიის იბერიის ისტორია ძვ.წ. 550-ახ.წ. 562 წლები<ptr target="bibliography.xml#b68"/>, <citedRange> 351-352</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b68"/> დევიდ ბრაუნდი, საქართველო ანტიკურ ხანაში: კოლხეთისა და ამიერკავკასიის იბერიის ისტორია ძვ.წ. 550-ახ.წ. 562 წლები, <citedRange> 351-352</citedRange></bibl></p>
+
             </div>
-            
+
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!-- ΚΑΒΡΙΑΣ ΜΑΤΡΩΝΑ -->
-                     
+
          <ab>
-             <persName><name nymRef="Καβριας">Καβριας</name></persName> <persName><name nymRef="Ματρώνα">Ματρώνα</name></persName> 
-         </ab>    
-             
-         
+             <persName><name nymRef="Καβριας">Καβριας</name></persName> <persName><name nymRef="Ματρώνα">Ματρώνα</name></persName>
+         </ab>
+
+
             </div>
-                
+
             <div type="translation" xml:lang="ka">
                 <p>კაბრიასი მატრონა</p>
             </div>
-            
+
            <div type="apparatus" xml:space="preserve"/>                                                                                                                                                          <!-- კრიტიკული აპარატი -->
 
-           
+
             <div type="commentary">
-                <p>ზღუდერში მდ. ძამის მარცხენა ნაპირზე ორ ბორცვზე გაითხარა ახ.წ. III საუკუნის სამი მდიდრული სამარხი, რომლებიც ცენტრალურ იბერიაში, მცხეთაში მათი 
-                თანადროული სამარხებიდან ცნობილი ინვენტარის მსგავს სამარხეულ ინვენტარს შეიცავდა. სამივე სამარხში მიცვალებული ხის სარკოფაგში იყო დაკრძალული. N1 სამარხში 
+                <p>ზღუდერში მდ. ძამის მარცხენა ნაპირზე ორ ბორცვზე გაითხარა ახ.წ. III საუკუნის სამი მდიდრული სამარხი, რომლებიც ცენტრალურ იბერიაში, მცხეთაში მათი
+                თანადროული სამარხებიდან ცნობილი ინვენტარის მსგავს სამარხეულ ინვენტარს შეიცავდა. სამივე სამარხში მიცვალებული ხის სარკოფაგში იყო დაკრძალული. N1 სამარხში
                 აღმოჩნდა ოქროს საბეჭდავი ბეჭედი.</p>
-                <p>ბეჭედზე გამოსახული მამაკაცის სახელი გადმოცემულია ბერძნული ასოებით: ΚΑΒΡΙΑΣ. ქალის ფიგურას ახლავს სიტყვა: ΜΑΤΡΩΝΑ, რაც მის 
-                სახელს უნდა აღნიშნავდეს და უცილობლად ლათინური matrona-ს გამოძახილს წარმოადგენს, თუმცა ამ სახელის წარმომავლობაზე მხოლოდ ალბათობით თუ ვიმსჯელებთ.</p>                
+                <p>ბეჭედზე გამოსახული მამაკაცის სახელი გადმოცემულია ბერძნული ასოებით: ΚΑΒΡΙΑΣ. ქალის ფიგურას ახლავს სიტყვა: ΜΑΤΡΩΝΑ, რაც მის
+                სახელს უნდა აღნიშნავდეს და უცილობლად ლათინური matrona-ს გამოძახილს წარმოადგენს, თუმცა ამ სახელის წარმომავლობაზე მხოლოდ ალბათობით თუ ვიმსჯელებთ.</p>
             </div>
          </body>
     </text>
 </TEI>
-
-
-
-
-
-
-
-
-

@@ -98,11 +98,11 @@
         <body>           
       <div type="bibliography">
            
-   <p><bibl n="1">შაჰბან ჰაფიზოვი, ქართული, ქართულ-ხუნძური და ხუნძური წარწერები მთიან ხუნძეთში (დაღესტანი)<ptr target="bibliography.xml#b141"/>, <citedRange> 127-128</citedRange></bibl></p>
+   <p><bibl n="1"><ptr target="#b141"/> შაჰბან ჰაფიზოვი, ქართული, ქართულ-ხუნძური და ხუნძური წარწერები მთიან ხუნძეთში (დაღესტანი), <citedRange> 127-128</citedRange></bibl></p>
              
           </div>
             
-              <div type="edition" xml:lang="ka" ana="nuskhuri" xml:space="preserve">
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
                 
                         <!--(1) (თეოდო?)რე შ(ეიწყალ)ე 
                             “...რე, შეიწყალე” 

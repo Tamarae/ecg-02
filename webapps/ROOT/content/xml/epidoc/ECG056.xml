@@ -47,8 +47,8 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout writtenLines="1">
-                                    <seg xml:lang="ka">წარწერა ერთსტრიქონიანია. ბოლნისის სიონის ინტერიერში, ჩრდილო ნავის აღმოსავლეთ კედელში ჩადგმულია ოთხკუთხა ფილა, 
-                                    რომლის თითქმის მთელ ფართობზე გამოქანდაკებულია პატარა სამკუთხედებისაგან შემდგარ მედალიონში ჩასმული "ბოლნური ჯვარი", 
+                                    <seg xml:lang="ka">წარწერა ერთსტრიქონიანია. ბოლნისის სიონის ინტერიერში, ჩრდილო ნავის აღმოსავლეთ კედელში ჩადგმულია ოთხკუთხა ფილა,
+                                    რომლის თითქმის მთელ ფართობზე გამოქანდაკებულია პატარა სამკუთხედებისაგან შემდგარ მედალიონში ჩასმული "ბოლნური ჯვარი",
                                         ხოლო ჯვრის ზემოთ, მარცხენა მხარეს, თავთხელი რელიეფით სამი ასომთავრული გრაფემაა.</seg>
                                     <seg xml:lang="en">One line inscription. In the north nave of Bolnisi Cathedral there is the embedded square shape plaque with the figure of “Bolnisi Cross” on the east wall that has an embossed medallion compiled with small triangles around it. Three thin graphemes of the Asomtavruli alphabet are embossed above this cross from the left side. </seg>
                                         <dimensions unit="cm">
@@ -79,11 +79,11 @@
                                 <seg xml:lang="ka">ბოლნისის სიონი</seg>
                                 <seg xml:lang="en">Bolnisi Sioni</seg>
                             </placeName>
-                            <!-- 41.389081, 44.512551 --> 
+                            <!-- 41.389081, 44.512551 -->
                             <rs type="monuList"/>
                             <rs type="circumstances">
-                                <seg xml:lang="ka">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში, 9 კმ. მანძილზე 
-                                ქ. ბოლნისიდან სამხრეთით, 1 კმ. მანძილზე სოფ. ბონის-ხაჩინიდან. ეს წარწერა 1937 წელს აღმოაჩინა კულტურულ ძეგლთა დაცვის 
+                                <seg xml:lang="ka">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში, 9 კმ. მანძილზე
+                                ქ. ბოლნისიდან სამხრეთით, 1 კმ. მანძილზე სოფ. ბონის-ხაჩინიდან. ეს წარწერა 1937 წელს აღმოაჩინა კულტურულ ძეგლთა დაცვის
                                 კომიტეტის მიერ მოწყობილმა არქეოლოგიურმა ექსპედიციამ, რომელსაც ლევან მუსხელიშვილი ხელმძღვანელობდა.</seg>
                                 <seg xml:lang="en">Bolnisi Sioni Cathedral is located in Kvemo Kartli, 9 km away from city Bolnisi to the south, 1 km distance from the village Bonis-Khachini. The inscription was discovered during the archaeological expedition held by the Cultural Heritage Preservation Committee supervised by Levan Muskhelishvili in 1937. </seg>
                             </rs>
@@ -104,10 +104,10 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
-    </teiHeader>   
-          
+    </teiHeader>
+
     <facsimile>
         <surface>
             <graphic url="ecg056.jpg">
@@ -120,35 +120,35 @@
     <text>
         <body>
             <div type="bibliography">
-                
-        <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები<ptr target="bibliography.xml#b101"/>, <citedRange> 75</citedRange></bibl></p>
-        <p><bibl n="2">ლევან მუსხელიშვილი, ბოლნისი<ptr target="bibliography.xml#b93"/>, <citedRange> 332</citedRange></bibl></p>
-         <p><bibl n="3">Н. Г. Чубинашвили, Болнисский сион<ptr target="bibliography.xml#b45"/>, <citedRange>39</citedRange></bibl></p>       
-                
+
+        <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები, <citedRange> 75</citedRange></bibl></p>
+        <p><bibl n="2"><ptr target="#b93"/> ლევან მუსხელიშვილი, ბოლნისი, <citedRange> 332</citedRange></bibl></p>
+         <p><bibl n="3"><ptr target="#b45"/> Н. Г. Чубинашвили, Болнисский сион, <citedRange>39</citedRange></bibl></p>       
+
             </div>
-            
-              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve"> 
-            
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+
                     <!-- „ძნ"ჲ“  -->
-           
+
                        <ab>
                        <lb n="1"/><w lemma="ძნელა"><expan><abbr>ძნ</abbr><ex>ელა</ex><abbr>ჲ</abbr></expan></w>
                        </ab>
-                                                               
+
                 </div>
-            
+
             <div type="translation">
                 <p xml:lang="ka">ძნელა</p>
                 <p xml:lang="en">Dznela</p>
             </div>
-            
-            <div type="apparatus" xml:space="preserve"> 
-                <p><app loc="1"> <lem>ძნელა</lem> 
+
+            <div type="apparatus" xml:space="preserve">
+                <p><app loc="1"> <lem>ძნელა</lem>
                     <rdg resp="ლევან მუსხელიშვილი">ძნაჲ</rdg>
                </app>
                 </p>
-           </div> 
-            
+           </div>
+
             <div type="commentary">
                 <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #8. წარწერაში ქარაგმის ნიშანი არ არის გამოყენებული.</p>
                 <p xml:lang="en">According to the Corpus of Georgian inscriptions by Nodar Shoshiashvili, the inscription N8. No abbreviation marks in the inscription.</p>

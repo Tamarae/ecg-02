@@ -5,10 +5,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="ka">
+                <title>
                     ბორჯომის ხეობა. ახალდაბის წმიდა გიორგის ეკლესია
                 </title>
-                <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
             </titleStmt>
             <publicationStmt>
                  <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
@@ -101,18 +100,18 @@
     <text>
         <body>
            <div type="bibliography">
-               
-                <p><bibl n="1">თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი<ptr target="bibliography.xml#b234"/>,<citedRange>85-86 </citedRange>2019</bibl></p>
-                <p><bibl n="2">ვალერი სილოგავა, თორელთა ფეოდალური სახლის ერთი მემორიალური ძეგლი (ახალდაბის წარწერა), მუშაობის გეგმა და მოხსენებათა თეზისები<ptr target="bibliography.xml#b230"/>,<citedRange>52 </citedRange>1993</bibl></p>
-                <p><bibl n="3">ვალერი სილოგავა, შრომების კრებული, ტ. II<ptr target="bibliography.xml#b248"/>,<citedRange>68</citedRange>2000</bibl></p>
-            
+
+                <p><bibl n="1"><ptr target="#b234"/> თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი,<citedRange>85-86 </citedRange>2019</bibl></p>
+                <p><bibl n="2"><ptr target="#b230"/> ვალერი სილოგავა, თორელთა ფეოდალური სახლის ერთი მემორიალური ძეგლი (ახალდაბის წარწერა), მუშაობის გეგმა და მოხსენებათა თეზისები,<citedRange>52 </citedRange>1993</bibl></p>
+                <p><bibl n="3"><ptr target="#b248"/> ვალერი სილოგავა, შრომების კრებული, ტ. II,<citedRange>68</citedRange>2000</bibl></p>
+
            </div>
-            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">     
+            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
                         <!--უ{ფალ}ო ჲ{ესო}ჳ | ქ(რისტ)ე, ღ(მერთ)ო რ(ომელმა)ნ აღ(ა)მ(ა)ღ|ლე რქაჲ | წ(მი)დათა | ეკლესიათ(ა)ჲ -->
                 <ab>
                     <lb n="1"/>
-                        <w lemma="უფალო"><expan><abbr>უ</abbr><ex>ფალ</ex><abbr>ო</abbr></expan></w> 
-                        <w lemma="იესო"><expan><abbr>ჲ</abbr><ex>ესო</ex><abbr>ჳ</abbr></expan></w> 
+                        <w lemma="უფალო"><expan><abbr>უ</abbr><ex>ფალ</ex><abbr>ო</abbr></expan></w>
+                        <w lemma="იესო"><expan><abbr>ჲ</abbr><ex>ესო</ex><abbr>ჳ</abbr></expan></w>
                     <lb n="2"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
                             <w lemma="ღმერთო"><expan><abbr>ღ</abbr><ex>მერთ</ex><abbr>ო</abbr></expan></w>
                             <w lemma="რომელმან"><expan><abbr>რ</abbr><ex>ომელმა</ex><abbr>ნ</abbr></expan></w>

@@ -11,7 +11,7 @@
             <publicationStmt>
                 <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
                 <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
-                 <idno type="filename">ECG370</idno>
+                 <idno type="filename"></idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
                        დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
@@ -54,11 +54,9 @@
                                 </layoutDesc>
                         </objectDesc>                        
                         <handDesc>
-                            <handNote>
+                            <handNote script="asomtavruli" scribe="nuskhuri" style="inscribed">
                                 <rs type="execution">ამოღარული</rs> <rs type="script">ნუსხურნარევი ასომთავრული</rs> წარწერა
-                                   <dimensions>
-                                       <height/>
-                                   </dimensions>
+                                   <height></height> 
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -102,7 +100,7 @@
         <body>           
              <div type="bibliography">
            
-   <p><bibl n="1">შაჰბან ჰაფიზოვი, ქართული, ქართულ-ხუნძური და ხუნძური წარწერები მთიან ხუნძეთში (დაღესტანი)<ptr target="bibliography.xml#b141"/>, <citedRange> 123-124</citedRange></bibl></p>
+   <p><bibl n="1"><ptr target="#b141"/> შაჰბან ჰაფიზოვი, ქართული, ქართულ-ხუნძური და ხუნძური წარწერები მთიან ხუნძეთში (დაღესტანი), <citedRange> 123-124</citedRange></bibl></p>
              
           </div>
             

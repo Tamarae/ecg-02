@@ -12,7 +12,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
-                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>      
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
                 <idno type="filename">ECG066</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
@@ -25,7 +25,7 @@
                     <msIdentifier>
                         <collection>ბოლნისი</collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">ეპიტაფია</seg>
@@ -48,8 +48,8 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout writtenLines="4">
-                                    <seg xml:lang="ka">წარწერა ოთხსტრიქონიანია, რომლის პირველი სტრიქონი დაზიანებულია. 
-                                    ფილის ზედა კიდეში შემორჩა ოდნავ შესამჩნევი კვალი „ბოლნური ჯვრის“ მედალიონის მცირე მონაკვეთისა. </seg>   
+                                    <seg xml:lang="ka">წარწერა ოთხსტრიქონიანია, რომლის პირველი სტრიქონი დაზიანებულია.
+                                    ფილის ზედა კიდეში შემორჩა ოდნავ შესამჩნევი კვალი „ბოლნური ჯვრის“ მედალიონის მცირე მონაკვეთისა. </seg>
                                     <seg xml:lang="en">Four line inscription. First line is damaged. Small part of the “Bolnisi Cross” embedded in the medallion is noticeable on the upper edge of the plaque.</seg>
                                         <dimensions unit="cm">
                                         <height>9</height>
@@ -74,7 +74,7 @@
                             </origPlace>
                            <origDate notBefore="0400" notAfter="0600">VIII AD</origDate>
                         </origin>
-                        
+
                         <provenance type="found" when="1937">
                             <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">
                                 <seg xml:lang="ka">ბოლნისის სიონი</seg>
@@ -82,10 +82,10 @@
                             </placeName>
                                 <!-- 41.389081, 44.512551 -->
                             <rs type="monuList"/>
-                            <rs type="circumstances">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში, 
+                            <rs type="circumstances">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში,
                                 9 კმ. მანძილზე ქ. ბოლნისიდან სამხრეთით, 1 კმ. მანძილზე სოფ. ბონის-ხაჩინიდან.</rs>
-                            <rs type="context"/>            
-                        </provenance>                 
+                            <rs type="context"/>
+                        </provenance>
                         <provenance type="observed">
                             <placeName type="modernSpot" ref="http://museum.ge/">
                                 <seg xml:lang="ka">საქართველოს ეროვნული მუზეუმი</seg>
@@ -101,7 +101,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <facsimile>
@@ -111,18 +111,18 @@
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
-    </facsimile> 
+    </facsimile>
     <text>
         <body>
-           <div type="bibliography"> 
-                
-                    <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები<ptr target="bibliography.xml#b101"/>, <citedRange> 152</citedRange></bibl></p>                 
-                    <p><bibl n="2">საქართველოს სახელმწიფო მუზეუმის ქართული ეპიგრაფიკული ძეგლების კატალოგი<ptr target="bibliography.xml#b111"/>, <citedRange> 44</citedRange></bibl></p>
-                
-            </div> 
-           
-              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">  
-                             
+           <div type="bibliography">
+
+                    <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები, <citedRange> 152</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b111"/> საქართველოს სახელმწიფო მუზეუმის ქართული ეპიგრაფიკული ძეგლების კატალოგი, <citedRange> 44</citedRange></bibl></p>
+
+            </div>
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+
                     <!-- „[ქე]
                         [ს]ული
                         [მი]ქაელის
@@ -131,26 +131,26 @@
                 <lb n="1"/><w lemma="ქრისტე"><expan><supplied reason="lost"><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></supplied></expan></w>
                 <lb n="2"/><w lemma="სულ"><supplied reason="lost">ს</supplied>ული</w>
                 <lb n="3"/><persName type="local" key="მიქაელ"><name nymRef="მიქაელ"><supplied reason="lost">მი</supplied>ქაელის</name></persName>
-                <lb n="4"/><w lemma="შეწყალება"><expan><supplied reason="lost"><abbr>შ</abbr><ex>ეი</ex><abbr>წ</abbr></supplied><abbr>ყალე</abbr></expan></w>    
-              </ab>                                                        
-                
+                <lb n="4"/><w lemma="შეწყალება"><expan><supplied reason="lost"><abbr>შ</abbr><ex>ეი</ex><abbr>წ</abbr></supplied><abbr>ყალე</abbr></expan></w>
+              </ab>
+
             </div>
-            
+
             <div type="translation">
                 <p xml:lang="ka">ქრისტე, შეიწყალე მიქაელის სული.</p>
                 <p xml:lang="en">Christ, have mercy on Michael’s soul.</p>
             </div>
-            
+
             <div type="apparatus" xml:space="preserve"/>
-            
+
             <div type="commentary">
                 <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #63.
-                    ქარაგმისა და განკვეთილობის ნიშნები არ ახლავს, სიტყვები ერთმანეთისგან არ არის დაცილებული. შესაძლოა, წარწერა ჯვარზე გვიან ამოკვეთეს.                                    
+                    ქარაგმისა და განკვეთილობის ნიშნები არ ახლავს, სიტყვები ერთმანეთისგან არ არის დაცილებული. შესაძლოა, წარწერა ჯვარზე გვიან ამოკვეთეს.
                   </p>
                 <p xml:lang="en">
                     According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #63.  The inscription does not contain any mark of separation or abbreviation. No spaces between the words. Presumably, the inscription on the cross was engraved later.
                 </p>
-               </div>        
+               </div>
         </body>
     </text>
 </TEI>

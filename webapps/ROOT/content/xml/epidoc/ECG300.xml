@@ -23,7 +23,7 @@
                         <collection>
                             ითხვისი
                         </collection>
-                    </msIdentifier>                    
+                    </msIdentifier>
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მემორიალური</seg>
@@ -33,7 +33,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="https://www.eagle-network.eu/voc/material/lod/131">თიხა</material>
                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1665">კრამიტი</objectType>
                                 </support>
@@ -46,7 +46,7 @@
                                         </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
                                 <height/>
@@ -59,20 +59,20 @@
                     <history>
                             <origin>
                                 <origPlace>ითხვისი</origPlace>
-                                <origDate notBefore-custom="-0200" notAfter-custom="-0001" precision="medium" 
+                                <origDate notBefore-custom="-0200" notAfter-custom="-0001" precision="medium"
                                     evidence="lettering" datingMethod="#julian">II-I BC</origDate>
                               </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863918">ვანი</placeName> 
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863918">ვანი</placeName>
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                        
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot"></placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -80,7 +80,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-    </teiHeader>   
+    </teiHeader>
      <facsimile>
         <surface>
             <graphic url="ecg300.jpg">
@@ -89,56 +89,49 @@
             </graphic>
         </surface>
     </facsimile>
-     
+
     <text>
         <body>
             <div type="bibliography">
-                
-                    <p><bibl n="1">დევიდ ბრაუნდი, საქართველო ანტიკურ ხანაში: კოლხეთისა და ამიერკავკასიის იბერიის ისტორია ძვ.წ. 550-ახ.წ. 562 წლები<ptr target="bibliography.xml#b68"/>, <citedRange> 196</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b68"/> დევიდ ბრაუნდი, საქართველო ანტიკურ ხანაში: კოლხეთისა და ამიერკავკასიის იბერიის ისტორია ძვ.წ. 550-ახ.წ. 562 წლები, <citedRange> 196</citedRange></bibl></p>
+
             </div>
-     
+
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!-- ΒΑΣΙΛΙΚΗ ΜΕΛΑΒΗ -->
-                     
+
          <ab>
              <w lemma="βασιλοκός">βασιλική</w> <persName><name nymRef="Μελαβη">Μελαβη</name></persName>
-         </ab>    
-             
-         
+         </ab>
+
+
             </div>
-                
+
             <div type="translation" xml:lang="ka">
                 <p>მეფური მელაბე</p>
             </div>
-            
+
            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
               <head>კრიტიკული აპარატი</head>
               <p><app><lem></lem>
               <rdg></rdg>
               </app></p>
             </div>
-           
+
             <div type="commentary">
-                <p>ადგილობრივი წარმოება კრამიტზე გაჩენილი მოთხოვნილების დასაკმაყოფილებლად კოლხეთში, ყოველ შემთხვევაში, ნაწილობრივ მაინც, სამეფო ხელისუფლების 
-                უფლებამოსილებით წარმოებდა, რამდენადაც ორმოცდაათამდე ადგილობრივ კრამიტზე ვანში აღბეჭდილია დამღით ΒΑΣΙΛΙΚΗ ΜΕΛΑΒΗ. ΜΕΛΑΒΗ მიჩნეულია ამ 
-                წარმოებით დაინტერესებული ოფიციალური პირის სახელად, მეფედაც კი. დ. ახვლედიანი ΜΕΛΑΒΗ-ს ΜΕΛΑΒΗΣ-დ განავრცობს, ამასვე იზიარებს გ. ცეცხლაძე. ეს სახელი 
+                <p>ადგილობრივი წარმოება კრამიტზე გაჩენილი მოთხოვნილების დასაკმაყოფილებლად კოლხეთში, ყოველ შემთხვევაში, ნაწილობრივ მაინც, სამეფო ხელისუფლების
+                უფლებამოსილებით წარმოებდა, რამდენადაც ორმოცდაათამდე ადგილობრივ კრამიტზე ვანში აღბეჭდილია დამღით ΒΑΣΙΛΙΚΗ ΜΕΛΑΒΗ. ΜΕΛΑΒΗ მიჩნეულია ამ
+                წარმოებით დაინტერესებული ოფიციალური პირის სახელად, მეფედაც კი. დ. ახვლედიანი ΜΕΛΑΒΗ-ს ΜΕΛΑΒΗΣ-დ განავრცობს, ამასვე იზიარებს გ. ცეცხლაძე. ეს სახელი
                 (თუ ასეთთან გვაქვს საქმე) შემოკლებას არ საჭიროებს: მხოლოდ ბოლოკიდურ სიგმას ნავარაუდევი გამოტოვება გაუმართლებელი ჩანს. </p>
-                <p>აღმოჩენილი კრამიტების დაახლოებით ნახევარი უფრო მცირედამღებიანია, რომლებიც, როგორც ჩანს, საკუთარ სახელებს აღნიშნავს; ჩვეულებრივ, ეს არის 
-                ΟΡΑΖΟ, მაგრამ ბოლოხანებში აღმოჩენილ ერთ კრამიტზე მოცემულია ΧΟΡΣΙΠ, მეორეზე ΕΡΜΩ... მცირე დამღები დიდ დამღებს ებჯინება, მაგრამ მათი 
-                ურთიერთდამოკიდებულება, ცოტა არ იყოს, გაურკვეველია; შესაძლოა, მომდევნო რიგის ოფიციალური პირების აღმნიშვნელი იყოს. ასეთი დამღების მქონე ყველაზე 
-                ადრეული კრამიტები ძვ.წ. IV საუკუნის ბოლოხანების და ძვ.წ. III საუკუნის დასაწყისის ფენებშია დამოწმებული, თუმცა მათი ძირითადი მასა, დღესდღეობით, 
+                <p>აღმოჩენილი კრამიტების დაახლოებით ნახევარი უფრო მცირედამღებიანია, რომლებიც, როგორც ჩანს, საკუთარ სახელებს აღნიშნავს; ჩვეულებრივ, ეს არის
+                ΟΡΑΖΟ, მაგრამ ბოლოხანებში აღმოჩენილ ერთ კრამიტზე მოცემულია ΧΟΡΣΙΠ, მეორეზე ΕΡΜΩ... მცირე დამღები დიდ დამღებს ებჯინება, მაგრამ მათი
+                ურთიერთდამოკიდებულება, ცოტა არ იყოს, გაურკვეველია; შესაძლოა, მომდევნო რიგის ოფიციალური პირების აღმნიშვნელი იყოს. ასეთი დამღების მქონე ყველაზე
+                ადრეული კრამიტები ძვ.წ. IV საუკუნის ბოლოხანების და ძვ.წ. III საუკუნის დასაწყისის ფენებშია დამოწმებული, თუმცა მათი ძირითადი მასა, დღესდღეობით,
                 ძვ.წ. II-I საუკუნეების ნგრევის ფენაშია თავმოყრილი.</p>
-                
+
             </div>
          </body>
     </text>
 </TEI>
-
-
-
-
-
-
-

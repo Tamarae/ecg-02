@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
@@ -36,11 +36,11 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
                                     <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">Plaque</objectType>
                                     <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
-                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>                                  
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
                                       <dimensions unit="cm">
                                         <width/>
                                         <height/>
@@ -55,14 +55,14 @@
                                         <seg xml:lang="en"></seg>
                                         <dimensions unit="cm">
                                              <width/>
-                                             <height/> 
-                                          </dimensions>  
-                                    </layout>                                   
+                                             <height/>
+                                          </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
-                                 <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა 
+                                 <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
                                    <height unit="cm">4-18</height>
                                 </handNote>
                         </handDesc>
@@ -73,7 +73,7 @@
                                     <seg xml:lang="ka">ბიეთის ეკლესია</seg>
                                     <seg xml:lang="en">Bieti Church</seg>
                                 </origPlace>
-                                <origDate notBefore-custom="1200" notAfter-custom="1400" 
+                                <origDate notBefore-custom="1200" notAfter-custom="1400"
                                     evidence="context" datingMethod="#julian">XIII-XIV AD</origDate>
                             </origin>
                             <provenance type="found">
@@ -81,20 +81,20 @@
                                 <seg xml:lang="ka">ბიეთის ეკლესია</seg>
                                     <seg xml:lang="en">Bieti Church</seg>
                                 </placeName>
-                                <!-- "41.743306, 43.105826"--> 
+                                <!-- "41.743306, 43.105826"-->
                                 <rs type="circumstances"/>
-                                <rs type="context"/> 
+                                <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                                
+                            </provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot">
-                                
+
                                 <seg xml:lang="ka">ბიეთის ეკლესია</seg>
                                     <seg xml:lang="en">Bieti Church</seg>
                                 </placeName>
                                 <idno/>
-                            </provenance> 
-                    </history>                   
+                            </provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -102,7 +102,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <facsimile>
@@ -116,55 +116,55 @@
     <text>
         <body>
       <div type="bibliography">
-             
-     <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
-     <p><bibl n="2">ვახტანგ ბერიძე, სამცხის ხუროთმოძღვრება, XIII-XVI საუკუნეები<ptr target="bibliography.xml#b152"/>, <citedRange>163-164</citedRange></bibl></p> 
-               
+
+     <p><bibl n="1"><ptr target="#b149"/> ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა, <citedRange> 118-169</citedRange></bibl></p>
+     <p><bibl n="2"><ptr target="#b152"/> ვახტანგ ბერიძე, სამცხის ხუროთმოძღვრება, XIII-XVI საუკუნეები, <citedRange>163-164</citedRange></bibl></p> 
+
             </div>
-            
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!--"ქე ადდე ხში რლ ესე საყდარი ა[ღ]
                                                         [ე]
                             † წო ღთისმშბელო
                            მეოხ ეყავ ხშსა შვილი
-                            თურთ ორთვე შინა ცხორებასა"--> 
-                             
+                            თურთ ორთვე შინა ცხორებასა"-->
+
                 <ab>
-                   <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
-                                <w lemma="დიდება"><expan><abbr>ად</abbr><ex>ი</ex><abbr>დე</abbr></expan></w> 
-                                <persName type="local" key="ხუაში [ბიეთის მაშენებელი]"><expan><abbr>ხ</abbr><ex>უა</ex><abbr>ში</abbr></expan></persName> 
-                                <w lemma="რომელ"><expan><abbr>რ</abbr><ex>ომე</ex><abbr>ლ</abbr></expan></w> 
-                                <w lemma="ესე">ესე</w> 
-                                <w lemma="საყდარ">საყდარი</w> 
+                   <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
+                                <w lemma="დიდება"><expan><abbr>ად</abbr><ex>ი</ex><abbr>დე</abbr></expan></w>
+                                <persName type="local" key="ხუაში [ბიეთის მაშენებელი]"><expan><abbr>ხ</abbr><ex>უა</ex><abbr>ში</abbr></expan></persName>
+                                <w lemma="რომელ"><expan><abbr>რ</abbr><ex>ომე</ex><abbr>ლ</abbr></expan></w>
+                                <w lemma="ესე">ესე</w>
+                                <w lemma="საყდარ">საყდარი</w>
                                 <w lemma="აღშენება"><expan><abbr>ა</abbr><supplied reason="lost"><abbr>ღ</abbr></supplied><ex>აშ</ex>
-                   <lb n="2" break="no"/><supplied reason="lost"><abbr>ე</abbr></supplied><ex>ნა</ex></expan></w>                 
-                   <lb n="3"/>&#8224; <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> 
-                                    <w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თისმშ</abbr><ex>ო</ex><abbr>ბელო</abbr></expan></w>                              
-                    <lb n="4"/><w lemma="მეოხ-ყოფა">მეოხეყავ</w> 
-                                    <persName type="local" key="ხუაში [ბიეთის მაშენებელი]"><expan><abbr>ხ</abbr><ex>უა</ex><abbr>შ</abbr><ex>ი</ex><abbr>სა</abbr></expan></persName> 
+                   <lb n="2" break="no"/><supplied reason="lost"><abbr>ე</abbr></supplied><ex>ნა</ex></expan></w>
+                   <lb n="3"/>&#8224; <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w>
+                                    <w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თისმშ</abbr><ex>ო</ex><abbr>ბელო</abbr></expan></w>
+                    <lb n="4"/><w lemma="მეოხ-ყოფა">მეოხეყავ</w>
+                                    <persName type="local" key="ხუაში [ბიეთის მაშენებელი]"><expan><abbr>ხ</abbr><ex>უა</ex><abbr>შ</abbr><ex>ი</ex><abbr>სა</abbr></expan></persName>
                                     <w lemma="შვილ">შვილი
-                    <lb n="5" break="no"/>თურთ</w> <w lemma="ორ"><expan><abbr>ორ</abbr><ex>ა</ex><abbr>თვე</abbr></expan></w> 
-                                        <w lemma="შინა">შინა</w> 
+                    <lb n="5" break="no"/>თურთ</w> <w lemma="ორ"><expan><abbr>ორ</abbr><ex>ა</ex><abbr>თვე</abbr></expan></w>
+                                        <w lemma="შინა">შინა</w>
                                         <w lemma="ცხორებასა">ცხორებასა</w>
                 </ab>
-              </div>  
-            
+              </div>
+
          <div type="translation">
              <p xml:lang="ka">ქრისტე, ადიდე ხუაში, რომელმაც ეს საყდარი ააშენა. წმიდაო ღვთისმშობელო, მეოხ-ეყავ ხუაშის შვილებითურთ ორივე სოფელში.</p>
              <p xml:lang="en"></p>
-         </div>    
-            
+         </div>
+
             <div type="commentary">
                 <p xml:lang="ka">ბიეთის ტაძარი წინუბნისწყლის ხეობაში მდებარეობს. სოფელი ბიეთის სახელწოდებით არ არსებობს - ეს სახელი მხოლოდ ტაძარს ჰქვია.
                     ექვთიმე თაყაიშვილი წარწერაში მოხსენიებულ ხუაშის ხვაშაქად კითხულობდა და მას თამარ მეფის თანამედროვე ხუაშაქი ცოქალთან (ქართლის ერისთავთ ერისთავის რატის დედა) აიგივებდა.
-                                თუმცა, ვახტანგ ბერიძე მიიჩნევს, რომ ტაძრის ხუროთმოძღვრება, დეკორატიული მორთულობა და წარწერის პალეოგრაფია აშკარად თამარის პერიოდზე გვიანდელია. 
+                                თუმცა, ვახტანგ ბერიძე მიიჩნევს, რომ ტაძრის ხუროთმოძღვრება, დეკორატიული მორთულობა და წარწერის პალეოგრაფია აშკარად თამარის პერიოდზე გვიანდელია.
                                 გიორგი ბოჭორიძე ამ სახელს კითხულობს, როგორც ხოშა.
-                                
+
                        ბიეთის ტაძრის ნანგრევებში არსებულ ქვებზე რამდენიმე წარწერაა. ისინი ქრონოლგიურად ორ ჯგუფად იყოფა. პირველია
                                 XIII-XIV სს. მეორეა თარიღიანი წარწერა 1493 წლისა, ამოკვეთილი ტაძრისათვის მიშენებულ ეკვდერის კედელზე. მასში აღნიშნულია, რომ ვინმე ზაალ თოჴასძეს ეს ეკვტერი
-                                აუშენებია „მშობელთა და [ჩემთა] მიცვალებულთათვის“. მაშასადამე, ვალერი სილოგავას აზრით, აქ კიდევ ერთხელ დასტურდება, რომ ეკვდერი ეკლესიაში მიცვალებულთა 
-                                დასაკრძალავი ადგილი იყო.</p>                
+                                აუშენებია „მშობელთა და [ჩემთა] მიცვალებულთათვის“. მაშასადამე, ვალერი სილოგავას აზრით, აქ კიდევ ერთხელ დასტურდება, რომ ეკვდერი ეკლესიაში მიცვალებულთა
+                                დასაკრძალავი ადგილი იყო.</p>
             </div>
         </body>
     </text>

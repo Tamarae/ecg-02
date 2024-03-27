@@ -13,7 +13,7 @@
                 <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
                 <idno type="filename">ECG253</idno>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/"> 
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
                        დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით
                     </licence>
                 </availability>
@@ -68,7 +68,7 @@
                             <origDate>XII-XIII AD</origDate>
                         </origin>
                         <provenance type="observed">
-                            <placeName type="modernSpot"/> 
+                            <placeName type="modernSpot"/>
                             <rs type="circumstances"/>
                             <idno/>
                         </provenance>
@@ -81,7 +81,7 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    <!-- 
+    <!--
     <facsimile>
         <surface>
             <graphic url="tskise_01.jpg">
@@ -90,18 +90,18 @@
             </graphic>
         </surface>
     </facsimile> -->
-    
+
     <text>
         <!--
        დ
         -->
         <body>
             <div type="bibliography">
-                 <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>157</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                 <p><bibl n="2">ლ. მუსხელიშვილი, დმანისი (ქალაქის ისტორია და ნაქალაქარის აღწერა), შოთა რუსთაველის ეპოქის მატერიალური კულტურის ძეგლები, თბილისი, 1938<citedRange>443</citedRange><ptr target="bibliography.xml#b222"/>   
+                 <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>157</citedRange>, თბილისი, 2018</bibl></p>
+                 <p><bibl n="2"><ptr target="#b222"/> ლ. მუსხელიშვილი, დმანისი (ქალაქის ისტორია და ნაქალაქარის აღწერა), შოთა რუსთაველის ეპოქის მატერიალური კულტურის ძეგლები, თბილისი, 1938<citedRange>443</citedRange>  
                  </bibl></p>
             </div>
-            
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
 
                 <ab>
@@ -109,14 +109,14 @@
                 </ab>
             </div>
 
-            
+
                 <div type="translation"/>
 
-                
+
                 <div type="commentary">
                     <p>ჭურჭელი, რომელზეც გრაფემაა ამოკაწრული აღმოაჩინა ლ. მუსხელიშვილმა დმანისის
                         ნაქალაქარის არქეოლოგიური გათხრებისას. მისი დღევანდელი ადგილმდებარეობა
-                        ჩვენთვის უცნობია. ვსარგებლობთ ლ. მუსხელიშვილის პუბლიკაციით. 
+                        ჩვენთვის უცნობია. ვსარგებლობთ ლ. მუსხელიშვილის პუბლიკაციით.
                         წარწერის დათარიღების საფუძველი: მსგავსი მოჭიქული კერამიკა, ძირითადად, XII-XIV სს-ში
                         იყო გავრცელებული. ლ. მუსხელიშვილის მიხედვით, დ-ონს ყელი დაბალი ჰქონდა, რაც
                         გრ-ის ადრეულობაზე უნდა მიუთითებდეს</p>

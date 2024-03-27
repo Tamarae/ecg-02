@@ -28,13 +28,13 @@
                             <seg xml:lang="ka">ეპიტაფია</seg>
                             <seg xml:lang="en"/>
                         </summary>
-                    </msContents>  
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/91.html">ეპიტაფია</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
                                       <dimensions unit="cm">
                                         <width>85</width>
                                         <height>195</height>
@@ -43,40 +43,40 @@
                                 </support>
                             </supportDesc>
                                 <layoutDesc>
-                                    <layout writtenLines="7">წარწერა შვიდსტრიქონიანია. იგი ამოკვეთილია რუხი ფერის ოთხკუთხა საფლავის ქვაზე, რომელიც 
+                                    <layout writtenLines="7">წარწერა შვიდსტრიქონიანია. იგი ამოკვეთილია რუხი ფერის ოთხკუთხა საფლავის ქვაზე, რომელიც
                                         ქობაირის მონასტრის მთავარი ეკლესიის კარიბჭის
                                         იატაკში, საფლავის ქვების აღმოსავლეთიდან პირველ რიგში, სამხრეთიდან პირველ და მესამე საფლავის ქვებს შორის არის ჩადგმული.
-                                        საფლავის ქვა სამ ნაწილად არის გადატეხილი, თუმცა ნაწილები ერთმანეთისაგან დაცილებული არ არის. 
+                                        საფლავის ქვა სამ ნაწილად არის გადატეხილი, თუმცა ნაწილები ერთმანეთისაგან დაცილებული არ არის.
                                       <dimensions unit="cm">
                                          <width>51</width>
-                                         <height>76</height> 
-                                      </dimensions>  
-                                    </layout>                                   
+                                         <height>76</height>
+                                      </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                                 <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
-                                   <height>3,5-10,5</height> 
+                                   <height>3,5-10,5</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                             <origin>
                                 <origPlace>ქობაირის მონასტერი, სომხეთი</origPlace>
-                                <origDate notBefore-custom="1300" notAfter-custom="1500" precision="medium" 
+                                <origDate notBefore-custom="1300" notAfter-custom="1500" precision="medium"
                                     evidence="lettering" datingMethod="#julian">XIII-XIV AD</origDate>
                             </origin>
                             <provenance type="found">
                                 <placeName type ="ancientFindspot">ქობაირის მონასტერი, სომხეთი</placeName>
-                                <!-- "41.005061, 44.635086"--> 
+                                <!-- "41.005061, 44.635086"-->
                                 <rs type="circumstances"/>
                                 <rs type="context"/>
-                                <rs type="monuList"/></provenance>                                
+                                <rs type="monuList"/></provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot">ქობაირის მონასტერი, სომხეთი</placeName>
-                                <idno type="invNo"/></provenance> 
-                    </history>                   
+                                <idno type="invNo"/></provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -84,9 +84,9 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-    <revisionDesc><change when="2019-12-17" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+    <revisionDesc><change when="2019-12-17" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
-    </teiHeader>    
+    </teiHeader>
     <facsimile>
         <surface>
             <graphic url="ecg341.jpg">
@@ -98,58 +98,58 @@
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
-    </facsimile>  
+    </facsimile>
     <text>
-        <body>           
+        <body>
            <div type="bibliography">
-                
-         <p><bibl n="1">თემო ჯოჯუა, გიორგი გაგოშიძე, ქობაირის, ჰნევანქისა და ახტალის მონასტრების ქართული ლაპიდარული წარწერები<ptr target="bibliography.xml#b164"/>, <citedRange> 271-272</citedRange></bibl></p>
-         <p><bibl n="2">პარუირ მურადიანი, სომხეთის ქართული წარწერები, წყაროთმცოდნეობითი გამოკვლევა (სომხურ ენაზე)<ptr target="bibliography.xml#b166"/>, <citedRange> 178, ტაბ. XIX, სურ. 2</citedRange></bibl></p>
-         <p><bibl n="3">ქეთი ასათიანი, გიორგი კალანდია, ქობერის მონასტრის ქართული წარწერები<ptr target="bibliography.xml#b165"/>, <citedRange> 10-14</citedRange></bibl></p>
-                
+
+         <p><bibl n="1"><ptr target="#b164"/> თემო ჯოჯუა, გიორგი გაგოშიძე, ქობაირის, ჰნევანქისა და ახტალის მონასტრების ქართული ლაპიდარული წარწერები, <citedRange> 271-272</citedRange></bibl></p>
+         <p><bibl n="2"><ptr target="#b166"/> პარუირ მურადიანი, სომხეთის ქართული წარწერები, წყაროთმცოდნეობითი გამოკვლევა (სომხურ ენაზე), <citedRange> 178, ტაბ. XIX, სურ. 2</citedRange></bibl></p>
+         <p><bibl n="3"><ptr target="#b165"/> ქეთი ასათიანი, გიორგი კალანდია, ქობერის მონასტრის ქართული წარწერები, <citedRange> 10-14</citedRange></bibl></p>
+
            </div>
-            
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!-- † ესე საფლ(ა)ვი ივ(ა)ნე
                             მ(ა)ნდატურთუხ(უ)ცესისა
                             ძისა და ათ(ა)ბ(ა)გისა
                             შ(ა)ნშ(ეს) ძმისა ათ(ა)ბ(ა)
                             გისა ვ(ა)ჰ
                             რ(ა)მისი. შ(ეუნდვე)ნ
-                            ღ(მერთმა)ნ--> 
-                                              
+                            ღ(მერთმა)ნ-->
+
                 <ab>
-                   <lb n="1"/>&#8224;<w lemma="ესე">ესე</w> 
-                            <w lemma="საფლავ"><expan><abbr>საფლ</abbr><ex>ა</ex><abbr>ვი</abbr></expan></w> 
+                   <lb n="1"/>&#8224;<w lemma="ესე">ესე</w>
+                            <w lemma="საფლავ"><expan><abbr>საფლ</abbr><ex>ა</ex><abbr>ვი</abbr></expan></w>
                             <persName type="local" key="ივანე II მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/ივანე_(II)_მხარგრძელი"><name nymRef="ივანე"><expan><abbr>ივ</abbr><ex>ა</ex><abbr>ნე</abbr></expan></name>
                     <lb n="2"/><roleName nymRef="მანდატურთუხუცეს"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ნდატურთუხ</abbr><ex>უ</ex><abbr>ცესისა</abbr></expan></roleName></persName>
-                    <lb n="3"/><w lemma="ძე">ძისა</w> 
-                                და 
+                    <lb n="3"/><w lemma="ძე">ძისა</w>
+                                და
                                 <persName type="local" key="შანშე II მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/მხარგრძელი_შანშე_(II)"><roleName nymRef="ათაბაგ"><expan><abbr>ათ</abbr><ex>ა</ex><abbr>ბ</abbr><ex>ა</ex><abbr>გისა</abbr></expan></roleName>
                     <lb n="4"/><name nymRef="შანშე"><expan><abbr>შ</abbr><ex>ა</ex><abbr>ნშ</abbr><ex>ეს</ex></expan></name></persName>
-                                <w lemma="ძმა">ძმისა</w> 
+                                <w lemma="ძმა">ძმისა</w>
                                 <persName type="local" key="ვაჰრამ ათაბაგი [ივანე II მხარგრძელის ძე]"><roleName nymRef="ათაბაგ"><expan><abbr>ათ</abbr><ex>ა</ex><abbr>ბ</abbr><ex>ა</ex>
-                    <lb n="5" break="no"/><abbr>გისა</abbr></expan></roleName> 
+                    <lb n="5" break="no"/><abbr>გისა</abbr></expan></roleName>
                                 <name nymRef="ვაჰრამ"><expan><abbr>ვ</abbr><ex>ა</ex><abbr>ჰ
-                    <lb n="6"/>რ</abbr><ex>ა</ex><abbr>მისი</abbr></expan></name></persName> 
+                    <lb n="6"/>რ</abbr><ex>ა</ex><abbr>მისი</abbr></expan></name></persName>
                                 <w lemma="შენდობა"><expan><abbr>შ</abbr><ex>ეუნდვე</ex><abbr>ნ</abbr></expan></w>
                     <lb n="7"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
-                    
+
                     </ab>
                </div>
-            
+
          <div type="translation" xml:lang="ka">
              <p>ეს არის საფლავი ივანე მანდატურთუხუცესის ძის და ათაბაგ შანშეს ძმის, ათაბაგ ვაჰრამის. შეუნდოს ღმერთმან.</p>
-         </div>                  
-           
+         </div>
+
             <div type="commentary">
                 <p>წარწერაში ქარაგმის ნიშნად გამოყენებულია განივი ტეხილი ხაზი. განკვეთილობის ნიშნები: ორწერტილი ალაგ-ალაგ. ტექსტში ბგერა უ,
                     ერთ შემთხვევაში, Ⴍ-ს (ო) საშუალებით არის გადმოცემული; გვხვდება ლიგატურებისა და შეწიაღების შემთხვევები. საფლავის ქვის ზედაპირი გადაცვეთილია,
-                    თუმცა გრაფემები გარკვევით იკითხება.</p> 
-                    <p>ქობაირის მონასტრის ყველა წარწერაში, სადაც ივანე იხსენიება, საგანგებოდ ხაზგასმულია, რომ იგი მანდატურთუხუცესია. 
-                    ქეთი ასათიანის აზრით, ერთადერთი ივანე, ვისაც ეს სახელო XIII საუკუნეში ეკავა, 
-                    ზაქარია მხარგრძელის შვილიშვილი და შანშე მანდატრუთუხუცესის ვაჟია.</p>               
+                    თუმცა გრაფემები გარკვევით იკითხება.</p>
+                    <p>ქობაირის მონასტრის ყველა წარწერაში, სადაც ივანე იხსენიება, საგანგებოდ ხაზგასმულია, რომ იგი მანდატურთუხუცესია.
+                    ქეთი ასათიანის აზრით, ერთადერთი ივანე, ვისაც ეს სახელო XIII საუკუნეში ეკავა,
+                    ზაქარია მხარგრძელის შვილიშვილი და შანშე მანდატრუთუხუცესის ვაჟია.</p>
             </div>
          </body>
     </text>

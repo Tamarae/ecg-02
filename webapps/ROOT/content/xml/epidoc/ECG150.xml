@@ -22,7 +22,7 @@
                             კუმურდო
                         </collection>
                     </msIdentifier>
-                    
+
                    <msContents>
                         <summary>
                             <seg xml:lang="ka">მემორიალური</seg>
@@ -77,10 +77,10 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    
-    <!-- 
-    
-        
+
+    <!--
+
+
     <facsimile>
         <surface>
             <graphic url="tskise_01.jpg">
@@ -89,41 +89,41 @@
             </graphic>
         </surface>
     </facsimile>
-    
+
     -->
-    
+
     <text>
-        <!-- 
+        <!--
         1.ქ(რისტ)ე, შ(ეიწყალ)ე აბ(ე)ლაჲ
         -->
         <body>
-            
+
              <div type="bibliography">
                 <p>
-                    <bibl n="1">ვალერი სილოგავა, კუმურდო, <citedRange>72</citedRange>, თბილისი 1994<ptr target="bibliography.xml#b198"/></bibl>
+                    <bibl n="1"><ptr target="#b198"/> ვალერი სილოგავა, კუმურდო, <citedRange>72</citedRange>, თბილისი 1994</bibl>
                 </p>
-                 
+
              </div>
 
            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
              <ab>
                  <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> <persName type="local" key="აბელაჲ"><name nymRef="აბელაჲ"><expan><abbr>აბ</abbr><ex>ე</ex><abbr>ლაჲ</abbr></expan></name></persName>
                  </ab>
-             
-         </div> 
-            
-  
-           
-            
+
+         </div>
+
+
+
+
             <div type="translation"/>
 
-            
+
             <div type="commentary">
                 <p>წარწერა გაფერმკრთალებულია. პალეოგრაფიული ნიშნებით დათარიღებულია XI საუკუნით. არ გამოც.</p>
             </div>
-            
+
 
         </body>
     </text>
-    
+
 </TEI>

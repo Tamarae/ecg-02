@@ -40,7 +40,7 @@
                                 <p xml:lang="en"></p>
                                 <dimensions unit="mm">
                                     <height/>
-                                </dimensions>    
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -48,7 +48,7 @@
                         <origin>
                             <origPlace>ნაგზაურა</origPlace>
                             <origDate >VII</origDate>
-                        </origin> 
+                        </origin>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -59,48 +59,42 @@
 </encodingDesc>
     </teiHeader>
     <text>
-        <!-- 
-         1.  ჯუ(ა)რ[ი ქ](რისტ)ჱ(სი) 
+        <!--
+         1.  ჯუ(ა)რ[ი ქ](რისტ)ჱ(სი)
         -->
         <body>
             <div type="bibliography">
-                
-                   <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>87-88</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                    
-                    <p><bibl n="2">ზაზა ალექსიძე, ადრექრისტიანული საეკლესიო კომპლექსი დმანისთან, <citedRange>85-86</citedRange>, თბილისი, 2012<ptr target="bibliography.xml#b207"/></bibl></p>
-       
-                
-                
+
+                   <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>87-88</citedRange>, თბილისი, 2018</bibl></p>
+
+                    <p><bibl n="2"><ptr target="#b207"/> ზაზა ალექსიძე, ადრექრისტიანული საეკლესიო კომპლექსი დმანისთან, <citedRange>85-86</citedRange>, თბილისი, 2012</bibl></p>
+
+
+
             </div>
-            
+
             <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
 
                 <ab>
                 <lb n="1"/><w lemma="ჯუარი"><expan><abbr>ჯუ</abbr><ex>ა</ex><abbr>რ</abbr><supplied reason="lost"><abbr>ი</abbr></supplied></expan></w> <w lemma="ქრისტე"><expan><supplied reason="lost"><abbr>ქ</abbr></supplied><ex>რისტ</ex><abbr>ჱ</abbr><ex>სი</ex></expan></w>
                 </ab>
-                
+
             </div>
-            
+
             <div type="translation">
                 <p/>
             </div>
-            
+
             <div type="commentary">
                 <p> მთავარი ქვაჯვრის კაპიტელზე, ღვთიმშობლის სავარძლის სახელურის მარცხნივ და ძირში, ორ ბლოკზე, ამოკაწრულია 1სტრ. , გაკუთხოვნებისკენ მიდრეკილი ასომთავრული გრაფიტო.
-                    ქარაგმის ნიშანი: განივი, სწორი ხაზი. 
+                    ქარაგმის ნიშანი: განივი, სწორი ხაზი.
                     დაზიანება: მეორე ბლოკზე გადასვლის ადგილას ორი გრაფემა ამოტეხილია.
                     წარწერის დატარიღება: VII ს. (ალექსიძე)
                     წარმოდგენილ გამოცემაში მიღებულია მოცემული დათარიღება.
                 </p>
 
-                
+
             </div>
         </body>
     </text>
 </TEI>
-
-
-
-
-
-

@@ -24,17 +24,17 @@
                            საირხე
                         </collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">ლიგატურა</seg>
                             <seg xml:lang="en"/>
                         </summary>
-                    </msContents> 
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material></material>
                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/305">ფიალა</objectType></support></supportDesc>
                                 <layoutDesc>
@@ -45,7 +45,7 @@
                                         <depth></depth></dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
                                 <height unit="cm" precision="medium"></height>
@@ -59,20 +59,20 @@
                     <history>
                             <origin>
                                 <origPlace>საირხე</origPlace>
-                                <origDate notBefore-custom="-0400" notAfter-custom="-0301" precision="medium" 
+                                <origDate notBefore-custom="-0400" notAfter-custom="-0301" precision="medium"
                                     evidence="lettering" datingMethod="#julian">IV BC</origDate>
                               </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863878">საირხე</placeName> 
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863878">საირხე</placeName>
                                 <rs type="circumstances">ფიალა აღმოჩენილია საირხის N10 სამარხში.</rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                         
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot"></placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -80,7 +80,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-    </teiHeader>    
+    </teiHeader>
     <facsimile>
         <surface>
             <graphic url="ecg304.jpg">
@@ -89,53 +89,46 @@
             </graphic>
         </surface>
     </facsimile>
-    
+
     <text>
         <body>
             <div type="bibliography">
-                
-                    <p><bibl n="1">დევიდ ბრაუნდი, საქართველო ანტიკურ ხანაში: კოლხეთისა და ამიერკავკასიის იბერიის ისტორია ძვ.წ. 550-ახ.წ. 562 წლები<ptr target="bibliography.xml#b68"/>, <citedRange> 188-189</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b68"/> დევიდ ბრაუნდი, საქართველო ანტიკურ ხანაში: კოლხეთისა და ამიერკავკასიის იბერიის ისტორია ძვ.წ. 550-ახ.წ. 562 წლები, <citedRange> 188-189</citedRange></bibl></p>
+
             </div>
 
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!-- ΔΤΜ -->
-                     
-            
+
+
 
          <ab>
              <hi rend="ligature">ΔΤΜ</hi>
-         </ab>    
-             
-         
+         </ab>
+
+
             </div>
-                
+
             <div type="translation" xml:lang="ka">
                 <p></p>
             </div>
-            
+
            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
               <head>კრიტიკული აპარატი</head>
               <p><app><lem></lem>
               <rdg></rdg>
               </app></p>
             </div>
-           
+
             <div type="commentary">
-                <p>საირხეში, ისევე, როგორც ვანში, ძვ.წ. V საუკუნიდან მაინც, ადგილობრივის, ბერძნულის და სპარსულის ურთიერთშერწყმის მოწმენი ვხდებით. საირხეში აღმოჩენილ ფიალაზე 
-                დატანილია ლიგატურა, რომელიც აშარად ბერძნულასოებიანია (ΔΤΜ ან შეიძლება ΔΜΤ) და ალბათ კუთვნილების აღმნიშვნელი უნდა იყოს. სამარხის ხასიათიდან, სამარხეული 
-                ინვენტარის ტიპოლოგიიდან და მდიდრულობიდან გამომდინარე, შეიძლება ითქვას, რომ როგორც ითხვისის სამარხში, ისე აქაც ბერძნული ანბანის გამომყენებელი კოლხი ელიტის 
+                <p>საირხეში, ისევე, როგორც ვანში, ძვ.წ. V საუკუნიდან მაინც, ადგილობრივის, ბერძნულის და სპარსულის ურთიერთშერწყმის მოწმენი ვხდებით. საირხეში აღმოჩენილ ფიალაზე
+                დატანილია ლიგატურა, რომელიც აშარად ბერძნულასოებიანია (ΔΤΜ ან შეიძლება ΔΜΤ) და ალბათ კუთვნილების აღმნიშვნელი უნდა იყოს. სამარხის ხასიათიდან, სამარხეული
+                ინვენტარის ტიპოლოგიიდან და მდიდრულობიდან გამომდინარე, შეიძლება ითქვას, რომ როგორც ითხვისის სამარხში, ისე აქაც ბერძნული ანბანის გამომყენებელი კოლხი ელიტის
                 წარმომადგენელი მარხია. ეს სამარხი ითხვისის მეტოსის სამარხზე გაცილებით უფრო გვიანდელია და ძვ.წ. IV საუკუნის პირველი ნახევრით არის დათარიღებული.</p>
-                
+
             </div>
          </body>
     </text>
 </TEI>
-
-
-
-
-
-
-

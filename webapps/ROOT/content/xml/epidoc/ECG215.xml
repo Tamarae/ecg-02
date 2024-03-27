@@ -23,7 +23,7 @@
                             დმანისი
                         </collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">ფრაგმენტი</seg>
@@ -41,7 +41,7 @@
                             <layoutDesc>
                                 <layout>
                                     წარწერა შესრულებულია ჯვრის კვარცხლბეკზე
-                                
+
                                 <dimensions unit="cm">
                                     <height>160</height>
                                     <width>120</width>
@@ -56,7 +56,7 @@
                                 <p xml:lang="en">Engraved Asomtavruli</p>
                                 <dimensions unit="cm">
                                     <height>8-10</height>
-                                </dimensions>        
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +68,7 @@
                         <provenance type="observed">
                             <placeName type="modernspot">საჯა(საჭე)</placeName>
                         </provenance>
-                        
+
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -78,10 +78,10 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    
-          <!-- 
-    
-        
+
+          <!--
+
+
     <facsimile>
         <surface>
             <graphic url="tskise_01.jpg">
@@ -90,60 +90,48 @@
             </graphic>
         </surface>
     </facsimile> -->
-    
-    <text><!-- 
+
+    <text><!--
     1. ქ(რისტ)ე, შ[ე](იწყალ)ე
-    2. ე... 
+    2. ე...
     3. შ[(ე)ნ]ი...
      -->
-        
+
         <body>
             <div type="bibliography">
-                
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>105-106</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                <p><bibl n="2">დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>109</citedRange> თბილისი, 2014<ptr target="bibliography.xml#b213"/></bibl></p>
-                <p><bibl n="3">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>17</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
-                
+
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>105-106</citedRange>, თბილისი, 2018</bibl></p>
+                <p><bibl n="2"><ptr target="#b213"/> დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>109</citedRange> თბილისი, 2014</bibl></p>
+                <p><bibl n="3"><ptr target="#b216"/> გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>17</citedRange>, თბილისი, 2016</bibl></p>
+
             </div>
 
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
                     <ab>
-                        <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
+                        <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
                         <w lemma="იწყალებს"><expan><abbr>შ</abbr><supplied reason="lost"><abbr>ე</abbr></supplied><ex>იწყალ</ex><abbr>ე</abbr></expan></w>
                         <lb n="2"/>ე
                         <lb n="3"/><w lemma="შენი"><expan><abbr>შ</abbr><supplied reason="lost"><ex>ე</ex><abbr>ნ</abbr></supplied>ი</expan></w>
                     </ab>
-                 
-                
+
+
             </div>
-            
+
             <div type="translation"/>
-            
+
             <div type="commentary">
-                <p> იგივე წარწერის ქვაზე (#36), ცენტრში  აღმართუი ჯვრის კვარცხლბეკზეშეიმჩნევა წარწერის კვალი. შესრულებილია ამოღარვით, ასომთავრულად. 
+                <p> იგივე წარწერის ქვაზე (#36), ცენტრში  აღმართუი ჯვრის კვარცხლბეკზეშეიმჩნევა წარწერის კვალი. შესრულებილია ამოღარვით, ასომთავრულად.
                     მელქისედეკ კათალიკოსის სადიდებელი წარწერის ქორონიკონის აღმნიშვნელი გრაფემების იმდენად წმინდად არის გადაშლილი, რომ მოსალოდნელი იყო ისინი ჯვრის სადგარში ყოფილიყო ჩარჩენილი, მაგრამ
                     შემორჩენილი რამდენიმე გრაფემა აღდგენის სხვა ვარიანტს მოითხოვს.
-                    დაზიანება: წარწერა რთულად იკითხება ქვის ამოტეხვის გამო. 
-                    წარწერის დათარიღება წინა გამოცემებში: 1010-1033 წწ., მელქისედეკ I -ის ზეობის ხანა(ზ, ბ, ო) . 
+                    დაზიანება: წარწერა რთულად იკითხება ქვის ამოტეხვის გამო.
+                    წარწერის დათარიღება წინა გამოცემებში: 1010-1033 წწ., მელქისედეკ I -ის ზეობის ხანა(ზ, ბ, ო) .
                     წარმოდგენილ გამოცემაში გაზიარებულია მოცემული დათარიღება.
-                    
-                    
+
+
                 </p>
             </div>
-            
-          
+
+
         </body>
     </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-

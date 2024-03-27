@@ -14,7 +14,7 @@
                 <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
                 <idno type="filename">ECG222</idno>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/"> 
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
                         დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით
                     </licence>
                 </availability>
@@ -26,7 +26,7 @@
                             დმანისი
                         </collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">საამშენებლო</seg>
@@ -89,10 +89,10 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    
-    <!-- 
-    
-        
+
+    <!--
+
+
     <facsimile>
         <surface>
             <graphic url="tskise_01.jpg">
@@ -101,9 +101,9 @@
             </graphic>
         </surface>
     </facsimile>
-    
+
     -->
-    
+
     <text>
         <!--
         1.სახ(ელი)თა ღ(მრთის)ჲ
@@ -115,56 +115,56 @@
         7.(სა)ლ[ო(ცველა)დ] ს(უ)ლ(ი)ს(ა) ჩ(ე)მ(ი)სა
         -->
         <body>
-            
+
             <div type="bibliography">
-                
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>114-115</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-              
-                <p><bibl n="2">ვ. სილოგავა, ქვემო ქართლის წარწერები<citedRange>242</citedRange>, თბილისი, 2000<ptr target="bibliography.xml#b218"/></bibl></p>
-                <p><bibl n="3">დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>108</citedRange> თბილისი, 2014<ptr target="bibliography.xml#b213"/></bibl></p>
-                 <p><bibl n="4">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>243</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
+
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>114-115</citedRange>, თბილისი, 2018</bibl></p>
+
+                <p><bibl n="2"><ptr target="#b218"/> ვ. სილოგავა, ქვემო ქართლის წარწერები<citedRange>242</citedRange>, თბილისი, 2000</bibl></p>
+                <p><bibl n="3"><ptr target="#b213"/> დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>108</citedRange> თბილისი, 2014</bibl></p>
+                 <p><bibl n="4"><ptr target="#b216"/> გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>243</citedRange>, თბილისი, 2016</bibl></p>
             </div>
 
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
             <ab>
-                <lb n="1"/><w lemma="სახელ"><expan><abbr>სახ</abbr><ex>ელი</ex><abbr>თა</abbr></expan></w>                                 
+                <lb n="1"/><w lemma="სახელ"><expan><abbr>სახ</abbr><ex>ელი</ex><abbr>თა</abbr></expan></w>
                           <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთის</ex><abbr>ჲ</abbr>
                 <lb n="2" break="no"/><abbr>თა</abbr></expan></w>
                           და
                           <w lemma="მეოხება"><expan><abbr>მ
                 <lb n="3" break="no"/>ე</abbr><ex>ო</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ბითა</abbr></expan></w>
                           <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდის</ex><abbr>ა</abbr></expan></w>
-                <lb n="4"/><w lemma="ღმრთისმშობელ"><expan><supplied reason="lost" precision="medium"><abbr>ღ</abbr></supplied><ex>მრ</ex><abbr>თ</abbr><ex>ი</ex><abbr>სმ</abbr><ex>შობელისაჲ</ex><abbr>თა</abbr></expan></w>  
+                <lb n="4"/><w lemma="ღმრთისმშობელ"><expan><supplied reason="lost" precision="medium"><abbr>ღ</abbr></supplied><ex>მრ</ex><abbr>თ</abbr><ex>ი</ex><abbr>სმ</abbr><ex>შობელისაჲ</ex><abbr>თა</abbr></expan></w>
                           <w lemma="მე">მ
-                <lb n="5" break="no"/><supplied reason="lost" precision="medium">ე</supplied></w>     
-                          <persName type="local" key="თევდორე [ამბარლოს მაშენებელი]"><expan><abbr>თ</abbr><ex>ევდორ</ex><abbr>ე</abbr></expan></persName>        
+                <lb n="5" break="no"/><supplied reason="lost" precision="medium">ე</supplied></w>
+                          <persName type="local" key="თევდორე [ამბარლოს მაშენებელი]"><expan><abbr>თ</abbr><ex>ევდორ</ex><abbr>ე</abbr></expan></persName>
                           <w lemma="ღირს"><expan><abbr>ღ</abbr><ex>ი</ex><abbr>რ</abbr><ex>ს</ex></expan></w>
-                          <w lemma="ქმნა"><expan><ex>ვი</ex><abbr>ქმ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w>        
+                          <w lemma="ქმნა"><expan><ex>ვი</ex><abbr>ქმ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w>
                <lb n="6"/><w lemma="შენება"><expan><abbr>ა</abbr><ex>ღშენე</ex><abbr>ბ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
                           <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდის</ex><abbr>ა</abbr></expan></w>
                           <w lemma="საყდარ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ყ</abbr><ex>დრი</ex><abbr>სა</abbr></expan></w>
-               <lb n="7"/><w lemma="ლოცვა"><expan><ex>სა</ex><abbr>ლ</abbr><supplied reason="lost" precision="medium"><abbr>ო</abbr><ex>ცველა</ex><abbr>დ</abbr></supplied></expan></w>   
-                          <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლ</abbr><ex>ი</ex><abbr>ს</abbr><ex>ა</ex></expan></w>   
+               <lb n="7"/><w lemma="ლოცვა"><expan><ex>სა</ex><abbr>ლ</abbr><supplied reason="lost" precision="medium"><abbr>ო</abbr><ex>ცველა</ex><abbr>დ</abbr></supplied></expan></w>
+                          <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლ</abbr><ex>ი</ex><abbr>ს</abbr><ex>ა</ex></expan></w>
                           <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w>
                 </ab>
             </div>
 
 
-        
-            
+
+
                 <div type="translation"/>
-                
+
                 <div type="commentary">
                     <p>დაზიანება: წარწერის ქვედა მარცხენა ნაწილი გაბზარულია. გარდა ამისა ამ ნაწილში წარწერის ზედაპირი და
                         კიდეები გაცვეთილია, რის გამოც IV-VII სტრიქონების პირველი რამდენიმე გრაფემა
                         ცუდად იკითხება. წ
                         არწერის დათარიღების საფუძველი: შინაარსისა და პალეოგრაფიული
                         ნიშნების მიხედვით წარწერა ამავე ეკლესიის სამხრ. მინაშენის თეოდორეს
-                        საამშენებლო წარწერის თანადროულია. 
+                        საამშენებლო წარწერის თანადროულია.
                         ვ. სილოგავა მეექვსე სტრიქონში სიტყვას
                         შემდეგნაირად კითხულობს: (ა)ღ(შენება)დ, მეშვიდეში - [სალოცველა]დ</p>
                 </div>
-            
+
         </body>
     </text>
 </TEI>

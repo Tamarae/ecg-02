@@ -100,7 +100,7 @@
            მ(ეო)ხ ეყ(ავ) წ(ინაშ)ე ქ(რისტ)ეს[ა] -->
 
 
-            <div type="edition" xml:lang="ka" ana="nuskhuri" xml:space="preserve">
+            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
                 <ab>
                     <lb n="1"/><w><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> <persName ref="attestedperson.xml#person13"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></persName>
                     <lb n="2"/><w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> <persName ref="attestedperson.xml#person18">რუშა</persName>

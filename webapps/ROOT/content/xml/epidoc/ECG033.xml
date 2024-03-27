@@ -25,7 +25,7 @@
                     <msIdentifier>
                          <collection>ურბნისი</collection>
                     </msIdentifier>
-                    
+
                      <msContents>
                         <summary>
                             <seg xml:lang="ka">მემორიალური</seg>
@@ -35,7 +35,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/75">ქვიშაქვა</material>
                                     <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/75">Limestone</material>
                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
@@ -47,10 +47,10 @@
                                 </support>
                             </supportDesc>
                                 <layoutDesc>
-                                    <layout writtenLines="3"> 
+                                    <layout writtenLines="3">
                                         <seg xml:lang="ka">წარწერა სამსტრიქონიანია. იგი მდებარეობს ტაძრის ჩრდილოეთის ფასადის კედელში, სწორკუთხად გათლილი რუხი ფილის მთელ ფართობზე. ჩასმულია რელიეფურ ჩარჩოში.
                                     ფილა, როგორც ჩანს, ადგილშენაცვლებულია ტაძრის რესტავრაციის დროს.</seg>
-                                        <seg xml:lang="en">Three line inscription. The inscription is located in the wall of the north facade of the church, on an entire area of a rectangular grey color plaque. 
+                                        <seg xml:lang="en">Three line inscription. The inscription is located in the wall of the north facade of the church, on an entire area of a rectangular grey color plaque.
                                             It is encircled by an embossed frame. It seems that the plaque was replaced during the restoration of the church</seg>
                                         <dimensions unit="cm">
                                             <width>40</width>
@@ -59,7 +59,7 @@
                                         </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="embossed">
                                 <seg xml:lang="ka"><rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
@@ -74,7 +74,7 @@
                                     <seg xml:lang="ka">ურბნისის სიონი</seg>
                                     <seg xml:lang="en">Urbnisi Sioni</seg>
                                 </origPlace>
-                                <origDate notBefore-custom="0400" notAfter-custom="0450" precision="medium" 
+                                <origDate notBefore-custom="0400" notAfter-custom="0450" precision="medium"
                                     evidence="lettering" datingMethod="#julian">V AD</origDate>
                             </origin>
                             <provenance type="found">
@@ -86,7 +86,7 @@
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance> 
+                            </provenance>
                              <provenance type="observed">
                             <placeName>
                                 <seg xml:lang="ka">ურბნისის სიონი</seg>
@@ -94,7 +94,7 @@
                             </placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -103,7 +103,7 @@
     </listPrefixDef>
 </encodingDesc>
         <revisionDesc>
-            <change when="2019-11-11" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+            <change when="2019-11-11" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change>
         </revisionDesc>
     </teiHeader>
@@ -115,84 +115,84 @@
             </graphic>
         </surface>
     </facsimile>
-   
+
     <text>
         <body>
-            
+
             <div type="bibliography">
-                
-                    <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი<ptr target="bibliography.xml#b101"/>, <citedRange> 62-63</citedRange></bibl></p>
-                    <p><bibl n="2">M. Brosset, Rapports VI<ptr target="bibliography.xml#b22"/>, <citedRange>15</citedRange></bibl></p>
-                    <p><bibl n="3">ექვთიმე თაყაიშვილი, არხეოლოგიური მოგზაურობანი და შენიშვნანი<ptr target="bibliography.xml#b70"/>, <citedRange> 46</citedRange></bibl></p>
-                    <p><bibl n="4">ნოდარ შოშიაშვილი, ნაქალაქარი ურბნისი<ptr target="bibliography.xml#b99"/>, <citedRange> 136-137</citedRange></bibl></p>
-                    <p><bibl n="5">ნოდარ შოშიაშვილი, ურბნისის ძველი ქართული წარწერები<ptr target="bibliography.xml#b100"/>, <citedRange> 138</citedRange></bibl></p>
-                    <p><bibl n="6">პარმენ ზაქარაია, ნაქალაქარ ურბნისის ხუროთმოძღვრება<ptr target="bibliography.xml#b104"/>, <citedRange> 90</citedRange></bibl></p>
-                    <p><bibl n="7">ალ. გამყრელიძე, ქართული დამწერლობის უძველესი ნიმუშები<ptr target="bibliography.xml#b100"/>, <citedRange> 16-22</citedRange></bibl></p>
-                    <p><bibl n="8">ვალერი სილოგავა, ეპიგრაფიკული ეტიუდები<ptr target="bibliography.xml#b75"/>, <citedRange> 92</citedRange></bibl></p>
-                
-            </div>         
+
+                    <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, <citedRange> 62-63</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b22"/> M. Brosset, Rapports VI, <citedRange>15</citedRange></bibl></p>
+                    <p><bibl n="3"><ptr target="#b70"/> ექვთიმე თაყაიშვილი, არხეოლოგიური მოგზაურობანი და შენიშვნანი, <citedRange> 46</citedRange></bibl></p>
+                    <p><bibl n="4"><ptr target="#b99"/> ნოდარ შოშიაშვილი, ნაქალაქარი ურბნისი, <citedRange> 136-137</citedRange></bibl></p>
+                    <p><bibl n="5"><ptr target="#b100"/> ნოდარ შოშიაშვილი, ურბნისის ძველი ქართული წარწერები, <citedRange> 138</citedRange></bibl></p>
+                    <p><bibl n="6"><ptr target="#b104"/> პარმენ ზაქარაია, ნაქალაქარ ურბნისის ხუროთმოძღვრება, <citedRange> 90</citedRange></bibl></p>
+                    <p><bibl n="7"><ptr target="#b100"/> ალ. გამყრელიძე, ქართული დამწერლობის უძველესი ნიმუშები, <citedRange> 16-22</citedRange></bibl></p>
+                    <p><bibl n="8"><ptr target="#b75"/> ვალერი სილოგავა, ეპიგრაფიკული ეტიუდები, <citedRange> 92</citedRange></bibl></p>
+
+            </div>
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!--  "ო~ო ი~ჳ ქ~ე
                                 კტ~ი მ~მ მქ~ლ შწყნ
                                 ა~ს ს~ნა მ~შბლნი" -->
-                                 
+
                 <ab>
-                   <lb n="1"/><w lemma="უფალ"><expan><abbr>ო</abbr><ex>ჳფალო</ex><abbr>ო</abbr></expan></w> 
-                        <w lemma="იესუ"><expan><abbr>ი</abbr><ex>ესო</ex><abbr>ჳ</abbr></expan></w> 
+                   <lb n="1"/><w lemma="უფალ"><expan><abbr>ო</abbr><ex>ჳფალო</ex><abbr>ო</abbr></expan></w>
+                        <w lemma="იესუ"><expan><abbr>ი</abbr><ex>ესო</ex><abbr>ჳ</abbr></expan></w>
                         <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
-                   <lb n="2"/><persName type="local" key="კონსტანტი [ურბნისის მაშენებელი]"><name nymRef="კოსტანტი"><expan><abbr>კ</abbr><ex>ოს</ex><abbr>ტ</abbr><ex>ანტ</ex><abbr>ი</abbr></expan></name></persName> 
-                            <w lemma="მამა"><expan><abbr>მ</abbr><ex>ა</ex><abbr>მ</abbr><ex>აჲ</ex></expan></w> 
-                            <persName type="local" key="მამა მიქაელ [ურბნისის მაშენებელი]"><name nymRef="მიქაელ"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>აე</ex><abbr>ლ</abbr></expan></name></persName> 
+                   <lb n="2"/><persName type="local" key="კონსტანტი [ურბნისის მაშენებელი]"><name nymRef="კოსტანტი"><expan><abbr>კ</abbr><ex>ოს</ex><abbr>ტ</abbr><ex>ანტ</ex><abbr>ი</abbr></expan></name></persName>
+                            <w lemma="მამა"><expan><abbr>მ</abbr><ex>ა</ex><abbr>მ</abbr><ex>აჲ</ex></expan></w>
+                            <persName type="local" key="მამა მიქაელ [ურბნისის მაშენებელი]"><name nymRef="მიქაელ"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>აე</ex><abbr>ლ</abbr></expan></name></persName>
                             <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეი</ex><abbr>წყ</abbr><ex>ალე</ex><abbr>ნ</abbr></expan></w>
-                    <lb n="3"/><w lemma="ესე"><expan><abbr>ა</abbr><ex>მი</ex><abbr>ს</abbr></expan></w> 
-                            <w lemma="სიონ"><expan><abbr>ს</abbr><ex>იო</ex><abbr>ნ</abbr><ex>ის</ex><abbr>ა</abbr></expan></w> 
+                    <lb n="3"/><w lemma="ესე"><expan><abbr>ა</abbr><ex>მი</ex><abbr>ს</abbr></expan></w>
+                            <w lemma="სიონ"><expan><abbr>ს</abbr><ex>იო</ex><abbr>ნ</abbr><ex>ის</ex><abbr>ა</abbr></expan></w>
                             <w lemma="მაშენებელ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>შ</abbr><ex>ენე</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლნი</abbr></expan></w>
                      </ab>
-             
+
             </div>
-                
+
             <div type="translation">
                 <p  xml:lang="ka">უფალო იესო ქრისტე, ამ სიონის მაშენებელნი: კოსტანტი და მამა მიქაელი შეიწყალენ.</p>
                 <p xml:lang="en">Jesus Christ, have mercy on Constanti and father Michael builders of this church.</p>
             </div>
-            
+
             <div type="apparatus">
-                 
+
                 <p><app loc="1"> <lem>უფალ</lem>
                  <rdg resp="ნ. შოშიაშვილი 1, პ. ზაქარაია">ოფალო</rdg>
                  </app></p>
-                
+
                 <p><app loc="1"> <lem>იესუ</lem>
                  <rdg resp="მ. ბროსე, ე. თაყაიშვილი">იესო</rdg>
                     <rdg resp="ნ. შოშიაშვილი 1, პ. ზაქარაია">იესჳ</rdg>
                  </app></p>
-                
+
                 <p><app loc="2"> <lem>კოსტანტი</lem>
                  <rdg resp="მ. ბროსე, ე. თაყაიშვილი">კალატოზი</rdg>
                  <rdg resp="ნ. შოშიაშვილი 1, პ. ზაქარაია">კონსტანტი</rdg>
                  </app></p>
-                
+
                 <p><app loc="2"> <lem>მიქაელ</lem>
                  <rdg resp="მ. ბროსე, ე. თაყაიშვილი, ნ.შოშიაშვილი 1, პ. ზაქარაია, ვ სილოგავა">მიქელ</rdg>
                     </app></p>
-                
+
                  <p><app loc="3"> <lem>ესე</lem>
                  <rdg resp="მ. ბროსე">ას</rdg>
                     </app></p>
-                
+
                  <p><app loc="3"> <lem>მაშენებელ</lem>
                  <rdg resp="ვ. სილოგავა">მაშჱნებელნი</rdg>
                     </app></p>
                 </div>
-            
+
             <div type="commentary">
-                <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსი მიხედვით # 1. წარწერას განკვეთილობისა და ქარაგმის ნიშნები არ ახლავს. სიტყვები ერთმანეთისგან არ არის დაცილებული. 
-                    ნოდარ შოშიაშვილის დათარიღების საფუძველია: პალეოგრაფიული ნიშნები: Ⴁ, Ⴣ, Ⴑ, Ⴗ, Ⴘ, Ⴜ გრაფემების რკალშეკრულობა, Ⴁ-ს და Ⴜ-ს შეკრული აქვს როგორც ზედა, 
+                <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსი მიხედვით # 1. წარწერას განკვეთილობისა და ქარაგმის ნიშნები არ ახლავს. სიტყვები ერთმანეთისგან არ არის დაცილებული.
+                    ნოდარ შოშიაშვილის დათარიღების საფუძველია: პალეოგრაფიული ნიშნები: Ⴁ, Ⴣ, Ⴑ, Ⴗ, Ⴘ, Ⴜ გრაფემების რკალშეკრულობა, Ⴁ-ს და Ⴜ-ს შეკრული აქვს როგორც ზედა,
                     ისე ქვედა რკალი. რკალშეკრულია, ასევე, Ⴑ გრაფემა. პ. ზაქარაია წარწერას V-VI საუკუნეთა მიჯნით ათარიღებს. ვ. სილოგავა ფიქრობს, რომ წარწერა X საუკუნისაა.</p>
                 <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #1.  The inscription does not contain any mark of separation or abbreviation. No spaces between the words. According to Nodar Shoshiashvili the dating of the inscription is based on the paleographic data: Ⴁ, Ⴣ, Ⴑ, Ⴗ, Ⴘ, Ⴜ graphemes have full circled rings, Ⴁ and Ⴜ have the top arches engaged for both upper and lower arch. The grapheme Ⴑ is also fully engaged.
                     P. Zakaraia dates the inscription to the turn of the VI century. V. Silogava considers that the inscription is from the X century.</p>
-            </div>         
+            </div>
           </body>
     </text>
 </TEI>

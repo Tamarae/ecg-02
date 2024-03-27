@@ -18,9 +18,9 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc> 
-                    <msIdentifier> 
-                        <collection>ბედია</collection>  
+                <msDesc>
+                    <msIdentifier>
+                        <collection>ბედია</collection>
                     </msIdentifier>
                     <msContents>
                         <summary>
@@ -30,9 +30,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
-                                    <objectType ref="www.eagle-network.eu/voc/objtyp/lod/1483">ფილა</objectType> 
+                                    <objectType ref="www.eagle-network.eu/voc/objtyp/lod/1483">ფილა</objectType>
                                         <dimensions unit="cm">
                                         <width>63</width>
                                         <height>59</height>
@@ -64,12 +64,12 @@
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance> 
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">ბედიის ტაძარი</placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -81,10 +81,27 @@
     </teiHeader>
     <text>
         <body>
+          <div type="bibliography" subtype="principalEdition">
+
+                  <p><bibl type="publication" subtype="principal" xml:lang="ka">
+                    <author>
+                        <persName>
+                          <forename></forename>
+                          <surname></surname>
+                        </persName>
+                    </author>
+                    <title/>
+                      <edition/>
+                      <pubPlace/>
+                      <publisher/>
+                      <date></date>
+                   </bibl></p>
+
+          </div>     
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
                 <ab>
-                    <!-- ადიდენ ღ(მერთმა)ნ მეფეთა 
-                        მეფე კონსტანტ(ი)ნე, ძე 
+                    <!-- ადიდენ ღ(მერთმა)ნ მეფეთა
+                        მეფე კონსტანტ(ი)ნე, ძე
                         დავითისი, ა(მე)ნ-->
                     <lb n="1"/> <w lemma="ადიდებს">ადიდენ</w> <w lemma="ღმერთი"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> <roleName><w lemma="მეფე">მეფეთა</w>
                     <lb n="2"/> <w lemma="მეფე">მეფე</w></roleName> <persName><w><expan><abbr>კონსტანტ</abbr><ex>ი</ex><abbr>ნე</abbr></expan></w></persName> <w lemma="ძე">ძე</w>
@@ -93,25 +110,9 @@
             </div>
             <div type="translation" xml:lang="ka">ადიდე, ღმერთო, მეფეთა მეფე კონსტანტინე, დავითის ძე, ამინ.</div>
             <div type="apparatus" xml:space="preserve"> </div>
-            <div type="commentary">დაზიანება: ნაწერი ოდნავ გადარეცხილია</div> 
-            
-            <div type="bibliography" subtype="principalEdition">
-                           
-                    <p><bibl type="publication" subtype="principal" xml:lang="ka">
-                      <author>
-                          <persName>
-                            <forename></forename>
-                            <surname></surname>
-                          </persName>
-                      </author>
-                      <title/>
-                        <edition/>
-                        <pubPlace/>
-                        <publisher/>
-                        <date></date>
-                     </bibl></p>
-                
-            </div>         
+            <div type="commentary">დაზიანება: ნაწერი ოდნავ გადარეცხილია</div>
+
+
          </body>
     </text>
 </TEI>

@@ -51,27 +51,26 @@
                                       <dimensions unit="cm">
                                         <width>33</width>
                                         <height>59</height>
+                                        <depth></depth>
                                       </dimensions>
                                     </layout>
                                 </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                               <seg xml:lang="ka">წარწერის ასოთა მოხაზულობაში ყურადღებას იპყრობს σ და ε, რომლებიც ორნაირი გვხვდება: ხან აბსოლუტურად მრგვალი, ხან კუთხოვანი. ასევე
+                               <p xml:lang="ka">წარწერის ასოთა მოხაზულობაში ყურადღებას იპყრობს σ და ε, რომლებიც ორნაირი გვხვდება: ხან აბსოლუტურად მრგვალი, ხან კუთხოვანი. ასევე
                                 მრგვალია: μ, θ, ω. თავისებურია ψ. არა გვხვდება მახვილისა და ასპირაციის ნიშნები. არც ქარაგმის ნიშანი გვაქვს. შემოკლება მარტო ერთია Αυρ.
                                 (= Αὐρήλις), გვერდზე წერტილით აღნიშნული (ΑΥΡ.). ლიგატურა გვხვდება მხოლოდ  ერთი (IV და XI სტრიქონებში). საკმაოდ ხშირია იტაციზმი:
                                 κιμε (=κεῖμαι), επει... (= ἐπί), επειβληψεν (= ἐπιβλέψειν), μιρριοστα (= μυριοστά), ητε (εἴ[τε), δωσι (δώσει), αναστασι (ἀναστάσει).
                                 αι–დიფთონგი ε–თი ჩანს გადმოცემული: (κιμε); არეულია ο და ω–ს ხმარება: οστε (= ὥστε). ყურედღებას იპყრობს μιρριοστα–ში ორი ρ
-                                (თუ სწორია აღდგენა μυριοστά).</seg>
-                                <seg xml:lang="en">
+                                (თუ სწორია აღდგენა μυριοστά).</p>
+                                <p xml:lang="en">
                                     The shape of the letters σ and ε are notable as in some cases they are round and in other cases - square shaped. The letters μ, θ, ω are also round. ψ is of a quite peculiar shape.
                                     No accent marks or aspiration marks. No abbreviation marks except Αυρ. (= Αὐρήλις) remarked with the full stop (ΑΥΡ.). Only one ligature (in the line 4th and 11th).
                                     Itacisms are common: κιμε (=κεῖμαι), επει... (= ἐπί), επειβληψεν (= ἐπιβλέψειν), μιρριοστα (= μυριοστά), ητε (εἴ[τε), δωσι (δώσει), αναστασι (ἀναστάσει).
                                     The diphthong αι is represented with ε (κιμε); ο and ω are interchangeable: οστε (= ὥστε). Μιρριοστα needs to be noticed because of the double ρ (if μυριοστά is correctly restored).
-                                </seg>
-                                <dimensions  unit="mm">
-                                    <height precision="medium">30</height>
-                                </dimensions>
+                                </p>
+                                <height unit="cm" precision="medium">3</height>
                              </handNote>
                         </handDesc>
                         <decoDesc>
@@ -113,7 +112,9 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-   
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
 </encodingDesc>
     </teiHeader>
 
@@ -129,11 +130,11 @@
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1"><ptr target="bibliography.xml#b130"/>თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange>256-257</citedRange></bibl></p>
-                    <p><bibl n="2"><ptr target="bibliography.xml#b80"/>თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში, <citedRange>253-257</citedRange></bibl></p>
-                    <p><bibl n="3"><ptr target="bibliography.xml#b180"/>Н. Зейдлиц, Изследование древных гробниц близ сел. Мцхета <citedRange>10</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange>256-257</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b80"/> თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში, <citedRange>253-257</citedRange></bibl></p>
+                    <p><bibl n="3"><ptr target="#b180"/> Н. Зейдлиц, Изследование древных гробниц близ сел. Мцхета <citedRange>10</citedRange></bibl></p>
+
             </div>
 
             <div type="edition" xml:lang="grc" xml:space="preserve">

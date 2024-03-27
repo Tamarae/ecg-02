@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
@@ -32,9 +32,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/100">სვეტი</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
                                       <dimensions unit="cm">
                                             <width/>
                                             <height/>
@@ -43,15 +43,15 @@
                                 </support>
                             </supportDesc>
                                 <layoutDesc>
-                                    <layout writtenLines="3">წარწერა სამსტრიქონიანია. იგი 
+                                    <layout writtenLines="3">წარწერა სამსტრიქონიანია. იგი
                                        ამოკვეთილია ვალეს ტაძრის სამხრეთი შესასვლელის მარჯვენა სვეტის თავზე, რომლის დასაწყისი დაზიანებულია
                                         <dimensions unit="cm">
                                              <width/>
-                                             <height/> 
-                                          </dimensions>  
-                                    </layout>                                   
+                                             <height/>
+                                          </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                                 <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
@@ -62,21 +62,21 @@
                     <history>
                             <origin>
                                 <origPlace>ვალეს ღვთისმშობლის ეკლესია</origPlace>
-                                 <origDate notBefore-custom="800" notAfter-custom="900" 
+                                 <origDate notBefore-custom="800" notAfter-custom="900"
                                     evidence="lettering" datingMethod="#julian">IX AD</origDate>
                             </origin>
                             <provenance type="found">
                                 <placeName type ="ancientFindspot">ვალეს ღვთისმშობლის ეკლესია</placeName>
-                                <!-- "41.616649, 42.866457"--> 
+                                <!-- "41.616649, 42.866457"-->
                                 <rs type="circumstances"></rs>
                                 <rs type="context"></rs>
                                 <rs type="monuList"/>
-                            </provenance>                                
+                            </provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot">ვალეს ღვთისმშობლის ეკლესია</placeName>
                                 <idno/>
-                            </provenance> 
-                    </history>                   
+                            </provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -84,7 +84,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <facsimile>
@@ -96,56 +96,56 @@
         </surface>
     </facsimile>
     <text>
-        <body> 
+        <body>
            <div type="bibliography">
-                    
-       <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>            
-       <p><bibl n="2">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი<ptr target="bibliography.xml#b101"/>, <citedRange> 284</citedRange></bibl></p>           
-              
+
+       <p><bibl n="1"><ptr target="#b149"/> ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა, <citedRange> 118-169</citedRange></bibl></p>
+       <p><bibl n="2"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, <citedRange> 284</citedRange></bibl></p>           
+
              </div>
 
-            
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!--"ნმ[....]ნვ
                             რაის ძისწო
                             ჳლი
-                             "--> 
-                                                            
+                             "-->
+
                 <ab>
-                   <lb n="1"/>ნმ<gap reason="lost" extent="unknown" unit="chars"></gap> 
+                   <lb n="1"/>ნმ<gap reason="lost" extent="unknown" unit="chars"></gap>
                             <name nymRef="ნავრა" type="forename"><expan><abbr>ნ</abbr><ex>ა</ex><abbr>ვ
-                   <lb n="2" break="no"/>რაის</abbr></expan></name> 
-                            <w lemma="ძისწულ">ძისწო                               
+                   <lb n="2" break="no"/>რაის</abbr></expan></name>
+                            <w lemma="ძისწულ">ძისწო
                    <lb n="3" break="no"/>ჳლი</w>
                   </ab>
                </div>
-            
+
              <div type="apparatus" xml:space="preserve">
-                                
+
              <listApp>
-                 <app loc="1"> 
+                 <app loc="1">
                     <lem resp="ვალერი სილოგავა">ნვ</lem>
                     <rdg resp="ნოდარ შოშიაშვილი">[გუე]</rdg>
-                 </app> 
+                 </app>
                  </listApp>
         </div>
-            
+
          <div type="translation" xml:lang="ka">
              <p>ნავრაის ძისწული</p>
-         </div>    
-                             
+         </div>
+
                <div type="commentary">
-                <p>ვალეს ღვთისმშობლის ტაძარი სამცხის ერთ-ერთი უძველესი ეკლესიაა. ტაძარი ახლა ბაზილიკურია, თუმცა თავდაპირველად, 
+                <p>ვალეს ღვთისმშობლის ტაძარი სამცხის ერთ-ერთი უძველესი ეკლესიაა. ტაძარი ახლა ბაზილიკურია, თუმცა თავდაპირველად,
                 როგორც სპეციალურ ლიტერატურაშია გამოკვლეული, „გარედან სწორკუთხა ფორმის გუმბათიანი ნაგებობა ყოფილა, სადაც გუმბათი
-                ეყრდნობოდა აფსიდის კუთხეებსა და ორ თავისუფლად მდგარ ბურჯს“(რ. მეფისაშვილი, ვალეს ტაძარი და მისი აღშენების ორი ძირითადი 
+                ეყრდნობოდა აფსიდის კუთხეებსა და ორ თავისუფლად მდგარ ბურჯს“(რ. მეფისაშვილი, ვალეს ტაძარი და მისი აღშენების ორი ძირითადი
                 პერიოდი, ქართულ ხელოვნება, 5, თბ., 1950,  38). გამოკვლეულია ისიც, რომ ტაძრის თავგადასავალი სულ ცოტა ორ მშენებლობით
                 პერიოდს მაინც მოიცავს და მეორე პერიოდს განეკუთვნება დედისიმედის ვრცელი (45 სტრქ.) ასომთავრული წარწერა საამშენებლო-მემორიალური
                 შინაარსისა, დათარიღებული 1561-1564 წლებით.
-                რაც შეეხება ნავრაის ძისწულის წარწერის დათარიღებას, ვალერი სილოგავას აზრით, მას ახასიათებს ძველი პალეოგრაფიული ნიშანი - ლასის გადმოცემა 
+                რაც შეეხება ნავრაის ძისწულის წარწერის დათარიღებას, ვალერი სილოგავას აზრით, მას ახასიათებს ძველი პალეოგრაფიული ნიშანი - ლასის გადმოცემა
                 ნუსხური მოხაზულობისაკენ მიდრეკილებით. პალეოგრაფიული ნიშნებით ვალეს სხვა წარწერებსაც, კრავის და გაბრიელ მახარებლის, ძველი პალეოგრაფიული ნიშნები აქვთ:
-                მ-ანის მუცლის შემკვრელი ხაზის მარჯვნივ გადასვლა, ე-ნისა და ლ-ასის გადმოცემა ზედა ჰორიზონტალურ ხაზთან დამატებითი ხაზის - წანაზარდის გარეშე, რაც წარწერის 
-                IX საუკუნით დათარიღების არგუმენტებია. </p>                
+                მ-ანის მუცლის შემკვრელი ხაზის მარჯვნივ გადასვლა, ე-ნისა და ლ-ასის გადმოცემა ზედა ჰორიზონტალურ ხაზთან დამატებითი ხაზის - წანაზარდის გარეშე, რაც წარწერის
+                IX საუკუნით დათარიღების არგუმენტებია. </p>
             </div>
         </body>
     </text>

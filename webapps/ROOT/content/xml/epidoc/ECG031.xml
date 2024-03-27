@@ -25,17 +25,17 @@
                    <msIdentifier>
                         <collection>მცხეთა</collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">ფრაგმენტი</seg>
                             <seg xml:lang="en">Fragment</seg>
                         </summary>
-                    </msContents> 
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
                                     <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local Stone</material>
                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
@@ -47,13 +47,13 @@
                                 </support>
                             </supportDesc>
                                 <layoutDesc>
-                                    <layout writtenLines="1"> 
-                                        <seg xml:lang="ka">წარწერა 1 სტრიქონიანია. იგი მდებარეობს ჯვრის ტაძრის სამხრეთ ფასადის დასავლეთ ნიშაში. სამ ფილაზე 
-                                    გამოქანდაკებული სამი ფიგურა შეადგენს კომპოზიციას: 
+                                    <layout writtenLines="1">
+                                        <seg xml:lang="ka">წარწერა 1 სტრიქონიანია. იგი მდებარეობს ჯვრის ტაძრის სამხრეთ ფასადის დასავლეთ ნიშაში. სამ ფილაზე
+                                    გამოქანდაკებული სამი ფიგურა შეადგენს კომპოზიციას:
                                    ცენტრში დგას წმინდანი, მარცხნივ მუხლმოდრეკილი ქალის ფიგურა, რომელსაც წმინდანისაკენ გაპყრობილ ხელებში უჭრავს ბავშვი.
                                    მარჯვნივ გამოსახულია მუხლმოდრეკილი და წინ ხელებგაპყრობილი წარჩინებული მამაკაცის ფიგურა. მამაკაცის თავს ზემოთ
                                    შემორჩენილია ორი გრაფემა.</seg>
-                                        <seg xml:lang="en">One line inscription. Located in the west niche of the south facade of Jvari Monastery church. Three figures are embossed on three plaques. It consists of the following images: a Saint standing in the center, a figure of a woman on her knees who is handing a child towards the Saint on the left side. 
+                                        <seg xml:lang="en">One line inscription. Located in the west niche of the south facade of Jvari Monastery church. Three figures are embossed on three plaques. It consists of the following images: a Saint standing in the center, a figure of a woman on her knees who is handing a child towards the Saint on the left side.
                                             Right side is taken by a figure of a noble man on his knees with his hand lifted up. Two graphemes are maintained above the head of the man.</seg>
                                         <dimensions unit="cm">
                                             <width/>
@@ -61,7 +61,7 @@
                                        </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                                 <seg xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა.</seg>
@@ -76,7 +76,7 @@
                                     <seg xml:lang="ka">ჯვრის მონასტერი, მცხეთა</seg>
                                     <seg xml:lang="en">Jvari Monastery, Mtskheta</seg>
                                 </origPlace>
-                                <origDate notBefore-custom="0595" notAfter-custom="0605" precision="medium" 
+                                <origDate notBefore-custom="0595" notAfter-custom="0605" precision="medium"
                                     evidence="lettering" datingMethod="#julian">595-605 AD</origDate>
                             </origin>
                             <provenance type="found">
@@ -88,7 +88,7 @@
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance> 
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">
                                 <seg xml:lang="ka">ჯვრის მონასტერი, მცხეთა</seg>
@@ -96,7 +96,7 @@
                             </placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -104,10 +104,10 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-     <revisionDesc><change when="2019-11-06" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+     <revisionDesc><change when="2019-11-06" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
-         
+
     <facsimile>
         <surface>
             <graphic url="ecg031.jpg">
@@ -116,37 +116,37 @@
             </graphic>
         </surface>
     </facsimile>
-    
+
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი<ptr target="bibliography.xml#b101"/>, <citedRange> 167</citedRange></bibl></p>
-                     <p><bibl n="2">Н. Г. Чубинашвили, Памятники типа Джвари<ptr target="bibliography.xml#b47"/>, <citedRange>147</citedRange></bibl></p>
-                  
+
+                    <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, <citedRange> 167</citedRange></bibl></p>
+                     <p><bibl n="2"><ptr target="#b47"/> Н. Г. Чубинашвили, Памятники типа Джвари, <citedRange>147</citedRange></bibl></p>
+
             </div>
-            
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!--  “ჩნ ”.  -->
                 <ab>
                    <lb n="1"/>ჩნ
                 </ab>
              </div>
 
-                
+
             <div type="translation">
                 <p xml:lang="ka">ჩნ</p>
                 <p xml:lang="en">Chn</p>
             </div>
-            
+
             <div type="apparatus" xml:space="preserve"/>
-            
+
             <div type="commentary">
                 <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #73.</p>
                 <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #73.</p>
             </div>
-                   
+
          </body>
     </text>
 </TEI>

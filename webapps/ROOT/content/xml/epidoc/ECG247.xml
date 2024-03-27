@@ -13,7 +13,7 @@
                 <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
                 <idno type="filename">ECG247</idno>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/"> 
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
                         დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით
                     </licence>
                 </availability>
@@ -46,7 +46,7 @@
                             <layoutDesc>
                                 <layout>
                                        შესრულებული იყო მონსატრის მთავარი ეკლესიის სამხრეთ კარიბჭის თავზე მდებარე კარგად დამუშავებულ ბალავრის ქვაზე, 9 სტრიქონად.
-                                       პირველი 3 სტრიქონი მოთავსებულია ნახევარწრიული ჩაღრმავების გარშემო, თაღის მსგავს ამობურცულ ნაწილზე. ხოლო დანარჩენი 
+                                       პირველი 3 სტრიქონი მოთავსებულია ნახევარწრიული ჩაღრმავების გარშემო, თაღის მსგავს ამობურცულ ნაწილზე. ხოლო დანარჩენი
                                       6 სტრიქონი თაღში მოქცეულ ნახევარსფეროსებრ ჩაღრმავებაში.
                                     <dimensions unit="cm">
                                         <width>120</width>
@@ -90,7 +90,7 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    <!-- 
+    <!--
     <facsimile>
         <surface>
             <graphic url="tskise_01.jpg">
@@ -99,14 +99,14 @@
             </graphic>
         </surface>
     </facsimile> -->
-    
+
     <text>
         <!--
-        1.ქ. სახ(ელი)თა ღ(მრთ)ის(აჲ)თა და მ(ეო)ხ(ე)ბითა ყ(ოვლა)დ წ(მიდ)ისა ღ(მრთ)ისმშ(ო)ბლ(ი)ს(აჲ)თა და ყ(ოველ)თა წ(მიდა)თა მის[თ](ა)თა, 
-        მე, თ(ევდორ)ე [იო]დ[ო]მისძე ღირს ვიქმ(ე)[ნ] [აღშ(ე)ნ(ე)ბ(ა)დ] 
-        2.ს(ა)ყდრ(ი)სა ყ(ოვლა)დ წ(მიდ)ისა ღ(მრთ)ისმშ(ო)ბ(ე)ლის(ა)სა. 
+        1.ქ. სახ(ელი)თა ღ(მრთ)ის(აჲ)თა და მ(ეო)ხ(ე)ბითა ყ(ოვლა)დ წ(მიდ)ისა ღ(მრთ)ისმშ(ო)ბლ(ი)ს(აჲ)თა და ყ(ოველ)თა წ(მიდა)თა მის[თ](ა)თა,
+        მე, თ(ევდორ)ე [იო]დ[ო]მისძე ღირს ვიქმ(ე)[ნ] [აღშ(ე)ნ(ე)ბ(ა)დ]
+        2.ს(ა)ყდრ(ი)სა ყ(ოვლა)დ წ(მიდ)ისა ღ(მრთ)ისმშ(ო)ბ(ე)ლის(ა)სა.
         ა(დი)დ(ე)ნ და და(ამყარენ) ღ(მერთმა)ნ მეფობ(ა)სა თა[მ](ა)რ და და(ვი)თი[ს](ა), ს[ა]ლ(ო)ცველ(ა)დ ჩ(ე)მთ(ჳ)ს, მშ(ო)ბ(ე)ლთა და [ძმ(ა)თა ჩ(ე)მთათ(ჳ)ს].
-        3.ქ. ჵ ყ(ოველ)თა უმ(ე)ტ(ე)სო, უფრ(ო)ს(ა)დ კ(ურთ)ხ(ეუ)ლო დ(ე)დ(ო)ფ(ა)ლო, 
+        3.ქ. ჵ ყ(ოველ)თა უმ(ე)ტ(ე)სო, უფრ(ო)ს(ა)დ კ(ურთ)ხ(ეუ)ლო დ(ე)დ(ო)ფ(ა)ლო,
         რ(ომელმა)ნ ჰშ(ე)ვ ქ(რისტ)ე ღ(მერ)თი, შ(ე)იწ(ი)რე ჩ(ე)მგ(ა)ნ თ(ევოდორ)ეს მ(იე)რ აღშ(ე)ნ(ებულ)[ი] [ე]სე [ს](ა)ყდ(ა)რი და საწუთ(ო)სა ამ(ა)ს [ძმით(უ)რთ მის(ა)ფ(ა)რველე],
         4.ხ(ოლო) ს(აუ)კ(უ)ნ(ო)სა მ(ეო)[ხ] [დ(ა) მ]ოხ(ვ)აიშნე [გვ(ე)ქ][მ]
         5.ენ: წ(ინაშ)[ე] [ძ]ისა შ(ე)ნისა, რ(აჲთ)ა აჴო[ც][ნ](ე)ს
@@ -114,36 +114,36 @@
         7.მონ[ა]სეო (?). _ წ. ი~ლ (!) წ(მიდა)თა წ(ინას)წ(არმეტ)ყ(ვე)ლ[თ][ა] ქ(ა)დ(ა)გ(ე)ბ(უ)ლო,
         8.ჵ დ(ე)დ(ა)ო ღ(მრთ)ის(ა)ო, ბჭ(ე)დ დაკრძ(ა)ლ(უ)ლ(ა)დ, კიბ(ე)[დ], სასაკმ(ე)ვლ(ე)დ,
         9.ს(ა)ყდ(რა)დ, ს(ა)ს(ა)ნთლ(ე)დ, კ(უჱ)რთხ(ა)დ აღყვ(ავე)ბ(უ)ლ(ა)დ, თ(ი)რ ს(ა)ყ[დ](ა)რი შეიწ[ირე].
-        
+
         -->
         <body>
-            
+
             <div type="bibliography">
-                
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>148-152</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                <p><bibl n="2">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>36</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
-                <p><bibl n="3">Е. Такайсшвили, Археологические екскурсии разыскания и заметки, IV <citedRange>111-112</citedRange>, Тб. 1913<ptr target="bibliography.xml#b212"/></bibl></p>
-                <p><bibl n="4">რ. მეფისაშვილი,კიდევ ერთხელ ბოლნისისა და დმანისის ძეგლების შესახებ, თბილისი, ძეგლის მეგობარი, 1971
-                    <citedRange>17-31</citedRange><ptr target="bibliography.xml#b221"/>
+
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>148-152</citedRange>, თბილისი, 2018</bibl></p>
+                <p><bibl n="2"><ptr target="#b216"/> გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>36</citedRange>, თბილისი, 2016</bibl></p>
+                <p><bibl n="3"><ptr target="#b212"/> Е. Такайсшвили, Археологические екскурсии разыскания и заметки, IV <citedRange>111-112</citedRange>, Тб. 1913<ptr target="#b212"/></bibl></p>
+                <p><bibl n="4"><ptr target="#b221"/> რ. მეფისაშვილი, კიდევ ერთხელ ბოლნისისა და დმანისის ძეგლების შესახებ, თბილისი, ძეგლის მეგობარი, 1971
+                    <citedRange>17-31</citedRange>
                 </bibl></p>
-                
-                <p><bibl n="5">აკაკი ბაქრაძე, ქართული ეპიგრაფიკა, როგორც ისტორიული წყარო (V-VIII სს.), 
+
+                <p><bibl n="5"><ptr target="#b222"/> აკაკი ბაქრაძე, ქართული ეპიგრაფიკა, როგორც ისტორიული წყარო (V-VIII სს.),
                     დისერტაცია: ისტორიულ მეცნიერებათა კანდიდატის სამეცნიერო ხარისხის მოსაპოვებლად
                     თბილისი, 1954
-                    <citedRange>160</citedRange><ptr target="bibliography.xml#b222"/>
+                    <citedRange>160</citedRange>
                 </bibl></p>
-                
-                <p><bibl n="6">ე. კოჭლამაზაშვილი, ზ. სხირტლაძე, ლიპარიტის უბნის ეკლესიის წარწერა, კრებ. ქრისტიანულ არქეოლოგიური ძიებანი
+
+                <p><bibl n="6"><ptr target="#b223"/> ე. კოჭლამაზაშვილი, ზ. სხირტლაძე, ლიპარიტის უბნის ეკლესიის წარწერა, კრებ. ქრისტიანულ არქეოლოგიური ძიებანი
                     IX, თბილისი, 2016-2017,
-                    <citedRange>25-26</citedRange><ptr target="bibliography.xml#b223"/>
+                    <citedRange>25-26</citedRange>
                 </bibl></p>
-                
+
             </div>
 
             <div type="edition" xml:lang="ka" xml:space="preserve" ana="mtavruli">
 
             <ab>
-                <lb n="1"/>&#10013;                                                           
+                <lb n="1"/>&#10013;
                            <w lemma="სახელ"><expan><abbr>სახ</abbr><ex>ელი</ex><abbr>თა</abbr></expan></w>
                            <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთ</ex><abbr>ის</abbr><ex>აჲ</ex><abbr>თა</abbr></expan></w>
                            და
@@ -157,19 +157,19 @@
                            <w lemma="მის"><expan><abbr>მის</abbr><supplied reason="lost" precision="medium"><abbr>თ</abbr></supplied><ex>ა</ex><abbr>თა</abbr></expan></w>
                            <w lemma="მე">მე</w>
                            <persName type="local" key="თევდორე იოდომისძე [ლამაზ-საყდარის მაშენებელი]"><expan><abbr>თ</abbr><ex>ევდორ</ex><abbr>ე</abbr></expan>
-                           <supplied reason="lost">იო</supplied>დ<supplied reason="omitted">ო</supplied>მისძე</persName> 
+                           <supplied reason="lost">იო</supplied>დ<supplied reason="omitted">ო</supplied>მისძე</persName>
                            <w lemma="ღირს">ღირს</w>
                            <w lemma="ქმნა"><expan><abbr>ვიქმ</abbr><ex>ე</ex><supplied reason="omitted"><abbr>ნ</abbr></supplied></expan></w>
                            <w lemma="შენება"><supplied reason="lost" precision="medium"><expan><abbr>აღშ</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ა</ex><abbr>დ</abbr></expan></supplied></w>
-                <lb n="2"/><w lemma="საყდარ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ყდრ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w>    
+                <lb n="2"/><w lemma="საყდარ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ყდრ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w>
                            <w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოვლა</ex><abbr>დ</abbr></expan></w>
                            <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდ</ex><abbr>ისა</abbr></expan></w>
                            <w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრთ</ex><abbr>ისმშ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლის</abbr><ex>ა</ex><abbr>სა</abbr></expan></w>
                            <w lemma="დიდება"><expan><abbr>ა</abbr><ex>დი</ex><abbr>დ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w>
-                           და                                                                
+                           და
                            <w lemma="დამყარება"><expan><abbr>და</abbr><ex>ამყარენ</ex></expan></w>
                            <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
-                           <roleName nymRef="მეფობა"><expan><abbr>მეფობ</abbr><ex>ა</ex><abbr>სა</abbr></expan></roleName>            
+                           <roleName nymRef="მეფობა"><expan><abbr>მეფობ</abbr><ex>ა</ex><abbr>სა</abbr></expan></roleName>
                            <persName type="local" key="თამარ მეფე" ref="https://en.wikipedia.org/wiki/Tamar_of_Georgia"><expan><abbr>თა</abbr><supplied reason="omitted"><abbr>მ</abbr></supplied><ex>ა</ex><abbr>რ</abbr></expan></persName>
                            და
                            <persName type="local" key="დავით სოსლანი" ref="https://en.wikipedia.org/wiki/David_Soslan"><expan><abbr>და</abbr><ex>ვი</ex><abbr>თი</abbr><supplied reason="lost" precision="medium"><abbr>ს</abbr></supplied><ex>ა</ex></expan></persName>
@@ -179,8 +179,8 @@
                            და
                            <w lemma="ძმა"><supplied reason="lost" precision="medium"><expan><abbr>ძმ</abbr><ex>ა</ex><abbr>თა</abbr></expan></supplied></w>
                            <w lemma="ჩემ"><supplied reason="lost" precision="medium"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მთათ</abbr><ex>ჳ</ex><abbr>ს</abbr></expan></supplied></w>
-                <lb n="3"/>&#10013;                                     
-                           <w lemma="ჵ">ჵ</w>                                                                 
+                <lb n="3"/>&#10013;
+                           <w lemma="ჵ">ჵ</w>
                            <w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოველ</ex><abbr>თა</abbr></expan></w>
                            <w lemma="მეტ"><expan><abbr>უმ</abbr><ex>ე</ex><abbr>ტ</abbr><ex>ე</ex><abbr>სო</abbr></expan></w>
                            <w lemma="უფროს"><expan><abbr>უფრ</abbr><ex>ო</ex><abbr>ს</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
@@ -192,7 +192,7 @@
                            <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერ</ex><abbr>თი</abbr></expan></w>
                            <w lemma="შეწირვა"><expan><abbr>შ</abbr><ex>ე</ex><abbr>იწ</abbr><ex>ი</ex><abbr>რე</abbr></expan></w>
                            <w lemma="ჩემ"><expan><abbr>ჩ</abbr><ex>ე</ex><abbr>მგ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
-                           <persName type="local" key="თევდორე იოდომისძე [ლამაზ-საყდარის მაშენებელი]"><expan><abbr>თ</abbr><ex>ევოდორ</ex><abbr>ეს</abbr></expan></persName>              
+                           <persName type="local" key="თევდორე იოდომისძე [ლამაზ-საყდარის მაშენებელი]"><expan><abbr>თ</abbr><ex>ევოდორ</ex><abbr>ეს</abbr></expan></persName>
                            <w lemma="მიერ"><expan><abbr>მ</abbr><ex>იე</ex><abbr>რ</abbr></expan></w>
                            <w lemma="შენება"><expan><abbr>აღშ</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ებულ</ex><supplied reason="lost" precision="medium"><abbr>ი</abbr></supplied></expan></w>
                            <w lemma="ესე"><supplied reason="omitted" precision="high">ე</supplied>სე</w>
@@ -202,55 +202,55 @@
                            <w lemma="ესე"><expan><abbr>ამ</abbr><ex>ა</ex><abbr>ს</abbr></expan></w>
                            <w lemma="ძმა"><supplied reason="lost" precision="medium"><expan><abbr>ძმით</abbr><ex>უ</ex><abbr>რთ</abbr></expan></supplied></w>
                            <w lemma="მიფარავლებს"><supplied reason="lost"><expan><abbr>მის</abbr><ex>ა</ex><abbr>ფ</abbr><ex>ა</ex><abbr>რველე</abbr></expan></supplied></w>
-                <lb n="4"/><w lemma="ხოლო"><expan><abbr>ხ</abbr><ex>ოლო</ex></expan></w>                 
+                <lb n="4"/><w lemma="ხოლო"><expan><abbr>ხ</abbr><ex>ოლო</ex></expan></w>
                            <w lemma="საუკუნე"><expan><abbr>ს</abbr><ex>აუ</ex><abbr>კ</abbr><ex>უ</ex><abbr>ნ</abbr><ex>ო</ex><abbr>სა</abbr></expan></w>
                            <w lemma="მეოხება"><expan><abbr>მ</abbr><ex>ეო</ex><supplied reason="omitted" precision="high"><abbr>ხ</abbr></supplied></expan></w>
                            <w lemma="და"><supplied reason="lost" precision="medium"><expan><abbr>დ</abbr><ex>ა</ex></expan></supplied></w>
-                           <w lemma="მოხვაიშნება"><expan><supplied reason="lost" precision="medium"><abbr>მ</abbr></supplied><abbr>ოხ</abbr><ex>ვ</ex><abbr>აიშნე</abbr></expan></w>     
-                           <w lemma="ქმნა"><expan><supplied reason="lost" precision="medium"><abbr>გვ</abbr><ex>ე</ex><abbr>ქ</abbr></supplied><supplied reason="omitted" precision="high"><abbr>მ</abbr></supplied>               
-                <lb n="5" break="no"/><abbr>ენ</abbr></expan></w>                  
+                           <w lemma="მოხვაიშნება"><expan><supplied reason="lost" precision="medium"><abbr>მ</abbr></supplied><abbr>ოხ</abbr><ex>ვ</ex><abbr>აიშნე</abbr></expan></w>
+                           <w lemma="ქმნა"><expan><supplied reason="lost" precision="medium"><abbr>გვ</abbr><ex>ე</ex><abbr>ქ</abbr></supplied><supplied reason="omitted" precision="high"><abbr>მ</abbr></supplied>
+                <lb n="5" break="no"/><abbr>ენ</abbr></expan></w>
                            <w lemma="წინაშე"><expan><abbr>წ</abbr><ex>ინაშ</ex><supplied reason="omitted" precision="high"><abbr>ე</abbr></supplied></expan></w>
                            <w lemma="ძე"><supplied reason="omitted" precision="high">ძ</supplied>ისა</w>
-                           <w lemma="შენ"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ნისა</abbr></expan></w>  
+                           <w lemma="შენ"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ნისა</abbr></expan></w>
                            <w lemma="რა"><expan><abbr>რ</abbr><ex>აჲთ</ex><abbr>ა</abbr></expan></w>
                            <w lemma="აჴოცა"><expan><abbr>აჴო</abbr><supplied reason="omitted" precision="high"><abbr>ც</abbr></supplied><supplied reason="lost" precision="medium"><abbr>ნ</abbr></supplied><ex>ე</ex><abbr>ს</abbr></expan></w>
-                <lb n="6"/><w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოველ</ex><abbr>ნი</abbr></expan></w>           
-                           <w lemma="ბრალ"><expan><abbr>ბ</abbr><supplied reason="lost" precision="medium"><abbr>რ</abbr><ex>ა</ex><abbr>ლნ</abbr></supplied><supplied reason="omitted" precision="high"><abbr>ი</abbr></supplied></expan></w> 
+                <lb n="6"/><w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოველ</ex><abbr>ნი</abbr></expan></w>
+                           <w lemma="ბრალ"><expan><abbr>ბ</abbr><supplied reason="lost" precision="medium"><abbr>რ</abbr><ex>ა</ex><abbr>ლნ</abbr></supplied><supplied reason="omitted" precision="high"><abbr>ი</abbr></supplied></expan></w>
                            <w lemma="ჩემ"><expan><supplied reason="lost" precision="medium"><abbr>ჩ</abbr></supplied><ex>ე</ex><abbr>მნი</abbr></expan></w>
-                           <w lemma="და">და</w> 
+                           <w lemma="და">და</w>
                            <w lemma="სუფევა"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ფ</abbr><ex>ე</ex><abbr>ვ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w>
                            <w lemma="მას"><supplied reason="omitted" precision="high">მ</supplied><supplied reason="lost" precision="medium">ა</supplied><supplied reason="omitted" precision="high">ს</supplied>ა</w>
-                           <w lemma="მონასვა">მი            
-               <lb n="7" break="no"/>მონ<supplied reason="lost" precision="low">ა</supplied>სეო</w>        
-                           
+                           <w lemma="მონასვა">მი
+               <lb n="7" break="no"/>მონ<supplied reason="lost" precision="low">ა</supplied>სეო</w>
+
                            <orig n="unresolved">წ</orig>
                            <orig n="unresolved">ი</orig><orig n="unresolved">ლ</orig>
                            (!)
-                           <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>თა</abbr></expan></w>       
+                           <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>თა</abbr></expan></w>
                            <w lemma="წინასწარმეტყველ"><expan><abbr>წ</abbr><ex>ინას</ex><abbr>წ</abbr><ex>არმეტ</ex><abbr>ყ</abbr><ex>ვე</ex><abbr>ლ</abbr><supplied reason="omitted" precision="high"><abbr>თ</abbr></supplied><supplied reason="lost" precision="medium"><abbr>ა</abbr></supplied></expan></w>
                            <w lemma="ქადაგება"><expan><abbr>ქ</abbr><ex>ა</ex><abbr>დ</abbr><ex>ა</ex><abbr>გ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>უ</ex><abbr>ლო</abbr></expan></w>
-                <lb n="8"/><w lemma="ჵ">ჵ</w>                                         
-                           <w lemma="დედა"><expan><abbr>დ</abbr><ex>ე</ex><abbr>დ</abbr><ex>ა</ex><abbr>ო</abbr></expan></w> 
+                <lb n="8"/><w lemma="ჵ">ჵ</w>
+                           <w lemma="დედა"><expan><abbr>დ</abbr><ex>ე</ex><abbr>დ</abbr><ex>ა</ex><abbr>ო</abbr></expan></w>
                            <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთ</ex><abbr>ის</abbr><ex>ა</ex><abbr>ო</abbr></expan></w>
                            <w lemma="ბჭე"><expan><abbr>ბჭ</abbr><ex>ე</ex><abbr>დ</abbr></expan></w>
                            <w lemma="დაკრძალვა"><expan><abbr>დაკრძ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>უ</ex><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
                            <w lemma="კიბე"><expan><abbr>კიბ</abbr><ex>ე</ex><supplied reason="omitted" precision="high"><abbr>დ</abbr></supplied></expan></w>
                            <w lemma="საკმეველ"><expan><abbr>სასაკმ</abbr><ex>ე</ex><abbr>ვლ</abbr><ex>ე</ex><abbr>დ</abbr></expan></w>
-                <lb n="9"/><w lemma="საყდარ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ყდ</abbr><ex>რა</ex><abbr>დ</abbr></expan></w>               
+                <lb n="9"/><w lemma="საყდარ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ყდ</abbr><ex>რა</ex><abbr>დ</abbr></expan></w>
                            <w lemma="სანთელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ს</abbr><ex>ა</ex><abbr>ნთლ</abbr><ex>ე</ex><abbr>დ</abbr></expan></w>
                            <w lemma="კუჱრთხ"><expan><abbr>კ</abbr><ex>უჱ</ex><abbr>რთხ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
                            <w lemma="აღყუავება"><expan><abbr>აღყვ</abbr><ex>ავე</ex><abbr>ბ</abbr><ex>უ</ex><abbr>ლ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
-                           <orig n="unresolved">თირ</orig>                                
+                           <orig n="unresolved">თირ</orig>
                            <w lemma="საყდარ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ყ</abbr><supplied reason="omitted" precision="high"><abbr>დ</abbr></supplied><ex>ა</ex><abbr>რი</abbr></expan></w>
                            <w lemma="შეწირვა">შეიწ<supplied reason="lost" precision="medium">ირე</supplied></w>
                 </ab>
-             
+
             </div>
 
 
                 <div type="translation"/>
 
-                
+
                 <div type="commentary">
                      <p>ტექსტის აღდგენისას გამოყენებულია ექ. თაყაიშვილის პუბლიკაცია, ვ. ცინცაძის 1944
                         წ-ის ფოტო და წარწერის შემორჩენილი ფრაგმენტების მონაცემები. ექ. თაყაიშვილის

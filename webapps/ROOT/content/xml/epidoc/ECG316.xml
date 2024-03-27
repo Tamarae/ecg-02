@@ -94,7 +94,7 @@
         <body>
              <div type="bibliography">
                 
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 63-64</citedRange></bibl></p>
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 63-64</citedRange></bibl></p>
                 
             </div>
             
@@ -105,23 +105,28 @@
                      
        
          <ab>
-             <persName type="local" key="Κωνσταντίνος Ἀβασγίας [კონსტანტინე აფხაზეთის მთავარი]"><name nymRef="Κωνσταντίνος">Κωνσταντῖνος</name> <placeName nymRef="Ἀβασγία" ref="https://pleiades.stoa.org/places/857006">Ἀβασγίας</placeName></persName>
+             <persName><name nymRef="Κωνσταντίνος">Κωνσταντῖνος</name> <placeName nymRef="Ἀβασγία" ref="https://pleiades.stoa.org/places/857006">Ἀβασγίας</placeName></persName>
          </ab>    
              
          
             </div>
                 
-            <div type="translation">
-                <p xml:lang="ka">კონსტანტინე აფხაზეთის (მთავარი)</p>
+            <div type="translation" xml:lang="ka">
+                <p>კონსტანტინე აფხაზეთის (მთავარი)</p>
             </div>
             
-         
+           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              <head>კრიტიკული აპარატი</head>
+              <p><app>
+              <rdg></rdg>
+              </app></p>
+             </div>
            
             <div type="commentary">
-                <p  xml:lang="ka">ბიჭვინტის ბულა თარიღდება პალეოგრაფიული მონაცემების, წარწერაში მოხსენიებული პირისა (აფხაზეთის მთავრის კონსტანტინე I-ის ან კონსტანტინე II-ის) და ბიზანტიური 
+                <p>ბიჭვინტის ბულა თარიღდება პალეოგრაფიული მონაცემების, წარწერაში მოხსენიებული პირისა (აფხაზეთის მთავრის კონსტანტინე I-ის ან კონსტანტინე II-ის) და ბიზანტიური 
                 ბულების საერთო ტიპთან შედარების საფუძველზე.</p>
                 <p>წარწერა შესრულებულია ბულას ორივე პირზე.</p>
-            </div>
+                </div>
         </body>
     </text>
 </TEI>

@@ -26,19 +26,19 @@
                     </msIdentifier>
                     <physDesc>
                         <objectDesc>
-                            <supportDesc><support> 
+                            <supportDesc><support>
                                 <objectType ref="https://www.eagle-network.eu/voc/objtyp">ფასადი</objectType>
                                 <material ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
-                                <dimensions> 
-                                    <width/> 
-                                    <height/> 
+                                <dimensions>
+                                    <width/>
+                                    <height/>
                                 </dimensions>
                             </support></supportDesc>
                             <layoutDesc>
                                 <layout writtenLines="11">
                                 ამოკვეთილი ტაძრის სამხრეთ ფასადზე, შესასვლელის მარჯვნივ, ამბრაზურის თაღით შემოსაზღვრულ არეში.
-                                <dimensions unit="cm"> 
-                                    <width>70</width> 
+                                <dimensions unit="cm">
+                                    <width>70</width>
                                     <height>62-84</height>
                                 </dimensions>
                             </layout>
@@ -49,7 +49,7 @@
                                 <rs type="execution">ამოკვეთილი</rs> <rs type="script">ასომთავრული</rs> წარწერა. განკვეთილობის ნიშნები არ აქვს; ქარაგმის ნიშანი: განივი, სწორი ხაზი.
                                 <dimensions unit="cm">
                                     <height>4-5</height>
-                                </dimensions> 
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -77,64 +77,64 @@
         1.&#10013; ს(ა)ხ(ე)ლითა
         2.ღ(მრთისა)ჲთა მე გ(რიგო)ლ
         3.ებ(ი)სკ(ოპო)სმ(ა)ნ დ(აუ)დ(ე)ვ
-        4.აღ(ა)პ(ა)დ ბზ(ო)ბ(ი)ს პ(ა)რ(ა)სკ(ე)ვ|ი     
+        4.აღ(ა)პ(ა)დ ბზ(ო)ბ(ი)ს პ(ა)რ(ა)სკ(ე)ვ|ი
         5.მ(ო)ლ(ო)ზ(ო)ნს დღ(ე)ს(ა)სწ(აუ)ლი
         6.წ(მიდა)თა მღდ(ელ)თმოძ|ღ(უა)რ
-        7.თა ვინ სრულ(ო)ბ(ი)თ 
+        7.თა ვინ სრულ(ო)ბ(ი)თ
         8.არა გარდაიჴ(ა)დ(ო)ს ||
         9.კრ(უ)ლ(ი)ა ამ(ი)თ ხ(ა)ტ(ი)თ|ა
         10.და ჩ(უე)ნ(ი)თა|ჯ(უარი)თა
         11.ფ(ა)სი სრ(უ)ლი აგ(უი)ღ(ი)ა
-        --> 
+        -->
         <body>
-            
+
             <div type="bibliography">
                 <p>
-                    <bibl n="1">ვალერი სილოგავა, კუმურდო, <citedRange>56-58</citedRange>, თბილისი 1994<ptr target="bibliography.xml#b198"/></bibl>
+                    <bibl n="1"><ptr target="#b198"/> ვალერი სილოგავა, კუმურდო, <citedRange>56-58</citedRange>, თბილისი 1994</bibl>
                 </p>
-                
-                
+
+
                 <p>
-                    <bibl n="2">M. Brosset, Rapports sur un voyage archeologique dans la Georgie et dans l'Armenie execute en 1847-1848
-                        V. II <citedRange>170</citedRange>St. Petersburg, 1850 <ptr target="bibliography.xml#b189"/>
+                    <bibl n="2"><ptr target="#b189"/> M. Brosset, Rapports sur un voyage archeologique dans la Georgie et dans l'Armenie execute en 1847-1848
+                        V. II <citedRange>170</citedRange>St. Petersburg, 1850
                     </bibl>
                 </p>
-                
+
                 <p>
-                    <bibl n="3">
-                        И.П. Ростомов, Аxалкалакский уъезд в арxеологическом отношении, <citedRange>87</citedRange>, 1898<ptr target="bibliography.xml#b199"/>
+                    <bibl n="3">1898<ptr target="#b199"/>
+                        И.П. Ростомов, Аxалкалакский уъезд в арxеологическом отношении, <citedRange>87</citedRange>,
                     </bibl>
                 </p>
-                
+
                 <p>
-                    <bibl n="4">
-                        Е.С. Такайшвили, Христианские памятники, <citedRange>39</citedRange>, Москва, 1909<ptr target="bibliography.xml#b153"/>
+                    <bibl n="4"><ptr target="#b153"/>
+                        Е.С. Такайшвили, Христианские памятники, <citedRange>39</citedRange>, Москва, 1909
                     </bibl>
                 </p>
-                
+
                 <p>
-                    <bibl n="5">
-                        ვ. ცისკარიშვილი, ჯავახეთის ეპიგრაფიკა, როგორც საისტორიო წყარო, <citedRange>17-18</citedRange>, თბილისი, 1959<ptr target="bibliography.xml#b200"/>
+                    <bibl n="5"><ptr target="#b200"/>
+                        ვ. ცისკარიშვილი, ჯავახეთის ეპიგრაფიკა, როგორც საისტორიო წყარო, <citedRange>17-18</citedRange>, თბილისი, 1959
                     </bibl>
                 </p>
-                
+
                 <p>
-                    <bibl n="6">
+                    <bibl n="6"><ptr target="#b201"/> ს
                         ნ. ბერძენიშვილი, ჯავახეთის 1933 წლის ექსპედიციის დღიური, იხ. მისი "საქართველის ისტორიის საკითხები", ისტორიული გეოგრაფია, ტ. I, <citedRange>133</citedRange>
-                        თბილისი, 1964<ptr target="bibliography.xml#b201"/>
+                        თბილისი, 1964
                     </bibl>
                 </p>
-                
+
                 <p>
-                    <bibl n="7">ი. გვარამაძე, "დროება" არქეოლოგიური შენიშვნები, <citedRange>00</citedRange>, თბილისი, 1982<ptr target="bibliography.xml#b202"/></bibl>
+                    <bibl n="7"><ptr target="#b202"/></bibl> ი. გვარამაძე, "დროება" არქეოლოგიური შენიშვნები, <citedRange>00</citedRange>, თბილისი, 1982
                 </p>
-                
+
             </div>
 
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
 
             <ab>
-                <lb n="1"/> &#10013; <w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლითა</abbr></expan></w> 
+                <lb n="1"/> &#10013; <w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლითა</abbr></expan></w>
                 <lb n="2"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთისა</ex><abbr>ჲთა</abbr></expan></w> <w lemma="მე">მე</w> <persName type="local" key="გრიგოლ კუმურდოელი ეპისკოპოსი"><expan><abbr>გ</abbr><ex>რიგო</ex><abbr>ლ</abbr></expan></persName>
                 <lb n="3"/><roleName nymRef="ეპისკოპოს"><w lemma="ებისკოპოს"><expan><abbr>ებ</abbr><ex>ი</ex><abbr>სკ</abbr><ex>ოპო</ex><abbr>სმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w></roleName> <w lemma="დებს"><expan><abbr>დ</abbr><ex>აუ</ex><abbr>დ</abbr><ex>ე</ex><abbr>ვ</abbr></expan></w>
                 <lb n="4"/><w lemma="აღაპ"><expan><abbr>აღ</abbr><ex>ა</ex><abbr>პ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> <w lemma="ბზობა"><expan><abbr>ბზ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ი</ex><abbr>ს</abbr></expan></w> <w lemma="პარასკევ"><expan><abbr>პ</abbr><ex>ა</ex><abbr>რ</abbr><ex>ა</ex><abbr>სკ</abbr><ex>ე</ex><abbr>ვი</abbr></expan></w>
@@ -146,24 +146,24 @@
                <lb n="10"/><w lemma="და">და</w> <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> <w lemma="ჯუარ"><expan><abbr>ჯ</abbr><ex>უარი</ex><abbr>თა</abbr></expan></w>
                <lb n="11"/><w lemma="ფას"><expan><abbr>ფ</abbr><ex>ა</ex><abbr>სი</abbr></expan></w> <w lemma="სრულ"><expan><abbr>სრ</abbr><ex>უ</ex><abbr>ლი</abbr></expan></w> <w lemma="იღებს"><expan><abbr>აგ</abbr><ex>უი</ex><abbr>ღ</abbr><ex>ი</ex><abbr>ა</abbr></expan></w></rs>
                 </ab>
-            
+
             </div>
-            
-            
-            
-           
-                   
-                
+
+
+
+
+
+
 
             <div type="translation">
                 <p></p>
             </div>
-            
+
             <div type="commentary">
                 <p>მე-6 და მე-8-10 სტრიქონები გადადის ტაძრის სამხრეთ მინაშენის აფსიდის მარცხენა ფილებზე; უკანასკნელი მე-11 სტრიქონი ამოკვეთილია ერთ-ერთ ამ ფილაზე, წარწერის მე-8 სტრიქონის გასწვრივ</p>
                 <p>წარწერა ამოკვეთილია სხვადასხვა ფერის ოთხ ფილაზე. ზემოდან პირველი მოთეთრო ნაცრისფერია, მის ქვემოთ ორი ფილიდან მარცხენა ღია ვარდისფერია, ხოლო მარჯვენა - ღვინისფერი, მეოთხე ფილა - ქვიშისფერი</p>
             </div>
-      
+
         </body>
     </text>
 </TEI>

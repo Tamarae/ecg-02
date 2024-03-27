@@ -23,19 +23,19 @@
                     <msIdentifier>
                         <collection>ქობაირი</collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">ეპიტაფია</seg>
                             <seg xml:lang="en"/>
                         </summary>
-                    </msContents>  
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/91.html">ეპიტაფია</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
                                       <dimensions unit="cm">
                                         <width>60</width>
                                         <height>96</height>
@@ -44,39 +44,39 @@
                                 </support>
                             </supportDesc>
                                 <layoutDesc>
-                                    <layout writtenLines="6">წარწერა ექვსსტრიქონიანია. იგი შესრულებულია ბერი პიმენის საფლავზე, რომელიც 
-                                მთავარი ეკლესიის ჩრდილოეთ კედელთან აწ უკვე დანგრეულ ეკვდერში მდებარეობს                                
+                                    <layout writtenLines="6">წარწერა ექვსსტრიქონიანია. იგი შესრულებულია ბერი პიმენის საფლავზე, რომელიც
+                                მთავარი ეკლესიის ჩრდილოეთ კედელთან აწ უკვე დანგრეულ ეკვდერში მდებარეობს
                                       <dimensions unit="cm">
                                          <width></width>
-                                         <height></height> 
-                                      </dimensions>  
-                                    </layout>                                   
+                                         <height></height>
+                                      </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                                 <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა. შესრულებულია ლამაზი ხელით
-                                   <height unit="cm" precision="high"></height> 
+                                   <height unit="cm" precision="high"></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                             <origin>
                                 <origPlace>ქობაირის მონასტერი, სომხეთი</origPlace>
-                                <origDate notBefore-custom="1300" notAfter-custom="1500" precision="medium" 
+                                <origDate notBefore-custom="1300" notAfter-custom="1500" precision="medium"
                                     evidence="lettering" datingMethod="#julian">XIII-XIV AD</origDate>
                             </origin>
                             <provenance type="found" when="2011">
                                 <placeName type ="ancientFindspot">ქობაირის მონასტერი, სომხეთი</placeName>
-                                <!-- "41.005061, 44.635086"--> 
+                                <!-- "41.005061, 44.635086"-->
                                 <rs type="circumstances">2011 წელს ქეთი ასათიანისა და გიორგი კალანდიას ორგანიზებით განხორციელებული ორი სამეცნიერო ექსპედიციის შედეგად
                                 ქობაირის მონასტერში გამოვლინდა მანამდე უცნობი 9 ახალი ქართული ეპიტაფია</rs>
                                 <rs type="context"/>
-                                <rs type="monuList"/></provenance>                                
+                                <rs type="monuList"/></provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot">ქობაირის მონასტერი, სომხეთი</placeName>
-                                <idno type="invNo"/></provenance> 
-                    </history>                   
+                                <idno type="invNo"/></provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -84,7 +84,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-12-17" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-12-17" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <!-- <facsimile>
@@ -96,57 +96,57 @@
            </surface>
     </facsimile> -->
     <text>
-        <body>           
+        <body>
               <div type="bibliography">
-                
-   <p><bibl n="1">ქეთი ასათიანი, გიორგი კალანდია, ქობერის მონასტრის ქართული წარწერები<ptr target="bibliography.xml#b165"/>, <citedRange> 10-14</citedRange></bibl></p>
-                
+
+   <p><bibl n="1"><ptr target="#b165"/> სქეთი ასათიანი, გიორგი კალანდია, ქობერის მონასტრის ქართული წარწერები, <citedRange> 10-14</citedRange></bibl></p>
+
               </div>
-            
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!-- † ესე საფლავი ჩემ ცოდვილი
                             სა ივნე მნდატორთხუც
                             ესისა ძისა და ათბაქისა შ
                             ანშეს ძმისა ბერისა პიმე
                             ნჲსი ლოცვსა მმ
-                            იხსენებდეთ --> 
-                                                            
+                            იხსენებდეთ -->
+
                 <ab>
                    <lb n="1"/>&#8224;
-                               <w lemma="ესე">ესე</w> 
-                               <w lemma="საფლავ">საფლავი</w> 
-                               <w lemma="მე">ჩემ</w> 
+                               <w lemma="ესე">ესე</w>
+                               <w lemma="საფლავ">საფლავი</w>
+                               <w lemma="მე">ჩემ</w>
                                <w lemma="ცოდვილ">ცოდვილი
                     <lb n="2" break="no"/>სა</w>
-                               <persName type="local" key="ივანე II მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/ივანე_(II)_მხარგრძელი"><name nymRef="ივანე"><expan><abbr>ივ</abbr><ex>ა</ex><abbr>ნე</abbr></expan></name></persName> 
+                               <persName type="local" key="ივანე II მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/ივანე_(II)_მხარგრძელი"><name nymRef="ივანე"><expan><abbr>ივ</abbr><ex>ა</ex><abbr>ნე</abbr></expan></name>
                                 <roleName nymRef="მანდატურთუხუცეს"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ნდატო</abbr><ex>ჳ</ex><abbr>რთ</abbr><ex>უ</ex><abbr>ხუც
-                    <lb n="3" break="no"/>ესისა</abbr></expan></roleName> 
-                                <w lemma="ძე">ძისა</w> 
-                                და 
-                                <persName type="local" key="შანშე II მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/მხარგრძელი_შანშე_(II)"><roleName nymRef="ათაბაქ"><expan><abbr>ათ</abbr><ex>ა</ex><abbr>ბაქისა</abbr></expan></roleName> 
+                    <lb n="3" break="no"/>ესისა</abbr></expan></roleName></persName>
+                                <w lemma="ძე">ძისა</w>
+                                და
+                                <persName type="local" key="შანშე II მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/მხარგრძელი_შანშე_(II)"><roleName nymRef="ათაბაქ"><expan><abbr>ათ</abbr><ex>ა</ex><abbr>ბაქისა</abbr></expan></roleName>
                                 <name nymRef="შანშე">შ
-                    <lb n="4" break="no"/>ანშეს</name></persName> 
-                                <w lemma="ძმა">ძმისა</w> 
-                                <persName type="local" key="ბერი პიმენი [ივანე II მხარგრძელის ძე]"><w lemma="ბერ">ბერისა</w> 
+                    <lb n="4" break="no"/>ანშეს</name></persName>
+                                <w lemma="ძმა">ძმისა</w>
+                                <persName type="local" key="ბერი პიმენი [ივანე II მხარგრძელის ძე]"><w lemma="ბერ">ბერისა</w>
                                 <name nymRef="პიმენი">პიმე
-                    <lb n="5" break="no"/>ნჲსი</name></persName> 
-                                <w lemma="ლოცვა"><expan><abbr>ლოცვ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w> 
+                    <lb n="5" break="no"/>ნჲსი</name></persName>
+                                <w lemma="ლოცვა"><expan><abbr>ლოცვ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w>
                                 <w lemma="მოხსენება"><expan><abbr>მ</abbr><ex>ო</ex><abbr>მ
                     <lb n="6" break="no"/>იხსენებდეთ</abbr></expan></w>
                    </ab>
                </div>
-            
+
          <div type="translation" xml:lang="ka">
              <p>† ეს არის საფლავი ცოდვილი ივანე მანდატურთუხუცესის ძის, შანშე ათაბაგის ძმის, ბერი პიმენისი, ლოცვასა მომიხსენებდეთ.</p>
-         </div>                  
-           
+         </div>
+
             <div type="commentary">
-                <p>ბერი პიმენი ივანე II მხარგრძელის ვაჟია და შანშეს ძმა. გამომცემელთა აზრით, ეპიტაფია ფასდაუდებელ ინფორმაციას იძლევა მანდატურთუხუცეს ივანე II-ის 
+                <p>ბერი პიმენი ივანე II მხარგრძელის ვაჟია და შანშეს ძმა. გამომცემელთა აზრით, ეპიტაფია ფასდაუდებელ ინფორმაციას იძლევა მანდატურთუხუცეს ივანე II-ის
                 ოჯახის შესახებ. კერძოდ, აქამდე ცნობილი იყო, რომ მას ხუთი ვაჟი ჰყავდა: შაჰანშე II, ვაჰრამი, არტაშირი, აღბუღა და ზაზა. ეპიტაფიიდან
-                ირკვევა, რომ მას კიდევ ერთი ვაჟი ჰყოლია: ბერი პიმენი. ქობერის მონასტრის სხვა ეპიტაფიიდან მისი ასულის ვინაობასაც ვიგებთ: სულა 
-                გურკნელის მეუღლე თამარ მხარგრძელი.</p>                
-            </div>        
+                ირკვევა, რომ მას კიდევ ერთი ვაჟი ჰყოლია: ბერი პიმენი. ქობერის მონასტრის სხვა ეპიტაფიიდან მისი ასულის ვინაობასაც ვიგებთ: სულა
+                გურკნელის მეუღლე თამარ მხარგრძელი.</p>
+            </div>
          </body>
     </text>
 </TEI>

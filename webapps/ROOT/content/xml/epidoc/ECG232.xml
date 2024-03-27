@@ -103,11 +103,11 @@
             
             <div type="bibliography">
                 
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>129</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>129</citedRange>, თბილისი, 2018</bibl></p>
               
             </div>
 
-              <div type="edition" xml:lang="ka" ana="nuskhuri" xml:space="preserve">
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
             <ab>
                     <lb n="1"/><w lemma="სრულ"><expan><abbr>განვ</abbr><supplied reason="lost" precision="low"><ex>ასრულე</ex></supplied></expan></w> 
                                

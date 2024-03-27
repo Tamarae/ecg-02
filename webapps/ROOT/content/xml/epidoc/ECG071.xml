@@ -18,7 +18,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <collection>ანაპა</collection>                
+                        <collection>ანაპა</collection>
                     </msIdentifier>
                     <msContents>
                         <summary>
@@ -29,59 +29,58 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">მარმარილო</material>
                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/91">საფლავის ქვა</objectType></support></supportDesc>
                                 <layoutDesc>
                                     <layout writtenLines="8">
-                                        <seg xml:lang="ka">ფილის ზემო ნაწილში შემორჩენილია რელიეფი, რომლის ქვემოთაც მოთავსებულია 8 სტრიქონიანი ბერძნული წარწერა. წარწერის მარჯვენა ნაწილი განადგურებულია 
-                                        შემდეგ ამოკვეთილი რელიეფური გამოსახულებებით.</seg>
-                                        <seg xml:lang="en">Eight line greek inscription is located below the relief on the upper part of the plaque. The right part of the inscription is destroyed by the embossed inscription carved later.</seg>
+                                ფილის ზემო ნაწილში შემორჩენილია რელიეფი, რომლის ქვემოთაც მოთავსებულია 8 სტრიქონიანი ბერძნული წარწერა. წარწერის მარჯვენა ნაწილი განადგურებულია
+                                შემდეგ ამოკვეთილი რელიეფური გამოსახულებებით.
                                       <dimensions unit="cm">
                                         <width>16</width>
                                         <height>25</height>
-                                        <depth/>
-                                      </dimensions>
+                                        <depth></depth></dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
-                                <seg xml:lang="ka">წარწერა გამოყვანილია ლამაზი მთავრულით, დაახლ. თანაბარი ასოებით, სტრიქონები ერთმანეთთან მჭიდროდაა.  
-                                წარწერის დათარიღების სადუძველია ასოთა მოხაზულობა (α ჩატეხილი შუა ხაზით, არქაული ω, σ - კუთხოვანი სამკბილა, ε და θ-ს ჰორიზონტალური 
-                                 ხაზის მაგივრად აქვთ გაგრძელებული წერტილი, არაა შემოკლებები და ლიგატურები) და ენობრივი ნორმები (დაცულია i adscriptum; დაცულია კლასიკური 
-                                 ბერძნულისა და კოინეს მართლწერის ნორმები).</seg>
-                                <seg xml:lang="en">The inscription is made with beautiful mostly equal capital letters, the lines are narrow. The inscription can be dated according to the shape of the letters 
-                                    (α with a broken crossbar, archaic ω, σ is square shape and ...  ε and θ have longer full stops instead of a horizontal line, no abbreviation marks or ligatures) and the linguistic norms (i adscriptum; norms of Classical and Koine Greek).</seg>
-                                <dimensions unit="mm" precision="medium">
-                                    <height>10 - 15</height>
-                                </dimensions>
-                            </handNote>
+                                წარწერა გამოყვანილია ლამაზი მთავრულით, დაახლ. თანაბარი ასოებით, სტრიქონები ერთმანეთთან მჭიდროდაა.
+                                წარწერის დათარიღების სადუძველია ასოთა მოხაზულობა (α ჩატეხილი შუა ხაზით, არქაული ω, σ - კუთხოვანი სამკბილა, ε და θ-ს ჰორიზონტალური
+                                 ხაზის მაგივრად აქვთ გაგრძელებული წერტილი, არაა შემოკლებები და ლიგატურები) და ენობრივი ნორმები (დაცულია i adscriptum; დაცულია კლასიკური
+                                 ბერძნულისა და კოინეს მართლწერის ნორმები).
+                                <height unit="cm" precision="medium">1 - 1,5 სმ</height>
+                                <width unit="cm" precision="medium"></width>
+                                  </handNote>
                         </handDesc>
                         <decoDesc>
-                            <decoNote/>
+                            <decoNote></decoNote>
                         </decoDesc>
                     </physDesc>
                     <history>
                             <origin>
                                 <origPlace>ანაპა</origPlace>
-                                <origDate notBefore="0001" notAfter="0100"  evidence="lettering" datingMethod="#julian">I AD</origDate>
+                                <origDate notBefore="0001" notAfter="0100" precision="medium" evidence="lettering" datingMethod="#julian">I AD</origDate>
                               </origin>
                             <provenance type="found" when="1880">
-                                <placeName type ="ancientFindspot">ანაპა</placeName> 
+                                <placeName type ="ancientFindspot">ანაპა</placeName>
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                       
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot" ref="http://museum.ge">საქართველოს ეროვნული მუზეუმი</placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc>
-    </teiHeader>    
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+    </teiHeader>
     <facsimile>
         <surface>
             <graphic url="ecg071.jpg">
@@ -89,31 +88,31 @@
                 <desc xml:lang="en">Gravestone from Anapa, 1880</desc>
             </graphic>
         </surface>
-    </facsimile>   
+    </facsimile>
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 253-254</citedRange></bibl></p>
-                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 243-244</citedRange></bibl></p>
-                
-            </div>      
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 253-254</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b80"/> თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში, <citedRange> 243-244</citedRange></bibl></p>
+
+            </div>
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
-                        <!-- Γάστεις καὶ Ἀδε[ίμαντος?] 
+
+                        <!-- Γάστεις καὶ Ἀδε[ίμαντος?]
                             οἱ Χορηγίωνος χ[αίρετε].
                             Πρόσθε μὲν ἡδὺν ἐγὼ <ι> φ[αιδρῶς Γάστεις βίον ἔζην]
-                            συμβίῳ κουριδίῳ τέκ[να δύο προλιπών].	 
+                            συμβίῳ κουριδίῳ τέκ[να δύο προλιπών].
                             νῦν δέ μοι εἰς Ἀϊδαο [δόμον φίλος ἕσπετ’ ἀδελφός].
                             σεμνὴν θυγατέρα κ[τῆμ΄ ἀφιεὶς γαμετῇ]
                             θαυμασίους πάτρας μ[ιμούμενοι ἔργμασι φῶτας]
                             ἀϊδίου τύχομεν κήδ[εος ἀμφότεροι]
 
                                                                          -->
-                     
-  
+
+
          <ab>
-             <lb n="1"/> <persName><name nymRef="Γάστεις">Γάστεις</name></persName> καὶ <persName><name nymRef="Ἀδείμαντος">Ἀδε<supplied reason="lost">ίμαντος</supplied></name></persName>
+             <lb n="1"/> <persName><name nymRef="Γάστεις">Γάστεις</name></persName> <w lemma="καί">καὶ</w> <persName><name nymRef="Ἀδείμαντος">Ἀδε<supplied reason="lost">ίμαντος</supplied></name></persName>
              <lb n="2"/> <w lemma="ὁ">οἱ</w> <persName><name nymRef="Χορηγίων">Χορηγίωνος</name></persName> <w lemma="χαίρω">χ<supplied reason="lost">αίρετε</supplied></w>.
              <lb n="3"/> <w lemma="πρόσθεν">Πρόσθε</w> <w lemma="μέν">μὲν</w> <w lemma="ἡδύς">ἡδὺν</w> <w lemma="ἐγώ">ἐγὼ</w> <w lemma="φαιδρός">φ<supplied reason="lost">αιδρῶς</supplied></w> <persName><name nymRef="Γάστεις">Γάστεις</name></persName> <w lemma="βιός"><supplied reason="lost">βίον</supplied></w> <w lemma="ζάω"><supplied reason="lost">ἔζην</supplied></w>
              <lb n="4"/> <w lemma="σύμβιος">συμβίῳ</w> <w lemma="κουρίδιος">κουριδίῳ</w> <w lemma="τέκνον">τέκ<supplied reason="lost">να</supplied></w> <w lemma="δύο"><supplied reason="lost">δύο</supplied></w> <w lemma="προλείπω"><supplied reason="lost">προλιπών</supplied></w>
@@ -121,45 +120,34 @@
              <lb n="6"/> <w lemma="σεμνός">σεμνὴν</w> <w lemma="θυγάτηρ">θυγατέρα</w> <w lemma="κτῆμα">κ<supplied reason="lost">τῆμ΄</supplied></w> <w lemma="ἀφίημι"><supplied reason="lost">ἀφιεὶς</supplied></w> <w lemma="γαμετη"><supplied reason="lost">γαμετῇ</supplied></w>
              <lb n="7"/> <w lemma="θαυμάσιος">θαυμασίους</w> <w lemma="πάτρα">πάτρας</w> <w lemma="μιμοῦμαι">μ<supplied reason="lost">ιμούμενοι</supplied></w> <w lemma="ἕργμα"><supplied reason="lost">ἔργμασι</supplied></w> <w lemma="σεμνός"><supplied reason="lost">φώς</supplied></w>
              <lb n="8"/> <w lemma="ἀίδιος">ἀϊδίου</w> <w lemma="τυγχάνω">τύχομεν</w> <w lemma="κῆδος">κήδ<supplied reason="lost">εος</supplied></w> <w lemma="ἀμφότεροι"><supplied reason="lost">ἀμφότεροι</supplied></w>
-         </ab>    
-             
-         
+         </ab>
+
+
             </div>
-                
-            <div type="translation">
-                <p xml:lang="ka">გასტის და ადიმანტე, ხორეგიონის ძენო, მშვიდობით. მე გასტისი უწინ ნათლად, ტკბილი ცხოვრებით ვცხოვრობდი, დავუტოვე ორი შვილი კანონიერ თანამეცხედრეს.
-                ახლა კი ჰადესის სამკვიდრებელში გამომყვა საყვარელი ძმა. მან მშვენიერი ასული საუნჯედ დაუტოვა მეუღლეს. საქმიანობით ვბაძავდი სამშობლოს საოცარ ვაჟკაცებს, ორივემ 
+
+            <div type="translation" xml:lang="ka">
+                <p>გასტის და ადიმანტე, ხორეგიონის ძენო, მშვიდობით. მე გასტისი უწინ ნათლად, ტკბილი ცხოვრებით ვცხოვრობდი, დავუტოვე ორი შვილი კანონიერ თანამეცხედრეს.
+                ახლა კი ჰადესის სამკვიდრებელში გამომყვა საყვარელი ძმა. მან მშვენიერი ასული საუნჯედ დაუტოვა მეუღლეს. საქმიანობით ვბაძავდი სამშობლოს საოცარ ვაჟკაცებს, ორივემ
                 დავიმკვიდრეთ სამარადისო განსასვენებელი.</p>
-                <p xml:lang="en">Gasteis and Adeimantos, sons of Khoregion, farewell. Before I, Gasteis lived a joyous life leaving behind two children to my wedded spouse. Now my dear brother follows me to Hades’ home. He left his reverend daughter as a possession to his wife. We would imitate the deeds of the wondrous men of the homeland. We both have obtained eternal grief.</p>
-               
             </div>
-            
+
            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
               <p><app loc="1"><lem>Ἀδείμαντος</lem>
               <rdg resp="ი. პომიალოვსკი">ἀδελφός</rdg>
               </app></p>
             </div>
-           
+
             <div type="commentary">
-                <p xml:lang="ka">წარწერა მოასწავებს იმას, რომ ფილა უნდა ყოფილიყო საფლავის ქვა.
-                    უდავოა, რომ წარწერა საფლავისაა და მისი პირველი 2 სტრიქონი უეჭველად არის აღდგენილი (თუ არ ჩავთვლით სახელს, Ἀδείμαντος - ასეთი სახელი შავიზღვისპირეთში 
-                სხვა წარწერებში დადასტურებული არ არის, სამაგიეროდ იგი საკმაოდ გავრცელებულია თვით საბერძნეთში, ეტიმოლოგიაც ბერძნული აქვს). რაც შეეხება დანარჩენს, რაც 
-                გაგებულია როგორც სამი ელეგიური დისტიქი, იქ უეჭველია ის, რაც ტექსტშია: "უწინ მე ტკბილი... | კანონიერი თანამეცხედრე... | ახლა ჩემთან ჰადესში...| 
-                მშვენიერი ასული... | სამშობლოს საოცარი... | სამარადისო განსასვენებელი დავიმკვიდრეთ". ყოველივე დანარჩენი არის ვ. ლატიშევის ნიჭიერი მიგნების სავარაუდო ნაყოფი. 
-                ტექსტი აღდგენილია ვ. ლატიშევის მიერ (IPE II, ,, 419,  223). აღდგენა, ცხადია, პირობითია, მაგრამ მეტად სარწმუნოა ყველა სხვა გამოცემასთან შედარებით.
-                როგორც ჩანს, წარწერა 2 ძმის (გასტისისა და ადიმანტეს) ეპიტაფიას წარმოადგენდა. ჯერ გარდაცვლილა გასტისი და შემდეგ ადიმანტე. გარდაცვლილები ახალგაზრდანი ჩანან. 
+                <p>წარწერა მოასწავებს იმას, რომ ფილა უნდა ყოფილიყო საფლავის ქვა.</p>
+                <p>უდავოა, რომ წარწერა საფლავისაა და მისი პირველი 2 სტრიქონი უეჭველად არის აღდგენილი (თუ არ ჩავთვლით სახელს, Ἀδείμαντος - ასეთი სახელი შავიზღვისპირეთში
+                სხვა წარწერებში დადასტურებული არ არის, სამაგიეროდ იგი საკმაოდ გავრცელებულია თვით საბერძნეთში, ეტიმოლოგიაც ბერძნული აქვს). რაც შეეხება დანარჩენს, რაც
+                გაგებულია როგორც სამი ელეგიური დისტიქი, იქ უეჭველია ის, რაც ტექსტშია: "უწინ მე ტკბილი... | კანონიერი თანამეცხედრე... | ახლა ჩემთან ჰადესში...|
+                მშვენიერი ასული... | სამშობლოს საოცარი... | სამარადისო განსასვენებელი დავიმკვიდრეთ". ყოველივე დანარჩენი არის ვ. ლატიშევის ნიჭიერი მიგნების სავარაუდო ნაყოფი. </p>
+                <p>ტექსტი აღდგენილია ვ. ლატიშევის მიერ (IPE II, ,, 419,  223). აღდგენა, ცხადია, პირობითია, მაგრამ მეტად სარწმუნოა ყველა სხვა გამოცემასთან შედარებით.</p>
+                <p>როგორც ჩანს, წარწერა 2 ძმის (გასტისისა და ადიმანტეს) ეპიტაფიას წარმოადგენდა. ჯერ გარდაცვლილა გასტისი და შემდეგ ადიმანტე. გარდაცვლილები ახალგაზრდანი ჩანან.
                 სახელებს, გასტისსა და ხორეგიონს, სპეციალისტები ბოსფორის წარწერებში არა ერთგზის დადასტურებულად მიიჩნევენ.</p>
-                <p xml:lang="en">
-                    The inscription proved that the plaque is a gravestone.
-                    The first two lines of the inscription are restored without any uncertainty (the exception is the name Ἀδείμαντος  - as we do not find this name in other inscriptions from the Black Sea, but it was a well spread name in Greece, the etymology of this name is Greek). As for the other lines, they are understood as three Elegiac couplets, where we can distinguish: “a joyous before”... “wedded spouse”...”now to Hades’ home”... “reverend daughter”...” wondrous men of the homeland”. Other words are the findings of V. Latishev.
-                    The text is restored by V. Latishev (IPE II, ,, 419, გვ. 223). This variant is the most credible compared to others.
-                    The inscription is an epitaph of brothers (Gasteis and Adeimantos). Gasteis died first and Adeimantos died later. They seem to pass away at an early age. The names Gasteis and Khoregion are found and approved by the specialists among the inscriptions of Bosporus.
-                </p>
-                
+
             </div>
         </body>
     </text>
 </TEI>
-
-
-

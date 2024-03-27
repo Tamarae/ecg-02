@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
     <teiHeader>
@@ -25,9 +25,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259"></objectType> <!-- დასაზუსტებელია ობიექტის ტიპი -->
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75"></material>  <!-- დასაზუსტებელია მასალა, სავარაუდოდ, იგივე რაც ფასადის ქართულ წარწერებში -->                                 
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75"></material>  <!-- დასაზუსტებელია მასალა, სავარაუდოდ, იგივე რაც ფასადის ქართულ წარწერებში -->
                                       <dimensions unit="cm">
                                         <width>29</width>
                                         <height>26</height>
@@ -38,15 +38,15 @@
                                     <layout>
                                       <dimensions unit="cm">
                                          <width/>
-                                         <height/> 
-                                      </dimensions>  
-                                    </layout>                                   
+                                         <height/>
+                                      </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
-                                    ოთხ ხაზში დაწერილი ნუსხური, რომელშიც შერეულია რამდენიმე კუთხოვანი 
-                                    ასომთავრული ან ნუსხურზე გარდამავალი გრაფემა. 
+                                    ოთხ ხაზში დაწერილი ნუსხური, რომელშიც შერეულია რამდენიმე კუთხოვანი
+                                    ასომთავრული ან ნუსხურზე გარდამავალი გრაფემა.
                                    <height unit="cm"> <!-- ხომ არ აჯობებს დაიმენშენი ჩავსვა და ზომა დაიმენშენს მივანიჭო? -->
                                        12
                                    </height>
@@ -74,18 +74,18 @@
                             <provenance type="found" when="1993">
                                 <placeName type ="ancientFindspot" ref="http://pleiades.stoa.org/places/863799">
                                     ატენის სიონი
-                                </placeName> 
+                                </placeName>
                                 <rs type="circumstances"/>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                                
+                            </provenance>
                             <provenance type="observed" when="2016">
                                 <placeName type="modernSpot">
                                     ატენის სიონი
                                 </placeName>
                                 <idno type="invNo"/>
-                            </provenance> 
-                    </history>                   
+                            </provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -95,44 +95,44 @@
 </encodingDesc>
     </teiHeader>
     <text>
-        <body>           
+        <body>
               <div type="bibliography" subtype="principalEdition">
-                   
+
                     <p><bibl>
-                        ზაზა ალექსიძე, <ptr target="bibliography.xml#b185"/>ატენის სიონის სომხური წარწერები, <citedRange>62</citedRange>
+                        <ptr target="#b185"/> ზაზა ალექსიძე, ატენის სიონის სომხური წარწერები, <citedRange>62</citedRange>
                     </bibl></p>
-                 
+
               </div>
-            
+
             <div type="edition" xml:lang="hy" xml:space="preserve">
-                
+
                         <!--  †  ԵՍ ԹՈԴՈՍԱԿ ՇԻՆՈՂ ՍՐԲՈՅ ԵԿԵՂԵ
                                [Ց]៲ՈՅ៲[Ս]
-                               
+
                                Ես Թոդոսակ շինող սրբոյ եկեղե[ցոյս]
-  --> 
-                                                            
+  -->
+
                 <ab>
                    <lb n="1"/><w lemma="Ես">Ես</w> <persName type="local" key="თოდოსაკი (Թոդոսակ)">Թոդոսակ</persName> <w lemma="շինող">շինող</w> <w lemma="սուրբ">սրբոյ</w> <w lemma="եկեղեցի">եկեղե
                     <lb n="2" break="no"/><supplied reason="lost">ցոյս</supplied></w>
                 </ab>
                </div>
-              
-            
+
+
          <div type="translation" xml:lang="ka">
              <p>მე თოდოსაკი მშენებელი წმინდა [ამ] ეკლეს[იის]</p>
-         </div> 
+         </div>
          <div type="translation" xml:lang="hy">
              <p>† Ես Թոդոսակ շինող սրբոյ եկեղե[ցոյս]</p>
-         </div>  
-                               
-            <div type="apparatus" xml:space="preserve">           
+         </div>
+
+            <div type="apparatus" xml:space="preserve">
             </div>
-            
-                
-            <div type="commentary">           
+
+
+            <div type="commentary">
             </div>
-                   
+
         </body>
     </text>
 </TEI>

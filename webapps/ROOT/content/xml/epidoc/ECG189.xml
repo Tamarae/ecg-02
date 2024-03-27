@@ -36,7 +36,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    
+
                                 </layout>
 
                             </layoutDesc>
@@ -47,7 +47,7 @@
                                 <p xml:lang="en">Engraved Asomtavruli</p>
                                 <dimensions unit="mm">
                                     <height/>
-                                </dimensions>    
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -57,7 +57,7 @@
                             <origDate evidence ="lettering">VII</origDate>
                         </origin>
                         <provenance type="found" when="1966">აღმოჩენილია 1966 წელს</provenance>
-                        
+
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -67,40 +67,39 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    <text><!-- 
+    <text><!--
     1.  მ(ი)ქ(აე)ლ  გ(ა)ბ(რიე)ლ
     -->
         <body>
-            
+
              <div type="bibliography">
-                
-                   <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>82</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                 <p><bibl n="2">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, <citedRange>99-100</citedRange><ptr target="bibliography.xml#b101"/></bibl></p>
-                 <p><bibl n="3">Н. Чубинашвили, Проблема рельефа на приморе одной группй грузинских стел последней четверди V века VI и первой половины VII века, <citedRange>53-54</citedRange>, Тб., 1972</bibl></p>
-                 
+
+                   <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>82</citedRange>, თბილისი, 2018</bibl></p>
+                 <p><bibl n="2"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, <citedRange>99-100</citedRange></bibl></p>
+                 <p><bibl n="3"><ptr target="#b211"/> Н. Чубинашвили, Проблема рельефа на приморе одной группй грузинских стел последней четверди V века VI и первой половины VII века, <citedRange>53-54</citedRange>, Тб., 1972</bibl></p>
+
              </div>
 
             <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
 
                 <ab>
-                    <lb n="1"/><name nymRef="მიქაელ მთავარანგელოზი"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>აე</ex><abbr>ლ</abbr></expan></name> 
+                    <lb n="1"/><name nymRef="მიქაელ მთავარანგელოზი"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>აე</ex><abbr>ლ</abbr></expan></name>
                     <name nymRef="გაბრიელ მთავარანგელოზი"><expan><abbr>გ</abbr><ex>ა</ex><abbr>ბ</abbr><ex>რიე</ex><abbr>ლ</abbr></expan></name>
                 </ab>
-                
+
             </div>
             <div type="translation"/>
-            
+
             <div type="commentary">
                 <p>სწორკუთხა ჯვრის კვარცხლბეკის დას. წახნაგზე ამოკვეთილია ჯვრის ამაღლება მიქაელ და გაბრიელ მთავარანგელოზთა მიერ, განმარტებითი ასომთავრული
-                    წარწერით. 
-                    დაზიანება : ქვის ზედაპირი ნაწილობრივ დაფარულია მომწვანო-მოყვითალო ფერის საკმაოდ მყარი ხავსის მსგავსი მცენარით. 
+                    წარწერით.
+                    დაზიანება : ქვის ზედაპირი ნაწილობრივ დაფარულია მომწვანო-მოყვითალო ფერის საკმაოდ მყარი ხავსის მსგავსი მცენარით.
                     წარწერის დათარიღება წინა გამოცემაში: VIს. ის შუა ხანების ახლო (ჩუბინაშვილი); VII ს.(შოშიაშვილი)
-                    წარმოდგენილ გამოცემაში გაზიარებულია ნ. შოშიაშვილის მოცემული დათარიღება, VII ს. 
+                    წარმოდგენილ გამოცემაში გაზიარებულია ნ. შოშიაშვილის მოცემული დათარიღება, VII ს.
                 </p>
-                
-       
+
+
             </div>
         </body>
     </text>
 </TEI>
-

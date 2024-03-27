@@ -5,8 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="ka">ბორჯომის მხარეთმცოდნეობის მუზეუმი</title>
-                <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
+                <title>ბორჯომის მხარეთმცოდნეობის მუზეუმი</title>
             </titleStmt>
             <publicationStmt>
                  <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
@@ -94,7 +93,7 @@
         <body>
            <div type="bibliography">
                
-                <p><bibl n="1">თამაზ გოგოლაძე,თორის ხეობის ეპიგრაფიკული კორპუსი<ptr target="bibliography.xml#b234"/>,<citedRange>109-110</citedRange>1987</bibl></p>
+                <p><bibl n="1"><ptr target="#b234"/> თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი,<citedRange>109-110</citedRange>1987</bibl></p>
 
 		   
            </div>

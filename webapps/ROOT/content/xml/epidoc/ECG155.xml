@@ -86,7 +86,7 @@
               <div type="bibliography" subtype="principalEdition">
                    
                     <p><bibl n="1">
-                        ზაზა ალექსიძე, <ptr target="bibliography.xml#b185"/>ატენის სიონის სომხური წარწერები, <citedRange>62</citedRange>
+                        <ptr target="#b185"/> ზაზა ალექსიძე, ატენის სიონის სომხური წარწერები, <citedRange>62</citedRange>
                         
                     </bibl></p>
                 

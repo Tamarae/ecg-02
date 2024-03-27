@@ -133,9 +133,9 @@
     <text>
         <body>
             <div type="bibliography">
-                
-                    <p><bibl><ptr target="bibliography.xml#b82"/>თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange>121-122</citedRange></bibl></p>
-                
+
+                    <p><bibl><ptr target="#b82"/>: თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange>121-122</citedRange></bibl></p>
+
             </div>
 
             <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -34,9 +34,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material>ქვა</material>
-                                   <objectType>არქიტრავი</objectType> 
+                                   <objectType>არქიტრავი</objectType>
                                         <dimensions unit="cm">
                                         <width>55</width>
                                         <height>93</height>
@@ -45,7 +45,7 @@
                                   </support>
                             </supportDesc>
                                 <layoutDesc>
-                                    <layout writtenLines="1"> 
+                                    <layout writtenLines="1">
                                         <dimensions unit="cm">
                                             <width>6</width>
                                             <height>21,5</height>
@@ -54,9 +54,9 @@
                                 </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote script="asomtavruli">წარწერა <rs type="script">ასომთავრული</rs> ანბანით არის შესრულებული. 
-                                ქარაგმისა და განკვეთილობის ნიშნები გამოყენებული არ არის.  
-                                <width>1,3-2,2</width>   
+                            <handNote script="asomtavruli">წარწერა <rs type="script">ასომთავრული</rs> ანბანით არის შესრულებული.
+                                ქარაგმისა და განკვეთილობის ნიშნები გამოყენებული არ არის.
+                                <width>1,3-2,2</width>
                                 <height>3,8-4,2</height>
                                  </handNote>
                         </handDesc>
@@ -71,12 +71,12 @@
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance> 
+                            </provenance>
                             <provenance type="observed">გუჯარეთის ხეობა. მაჭარწყლის ეკლესია
-                            <placeName type="modernSpot">გუჯარეთის ხეობა. მაჭარწყლის ეკლესია</placeName>            
+                            <placeName type="modernSpot">გუჯარეთის ხეობა. მაჭარწყლის ეკლესია</placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -101,28 +101,28 @@
     <text>
         <body>
            <div type="bibliography">
-               
-                <p><bibl n="1">თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი<ptr target="bibliography.xml#b234"/>,<citedRange>36-37 </citedRange>2019</bibl></p>
-                <p><bibl n="2">სერგი მაკალათია, ბორჯომის ხეობა (ისტორიულ-ეთნოგრაფიული ნარკვევი)<ptr target="bibliography.xml#b236"/>,<citedRange>18 </citedRange>1957</bibl></p>
-                <p><bibl n="3">თამაზ გოგოლაძე, ბორჯომის ხეობის ისტორიული და ხუროთმოძღვრული ძეგლები (გზამკვლევი)<ptr target="bibliography.xml#b241"/>,<citedRange>98 </citedRange>2014</bibl></p>
-                <p><bibl n="4">დევი ბერძენიშვილი, ნარკვევები საქართველოს ისტორიული გეოგრაფიიდან (ზემო ქართლი – თორი, ჯავახეთი)<ptr target="bibliography.xml#b239"/>,<citedRange>46 </citedRange>1985</bibl></p>
-                <p><bibl n="5">დევი ბერძენიშვილი, არქიტექტურულ-ისტორიული გზამკვლევი "გუჯარეთი"<ptr target="bibliography.xml#b240"/>,<citedRange>28 </citedRange>1987</bibl></p>
-            
+
+                <p><bibl n="1"><ptr target="#b234"/> თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი,<citedRange>36-37 </citedRange>2019</bibl></p>
+                <p><bibl n="2"><ptr target="#b236"/> სერგი მაკალათია, ბორჯომის ხეობა (ისტორიულ-ეთნოგრაფიული ნარკვევი)<ptr target="#b236"/>,<citedRange>18 </citedRange>1957</bibl></p>
+                <p><bibl n="3"><ptr target="#b241"/> თამაზ გოგოლაძე, ბორჯომის ხეობის ისტორიული და ხუროთმოძღვრული ძეგლები (გზამკვლევი),<citedRange>98 </citedRange>2014</bibl></p>
+                <p><bibl n="4"><ptr target="#b239"/> დევი ბერძენიშვილი, ნარკვევები საქართველოს ისტორიული გეოგრაფიიდან (ზემო ქართლი – თორი, ჯავახეთი),<citedRange>46 </citedRange>1985</bibl></p>
+                <p><bibl n="5"><ptr target="#b240"/> დევი ბერძენიშვილი, არქიტექტურულ-ისტორიული გზამკვლევი "გუჯარეთი",<citedRange>28 </citedRange>1987</bibl></p>
+
            </div>
-            <div type="edition" xml:lang="ka" xml:space="preserve" ana="mtavruli">     
+            <div type="edition" xml:lang="ka" xml:space="preserve" ana="mtavruli">
               <!--ქ(რისტ)ე, ნიკ(ო)ლ(ო)ზ [...]-->
                 <ab>
-                    <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
+                    <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
                     <persName type="local" key="ნიკოლოზ"><expan><abbr>ნიკ</abbr><ex>ო</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ზ</abbr></expan></persName>
                 </ab>
             </div>
             <div type="translation" xml:lang="ka"/>
             <div type="apparatus" xml:space="preserve"/>
-            <div type="commentary"><p>წარწერიანი ქვა გადარეცხილია, რის გამოც წარწერის გრაფემები ცუდად განირჩევა. 
+            <div type="commentary"><p>წარწერიანი ქვა გადარეცხილია, რის გამოც წარწერის გრაფემები ცუდად განირჩევა.
                 ასევე წარწერა ფრაგმენტულად არის შემორჩენილი. კერძოდ, წარწერის ბოლო ნაწილი აღარ იკითხება.</p>
                  <p>წარწერის დათარიღების საფუძველი: პალეოგრაფიული თავისებურებები. </p>
             </div>
-        
+
          </body>
     </text>
 </TEI>

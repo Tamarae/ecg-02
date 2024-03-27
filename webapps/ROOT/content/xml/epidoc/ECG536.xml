@@ -5,8 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="ka">ტიმოთესუბნის (კიმოთისმანის) ღმრთისმშობლის ეკლესია, ეპიტაფიის ფრაგმენტი ზაზა ავალიშვილისა</title>
-                <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
+                <title>ტიმოთესუბნის (კიმოთისმანის) ღმრთისმშობლის ეკლესია, ეპიტაფიის ფრაგმენტი ზაზა ავალიშვილისა</title>
             </titleStmt>
             <publicationStmt>
                  <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
@@ -60,7 +59,7 @@
                             </origin>
                             <provenance>
                                 <placeName type ="ancientFindspot">გუჯარეთის ხეობა. ტიმოთესუბნის (კიმოთისმანის) ღმრთისმშობლის ეკლესია</placeName>
-                                <rs type="context">მარმარილოს საფლავის ქვის ფრაგმენტი დიმინტრი მეღვინეთუხუცესიშვილმა 1947-48 წლებში ტაძრის ინტერიერის ერთ კუთხეში შეამჩნია.</rs>
+                                <rs type="context">  მარმარილოს საფლავის ქვის ფრაგმენტი დიმინტრი მეღვინეთუხუცესიშვილმა 1947-48 წლებში ტაძრის ინტერიერის ერთ კუთხეში შეამჩნია.</rs>
                                 <rs type="monuList"/>
                             </provenance>
                             <provenance type="observed">გუჯარეთის ხეობა. ტიმოთესუბნის (კიმოთისმანის) ღმრთისმშობლის ეკლესია
@@ -92,13 +91,13 @@
     <text>
         <body>
            <div type="bibliography">
-               
-                <p><bibl n="1">თამაზ გოგოლაძე,თორის ხეობის ეპიგრაფიკული კორპუსი<ptr target="bibliography.xml#b234"/>,<citedRange>114-115</citedRange>1987</bibl></p>
-               <p><bibl n="2">მარი ბროსე, Rapports I. <citedRange>103</citedRange><ptr target="bibliography.xml#b21"/></bibl></p>
 
-		   
+                <p><bibl n="1"><ptr target="#b234"/> თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი,<citedRange>114-115</citedRange>1987</bibl></p>
+               <p><bibl n="2"><ptr target="#b21"/> მარი ბროსე, Rapports I. <citedRange>103</citedRange></bibl></p>
+
+
            </div>
-            <div type="edition" xml:space="preserve" xml:lang="ka">     
+            <div type="edition" xml:space="preserve" xml:lang="ka">
                         <!--"[...]ზაზა ავალიშვ[ილ]ი[...]".-->
                 <ab>
                     <lb n="1"/>

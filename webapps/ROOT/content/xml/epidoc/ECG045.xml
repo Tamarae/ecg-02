@@ -24,7 +24,7 @@
                 <msDesc type="fragmentary">
                     <msIdentifier>
                         <collection>ბოლნისი</collection>
-                    </msIdentifier> 
+                    </msIdentifier>
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">ფრაგმენტი</seg>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/30">მწვანე ტუფი</material>
                                     <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/30">Tuff</material>
                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
@@ -46,7 +46,7 @@
                                     </dimensions>
                                   </support></supportDesc>
                                 <layoutDesc>
-                                    <layout writtenLines="1"> 
+                                    <layout writtenLines="1">
                                         <seg xml:lang="ka">წარწერა ერთსტრიქონიანია. ფილის ქვემო მარცხენა კუთხეში შემორჩა დადაბლებულ სწორკუთხა ფონზე ამოკვეთილი რელიეფური წარწერის დასაწყისი ორი გრაფემა</seg>
                                         <seg xml:lang="en">One line inscription.</seg>
                                         <dimensions unit="cm">
@@ -56,7 +56,7 @@
                                         </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="embossed">
                                  <seg xml:lang="ka"><rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
@@ -67,7 +67,7 @@
                         </handDesc>
                         <decoDesc>
                             <decoNote>
-                                <p xml:lang="ka">წარწერა შესრულებულია ფილაზე, რომლის ზედა ნაწილში ჩანს პატარა სამკუთხედებისაგან შემდგარი რელიეფური ჩარჩოს 
+                                <p xml:lang="ka">წარწერა შესრულებულია ფილაზე, რომლის ზედა ნაწილში ჩანს პატარა სამკუთხედებისაგან შემდგარი რელიეფური ჩარჩოს
                           (როგორც ჩანს, „ბოლნური ჯვრის“ მედალიონის) მცირე ნაშთი</p>
                                 <p xml:lang="en">The inscription is located on the upper part of the stone that has an equal size crossbar cross figure embossed on the lower background circle (unlike to “Bolnisi Cross” the crossbars of this cross are simpler and more narrow). The cross does not have a frame, characteristic to “Bolnisi Cross”. Couple of graphemes are engraved below the cross.</p>
                             </decoNote>
@@ -79,7 +79,7 @@
                                     <seg xml:lang="ka">ლამაზი გორა, ბოლნისი</seg>
                                     <seg xml:lang="en">Lamazi Gora, Bolnisi</seg>
                                 </origPlace>
-                                <origDate notBefore-custom="0400" notAfter-custom="0600" precision="medium" 
+                                <origDate notBefore-custom="0400" notAfter-custom="0600" precision="medium"
                                     evidence="lettering" datingMethod="#julian">V-VI AD</origDate>
                             </origin>
                             <provenance type="found" when="1959">
@@ -90,15 +90,15 @@
                                 <!-- "41.449801, 44.548284"-->
                                 <rs type="circumstances">
                                     <seg xml:lang="ka">ძეგლი აღმოჩენილია ივანე ჯავახიშვილის სახელობის ისტორიის ინსტიტუტის არქეოლოგიური ექსპედიციის მიერ,
-                                    რომელსაც ი. გრძელიშვილი ხელმძღვანელობდა. ბოლნისის სიონიდან ჩრდილო-დასავლეთით, დაახლოებით 800 მეტრის დაშორებით მდებარეობს ბორცვი, 
+                                    რომელსაც ი. გრძელიშვილი ხელმძღვანელობდა. ბოლნისის სიონიდან ჩრდილო-დასავლეთით, დაახლოებით 800 მეტრის დაშორებით მდებარეობს ბორცვი,
                                     რომელსაც ადგილობრივი მოსახლეობა „ლამაზ გორას“ უწოდებს. სწორედ ამ გორაზე ჩაატარა ექსპედიციამ გათხრები და შუა ადგილას გამოავლინა
                                     სამეკლესიანი ბაზილიკის ნანგრევები. ვარაუდობენ, რომ ეს იყო სამონასტრო კომპლექსი, რომელსაც ეჭირა 1000 კვ.მ. ფართობი. ამ ტერიტორიაზე
                                     აღმოჩნდა ათეული ქვაჯვარი ასომთავრული წარწერებით. ძეგლი იპოვეს 1959 წელს.</seg>
                                     <seg xml:lang="en">The monument was discovered by the archeological expedition of Ivane Javakhishvili Institute of History supervised by I. Grdzelishvili. The hill that the locals call “Lamazi Gora” (a beautiful hill) is located 800 meters from Bolnisi Sioni Cathedral to the north-west. During the excavations of the hill the ruins of three-church basilica was found in the middle of it. The territory of the monastery could have been 1000 sq m. Up to ten stone crosses with Asomtavruli inscriptions were found in this territory. The monument was discovered in 1959.</seg>
-                                </rs> 
+                                </rs>
                                 <rs type="context"></rs>
                                 <rs type="monuList"/>
-                            </provenance> 
+                            </provenance>
                              <provenance type="observed">
                             <placeName type="modernSpot" ref="http://museum.ge/">
                                 <seg xml:lang="ka">საქართველოს ეროვნული მუზეუმი</seg>
@@ -106,7 +106,7 @@
                             </placeName>
                             <idno type="invNo">1255</idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -114,7 +114,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-       <revisionDesc><change when="2019-11-12" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+       <revisionDesc><change when="2019-11-12" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <facsimile>
@@ -128,29 +128,29 @@
     <text>
         <body>
             <div type="bibliography">
-                  
-                  <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები<ptr target="bibliography.xml#b101"/>, <citedRange> 86</citedRange></bibl></p>
-                
-            </div> 
-            
-              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
-                        <!--  "სა..." -->
- 
-                <ab>
-                   <lb n="1"/> სა<!--  <gap reason="lost" extent="unknown" unit="character"></gap>-->         
-                  </ab>
-             
+
+                  <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები, <citedRange> 86</citedRange></bibl></p>
+
             </div>
-                
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+
+                        <!--  "სა..." -->
+
+                <ab>
+                   <lb n="1"/> სა<!--  <gap reason="lost" extent="unknown" unit="character"></gap>-->
+                  </ab>
+
+            </div>
+
             <div type="translation" >
                 <p xml:lang="ka"> სა... </p>
                 <p xml:lang="en">Sa...</p>
             </div>
-            
+
             <div type="apparatus" xml:space="preserve">
                          </div>
-            
+
             <div type="commentary">
                 <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #21. წარწერაში განკვეთილობისა და ქარაგმის ნიშნები არ ჩანს.</p>
                 <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #21. The inscription does not contain any mark of separation or abbreviation.</p>

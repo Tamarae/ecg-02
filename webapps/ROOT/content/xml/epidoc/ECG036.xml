@@ -25,7 +25,7 @@
                     <msIdentifier>
                         <collection>ურბნისი</collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მოსახსენებელი</seg>
@@ -35,7 +35,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/75">ქვიშაქვა</material>
                                     <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/75">Limestone</material>
                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
@@ -47,10 +47,10 @@
                                 </support>
                             </supportDesc>
                                 <layoutDesc>
-                                    <layout writtenLines="4"> 
+                                    <layout writtenLines="4">
                                     <seg xml:lang="ka">წარწერა 4 სტრიქონიანია. იგი მდებარეობს ტაძრის აღმოსავლეთის ფასადის კედელში ჩადგმულ სწორკუთხა ფილაზე, რომელიც მიდგმულია
                                        ურბნისის სიონის სხვა წარწერის მარცხნიდან (ეს ორივე წარწერა ადგილშენაცვლებულია ტაძრის აღდგენის დროს). </seg>
-                                        
+
                                         <seg xml:lang="en">Four line inscription. The inscription is located on the rectangular plaque that is embedded in the east facade of the church. The plaque is leaned over the other inscription from the left side (the place of both of the inscriptions is changed during the restoration of the church).</seg>
                                         <dimensions unit="cm">
                                             <width>34</width>
@@ -58,7 +58,7 @@
                                         </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="embossed">
                                 <seg xml:lang="ka"><rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა, <rs type="script">გაკუთხოვნებული</rs>, <rs type="script">მიდრეკილი განუსხურებისაკენ</rs></seg>
@@ -73,19 +73,19 @@
                                     <seg xml:lang="ka">ურბნისის სიონი</seg>
                                     <seg xml:lang="en">Urbnisi Sioni</seg>
                                 </origPlace>
-                                <origDate notBefore-custom="0900" notAfter-custom="1000" precision="medium" 
+                                <origDate notBefore-custom="0900" notAfter-custom="1000" precision="medium"
                                     evidence="lettering" datingMethod="#julian">X AD</origDate>
                             </origin>
                             <provenance type="found">
                                 <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863914">
                                     <seg xml:lang="ka">ურბნისის სიონი</seg>
                                     <seg xml:lang="en">Urbnisi Sioni</seg>
-                                </placeName> 
+                                </placeName>
                                 <!--  "42.010941, 43.979704"-->
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance> 
+                            </provenance>
                              <provenance type="observed">
                             <placeName>
                                 <seg xml:lang="ka">ურბნისის სიონი</seg>
@@ -93,7 +93,7 @@
                             </placeName>
                             <idno/>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -101,10 +101,10 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-11-11" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-11-11" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
-    
+
     <facsimile>
         <surface>
             <graphic url="ecg036.jpg">
@@ -113,88 +113,88 @@
             </graphic>
         </surface>
     </facsimile>
-    
+
     <text>
        <body>
         <div type="bibliography">
-                
-                    <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი<ptr target="bibliography.xml#b101"/>, <citedRange> 199</citedRange></bibl></p>
-                    <p><bibl n="2">M. Brosset, Rapports VI<ptr target="bibliography.xml#b22"/>, <citedRange>14</citedRange></bibl></p>
-                    <p><bibl n="3">ექვთიმე თაყაიშვილი, არხეოლოგიური მოგზაურობანი და შენიშვნანი<ptr target="bibliography.xml#b70"/>, <citedRange> 44</citedRange></bibl></p>
-                    <p><bibl n="4">ნოდარ შოშიაშვილი, ნაქალაქარი ურბნისი<ptr target="bibliography.xml#b99"/>, <citedRange> 139</citedRange></bibl></p>
-                    <p><bibl n="5">ნოდარ შოშიაშვილი, ურბნისის ძველი ქართული წარწერები<ptr target="bibliography.xml#b100"/>, <citedRange> 148-149</citedRange></bibl></p>
-                    <p><bibl n="6">პარმენ ზაქარაია, ნაქალაქარ ურბნისის ხუროთმოძღვრება<ptr target="bibliography.xml#b104"/>, <citedRange> 92</citedRange></bibl></p>
-                    <p><bibl n="7">ვალერი სილოგავა, ეპიგრაფიკული ეტიუდები<ptr target="bibliography.xml#b75"/>, <citedRange> 97</citedRange></bibl></p>
-                
-            </div>         
-        
+
+                    <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, <citedRange> 199</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b22"/> M. Brosset, Rapports VI, <citedRange>14</citedRange></bibl></p>
+                    <p><bibl n="3"><ptr target="#b70"/> ექვთიმე თაყაიშვილი, არხეოლოგიური მოგზაურობანი და შენიშვნანი, <citedRange> 44</citedRange></bibl></p>
+                    <p><bibl n="4"><ptr target="#b99"/> ნოდარ შოშიაშვილი, ნაქალაქარი ურბნისი, <citedRange> 139</citedRange></bibl></p>
+                    <p><bibl n="5"><ptr target="#b100"/> ნოდარ შოშიაშვილი, ურბნისის ძველი ქართული წარწერები, <citedRange> 148-149</citedRange></bibl></p>
+                    <p><bibl n="6"><ptr target="#b104"/> პარმენ ზაქარაია, ნაქალაქარ ურბნისის ხუროთმოძღვრება, <citedRange> 92</citedRange></bibl></p>
+                    <p><bibl n="7"><ptr target="#b75"/> ვალერი სილოგავა, ეპიგრაფიკული ეტიუდები, <citedRange> 97</citedRange></bibl></p>
+
+            </div>
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!--  "სბო წო შე მნჲ
                                 შნი ქთრ შშნ და
                                 ნშბნი მთნი შწნი
                                 ამს სნი ქნ შნ ან"-->
-                                 
+
                 <ab>
-                   <lb n="1"/><w lemma="სამება"><expan><abbr>ს</abbr><ex>ამე</ex><abbr>ბ</abbr><ex>ა</ex><abbr>ო</abbr></expan></w> 
-                              <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> 
-                              <w lemma="შეწყალება"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> 
+                   <lb n="1"/><w lemma="სამება"><expan><abbr>ს</abbr><ex>ამე</ex><abbr>ბ</abbr><ex>ა</ex><abbr>ო</abbr></expan></w>
+                              <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w>
+                              <w lemma="შეწყალება"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w>
                               <w lemma="მონა"><expan><abbr>მ</abbr><ex>ო</ex><abbr>ნ</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></w>
-                   <lb n="2"/><w lemma="შენი"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ნი</abbr></expan></w> 
+                   <lb n="2"/><w lemma="შენი"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ნი</abbr></expan></w>
                               <persName type="local" key="ქავთარ [ურბნისის შემწე]"><name nymRef="ქავთარ"><expan><abbr>ქ</abbr><ex>ავ</ex><abbr>თ</abbr><ex>ა</ex><abbr>რ</abbr></expan></name></persName>
                             <persName type="local" key="შუშან [ურბნისის შემწე]"><name nymRef="შუშან"><expan><abbr>შ</abbr><ex>უ</ex><abbr>შ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></name> </persName>
                                 და
-                   <lb n="3"/><w lemma="ნაშობი"><expan><abbr>ნ</abbr><ex>ა</ex><abbr>შ</abbr><ex>ო</ex><abbr>ბნი</abbr></expan></w> 
-                                <w lemma="მათი"><expan><abbr>მ</abbr><ex>ა</ex><abbr>თნი</abbr></expan></w> 
+                   <lb n="3"/><w lemma="ნაშობი"><expan><abbr>ნ</abbr><ex>ა</ex><abbr>შ</abbr><ex>ო</ex><abbr>ბნი</abbr></expan></w>
+                                <w lemma="მათი"><expan><abbr>მ</abbr><ex>ა</ex><abbr>თნი</abbr></expan></w>
                                 <w lemma="შემწე"><expan><abbr>შ</abbr><ex>ემ</ex><abbr>წ</abbr><ex>ე</ex><abbr>ნი</abbr></expan></w>
-                   <lb n="4"/><w lemma="ესე"><expan><abbr>ამ</abbr><ex>ი</ex><abbr>ს</abbr></expan></w> 
-                                <w lemma="სიონ"><expan><abbr>ს</abbr><ex>იონისა</ex><abbr>ნი</abbr></expan></w> 
-                                <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტემა</ex><abbr>ნ</abbr></expan></w> 
-                                <w lemma="შეწყალება"><expan><abbr>შ</abbr><ex>ეიწყალე</ex><abbr>ნ</abbr></expan></w> 
+                   <lb n="4"/><w lemma="ესე"><expan><abbr>ამ</abbr><ex>ი</ex><abbr>ს</abbr></expan></w>
+                                <w lemma="სიონ"><expan><abbr>ს</abbr><ex>იონისა</ex><abbr>ნი</abbr></expan></w>
+                                <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტემა</ex><abbr>ნ</abbr></expan></w>
+                                <w lemma="შეწყალება"><expan><abbr>შ</abbr><ex>ეიწყალე</ex><abbr>ნ</abbr></expan></w>
                                 <w lemma="ამენ"><expan><abbr>ა</abbr><ex>მე</ex><abbr>ნ</abbr></expan></w>
                 </ab>
             </div>
-                
+
             <div type="translation" >
                 <p xml:lang="ka">სამებაო წმიდაო, შეიწყალე მონა შენი ქავთარ, შუშან და ნაშობნი მათნი, ამის სიონის შემწენი, ქრისტემ შეიწყალოს, ამენ.</p>
                 <p xml:lang="en">Holy trinity, have mercy on your servant Kavtar, Shushan and their offsprings, who were the contributors of this church, Christ, have mercy on them, amen. </p>
-            
+
             </div>
-            
+
             <div type="apparatus" xml:space="preserve">
-                 
+
                 <p><app loc="3"> <lem>შემწე</lem>
                  <rdg resp="მ. ბროსე">შეწირულნი</rdg>
                  </app></p>
-                
+
                 <p><app loc="4"> <lem>სიონ</lem>
                  <rdg resp="მ. ბროსე, ე. თაყაიშვილი">სიონისნი</rdg>
                  </app></p>
-                
+
                 <p><app loc="4"> <lem>შეწყალება</lem>
                  <rdg resp="მ. ბროსე">შეუნდავნ</rdg>
                     <rdg resp="ე. თაყაიშვილი, ნ. შოშიაშვილი 1, პ. ზაქარაია, ვ. სილოგავა">შეუნდვენ</rdg>
                  </app></p>
-                
+
                 <p><app loc="4"> <lem>ამენ</lem>
                  <rdg resp="მ. ბროსე, ე. თაყაიშვილი, ნ.შოშიაშვილი 1, პ. ზაქარაია">ამინ</rdg>
                     </app></p>
-                
+
                   </div>
-            
+
             <div type="commentary">
-                <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით # 106. წარწერა ხელით და პალეოგრაფიული ნიშნებით მსგავსია ურბნისის სიონის სხვა წარწერებისა: 
-                    თევდორე ეპისკოპოსის და სიონის განმაახლებელისა. ამოკვეთილია დადაბლებულ ფონზე, ჩასმულია იმავე ქვის რელიეფურ ჩარჩოში, 
+                <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით # 106. წარწერა ხელით და პალეოგრაფიული ნიშნებით მსგავსია ურბნისის სიონის სხვა წარწერებისა:
+                    თევდორე ეპისკოპოსის და სიონის განმაახლებელისა. ამოკვეთილია დადაბლებულ ფონზე, ჩასმულია იმავე ქვის რელიეფურ ჩარჩოში,
                     როგორშიც სხვა წარწერები. სტრიქონებს ერთმანეთისაგან ჰყოფს ჰორიზონტალური რელიეფური ხაზები.
                     გრაფემების მოყვანილობა იგივეა, რაც წინა ორი წარწერის. არ ახლავს განკვეთილობისა და ქარაგმის ნიშნები,
-                    სიტყვები ერთმანეთსგან არ არის დაცილებული. წარწერის დათარიღების საფუძელი: პალეოგრაფიული ნიშნები: უყელო Ⴃ, გრაფემების გაკუთხოვნება, 
+                    სიტყვები ერთმანეთსგან არ არის დაცილებული. წარწერის დათარიღების საფუძელი: პალეოგრაფიული ნიშნები: უყელო Ⴃ, გრაფემების გაკუთხოვნება,
                     მიდრეკილება განუსხურებისაკენ: Ⴚ, Ⴊ, Ⴋ, Ⴌ. Ⴇ-ს მიდრეკილება გამხედრულებისაკენ. </p>
-                
-                <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #106. According to its paleographic data, the inscription looks like the other inscriptions of Urbnisi Sioni with: the inscription of Bishop Theodoros and the restorer of Sioni church. The inscription is embossed on a lowered background and is circled by the embossed frame like other inscriptions. The lines are separated by the horizontal embossed parallel lines. The shape of the graphemes is the same as in the previous two inscriptions. 
-                    The inscription does not contain any mark of separation or abbreviation. No spaces between the words. The date is based on paleographic data: Ⴃ without a neck, square shape of the graphemes, tendency to the Nuskhuri alphabet: Ⴚ, Ⴊ, Ⴋ, Ⴌ. The grapheme Ⴇ has a tendency to the Mkhedruli alphabet. 
-                    
+
+                <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #106. According to its paleographic data, the inscription looks like the other inscriptions of Urbnisi Sioni with: the inscription of Bishop Theodoros and the restorer of Sioni church. The inscription is embossed on a lowered background and is circled by the embossed frame like other inscriptions. The lines are separated by the horizontal embossed parallel lines. The shape of the graphemes is the same as in the previous two inscriptions.
+                    The inscription does not contain any mark of separation or abbreviation. No spaces between the words. The date is based on paleographic data: Ⴃ without a neck, square shape of the graphemes, tendency to the Nuskhuri alphabet: Ⴚ, Ⴊ, Ⴋ, Ⴌ. The grapheme Ⴇ has a tendency to the Mkhedruli alphabet.
+
                 </p>
             </div>
-        </body>    
+        </body>
     </text>
 </TEI>

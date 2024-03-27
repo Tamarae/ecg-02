@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="ka">სააღმშენებლო წარწერა მეფეთმეფის გიორგის (გიორგი V ბრწყინვალის) მოლარეთუხუცესისა</title>
-                <title xml:lang="en">თამაზ გოგოლაძე</title>
+                <title xml:lang="en"></title>
             </titleStmt>
             <publicationStmt>
                 <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
@@ -30,14 +30,14 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="https://www.eagle-network.eu/voc/material/lod/2">ტიმპანი</material>
-                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1483">ღია ნაცრისფერი ქვა</objectType> 
-                                       
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1483">ღია ნაცრისფერი ქვა</objectType>
+
                                   </support>
                             </supportDesc>
                                 <layoutDesc>
-                                    <layout writtenLines="1"> 
+                                    <layout writtenLines="1">
                                         <dimensions unit="cm">
                                             <width>75</width>
                                             <height>150</height>
@@ -47,10 +47,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                    <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა. 
+                                    <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა.
                                   წარწერის განკვეთილობის ნიშნებად გამოყენებულია ორწერტილი ან სამწერტილი თითქმის ყოველი სიტყვის
                                     შემდგომ; ქარაგმად ნახმარია მოკლე კლაკნილი ხაზი; გრაფემათა ღარებში ამოსმულია წითელი ფერის საწერ-საღებავი.
-                                <width>16X9</width>   
+                                <width>16X9</width>
                                 <height>2.5X1.5</height>
                                  </handNote>
                         </handDesc>
@@ -62,15 +62,15 @@
                             </origin>
                             <provenance>
                                 <placeName type ="ancientFindspot">გუჯარეთის ხეობა. დაბის ღმრთისმშობლის ეკლესია</placeName>
-                                <rs type="context">დღეისათვის წარწერის ის ადგილი, სადაც თარიღი იყო დატანილი ამოტეხილია და, შესაბამისად, აღარ იკითხება. წარწერის პირველი გამომცემლის მიერ მოცემულ გადმონაწერში აშკარად 
+                                <rs type="context">დღეისათვის წარწერის ის ადგილი, სადაც თარიღი იყო დატანილი ამოტეხილია და, შესაბამისად, აღარ იკითხება. წარწერის პირველი გამომცემლის მიერ მოცემულ გადმონაწერში აშკარად
 								ჩანს ქორონიკონის აღმნიშვნელი გრაფემები – კა.</rs>
                                 <rs type="monuList"/>
-                            </provenance> 
+                            </provenance>
                             <provenance type="observed">
-                            <placeName type="modernSpot">გუჯარეთის ხეობა. დაბის ღმრთისმშობლის ეკლესია</placeName>            
+                            <placeName type="modernSpot">გუჯარეთის ხეობა. დაბის ღმრთისმშობლის ეკლესია</placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -97,23 +97,23 @@
     </facsimile>
     <text>
         <body>
-           <div type="bibliography"> 
-               
-                <p><bibl n="1">თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი<ptr target="bibliography.xml#b234"/>,<citedRange>93-98</citedRange>1987</bibl></p>
-		        <p><bibl n="2">თედო ჟორდანია, ქროკები და სხვა მასალა<ptr target="bibliography.xml#b77"/>,<citedRange>180</citedRange>1997</bibl></p>
-				<p><bibl n="3">ივანე ჯავახიშვილი, ქართველი ერის ისტორია, წიგნი 3<ptr target="bibliography.xml#b130"/>,<citedRange>258-259</citedRange>1949</bibl></p>
+           <div type="bibliography">
+
+                <p><bibl n="1"><ptr target="#b234"/> თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი,<citedRange>93-98</citedRange>1987</bibl></p>
+		        <p><bibl n="2"><ptr target="#b77"/> თედო ჟორდანია, ქრონიკები და სხვა მასალა,<citedRange>180</citedRange>1997</bibl></p>
+				<p><bibl n="3"><ptr target="#b245"/> ივანე ჯავახიშვილი, ქართველი ერის ისტორია, წიგნი 3, <citedRange>258-259</citedRange>1949</bibl></p>
 
 
-		   
+
            </div>
-            <div type="edition" xml:lang="ka" xml:space="preserve" ana="mtavruli">     
-                        <!--"ინდ[იკტ(ი)ო]ნსა მ(ე)ფ(ე)თმ(ე)ფის(ა) გ(იორ)გ(ი)სა, ძის{ა} დიმიტრისა მეცხრ{ა}მეტ{ე}ს{ა}, 
-						| აღვ{ა}შ{ე}ნე ტ{ა}ძ{ა}რი ესე ჟ(ა)მსა მ(ე)ფ(ე)[თმ(ე)ფ(ი)ს(ა) | 
+            <div type="edition" xml:lang="ka" xml:space="preserve" ana="mtavruli">
+                        <!--"ინდ[იკტ(ი)ო]ნსა მ(ე)ფ(ე)თმ(ე)ფის(ა) გ(იორ)გ(ი)სა, ძის{ა} დიმიტრისა მეცხრ{ა}მეტ{ე}ს{ა},
+						| აღვ{ა}შ{ე}ნე ტ{ა}ძ{ა}რი ესე ჟ(ა)მსა მ(ე)ფ(ე)[თმ(ე)ფ(ი)ს(ა) |
 						[გ](იორ)გ(ისა)სა მე, მ{ა}თ{მა}ნ [მოლ{ა}რ{ეთუ}ხ{უ}ც{ესმან},| ქ(ორონი)კ(ონ)სა კა (21)]"-->
                 <ab>
                     <lb n="1"/>
-                    <rs type="date"><w lemma="ინდიკტიონ"><expan><abbr>ინდ</abbr><supplied reason="lost"><abbr>იკტ</abbr><ex>ი</ex><abbr>ო</abbr></supplied><abbr>ნსა</abbr></expan></w> 
-					<roleName nymRef="მეფეთ მეფე"><expan><abbr>მ</abbr><ex>ე</ex><abbr>მ</abbr><ex>ე</ex><abbr>თმ</abbr><ex>ე</ex><abbr>ფის</abbr><ex>ა</ex></expan></roleName> 
+                    <rs type="date"><w lemma="ინდიკტიონ"><expan><abbr>ინდ</abbr><supplied reason="lost"><abbr>იკტ</abbr><ex>ი</ex><abbr>ო</abbr></supplied><abbr>ნსა</abbr></expan></w>
+					<roleName nymRef="მეფეთ მეფე"><expan><abbr>მ</abbr><ex>ე</ex><abbr>მ</abbr><ex>ე</ex><abbr>თმ</abbr><ex>ე</ex><abbr>ფის</abbr><ex>ა</ex></expan></roleName>
 					<persName type="local" key="გიორგი V ბრწყინვალე" ref="https://en.wikipedia.org/wiki/George_V_of_Georgia"><expan><abbr>გ</abbr><ex>იორ</ex><abbr>გ</abbr><ex>ი</ex><abbr>სა</abbr></expan></persName>
                     <w lemma="ძისა">ძის<supplied reason="lost">ა</supplied></w>
                         <persName type="local" key="დემეტრე II თავდადებული" ref="https://en.wikipedia.org/wiki/Demetrius_II_of_Georgia">დიმიტრისა</persName>
@@ -124,7 +124,7 @@
 					<roleName nymRef="მეფეთ მეფე"><expan><abbr>მ</abbr><ex>ე</ex><abbr>მ</abbr><ex>ე</ex><abbr>თმ</abbr><ex>ე</ex><abbr>ფის</abbr><ex>ა</ex></expan> </roleName>
 					<lb n="3"/><persName type="local" key="გიორგი V ბრწყინვალე" ref="https://en.wikipedia.org/wiki/George_V_of_Georgia"><expan><supplied reason="lost"><abbr>გ</abbr></supplied><ex>იორ</ex><abbr>გ</abbr><ex>ისა</ex><abbr>სა</abbr></expan> </persName>
 					<w lemma="მათი">მ<supplied reason="lost">ა</supplied>თმ<supplied reason="lost">ა</supplied>ნ</w>
-                    <supplied reason="lost"><roleName nymRef="მოლარეთუხუცესი"><expan><abbr>მოლ</abbr><ex>ა</ex><abbr>რ</abbr><ex>ეთუ</ex><abbr>ხ</abbr><ex>უ</ex><abbr>ც</abbr><ex>ესმან</ex></expan></roleName> 
+                    <supplied reason="lost"><roleName nymRef="მოლარეთუხუცესი"><expan><abbr>მოლ</abbr><ex>ა</ex><abbr>რ</abbr><ex>ეთუ</ex><abbr>ხ</abbr><ex>უ</ex><abbr>ც</abbr><ex>ესმან</ex></expan></roleName>
 					<lb n="4"/><rs type="date"><w lemma="ქორონიკონ"><expan><abbr>ქ</abbr><ex>ორონი</ex><abbr>კ</abbr><ex>ონ</ex><abbr>სა</abbr></expan></w> <num value="21">კა</num></rs></supplied>
                 </ab>
             </div>
@@ -133,7 +133,7 @@
             </div>
             <div type="apparatus" xml:space="preserve"/>
             <div type="commentary">
-                <p>წარწერის ბოლო ნაწილი საგანგებოდ არის დაზიანებული. უფრო კონკრეტულად, 
+                <p>წარწერის ბოლო ნაწილი საგანგებოდ არის დაზიანებული. უფრო კონკრეტულად,
                     ამოტეხილია წარწერის ტექსტის ბოლო გრაფემები, რაც წარწერის წაკითხვას აძნელებს. მიუხედავად ამისა, წარწერის ბოლო ნაწილს აღადგენენ წინა გამოცემების მიხედვით.
                     წარწერის დათარიღება წინა გამოცემებში:
                     1. 1333 წ. (მარი ბროსე 1851; მარი ბროსე 1854; დიმიტრი
@@ -147,10 +147,10 @@
                     გიორგი ჩუბინაშვილი).
                     4. 1333 წ. (?) (ნიკო ბერძენიშვილი).
                     5. 1318 წ. (ვაჟა კიკნაძე 1977; ვაჟა კიკნაძე 1989).
-                
+
                 </p>
             </div>
-        
+
          </body>
     </text>
 </TEI>

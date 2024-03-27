@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
@@ -31,9 +31,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/416">კედელი</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
                                       <dimensions unit="cm">
                                         <width/>
                                         <height/>
@@ -42,39 +42,39 @@
                                 </support>
                             </supportDesc>
                                 <layoutDesc>
-                                    <layout writtenLines="1">წარწერა ერთსტრიქონიანი და თავნაკლულია. 
+                                    <layout writtenLines="1">წარწერა ერთსტრიქონიანი და თავნაკლულია.
                                         იგი შესრულებულია საფარის წმ. გიორგის სახელობის საშუალო ზომის დარბაზული ეკლესიის შიგნით,
                                 დასავლეთ კედელზე
                                         <dimensions unit="cm">
                                          <width/>
-                                         <height/> 
-                                         </dimensions>  
-                                    </layout>                                   
+                                         <height/>
+                                         </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                                 <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
-                                   <height/> 
+                                   <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                             <origin>
                                 <origPlace>საფარის მონასტერი</origPlace>
-                                 <origDate notBefore-custom="1400" notAfter-custom="1500" precision="medium" 
+                                 <origDate notBefore-custom="1400" notAfter-custom="1500" precision="medium"
                                     evidence="context" datingMethod="#julian">XV AD</origDate>
                             </origin>
                             <provenance type="found">
                                 <placeName type ="ancientFindspot">საფარის მონასტერი</placeName>
-                                <!-- "41.602116, 43.031036"--> 
+                                <!-- "41.602116, 43.031036"-->
                                 <rs type="circumstances"></rs>
                                 <rs type="context"></rs>
-                                <rs type="monuList"/></provenance>                                
+                                <rs type="monuList"/></provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot">საფარის მონასტერი</placeName>
-                                <idno type="invNo"/></provenance> 
-                    </history>                   
+                                <idno type="invNo"/></provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -82,7 +82,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <!--<facsimile>
@@ -92,44 +92,44 @@
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
-    </facsimile>--> 
+    </facsimile>-->
     <text>
-        <body>     
-             
+        <body>
+
             <div type="bibliography">
-               
- <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
-              
+
+ <p><bibl n="1"><ptr target="#b149"/> ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა, <citedRange> 118-169</citedRange></bibl></p>
+
             </div>
-              
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
-                        <!--  "...პავლე ბასილი სვიმეონ"--> 
-                                                            
-            
+
+                        <!--  "...პავლე ბასილი სვიმეონ"-->
+
+
          <div type="textpart" xml:lang="ka">
                 <ab>
                    <lb n="1"/><gap reason="lost" unit="chars" extent="unknown"></gap>
-                                <name nymRef="პავლე">პავლე</name> 
-                                <name nymRef="ბასილი">ბასილი</name> 
-                                <name nymRef="სვიმეონ">სვიმეონ</name>   
+                                <name nymRef="პავლე">პავლე</name>
+                                <name nymRef="ბასილი">ბასილი</name>
+                                <name nymRef="სვიმეონ">სვიმეონ</name>
                    </ab>
-               </div></div>           
+               </div></div>
          <div type="translation" xml:lang="ka">
              <p>... პავლე, ბასილი, სვიმეონ.</p>
-         </div>    
-                             
+         </div>
+
                <div type="commentary">
                 <p>საფარის მონასტერი ძველი დროიდანვე სხვადასხვა დანიშნულების 12 ნაგებობისაგან შედგებოდა. მათ შორის მთავარია წმ. საბას
                    სახელობის ტაძარი, აგებული ბექა სამცხის სპასალარისა და მანდატურთუხუცესის მიერ XIII-XIV სს. მიჯნაზე. საფარაში ამაზე ძველი ეკლესიაც არსებობს, X ს-ის
-                   ღვთისმშობლის მიძინების სახელობის ტაძარი, რომელსაც ჩრდილოეთიდან მიდგმული აქვს ზემოხსენებული წმ. საბას ტაძარი. 
+                   ღვთისმშობლის მიძინების სახელობის ტაძარი, რომელსაც ჩრდილოეთიდან მიდგმული აქვს ზემოხსენებული წმ. საბას ტაძარი.
                    ვალერი სილოგავას აზრით, წმინდა გიორგის ტაძარი, რომელზეც ეს წარწერაა შესრულებული, აგებულია XV საუკუნეში. მასზე შესრულებული წარწერებიც
-                   თანადროული უნდა იყოს. 
+                   თანადროული უნდა იყოს.
                    გრიგოლ ნაფშუენისძის წარწერაში ჩანს, რომ წმინდა გიორგის ეკუდერი, მცირე სამლოცველო სამარხავი, „აქა დამკვიდრებულთა წმიდათა მამათათვის“ იყო განკუთვნილი.
                    ვალერი სილოგავა გამოთქვამს ვარაუდს, რომ მასში, შესაძლოა, პირველნი პავლე, ბასილი და სვიმეონი დაიკრძალნენ. ეკლესიის ქვეშ მართლაც ორი კამაროვანი
                    სარდაფია ცალკე თავიანთი შესასვლელით აღმოსავლეთიდან, ისინი აკლდამებია.
-               </p>                
-            </div>                   
+               </p>
+            </div>
         </body>
     </text>
 </TEI>

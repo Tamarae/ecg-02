@@ -21,7 +21,7 @@
             <sourceDesc>
                 <msDesc type="fragmentary">
                     <msIdentifier>
-                        <collection>მცხეთა</collection>                
+                        <collection>მცხეთა</collection>
                     </msIdentifier>
                     <msContents>
                         <summary>
@@ -32,7 +32,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/109">ბრინჯაო</material>
                                     <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/165">მედალი</objectType>
@@ -41,7 +41,7 @@
                             </supportDesc>
                                 <layoutDesc>
                                     <layout>
-                                        <p xml:lang="ka">As: გამოხატულია დიდებულის თავი, მის გასწვრივ ორსავე მხარეს ბერძნული წარწერით, Rs: გამოხატულია ჰერმესი მწყემსის კომბლით და მის გვერდზე თავდახრილი ხარით, 
+                                        <p xml:lang="ka">As: გამოხატულია დიდებულის თავი, მის გასწვრივ ორსავე მხარეს ბერძნული წარწერით, Rs: გამოხატულია ჰერმესი მწყემსის კომბლით და მის გვერდზე თავდახრილი ხარით,
                                 წინ მცენარით და ზემოთ ვარსკვლავით. ამ პირზედაც ორსავე მხარეს გასწვრივ არის ბერძნული წარწერა.</p>
                                         <p xml:lang="en">
                                             AS has the ornament of the nobleman, the Greek inscriptions along both of the sides.
@@ -54,7 +54,7 @@ RS has the ornament of Hermes with a shepherd’s crook, an ox on his side with 
                                       </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
                              <p xml:lang="ka">I წარწერა მკაფიოა, მეორე ნაწილობრივ დაზიანებული.</p>
@@ -86,16 +86,16 @@ RS has the ornament of Hermes with a shepherd’s crook, an ox on his side with 
                                     <seg xml:lang="en">
                                         Samtavro, Mtskheta
                                     </seg>
-                                </placeName> 
+                                </placeName>
                                 <rs type="circumstances">
                                     <seg xml:lang="ka">მედალი აღმოჩენილია სამთავროს უბანში არქეოლოგიური გათხრებისას.</seg>
                                     <seg xml:lang="en">
-                                        The medal was found in the district of Samtavro during the archaeological excavations. 
+                                        The medal was found in the district of Samtavro during the archaeological excavations.
                                     </seg>
                                 </rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                         
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot" ref="http://museum.ge">
                                 <seg xml:lang="ka">საქართველოს ეროვნული მუზეუმი</seg>
@@ -103,7 +103,7 @@ RS has the ornament of Hermes with a shepherd’s crook, an ox on his side with 
                             </placeName>
                             <idno>2–23/25</idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -112,7 +112,7 @@ RS has the ornament of Hermes with a shepherd’s crook, an ox on his side with 
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    
+
     <facsimile>
         <surface>
             <graphic url="ecg021_1.jpg">
@@ -125,62 +125,59 @@ RS has the ornament of Hermes with a shepherd’s crook, an ox on his side with 
             </graphic>
         </surface>
     </facsimile>
-    
+
     <text>
         <body>
-            
+
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 267</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 267</citedRange></bibl></p>
+
             </div>
-           
+
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!-- Ἀντίνοον θεόν, ἡ πατρίς
                         Ἁδριανοῦ Βιθυνι[έ]ων
 
                                                                          -->
-                     
-            
+
+
          <div type="textpart" subtype="side" n="1">
          <ab>
              <persName type="local" key="ანტინოოსი (Ἀντίνοος)"><name nymRef="Ἀντίνοος">Ἀντίνοον</name></persName> <w lemma="θεός">θεόν</w> <w lemma="ὁ">ἡ</w> <w lemma="πατρίς">πατρίς</w>
-         </ab>  
+         </ab>
          </div>
          <div type="textpart" subtype="side" n="2">
            <ab>
                <persName type="local" key="ადრიანოსი (Ἁδριανός)"><name nymRef="Ἁδριανός">Ἁδριαν<supplied reason="subaudible">ο</supplied>ῦ</name></persName> <placeName type="ethnic" nymRef="Βιθυνίεος" ref="https://pleiades.stoa.org/places/511189">Βιθυνι<supplied reason="lost">έ</supplied><choice><corr>ω</corr><sic>ο</sic></choice>ν</placeName>
-           </ab>  
+           </ab>
          </div>
             </div>
-                
+
             <div type="translation" >
-                
+
                 <p xml:lang="ka">ანტინოეს, ღმერთს, სამშობლო
                     ადრიანეს ბითვინიონელთაგან</p>
                 <p xml:lang="en">To Antinoe, the God, from the homeland of Adriane from Bitvinion.</p>
-                
+
             </div>
-            
+
            <div type="commentary">
                 <p xml:lang="ka">ისტორიული მონაცემებისა და პალეოგრაფიული ნიშნების (ω–ს ხმარება ο–ს მაგივრად)საფუძველზე მედალი II ს–ის პირველი ნახევრით თარიღდება.
-                    ანტინოე, წარმოშობით ქ. ბითვინიონიდან, გარდაიცვალა 130 წელს, იგი გააღმერთა ადრიანემ, დააარსა მისი სახელობის ქალაქი, ააგო მისი სახელობის ტაძრები, ქანდაკებები, 
+                    ანტინოე, წარმოშობით ქ. ბითვინიონიდან, გარდაიცვალა 130 წელს, იგი გააღმერთა ადრიანემ, დააარსა მისი სახელობის ქალაქი, ააგო მისი სახელობის ტაძრები, ქანდაკებები,
                 მოჭრა მონეტები (134–137 წლებში ძირითადად), ერთ-ერთ ვარსკვლავს უწოდა მისი სახელი.
                 ადრიანე თავისი და ბითვინიონელთა სამშობლოს სახელით გაღმერთებულ ანტინოეს უძღვნის ამ მედალს.</p>
                <p xml:lang="en">
                    According to historical and paleographic data (usage of o instead of ω) the inscription can be dated to the 1st half of the II century.
 Antinoe from Bitvinion passed away in 130, Adriane glorified him by founding a city after his name, by building the temples and statues, he also minted the coin after his name (mostly 134–137 years) and named one of the stars after his name.
 
-Adriane with his and Bitvinion’s homeland dedicated this medal to godelike Antinoe. 
+Adriane with his and Bitvinion’s homeland dedicated this medal to godelike Antinoe.
 
                </p>
-               
+
                </div>
 
          </body>
     </text>
 </TEI>
-
-
-

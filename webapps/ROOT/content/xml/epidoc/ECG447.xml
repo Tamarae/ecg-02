@@ -76,7 +76,11 @@
                     </history>                   
                 </msDesc>
             </sourceDesc>
-        </fileDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
         <revisionDesc> <change when="2019-06-20" who="TG">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან.</change></revisionDesc>
     </teiHeader>
     <text>
@@ -84,31 +88,15 @@
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
                 <ab>
                     <!-- აღმაშე(ნე)ბელი პალატისა ამის ე(პისკოპოსი), ბედიელ მიტრაპოლიტი ანტონი [ჟუანისძე, შ(ეუნდო)ს ღ(მერთმა)ნ, ა(მე)ნ]-->
-                    <lb n="1"/> <w lemma="აღმაშენებელი"><expan><abbr>აღმაშე</abbr><ex>ნე</ex><abbr>ბელი</abbr></expan></w> <w lemma="პალატი">პალატისა</w> <e lemma="ამ">ამის</e> <roleName><expan><abbr>ე</abbr><ex>პისკოპოსი</ex></expan></roleName>
-                    <lb n="2"/> <placeName type="ethnic" ref="ბედიელი">ბედიელ</placeName> <roleName nymRef="მიტროპოლიტი">მიტრაპოლიტი</roleName> <persName type="local" key="ანტონ ჟუანისძე [ბედიის მიტროპოლიტი]">ანტონი</persName>
-                    <lb n="3"/> <supplied reason="lost"><persName>ჟუანისძე</persName> <w lemma="უნდობს"><expan><abbr>შ</abbr><ex>ეუნდო</ex><abbr>ს</abbr></expan></w> <w lemma="ღმერთი"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> <w lemma="ამინ"><expan><abbr>ა</abbr><ex>მე</ex><ex>ნ</ex></expan></w></supplied>
+                    <lb n="1"/><w lemma="აღმაშენებელი"><expan><abbr>აღმაშე</abbr><ex>ნე</ex><abbr>ბელი</abbr></expan></w> <w lemma="პალატი">პალატისა</w> <e lemma="ამ">ამის</e> <roleName><expan><abbr>ე</abbr><ex>პისკოპოსი</ex></expan></roleName>
+                    <lb n="2"/><placeName type="ethnic" ref="ბედიელი">ბედიელ</placeName> <roleName nymRef="მიტროპოლიტი">მიტრაპოლიტი</roleName> <persName type="local" key="ანტონ ჟუანისძე [ბედიის მიტროპოლიტი]">ანტონი</persName>
+                    <lb n="3"/><supplied reason="lost"><persName>ჟუანისძე</persName> <w lemma="უნდობს"><expan><abbr>შ</abbr><ex>ეუნდო</ex><abbr>ს</abbr></expan></w> <w lemma="ღმერთი"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> <w lemma="ამინ"><expan><abbr>ა</abbr><ex>მე</ex><ex>ნ</ex></expan></w></supplied>
                 </ab>
             </div>
             <div type="translation" xml:lang="ka">ამ პალატის აღმშენებელ, ბედიელ მიტროპოლიტ ანტონ ჟუანისძეს შეუნდოს ღმერთმა, ამინ</div>
             <div type="apparatus" xml:space="preserve"> </div>
             <div type="commentary">წარწერა ქვის ატკეცვის შედეგად ადგილ-ადგილ (მე-2 სტრ. შუა ნაწილი, მე-3 სტრ. თითქმის მთიანად) დაზიანებულია</div>          
-            <div type="bibliography" subtype="principalEdition"> 
-                           
-                    <p><bibl type="publication" subtype="principal" xml:lang="ka">
-                      <author>
-                          <persName>
-                            <forename></forename>
-                            <surname></surname>
-                          </persName>
-                      </author>
-                      <title/>
-                        <edition/>
-                        <pubPlace/>
-                        <publisher/>
-                        <date></date>
-                     </bibl></p>
-                
-            </div>         
+     
          </body>
     </text>
 </TEI>

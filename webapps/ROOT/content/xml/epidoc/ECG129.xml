@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?> 
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
@@ -21,19 +21,19 @@
                 <msDesc>
                     <msIdentifier>
                         <collection>საფარა</collection>
-                    </msIdentifier>
+                    </msIdentifier>              
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">ფრაგმენტი</seg>
                             <seg xml:lang="en"/>
                         </summary>
-                    </msContents>
+                    </msContents>    
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>
+                                <support>                             
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">მომწვანო ქვა</material>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">მომწვანო ქვა</material>                                   
                                       <dimensions unit="cm">
                                         <width>80</width>
                                         <height>80</height>
@@ -46,44 +46,44 @@
                                         რომელივ მხატვრულად არის დამუშავებული. ჩამოტეხილია სწორხაზოვნად მისი მარცხენა და ქვედა მხარე
                                              <dimensions unit="cm">
                                                   <width/>
-                                         <height/>
-                                          </dimensions>
-                                    </layout>
+                                         <height/> 
+                                          </dimensions>  
+                                    </layout>                                   
                                 </layoutDesc>
-                        </objectDesc>
+                        </objectDesc>                        
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                                 <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა.
                                 ასოთა კვეთის ღარები ამოწითლებული ყოფილა სინგურით, რომელიც ამჟამად სუსტადაა შემორჩენილი
-                                   <height unit="cm"/>
+                                   <height unit="cm"/> 
                             </handNote>
                         </handDesc>
                          <decoDesc>
-                            <decoNote>კანკელის წარწერიანი ფილის ზედა და მარჯვენა მხარეს დაუყვება განიერი ორნამენტული არშია (სიგანე 24სმ). ორნამენტები შედგენილია ფოთლოვანი და გეომეტრიული მოტივებისაგან. ფილის
+                            <decoNote><p>კანკელის წარწერიანი ფილის ზედა და მარჯვენა მხარეს დაუყვება განიერი ორნამენტული არშია (სიგანე 24სმ). ორნამენტები შედგენილია ფოთლოვანი და გეომეტრიული მოტივებისაგან. ფილის
                                 ცენტრში წარმოდგენილი ყოფილა რელიეფური გამოსახულება კომპოზიციისა „დანიელი ლომების ხაროში“. იგი გრეხილი ორნამენტებით დაფარული ლილვის ოთხკუთხა
                                 ჩარჩოში იყო ჩასმული. შემორჩენილია ჩარჩო სამ მხარეს (ჩამოჭრილია მარცხენა მხარეს). კომპოზიციიდან დარჩენილია დანიელის გამოსახულება, მთელი ტანით,
-                                მაღლა ამართული ხელებით (გადაჭრილია მარჯვენა ხელის მკლავი) და ერთი, მარჯვენა ლომის გამოსახულება. მეორე ლომი, რომელიც გამოსახული იქნებოდა ფილის
-                                მარცხენა ნაწილში, ამჟამად დაკარგულია. გამოსახულებას ახლდა ამოკვეთით შესრულებული ასომთავრული წარწერა. მოღწეულია ფრაგმენტულად. ასოთა კვეთის ღარები ამოწითლებული ყოფილა სინგურით, რომელიც ამჟამად სუსტადაა შემორჩენილი
+                                მაღლა ამართული ხელებით (გადაჭრილია მარჯვენა ხელის მკლავი) და ერთი, მარჯვენა ლომის გამოსახულება. მეორე ლომი, რომელიც გამოსახული იქნებოდა ფილის 
+                                მარცხენა ნაწილში, ამჟამად დაკარგულია. გამოსახულებას ახლდა ამოკვეთით შესრულებული ასომთავრული წარწერა. მოღწეულია ფრაგმენტულად.</p>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
                     <history>
                             <origin>
                                 <origPlace>საფარის მონასტრის მიძინების ტაძარი</origPlace>
-                                 <origDate notBefore-custom="1000" notAfter-custom="1100" precision="medium"
+                                 <origDate notBefore-custom="1000" notAfter-custom="1100" precision="medium" 
                                     evidence="lettering" datingMethod="#julian">XI AD</origDate>
                             </origin>
                             <provenance type="found">
                                 <placeName type ="ancientFindspot" when="1982">საფარის მონასტრის მიძინების ტაძარი</placeName>
-                                <!-- "41.602116, 43.031036"-->
+                                <!-- "41.602116, 43.031036"--> 
                                 <rs type="circumstances">კანკელის ფილა, რომელზეც წარწერაა შესრულებული, 1982 წელს აღმოჩნდა ტაძარში ჩატარებული
                                 არქეოლოგიური გათხრების დროს</rs>
-                                <rs type="context"/>
-                                <rs type="monuList"/></provenance>
+                                <rs type="context"/> 
+                                <rs type="monuList"/></provenance>                                
                             <provenance type="observed">
                                 <placeName type="modernSpot" ref="http://museum.ge/">სამცხე-ჯავახეთის მუზეუმი</placeName>
-                                <idno type="invNo"/>5530</provenance>
-                    </history>
+                                <idno type="invNo"/>5530</provenance> 
+                    </history>                   
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -91,7 +91,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <!-- <facsimile>
@@ -103,37 +103,37 @@
         </surface>
     </facsimile> -->
     <text>
-        <body>
+        <body>   
          <div type="bibliography">
-
-   <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
-   <p><bibl n="2">ვალერი სილოგავა, სამცხე-ჯავახეთის ისტორიული მუზეუმის ქართული ეპიგრაფიკული ძეგლები, კატალოგი-გზამკვლევი<ptr target="bibliography.xml#b150"/>, <citedRange> 30-31</citedRange></bibl></p>
-
+                            
+   <p><bibl n="1"><ptr target="#b149"/> ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა, <citedRange> 118-169</citedRange></bibl></p>
+   <p><bibl n="2">ვალერი სილოგავა, სამცხე-ჯავახეთის ისტორიული მუზეუმის ქართული ეპიგრაფიკული ძეგლები, კატალოგი-გზამკვლევი<ptr target="#b150"/>, <citedRange> 30-31</citedRange></bibl></p>              
+            
             </div>
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-
+                
                         <!--  "[..] პრს ლმ
-                            თსა"-->
-
+                            თსა"-->                                           
+           
                 <ab>
- <lb n="1"/><gap reason="lost" extent="unknown" unit="chars"></gap>
-            <w lemma="პირ"><expan><abbr>პ</abbr><ex>ი</ex><abbr>რს</abbr></expan></w>
+ <lb n="1"/><gap reason="lost" extent="unknown" unit="chars"></gap> 
+            <w lemma="პირ"><expan><abbr>პ</abbr><ex>ი</ex><abbr>რს</abbr></expan></w> 
             <w lemma="ლომ"><expan><abbr>ლ</abbr><ex>ო</ex><abbr>მ
 <lb n="2" break="no"/>თ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w>
                    </ab>
                </div>
-
+              
          <div type="translation" xml:lang="ka">
              <p>... ლომის პირს</p>
-         </div>
-
+         </div>    
+                             
                <div type="commentary">
                 <p>საფარის მონასტერი ძველი დროიდანვე სხვადასხვა დანიშნულების 12 ნაგებობისაგან შედგებოდა. მათ შორის არის მიძინების ტაძარი.
                     კანკელის ფილაზე შესრულებული ეს ბიბლიური კომპოზიცია სამცხეში ფართოდ იყო გავრცელებული (ზოგჯერ ანეპიგრაფული, ზოგჯერ წარწერიანი) - დანიელი ლომების ხაროში.
-                    იგი უკავშირდება ერთ-ერთი დიდი ბიბლიური წინასწარმეტყველის დანიელის (ძვ. წ. II ს.) ცხოვრების ეპიზოდს, როდესაც მოშურნეთა დაბეზღებით სამეფო კარზე ნიჭით
+                    იგი უკავშირდება ერთ-ერთი დიდი ბიბლიური წინასწარმეტყველის დანიელის (ძვ. წ. II ს.) ცხოვრების ეპიზოდს, როდესაც მოშურნეთა დაბეზღებით სამეფო კარზე ნიჭით 
                   დაწინაურებული ჭაბუკი სპარსეთის მეფის ბრძანებით ლომებით სავსე ხაროში (დიდი ორმო) ჩააგდეს, ხოლო დანიელმა ისინი ლოცვით დაადუმა და უვნებელი გადარჩა.
                   ვალერი სილოგავას აზრით, წარწერა შესაძლებელია ასე აღდგეს: „[წმიდაჲ დანიელ დაუყოფს] პირს ლომთასა“.
-                 </p>
+                 </p> 
             </div>
         </body>
     </text>

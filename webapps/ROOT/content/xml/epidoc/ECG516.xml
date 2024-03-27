@@ -28,18 +28,18 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="https://www.eagle-network.eu/voc/material/lod/75">ქვა</material>
-                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/179">კედელი</objectType> 
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/179">კედელი</objectType>
                                         <dimensions unit="cm">
-                                        <width/>
-                                        <height/>
+                                        <width></width>
+                                        <height></height>
                                         <depth/>
                                         </dimensions>
                                   </support>
                             </supportDesc>
                                 <layoutDesc>
-                                    <layout> 
+                                    <layout>
                                         <dimensions unit="cm">
                                             <width>3,8</width>
                                             <height>10</height>
@@ -48,12 +48,10 @@
                                 </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>წარწერა შესრულებულია <rs type="script">სწორი ეპიგრაფიკული ნუსხური</rs> ხელით. წარწერას განკვეთილობის ნიშანი არ ახლავს; წარწერის ქარაგმის 
+                            <handNote>წარწერა შესრულებულია <rs type="script">სწორი ეპიგრაფიკული ნუსხური</rs> ხელით. წარწერას განკვეთილობის ნიშანი არ ახლავს; წარწერის ქარაგმის
                                 ნიშნად გამოყენებულია სწორი განივი და მარცხნიდან მარჯვნივ ზევით მიმართული სწორი ხაზი.
-                                <dimensions unit="cm">
-                                    <width>3</width>   
-                                    <height>1-18</height>
-                                </dimensions>
+                                <width>0,3-0,3</width>
+                                <height>0,1-1,8</height>
                                  </handNote>
                         </handDesc>
                     </physDesc>
@@ -67,16 +65,19 @@
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance> 
-                            <provenance type="observed">ბორჯომის ხეობა. ფოთოლეთის წმინდა გიორგის ეკლესია 
-                            <placeName type="modernSpot">ბორჯომის ხეობა. ფოთოლეთის წმინდა გიორგის ეკლესია</placeName>            
+                            </provenance>
+                            <provenance type="observed">ბორჯომის ხეობა. ფოთოლეთის წმინდა გიორგის ეკლესია
+                            <placeName type="modernSpot">ბორჯომის ხეობა. ფოთოლეთის წმინდა გიორგის ეკლესია</placeName>
                             <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc>
-
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
         <revisionDesc>
             <change when="2020-01-11" who="Qobuloia">გარე ანოტირება, პირთა სახელების, წარწერის სრული კოდირება  შესრულდა 2020 წლის ციფრული ეპიგრაფიკის სასწავლო კურსის ფარგლებში.</change>
         </revisionDesc>
@@ -92,15 +93,15 @@
     <text>
         <body>
            <div type="bibliography">
-               
-                <p><bibl n="1">თამაზ გოგოლაძე,თორის ხეობის ეპიგრაფიკული კორპუსი<ptr target="bibliography.xml#b234"/>,<citedRange>68-69</citedRange>2019</bibl></p>
-                <p><bibl n="2">გიორგი გაგოშიძე                                 <ptr target="bibliography.xml#b130"/>,<citedRange> 134</citedRange>1987 </bibl></p>
-            
+
+                <p><bibl n="1"><ptr target="#b234"/> თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი,<citedRange>68-69</citedRange>2019</bibl></p>
+                <p><bibl n="2"><ptr target="#b130"/> გიორგი გაგოშიძე                                 ,<citedRange> 134</citedRange>1987 </bibl></p>
+
            </div>
-            <div type="edition" xml:lang="ka" xml:space="preserve" ana="nuskhuri">     
+            <div type="edition" xml:lang="ka" xml:space="preserve" ana="nuskhuri">
               <!--ქ. ხატო ღ(მრ)თ <ჲ>(ა) |ებისაო, შ(ეწყალ)ე ბასილი |კახი[...]-->
                 <ab>
-                    <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტე</ex></expan></w> 
+                    <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტე</ex></expan></w>
                                <w lemma="ხატ">ხატო</w>
                                <w lemma="ღმრთაება"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თჲ</abbr><ex>ა</ex>
                     <lb n="2"/><abbr>ებისაო</abbr></expan></w>
@@ -114,7 +115,7 @@
             <div type="commentary"><p>წარწერა დაზიანებული არ არის. ტექსტის ნაწილი თავიდან ბოლომდე გარკვევით იკითხება</p>
                  <p>წარწერის დათარიღების საფუძველი: შესრულებულია სწორი ეპიგრაფიკული ნუსხურით.</p>
             </div>
-        
+
          </body>
     </text>
 </TEI>

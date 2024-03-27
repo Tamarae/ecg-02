@@ -93,7 +93,7 @@
         <body>
            <div type="bibliography">
                
-                <p><bibl n="1">თამაზ გოგოლაძე,თორის ხეობის ეპიგრაფიკული კორპუსი<ptr target="bibliography.xml#b234"/>,<citedRange>58-59</citedRange>2019</bibl></p>
+                <p><bibl n="1"><ptr target="#b234"/> თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი,<citedRange>58-59</citedRange>2019</bibl></p>
             
            </div>
             <div type="edition" xml:space="preserve" xml:lang="ka" ana="nuskhuri">     

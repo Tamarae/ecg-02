@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support> 
+                                <support>
                                     <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1338">ბალავრი</objectType>
                                     <material xml:lang="ka" ref="https://www.eagle-network.eu/voc/material/lod/75">ნაცრისფერი ქვიშაქვის ლოდი</material>
                                     <dimensions unit="cm">
@@ -74,7 +74,7 @@
                             <rs type="circumstances">წარწერა აღმოჩნდა 1963 წელს საყდრისქედის ეკლესიის სამხრეთ მინაშენის არქეოლოგიური გათხრებისას ნანგრევებში.</rs>
                             <rs type="context"/>
                             <rs type="monuList"/>
-                        </provenance> 
+                        </provenance>
                         <provenance type="observed">
                             <placeName type="modernSpot">ეროვნული მუზეუმი</placeName>
                             <idno>სემ (სსმ)-609</idno>
@@ -88,7 +88,7 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    <!-- 
+    <!--
     <facsimile>
         <surface>
             <graphic url="tskise_01.jpg">
@@ -97,7 +97,7 @@
             </graphic>
         </surface>
     </facsimile> -->
-    
+
     <text>
         <!--
         1.წ. ს(უ)ლს(ა) მჴეცის[ა], ინაისს(ა), გი(ორ)გისსა, იაკ(ო)[ბ]ისს[ა],
@@ -107,25 +107,25 @@
         -->
         <body>
             <div type="bibliography">
-                
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>168-169</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                
-                <p><bibl n="2">დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>104</citedRange> თბილისი, 2014<ptr target="bibliography.xml#b213"/></bibl></p>
-                <p><bibl n="3">ვ. ჯაფარიძე, შუა საუკუნეების ერთი ისტორიულ-არქეოლოგიური ძეგლი ნაქალაქარ დმანისის გუბერნიაში (საყდრისქედის ეკლესია),
-                    ფეოდალური საქართველოს არქეოლოგიური ძეგლები, I, თბილისი 1974, <citedRange>162-163</citedRange><ptr target="bibliography.xml#b228"/>
+
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>168-169</citedRange>, თბილისი, 2018</bibl></p>
+
+                <p><bibl n="2"><ptr target="#b213"/> დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>104</citedRange> თბილისი, 2014</bibl></p>
+                <p><bibl n="3"><ptr target="#b228"/> ვ. ჯაფარიძე, შუა საუკუნეების ერთი ისტორიულ-არქეოლოგიური ძეგლი ნაქალაქარ დმანისის გუბერნიაში (საყდრისქედის ეკლესია),
+                    ფეოდალური საქართველოს არქეოლოგიური ძეგლები, I, თბილისი 1974, <citedRange>162-163</citedRange>
                 </bibl></p>
-                
+
             </div>
-            
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
             <ab>
-                <lb n="1"/><orig n="unresolved">წ</orig>                      
+                <lb n="1"/><orig n="unresolved">წ</orig>
                           <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლს</abbr><ex>ა</ex></expan></w>
                           <persName type="local" key="მჴეც">მჴეცის<supplied reason="omitted" precision="high">ა</supplied></persName>
                            <persName type="local" key="ინაი"><expan><abbr>ინაისს</abbr><ex>ა</ex></expan></persName>
                            <persName type="local" key="გიორგი"><expan><abbr>გი</abbr><ex>ორ</ex><abbr>გისსა</abbr></expan></persName>
-                           <persName type="local" key="იაკობ"><expan><abbr>იაკ</abbr><ex>ო</ex><supplied reason="omitted" precision="high">ბ</supplied><abbr>ისს</abbr><supplied reason="lost" precision="medium">ა</supplied></expan></persName> 
-                <lb n="2"/><persName type="local" key="ბეშანგ"><expan><abbr>ბ</abbr><ex>ეშა</ex><abbr>ნგ</abbr><ex>ი</ex><abbr>სსა</abbr></expan></persName>           
+                           <persName type="local" key="იაკობ"><expan><abbr>იაკ</abbr><ex>ო</ex><supplied reason="omitted" precision="high">ბ</supplied><abbr>ისს</abbr><supplied reason="lost" precision="medium">ა</supplied></expan></persName>
+                <lb n="2"/><persName type="local" key="ბეშანგ"><expan><abbr>ბ</abbr><ex>ეშა</ex><abbr>ნგ</abbr><ex>ი</ex><abbr>სსა</abbr></expan></persName>
                            <w lemma="და"><expan><abbr>დ</abbr><ex>ა</ex></expan></w>
                            <persName type="local" key="მარიამ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>რ</abbr><ex>ი</ex><abbr>ამსს</abbr><supplied reason="omitted" precision="high">ა</supplied></expan></persName>
                            <w lemma="შენდობა"><expan><abbr>შ</abbr><ex>ეუნდვე</ex><abbr>ნ</abbr></expan></w>
@@ -134,19 +134,19 @@
                           <expan><abbr>დ</abbr><ex>ა</ex></expan>
                            <w lemma="მათ"><expan><abbr>მ</abbr><ex>ათ</ex><abbr>თა</abbr></expan></w>
                            <w lemma="მიცვალებულ"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ცვ</abbr><ex>ა</ex>
-                <lb n="3" break="no"/><abbr>ლებ</abbr><ex>უ</ex><abbr>ლთა</abbr></expan></w>    
+                <lb n="3" break="no"/><abbr>ლებ</abbr><ex>უ</ex><abbr>ლთა</abbr></expan></w>
                            <persName type="local" key="ხუდადისძენი"><expan><abbr>ხ</abbr><ex>უ</ex><abbr>დ</abbr><ex>ა</ex><abbr>დ</abbr><ex>ი</ex><abbr>სძ</abbr><ex>ე</ex><abbr>სა</abbr></expan></persName>
                            <persName type="local" key="გიორგი ხუდადისძე"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ის</abbr></expan></persName>
                            <expan><abbr>დ</abbr><ex>ა</ex></expan>
-                           <w lemma="მეუღლე"><expan><abbr>მ</abbr><ex>ე</ex><abbr>უღლ</abbr><ex>ე</ex><abbr>სა</abbr></expan></w>  
+                           <w lemma="მეუღლე"><expan><abbr>მ</abbr><ex>ე</ex><abbr>უღლ</abbr><ex>ე</ex><abbr>სა</abbr></expan></w>
                            <w lemma="მის"><expan><abbr>მ</abbr><ex>ი</ex><abbr>სს</abbr><ex>ა</ex></expan></w>
                            <persName type="local" key="მარიამ [გიორგი ხუდადისძის მეუღლე]"><expan><abbr>მ</abbr><ex>ა</ex><abbr>რ</abbr><ex>ია</ex><abbr>მს</abbr></expan></persName>
                            <w lemma="შენდობა"><expan><abbr>შ</abbr><ex>ეუნდვე</ex><abbr>ნ</abbr></expan></w>
-                           <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>                
-                <lb n="4"/><w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრთი</ex><abbr>სმ</abbr><ex>შო</ex><abbr>ბ</abbr><ex>ელ</ex><abbr>ო</abbr></expan></w> 
+                           <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
+                <lb n="4"/><w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრთი</ex><abbr>სმ</abbr><ex>შო</ex><abbr>ბ</abbr><ex>ელ</ex><abbr>ო</abbr></expan></w>
                            <w lemma="წყალობა"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w>
                            <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლი</abbr></expan></w>
-                           <roleName nymRef="ტიკნაც-ტიკინი"><expan><abbr>ტ</abbr><ex>ი</ex><abbr>კნ</abbr><ex>ა</ex><abbr>ც-ტ</abbr><ex>ი</ex><abbr>კ</abbr><ex>ი</ex><abbr>ნ</abbr><ex>ი</ex><abbr>სი</abbr></expan></roleName>  
+                           <roleName nymRef="ტიკნაც-ტიკინი"><expan><abbr>ტ</abbr><ex>ი</ex><abbr>კნ</abbr><ex>ა</ex><abbr>ც-ტ</abbr><ex>ი</ex><abbr>კ</abbr><ex>ი</ex><abbr>ნ</abbr><ex>ი</ex><abbr>სი</abbr></expan></roleName>
                            <persName type="local" key="ვარდერე ტიკნაც-ტიკინი"><expan><abbr>ვ</abbr><ex>ა</ex><abbr>რდ</abbr><ex>ე</ex><abbr>რესისი</abbr></expan></persName>
                            და
                            <persName type="local" key="ხუფარაც ტიკინი"><expan><abbr>ხ</abbr><ex>უ</ex><abbr>ფ</abbr><ex>ა</ex><abbr>რ</abbr><ex>ა</ex><abbr>ც</abbr></expan></persName>
@@ -154,30 +154,30 @@
                            <w lemma="ამენ"><expan><abbr>ა</abbr><ex>მე</ex><abbr>ნ</abbr></expan></w>
                 </ab>
             </div>
-            
+
                 <div type="translation"/>
-                
-            
+
+
                 <div type="commentary">
                      <p>
                         პალეოგრაფიული თავისებურებები: გრაფემა დ-ონით აღნიშნულია და კავშირი. გრაფემა
-                        ო-ნი გამოყენებულია უ-ნის მნიშვნელობით. 
+                        ო-ნი გამოყენებულია უ-ნის მნიშვნელობით.
                         დაზიანება: ბალავრის ქვა გამოქარვისგანაა დაზიანებული და რამდენიმე ადგილას ზედაპირია ამოტეხილი, რის
                         გამოც რამდენიმე გრაფემა, განსაკუთრებით I სტრ. შუა და ბოლო ნაწილში, ასევე IV
-                        სტრ. დასაწყისი რთულად იკითხება. 
+                        სტრ. დასაწყისი რთულად იკითხება.
                         დათარიღება წინა გამოცემებში: ვ. ჯაფარიძე 1213-1222 წწ-ით ლაშა-გიორგის ზეობის პერიოდით ათარიღებს. წარმოდგენილი
                         დათარირების საფუძვლები: გაზიარებულია ვ. ჯაფარიძის თვალსაზრისი, პალეოგრაფიული
                         ნიშნების მიხედვით წარწერის მსგავსებისა თამარის, ლაშა-გიორგის და რუსუდანის
                         ეპოქის ეპიგრაფიკულ ძეგლებთან, თუმცა, სწორედ ასეთი პალეოგრაფიული დახასიათება
                         მიუთითებს, რომ წარწერა შეიძლება შესრულებული იყოს როგორც ლაშა-გიორგის, ისე
                         თამარის და რუსუდანის მეფობის ხანაში. ამგვარად წარწერას ზოგადად XIII ს-ის I
-                        ნახ.-ით ათარირებენ. 
+                        ნახ.-ით ათარირებენ.
                         წარწერაში ვ. ჯაფარიძე რამდენიმე სიტყვას განსხვავებულად კითხულობს:
                         პირველ სტროფში - სულა(ა)მაშენებელთასა (?) ინაისასა(ა), მეორეში -
                         ბეშანგისასა (?)და მათთა მსახურთასა, მეოთხეში - უმაღლესო (?) ყოველთაო</p>
                 </div>
-            
-        
+
+
         </body>
     </text>
 </TEI>

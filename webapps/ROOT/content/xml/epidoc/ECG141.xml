@@ -112,68 +112,68 @@
         6.ხ(ა)ტ(ი)თა, ჩ(ემ)ით ჯ(უა)რ(ი)თ(ა).
         -->
         <body>
-                
-                
+
+
                  <div type="bibliography">
                     <p>
-                        <bibl n="1">ვალერი სილოგავა, კუმურდო, <citedRange>52-54</citedRange>, თბილისი 1994<ptr target="bibliography.xml#b198"/></bibl>
+                        <bibl n="1"><ptr target="#b198"/> ვალერი სილოგავა, კუმურდო, <citedRange>52-54</citedRange>, თბილისი 1994</bibl>
                     </p>
 
 
                     <p>
-                        <bibl n="2">M. Brosset, Rapports sur un voyage archeologique dans la Georgie et dans l'Armenie execute en 1847-1848
-                        V. II <citedRange>169</citedRange>St. Petersburg, 1850 <ptr target="bibliography.xml#b189"/>
+                        <bibl n="2"><ptr target="#b189"/> M. Brosset, Rapports sur un voyage archeologique dans la Georgie et dans l'Armenie execute en 1847-1848
+                        V. II <citedRange>169</citedRange>St. Petersburg, 1850
                         </bibl>
                     </p>
-                
+
                     <p>
-                        <bibl n="3">
-                            И.П. Ростомов, Аxалкалакский уъезд в арxеологическом отношении, <citedRange>88-89</citedRange>, 1898<ptr target="bibliography.xml#b199"/>
+                        <bibl n="3"><ptr target="#b199"/>
+                            И.П. Ростомов, Аxалкалакский уъезд в арxеологическом отношении, <citedRange>88-89</citedRange>, 1898
                         </bibl>
                     </p>
-                
+
                     <p>
-                        <bibl n="4">
-                        Е.С. Такайшвили, Христианские памятники, <citedRange>39</citedRange>, Москва, 1909<ptr target="bibliography.xml#b153"/>
+                        <bibl n="4"><ptr target="#b153"/>
+                        Е.С. Такайшвили, Христианские памятники, <citedRange>39</citedRange>, Москва, 1909
                         </bibl>
                     </p>
-                
+
                     <p>
-                        <bibl n="5">
-                        ვ. ცისკარიშვილი, ჯავახეთის ეპიგრაფიკა, როგორც საისტორიო წყარო, <citedRange>19</citedRange>, თბილისი, 1959<ptr target="bibliography.xml#b200"/>
+                        <bibl n="5"><ptr target="#b200"/>
+                        ვ. ცისკარიშვილი, ჯავახეთის ეპიგრაფიკა, როგორც საისტორიო წყარო, <citedRange>19</citedRange>, თბილისი, 1959
                         </bibl>
                     </p>
-                
+
                     <p>
-                        <bibl n="6">
+                        <bibl n="6"><ptr target="#b201"/> 
                         ნ. ბერძენიშვილი, ჯავახეთის 1933 წლის ექსპედიციის დღიური, იხ. მისი "საქართველის ისტორიის საკითხები", ისტორიული გეოგრაფია, ტ. I, <citedRange>134</citedRange>
-                        თბილისი, 1964<ptr target="bibliography.xml#b201"/>
+                        თბილისი, 1964
                         </bibl>
                     </p>
 
             </div>
-                
-                
+
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
 
                  <ab>
-                    <lb n="1"/><w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
-                     <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთისაჲ</ex><abbr>თა</abbr></expan></w> 
-                     <w lemma="მე">მე</w> 
+                    <lb n="1"/><w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w>
+                     <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთისაჲ</ex><abbr>თა</abbr></expan></w>
+                     <w lemma="მე">მე</w>
                      <persName type="local" key="გრიგოლ კუმურდოელი ეპისკოპოსი"><name nymRef="გრიგოლ"><expan><abbr>გ</abbr><ex>რი</ex><abbr>გ</abbr>
-                    <lb n="2" break="no"/><ex>ო</ex><abbr>ლ</abbr></expan></name></persName> 
-                     <roleName nymRef="ებისკოპოს"><w lemma="ებისკოპოს"><expan><abbr>ებ</abbr><ex>ი</ex><abbr>სკ</abbr><ex>ოპო</ex><abbr>სმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w></roleName> 
+                    <lb n="2" break="no"/><ex>ო</ex><abbr>ლ</abbr></expan></name></persName>
+                     <roleName nymRef="ებისკოპოს"><w lemma="ებისკოპოს"><expan><abbr>ებ</abbr><ex>ი</ex><abbr>სკ</abbr><ex>ოპო</ex><abbr>სმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w></roleName>
                      <w lemma="დებს"><expan><abbr>დ</abbr><ex>აუ</ex><abbr>დ</abbr><ex>ე</ex><abbr>ვ</abbr></expan></w>
-                    <lb n="3" /><w lemma="აღაპ"><expan><abbr>აღ</abbr><ex>ა</ex><abbr>პ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> 
+                    <lb n="3" /><w lemma="აღაპ"><expan><abbr>აღ</abbr><ex>ა</ex><abbr>პ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
                      <w lemma="დღე">დღე</w> <persName type="local" key="ეგნატე"><expan><abbr>ეგ</abbr><ex>ნა</ex><abbr>ტ</abbr><ex>ი</ex><abbr>სი</abbr></expan></persName>
-                    <lb n="4"/><persName type="local" key="გოლიათ"><name nymRef="გოლიათ"><expan><abbr>გ</abbr><ex>ო</ex><abbr>ლ</abbr><ex>ია</ex><abbr>თსა</abbr></expan></name></persName> 
+                    <lb n="4"/><persName type="local" key="გოლიათ"><name nymRef="გოლიათ"><expan><abbr>გ</abbr><ex>ო</ex><abbr>ლ</abbr><ex>ია</ex><abbr>თსა</abbr></expan></name></persName>
                      <rs type="curse"><w lemma="ვინ">ვინ</w> <w lemma="ცვლის"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ცვ</abbr>
                      <lb n="5"/><ex>ა</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ს</abbr></expan></w> <w lemma="კრულ"><expan><abbr>კრ</abbr><ex>უ</ex><abbr>ლ</abbr><ex>ი</ex><abbr>ა</abbr></expan></w> <w lemma="ამით"><expan><abbr>ამ</abbr><ex>ი</ex><abbr>თ</abbr></expan></w>
-                    <lb n="6"/><w lemma="ხატ"><expan><abbr>ხ</abbr><ex>ა</ex><abbr>ტ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> <w lemma="ჩემი"><expan><abbr>ჩ</abbr><ex>ემ</ex><abbr>ით</abbr></expan></w> 
+                    <lb n="6"/><w lemma="ხატ"><expan><abbr>ხ</abbr><ex>ა</ex><abbr>ტ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> <w lemma="ჩემი"><expan><abbr>ჩ</abbr><ex>ემ</ex><abbr>ით</abbr></expan></w>
                          <w lemma="ჯუარ"><expan><abbr>ჯ</abbr><ex>უა</ex><abbr>რ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w></rs>
                     </ab>
                 </div>
-           
+
 
             <div type="translation"/>
 

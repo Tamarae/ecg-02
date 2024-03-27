@@ -81,7 +81,7 @@
                             </handNote>
                         </handDesc>
                         <decoDesc>
-                            <decoNote/>
+                            <decoNote></decoNote>
                         </decoDesc>
                     </physDesc>
                     <history>
@@ -126,8 +126,8 @@
 
    <facsimile>
         <surface>
-            <graphic url="http://paleography.iliauni.edu.ge/digipal/page/42/">
-                <desc xml:lang="ka">ფილის ფრაგმენტები არმაზციხე-ბაგინეთიდან, 1993</desc>
+            <graphic url="ecg005.jpg">
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/42/">ფილის ფრაგმენტები არმაზციხე-ბაგინეთიდან, 1993</desc>
                 <desc xml:lang="en">Fragments of a plaque from Armaztsikhe-Bagineti, 1993</desc>
             </graphic>
         </surface>
@@ -138,10 +138,10 @@
 
             <div type="bibliography">
                 
-                    <p><bibl n="1"><ptr target="bibliography.xml#b134"/>David Braund, Anagranes the ΤΡΟΦΕΥΣ: the court of caucasian Iberia in the second-third centuries AD, <citedRange>23-34</citedRange></bibl></p>
-                    <p><bibl n="2"><ptr target="bibliography.xml#b130"/>თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 227</citedRange></bibl></p>
-                    <p><bibl n="3"><ptr target="bibliography.xml#b131"/>თინათინ ყაუხჩიშვილი, ძველი ბერძნული წარწერების შესახებ საქართველოში, <citedRange> 27-32</citedRange></bibl></p>
-                    <p><bibl n="4"><ptr target="bibliography.xml#b132"/>თინათინ ყაუხჩიშვილი, ახალი ბერძნული წარწერები არმაზციხე-ბაგინეთიდან, <citedRange> 81-93</citedRange></bibl></p>
+                    <p><bibl n="1"><ptr target="#b134"/> David Braund, Anagranes the ΤΡΟΦΕΥΣ: the court of caucasian Iberia in the second-third centuries AD, <citedRange>23-34</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 227</citedRange></bibl></p>
+                    <p><bibl n="3"><ptr target="#b131"/> თინათინ ყაუხჩიშვილი, ძველი ბერძნული წარწერების შესახებ საქართველოში, <citedRange> 27-32</citedRange></bibl></p>
+                    <p><bibl n="4"><ptr target="#b132"/> თინათინ ყაუხჩიშვილი, ახალი ბერძნული წარწერები არმაზციხე-ბაგინეთიდან, <citedRange> 81-93</citedRange></bibl></p>
                 
             </div>
 

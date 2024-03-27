@@ -47,8 +47,8 @@
                                     <layout writtenLines="2">წარწერა ორსტრიქონიანია, მისი ტექსტის უდიდესი ნაწილი წაშლილია. ზედა ნაწილში იკითხება მხოლოდ ი და ზ ასოები, 
                                     ხოლო ქვედა ნაწილში - მიჯრით ნაწერი ნ, უ და ვ
                                         <dimensions unit="cm">
-                                         <width/>
-                                         <height/> 
+                                         <width></width>
+                                         <height></height> 
                                           </dimensions>  
                                     </layout>                                   
                                 </layoutDesc>
@@ -100,11 +100,11 @@
         <body>
             <div type="bibliography">
            
-   <p><bibl n="1">შაჰბან ჰაფიზოვი, ქართული, ქართულ-ხუნძური და ხუნძური წარწერები მთიან ხუნძეთში (დაღესტანი)<ptr target="bibliography.xml#b141"/>, <citedRange> 122</citedRange></bibl></p>
+   <p><bibl n="1"><ptr target="#b141"/> შაჰბან ჰაფიზოვი, ქართული, ქართულ-ხუნძური და ხუნძური წარწერები მთიან ხუნძეთში (დაღესტანი), <citedRange> 122</citedRange></bibl></p>
              
           </div>
                      
-              <div type="edition" xml:lang="ka" ana="nuskhuri" xml:space="preserve">
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
                 
                         <!--ი ზ
                             ნუვ-->                                                       

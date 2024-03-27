@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
     <teiHeader>
@@ -25,9 +25,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259"></objectType> <!-- დასაზუსტებელია ობიექტის ტიპი -->
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75"></material>  <!-- დასაზუსტებელია მასალა, სავარაუდოდ, იგივე რაც ფასადის ქართულ წარწერებში -->                                 
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75"></material>  <!-- დასაზუსტებელია მასალა, სავარაუდოდ, იგივე რაც ფასადის ქართულ წარწერებში -->
                                       <dimensions unit="cm">
                                         <width/>
                                         <height/>
@@ -38,11 +38,11 @@
                                     <layout>
                                       <dimensions unit="cm">
                                          <width/>
-                                         <height/> 
-                                      </dimensions>  
-                                    </layout>                                   
+                                         <height/>
+                                      </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
                                     რელიეფის ზედა კიდეზე, წინა წარწერიდან მარჯვნივ ორი გრაფემა სომხური მრგლოვანი ასომთავრულით (ერკათაგირ)(S=4X8)
@@ -50,7 +50,7 @@
                                    </height>
                                     <width/>
                                     <depth/>
-                                    
+
                             </handNote>
                         </handDesc>
                         <decoDesc>
@@ -63,16 +63,16 @@
                                 <origDate  datingMethod="#julian">982-986 AD</origDate> <!--evidence="lettering" ?? სანახავია დათარიღების საფუძველი-->>
                             </origin>
                             <provenance type="found" when="1993">
-                                <placeName type ="ancientFindspot" ref="http://pleiades.stoa.org/places/863799">ატენის სიონი</placeName> 
+                                <placeName type ="ancientFindspot" ref="http://pleiades.stoa.org/places/863799">ატენის სიონი</placeName>
                                 <rs type="circumstances"/>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                                
+                            </provenance>
                             <provenance type="observed" when="2016">
                                 <placeName type="modernSpot">ატენის სიონი</placeName>
                                 <idno type="invNo"/>
-                            </provenance> 
-                    </history>                   
+                            </provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -82,41 +82,44 @@
 </encodingDesc>
     </teiHeader>
     <text>
-        <body>           
+        <body>
               <div type="bibliography" subtype="principalEdition">
-                   
-                    <p><bibl></bibl></p>
-    
+
+                <p><bibl n="1">
+                    <ptr target="#b185"/> ზაზა ალექსიძე, ატენის სიონის სომხური წარწერები
+
+                </bibl></p>
+
               </div>
-            
+
             <div type="edition" xml:lang="hy" xml:space="preserve">
-                
+
                         <!--  ՍԱ
                             ԱՄ
-  --> 
-                                                         
+  -->
+
                 <ab>
                    <lb n="1"/><persName type="local" key="სამსონ (Սամսոն)">Սա<supplied reason="lost" precision="medium">մսոն</supplied></persName>
                     <lb n="2"/><persName type="local" key="აბაკუმ (Ամբակում)">Ամ<supplied reason="lost" precision="medium">բակում</supplied></persName>
                 </ab>
-                
+
                </div>
-            
+
          <div type="translation" xml:lang="ka">
              <p>სამსონ, აბაკუმ</p>
-         </div>    
+         </div>
           <div type="translation" xml:lang="hy">
              <p>Սամսոն, Ամբակում</p>
-         </div> 
-                               
+         </div>
+
             <div type="apparatus" xml:space="preserve">
             </div>
-            
-                
-            <div type="commentary">           
+
+
+            <div type="commentary">
             </div>
 
-            
+
         </body>
     </text>
 </TEI>

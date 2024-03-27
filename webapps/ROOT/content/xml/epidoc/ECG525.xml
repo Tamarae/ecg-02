@@ -93,7 +93,7 @@
         <body>
            <div type="bibliography">
                
-                <p><bibl n="1">წარწერა გამოცემული არ არის<ptr target="bibliography.xml#b"/><citedRange></citedRange>2020</bibl></p>
+                <p><bibl n="1">წარწერა გამოცემული არ არის<ptr target="#b"/><citedRange></citedRange>2020</bibl></p>
 
             
            </div>

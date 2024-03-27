@@ -25,31 +25,31 @@
                         <collection>
                            არმაზი
                         </collection>
-                    </msIdentifier>                    
+                    </msIdentifier>
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მემორიალური</seg>
                             <seg xml:lang="en"/>
                         </summary>
-                    </msContents> 
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material ref="http://www.eagle-network.eu/voc/material/lod/112">ოქრო</material>
                                    <objectType>ქამრის ბალთა</objectType></support></supportDesc>
                                 <layoutDesc>
-                                    <layout>                               
+                                    <layout>
                                          <dimensions unit="mm">
                                         <width>8</width>
                                         <height>21</height>
                                         <depth></depth></dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>წარწერა შესრულებული წრიულად ბერძნული, ასომთავრული საგანგებოდ გამოყვანილი ასოებით. წარწერაში ნაწილი (ქალის სახელი) ნეგატიურადაა ამოკვეთილი, 
+                                <p>წარწერა შესრულებული წრიულად ბერძნული, ასომთავრული საგანგებოდ გამოყვანილი ასოებით. წარწერაში ნაწილი (ქალის სახელი) ნეგატიურადაა ამოკვეთილი,
                                 ნაწილი - შერეულად.</p>
                                 <height unit="cm" precision="medium"></height>
                                 <width unit="cm" precision="medium"></width>
@@ -62,20 +62,20 @@
                     <history>
                             <origin>
                                 <origPlace>არმაზისხევი</origPlace>
-                                <origDate notBefore-custom="0101" notAfter-custom="0200" precision="medium" 
+                                <origDate notBefore-custom="0101" notAfter-custom="0200" precision="medium"
                                     evidence="lettering" datingMethod="#julian">II AD</origDate>
                               </origin>
                             <provenance type="found" when="1940">
-                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863746">არმაზისხევი</placeName> 
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863746">არმაზისხევი</placeName>
                                 <rs type="circumstances">ნივთი მოპოვებულია ე.წ. ასპავრუკის სამარხში.</rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                      
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">საქართველოს მუზეუმი</placeName>
                             <idno>Nა40/I48</idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -95,57 +95,45 @@
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 259-260</citedRange></bibl></p>
-                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 260-261</citedRange></bibl></p>
-                    <p><bibl n="3">ს. ყაუხჩიშვილი, არმაზში აღმოჩენილი ბერძნული წარწერები<ptr target="bibliography.xml#b171"/>, <citedRange> 169-170</citedRange></bibl></p>
-                    <p><bibl n="4">თინათინ ყაუხჩიშვილი, საქართველოს ისტორიის ძველი ბერძნული წყაროები<ptr target="bibliography.xml#b136"/>, <citedRange> 250-251</citedRange></bibl></p>
-                    <p><bibl n="5">მარგ. ლორთქიფანიძე, არმაზხევსა და ბაგინეთზე აღმოჩენილი გლიპტიკური ძეგლები<ptr target="bibliography.xml#b172"/><citedRange></citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 259-260</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b80"/> თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში, <citedRange> 260-261</citedRange></bibl></p>
+                    <p><bibl n="3">ს. ყაუხჩიშვილი, არმაზში აღმოჩენილი ბერძნული წარწერები<ptr target="#b171"/>, <citedRange> 169-170</citedRange></bibl></p>
+                    <p><bibl n="4">თინათინ ყაუხჩიშვილი, საქართველოს ისტორიის ძველი ბერძნული წყაროები<ptr target="#b136"/>, <citedRange> 250-251</citedRange></bibl></p>
+                    <p><bibl n="5">მარგ. ლორთქიფანიძე, არმაზხევსა და ბაგინეთზე აღმოჩენილი გლიპტიკური ძეგლები<ptr target="#b172"/><citedRange></citedRange></bibl></p>
+
             </div>
-              
+
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!-- Ζευάχης ζωή μου, Καρπάκ -->
-                     
-            
- 
+
+
+
          <ab>
              <persName><name nymRef="Ζευάχης">Ζευάχης</name></persName> <w lemma="ζωή">ζωή</w> <w lemma="ἐμός">μου</w> <persName><name nymRef="Καρπάκ">Καρπάκ</name></persName>
-         </ab>    
-             
-         
+         </ab>
+
+
             </div>
-                
+
             <div type="translation" xml:lang="ka">
                 <p>ზევახეს ჩემი სიცოცხლე, კარპაკი.</p>
             </div>
-            
-           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p><app><lem></lem>
-              <rdg></rdg>
-              </app></p>
-            </div>
-           
+
+           <div type="apparatus" xml:space="preserve"/>                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+
+
+
             <div type="commentary">
                 <p>ეს არის წარჩინებული ცოლ-ქმრის გამოსახულება და ცოლი ქმარს ამგვარად მიმართავს. ნივთი კარპაკის საბეჭდავი უნდა იყოს (მისი სახელია ნეგატიურად ამოკვეთილი).</p>
-                <p>სპეციალისტთა აზრით, კარპაკი და ზევახესი სერაფიტის და ასპავრუკ პიტიახშის მშობლები არიან. "კარპაკი" მხოლოდ ამ წარწერის მიხედვით ცნობილი, ირანული სახელია. 
+                <p>სპეციალისტთა აზრით, კარპაკი და ზევახესი სერაფიტის და ასპავრუკ პიტიახშის მშობლები არიან. "კარპაკი" მხოლოდ ამ წარწერის მიხედვით ცნობილი, ირანული სახელია.
                 "ზევახესი" საქართველოს ბერძნულ წარწერებში რამდენჯერმე გვხვდება. მის სადაურობაზე სხვადასხვა აზრი არსებობს, ნივთი ადგილობრივ ნახელავად არის მიჩნეული.</p>
-                <p>ასოთა მოხაზულობა (μ, σ, υ, ε კუთხეებში საგანგებო ჩაღრმავებებით) და ენობრივი მონაცმი (ο და ω-ს ხმარების აღრევა -ζοη) მიუთითებენ რომაულ ხანაზე, ე.ი. ჩვენი წ.ა. 
-                I საუკუნეებზე. ისტორიული რეალიების გათვალისწინებით (არმაზის ბილინგვა, არმაზისხევის სამარხებისა და იქ დაცული ინვენტარის თარიღები) ნივთი და მისი წარწერა 
+                <p>ასოთა მოხაზულობა (μ, σ, υ, ε კუთხეებში საგანგებო ჩაღრმავებებით) და ენობრივი მონაცმი (ο და ω-ს ხმარების აღრევა -ζοη) მიუთითებენ რომაულ ხანაზე, ე.ი. ჩვენი წ.ა.
+                I საუკუნეებზე. ისტორიული რეალიების გათვალისწინებით (არმაზის ბილინგვა, არმაზისხევის სამარხებისა და იქ დაცული ინვენტარის თარიღები) ნივთი და მისი წარწერა
                 II ს-ით თარიღდება.</p>
             </div>
- 
+
          </body>
     </text>
 </TEI>
-
-
-
-
-
-
-
-
-

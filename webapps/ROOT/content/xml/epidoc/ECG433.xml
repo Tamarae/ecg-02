@@ -34,14 +34,14 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material></material>
                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/123">ხატი</objectType></support></supportDesc>
                                 <layoutDesc>
                                     <layout>
-                                     ხობის ღვთისმშობლის ხატი, ქართული ხელობისაა, ირგვლივ, ჩარჩოზე მედალიონებით, რომლებზედაც ქართული წარწერებია. ხატის ქვედა არშიაზე არის 
-                                     ჭედური ქართული ასომთავრული წარწერა ლეონ (აფხაზთა) მეფის მომხსენიებელი (ე.ი. თვით ხატი X ს-ისაა). ღვთისმშობლის შარავანდს აქეთ-იქით იყო 
-                                     2 მედალიონი. ამჟამად ერთი ზედვეა (ირიბად ჩასმული), ხოლო მეორე სეიფშია დაცული. მათი დიამეტრია 3 სმ-ია. ზედ წერია, ყვითელ ფონზე წითელი 
+                                     ხობის ღვთისმშობლის ხატი, ქართული ხელობისაა, ირგვლივ, ჩარჩოზე მედალიონებით, რომლებზედაც ქართული წარწერებია. ხატის ქვედა არშიაზე არის
+                                     ჭედური ქართული ასომთავრული წარწერა ლეონ (აფხაზთა) მეფის მომხსენიებელი (ე.ი. თვით ხატი X ს-ისაა). ღვთისმშობლის შარავანდს აქეთ-იქით იყო
+                                     2 მედალიონი. ამჟამად ერთი ზედვეა (ირიბად ჩასმული), ხოლო მეორე სეიფშია დაცული. მათი დიამეტრია 3 სმ-ია. ზედ წერია, ყვითელ ფონზე წითელი
                                      მინანქრით ბერძნული ასოები. მედალიონები X ს-ითაა დათარიღებული და მიჩნეულია ქართულ ნაახელავად. ხატს ზურგზეც აქვს წარწერა.
                                             <dimensions unit="cm">
                                                 <width/>
@@ -50,9 +50,9 @@
                                             </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
-                            <handNote> 
+                            <handNote>
                                 <height/>
                                 <width/>
                              </handNote>
@@ -61,20 +61,20 @@
                     <history>
                             <origin>
                                 <origPlace>ხობი</origPlace>
-                                <origDate notBefore-custom="0901" notAfter-custom="1000" precision="medium" 
+                                <origDate notBefore-custom="0901" notAfter-custom="1000" precision="medium"
                                     evidence="lettering" datingMethod="#julian">X AD</origDate>
                               </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot">ხობის ღვთისმშობლის ეკლესია</placeName> 
+                                <placeName type ="ancientFindspot">ხობის ღვთისმშობლის ეკლესია</placeName>
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                         
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">ხობი</placeName>
                             <idno/>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -94,41 +94,41 @@
     <text>
         <body>
              <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 286-287</citedRange></bibl></p>
-                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 275-276</citedRange></bibl></p>
-                    <p><bibl n="1">ექ. თაყაიშვილი, არხეოლოგიური მოგზაურობანი და შენიშვნანი<ptr target="bibliography.xml#b184"/>, <citedRange> 140</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 286-287</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b80"/> თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში, <citedRange> 275-276</citedRange></bibl></p>
+                    <p><bibl n="1"><ptr target="#b184"/> ექ. თაყაიშვილი, არხეოლოგიური მოგზაურობანი და შენიშვნანი, <citedRange> 140</citedRange></bibl></p>
+
             </div>
- 
+
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!-- ΜΡ ΘΥ Μ[ήτη]ρ θ[εο]ῦ
-                            ΙC ΧC  ΝΙΚΑ   Ἰ[ησοῦ]ς Χ[ριστό]ς νικᾷ 
+                            ΙC ΧC  ΝΙΚΑ   Ἰ[ησοῦ]ς Χ[ριστό]ς νικᾷ
                           -->
-                     
-            
+
+
          <div type="textpart" subtype="section" n="1">
          <ab>
-           <w lemma="μήτηρ"><expan><abbr>μ</abbr><ex>ήτη</ex><abbr>ρ</abbr></expan></w> <w lemma="θεός"><expan><abbr>θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan></w> 
-         </ab>    
-          </div> 
+           <w lemma="μήτηρ"><expan><abbr>μ</abbr><ex>ήτη</ex><abbr>ρ</abbr></expan></w> <w lemma="θεός"><expan><abbr>θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan></w>
+         </ab>
+          </div>
                 <div type="textpart" subtype="section" n="2">
          <ab>
             <persName type="divine"><name nymRef="Ἰησοῦς"><expan><abbr>Ἰ</abbr><ex>ησοῦ</ex><abbr>ς</abbr></expan></name> <name nymRef="Χριστός"><expan><abbr>Χ</abbr><ex>ριστό</ex><abbr>ς</abbr></expan></name></persName>
      <!--        <w lemma="νικάω"><expan><ex>νι</ex><supplied reason="subaudible"><abbr>κ</abbr></supplied><abbr>ᾷ</abbr></expan></w>  -->
-         </ab>    
-          </div>  
-                
+         </ab>
+          </div>
+
             </div>
-            
+
             <div type="translation" subtype="section" n="1" xml:lang="ka">
                 <p>დედა ღმრთისა</p>
             </div>
             <div type="translation" subtype="section" n="2" xml:lang="ka">
                 <p>იესუ ქრისტე ძლევაჲ</p>
             </div>
-            
+
             <div type="apparatus" xml:space="preserve">                                                               <!-- კრიტიკული აპარატი -->
               <head>კრიტიკული აპარატი</head>
               <p>
@@ -138,12 +138,12 @@
                  </app>
               </p>
             </div>
-           
+
             <div type="commentary">
-                <p>ექ. თაყაიშვილს ამ ხატთან დაკავშირებით მოაქვს ბერძნული წარწერა ΓΡΕΠΚΟΟC, რაც ახლა აღარ იკითხება. ეს უნდა იყოს ღვთისმშობლის ეპითეტი: γοργοϋπήκοος - მალიადმორჩილი 
-                (ასეთივე ეპითეტი არის ადიშის ხატზედაც. ხელოვნებათმცოდნეთ მიაჩნიათ, რომ ეს ხატი არის "ღვთისმშობლი მოწყალე" (eleusa). შდრ. ლ. ხუსკივაძე...  84 (და მაშასადამე, 
+                <p>ექ. თაყაიშვილს ამ ხატთან დაკავშირებით მოაქვს ბერძნული წარწერა ΓΡΕΠΚΟΟC, რაც ახლა აღარ იკითხება. ეს უნდა იყოს ღვთისმშობლის ეპითეტი: γοργοϋπήκοος - მალიადმორჩილი
+                (ასეთივე ეპითეტი არის ადიშის ხატზედაც. ხელოვნებათმცოდნეთ მიაჩნიათ, რომ ეს ხატი არის "ღვთისმშობლი მოწყალე" (eleusa). შდრ. ლ. ხუსკივაძე...  84 (და მაშასადამე,
                 არა "მალიადმორჩილი").</p>
-                <p>შემორჩენილ ბერძნულ წარწერათა დათარიღება ქართული წარწერისა და მინანქართა მხატვრული ანალიზის მიხედვით ხდება. ბერძნული ეპიგრაფიკულ-პალეოგრაფიული მონაცემები 
+                <p>შემორჩენილ ბერძნულ წარწერათა დათარიღება ქართული წარწერისა და მინანქართა მხატვრული ანალიზის მიხედვით ხდება. ბერძნული ეპიგრაფიკულ-პალეოგრაფიული მონაცემები
                 მხარს უჭერს ამ დათარიღებას.</p>
                 </div>
         </body>

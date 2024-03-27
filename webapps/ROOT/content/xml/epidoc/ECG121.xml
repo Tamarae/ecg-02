@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>საფარის წმ. საბას ტაძრის ოქროპირ გაბეცასძის წარწერა</title>
-                <editor>ვალერი სილოგავა</editor>       
+                <editor>ვალერი სილოგავა</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
@@ -31,9 +31,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
                                       <dimensions unit="cm">
                                         <width/>
                                         <height/>
@@ -45,36 +45,36 @@
                                     <layout writtenLines="4">წარწერა ოთხსტრიქონიანია
                                         <dimensions unit="cm">
                                          <width/>
-                                         <height/> 
-                                       </dimensions>  
-                                    </layout>                                   
+                                         <height/>
+                                       </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asmotavruli" style="inscribed">
                                 <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა. კიდურწაისრული
-                                   <height/> 
+                                   <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                             <origin>
                                 <origPlace>საფარის მონასტრის წმ. საბას ტაძარი</origPlace>
-                                 <origDate notBefore-custom="1200" notAfter-custom="1300" precision="medium" evidence="context" 
+                                 <origDate notBefore-custom="1200" notAfter-custom="1300" precision="medium" evidence="context"
                                      datingMethod="#julian">XIII AD</origDate>
                             </origin>
                             <provenance type="found">
                                 <placeName type ="ancientFindspot">საფარის მონასტრის წმ. საბას ტაძარი</placeName>
-                                <!-- "41.602116, 43.031036"--> 
+                                <!-- "41.602116, 43.031036"-->
                                 <rs type="circumstances"/>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                                
+                            </provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot">საფარის მონასტრის წმ. საბას ტაძარი</placeName>
                                 <idno type="invNo"/>
-                            </provenance> 
-                    </history>                   
+                            </provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -82,7 +82,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <facsimile>
@@ -94,69 +94,69 @@
         </surface>
     </facsimile>
     <text>
-        <body>           
+        <body>
              <div type="bibliography">
-               
-<p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
-               
+
+<p><bibl n="1"><ptr target="#b149"/> ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა, <citedRange> 118-169</citedRange></bibl></p>
+
             </div>
-                
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!-- "სხთ ღსთ მე ოქრპმნ გბცას
                               ძემნ შემსრა რკ ბოტნტი ზა სფქლვდ
                               გმკს სკნი აპი სფლნი პს დღსსწლსა აღბსა
-                              დღს ვნეს გგბლი შეცვლს კრლმცარს ღთს პრთ"--> 
-                                                            
+                              დღს ვნეს გგბლი შეცვლს კრლმცარს ღთს პრთ"-->
+
                 <ab>
-                   <lb n="1"/><w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ელი</ex><abbr>თ</abbr><ex>ა</ex></expan></w> 
-                                <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთი</ex><abbr>ს</abbr><ex>აჲ</ex><abbr>თ</abbr><ex>ა</ex></expan></w> 
-                            <w lemma="მე">მე</w> 
-                            <name nymRef="ოქროპირ გაბეცასძე"><expan><abbr>ოქრ</abbr><ex>ო</ex><abbr>პ</abbr><ex>ირ</ex><abbr>მ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></name> 
-                            <name><expan><abbr>გ</abbr><ex>ა</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ცას</abbr></expan></name>        
-                   <lb n="2"/><w lemma="ძე"><expan><abbr>ძემ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
+                   <lb n="1"/><w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ელი</ex><abbr>თ</abbr><ex>ა</ex></expan></w>
+                                <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთი</ex><abbr>ს</abbr><ex>აჲ</ex><abbr>თ</abbr><ex>ა</ex></expan></w>
+                            <w lemma="მე">მე</w>
+                            <name nymRef="ოქროპირ გაბეცასძე"><expan><abbr>ოქრ</abbr><ex>ო</ex><abbr>პ</abbr><ex>ირ</ex><abbr>მ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></name>
+                            <name><expan><abbr>გ</abbr><ex>ა</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ცას</abbr></expan></name>
+                   <lb n="2"/><w lemma="ძე"><expan><abbr>ძემ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
                                 <w lemma="შეწირვა"><expan><abbr>შემ</abbr><ex>ო</ex><abbr>სწ</abbr><ex>ი</ex><abbr>რა</abbr></expan></w>
-                                <num value="120">რკ</num> 
-                                <w lemma="ბოტინატი"><expan><abbr>ბოტ</abbr><ex>ი</ex><abbr>ნ</abbr><ex>ა</ex><abbr>ტი</abbr></expan></w> 
+                                <num value="120">რკ</num>
+                                <w lemma="ბოტინატი"><expan><abbr>ბოტ</abbr><ex>ი</ex><abbr>ნ</abbr><ex>ა</ex><abbr>ტი</abbr></expan></w>
                                 <w lemma="ზედაფიქალვა"><expan><abbr>ზ</abbr><ex>ედ</ex><abbr>ას</abbr><ex>ა</ex><abbr>ფ</abbr><ex>ი</ex><abbr>ქლ</abbr><ex>ა</ex><abbr>ვ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
-                   <lb n="3"/><w lemma="გაკუეთა"><expan><abbr>გ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ი</ex><abbr>კ</abbr><ex>უეთ</ex><abbr>ს</abbr></expan></w> 
-                                <w lemma="საუკუნო"><expan><abbr>ს</abbr><ex>აუ</ex><abbr>კ</abbr><ex>უ</ex><abbr>ნ</abbr><ex>ო</ex><abbr>ი</abbr></expan></w> 
-                            <w lemma="აღაპ"><expan><abbr>ა</abbr><ex>ღა</ex><abbr>პი</abbr></expan></w> 
-                            <w lemma="საუფლო"><expan><abbr>ს</abbr><ex>აუ</ex><abbr>ფლ</abbr><ex>ო</ex><abbr>ი</abbr></expan></w> 
-                            <w lemma="პირველ"><expan><abbr>პ</abbr><ex>ირველ</ex><abbr>ს</abbr></expan></w> 
-                            <w lemma="დღესასწაულ"><expan><abbr>დღ</abbr><ex>ე</ex><abbr></abbr><ex>ა</ex><abbr>სწ</abbr><ex>აუ</ex><abbr>ლსა</abbr></expan></w> 
+                   <lb n="3"/><w lemma="გაკუეთა"><expan><abbr>გ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ი</ex><abbr>კ</abbr><ex>უეთ</ex><abbr>ს</abbr></expan></w>
+                                <w lemma="საუკუნო"><expan><abbr>ს</abbr><ex>აუ</ex><abbr>კ</abbr><ex>უ</ex><abbr>ნ</abbr><ex>ო</ex><abbr>ი</abbr></expan></w>
+                            <w lemma="აღაპ"><expan><abbr>ა</abbr><ex>ღა</ex><abbr>პი</abbr></expan></w>
+                            <w lemma="საუფლო"><expan><abbr>ს</abbr><ex>აუ</ex><abbr>ფლ</abbr><ex>ო</ex><abbr>ი</abbr></expan></w>
+                            <w lemma="პირველ"><expan><abbr>პ</abbr><ex>ირველ</ex><abbr>ს</abbr></expan></w>
+                            <w lemma="დღესასწაულ"><expan><abbr>დღ</abbr><ex>ე</ex><abbr></abbr><ex>ა</ex><abbr>სწ</abbr><ex>აუ</ex><abbr>ლსა</abbr></expan></w>
                             <w lemma="აღება"><expan><abbr>აღ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w>
-                   <lb n="4"/><w lemma="დღე"><expan><abbr>დღ</abbr><ex>ე</ex><abbr>ს</abbr><ex>ა</ex></expan></w> 
+                   <lb n="4"/><w lemma="დღე"><expan><abbr>დღ</abbr><ex>ე</ex><abbr>ს</abbr><ex>ა</ex></expan></w>
                             <w lemma="ვინ"><expan><abbr>ვ</abbr><ex>ი</ex><abbr>ნ</abbr></expan></w>
-                            <w lemma="ესე">ეს</w> 
-                            <w lemma="განგებულ"><expan><abbr>გ</abbr><ex>ან</ex><abbr>გ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>უ</ex><abbr>ლი</abbr></expan></w> 
-                            <w lemma="შეცვლა"><expan><abbr>შეცვ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ს</abbr></expan></w> 
+                            <w lemma="ესე">ეს</w>
+                            <w lemma="განგებულ"><expan><abbr>გ</abbr><ex>ან</ex><abbr>გ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>უ</ex><abbr>ლი</abbr></expan></w>
+                            <w lemma="შეცვლა"><expan><abbr>შეცვ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ს</abbr></expan></w>
                             <w lemma="კრულ"><expan><abbr>კრ</abbr><ex>უ</ex><abbr>ლ</abbr><ex>ი</ex><abbr>მც</abbr></expan></w>
-                            <w lemma="ყოფა">არს</w> 
-                            <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr><ex>ი</ex><abbr>ს</abbr></expan></w> 
+                            <w lemma="ყოფა">არს</w>
+                            <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr><ex>ი</ex><abbr>ს</abbr></expan></w>
                             <w lemma="პირ"><expan><abbr>პ</abbr><ex>ი</ex><abbr>რ</abbr><ex>ი</ex><abbr>თ</abbr></expan></w>
                    </ab>
-               </div>           
+               </div>
          <div type="translation" xml:lang="ka">
-             <p>ღმრთის სახელით, მე, ოქროპირ გაბეცასძემ, შევწირე 120 ბოტინატი ეკლესიის გადასახურად (დასაფიქალავად). 
+             <p>ღმრთის სახელით, მე, ოქროპირ გაბეცასძემ, შევწირე 120 ბოტინატი ეკლესიის გადასახურად (დასაფიქალავად).
                  დამიდგენია საუკუნო აღაპი: პირველი საუფლო დღესასწაულის (შობის)
              აღების დღეს. ვინც ეს განგებულება შეცვალოს, კრულ იყოს ღმრთის პირით.</p>
-         </div>    
-                             
+         </div>
+
                <div type="commentary">
                 <p>საფარის მონასტერი ძველი დროიდანვე სხვადასხვა დანიშნულების 12 ნაგებობისაგან შედგებოდა. მათ შორის მთავარია წმ. საბას
                    სახელობის ტაძარი, აგებული ბექა სამცხის სპასალარისა და მანდატურთუხუცესის მიერ XIII-XIV სს. მიჯნაზე. საფარაში ამაზე ძველი ეკლესიაც არსებობს, X ს-ის
                    ღვთისმშობლის მიძინების სახელობის ტაძარი, რომელსაც ჩრდილოეთიდან მიდგმული აქვს ზემოხსენებული წმ. საბას ტაძარი.
                    საფარის წმ. საბას ტაძრის დასავლეთის შესასვლელის დიდი ზომის არქიტრავზე ქვემოდან ზემოთ
-                   ერთმანეთის თანმიმდევრობით ამოკვეთილია სამი წარწერა-საბუთი. ზემოდან პირველი წარწერა არის ოქროპირ გაბეცასძის მიერ ეკლესიის 
+                   ერთმანეთის თანმიმდევრობით ამოკვეთილია სამი წარწერა-საბუთი. ზემოდან პირველი წარწერა არის ოქროპირ გაბეცასძის მიერ ეკლესიის
                    ქვის ფილებით გადასახურად 120 ბოტინატის შეწირვის შესახებ, მეორე - იოვანე ღვიას შვილის წარწერა, ხოლო მესამე - გიორგი მალეს წარწერა კარის შეწირვის შესახებ.
                 წარწერის მიხედვით, ოქროპირ გაბეცაძისთვის ამ შეწირულობის სანაცვლოდ საუკუნო აღაპი დაუდგენიათ „საუფლოი პირველს დღესასწაულსა აღებასა დღესა“. პირველი საუფლო
                 დღესასწაული შობაა და ამ დღესასწაულის აღების, ე.ი. მარხვის დამთავრების დღეა დადგენილი გაბეცაძის აღაპად. ტექსტის სიტყვა „განგებულთან“(გგბლი) დაკავშრებით
-                ვახტანგ ბერიძე შენიშნავს: იგი „თაყაიშვილს ამოშფრული აქვს, როგორც „გაგებული“, მაგრამ კონტექსტი, ჩვენი აზრით, „გარიგებულს“ მოითხოვს 
+                ვახტანგ ბერიძე შენიშნავს: იგი „თაყაიშვილს ამოშფრული აქვს, როგორც „გაგებული“, მაგრამ კონტექსტი, ჩვენი აზრით, „გარიგებულს“ მოითხოვს
                 (ვახტანგ ბერიძე, სამცხის ხუროთმოძღვრება, XIII-XVI საუკუნეები, თბ. 1955,  52). ვალერი სილოგავას აზრით, აქ უნდა წავიკითხოთ „განგებული“ (ე.ი.
-                დადგენილი, დაწესებული), რაც ჩვეულებრივია აღაპის გაჩენის შემთხვევაში. თუმცა ერთ ადგილას თვით აღაპების ტექსტში გამოყენებულია „გაგებული“: 
-                „ვინცა ესე ჩუენი გაგებული შეცვალოს“ (ნ. ბერძენიშვილი, ათონის ივერთა მონასტრის აღაპები, თბ., 2007,  265; ე. მეტრეველი, ათონის ქართველთა მონასტრის 
-                სააღაპე წიგნი, თბ., 1998,  176). ამიტომ ე. თაყაიშვილისეული წაკითხვა და მოსაზრება უფრო სწორი ჩანს.</p>                
+                დადგენილი, დაწესებული), რაც ჩვეულებრივია აღაპის გაჩენის შემთხვევაში. თუმცა ერთ ადგილას თვით აღაპების ტექსტში გამოყენებულია „გაგებული“:
+                „ვინცა ესე ჩუენი გაგებული შეცვალოს“ (ნ. ბერძენიშვილი, ათონის ივერთა მონასტრის აღაპები, თბ., 2007,  265; ე. მეტრეველი, ათონის ქართველთა მონასტრის
+                სააღაპე წიგნი, თბ., 1998,  176). ამიტომ ე. თაყაიშვილისეული წაკითხვა და მოსაზრება უფრო სწორი ჩანს.</p>
             </div>
         </body>
     </text>

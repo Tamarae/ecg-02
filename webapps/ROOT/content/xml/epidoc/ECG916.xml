@@ -5,12 +5,11 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="ka">ჭყონდიდის კალატოზ მიქაელ ოპიზარის წარწერა, [996 წ.]</title>
-                <editor xml:lang="ka">ვალერი სილოგავა</editor>
+                <title>ჭყონდიდის კალატოზ მიქაელ ოპიზარის წარწერა, [996 წ.]</title>
+                <editor>ვალერი სილოგავა</editor>
             </titleStmt>
             <publicationStmt>
-                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
-                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
+                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
                  <idno type="filename">ECG916</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
@@ -36,10 +35,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
-                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/416">კედელი</objectType>
-                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
-                                   <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/416">Wall</objectType>
+                                   <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/416">კედელი</objectType>
                                    </support>
                                    </supportDesc>
                                 <layoutDesc>
@@ -60,21 +57,15 @@
                     <history>
 
                            <origin>
-                                <origPlace>
-                                    <seg xml:lang="ka">ჭყონდიდი</seg>
-                            <seg xml:lang="en">Chkondidi</seg>
-                                </origPlace>
+                                <origPlace>ჭყონდიდი</origPlace>
                                 <origDate>996</origDate>
                             </origin>
 
                         <provenance type="found" when="1937">
-                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">
-                                <seg xml:lang="ka">ჭყონდიდი</seg>
-                            <seg xml:lang="en">Chkondidi</seg>
-                            </placeName>
+                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">ჭყონდიდი</placeName>
                             <!--  -->
-                            <rs type="monuList"/>
-                            <rs type="circumstances"/>
+                            <rs type="monuList"></rs>
+                            <rs type="circumstances"></rs>
                             <rs type="context"/>
                         </provenance>
 
@@ -106,13 +97,18 @@
     -->
     <text>
         <body>
+          <div type="bibliography">
+
+                   <p><bibl n="1"><ptr target="#b119"/> ვალერი სილოგავა, სამეგრელო-აფხაზეთის ქართული ეპიგრაფიკა, <citedRange>52</citedRange></bibl></p>
+
+          </div>
             <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
 
                         <!-- ქ(რისტ)ე შ(ეიწყალ)ე მ(ი)ქ(აე)ლ | გ(ა)ლ(ა)ტ(ო)ზი ოპ(ი)ზ(ა)რი -->
 
 
                  <ab>
-                     <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
+                     <persName type="divine" ref="divine.xml#iesous"><name nymRef="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></name></persName>
                      <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w>
                      <persName type="local" key="მიქაელ ოპიზარი [ჭყონდიდის კალატოზი]"><name nymRef="კალატოზი მიქაელ ოპიზარი"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>აე</ex><abbr>ლ</abbr></expan></name>
                     <roleName nymRef="გალატოზ"><expan><abbr>გ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ა</ex><abbr>ტ</abbr><ex>ო</ex><abbr>ზი</abbr></expan></roleName>
@@ -130,15 +126,11 @@
            <div type="apparatus" xml:space="preserve"/>
 
             <div type="commentary">
-                <p>ვ. სილოგავა: სანათლავის საამშენებლო წარწერა კალატოზ მიქაელ ოპიზარის წარწერასთან ერთად დაიღუპა XIXს-ის შუა ხანებში (1850 წ.) ტაძრის შეკეთების და მისი ფასადების ხელახალი, ზოგიერთ ადგილას ნაწილობრივი,
+                <p>ვ. სილოგავა: სანათლავის საამშენებლო წარწერა <ref sameAs="ECG916">კალატოზ მიქაელ ოპიზარის წარწერასთან</ref> ერთად დაიღუპა XIXს-ის შუა ხანებში (1850 წ.) ტაძრის შეკეთების და მისი ფასადების ხელახალი, ზოგიერთ ადგილას ნაწილობრივი,
                 მოპირკეთების დროს.</p>
             </div>
 
-            <div type="bibliography">
-                
-                     <p><bibl n="1">ვალერი სილოგავა, სამეგრელო-აფხაზეთის ქართული ეპიგრაფიკა <ptr target="bibliography.xml#b119"/>, <citedRange>52</citedRange></bibl></p>
-                
-            </div>
+
         </body>
     </text>
 </TEI>

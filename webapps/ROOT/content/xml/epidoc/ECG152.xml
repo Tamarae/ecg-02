@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
     <teiHeader>
@@ -25,9 +25,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259"></objectType> <!-- დასაზუსტებელია ობიექტის ტიპი -->
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75"></material>  <!-- დასაზუსტებელია მასალა, სავარაუდოდ, იგივე რაც ფასადის ქართულ წარწერებში -->                                 
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75"></material>  <!-- დასაზუსტებელია მასალა, სავარაუდოდ, იგივე რაც ფასადის ქართულ წარწერებში -->
                                       <dimensions unit="cm">
                                         <width>29</width>
                                         <height>26</height>
@@ -38,17 +38,17 @@
                                     <layout>
                                       <dimensions unit="cm">
                                          <width/>
-                                         <height/> 
-                                      </dimensions>  
-                                    </layout>                                   
+                                         <height/>
+                                      </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
-                                    ოთხ ხაზში დაწერილი ნუსხური, რომელშიც შერეულია რამდენიმე კუთხოვანი 
-                                    ასომთავრული ან ნუსხურზე გარდამავალი გრაფემა. 
+                                    ოთხ ხაზში დაწერილი ნუსხური, რომელშიც შერეულია რამდენიმე კუთხოვანი
+                                    ასომთავრული ან ნუსხურზე გარდამავალი გრაფემა.
                                    <height unit="cm">
-                                   </height> 
+                                   </height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -58,16 +58,16 @@
                                 <origDate  datingMethod="#julian">982-986 AD</origDate> <!--evidence="lettering" ?? სანახავია დათარიღების საფუძველი-->>
                             </origin>
                             <provenance type="found" when="1993">
-                                <placeName type ="ancientFindspot" ref="http://pleiades.stoa.org/places/863799">ატენის სიონი</placeName> 
+                                <placeName type ="ancientFindspot" ref="http://pleiades.stoa.org/places/863799">ატენის სიონი</placeName>
                                 <rs type="circumstances"/>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                                
+                            </provenance>
                             <provenance type="observed" when="2016">
                                 <placeName type="modernSpot">ატენის სიონი</placeName>
                                 <idno type="invNo"/>
-                            </provenance> 
-                    </history>                   
+                            </provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -77,17 +77,17 @@
 </encodingDesc>
     </teiHeader>
     <text>
-        <body>           
+        <body>
               <div type="bibliography" subtype="principalEdition">
-                   
-                    <p><bibl>
-                        ზაზა ალექსიძე, <ptr target="bibliography.xml#b185"/>ატენის სიონის სომხური წარწერები, <citedRange>50</citedRange>
+
+                    <p><bibl><ptr target="#b185"/> 
+                        ზაზა ალექსიძე, ატენის სიონის სომხური წარწერები, <citedRange>50</citedRange>
                     </bibl></p>
-                
+
               </div>
-            
+
             <div type="edition" xml:lang="hy" xml:id="preserve">
-                
+
                         <!--  †   զայս ես գերգիում
                             երհասանա որդի որ
                             զայս կարդայ այ նկար
@@ -95,9 +95,9 @@
                             ց թագաւորն տիկինի վրա
                             ց ետ արավ եւ գա....լտ ոփ
                             լիցխէ կալաւ ոի(?)
-  --> 
-                                                            
-            
+  -->
+
+
          <div type="textpart" xml:lang="hy">
                 <ab>
                    <lb n="1"/>&#8224; <w lemma="այս">զայս</w> <w lemma="ես">ես</w> <w lemma="Գերգիում">գերգիում</w>
@@ -109,24 +109,24 @@
                     <lb n="7"/><placeName nymRef="Ոփլիցխէ (უფლისციხე)">Ոփլիցխէ</placeName> <w lemma="ունել">կալաւ</w> ոի
                 </ab>
                </div></div>
-              
-            
+
+
          <div type="translation" xml:lang="ka">
              <p>ბაგრატ აფხაზთა მეფე როცა დედოფალს ქართველთა შეედავა და [სატახტო](?) ოფლიცხე დაიკავა</p>
          </div>
       <div type="translation" xml:lang="hy">
-             <p>† Զայս ես Գերգիում Էրհասանա որդի: Որ զայս կարդայ Ա(ստուծո)յ նկարիչս  [յիշեցէք]: 
+             <p>† Զայս ես Գերգիում Էրհասանա որդի: Որ զայս կարդայ Ա(ստուծո)յ նկարիչս  [յիշեցէք]:
                     Որ Բագրատ Ափխազաց թագաւորն տիկինի վրաց ետ-արավ եւ գա...լտ Ոփլիցխէ կալաւ ոի(?)</p>
-         </div>  
-                               
+         </div>
+
             <div type="apparatus" xml:space="preserve">
             </div>
-            
-                
-            <div type="commentary">           
+
+
+            <div type="commentary">
             </div>
 
-            
+
         </body>
     </text>
 </TEI>

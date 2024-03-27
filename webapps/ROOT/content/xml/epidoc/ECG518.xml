@@ -92,11 +92,11 @@
     <text>
         <body>
            <div type="bibliography">
-               
-                <p><bibl n="1">გიორგი გაგოშიძე<ptr target="bibliography.xml#b130"/>,<citedRange>134</citedRange>2020</bibl></p>
-            
+
+              
+
            </div>
-            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">   
+            <div type="edition" xml:space="preserve" xml:lang="ka" ana="mtavruli">
               <!--ხ(ა)ტი მ(ო)ვ(ი)და-->
                 <ab>
 

@@ -49,13 +49,16 @@
                                 </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                სამსტრიქონიანი <rs type="script">ასომთავრული</rs> წარწერა, განკვეთილობის ნიშანი ორწერტილი; ქარაგმის ნიშანი დაზიანების გამო არ შეინიშნება
+                            <handNote script="asomtavruli">
+                                სამსტრიქონიანი ასომთავრული წარწერა, განკვეთილობის ნიშანი ორწერტილი; ქარაგმის ნიშანი დაზიანების გამო არ შეინიშნება
                             </handNote>
+                            <handNote>
+                                   <height/>
+                                 </handNote>
                         </handDesc>
                         <decoDesc>
                             <decoNote>
-                                ორნამენტირებული ჩარჩო
+                                <addName>ორნამენტირებული ჩარჩო</addName>
                             </decoNote>
                         </decoDesc>
                     </physDesc>

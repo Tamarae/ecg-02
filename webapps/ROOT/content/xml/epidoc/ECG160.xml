@@ -8,7 +8,7 @@
                 <title xml:lang="ka">ანისის სარგის გიორგის ძის სომხური წარწერა</title>
                  <editor xml:lang="ka">შანშე დარჩიაშვილი</editor>
                 <editor xml:lang="ka">ღევონდ ალიშანი</editor>
-          
+
             </titleStmt>
             <publicationStmt>
                 <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
@@ -30,7 +30,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material xml:lang="ka" ref="https://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
                                     <material xml:lang="en" ref="https://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
                                    <objectType xml:lang="ka" ref="https://www.eagle-network.eu/voc/objtyp/lod/272"></objectType>
@@ -39,7 +39,7 @@
                                 <layoutDesc>
                                     <layout>
                                         <seg xml:lang="ka">
-                               
+
                                         </seg>
                                     <dimensions unit="cm">
                                         <width/>
@@ -48,9 +48,9 @@
                                     </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
-                            <handNote> 
+                            <handNote>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -67,7 +67,7 @@
                                 <placeName type ="ancientFindspot">
                                     <seg xml:lang="ka">ანისი</seg>
                                     <seg xml:lang="en">Ani</seg>
-                                </placeName> 
+                                </placeName>
                                 <rs type="circumstances"/>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
@@ -79,7 +79,7 @@
                             </placeName>
                             <idno/>
                         </provenance>
-                    </history>                            
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -92,20 +92,20 @@
     <text>
         <body>
             <div type="bibliography">
-                
 
-                <p><bibl n="1"><ptr target="bibliography.xml#b191"/>ღევონდ ალიშანი, შირაქი, ტოპოგრაფიული აღწერა, ვენეცია, 1881<citedRange>00</citedRange></bibl></p>
-               <p><bibl n="2"><ptr target="bibliography.xml#b192"/>ნერსეს სარგისიანი, ტოფოგრაფიული აღწერები მცირე და დიდ სომხეთში, ვენეცია 1864<citedRange>00</citedRange></bibl></p>
-               <p><bibl n="3"><ptr target="bibliography.xml#b6"/>ძიებანი ქართულ-სომხური ურთიერთობების ისტორიიდან, შანშე დარჩიაშვილი, 2010<citedRange>147</citedRange></bibl></p>
-                <p><bibl n="4"><ptr target="bibliography.xml#b193"/>ბასმაჯიანი, სომხურნოვანი წარწერები ანისია, ბაგნაირისა და მარმაშენისა, პარიზი 1931<citedRange>00</citedRange></bibl></p>
-            
+
+                <p><bibl n="1"><ptr target="#b191"/> ღევონდ ალიშანი, შირაქი, ტოპოგრაფიული აღწერა, ვენეცია, 1881<citedRange>00</citedRange></bibl></p>
+               <p><bibl n="2"><ptr target="#b192"/> ნერსეს სარგისიანი, ტოფოგრაფიული აღწერები მცირე და დიდ სომხეთში, ვენეცია 1864<citedRange>00</citedRange></bibl></p>
+               <p><bibl n="3"><ptr target="#b6"/> ძიებანი ქართულ-სომხური ურთიერთობების ისტორიიდან, შანშე დარჩიაშვილი, 2010<citedRange>147</citedRange></bibl></p>
+                <p><bibl n="4"><ptr target="#b193"/> ბასმაჯიანი, სომხურნოვანი წარწერები ანისია, ბაგნაირისა და მარმაშენისა, პარიზი 1931<citedRange>00</citedRange></bibl></p>
+
             </div>
-            
-            
-            
-            
-            <!-- 
-                
+
+
+
+
+            <!--
+
             -->
             <div type="edition" xml:lang="hy" xml:space="preserve">
                     <ab>
@@ -116,7 +116,7 @@
                       <lb n="5"/>
                       <lb n="6"/>
                       <lb n="7"/>
-                      
+
                     </ab>
             </div>
             <div type="translation" xml:lang="ka">
@@ -126,20 +126,20 @@
 
 ნ. ჩანტლაძის თარგმანი: წელსა 657, მადლითა ღვთისა  უფლობაში მანდატურთუხუცეს ამირსპასალარ შაჰინშა ზაქარიასი, მე სარგისმა ძემ გიორგისა, მონამ ქრისტესი, ავაშენე ეს სვეტი ხსნისათვის მამისა ჩემისა . მასთან ერთად ამ მუშებისაც, მოიხსენიეთ.
 
-                    
+
                 </p>
             </div>
-            
+
             <div type="apparatus" xml:space="preserve">
             </div>
-            
+
             <div type="commentary">
             <p xml:lang="ka">
             </p>
             </div>
-            
-   
-             
+
+
+
         </body>
     </text>
 </TEI>

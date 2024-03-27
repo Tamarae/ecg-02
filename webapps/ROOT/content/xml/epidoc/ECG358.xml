@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>შაჰნაზირის ოთხთა ძმათა ძნელაჲსძეთა წარწერა (I)</title> 
+                <title>შაჰნაზირის ოთხთა ძმათა ძნელაჲსძეთა წარწერა (I)</title>
                <editor>ვალერი სილოგავა</editor>
                 <editor>ლეონ მელიქსეთ-ბეგი</editor>
             </titleStmt>
@@ -28,13 +28,13 @@
                             <seg xml:lang="ka">საამშენებლო</seg>
                             <seg xml:lang="en"/>
                         </summary>
-                    </msContents>  
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1483.html">ფასადი</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
                                       <dimensions unit="cm">
                                         <width/>
                                         <height/>
@@ -47,11 +47,11 @@
                                         იგი ამოღარულია სოფელ შაჰნაზარის ეკლესიის სამხრეთის შესავალი კარის მარჯვნივ, სარკმლის ქვეშ
                                       <dimensions unit="cm">
                                          <width/>
-                                         <height/> 
-                                      </dimensions>  
-                                    </layout>                                   
+                                         <height/>
+                                      </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                                 <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
@@ -64,17 +64,17 @@
                                 <origDate evidence="lettering" datingMethod="#julian">1035 AD</origDate>
                             </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot">შაჰნაზარის ქვემო ეკლესია, სომხეთი</placeName> 
+                                <placeName type ="ancientFindspot">შაჰნაზარის ქვემო ეკლესია, სომხეთი</placeName>
                                 <!-- "41.201302, 44.226978"-->
                                 <rs type="circumstances"/>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                                
+                            </provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot">შაჰნაზარის ქვემო ეკლესია, სომხეთი</placeName>
                                 <idno type="invNo"/>
-                            </provenance> 
-                    </history>                   
+                            </provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -82,7 +82,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-12-17" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-12-17" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <facsimile>
@@ -94,17 +94,17 @@
         </surface>
     </facsimile>
     <text>
-        <body> 
+        <body>
             <div type="bibliography">
-               
-<p><bibl n="1">ვალერი სილოგავა, ცნობები და შენიშვნები სომხეთის ქართული ეპიგრაფიკული ძეგლების გამოცემის შესახებ<ptr target="bibliography.xml#b168"/>, <citedRange> 142-175</citedRange></bibl></p>
-<p><bibl n="2">ლეონ მელიქსეთ-ბეგი, ლორე-ტაშირის ქართული ეპიგრაფიკა<ptr target="bibliography.xml#b162"/>, <citedRange> 309-327</citedRange></bibl></p>
-<p><bibl n="3">პარუირ მურადიანი, სომხეთის ქართული წარწერები, წყაროთმცოდნეობითი გამოკვლევა (სომხურ ენაზე)<ptr target="bibliography.xml#b166"/>, <citedRange> 5-256</citedRange></bibl></p>                                     
-               
+
+<p><bibl n="1"><ptr target="#b168"/> ვალერი სილოგავა, ცნობები და შენიშვნები სომხეთის ქართული ეპიგრაფიკული ძეგლების გამოცემის შესახებ, <citedRange> 142-175</citedRange></bibl></p>
+<p><bibl n="2"><ptr target="#b162"/> ლეონ მელიქსეთ-ბეგი, ლორე-ტაშირის ქართული ეპიგრაფიკა, <citedRange> 309-327</citedRange></bibl></p>
+<p><bibl n="3"><ptr target="#b166"/> პარუირ მურადიანი, სომხეთის ქართული წარწერები, წყაროთმცოდნეობითი გამოკვლევა (სომხურ ენაზე), <citedRange> 5-256</citedRange></bibl></p>
+
             </div>
- 
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!--  † ს(ა)ხ(ე)ლ(ი)თა მ(ა)მ(ი)ს(აჲ)თა, ძ(ი)ს(აჲ)თა და ს(უ)ლისა წ(მიდისაჲ)თა
                         მ(ეო)ხ(ე)ბ(ი)თა წ(მიდი)სა ღ(მრ)თ(ი)სმშ(ო)ბლ(ისაჲ)თა, შეწევნითა წ(მიდ)ჲსა გ(იორგის)ჲ(თა)
                         თ(ა)ნამდგ(ომო)ბ(ი)თა ნ(ა)თლ(ი)სმცემლის(აჲ)თა და ყ(ოველ)თა წ(მიდა)თ
@@ -113,163 +113,163 @@
                         შენებ(ა)დ ამ(ა)ს წ(მიდა)სა საყდარსა, დ(ა)სხმ(ა)დ ორ წელ
                         ორთა ბალავართა აბ(ა)ზ(ა)ს მ(ე)ფობ(ა)სა დ(ე)მეტრ(ე)ს მღდ(ე)ლთ
                         მოძღ(უ)რობ(ა)სა სადიდებლად ღ(მრთი)სა ს(ა)ლ(ო)ც(ველა)დ ს(ულთ)ა მშ(ო)ბ(ე)ლთა ჩ(უენ)თა
-                        ქრონიკონი სმიე იყო--> 
-                                                            
-        
+                        ქრონიკონი სმიე იყო-->
+
+
                 <ab>
                 <lb n="1"/> &#8224; <w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ი</ex>თა</expan></w>
-                                    <w lemma="მამა"><expan><abbr>მ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ი</ex><abbr>ს</abbr><ex>აჲ</ex><abbr>თა</abbr></expan></w> 
+                                    <w lemma="მამა"><expan><abbr>მ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ი</ex><abbr>ს</abbr><ex>აჲ</ex><abbr>თა</abbr></expan></w>
                                     <w lemma="ძე"><expan><abbr>ძ</abbr><ex>ი</ex><abbr>ს</abbr><ex>აჲ</ex><abbr>თა</abbr></expan></w>
-                                    და 
-                                    <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლისა</abbr></expan></w> 
+                                    და
+                                    <w lemma="სულ"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლისა</abbr></expan></w>
                                     <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდისაჲ</ex><abbr>თა</abbr></expan></w>
-                <lb n="2"/><w lemma="მეოხება"><expan><abbr>მ</abbr><ex>ეო</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
-                                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდი</ex><abbr>სა</abbr></expan></w> 
+                <lb n="2"/><w lemma="მეოხება"><expan><abbr>მ</abbr><ex>ეო</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w>
+                                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდი</ex><abbr>სა</abbr></expan></w>
                                 <w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr><ex>ი</ex><abbr>სმშ</abbr><ex>ო</ex><abbr>ბლ</abbr><ex>ისაჲ</ex><abbr>თა</abbr></expan></w>
-                                <w lemma="შეწევნა">შეწევნითა</w> 
-                                 <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდ</ex><abbr>ჲსა</abbr></expan></w> 
+                                <w lemma="შეწევნა">შეწევნითა</w>
+                                 <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდ</ex><abbr>ჲსა</abbr></expan></w>
                                 <persName><expan><abbr>გ</abbr><ex>იორგის</ex><abbr>ჲ</abbr><ex>თა</ex></expan></persName>
-                <lb n="3"/><w lemma="თანადგომა"><expan><abbr>თ</abbr><ex>ა</ex><abbr>ნამდგ</abbr><ex>ომო</ex><abbr>ბ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
-                                <w lemma="ნათლისმცემელ"><expan><abbr>ნ</abbr><ex>ა</ex><abbr>თლ</abbr><ex>ი</ex><abbr>სმცემლის</abbr><ex>აჲ</ex><abbr>თა</abbr></expan></w> 
-                                და 
-                                <w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოველ</ex><abbr>თა</abbr></expan></w> 
+                <lb n="3"/><w lemma="თანადგომა"><expan><abbr>თ</abbr><ex>ა</ex><abbr>ნამდგ</abbr><ex>ომო</ex><abbr>ბ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w>
+                                <w lemma="ნათლისმცემელ"><expan><abbr>ნ</abbr><ex>ა</ex><abbr>თლ</abbr><ex>ი</ex><abbr>სმცემლის</abbr><ex>აჲ</ex><abbr>თა</abbr></expan></w>
+                                და
+                                <w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოველ</ex><abbr>თა</abbr></expan></w>
                                     <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>თ
-                <lb n="4" break="no"/>ა</abbr></expan></w> 
-                                        <w lemma="მისნი"><expan><abbr>მისთ</abbr><ex>აჲ</ex><abbr>თა</abbr></expan></w> 
-                                        <w lemma="ღირსქმნა">ღირს ვიქნენით</w> 
-                                        <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნ</abbr></expan></w> 
+                <lb n="4" break="no"/>ა</abbr></expan></w>
+                                        <w lemma="მისნი"><expan><abbr>მისთ</abbr><ex>აჲ</ex><abbr>თა</abbr></expan></w>
+                                        <w lemma="ღირსქმნა">ღირს ვიქნენით</w>
+                                        <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნ</abbr></expan></w>
                                         <w lemma="გლახაკ"><expan><abbr>გლ</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ა</ex><abbr>კნი</abbr></expan></w>
-                                        <w lemma="და">და</w> 
+                                        <w lemma="და">და</w>
                                         <w lemma="ნარჩევ">უნარჩე
-                <lb n="5" break="no"/>ვესნი</w> 
-                                <w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოველ</ex><abbr>თა</abbr></expan></w> 
-                                 <w lemma="კაც"><expan><abbr>კ</abbr><ex>ა</ex><abbr>ცთა</abbr></expan></w> 
+                <lb n="5" break="no"/>ვესნი</w>
+                                <w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოველ</ex><abbr>თა</abbr></expan></w>
+                                 <w lemma="კაც"><expan><abbr>კ</abbr><ex>ა</ex><abbr>ცთა</abbr></expan></w>
                                  <w lemma="ოთხ">ოთნი</w>
-                                 <w lemma="ძმა">ძმანი</w> 
-                                 <name nymRef="ძნელა">ძნელაჲს</name> 
+                                 <w lemma="ძმა">ძმანი</w>
+                                 <name nymRef="ძნელა">ძნელაჲს</name>
                                  <w lemma="ძე">ძენი</w>
-                <lb n="6"/><w lemma="შენება"><expan><abbr>შენებ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w> 
+                <lb n="6"/><w lemma="შენება"><expan><abbr>შენებ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
                                 <w lemma="ესე"><expan><abbr>ამ</abbr><ex>ა</ex><abbr>ს</abbr></expan></w>
-                                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>სა</abbr></expan></w> 
-                                <w lemma="საყდარ">საყდარსა</w> 
+                                <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>სა</abbr></expan></w>
+                                <w lemma="საყდარ">საყდარსა</w>
                                 <w lemma="დასხმა"><expan><abbr>დ</abbr><ex>ა</ex><abbr>სხმ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
-                                <w lemma="ორ">ორ</w> 
+                                <w lemma="ორ">ორ</w>
                                 <w lemma="წელ">წელ</w>
-                <lb n="7"/><w lemma="ორ">ორთა</w> 
-                                <w lemma="ბალავარ">ბალავართა</w> 
-                                <name nymRef="აბაზ"><expan><abbr>აბ</abbr><ex>ა</ex><abbr>ზ</abbr><ex>ა</ex><abbr>ს</abbr></expan></name> 
-                                <w lemma="მეფობა"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფობ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w> 
-                                <name><expan><abbr>დ</abbr><ex>ე</ex><abbr>მეტრ</abbr><ex>ე</ex><abbr>ს</abbr></expan></name> 
+                <lb n="7"/><w lemma="ორ">ორთა</w>
+                                <w lemma="ბალავარ">ბალავართა</w>
+                                <name nymRef="აბაზ"><expan><abbr>აბ</abbr><ex>ა</ex><abbr>ზ</abbr><ex>ა</ex><abbr>ს</abbr></expan></name>
+                                <w lemma="მეფობა"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფობ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w>
+                                <name><expan><abbr>დ</abbr><ex>ე</ex><abbr>მეტრ</abbr><ex>ე</ex><abbr>ს</abbr></expan></name>
                                 <w lemma="მღდელთმოძღურობა"><expan><abbr>მღდ</abbr><ex>ე</ex><abbr>ლთ
-                <lb n="8" break="no"/>მოძღ</abbr><ex>უ</ex><abbr>რობ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w> 
-                                    <w lemma="სადიდებლად">სადიდებლად</w> 
-                                   <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთი</ex><abbr>სა</abbr></expan></w> 
-                                    <w lemma="სალოცველ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ც</abbr><ex>ველა</ex><abbr>დ</abbr></expan></w> 
-                                    <w lemma="სულ"><expan><abbr>ს</abbr><ex>ულთ</ex><abbr>ა</abbr></expan></w> 
+                <lb n="8" break="no"/>მოძღ</abbr><ex>უ</ex><abbr>რობ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w>
+                                    <w lemma="სადიდებლად">სადიდებლად</w>
+                                   <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთი</ex><abbr>სა</abbr></expan></w>
+                                    <w lemma="სალოცველ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ც</abbr><ex>ველა</ex><abbr>დ</abbr></expan></w>
+                                    <w lemma="სულ"><expan><abbr>ს</abbr><ex>ულთ</ex><abbr>ა</abbr></expan></w>
                                     <w lemma="მშობელ"><expan><abbr>მშ</abbr><ex>ო</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლთა</abbr></expan></w>
                                     <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უენ</ex><abbr>თა</abbr></expan></w>
-                <lb n="9"/><rs type="date"><w lemma="ქრონიკონ">ქრონიკონი</w> 
+                <lb n="9"/><rs type="date"><w lemma="ქრონიკონ">ქრონიკონი</w>
                                    <num value="255">სმიე</num></rs>
                                     <w lemma="ყოფა">იყო</w>
                  </ab>
                </div>
-              
+
             <div type="apparatus" xml:space="preserve">
-                                
+
              <listApp>
-                 <app loc="1"> 
+                 <app loc="1">
                     <lem resp="ვალერი სილოგავა"><expan>ძ<ex>ი</ex>ს<ex>აჲ</ex>თა</expan></lem>
                     <rdg resp="პარუირ მურადიანი">ძისათა</rdg>
-                     </app>  
-                 
-                 <app loc="2"> 
+                     </app>
+
+                 <app loc="2">
                     <lem resp="ვალერი სილოგავა"><expan>ღ<ex>მრ</ex>თ<ex>ი</ex>სმშ<ex>ო</ex>ბლ<ex>ისაჲ</ex>თა</expan></lem>
                     <rdg resp="ლეონ მელიქსეთ-ბეგი">ღვთისმშბელისაჲთა</rdg>
-                     </app> 
-                 
-                 <app loc="2"> 
+                     </app>
+
+                 <app loc="2">
                     <lem resp="ვალერი სილოგავა"><expan>წ<ex>მიდ</ex>ჲსა</expan></lem>
                     <rdg resp="პარუირ მურადიანი">წმიდაჲ</rdg>
                      <rdg resp="ლეონ მელიქსეთ-ბეგი">წმიდისა</rdg>
                      </app>
-                 
-                 <app loc="2"> 
+
+                 <app loc="2">
                     <lem resp="ვალერი სილოგავა"><expan>გ<ex>იორგის</ex>ჲ<ex>თა</ex></expan></lem>
                     <rdg resp="პარუირ მურადიანი"><expan>საბ<ex>ა</ex>ჲ<supplied reason="lost">სი</supplied></expan></rdg>
                      <rdg resp="ლეონ მელიქსეთ-ბეგი">გიორგისაჲ</rdg>
                      </app>
-                 
-                 <app loc="3"> 
+
+                 <app loc="3">
                     <lem resp="ვალერი სილოგავა"><expan>წ<ex>მიდა</ex>თა</expan></lem>
                     <rdg resp="ლეონ მელიქსეთ-ბეგი">წმიდაჲთა</rdg>
                      </app>
-                 
-                 <app loc="4"> 
+
+                 <app loc="4">
                     <lem resp="ვალერი სილოგავა"><expan>მისთ<ex>აჲ</ex>თა</expan></lem>
                     <rdg resp="პარუირ მურადიანი">მისთათა</rdg>
                      </app>
-                 
-                 <app loc="4"> 
+
+                 <app loc="4">
                     <lem resp="ვალერი სილოგავა">ღირს ვიქნენით</lem>
                     <rdg resp="ლეონ მელიქსეთ-ბეგი">ღირს ვიქ<supplied reason="lost">მ</supplied>ნენით</rdg>
                      </app>
-                 
-                 <app loc="6"> 
+
+                 <app loc="6">
                     <lem resp="ვალერი სილოგავა"><expan>ამ<ex>ა</ex>ს</expan></lem>
                     <rdg resp="პარუირ მურადიანი, ლეონ მელიქსეთ-ბეგი">ამის</rdg>
                      </app>
-                 
-                 <app loc="7"> 
+
+                 <app loc="7">
                     <lem resp="ვალერი სილოგავა"><expan>აბ<ex>ა</ex>ზ<ex>ა</ex>ს</expan></lem>
                     <rdg resp="პარუირ მურადიანი">აბაზის</rdg>
                      <rdg resp="ლეონ მელიქსეთ-ბეგი">აბოზს</rdg>
                      </app>
-                 
-                 <app loc="7"> 
+
+                 <app loc="7">
                     <lem resp="ვალერი სილოგავა"><expan>მ<ex>ე</ex>ფობ<ex>ა</ex>სა</expan></lem>
                     <rdg resp="ლეონ მელიქსეთ-ბეგი">მეფობისა</rdg>
                      </app>
-                 
-                 <app loc="7,8"> 
+
+                 <app loc="7,8">
                     <lem resp="ვალერი სილოგავა"><expan>მღდ<ex>ე</ex>ლთმოძღ<ex>უ</ex>რობ<ex>ა</ex>სა</expan></lem>
                     <rdg resp="პარუირ მურადიანი">მღდელთმოძღრობასა</rdg>
                      <rdg resp="ლეონ მელიქსეთ-ბეგი">მღვ<supplied reason="lost">დ</supplied>ელთმოძღვრობასა</rdg>
                      </app>
-                 
-                 <app loc="8"> 
+
+                 <app loc="8">
                     <lem resp="ვალერი სილოგავა"><expan>ს<ex>ა</ex>ლ<ex>ო</ex>ც<ex>ველა</ex>დ</expan><expan>ს<ex>ულთ</ex>ა</expan></lem>
                     <rdg resp="ლეონ მელიქსეთ-ბეგი">ს<supplied reason="lost">ამოჳე</supplied>ლ<supplied reason="lost">ის</supplied>ა<supplied reason="lost">თა</supplied> და</rdg>
                      </app>
-                 
-                 <app loc="8"> 
+
+                 <app loc="8">
                     <lem resp="ვალერი სილოგავა"><expan>ს<ex>ულთ</ex>ა</expan><expan>მშ<ex>ო</ex>ბ<ex>ე</ex>ლთა</expan></lem>
                     <rdg resp="პარუირ მურადიანი">ამშენებელთა</rdg>
                      </app>
-                 
-                 <app loc="9"> 
+
+                 <app loc="9">
                     <lem resp="ვალერი სილოგავა">ქრონიკონი<num value="255">სმიე</num></lem>
                     <rdg resp="პარუირ მურადიანი">ქრონიკონის მიე</rdg>
                      <rdg resp="ლეონ მელიქსეთ-ბეგი">ქორონიკონი<num value="355">ტმიე</num></rdg>
                      </app>
-                 
-                </listApp>    
+
+                </listApp>
             </div>
-            
+
          <div type="translation" xml:lang="ka">
-             <p> † სახელითა მამისათა, ძისათა და სულისა წმიდისათა, წმიდა ღვთისმშობლის მეოხებით, წმიდა გიორგის შეწევნით, 
+             <p> † სახელითა მამისათა, ძისათა და სულისა წმიდისათა, წმიდა ღვთისმშობლის მეოხებით, წმიდა გიორგის შეწევნით,
                         [იოანე] ნათლისმცემლის და ყოველთა წმიდათა თანადგომით ღირსი გავხდით ჩუენ, გლახაკნი და კაცთა შორის უნარჩევესნი,
                         ოთნი ძმანი ძნელაჲს ძენი, ამ წმიდა საყდრის აშენებისა, დასხმად ორ წელიწადში
-                        ორთა ბალავართა, აბაზას მეფობისა და დემეტრეს მღდელთმოძღურობის დროს. 
+                        ორთა ბალავართა, აბაზას მეფობისა და დემეტრეს მღდელთმოძღურობის დროს.
                         სადიდებლად ღმრთისა, სალოცველად სულთა მშობელთა ჩუენთა. ქრონიკონი იყო 255. </p>
-         </div>    
-                             
+         </div>
+
             <div type="commentary">
-                <p>წარწერა 1964 წელს შეისწავლა და გამოსცა ლეონ მელიქსეთ-ბეგმა. 
+                <p>წარწერა 1964 წელს შეისწავლა და გამოსცა ლეონ მელიქსეთ-ბეგმა.
                                    1977 წელს გამოაქვეყნა პარუირ მურადიანმა, ხოლო 1980 წელს მისეული შესწორებებით - ვალერი სილოგავამ.
-                                ვალერი სილოგავას დათარიღებით, წარწერა 1035 (780+255) წელსაა შესრულებული. პარუირ მურადიანი მას 1095 წლით ათარიღებს, 
+                                ვალერი სილოგავას დათარიღებით, წარწერა 1035 (780+255) წელსაა შესრულებული. პარუირ მურადიანი მას 1095 წლით ათარიღებს,
                     ლეონ მელიქსედ-ბეგი კი - 1135 წლით.
-                წარწერაში დასახელებულ დემეტრეს პარუირ მურადიანი დემეტრე კათალიკოსად მიიჩნევს, ხოლო ვალერი სილოგავა - დემეტრე ჰინვანელად. ეს უკანასკნელი 
-                იხსენიება კურთანის წარწერაშიც.</p>                
+                წარწერაში დასახელებულ დემეტრეს პარუირ მურადიანი დემეტრე კათალიკოსად მიიჩნევს, ხოლო ვალერი სილოგავა - დემეტრე ჰინვანელად. ეს უკანასკნელი
+                იხსენიება კურთანის წარწერაშიც.</p>
             </div>
         </body>
     </text>

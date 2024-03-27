@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/66">კირქვა</material>
                                     <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/66">Limestone</material>
                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/54">სამშენებლო ფილა</objectType>
@@ -49,20 +49,20 @@
                                       </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p xml:lang="ka">მთლიანად წარწერა დაუდევრად გამოყვანილის შთაბეჭდილებას ახდენს, არც ღრმადაა ამოკვეთილი.  
+                                <p xml:lang="ka">მთლიანად წარწერა დაუდევრად გამოყვანილის შთაბეჭდილებას ახდენს, არც ღრმადაა ამოკვეთილი.
                                 I სტრიქონი მსხვილი ასოებითაა ნაწერი, II სტრიქონი უფრო წვრილი ასოებითაა შესრულებული, ასოები სტრიქონის
                                 ბოლოსკენ უფრო დამცრობილია. III სტრიქონი კიდევ უფრო წვრილადაა ნაწერი.</p>
-                                  <height unit="cm" precision="medium">ასოების სიმაღლე ზოგჯერ 5სმ-მდე აღწევს, 
+                                  <height unit="cm" precision="medium">ასოების სიმაღლე ზოგჯერ 5სმ-მდე აღწევს,
                                        II სტრიქონს დაახლ. 3 სმ უჭირავს, III-ს დაახლ. 2 სმ.</height>
-                                <p xml:lang="en">The inscription seems to be done carelessly, not deeply carved. The 1st line is with big letters, the 2nd line with more narrow letters, the letters get smaller at the end of the inscription. The 3th line is written even with smaller letters. The height of the letters in the first line - up to 5 cm, in the 2nd line - approx. 3 cm, 3td line - approx. 2cm. 
+                                <p xml:lang="en">The inscription seems to be done carelessly, not deeply carved. The 1st line is with big letters, the 2nd line with more narrow letters, the letters get smaller at the end of the inscription. The 3th line is written even with smaller letters. The height of the letters in the first line - up to 5 cm, in the 2nd line - approx. 3 cm, 3td line - approx. 2cm.
 </p>
                                 </handNote>
                         </handDesc>
                         <decoDesc>
-                            <decoNote/>
+                            <decoNote></decoNote>
                         </decoDesc>
                     </physDesc>
                     <history>
@@ -71,20 +71,20 @@
                                     <seg xml:lang="ka">ნუხა</seg>
                                     <seg xml:lang="en">Nukha</seg>
                                 </origPlace>
-                                <origDate notBefore-custom="0001" notAfter-custom="0100" precision="medium" 
-                                    evidence="lettering" datingMethod="#julian">I AD</origDate>                               
+                                <origDate notBefore-custom="0001" notAfter-custom="0100" precision="medium"
+                                    evidence="lettering" datingMethod="#julian">I AD</origDate>
                             </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot">ნუხა</placeName> 
+                                <placeName type ="ancientFindspot">ნუხა</placeName>
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                        
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot" ref="http://museum.ge/">საქართველოს ეროვნული მუზეუმი</placeName>
                             <idno>46</idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -92,7 +92,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-    </teiHeader>   
+    </teiHeader>
     <facsimile>
         <surface>
             <graphic url="ecg014.jpg">
@@ -100,75 +100,72 @@
                 <desc xml:lang="en">Building plaque from Nukha</desc>
             </graphic>
         </surface>
-    </facsimile>    
+    </facsimile>
     <text>
         <body>
-             
+
             <div type="bibliography">
-                
-                    <p><bibl n="1">თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი<ptr target="bibliography.xml#b130"/>, <citedRange> 254</citedRange></bibl></p>
-                    <p><bibl n="2">თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში<ptr target="bibliography.xml#b80"/>, <citedRange> 240-241</citedRange></bibl></p>
-                
+
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 254</citedRange></bibl></p>
+                    <p><bibl n="2"><ptr target="#b80"/> თინათინ ყაუხჩიშვილი, ბერძნული წარწერები საქართველოში, <citedRange> 240-241</citedRange></bibl></p>
+
             </div>
-            
+
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
-                        <!-- Αἴλιος Ἰάσων 
+
+                        <!-- Αἴλιος Ἰάσων
                             Εὐνώνῃ τῷ εὐερ
                             γέτῃ μνήμης χάριν
                                                  -->
              <ab>
-                 <lb n="1"/><persName type="local" key="აილიოს იასონი (Αἴλιος Ἰάσων)"><name nymRef="Αἴλιος">Αἴλιος</name> <name nymRef="Ἰάσων">Ἰάσων</name></persName> 
+                 <lb n="1"/><persName type="local" key="აილიოს იასონი (Αἴλιος Ἰάσων)"><name nymRef="Αἴλιος">Αἴλιος</name> <name nymRef="Ἰάσων">Ἰάσων</name></persName>
                  <lb n="2"/><persName type="local" key="ევნონეს ევერგეტესი (Εὐνώνης εὐεργέτης)"><name nymRef="Εὐνώνης">Εὐνών<supplied reason="subaudible">ῃ</supplied></name></persName> <w lemma="ὁ">τῷ</w> <w lemma="εὐεργέτης">εὐερ
                  <lb n="3" break="no"/>γέτ<supplied reason="subaudible">ῃ</supplied></w> <w lemma="μνήμη">μνήμης</w> <w lemma="χάρις">χάριν</w>
-             </ab>             
-         
+             </ab>
+
             </div>
-                
+
             <div type="translation" xml:lang="ka">
                 <p>აილიოს იასონი ევნონეს ევერგეტს (კეთილისმყოფელს) სახსოვრად.</p>
             </div>
-            
+
             <div type="translation" xml:lang="en">
                 <p>Ailios Iason in memory of Eunone Everget (the benefactor).</p>
             </div>
-            
-            
+
+
            <div type="apparatus" xml:space="preserve">                                                                                                   <!-- კრიტიკული აპარატი -->
 
                <p>
                    <app loc="2"><lem>εὐεργέτης</lem>
-               <rdg resp="თინათინ ყაუხჩიშვილი">სიტყვაში "εουεργέτης" ευ-დიფთონგისათვის გვაქვს εου, ამ დროისათვის ευ-დიფთონგი გადმოიცემა ευ და εου დაწერილობებით. 
+               <rdg resp="თინათინ ყაუხჩიშვილი">სიტყვაში "εουεργέτης" ευ-დიფთონგისათვის გვაქვს εου, ამ დროისათვის ευ-დიფთონგი გადმოიცემა ευ და εου დაწერილობებით.
                    ე.ი. რეალურად ευ-დიფთონგი არის ევ და ვ-სთვის ამ დროს გვაქვს დაწერილობა ου და υ (შემდეგ კი β).</rdg>
                </app>
                </p>
             </div>
-           
+
             <div type="commentary" xml:lang="ka">
                 <p>დათარიღების საფუძველია ასოთა მოხაზულობა (მრგვალი C, კბილებიანი ω, α-სა და λ-ის წაგრძელებული ზემოთკენ მარჯვენა ბუნი) ენობრივი
                    ნორმა (εου=ευ), საკუთარი სახელი (Αἴλιος = ლათ. Aelius) და მთლიანად ფორმულა (რც მთავრდება μνήμης χάριν-ით).</p>
                 <p>ა. ამირანაშვილი მას II-III სს-ით ათარიღებს, უპირატესობას ანიჭებს II სს.</p>
-                <p>წარწერის ასოთაგან გამოირჩევა I სტრიქონის Α და II სტრიქონის Η (თუ ორივე დაუდევარი ჩაჭრის შედეგი არ არის). ყურადღებას იქცევს Μ. 
+                <p>წარწერის ასოთაგან გამოირჩევა I სტრიქონის Α და II სტრიქონის Η (თუ ორივე დაუდევარი ჩაჭრის შედეგი არ არის). ყურადღებას იქცევს Μ.
                     დანარჩენი ასოები სრულიად ჩვეულებრივი მოხაზულობისაა. არ გვხვდება ქვეშმიწერილი ι-ები (ευνωνη, εουεργετη).</p>
                 <p>სავარაუდოდ ნუხაში მდებარე ერთ-ერთი ნაგებობის ქვა უნდა ყოფილიყო.</p>
                 </div>
-            
+
             <div type="commentary" xml:lang="en">
-                
+
                 <p>
-                    Tinatin Kaukhchishvili: The ευ diphthong in "εουεργέτης" is represented with εου,  it is common to represent ευ diphthong by ευ or εου in this period. 
+                    Tinatin Kaukhchishvili: The ευ diphthong in "εουεργέτης" is represented with εου,  it is common to represent ευ diphthong by ευ or εου in this period.
 I.e. in fact ευ diphthong is for ev and v and in that case we have the usage of ου and υ (and then β).
 The shape of the letters allows us to give the date to the inscription (round C, trident shape ω, α and λ are longer on the up right base), linguistic norm (εου=ευ), personal name (Αἴλιος = lat. Aelius) and the entire formula (ending with μνήμης χάριν).
-Amiranashvili A. dates the inscription to II-III centuries, but supports the date of the II century. 
+Amiranashvili A. dates the inscription to II-III centuries, but supports the date of the II century.
 Among the letters of the inscription A in the 1st line and H in the 2nd line are peculier (if both are done on the basis of careless carving ). Letter M is also catching our eye. Other letters are of totally regular shape . NO case of i- subscriptum (ευνωνη, εουεργετη). The plaque could be part of the monument in Nukha (Azerbaijan).
- 
+
 
                 </p>
             </div>
-            
+
        </body>
     </text>
 </TEI>
-
-
-

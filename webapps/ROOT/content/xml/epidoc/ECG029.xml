@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="ka">მცხეთის ჯვრის მოსახსენებელი ქობულ-სტეფანოსისა</title> 
+                <title xml:lang="ka">მცხეთის ჯვრის მოსახსენებელი ქობულ-სტეფანოსისა</title>
                 <title xml:lang="en">Jvari Monastery, Memorial of Kobul-Stephanos</title>
                 <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
                 <editor xml:lang="en">Nodar Shoshiashvili</editor>
@@ -25,17 +25,17 @@
                    <msIdentifier>
                         <collection>მცხეთა</collection>
                     </msIdentifier>
-                    
+
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მოსახსენებელი</seg>
                             <seg xml:lang="en">Memorial</seg>
                         </summary>
-                    </msContents> 
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
                               <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
@@ -47,11 +47,11 @@
                                 </support>
                             </supportDesc>
                                 <layoutDesc>
-                                    <layout writtenLines="4"> 
-                                <seg xml:lang="ka">წარწერა ოთხსტრიქონიანია. იგი მდებარეობს ჯვრის ტაძრის სამხრეთ ფასადის ბარელიეფზე, არაწესიერი სწორკუთხედის ფორმის ფილაზე, 
-                                    რომელსაც გარს უვლის რელიეფური ჩარჩო, თავზე ლავგარდანით. ფილაზე (რომელიც ჩადგმულია შვერილში, ფანჯრის ზემოთ) გამოქანდაკებულია 
+                                    <layout writtenLines="4">
+                                <seg xml:lang="ka">წარწერა ოთხსტრიქონიანია. იგი მდებარეობს ჯვრის ტაძრის სამხრეთ ფასადის ბარელიეფზე, არაწესიერი სწორკუთხედის ფორმის ფილაზე,
+                                    რომელსაც გარს უვლის რელიეფური ჩარჩო, თავზე ლავგარდანით. ფილაზე (რომელიც ჩადგმულია შვერილში, ფანჯრის ზემოთ) გამოქანდაკებულია
                                    ჭაბუკი ქობულ-სტეფანოსის მუხლმოდრეკილი ფიგურა, წმ. სტეფანეს წინ. წარწერა ამოღარულია ქობულის ბარელიეფის თავს ზემოთ, წმ. სტეფანეს მარცხნივ, თავისუფალ არეზე. </seg>
-                                 
+
                                  <seg xml:lang="en">
                                      Four line inscription. Inscription is located on the bas-relief of the south facade of the Jvari Monastery church, on the plaque shaped as an irregular rectangle which is encircled by an embossed frame with a cornice on top. The figure of young Kobul-Stephanos on his knees is embossed on the plaque
                                      (which is placed in the pilaster under the window) in front of St. Stephen. The inscription is engraved above the bas-relief of Kobuli to the left from St. Stephen in an empty area.
@@ -62,10 +62,10 @@
                                         </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
-                               <seg xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა.</seg> 
+                               <seg xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა.</seg>
                                 <seg xml:lang="en">Engraved Asomtavruli inscription</seg>
                                    <height/>
                              </handNote>
@@ -77,7 +77,7 @@
                                     <seg xml:lang="ka">ჯვრის მონასტერი, მცხეთა</seg>
                                     <seg xml:lang="en">Jvari Monastery, Mtskheta</seg>
                                 </origPlace>
-                                <origDate notBefore-custom="0595" notAfter-custom="0605" precision="medium" 
+                                <origDate notBefore-custom="0595" notAfter-custom="0605" precision="medium"
                                     evidence="lettering" datingMethod="#julian">595-605 AD</origDate>
                             </origin>
                             <provenance type="found">
@@ -89,15 +89,15 @@
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance> 
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">
                                     <seg xml:lang="ka">ჯვრის მონასტერი, მცხეთა</seg>
                                     <seg xml:lang="en">Jvari Monastery, Mtskheta</seg>
                             </placeName>
-                            <idno></idno> 
+                            <idno></idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -105,7 +105,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-     <revisionDesc><change when="2019-11-06" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+     <revisionDesc><change when="2019-11-06" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
            ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
 
@@ -117,60 +117,60 @@
             </graphic>
         </surface>
     </facsimile>
- 
+
     <text>
         <body>
             <div type="bibliography">
-                
-                <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი<ptr target="bibliography.xml#b101"/>, <citedRange> 164-165</citedRange></bibl></p>
-                <p><bibl n="2">M. Brosset, Rapports I<ptr target="bibliography.xml#b21"/>, <citedRange>47-4</citedRange></bibl></p>   
-                 <p><bibl n="3">J. Bartholomaei, Letter, M. Brosset, Bibliographie analytique des oeuvres de Marie-Felicité Brosset<ptr target="bibliography.xml#b16"/>, <citedRange>p.81</citedRange></bibl></p>
-                 <p><bibl n="4">თედო ჟორდანია, ქრონიკები და სხვა მასალა საქართველოს ისტორიისა და მწერლობისა<ptr target="bibliography.xml#b77"/>, <citedRange> 61</citedRange></bibl></p>
-                 <p><bibl n="5">ჯაჭვის წმ. ჯვრის მონასტერი<ptr target="bibliography.xml#b118"/>, <citedRange> 24</citedRange></bibl></p>
-                 <p><bibl n="6">ექვთიმე თაყაიშვილი, ჯვრის მონასტრის წარწერები<ptr target="bibliography.xml#b71"/></bibl></p>                 
-                 <p><bibl n="7">ივანე ჯავახიშვილი, ახლად აღმოჩენილი უძველესი ქართული ხელნაწერები და მათი მნიშვნელობა მეცნიერებისათვის<ptr target="bibliography.xml#b85"/></bibl></p>
-                 <p><bibl n="10">გიორგი ჩუბინაშვილი, რამოდენიმე თავი ქართული ხელოვნების ისტორიიდან<ptr target="bibliography.xml#b66"/>, <citedRange> 166</citedRange></bibl></p>
-                 <p><bibl n="11">აკაკი შანიძე, ძველი ქართულის ქრესტომათია<ptr target="bibliography.xml#b59"/></bibl></p>
-                 <p><bibl n="13">შ. ამირანაშვილი, ქართული ხელოვნების ისტორია<ptr target="bibliography.xml#b114"/>, <citedRange> 170</citedRange></bibl></p>
-                 <p><bibl n="14">Н. Г. Чубинашвили, Памятники типа Джвари<ptr target="bibliography.xml#b47"/>, <citedRange>146-147</citedRange></bibl></p>
-                 <p><bibl n="15">ილია აბულაძე, ქართული წერის ნიმუშები, პალეოგრაფიული ალბომი<ptr target="bibliography.xml#b88"/>,<citedRange> 6-7</citedRange></bibl></p>
-                 <p><bibl n="16">ივ. ჯავახიშვილი, ქართული დამწერლობათამცოდნეობა, ანუ პალეოგრაფია<ptr target="bibliography.xml#b87"/>, <citedRange> 161-162; 289-290; 397</citedRange></bibl></p>
-                 <p><bibl n="17">W. Djobadze, The sculptures on Eastern Facade of the Holy Cross of Mtzkhetâ<ptr target="bibliography.xml#b33"/>, <citedRange>128-129; 135</citedRange></bibl></p>
-                 <p><bibl n="18">Ш. Я. Амиранашвили, История грузинского искусства<ptr target="bibliography.xml#b56"/></bibl></p>
-                 <p><bibl n="19">ილ. აბულაძე, ქართული წერის ნიმუშები, პალეოგრაფიული ალბომი<ptr target="bibliography.xml#b89"/>, <citedRange>15</citedRange></bibl></p>
-                 <p><bibl n="20">П. Мурадян, Армянская надпись храма Джвари<ptr target="bibliography.xml#b49"/>, <citedRange>69</citedRange></bibl></p>
-                
-            </div>         
+
+                <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, <citedRange> 164-165</citedRange></bibl></p>
+                <p><bibl n="2"><ptr target="#b21"/> M. Brosset, Rapports I, <citedRange>47-4</citedRange></bibl></p>
+                 <p><bibl n="3"><ptr target="#b16"/> J. Bartholomaei, Letter, M. Brosset, Bibliographie analytique des oeuvres de Marie-Felicité Brosset, <citedRange>p.81</citedRange></bibl></p>
+                 <p><bibl n="4"><ptr target="#b77"/> თედო ჟორდანია, ქრონიკები და სხვა მასალა საქართველოს ისტორიისა და მწერლობისა, <citedRange> 61</citedRange></bibl></p>
+                 <p><bibl n="5"><ptr target="#b118"/> ჯაჭვის წმ. ჯვრის მონასტერი, <citedRange> 24</citedRange></bibl></p>
+                 <p><bibl n="6"><ptr target="#b71"/> ექვთიმე თაყაიშვილი, ჯვრის მონასტრის წარწერები</bibl></p>
+                 <p><bibl n="7"><ptr target="#b85"/> ივანე ჯავახიშვილი, ახლად აღმოჩენილი უძველესი ქართული ხელნაწერები და მათი მნიშვნელობა მეცნიერებისათვის</bibl></p>
+                 <p><bibl n="10"><ptr target="#b66"/> გიორგი ჩუბინაშვილი, რამოდენიმე თავი ქართული ხელოვნების ისტორიიდან, <citedRange> 166</citedRange></bibl></p>
+                 <p><bibl n="11"><ptr target="#b59"/> აკაკი შანიძე, ძველი ქართულის ქრესტომათია</bibl></p>
+                 <p><bibl n="13"><ptr target="#b114"/> შ. ამირანაშვილი, ქართული ხელოვნების ისტორია, <citedRange> 170</citedRange></bibl></p>
+                 <p><bibl n="14"><ptr target="#b47"/> Н. Г. Чубинашвили, Памятники типа Джвари, <citedRange>146-147</citedRange></bibl></p>
+                 <p><bibl n="15"><ptr target="#b88"/> ილია აბულაძე, ქართული წერის ნიმუშები, პალეოგრაფიული ალბომი,<citedRange> 6-7</citedRange></bibl></p>
+                 <p><bibl n="16"><ptr target="#b87"/> ივ. ჯავახიშვილი, ქართული დამწერლობათამცოდნეობა, ანუ პალეოგრაფია, <citedRange> 161-162; 289-290; 397</citedRange></bibl></p>
+                 <p><bibl n="17"><ptr target="#b33"/> W. Djobadze, The sculptures on Eastern Facade of the Holy Cross of Mtzkhetâ, <citedRange>128-129; 135</citedRange></bibl></p>
+                 <p><bibl n="18"><ptr target="#b56"/> Ш. Я. Амиранашвили, История грузинского искусства</bibl></p>
+                 <p><bibl n="19"><ptr target="#b89"/> ილ. აბულაძე, ქართული წერის ნიმუშები, პალეოგრაფიული ალბომი, <citedRange>15</citedRange></bibl></p>
+                 <p><bibl n="20"><ptr target="#b49"/> П. Мурадян, Армянская надпись храма Джвари, <citedRange>69</citedRange></bibl></p>
+
+            </div>
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
-                        <!--  “წო სფე 
-                            ქობულ 
-                            სტ~ი 
+
+                        <!--  “წო სფე
+                            ქობულ
+                            სტ~ი
                             შე”.  -->
-                     
-           
+
+
                 <ab>
-                   <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> 
+                   <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w>
                     <name nymRef="სტეფანე"><expan><abbr>ს</abbr><ex>ტე</ex><abbr>ფ</abbr><ex>ან</ex><abbr>ე</abbr></expan></name>
                     <lb n="2"/><persName type="local" key="ქობულ სტეფანოს [ადარნასეს ძე]"><name nymRef="ქობულ-სტეფანოს"><expan><abbr>ქობულ
                     <lb n="3" break="no"/>სტ</abbr><ex>ეფანოს</ex><abbr>ი</abbr></expan></name></persName>
                     <lb n="4"/><w lemma="შეწყალება"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w>
                 </ab>
-             
+
             </div>
-                
+
             <div type="translation">
                 <p xml:lang="ka">წმიდაო სტეფანე, ქობულ-სტეფანოსი შეიწყალე.</p>
                 <p xml:lang="en">St. Stephen, have mercy on Kobul-Stephanos</p>
             </div>
-            
+
             <div type="apparatus" xml:space="preserve"/>
-            
+
             <div type="commentary">
                 <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #71. ივ. ჯავახიშვილის აზრით, წარწერა VII საუკუნის I ნახევრისაა.</p>
                 <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #71. Iv. Javakhishvili considers it to be dated to the first half of the VII century.</p>
             </div>
-                   
+
          </body>
     </text>
 </TEI>

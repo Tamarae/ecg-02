@@ -102,11 +102,11 @@
             
            <div type="bibliography">
                 
-                    <p><bibl n="1">შაჰბან ჰაფიზოვი, ქართული, ქართულ-ხუნძური და ხუნძური წარწერები მთიან ხუნძეთში (დაღესტანი)<ptr target="bibliography.xml#b141"/>, <citedRange> 129-130</citedRange></bibl></p>
+                    <p><bibl n="1"><ptr target="#b141"/> შაჰბან ჰაფიზოვი, ქართული, ქართულ-ხუნძური და ხუნძური წარწერები მთიან ხუნძეთში (დაღესტანი), <citedRange> 129-130</citedRange></bibl></p>
                  
             </div>
             
-              <div type="edition" xml:lang="ka" ana="nuskhuri" xml:space="preserve">
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
                 
                         <!--(1) ო(ჳფალ)ო ი(ესო)ჳ 
                             “უფალო იესუ” 

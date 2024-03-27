@@ -13,7 +13,7 @@
                 <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
                 <idno type="filename">ECG248</idno>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/"> 
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
                         დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით
                     </licence>
                 </availability>
@@ -72,7 +72,7 @@
                         <provenance type="observed">
                             <placeName type="modernSpot"/>
                             <rs type="circumstances"/>
-                            <idno/> 
+                            <idno/>
                         </provenance>
                     </history>
                 </msDesc>
@@ -83,8 +83,8 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    
-    <!-- 
+
+    <!--
     <facsimile>
         <surface>
             <graphic url="tskise_01.jpg">
@@ -93,20 +93,20 @@
             </graphic>
         </surface>
     </facsimile> -->
-    
+
     <text>
         <!--
         1.წ(მიდ)ა მ(ი)ქ(აე)ლ წ(მიდ)ა გ(ა)ბრ(იე)ლ
         -->
         <body>
-            
+
             <div type="bibliography">
-                
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>152-153</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                
-                <p><bibl n="3">Е. Такайсшвили, Археологические екскурсии разыскания и заметки, IV <citedRange>110</citedRange>, Тб. 1913<ptr target="bibliography.xml#b212"/></bibl></p>
+
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>152-153</citedRange>, თბილისი, 2018</bibl></p>
+
+                <p><bibl n="3"><ptr target="#b212"/> Е. Такайсшвили, Археологические екскурсии разыскания и заметки, IV <citedRange>110</citedRange>, Тб. 1913<ptr target="#b212"/></bibl></p>
             </div>
-                
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
 
             <ab>
@@ -115,16 +115,16 @@
                            <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდ</ex><abbr>ა</abbr></expan></w>
                          <name nymRef="გაბრიელ"><expan><abbr>გ</abbr><ex>ა</ex><abbr>ბრ</abbr><ex>იე</ex><abbr>ლ</abbr></expan></name>
                 </ab>
-             
+
             </div>
-   
+
                 <div type="translation"/>
-                
+
                 <div type="commentary">
                     <p>ექ. თაყაიშვილის მიხედვით,წარწერა შესრულებული იყო ქციის ხეობაში ე. წ.
                         ლიპარიტის უბნის მონასტრის („ლამაზ-საყდარი“) მთავარი ეკლესიის ინტერიერში. იგი
                         არ აკონკრეტებს თუ რომელი კარიბჭის თავზე მდებარეობდა აღნიშნული ფრესკა, თუმცა,
-                        საქმე უნდა გვქონდეს კვლავ სამხრეთ კარიბჭესთან. ასევე სამხრეთ ფასადზე, კარიბჭის მარჯვნივ 
+                        საქმე უნდა გვქონდეს კვლავ სამხრეთ კარიბჭესთან. ასევე სამხრეთ ფასადზე, კარიბჭის მარჯვნივ
                         მდებარეობდა მზის საათი მთავრული წარწერებით. დღესდღეობით, მთავარი ტაძრის
                         სწორედ ჩამონგრეულ სამხრეთ მხარეს, ფერდობზე, აგდია მოზრდილი თაღის ფრაგმენტი,
                         რომლის შიდა ნაწილზეც შემორჩენილია მთავარანგელოზის გამოსახულება. ექ.
@@ -144,8 +144,8 @@
                         ზ, თ, ი, ია, იბ (ასოები ასომთავრულად წერია). დღესდღეობით აღნიშნული ფრესკის
                         სხვა ნაწილები, მათზე შესრულებული განმარტებითი წარწერები და წარწერიანი მზის
                         საათი მიგნებული არ არის. ფრესკული წარწერების პუბლიკაციისას ვსარგებლობთ ექ.
-                        თაყაიშვილის ნაშრომით. 
-                        წარწერის დათარიღების საფუძველი: ამ ტაძარზე მდებარე თევდორეს საამშენებლო წარწერის თავზე უნდა ყოფილიყო 
+                        თაყაიშვილის ნაშრომით.
+                        წარწერის დათარიღების საფუძველი: ამ ტაძარზე მდებარე თევდორეს საამშენებლო წარწერის თავზე უნდა ყოფილიყო
                         გამოსახული ღმრთისმშობელი და მთავარანგელოზები, სავარაუდოდ მასში მოხსენიებული თამარ მეფისა და დავით
                         სოსლანის ზეობით უნდა თარიღდებოდეს. შესაბამისად, აღნიშნული ბარელიეფები და
                         განმარტებითი წარწერებიც ეკლესიის აგების პერიოდით უნდა განისაზღვროს</p>

@@ -75,10 +75,14 @@
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc>
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
     </teiHeader>
-    <!-- 
-     
+    <!--
+
     <facsimile>
         <surface>
             <graphic url="tskise_01.jpg">
@@ -93,27 +97,27 @@
         1.ა(დიდე)ნ [ღ(მერთმა)ნ] [იოა]ნე ო[ქ]როპ(ი)რ[ი], ქ(რისტე)ს მი(ე)რ ქ(არ)თ(ლი)ს(ა) კ(ათალიკოზი).
         -->
         <body>
-            
+
             <div type="bibliography">
-                
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>118</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                <p><bibl n="2">დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>111</citedRange> თბილისი, 2014<ptr target="bibliography.xml#b213"/></bibl></p>
-                <p><bibl n="4">გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>17</citedRange>, თბილისი, 2016<ptr target="bibliography.xml#b216"/></bibl></p>
+
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>118</citedRange>, თბილისი, 2018</bibl></p>
+                <p><bibl n="2"><ptr target="#b213"/> დ. ბერძენიშვილი, ნარკვევები ქვემო ქართლის ისტორიული გეოგრაფიიდან, <citedRange>111</citedRange> თბილისი, 2014</bibl></p>
+                <p><bibl n="4"><ptr target="#b216"/> გიორგი ოთხმეზური, დმანისის რაიონის ეპიგრაფიკული ძეგელები (წარწერების მიმოხილვა და ისტორიული ექსკურსი), <citedRange>17</citedRange>, თბილისი, 2016</bibl></p>
             </div>
-            
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
               <ab>
-                    <lb n="1"/><w lemma="დიდება"><expan><abbr>ა</abbr><ex>დიდე</ex><abbr>ნ</abbr></expan></w> 
-                               <w lemma="ღმერთ"><supplied reason="lost"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></supplied></w> 
-                               <persName type="local" key="კათალიკოსი იოვანე V ოქროპირი"><supplied reason="lost" precision="medium">იოა</supplied>ნე 
+                    <lb n="1"/><w lemma="დიდება"><expan><abbr>ა</abbr><ex>დიდე</ex><abbr>ნ</abbr></expan></w>
+                               <w lemma="ღმერთ"><supplied reason="lost"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></supplied></w>
+                               <persName type="local" key="კათალიკოსი იოვანე V ოქროპირი"><supplied reason="lost" precision="medium">იოა</supplied>ნე
                                  <expan>ო<supplied reason="lost">ქ</supplied>როპ<ex>ი</ex><supplied reason="lost">რ</supplied>ი</expan></persName>
-                               <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტე</ex><abbr>ს</abbr></expan></w>  
+                               <w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტე</ex><abbr>ს</abbr></expan></w>
                                <w lemma="მიერ"><expan><abbr>მი</abbr><ex>ე</ex><abbr>რ</abbr></expan></w>
                                <placeName nymRef="ქართლ" type="toponym"><expan><supplied reason="omitted"><abbr>ქ</abbr></supplied><ex>არ</ex><abbr>თ</abbr><ex>ლი</ex><abbr>ს</abbr><ex>ა</ex></expan></placeName>
-                               <roleName nymRef="კათალიკოზ"><expan><abbr>კ</abbr><ex>ათალიკოზი</ex></expan></roleName>         
+                               <roleName nymRef="კათალიკოზ"><expan><abbr>კ</abbr><ex>ათალიკოზი</ex></expan></roleName>
               </ab>
             </div>
-          
+
                 <div type="translation">
                 </div>
                 <div type="commentary">

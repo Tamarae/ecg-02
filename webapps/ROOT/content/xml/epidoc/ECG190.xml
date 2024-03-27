@@ -33,7 +33,7 @@
                                     <height>75</height>
                                     <width>75</width>
                                     <depth>67</depth>
-                                </dimensions>  
+                                </dimensions>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
@@ -47,7 +47,7 @@
                                 <p xml:lang="en">Asomtavruli inscription</p>
                                 <dimensions unit="cm">
                                     <height>40</height>
-                                </dimensions>    
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -57,7 +57,7 @@
                             <origDate evidence ="lettering">VII</origDate>
                         </origin>
                         <provenance type="found" when="1986">აღმოჩენილია 1986</provenance>
-                        
+
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -68,66 +68,65 @@
 </encodingDesc>
     </teiHeader>
     <text>
-        <!-- 
+        <!--
     1.  შეწ(ე)ვნ(ი)თა ღ(მრთის)მშ(ო)ბლ[ი]
     2.  სა(ჲ)თა  'მე, ერე'მი'[ა]  !!!!!!
-    3.  და ფ[ა]ლ[ა]ვ[ო]ჭ ესე 
+    3.  და ფ[ა]ლ[ა]ვ[ო]ჭ ესე
     4. ჯ(უა)რი აღ 'ვ'[მართ]ეთ სალ
-    5. ოცველა'დ' სუ'ლ'თა 
+    5. ოცველა'დ' სუ'ლ'თა
     6. ჩ(უე)ნთ[ადა] ცხორე
     7. ბისა'თ(ვ)'ს' [შ(ვი)ლ]თა [ჩ(უე)ნთა].
-    
+
     -->
         <body>
-            
-            
-            
-             <div type="bibliography">
-                
-                 <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>81-82</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                 <p><bibl n="2">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, <citedRange>99-100</citedRange><ptr target="bibliography.xml#b101"/></bibl></p>
-                 <p><bibl n="3">Н. Чубинашвили, Проблема рельефа на приморе одной группй грузинских стел последней четверди V века VI и первой половины VII века, <citedRange>53-54</citedRange>, Тб., 1972</bibl></p>
-                 
-             </div>
-                 
 
-            
+
+
+             <div type="bibliography">
+
+                 <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>81-82</citedRange>, თბილისი, 2018</bibl></p>
+                 <p><bibl n="2"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, <citedRange>99-100</citedRange></bibl></p>
+                 <p><bibl n="3"><ptr target="#b211"/> Н. Чубинашвили, Проблема рельефа на приморе одной группй грузинских стел последней четверди V века VI и первой половины VII века, <citedRange>53-54</citedRange>, Тб., 1972</bibl></p>
+
+             </div>
+
+
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
 
                 <ab>
-                    <lb n="1"/><w lemma="შეწევნა"><expan><abbr>შეწ</abbr><ex>ე</ex><abbr>ვნ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
+                    <lb n="1"/><w lemma="შეწევნა"><expan><abbr>შეწ</abbr><ex>ე</ex><abbr>ვნ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w>
                     <w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრთის</ex><abbr>მშ</abbr><ex>ო</ex><abbr>ბლ<supplied reason="subaudible">ი</supplied>
-                    <lb n="2" break="no"/>სა</abbr><ex>ჲ</ex><abbr>თა</abbr></expan></w> 
+                    <lb n="2" break="no"/>სა</abbr><ex>ჲ</ex><abbr>თა</abbr></expan></w>
                     <w lemma="მე">მე</w> <persName type="local" key="ერემია">ერემი<supplied reason="subaudible">ა</supplied></persName>
-                    <lb n="3"/>და <persName>ფ<supplied reason="subaudible">ა</supplied>ლ<supplied reason="subaudible">ა</supplied>ვ<supplied reason="subaudible">ო</supplied>ჭ</persName> <w lemma="ესე">ესე</w> 
-                    <lb n="4"/><w lemma="ჯუარ"><expan><abbr>ჯ</abbr><ex>უა</ex><abbr>რი</abbr></expan></w> 
+                    <lb n="3"/>და <persName>ფ<supplied reason="subaudible">ა</supplied>ლ<supplied reason="subaudible">ა</supplied>ვ<supplied reason="subaudible">ო</supplied>ჭ</persName> <w lemma="ესე">ესე</w>
+                    <lb n="4"/><w lemma="ჯუარ"><expan><abbr>ჯ</abbr><ex>უა</ex><abbr>რი</abbr></expan></w>
                     <w lemma="აღმართვა">აღვ<supplied reason="subaudible">მართ</supplied>ეთ</w> <w lemma="სალოცველ">სალ
                     <lb n="5" break="no"/>ოცველად</w> <w lemma="სულ">სულთა</w>
-                    <lb n="6"/><w lemma="ჩუენთა"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნთ<supplied reason="subaudible">ადა</supplied></abbr></expan></w> 
+                    <lb n="6"/><w lemma="ჩუენთა"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნთ<supplied reason="subaudible">ადა</supplied></abbr></expan></w>
                     <w lemma="ცხორება"><expan><abbr>ცხორე
-                    <lb n="7" break="no"/>ბისათ</abbr><ex>ვი</ex><abbr>ს</abbr></expan></w> 
-                    <w lemma="შვილ"><expan><supplied reason="lost">შ<ex>ვი</ex>ლ</supplied><abbr>თა</abbr></expan></w> 
+                    <lb n="7" break="no"/>ბისათ</abbr><ex>ვი</ex><abbr>ს</abbr></expan></w>
+                    <w lemma="შვილ"><expan><supplied reason="lost">შ<ex>ვი</ex>ლ</supplied><abbr>თა</abbr></expan></w>
                     <w lemma="ჩუენი"><supplied reason="lost"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნთა</abbr></expan></supplied></w>
                 </ab>
             </div>
-            
-            
+
+
             <div type="translation"/>
-            
+
             <div type="commentary">
-                <p> კვარცხლბეკის სამხ. წახნაგზე ამოღარულია 7სტრ. ასომთავრული წარწერა, რომელიც მთლიანად ფარავს წახნაგის სიბრტყეს.ქარაგმისა და განკვეთილობის 
-                    ნიშნები არ ახლავს. 
-                    დაზიანება: ქვის ზედაპირის ატკეჩვის გამო , წარწერის I, III, IV და VII სტრ. ცალკეული გრაფემები გადაშლილია. აღდგენილია შინაარსობრივად. 
+                <p> კვარცხლბეკის სამხ. წახნაგზე ამოღარულია 7სტრ. ასომთავრული წარწერა, რომელიც მთლიანად ფარავს წახნაგის სიბრტყეს.ქარაგმისა და განკვეთილობის
+                    ნიშნები არ ახლავს.
+                    დაზიანება: ქვის ზედაპირის ატკეჩვის გამო , წარწერის I, III, IV და VII სტრ. ცალკეული გრაფემები გადაშლილია. აღდგენილია შინაარსობრივად.
                     წარწერის დათარირება წინა გამოცემებში: 1) VI- საუკუნის შუა ხანები (ჩუბინაშვილი); 2) VII საუკუნის II ნახ. (შოშიაშვილი)
                         წარმოდგენილ გამოცემაში, წარწერის პალეოგრაფიული ნიშნების გათვალისწინებით გაზიარებულია ნ. შოშია შვილის დათარიღება, ოღონდ მცირედი კორექტივით
-                   გრაფემები მოცემულია როგორც შეკრული, ისე გახსნილი რკალებით, რაც VII საუკუნის  I  ნახევარშიც გვხვდება და არა მხოლოდVII საუკუნის II ნახ-დან. 
-                   2) წარწერის ამოღარვის წესით შესრულება; 3) მარცხნივ გაზიდული დამატებითი განივი ხაზების არ არსებობა. 
+                   გრაფემები მოცემულია როგორც შეკრული, ისე გახსნილი რკალებით, რაც VII საუკუნის  I  ნახევარშიც გვხვდება და არა მხოლოდVII საუკუნის II ნახ-დან.
+                   2) წარწერის ამოღარვის წესით შესრულება; 3) მარცხნივ გაზიდული დამატებითი განივი ხაზების არ არსებობა.
                 </p>
-                
+
             </div>
-                 
-            
+
+
         </body>
     </text>
 </TEI>
-

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
@@ -33,9 +33,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType>ხატი</objectType>
-                                    <material ref="https://www.eagle-network.eu/voc/material/lod/112">ოქრო</material>                                   
+                                    <material ref="https://www.eagle-network.eu/voc/material/lod/112">ოქრო</material>
                                       <dimensions unit="cm">
                                         <width>74</width>
                                         <height>131,5</height>
@@ -47,15 +47,15 @@
                                     <layout writtenLines="2">წარწერა ორსტრიქონიანია. იგი მოთავსებულია ზარზმის ფერისცვალების ხატზე
                                         <dimensions unit="cm">
                                              <width/>
-                                             <height/> 
-                                          </dimensions>  
-                                    </layout>                                   
+                                             <height/>
+                                          </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="crustis">
                                 <rs type="execution">ჭედური</rs> <rs type="script">ასომთავრული</rs> წარწერა
-                                <height/> 
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -66,17 +66,17 @@
                             </origin>
                             <provenance type="found">
                                 <placeName type ="ancientFindspot">ზარზმის მონასტერი</placeName>
-                                <!-- "41.679888, 42.653828"--> 
+                                <!-- "41.679888, 42.653828"-->
                                 <rs type="circumstances">ზარზმის ფერისცვალების ხატი ზარზმის მონასტრის ეკლესიის მთავარი ხატი იყო და
                                 როდესაც მესხეთში ოსმალებმა მაჰმადიანობა ძალად გაავრცელეს, ის ზარზმიდან შემოქმედში გადაიტანეს</rs>
                                 <rs type="context"></rs>
                                 <rs type="monuList"/>
-                            </provenance>                                
+                            </provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot" ref="http://museum.ge/">საქართველოს ეროვნული მუზეუმი</placeName>
                                 <idno type="invNo"/>
-                            </provenance> 
-                    </history>                   
+                            </provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -84,7 +84,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
    <facsimile>
@@ -94,58 +94,58 @@
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
-    </facsimile> 
+    </facsimile>
     <text>
         <body>
             <div type="bibliography">
-             
-       <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
-       <p><bibl n="2">Г.Н. Чубинашвили, Грузинское чеканное искусство<ptr target="bibliography.xml#b154"/>, <citedRange>27-32</citedRange></bibl></p>
-       <p><bibl n="3">ივანე ჯავახიშვილი, ქართული დამწერლობათმცოდნეობა ანუ პალეოგრაფია<ptr target="bibliography.xml#b155"/>, <citedRange> 170-172</citedRange></bibl></p>
-              
+
+       <p><bibl n="1"><ptr target="#b149"/> ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა, <citedRange> 118-169</citedRange></bibl></p>
+       <p><bibl n="2"><ptr target="#b154"/> Г.Н. Чубинашвили, Грузинское чеканное искусство, <citedRange>27-32</citedRange></bibl></p>
+       <p><bibl n="3"><ptr target="#b155"/> ივანე ჯავახიშვილი, ქართული დამწერლობათმცოდნეობა ანუ პალეოგრაფია, <citedRange> 170-172</citedRange></bibl></p>
+
             </div>
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!--  "† სხთა ღთა შმსა ხატი ესე მწდ ამსა გსა ოფთა ფსნ ერსვსა ივსა ტკი
-                            მრნსა ფრსა სლსა ერსა მთსა ქმმაასხლბსა პლჱსა ქრკ იყ რვ"--> 
+                            მრნსა ფრსა სლსა ერსა მთსა ქმმაასხლბსა პლჱსა ქრკ იყ რვ"-->
                 <ab>
-                   <lb n="1"/>&#8224;<w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ელი</ex><abbr>თა</abbr></expan></w> 
-                                    <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთისაჲ</ex><abbr>თა</abbr></expan></w> 
-                                    <w lemma="შემოსვა"><expan><abbr>შ</abbr><ex>ეი</ex><abbr>მ</abbr><ex>ო</ex><abbr>სა</abbr></expan></w> 
-                                    <w lemma="ხატი">ხატი</w> <w lemma="ესე">ესე</w> 
-                                    <w lemma="მწე"><expan><abbr>მწ</abbr><ex>ე</ex><abbr>დ</abbr></expan></w> 
-                                    <w lemma="ესე"><expan><abbr>ამ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w> 
-                                    <name nymRef="გიორგი"><expan><abbr>გ</abbr><ex>იორგი</ex><abbr>სა</abbr></expan></name> 
-                                    <w type="უფალ"><expan><abbr>ო</abbr><ex>ჳ</ex><abbr>ფ</abbr><ex>ალ</ex><abbr>თა</abbr></expan></w> 
-                                    <name nymRef="ფარსმან"><expan><abbr>ფ</abbr><ex>არ</ex><abbr>ს</abbr><ex>მა</ex><abbr>ნ</abbr></expan></name> 
-                                    <roleName><expan><abbr>ერ</abbr><ex>ი</ex><abbr>ს</abbr><ex>თა</ex><abbr>ვ</abbr><ex>ი</ex><abbr>სა</abbr></expan></roleName> 
-                                    <name nymRef="ივანე"><expan><abbr>ივ</abbr><ex>ანე</ex><abbr>სა</abbr></expan></name> 
+                   <lb n="1"/>&#8224;<w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ელი</ex><abbr>თა</abbr></expan></w>
+                                    <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთისაჲ</ex><abbr>თა</abbr></expan></w>
+                                    <w lemma="შემოსვა"><expan><abbr>შ</abbr><ex>ეი</ex><abbr>მ</abbr><ex>ო</ex><abbr>სა</abbr></expan></w>
+                                    <w lemma="ხატი">ხატი</w> <w lemma="ესე">ესე</w>
+                                    <w lemma="მწე"><expan><abbr>მწ</abbr><ex>ე</ex><abbr>დ</abbr></expan></w>
+                                    <w lemma="ესე"><expan><abbr>ამ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w>
+                                    <name nymRef="გიორგი"><expan><abbr>გ</abbr><ex>იორგი</ex><abbr>სა</abbr></expan></name>
+                                    <w type="უფალ"><expan><abbr>ო</abbr><ex>ჳ</ex><abbr>ფ</abbr><ex>ალ</ex><abbr>თა</abbr></expan></w>
+                                    <name nymRef="ფარსმან"><expan><abbr>ფ</abbr><ex>არ</ex><abbr>ს</abbr><ex>მა</ex><abbr>ნ</abbr></expan></name>
+                                    <roleName><expan><abbr>ერ</abbr><ex>ი</ex><abbr>ს</abbr><ex>თა</ex><abbr>ვ</abbr><ex>ი</ex><abbr>სა</abbr></expan></roleName>
+                                    <name nymRef="ივანე"><expan><abbr>ივ</abbr><ex>ანე</ex><abbr>სა</abbr></expan></name>
                                     ტკი<gap reason="lost" extent="unknown" unit="chars"></gap>
-                   <lb n="2"/><name nymRef="მირიან"><expan><abbr>მ</abbr><ex>ი</ex><abbr>რ</abbr><ex>ია</ex><abbr>ნ</abbr><ex>ი</ex><abbr>სა</abbr></expan></name> 
-                                <name nymRef="ფერი"><expan><abbr>ფ</abbr><ex>ე</ex><abbr>რ</abbr><ex>ი</ex><abbr>სა</abbr></expan></name> 
-                                <name nymRef="სულა"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლ</abbr><ex>ა</ex><abbr>სა</abbr></expan></name> 
-                                <w lemma="ერ"><expan><abbr>ერ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w> 
-                                <w lemma="მათ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>თ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w> 
-                                <roleName><expan><abbr>მ</abbr><ex>ა</ex><abbr>მას</abbr><ex>ა</ex><abbr>ხლ</abbr><ex>ისო</ex><abbr>ბ</abbr><ex>ა</ex><abbr>სა</abbr></expan></roleName> 
-                                 <name nymRef="პავლე"><expan><abbr>პ</abbr><ex>ავ</ex><abbr>ლჱსა</abbr></expan></name> 
-                                <rs type="date"><w lemma="ქორონიკონ"><expan><abbr>ქ</abbr><ex>ო</ex><abbr>რ</abbr><ex>ონი</ex><abbr>კ</abbr><ex>ონი</ex></expan></w> 
-                                <w lemma="ყოფა"><expan><abbr>იყ</abbr><ex>ო</ex></expan></w> 
+                   <lb n="2"/><name nymRef="მირიან"><expan><abbr>მ</abbr><ex>ი</ex><abbr>რ</abbr><ex>ია</ex><abbr>ნ</abbr><ex>ი</ex><abbr>სა</abbr></expan></name>
+                                <name nymRef="ფერი"><expan><abbr>ფ</abbr><ex>ე</ex><abbr>რ</abbr><ex>ი</ex><abbr>სა</abbr></expan></name>
+                                <name nymRef="სულა"><expan><abbr>ს</abbr><ex>უ</ex><abbr>ლ</abbr><ex>ა</ex><abbr>სა</abbr></expan></name>
+                                <w lemma="ერ"><expan><abbr>ერ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w>
+                                <w lemma="მათ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>თ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w>
+                                <roleName><expan><abbr>მ</abbr><ex>ა</ex><abbr>მას</abbr><ex>ა</ex><abbr>ხლ</abbr><ex>ისო</ex><abbr>ბ</abbr><ex>ა</ex><abbr>სა</abbr></expan></roleName>
+                                 <name nymRef="პავლე"><expan><abbr>პ</abbr><ex>ავ</ex><abbr>ლჱსა</abbr></expan></name>
+                                <rs type="date"><w lemma="ქორონიკონ"><expan><abbr>ქ</abbr><ex>ო</ex><abbr>რ</abbr><ex>ონი</ex><abbr>კ</abbr><ex>ონი</ex></expan></w>
+                                <w lemma="ყოფა"><expan><abbr>იყ</abbr><ex>ო</ex></expan></w>
                                 <num value="106">რვ</num></rs>
                         </ab>
-               </div>         
-         
+               </div>
+
             <div type="translation" xml:lang="ka">
              <p>†  ღმრთის სახელით, შეიმოსა ეს ხატი შემწედ გიორგისა, ფარსმან ერისთავისა, ივანესი, ტკი[...], მირიანისა, ფერისა, სულას, მათი ერის, პავლეს მამასახლისობის დროს.
                  ქორონიკონი იყო 106.</p>
-         </div>    
-                             
+         </div>
+
                <div type="commentary">
                 <p>ბასილი ზარზმელის აღწერილ „სერაპიონ ზარზმელის ცხოვრებაში“ ნათქვამია, რომ დაუმთავრებელი ეკლესია მონასტრის მამასახლისად არჩეულმა პავლე ხუცესმა დაასრულა: „ამან
-                პირველვე სრულყო ეკლესიაჲ შეამკო ყოვლითა სამკაულითა და აღმართეს მას შინა ხატი ფერისცვალებისაჲ და აკურთხეს ყოველთა კურთხევითა მამობასა შინა პავლესსა“ (კ. კეკელიძე, 
+                პირველვე სრულყო ეკლესიაჲ შეამკო ყოვლითა სამკაულითა და აღმართეს მას შინა ხატი ფერისცვალებისაჲ და აკურთხეს ყოველთა კურთხევითა მამობასა შინა პავლესსა“ (კ. კეკელიძე,
                 ადრინდელი ფეოდალური ქართული ლიტერატურა, ნაკვ. I, ტფ., 1935, 117-118). ივანე ჯავახიშვილი მიიჩნევს, რომ მიუხედავად იმისა, რომ წარწერა 886 (780+106=886) წლით თარიღდება, იგი უფრო
                 გვიან, XI საუკუნეში ზვიად ერისთავის მიერ მისი რესტავრირების დროს ხელახლა უნდა იყოს გამოჭედილი. თავად ზვიად ერისთავის მოსახსენებელი წარწერა იმავე ლითონის ფურცელზე მოიპოვება
                 და ეს ორი წარწერა ერთი და იმავე ხელითა და ოსტატობით არის გაკეთებული XI საუკუნეში. როგორც ჩანს, ზვიად ერისთავმა ხატის ხელმეორედ შემოსვის დროს ეს პირველი წარწერაც განაახლა
-                და იქვე თავისი წარწერაც მიაყოლა. </p>                
+                და იქვე თავისი წარწერაც მიაყოლა. </p>
             </div>
         </body>
     </text>

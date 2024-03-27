@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
@@ -34,9 +34,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType xml:lang="ka" ref="https://www.eagle-network.eu/voc/objtyp/lod/416">კედელი</objectType>
-                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
                                       <dimensions unit="cm">
                                         <width/>
                                         <height/>
@@ -49,15 +49,15 @@
                                 ჩრდილოეთ კედელში ჩასმულ ფილაზე
                                         <dimensions unit="cm">
                                          <width/>
-                                         <height/> 
-                                        </dimensions>  
-                                    </layout>                                   
+                                         <height/>
+                                        </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                                 <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
-                                   <height/> 
+                                   <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -67,7 +67,7 @@
                                 <seg xml:lang="ka">საფარის წმ. გიორგის ეკლესია</seg>
                                     <seg xml:lang="en">Sapara St. George church</seg>
                                 </origPlace>
-                                 <origDate notBefore-custom="1400" notAfter-custom="1500" precision="medium" 
+                                 <origDate notBefore-custom="1400" notAfter-custom="1500" precision="medium"
                                     evidence="context" datingMethod="#julian">XV AD</origDate>
                             </origin>
                             <provenance type="found">
@@ -75,19 +75,19 @@
                                 <seg xml:lang="ka">საფარის წმ. გიორგის ეკლესია</seg>
                                     <seg xml:lang="en">Sapara St. George church</seg>
                                 </placeName>
-                                <!-- "41.602116, 43.031036"--> 
+                                <!-- "41.602116, 43.031036"-->
                                 <rs type="circumstances"></rs>
                                 <rs type="context"></rs>
                                 <rs type="monuList"/>
-                            </provenance>                                
+                            </provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot">
                                 <seg xml:lang="ka">საფარის წმ. გიორგის ეკლესია</seg>
                                     <seg xml:lang="en">Sapara St. George church</seg>
                                 </placeName>
                                 <idno type="invNo"/>
-                            </provenance> 
-                    </history>                   
+                            </provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -95,7 +95,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
     <!--<facsimile>
@@ -105,48 +105,48 @@
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
-    </facsimile>--> 
+    </facsimile>-->
     <text>
-        <body>           
+        <body>
              <div type="bibliography">
-               
-       <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
-              
-            </div>            
+
+       <p><bibl n="1"><ptr target="#b149"/>ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა, <citedRange> 118-169</citedRange></bibl></p>
+
+            </div>
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!--  "† წო სბა მეოხყვ
                             სოლა [ი]ოვნესა ესე წ
-                            ყრო აშენა"--> 
-                                                            
+                            ყრო აშენა"-->
+
 
                 <ab>
-                   <lb n="1"/>&#8224;<w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> 
-                                   <name nymRef="საბა" type="saint"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ბა</abbr></expan></name> 
-                                    <w type="მეოხ-ყოფა"><expan><abbr>მეოხ</abbr><ex>ე</ex><abbr>ყ</abbr><ex>ა</ex><abbr>ვ</abbr></expan></w>          
-                   <lb n="2"/><w lemma="სულ"><expan><abbr>სო</abbr><ex>ჳ</ex><abbr>ლ</abbr><ex>ს</ex>ა</expan></w> 
+                   <lb n="1"/>&#8224;<w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w>
+                                   <name nymRef="საბა" type="saint"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ბა</abbr></expan></name>
+                                    <w type="მეოხ-ყოფა"><expan><abbr>მეოხ</abbr><ex>ე</ex><abbr>ყ</abbr><ex>ა</ex><abbr>ვ</abbr></expan></w>
+                   <lb n="2"/><w lemma="სულ"><expan><abbr>სო</abbr><ex>ჳ</ex><abbr>ლ</abbr><ex>ს</ex>ა</expan></w>
                        <persName type="local" key="იოვანე [საფარის წმ. გიორგის ეკლესიის მაშენებელი]"><expan><supplied reason="lost"><abbr>ი</abbr></supplied><abbr>ოვ</abbr><ex>ა</ex><abbr>ნესა</abbr></expan> </persName>
-                                 <w lemma="ესე">ესე</w> 
+                                 <w lemma="ესე">ესე</w>
                                  <w lemma="წყარო"><expan><abbr>წ
-                   <lb n="3" break="no"/>ყ</abbr><ex>ა</ex><abbr>რო</abbr></expan></w> 
-                             <w lemma="შენება"><expan><abbr>ა</abbr><ex>ღა</ex><abbr>შენა</abbr></expan></w>     
+                   <lb n="3" break="no"/>ყ</abbr><ex>ა</ex><abbr>რო</abbr></expan></w>
+                             <w lemma="შენება"><expan><abbr>ა</abbr><ex>ღა</ex><abbr>შენა</abbr></expan></w>
                    </ab>
-               </div>           
+               </div>
          <div type="translation">
              <p xml:lang="ka">† წმიდაო საბა, მეოხ-ეყავ იოვანეს სულს, რომელმაც ეს წყარო ააშენა.</p>
-         </div>    
-                             
+         </div>
+
                <div type="commentary">
                 <p xml:lang="ka">საფარის მონასტერი ძველი დროიდანვე სხვადასხვა დანიშნულების 12 ნაგებობისაგან შედგებოდა. მათ შორის მთავარია წმ. საბას
                    სახელობის ტაძარი, აგებული ბექა სამცხის სპასალარისა და მანდატურთუხუცესის მიერ XIII-XIV სს. მიჯნაზე. საფარაში ამაზე ძველი ეკლესიაც არსებობს, X ს-ის
-                   ღვთისმშობლის მიძინების სახელობის ტაძარი, რომელსაც ჩრდილოეთიდან მიდგმული აქვს ზემოხსენებული წმ. საბას ტაძარი. 
+                   ღვთისმშობლის მიძინების სახელობის ტაძარი, რომელსაც ჩრდილოეთიდან მიდგმული აქვს ზემოხსენებული წმ. საბას ტაძარი.
                    ვალერი სილოგავას აზრით, წმინდა გიორგის ტაძარი, რომელზეც ეს წარწერაა შესრულებული, აგებულია XV საუკუნეში. მასზე შესრულებული წარწერებიც
-                   თანადროული უნდა იყოს. 
-                   იოვანეს წყაროს აშენების წარწერა ძალზე მნიშვნელოვანია, რადგან ძველი წარწერები წყაროთა აშენების-გამოყვანის და მის გარშემო გარკვეული ტიპის ნაგებობების 
+                   თანადროული უნდა იყოს.
+                   იოვანეს წყაროს აშენების წარწერა ძალზე მნიშვნელოვანია, რადგან ძველი წარწერები წყაროთა აშენების-გამოყვანის და მის გარშემო გარკვეული ტიპის ნაგებობების
                    აგების შესახებ იშვიათია. ტექსტისეული „ესე წყარო აღაშენა“ ვალერი სილოგავას აფიქრებინებს, რომ წარწერიანი ფილა თავდაპირველად არა ეკლესიის კედელში
                    და ისიც მის შიგნით, არამედ წყაროს თავზე იქნებოდა ჩასმული და აქ იგი მეორედ გამოყენების შედეგადაა მოხვედრილი.
-               </p>                
-            </div>           
+               </p>
+            </div>
         </body>
     </text>
 </TEI>

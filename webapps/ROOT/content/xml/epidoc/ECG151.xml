@@ -5,8 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="ka">წარწერები ტაძრის დასავლეთ მინაშენის შესასვლელის ტიმპანზე</title>
-                <editor xml:lang="ka">ვალერი სილოგავა</editor>
+                <title>წარწერები ტაძრის დასავლეთ მინაშენის შესასვლელის ტიმპანზე</title>
             </titleStmt>
             <publicationStmt>
                 <authority>ილიას სახელობის სახელმწიფო უნივერსიტეტი</authority>
@@ -45,7 +44,7 @@
                                     <depth>31</depth>
                                 </dimensions>
                                 </layout>
-                                
+
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -99,60 +98,60 @@
     18.შ(ეუნდვე)ნ-->
 
         <body>
-            
+
             <div type="bibliography">
                 <p>
-                    <bibl n="1">ვალერი სილოგავა, კუმურდო, <citedRange>62-64</citedRange>, თბილისი 1994<ptr target="bibliography.xml#b198"/></bibl>
+                    <bibl n="1"><ptr target="#b198"/> ვალერი სილოგავა, კუმურდო, <citedRange>62-64</citedRange>, თბილისი 1994</bibl>
                 </p>
-                
-                
+
+
                 <p>
-                    <bibl n="2">M. Brosset, Rapports sur un voyage archeologique dans la Georgie et dans l'Armenie execute en 1847-1848
-                        V. II <citedRange>171</citedRange>St. Petersburg, 1850 <ptr target="bibliography.xml#b189"/>
+                    <bibl n="2"><ptr target="#b189"/> M. Brosset, Rapports sur un voyage archeologique dans la Georgie et dans l'Armenie execute en 1847-1848
+                        V. II <citedRange>171</citedRange>St. Petersburg, 1850
                     </bibl>
                 </p>
-                 
+
                  <p>
-                    <bibl n="3">
-                        ვ. ცისკარიშვილი, ჯავახეთის ეპიგრაფიკა, როგორც საისტორიო წყარო, <citedRange>12-13</citedRange>, თბილისი, 1959<ptr target="bibliography.xml#b200"/>
+                    <bibl n="3"><ptr target="#b200"/>
+                        ვ. ცისკარიშვილი, ჯავახეთის ეპიგრაფიკა, როგორც საისტორიო წყარო, <citedRange>12-13</citedRange>, თბილისი, 1959
                     </bibl>
                 </p>
-                 
+
                  <p>
-                    <bibl n="4">
-                        И.П. Ростомов, Аxалкалакский уъезд в арxеологическом отношении, <citedRange>91-92</citedRange>, 1898<ptr target="bibliography.xml#b199"/>
+                    <bibl n="4"><ptr target="#b199"/>
+                        И.П. Ростомов, Аxалкалакский уъезд в арxеологическом отношении, <citedRange>91-92</citedRange>, 1898
                     </bibl>
                 </p>
-                 
+
                  <p>
-                    <bibl n="5">
-                        Е.С. Такайшвили, Христианские памятники, <citedRange>42</citedRange>, Москва, 1909<ptr target="bibliography.xml#b153"/>
+                    <bibl n="5"><ptr target="#b153"/>
+                        Е.С. Такайшвили, Христианские памятники, <citedRange>42</citedRange>, Москва, 1909
                     </bibl>
                 </p>
-                 
+
                  <p>
-                    <bibl n="6">
+                    <bibl n="6"><ptr target="#b201"/>
                         ნ. ბერძენიშვილი, ჯავახეთის 1933 წლის ექსპედიციის დღიური, იხ. მისი "საქართველის ისტორიის საკითხები", ისტორიული გეოგრაფია, ტ. I, <citedRange>135</citedRange>
-                        თბილისი, 1964<ptr target="bibliography.xml#b201"/>
+                        თბილისი, 1964
                     </bibl>
                 </p>
-                 
+
                  <p>
-                    <bibl n="7">ი. გვარამაძე, "დროება" არქეოლოგიური შენიშვნები, <citedRange>150</citedRange>, თბილისი, 1982<ptr target="bibliography.xml#b202"/></bibl>
+                    <bibl n="7"><ptr target="#b202"/></bibl> ი. გვარამაძე, "დროება" არქეოლოგიური შენიშვნები, <citedRange>150</citedRange>, თბილისი, 1982
                 </p>
              </div>
-            
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                  
+
                         <div type="textpart" subtype="fragment" n="ა">
-               
+
                               <ab>
                                   <lb n="1"/><w lemma="ჯუარი"><expan>ჯ<ex>უარ</ex>ი</expan></w> <expan>ქ<ex>რისტეს</ex>ი</expan>
                               </ab>
                          </div>
 
                     <div type="textpart" subtype="fragment" n="ბ">
-                        
+
                            <ab>
                             <lb n="2"/>&#10013; <expan>ი<ex>ეს</ex>უ</expan>
                             <lb n="3"/><expan>ქ<ex>რისტ</ex>ე</expan><w lemma="დიდებულ ჰყოს"><expan>დ<ex>იდე</ex>ბ<ex>უ</ex>ლ ჰყ<ex>ა</ex>ვ</expan></w>
@@ -174,7 +173,7 @@
                     </div>
 
                     <div type="textpart" subtype="fragment" n="გ">
-                       
+
                         <ab>
                            <lb n="13"/><persName type="local" key="ზოსიმე კუმურდოელი"><expan>ზ<ex>ო</ex>ს<ex>ი</ex>მე</expan></persName>
                            <w lemma="კუმურდოელი"><expan>კ<ex>უ</ex>მ<ex>უ</ex>რდოელსა</expan></w>
@@ -183,20 +182,20 @@
                            <lb n="14"/><w lemma="ამინ"><expan>ა<ex>მი</ex>ნ</expan></w>
                        </ab>
                      </div>
-           
-            
+
+
                     <div type="textpart" subtype="fragment" n="დ">
-                       
+
                           <ab>
                             <lb n="15"/><w lemma="ღმერთი"><expan>ღ<ex>მერთმ</ex>ან</expan></w>
                             <lb n="16"/><w lemma="გალატოზი"><expan>გ<ex>ა</ex>ლ<ex>ა</ex>ტ<ex>ოზ</ex>სა</expan></w>
                             <lb n="17"/><persName type="local" key="მიქაელ კუმურდოს გალატოზი"><expan>მ<ex>ი</ex>ქ<ex>აე</ex>ლსა</expan></persName>
                             <lb n="18"/><w lemma="შეუნდობს"><expan>შ<ex>ეუნდვე</ex>ნ</expan></w>
-        
+
                         </ab>
                     </div>
          </div>
-           
+
 
             <div type="translation">
                 <p>

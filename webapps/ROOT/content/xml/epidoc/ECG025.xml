@@ -25,7 +25,7 @@
                     <msIdentifier>
                          <collection>ზემო ნიქოზი</collection>
                     </msIdentifier>
-                    
+
                      <msContents>
                         <summary>
                             <seg xml:lang="ka">მოსახსენებელი</seg>
@@ -35,7 +35,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">რუხი ქვა</material>
                                     <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
@@ -46,8 +46,8 @@
                                     </dimensions>
                                 </support></supportDesc>
                                 <layoutDesc>
-                                    <layout writtenLines="2"> 
-                                       <seg xml:lang="ka">წარწერა ორსტრიქონიანია. იგი შესრულებულია ტაძრის გუმბათის ჩრდილოეთი სარკმლის ზემო ქვაზე, ლომის ორ გამოსახულებას შორის.</seg> 
+                                    <layout writtenLines="2">
+                                       <seg xml:lang="ka">წარწერა ორსტრიქონიანია. იგი შესრულებულია ტაძრის გუმბათის ჩრდილოეთი სარკმლის ზემო ქვაზე, ლომის ორ გამოსახულებას შორის.</seg>
                                         <seg xml:lang="en">Two line inscription. Inscription is located on the upper stone of the north window of the dome, between the two ornaments of lions.</seg>
                                         <dimensions unit="cm">
                                             <width>25</width>
@@ -56,7 +56,7 @@
                                         </dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc> 
+                        </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
                                 <seg xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა.</seg>
@@ -71,7 +71,7 @@
                                     <seg xml:lang="ka">ზემო ნიქოზი, მთავარანგელოზის ტაძარი</seg>
                                     <seg xml:lang="en">Zemo Nikozi, Archangel Church</seg>
                                 </origPlace>
-                                <origDate notBefore-custom="0900" notAfter-custom="1000" precision="medium" 
+                                <origDate notBefore-custom="0900" notAfter-custom="1000" precision="medium"
                                     evidence="lettering" datingMethod="#julian">X AD</origDate>
                             </origin>
                             <provenance type="found">
@@ -79,14 +79,14 @@
                                     <seg xml:lang="ka">ზემო ნიქოზი, მთავარანგელოზის ტაძარი</seg>
                                     <seg xml:lang="en">Zemo Nikozi, Archangel Church</seg>
                                 </placeName>
-                                <!--  "42.195094, 43.958490"--> 
+                                <!--  "42.195094, 43.958490"-->
                                 <rs type="circumstances">
                                     <seg xml:lang="ka">სოფელ ზემო ნიქოზის მთავარანგელოზის ტაძარი მდებარეობს ცხინვალიდან სამი კმ-ის მანძილზე, სამხრეთით.</seg>
                                     <seg xml:lang="en">3 km South from Tskhinvali.</seg>
-                                </rs> 
+                                </rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance> 
+                            </provenance>
                              <provenance type="observed">
                             <placeName type="modernSpot">
                                     <seg xml:lang="ka">ზემო ნიქოზი, მთავარანგელოზის ტაძარი</seg>
@@ -94,7 +94,7 @@
                             </placeName>
                             <idno type="invNo"/>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -102,10 +102,10 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc><change when="2019-11-05" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        <revisionDesc><change when="2019-11-05" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
-    </teiHeader>  
-        
+    </teiHeader>
+
     <facsimile>
         <surface>
             <graphic url="ecg025.jpg">
@@ -114,63 +114,63 @@
             </graphic>
         </surface>
     </facsimile>
-    
-    
+
+
     <text>
         <body>
-            
+
              <div type="bibliography">
-                            
-              <p><bibl n="1">ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი<ptr target="bibliography.xml#b101"/>, <citedRange> 186-187</citedRange></bibl></p>
-              <p><bibl n="2">M. Brosset, Rapports VI<ptr target="bibliography.xml#b22"/>, <citedRange>54-55</citedRange></bibl></p>
-              <p><bibl n="3">Г. Садзагелов-Ивериели. Описание Никозкой Михайло-архангельской церкви в Карталинии<ptr target="bibliography.xml#b40"/>, <citedRange>6</citedRange></bibl></p>
-              <p><bibl n="4">ივანე მეგრელიძე, სტალინირის და ზემო ნიქოზის სიძველეები<ptr target="bibliography.xml#b83"/>, <citedRange> 280</citedRange></bibl></p>
-              
-            </div>                  
-            
+
+              <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, <citedRange> 186-187</citedRange></bibl></p>
+              <p><bibl n="2"><ptr target="#b22"/> M. Brosset, Rapports VI, <citedRange>54-55</citedRange></bibl></p>
+              <p><bibl n="3"><ptr target="#b40"/> Г. Садзагелов-Ивериели. Описание Никозкой Михайло-архангельской церкви в Карталинии, <citedRange>6</citedRange></bibl></p>
+              <p><bibl n="4"><ptr target="#b83"/> ივანე მეგრელიძე, სტალინირის და ზემო ნიქოზის სიძველეები, <citedRange> 280</citedRange></bibl></p>
+
+            </div>
+
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
-                
+
                         <!--  "ქე შე იოვნე
                               დსწლი მქლ ებკზჲ"-->
 
                 <ab>
-                   <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
-                            <w lemma="შეწყალება"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> 
+                   <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w>
+                            <w lemma="შეწყალება"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w>
                             <persName type="local" key="იოვანე [დისწული მიქაელ ნიქოზელი ეპისკოპოსისა]"><name nymRef="იოვანე"><expan><abbr>იოვ</abbr><ex>ა</ex><abbr>ნე</abbr></expan></name></persName>
-                   <lb n="2"/><w lemma="დისწულ"><expan><abbr>დ</abbr><ex>ი</ex><abbr>სწ</abbr><ex>უ</ex><abbr>ლი</abbr></expan></w> 
+                   <lb n="2"/><w lemma="დისწულ"><expan><abbr>დ</abbr><ex>ი</ex><abbr>სწ</abbr><ex>უ</ex><abbr>ლი</abbr></expan></w>
                           <persName type="clergy" key="მიქაელ ნიქოზელი ეპისკოპოსი"><name nymRef="მიქაელ"><expan><abbr>მ</abbr><ex>ი</ex>ქ<ex>აე</ex><abbr>ლ</abbr></expan></name>
-                          <roleName nymRef="ეპისკოპოს"><expan><abbr>ებ</abbr><ex>ის</ex><abbr>კ</abbr><ex>ოპო</ex><abbr>ზ</abbr><ex>ისა</ex><abbr>ჲ</abbr></expan></roleName> </persName>            
+                          <roleName nymRef="ეპისკოპოს"><expan><abbr>ებ</abbr><ex>ის</ex><abbr>კ</abbr><ex>ოპო</ex><abbr>ზ</abbr><ex>ისა</ex><abbr>ჲ</abbr></expan></roleName> </persName>
                   </ab>
             </div>
-                
+
             <div type="translation">
                 <p  xml:lang="ka">ქრისტე, შეიწყალე იოვანე, დისწული მიქაელ ეპისკოპოსისა.</p>
                 <p xml:lang="en">Christ, have mercy on John, nephew of Bishop Michael.</p>
             </div>
-            
+
             <div type="apparatus" xml:space="preserve">
-                
+
                 <p><app loc="1"> <lem>იოვანე</lem>
                  <rdg resp="მარი ბროსე">იესუ ქრისტე</rdg>
                  </app></p>
-                
+
                 <p><app loc="2"> <lem>დისწულ</lem>
                  <rdg resp="მარი ბროსე">და შეიწყალე</rdg>
                    </app></p>
-                
+
                   <p><app loc="2"> <lem>მიქაელ</lem>
                  <rdg resp="მარი ბროსე, ი. მეგრელიძე">მიქელ</rdg>
                     </app></p>
-                                
+
              </div>
-            
+
             <div type="commentary">
-                <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #94. წარწერას განკვეთილობის ნიშნები არ ახლავს. სიტყვები ერთმანეთისგან არ არის დაცილებული. 
-                    წარწერის დათარიღების პალეოგრაფიული საფუძველია გრაფემების მოყვანილობა: გრაფემა Ⴊ-ს წრე ზოგჯერ ძალიან დიდია და მოკლე ყელი უერთდება წრეს შუა ადგილზე; 
+                <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #94. წარწერას განკვეთილობის ნიშნები არ ახლავს. სიტყვები ერთმანეთისგან არ არის დაცილებული.
+                    წარწერის დათარიღების პალეოგრაფიული საფუძველია გრაფემების მოყვანილობა: გრაფემა Ⴊ-ს წრე ზოგჯერ ძალიან დიდია და მოკლე ყელი უერთდება წრეს შუა ადგილზე;
                     გრაფემა Ⴢ-ს ზედა კიდე მარცხნივაა ძლიერ გაზიდული და დიდად სცილდება ქვედა კიდეს; Ⴌ-ს გამხედრულება;
-                    გრაფემების ჩამოგრძელება, მიდრეკილება ოთხხაზოვანი ბადისაკენ. სიტყვების გადაბმა, განკვეთილობის გარეშე წერა. ეკლესიის ხუროთმოძღვრული ნიშნები და ჩუქურთმები. 
+                    გრაფემების ჩამოგრძელება, მიდრეკილება ოთხხაზოვანი ბადისაკენ. სიტყვების გადაბმა, განკვეთილობის გარეშე წერა. ეკლესიის ხუროთმოძღვრული ნიშნები და ჩუქურთმები.
                 </p>
-                <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #94. The inscription does not contain any mark of separation. No spaces between the words. Dating the inscription according to the paleographic data, the shape of the graphemes: grapheme Ⴊ sometimes has quite a big circle and a short neck joins the circle in the middle. the upper left edge of the grapheme Ⴢ is leaned and departs from the lower edge greatly; Letter Ⴌ is represented with Mkhedruli alphabet; 
+                <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #94. The inscription does not contain any mark of separation. No spaces between the words. Dating the inscription according to the paleographic data, the shape of the graphemes: grapheme Ⴊ sometimes has quite a big circle and a short neck joins the circle in the middle. the upper left edge of the grapheme Ⴢ is leaned and departs from the lower edge greatly; Letter Ⴌ is represented with Mkhedruli alphabet;
                     tendency of lengthen the letters; adjusting to fit the four line format. Words follow each other without leaving out the space. Ornaments and carvings of the church.
                 </p>
             </div>

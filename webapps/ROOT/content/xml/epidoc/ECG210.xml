@@ -26,7 +26,7 @@
                                 <support>
                                     <objectype/>
                                     <material>ვარდისფერის ტუფის ქვა</material>
-                                
+
                             </support>
                             </supportDesc>
                             <layoutDesc>
@@ -44,7 +44,7 @@
                             <handNote>
                                 <dimensions unit="mm">
                                     <height></height>
-                                </dimensions>        
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -55,7 +55,7 @@
                         </origin>
                         <provenance><placename>დმანისის შიდაციხის ტერიტორია, V ნაგებობის №4 ოთახი</placename>
                         </provenance>
-                        
+
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -65,21 +65,21 @@
     </listPrefixDef>
 </encodingDesc>
     </teiHeader>
-    <text><!-- 
+    <text><!--
     1.  ...და...
     2.  ...ი(ან ე)ნთ...
     3.  ...ბ~რ
      -->
-        
+
         <body>
-            
+
             <div type="bibliography">
-                
-                <p><bibl n="1">გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>101</citedRange>, თბილისი, 2018<ptr target="bibliography.xml#b7"/></bibl></p>
-                
-                <p><bibl n="2">ჯ. კოპალიანი, წარწერიანი არქეოლოგიური მასალა დმანისის ნაქალაქარის შიდა ციხიდან, დმანისი, <cittedRange>78-79</cittedRange>, თბილისი, 1998<ptr target="bibliography.xml#b214"/></bibl></p>
-                
-                
+
+                <p><bibl n="1"><ptr target="#b7"/> გიორგი ოთხმეზური, დმანისი, ქვემო ქართლის ეპიგრაფიკული კორპუსი, I, <citedRange>101</citedRange>, თბილისი, 2018</bibl></p>
+
+                <p><bibl n="2"><ptr target="#b214"/> ჯ. კოპალიანი, წარწერიანი არქეოლოგიური მასალა დმანისის ნაქალაქარის შიდა ციხიდან, დმანისი, <cittedRange>78-79</cittedRange>, თბილისი, 1998</bibl></p>
+
+
             </div>
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
                 <div type="textpart" subtype="fragment" n="1">
@@ -87,16 +87,16 @@
                         <lb n="1"/> ...და...
                         <lb n="2"/>...ი(ან ე)ნთ...
                         <lb n="3"/>...ბ~რ
-                        
-                        
+
+
                     </ab>
-                </div> 
-                
+                </div>
+
             </div>
-            
+
             <div type="translation">
                 <p>
-                    
+
                 </p>
             </div>
             <div type="commentary">
@@ -104,18 +104,10 @@
                     დაზიანება: წარწერა ფრაგმენტული სახით შემორჩა
                     წარწერის დათარიღება წინა გამოცემაში: XI  ს., პალეოგრაფიული ნიშნებისა და იქვე გამოვლენილი არქეოლოგიური მასალის საფუძველზე (კ).
                     გაკუთხოვნებული გრაფემები გათვალისწინებით, წარმოდგენილ გამოცემაში გაზიარებულია მოცემული დათარიღბა
-                  
+
                 </p>
             </div>
-            
+
         </body>
     </text>
 </TEI>
-
-
-
-
-
-
-
-

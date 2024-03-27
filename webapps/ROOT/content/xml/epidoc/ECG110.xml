@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
@@ -31,9 +31,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>                                   
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
                                       <dimensions unit="cm">
                                             <width/>
                                             <height/>
@@ -45,40 +45,44 @@
                                     <layout writtenLines="4">წარწერა ოთხსტრიქონიანია. თავის დროზე იგი კედელში ჩასმულ ქვის ფილაზე იყო ამოკვეთილი
                                         <dimensions unit="cm">
                                              <width/>
-                                             <height/> 
-                                          </dimensions>  
-                                    </layout>                                   
+                                             <height/>
+                                          </dimensions>
+                                    </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote script="nuskhuri" style="inscribed">
-                                <rs type="execution">ამოღარული</rs> <rs type="script">ნუსხური</rs> წარწერა, 
+                                <rs type="execution">ამოღარული</rs> <rs type="script">ნუსხური</rs> წარწერა,
                                შესრულებულია სწორი, ეპიგრაფიკული ნუსხურით
-                                   <height/> 
+                                   <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                             <origin>
                                 <origPlace>ბოდოკლდის ეკლესია</origPlace>
-                                <origDate notBefore-custom="900" notAfter-custom="1100" 
+                                <origDate notBefore-custom="900" notAfter-custom="1100"
                                     evidence="lettering" datingMethod="#julian">X-XI AD</origDate>
                             </origin>
                             <provenance type="found">
                                 <placeName type ="ancientFindspot">ბოდოკლდის ეკლესია</placeName>
-                                <!-- "41.734266, 42.822445"--> 
-                                <rs type="circumstances"/>                                   
+                                <!-- "41.734266, 42.822445"-->
+                                <rs type="circumstances"/>
                                 <rs type="context"></rs>
-                                <rs type="monuList"/></provenance>                                
+                                <rs type="monuList"/></provenance>
                             <provenance type="observed">
                                 <placeName type="modernSpot">ბოდოკლდის ეკლესია</placeName>
                                 <idno type="invNo"/>
-                            </provenance> 
-                    </history>                   
+                            </provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc>
-        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
+        </fileDesc><encodingDesc>
+    <listPrefixDef>
+        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
+    </listPrefixDef>
+</encodingDesc>
+        <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება,
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc>
     </teiHeader>
      <!--<facsimile>
@@ -88,49 +92,49 @@
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
-    </facsimile>--> 
+    </facsimile>-->
     <text>
-        <body>              
+        <body>
             <div type="bibliography">
-               
-    <p><bibl n="1">ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა<ptr target="bibliography.xml#b149"/>, <citedRange> 118-169</citedRange></bibl></p>
-              
+
+    <p><bibl n="1"><ptr target="#b149"/> ვალერი სილოგავა, სამცხის ლაპიდარული ეპიგრაფიკა, <citedRange> 118-169</citedRange></bibl></p>
+
             </div>
-            
-              <div type="edition" xml:lang="ka" ana="nuskhuri" xml:space="preserve">
-                
+
+              <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
+
                         <!--  წო ეკო
                         გვედი
                         ა იე გლ
-                        ატოზი-->                                      
+                        ატოზი-->
                 <ab>
-                   <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> 
+                   <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w>
                             <w lemma="ეკლესია"><expan><abbr>ეკ</abbr><ex>ლესია</ex><abbr>ო</abbr></expan></w>
                    <lb n="2"/><w>გვედი
-                    <lb n="3" break="no"/>ა</w> 
-                            <name nymRef="იოვანე"><expan><abbr>ი</abbr><ex>ოვან</ex><abbr>ე</abbr></expan></name> 
+                    <lb n="3" break="no"/>ა</w>
+                            <name nymRef="იოვანე"><expan><abbr>ი</abbr><ex>ოვან</ex><abbr>ე</abbr></expan></name>
                             <roleName><w lemma="გალატოზ"><expan><abbr>გ</abbr><ex>ა</ex><abbr>ლ
-                    <lb n="4" break="no"/>ატოზი</abbr></expan></w></roleName>                         
+                    <lb n="4" break="no"/>ატოზი</abbr></expan></w></roleName>
                 </ab>
                </div>
-              
-            
+
+
          <div type="translation" xml:lang="ka">
              <p>წმინდაო ეკლესიაო, შეიწყალე იოვანე კალატოზი.</p>
-         </div>    
-                             
-                
+         </div>
+
+
             <div type="commentary">
-                <p>ბოდოკლდის ეკლესიის წარწერა მოსახსენებელი წარწერის კარგი ნიმუშია. ვალერი სილოგავას აზრით, საგანგებო ყურადღებას იქცევს წარწერის არქაული ლექსიკა. პირველ რიგში, მიმართვა წმინდა ეკლესიისადმი, 
+                <p>ბოდოკლდის ეკლესიის წარწერა მოსახსენებელი წარწერის კარგი ნიმუშია. ვალერი სილოგავას აზრით, საგანგებო ყურადღებას იქცევს წარწერის არქაული ლექსიკა. პირველ რიგში, მიმართვა წმინდა ეკლესიისადმი,
                 რომელიც დამახასიათებელია სწორედ უძველესი წარწერებისათვის. მეორეა, სიტყვა „გვედია“ რომელიც X-XIII სს-ში გვხვდება, მათ შორის, ჭყონდიდის ტაძრის და
                 ჩვაბიანის მაცხოვრის ეკლესიის (ზემო სვანეთი) XII-XIII სს-ის წარწერა-გრაფიტებში. პირველად ეს სიტყვა დასტურდება გიორგი მერჩულეს „გრიგოლ ხანძთელის ცხოვრებაში“ (951 წ.).
-                იგი შედარებით ხშირად გვხვდება ხელნაწერთა ანდერძ-მინაწერებში, მაგალითად, 12-ჯერ დასტურდება იოანე-ზოსიმეს მიერ გადაწერილ სინურ ლექციონარში (Sin.37), 
+                იგი შედარებით ხშირად გვხვდება ხელნაწერთა ანდერძ-მინაწერებში, მაგალითად, 12-ჯერ დასტურდება იოანე-ზოსიმეს მიერ გადაწერილ სინურ ლექციონარში (Sin.37),
                 უფრო ადრეც, „სახარებანი საცისკრონი“ (Sin. 47) და სხვა. ილია აბულაძის მიხედვით, მისი ძირია ვედ- და იგი ნიშნავს გაფრთხილებას, ფრთხილად შენახვას
                 (ილია აბულაძე, ძველი ქართული ენის ლექსიკონი, თბ, 1973,  155). ზურაბ სარჯველაძის მიხედვით,
-                სიტყვა ასე იშლება: გ-ვედიე-ს და ნიშნავს შეთხოვნას, ლოცვისას მოხსენიებას (ზურაბ სარჯველაძე, ძველი ქართული ენის სიტყვის კონა, თბ., 2001, 55), 
-                ხოლო „ქართული აგიოგრაფიული ძეგლების სიმფონია-ლექსიკონის“ ავტორთა განმარტებით, ამ სიტყვის 
-                მნიშვნელობაა გაბარია (ქართული აგიოგრაფიული ძეგლების სიმფონია-ლექსიკონი, I, ა-ლ, ნარგიზა გოგუაძის, ზურაბ სარჯველაძისა და მზექალა შანიძის რედაქციით, თბ., 2005,  176). 
-                ბოდოკლდის იოვანე კალატოზის წარწერაში იგი ნიშნავს შეიწყალეს, დაიცვენ-დაიფარეს.</p>                
+                სიტყვა ასე იშლება: გ-ვედიე-ს და ნიშნავს შეთხოვნას, ლოცვისას მოხსენიებას (ზურაბ სარჯველაძე, ძველი ქართული ენის სიტყვის კონა, თბ., 2001, 55),
+                ხოლო „ქართული აგიოგრაფიული ძეგლების სიმფონია-ლექსიკონის“ ავტორთა განმარტებით, ამ სიტყვის
+                მნიშვნელობაა გაბარია (ქართული აგიოგრაფიული ძეგლების სიმფონია-ლექსიკონი, I, ა-ლ, ნარგიზა გოგუაძის, ზურაბ სარჯველაძისა და მზექალა შანიძის რედაქციით, თბ., 2005,  176).
+                ბოდოკლდის იოვანე კალატოზის წარწერაში იგი ნიშნავს შეიწყალეს, დაიცვენ-დაიფარეს.</p>
             </div>
         </body>
     </text>

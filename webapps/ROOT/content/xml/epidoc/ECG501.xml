@@ -9,7 +9,7 @@
                     ბორჯომის ხეობა. ფოთოლეთის წმიდა გიორგის ეკლესია, სავედრებელი წარწერა მნათესი, XI ს.
                 </title>
                 <editor xml:lang="ka">თამაზ გოგოლაძე</editor>
-                
+
             </titleStmt>
             <publicationStmt>
                  <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
@@ -100,13 +100,12 @@
     <text>
         <body>
            <div type="bibliography">
-               
-                <p><bibl n="1">თამაზ გოგოლაძე,თორის ხეობის ეპიგრაფიკული კორპუსი<ptr target="bibliography.xml#b234"/>,<citedRange>47-49 </citedRange>2019</bibl></p>
-                <p><bibl n="2">თამაზ გოგოლაძე, ირაკლი გელაშვილი, ნინო ხარშილაძე, ფოთოლეთის ეკლესიის ნაკაწრი წარწერები და მათი ისტორიულ-წყაროთმცოდნეობითი ანალიზი<ptr target="bibliography.xml#b130"/>,<citedRange>256-257 </citedRange>2016-2017</bibl></p>
-                <p><bibl n="3">თამაზ გოგოლაძე,ირაკლი გელაშვილი,ნინო ხარშილაძე,ფოთოლეთის ეკლესიის ნაკაწრი წარწერები და მათი ისტორიულ-წყაროთმცოდნეობითი ანალიზი<ptr target="bibliography.xml#b130"/>,<citedRange>142-144 </citedRange>2014</bibl></p>
-            
+
+                <p><bibl n="1"><ptr target="#b234"/> თამაზ გოგოლაძე, თორის ხეობის ეპიგრაფიკული კორპუსი,<citedRange>47-49 </citedRange>2019</bibl></p>
+                <p><bibl n="2"><ptr target="#b130"/> თამაზ გოგოლაძე, ირაკლი გელაშვილი, ნინო ხარშილაძე, ფოთოლეთის ეკლესიის ნაკაწრი წარწერები და მათი ისტორიულ-წყაროთმცოდნეობითი ანალიზი, <citedRange>256-257</citedRange> 2016-2017</bibl></p>
+              
            </div>
-            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">     
+            <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
                         <!--ღ(მერ)თმ(ა)ნ ნუ შეუდნეს ცოდვანი მნ{ა}თესა, | რ{ომე}ლ ცხოარ არს-->
                 <ab>
                     <lb n="1"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერ</ex><abbr>თმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
