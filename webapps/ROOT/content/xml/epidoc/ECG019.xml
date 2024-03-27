@@ -116,7 +116,7 @@
 
              <div type="bibliography">
 
-                    <p><bibl n="1"> <ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 135</citedRange></bibl></p>
+                    <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 135</citedRange></bibl></p>
 
             </div>
 
@@ -153,15 +153,15 @@
                 <p xml:lang="en">Those who share the bread to … from the women’s chambers... all deceased and sinners...regarded them as brothers and (gave them relief) and baptized.</p>
             </div>
 
-           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+         <!-- <div type="apparatus" xml:space="preserve"/>                                                                                                                                    
 
               <p><app loc="5"><lem>ἀδελφίζω</lem>
               <rdg resp="თინათინ ყაუხჩიშვილი"> ეს სიტყვა შესაძლოა ჩანაცვლდეს შემდეგი სიტყვით "κουφίζω"</rdg>
-              </app></p>
+              
                <p><app loc="6"><lem>βαπτίζω</lem>
                <rdg>წარწერაში ეს სიტყვა βαπτιζιν ფორმითაა წარმოდგენილი.</rdg>
-               </app></p>
-            </div>
+               
+            </div>  --> 
 
             <div type="commentary">
                 <p xml:lang="ka">წარწერა მოასწავებს იმას, რომ იმ ბაზილიკური ტიპის ეკლესიას, რომლის ნანგრევებშიც არის ეს ქვა მოპოვებული, ჰქონდა ნაწილები: სანათლავი და საქალებო.

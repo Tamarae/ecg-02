@@ -118,7 +118,7 @@
     <facsimile>
         <surface>
             <graphic url="ecg026.jpg">
-                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/27/">მცხეთის ჯვრის მოსახსენებელი სტეფანოს ქართლის პატრიკიოსისა</desc>
+                <desc xml:lang="ka">მცხეთის ჯვრის მოსახსენებელი სტეფანოს ქართლის პატრიკიოსისა</desc>
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>

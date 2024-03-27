@@ -106,25 +106,12 @@
                 </ab>
             </div>
             <div type="translation" xml:lang="ka"><p>წმინდა ბასილი</p></div><!-- წარწერის ტექსტის თარგმანი -->
-            <div type="apparatus" xml:space="preserve"></div><!-- წარწერის კრიტიკული აპარატი -->
+          
             <div type="commentary"><p>წარწერის გრაფემები დაუზიანებელია</p></div><!-- კომენტარი -->
-            <div type="bibliography" subtype="principalEdition"><!-- ბიბლიოგრაფია -->
+            <div type="bibliography"/><!-- ბიბლიოგრაფია -->
+               
                 
-                    <p><bibl type="publication" subtype="principal" xml:lang="ka">
-                      <author>
-                          <persName>
-                            <forename></forename>
-                            <surname></surname>
-                          </persName>
-                      </author>
-                      <title/>
-                        <edition/>
-                        <pubPlace/>
-                        <publisher/>
-                        <date></date>
-                     </bibl></p>
-                
-            </div>
+    
          </body>
     </text>
 </TEI>

@@ -115,15 +115,10 @@
                 <p>ერთი არს ღმერთი, შეეწიე (/შემეწიე)</p>
             </div>
             
-           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p><app><lem></lem>
-              <rdg></rdg>
-              </app>
-              <app><lem></lem>
-              <rdg></rdg>
-              </app></p>
-            </div>
+           <div type="apparatus" xml:space="preserve"/>                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              
+              
+        
            
             <div type="commentary">
                 <p>წარწერა ნაკლული არ არის, უვარაუდება, ღმერთი უნდა შეეწიოს ამ ნივთის მატარებელს.</p>

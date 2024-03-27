@@ -119,7 +119,7 @@
     <facsimile>
         <surface>
             <graphic url="ecg027.jpg">
-                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/28/">მცხეთის ჯვრის მოსახსენებელი დემეტრე ჳპატოსისა</desc>
+                <desc xml:lang="ka">მცხეთის ჯვრის მოსახსენებელი დემეტრე ჳპატოსისა</desc>
                 <desc xml:lang="en">Jvari Monastery, Memorial of Demetrius Hypatos</desc>
             </graphic>
         </surface>

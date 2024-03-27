@@ -133,8 +133,8 @@
                 <p>Ailios Iason in memory of Eunone Everget (the benefactor).</p>
             </div>
 
-
-           <div type="apparatus" xml:space="preserve">                                                                                                   <!-- კრიტიკული აპარატი -->
+<!--  x
+           <div type="apparatus" xml:space="preserve"/>                                                                             
 
                <p>
                    <app loc="2"><lem>εὐεργέτης</lem>
@@ -142,7 +142,7 @@
                    ე.ი. რეალურად ευ-დიფთონგი არის ევ და ვ-სთვის ამ დროს გვაქვს დაწერილობა ου და υ (შემდეგ კი β).</rdg>
                </app>
                </p>
-            </div>
+            </div> --> 
 
             <div type="commentary" xml:lang="ka">
                 <p>დათარიღების საფუძველია ასოთა მოხაზულობა (მრგვალი C, კბილებიანი ω, α-სა და λ-ის წაგრძელებული ზემოთკენ მარჯვენა ბუნი) ენობრივი

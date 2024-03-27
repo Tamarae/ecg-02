@@ -122,12 +122,7 @@
                 <p>მარკოზი</p>
             </div>
             
-            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p><app><lem></lem>
-              <rdg></rdg>
-              </app></p>
-            </div>
+            <div type="apparatus" xml:space="preserve"/>           
            
             <div type="commentary">
                 <p>მარკოზის ხატი წარმოადგენს პატარა მინანქრებიან ხატს, გამოსახულება მინანქრითაა შესრულებული.</p>                

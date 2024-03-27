@@ -114,12 +114,8 @@
                 <p>იოანე წინამორბედი</p>
             </div>
                            <!-- კრიტიკული აპარატი -->
-            <div type="apparatus" xml:space="preserve">                                   
-              <head>კრიტიკული აპარატი</head>
-              <p><app><lem></lem>
-              <rdg></rdg>
-              </app></p>
-            </div>
+            <div type="apparatus" xml:space="preserve"/>                                   
+      
            
             <div type="commentary">
                 <p>ხატი წარმოადგენს იოანე ნათლისმცემლის ფერწერით ხატს.</p>                

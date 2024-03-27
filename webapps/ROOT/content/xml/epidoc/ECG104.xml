@@ -128,7 +128,7 @@
                   </ab>
                </div>
 
-              <div type="apparatus" xml:space="preserve">
+          <!--    <div type="apparatus" xml:space="preserve"/>
 
              <listApp>
                  <app loc="3">
@@ -136,7 +136,7 @@
                     <rdg resp="ნოდარ შოშიაშვილი">კრავაი</rdg>
                  </app>
                  </listApp>
-        </div>
+        </div> --> 
 
          <div type="translation" xml:lang="ka">
              <p>წმიდაო ღვთისმშობელო, კრავი შეიწყალე.</p>

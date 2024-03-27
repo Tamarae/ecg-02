@@ -150,16 +150,16 @@
                    </ab>
          </div>
 
-            <div type="translation">
+          <!--   <div type="translation">
                 <p xml:lang="ka">ქრისტე, შეიწყალე ჩორაჩ ცოლ-შვილთან ერთად.</p>
                 <p xml:lang="en">Christ, have mercy on Chorach and his wife and children.</p>
             </div>
 
-            <div type="apparatus" xml:space="preserve">
+            <div type="apparatus" xml:space="preserve"/>
                 <p><app loc="1"> <lem>ჩორაჩ</lem>
                  <rdg resp="აკაკი ბაქარაძე, ლევან მუსხელიშვილი">ჩორან</rdg>
-                 </app></p>
-                    </div>
+                 
+                    </div>--> 
 
             <div type="commentary">
                 <p xml:lang="ka"> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #47. ქარაგმის ნიშნად გამოყენებულია საშუალო ზომის განივი, სწორი ხაზი. განკეთილობის ნიშნები არ ახლავს.

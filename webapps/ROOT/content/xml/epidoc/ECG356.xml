@@ -161,7 +161,7 @@
                  </ab>
                </div>
 
-            <div type="apparatus" xml:space="preserve">
+         <!-- <div type="apparatus" xml:space="preserve"/>
 
              <listApp>
                  <app loc="1">
@@ -252,7 +252,7 @@
                      </app>
 
                 </listApp>
-            </div>
+            </div>  -->  
 
          <div type="translation" xml:lang="ka">
              <p> † ქრისტეს ჯუარო, ცხოველსმყოფელო, რომელი აღემართე გოლგოთას ჩვენს სახსნელად,

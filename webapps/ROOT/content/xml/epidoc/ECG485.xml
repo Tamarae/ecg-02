@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> -->
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
     <teiHeader>
@@ -41,7 +41,7 @@
                                   </support>
                             </supportDesc>
                                 <layoutDesc>
-                                    <layout wtittenLines="9">
+                                    <layout>
                                         <dimensions unit="cm">
                                             <width/>
                                             <height/>
@@ -50,8 +50,8 @@
                                 </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote script="nuskhuri" style="inscribed">წარწერა ნუსხური ანბანით არის შესრულებული. სტრიქონები ამოკვეთილია დახრილად. განკვეთილობის და დაქარაგმის ნიშანები არ ახლავს</handNote>
-                            <height>2,5-1,6</height>
+                            <handNote script="nuskhuri" style="inscribed">წარწერა ნუსხური ანბანით არის შესრულებული. სტრიქონები ამოკვეთილია დახრილად. განკვეთილობის და დაქარაგმის ნიშანები არ ახლავს, ასოთა სიმაღლე: 2,5-1,6</handNote>
+                            
                        </handDesc>
                         <decoDesc>
                             <decoNote/>
@@ -79,7 +79,7 @@
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
 </encodingDesc>
-        <revisionDesc> <change when="2019-07-1" who="TG">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან.</change></revisionDesc>
+       
     </teiHeader>
     <text>
         <body>
@@ -99,26 +99,12 @@
                     <lb n="9"/> <supplied reason="lost"><w lemma="თქვენც">თქუენცა</w> <w lemma="ინდობს">შეგინდენეს</w> <w lemma="ღმერთი">ღმერთმან</w></supplied>
                 </ab>
             </div>
-            <div type="translation" xml:lang="ka">ავაშენე ფაშასძემ. ვინც ლოცვაში მოგვიხსენიებთ, თქვენც შეგინდობთ ღმერთი.</div>
-            <div type="apparatus" xml:space="preserve"> </div>
-            <div type="commentary">ფილის მარჯვენა მხარეს წარწერის ტექსტის ნაწილით მოტეხილია. გადაშლილია ფილის ზედა ნაწილი და დაზიანებულია წარწერის პირველი სტრიქონი.</div>
-            <div type="bibliography" subtype="principalEdition">
+            <div type="translation" xml:lang="ka"><p>ავაშენე ფაშასძემ. ვინც ლოცვაში მოგვიხსენიებთ, თქვენც შეგინდობთ ღმერთი</p></div>
+
+            <div type="commentary"><p>ფილის მარჯვენა მხარეს წარწერის ტექსტის ნაწილით მოტეხილია. გადაშლილია ფილის ზედა ნაწილი და დაზიანებულია წარწერის პირველი სტრიქონი.</p></div>
+            <div type="bibliography"/>
                 
-                    <p><bibl type="publication" subtype="principal" xml:lang="ka">
-                      <author>
-                          <persName>
-                            <forename></forename>
-                            <surname></surname>
-                          </persName>
-                      </author>
-                      <title/>
-                        <edition/>
-                        <pubPlace/>
-                        <publisher/>
-                        <date></date>
-                     </bibl></p>
-                
-            </div>
+            
          </body>
     </text>
 </TEI>

@@ -132,7 +132,7 @@
                 </ab>
                </div>
 
-              <div type="apparatus" xml:space="preserve">
+             <!-- <div type="apparatus" xml:space="preserve"/>
 
              <listApp>
                  <app loc="1">
@@ -178,7 +178,7 @@
                     <rdg resp="ექვთიმე თაყაიშვილი, დიმიტრი ბაქრაძე">მეფ...</rdg>
                   </app>
                  </listApp>
-        </div>
+        </div> --> 
 
          <div type="translation" xml:lang="ka">
              <p>ქრონიკონსა 458, ※ მე, კარის ამირა რავმალამ ავაშენე ეს კოშკი რუსუდანის მეფობის მე-16 წელს. </p>

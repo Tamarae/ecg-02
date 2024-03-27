@@ -20,7 +20,7 @@
             <sourceDesc>
                 <msDesc type="fragmentary">
                     <msIdentifier>
-                        <collection>სოხუმი</collection>                
+                        <collection>სოხუმი</collection>
                     </msIdentifier>
                     <msContents>
                         <summary>
@@ -31,12 +31,12 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material>კერამიკა</material>
                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259">ფილა</objectType></support></supportDesc>
                                 <layoutDesc>
                                     <layout>
-                                        ფილაზე მთელ სიგრძეზე შუაში არის ორი პარალელური ხაზი (მათ შორის 1,7 - 1,8 სმ-ია). ამ ორ ხაზს შორის დაახლ. 10,5 სმ-ზე არის ნიშნები, რაც დაუდევრად 
+                                        ფილაზე მთელ სიგრძეზე შუაში არის ორი პარალელური ხაზი (მათ შორის 1,7 - 1,8 სმ-ია). ამ ორ ხაზს შორის დაახლ. 10,5 სმ-ზე არის ნიშნები, რაც დაუდევრად
                                         შესრულებულ ბერძნულ ასოებს ჰგავს.
                                     <dimensions unit="cm">
                                         <width>15</width>
@@ -44,9 +44,9 @@
                                         <depth>4,5</depth></dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
-                            <handNote> 
+                            <handNote>
                                 ფილის ერთ მხარეზე, პარალელურ ხაზებს გარეთ არის ორი ნიშანი, ერთიმეორის ქვემოთ. წარწერა თითქმის არ იკითხება.
                                 <height unit="cm" precision="medium">5</height>
                                 <width unit="cm" precision="medium">1,5</width>
@@ -59,20 +59,20 @@
                     <history>
                             <origin>
                                 <origPlace>სოხუმი</origPlace>
-                                <origDate notBefore-custom="0501" notAfter-custom="0700" precision="medium" 
+                                <origDate notBefore-custom="0501" notAfter-custom="0700" precision="medium"
                                     evidence="lettering" datingMethod="#julian">VI-VII AD</origDate>
                               </origin>
                             <provenance type="found" when="1952">
-                                <placeName type ="ancientFindspot"  ref="https://pleiades.stoa.org/places/857107">სოხუმი</placeName> 
+                                <placeName type ="ancientFindspot"  ref="https://pleiades.stoa.org/places/857107">სოხუმი</placeName>
                                 <rs type="circumstances">ნივთი მოპოვებულია სოხუმის ციხის გათხრისას.</rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                        
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">სოხუმის მუზეუმი</placeName>
                             <idno>№ 71-222/83</idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -92,37 +92,35 @@
     <text>
         <body>
              <div type="bibliography">
-                
+
                     <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 79</citedRange></bibl></p>
-                
+
             </div>
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!--  † ΚΥ ΧΥ    † Κ[υρίο]υ Χ[ριστο]ῦ -->
-                     
+
          <ab>
-             <g type="cross">&#10013;</g> 
-             <w lemma="κύριος"><expan><abbr>κ</abbr><ex>υρίο</ex><abbr>υ</abbr></expan></w> 
+             <g type="cross">&#10013;</g>
+             <w lemma="κύριος"><expan><abbr>κ</abbr><ex>υρίο</ex><abbr>υ</abbr></expan></w>
              <persName><name nymRef="Χριστός"><expan><abbr>Χ</abbr><ex>ριστο</ex><abbr>ῦ</abbr></expan></name></persName>
-         </ab>    
-             
-         
+         </ab>
+
+
             </div>
             <div type="translation" xml:lang="ka">
                 <p>ქ. უფლისა ქრისტესი... </p>
             </div>
-            
-           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p><app><lem></lem>
-              <rdg></rdg>
-              </app></p>
-            </div>
-           
+
+           <div type="apparatus" xml:space="preserve"/>                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+
+
+
+              
+
             <div type="commentary">
                 <p>დათარიღების საფუძველია ასოთა მოზახულობა (?), რაც ბიზანტიურ ხანაზე მიუთითებს.</p>
             </div>
          </body>
     </text>
 </TEI>
-

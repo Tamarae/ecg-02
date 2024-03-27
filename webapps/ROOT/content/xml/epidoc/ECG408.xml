@@ -20,7 +20,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <collection>ლატალი</collection>                
+                        <collection>ლატალი</collection>
                     </msIdentifier>
                     <msContents>
                         <summary>
@@ -31,7 +31,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>                             
+                                <support>
                                    <material></material>
                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/123">ხატი</objectType></support></supportDesc>
                                 <layoutDesc>
@@ -43,10 +43,10 @@
                                         <depth></depth></dimensions>
                                     </layout>
                                 </layoutDesc>
-                        </objectDesc>                        
+                        </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>წარწერაში მოცემულია თავისებური შემოკლებები (ΑC, ΓΒΡΙΛ), რაც მისი შემსრულებლის არაბერძნობაზე შეიძლება მიუთითებდეს. თვით ასოთა მოხაზულობაში საგანგებო არაფერია, 
+                                <p>წარწერაში მოცემულია თავისებური შემოკლებები (ΑC, ΓΒΡΙΛ), რაც მისი შემსრულებლის არაბერძნობაზე შეიძლება მიუთითებდეს. თვით ასოთა მოხაზულობაში საგანგებო არაფერია,
                                    რომ დასათარიღებლად გამოდგეს.</p>
                                 <height unit="cm" precision="medium">2,5</height>
                                 <width unit="cm" precision="medium">3-5</width>
@@ -56,20 +56,20 @@
                     <history>
                             <origin>
                                 <origPlace>ლატალი</origPlace>
-                                <origDate notBefore-custom="1001" notAfter-custom="1200" precision="medium" 
+                                <origDate notBefore-custom="1001" notAfter-custom="1200" precision="medium"
                                     evidence="lettering" datingMethod="#julian">XI-XII AD</origDate>
                               </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot">ლატალი</placeName> 
+                                <placeName type ="ancientFindspot">ლატალი</placeName>
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
-                            </provenance>                         
+                            </provenance>
                             <provenance type="observed">
                             <placeName type="modernSpot">მესტიის მუზეუმი</placeName>
                             <idno>№ 831</idno>
                         </provenance>
-                    </history>                   
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
@@ -89,34 +89,31 @@
     <text>
         <body>
              <div type="bibliography">
-                
+
                     <p><bibl n="1"><ptr target="#b130"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange> 85</citedRange></bibl></p>
-                
+
             </div>
 
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                
+
                         <!--   ΑC ΓΒΡΙΔ    ὁ  ἅ[γιο]ς Γ[α]βρι[ή]λ   -->
-                     
-            
+
+
          <ab>
-             <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="ἅγιος"><expan><abbr>ἅ</abbr><ex>γιο</ex><abbr>ς</abbr></expan></w> 
+             <persName type="saint"><w lemma="ὁ">ὁ</w> <w lemma="ἅγιος"><expan><abbr>ἅ</abbr><ex>γιο</ex><abbr>ς</abbr></expan></w>
               <name nymRef="Γαβριήλ"><expan><abbr>Γ</abbr><ex>α</ex><abbr>βρι</abbr><ex>ή</ex><abbr>λ</abbr></expan></name></persName>
-         </ab>    
-          
+         </ab>
+
             </div>
-            
+
             <div type="translation"  xml:lang="ka">
                 <p>წმიდა გაბრიელი</p>
             </div>
-            
-            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p><app><lem></lem>
-              <rdg></rdg>
-              </app></p>
-            </div>
-           
+
+            <div type="apparatus" xml:space="preserve"/>                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+
+
+
             <div type="commentary">
                 <p>ფერწერითი ხატი ქართული ნამუშევარია.</p>
                 <p>ხელოვნებათმცოდნეთა მიერ ხატი XI-XII სს-ით არის დათარიღებული.</p>

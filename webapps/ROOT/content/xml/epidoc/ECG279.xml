@@ -110,13 +110,9 @@
             <div type="translation" xml:lang="ka"/>
             
             
-           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p><app><lem></lem>
-              <rdg></rdg>
-              </app></p>
-            </div>
-           
+           <div type="apparatus" xml:space="preserve"/>                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              
+    
             <div type="commentary">
                 <p>მონოგრამა შეიცავს Θ-სა და Γ-ს. საბეჭდავის მეტად გაშიფრვა არ ხერხდება.</p>
                 <p>დათარიღების საფუძველია მსგავსი მონოგრამები, რომლებიც დადასტურებულია ძვ.წ. IV-III სს-დან. სპეციალისტთა აზრით საბეჭდავი ელინისტური ხანისაა.</p>

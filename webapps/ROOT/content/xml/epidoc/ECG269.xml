@@ -117,8 +117,8 @@
                 <p>ლამაზი ქალბატონი</p>
             </div>
 
-           <div type="apparatus" xml:space="preserve">
-            </div>
+        <div type="apparatus" xml:space="preserve"/>
+         
 
             <div type="commentary">
                 <p>დათარიღების საფუძველია ასოთა მოხაზულობა (კუთხოვანი ასოები, ხაზების დაბოლოებისას მოგრძო ჰორიზონტალური შტრიხი).</p>

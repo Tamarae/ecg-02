@@ -114,12 +114,12 @@
                 <p xml:lang="ka">გამარჯვებისათვის (ან ნიკოლოზისთვის)</p>
             </div>
             
-           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
+         <!--  <div type="apparatus" xml:space="preserve"/> 
+              
               <p><app loc="1"><lem>νίκη</lem>
               <rdg resp="თ. ყაუხჩიშვილი">Νικόλαος</rdg>
-              </app></p>
-            </div>
+              
+            </div> --> 
            
             <div type="commentary">
                 <p>ღრმად ჩაჭრილი და კუთხეებში ჩაჭდეული ასოებისა და ლიგატურის მიხედვით, წარწერა შეიძლება მომდევნო საუკუნეებისაცაა.

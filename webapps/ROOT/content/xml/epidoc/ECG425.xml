@@ -129,12 +129,7 @@
                 <p>იესუ მეუფე დიდებისა</p>
             </div>
             
-            <div type="apparatus" xml:space="preserve">                                                               <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p><app><lem></lem>
-              <rdg></rdg>
-              </app></p>
-            </div>
+            <div type="apparatus" xml:space="preserve"/>          
            
             <div type="commentary">
                 <p>ფორმულა: ὁ βασιλεὺς τῆς δόξης - ჩვეულებრივია. ამ წარწერის თავისებურებაა წინ Ι, რაც სხვა, ანალოგიურ წარწერებში არ გვხვდება.</p>

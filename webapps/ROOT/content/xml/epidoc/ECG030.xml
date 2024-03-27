@@ -107,8 +107,8 @@
     <facsimile>
         <surface>
             <graphic url="ecg030.jpg">
-                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/31/">მცხეთის ჯვრის მოსახსენებელი თემისტიასი</desc>
-                <desc xml:lang="en" ref="http://paleography.iliauni.edu.ge/digipal/page/31/">Jvari Monastery, Memorial of Temistias</desc>
+                <desc xml:lang="ka">მცხეთის ჯვრის მოსახსენებელი თემისტიასი</desc>
+                <desc xml:lang="en">Jvari Monastery, Memorial of Temistias</desc>
             </graphic>
         </surface>
     </facsimile>
@@ -127,7 +127,7 @@
              <p><bibl n="8"><ptr target="#b24"/> M. Tarchnišvili, Les récentes découverstes épigraphiques et litteraires en géorgien, <citedRange>252</citedRange></bibl></p>
              <p><bibl n="9"><ptr target="#b15"/> I. Molitor, MIA CSCO</bibl></p>
          
-           </div>         s
+           </div>
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
 
                         <!--  „წყალობითა ღჲთა და შეწევნ[ი]

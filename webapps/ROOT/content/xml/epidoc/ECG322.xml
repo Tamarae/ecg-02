@@ -124,12 +124,12 @@
                 <p>მომდინარე მხურვალება. (ამისი) შესამოწმებელი (ადგილი)</p>
             </div>
             
-           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
+<!-- <div type="apparatus" xml:space="preserve"/>                                                                          
+              
               <p><app loc="2"><lem>καταρρυές</lem>
               <rdg resp="თინათინ ყაუხჩიშვილი">καταρρυτόν</rdg>
-              </app></p>
-             </div>
+              
+             </div> -->
            
             <div type="commentary">
                 <p>ფილა როგორც ჩანს, იყო აბანოს ნაწილი და ეფარა სარეგულაციო ადგილას გამტარ მილს.</p>

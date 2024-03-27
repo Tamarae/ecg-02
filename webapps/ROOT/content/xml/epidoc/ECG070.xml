@@ -167,23 +167,23 @@
 
             </div>
 
-            <div type="apparatus" xml:space="preserve">
+         <!--   <div type="apparatus" xml:space="preserve"/>
                     <p><app loc="1"> <lem>სახელ</lem>
                             <rdg resp="ლევან მუსხელიშვილი">შეწევნითა</rdg>
-                    </app></p>
+                    
 
                     <p><app loc="2"> <lem>თევდორე</lem>
                     <rdg resp="ლევან მუსხელიშვილი">იოანე</rdg>
-                    </app></p>
+                    
 
                      <p><app loc="4"> <lem>აშენება</lem>
                        <rdg resp="ლევან მუსხელიშვილი">ივანე</rdg>
-                     </app></p>
+                     
 
                     <p><app loc="6"> <lem>ღმერთ</lem>
                        <rdg resp="ლევან მუსხელიშვილი">ღმერთო</rdg>
-                    </app></p>
-            </div>
+                    
+            </div> --> 
 
             <div type="commentary">
                 <p xml:lang="ka"> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #139. წარწერას განკვეთილობის ნიშნები არ ახლავს. სიტყვები ერთმანეთისგან არ არის დაცილებული.

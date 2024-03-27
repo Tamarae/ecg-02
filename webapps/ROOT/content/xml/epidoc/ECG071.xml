@@ -131,11 +131,10 @@
                 დავიმკვიდრეთ სამარადისო განსასვენებელი.</p>
             </div>
 
-           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <p><app loc="1"><lem>Ἀδείμαντος</lem>
+       <!--  <div type="apparatus" xml:space="preserve"/>                                               
               <rdg resp="ი. პომიალოვსკი">ἀδελφός</rdg>
-              </app></p>
-            </div>
+              
+            </div>  -->  
 
             <div type="commentary">
                 <p>წარწერა მოასწავებს იმას, რომ ფილა უნდა ყოფილიყო საფლავის ქვა.</p>

@@ -109,7 +109,7 @@
     <facsimile>
         <surface>
             <graphic url="ecg025.jpg">
-                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/26/">ზემო ნიქოზის მთავარანგელოზის ტაძრის მოსახსენებელი მიქაელ ეპისკოპოსის დისწულისა</desc>
+                <desc xml:lang="ka">ზემო ნიქოზის მთავარანგელოზის ტაძრის მოსახსენებელი მიქაელ ეპისკოპოსის დისწულისა</desc>
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
@@ -148,21 +148,21 @@
                 <p xml:lang="en">Christ, have mercy on John, nephew of Bishop Michael.</p>
             </div>
 
-            <div type="apparatus" xml:space="preserve">
+         <!--   <div type="apparatus" xml:space="preserve">
 
                 <p><app loc="1"> <lem>იოვანე</lem>
                  <rdg resp="მარი ბროსე">იესუ ქრისტე</rdg>
-                 </app></p>
+                 
 
                 <p><app loc="2"> <lem>დისწულ</lem>
                  <rdg resp="მარი ბროსე">და შეიწყალე</rdg>
-                   </app></p>
+                   
 
                   <p><app loc="2"> <lem>მიქაელ</lem>
                  <rdg resp="მარი ბროსე, ი. მეგრელიძე">მიქელ</rdg>
-                    </app></p>
+                    
 
-             </div>
+             </div> --> 
 
             <div type="commentary">
                 <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #94. წარწერას განკვეთილობის ნიშნები არ ახლავს. სიტყვები ერთმანეთისგან არ არის დაცილებული.

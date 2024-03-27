@@ -94,9 +94,9 @@
             <div type="bibliography">
 
 
-                <p><bibl n="1"><ptr target="#b188"/> ღევონდ ალიშანი, აირარატი, ვენეცია, 1890 <citedRange>00</citedRange></bibl></p>
-                <p><bibl n="2"><ptr target="#b6"/> ძიებანი ქართულ-სომხური ურთიერთობების ისტორიიდან, შანშე დარჩიაშვილი, 2010<citedRange>133-134</citedRange></bibl></p>
-               <p><bibl n="3"><ptr target="#b4"/> ქვათა მატიანე, სომხური წარწერების აღწერილობის კრებული, შეადგინა კ. კოსტანიანცმა, პეტერბურგი, 1913<citedRange>00</citedRange></bibl></p>
+                <p><bibl> n="1"><ptr target="#b188"/> ღევონდ ალიშანი, აირარატი, ვენეცია, 1890 <citedRange>00</citedRange></bibl></p>
+                <p><bibl> n="2"><ptr target="#b6"/> ძიებანი ქართულ-სომხური ურთიერთობების ისტორიიდან, შანშე დარჩიაშვილი, 2010<citedRange>133-134</citedRange></bibl></p>
+               <p><bibl> n="3"><ptr target="#b4"/> ქვათა მატიანე, სომხური წარწერების აღწერილობის კრებული, შეადგინა კ. კოსტანიანცმა, პეტერბურგი, 1913<citedRange>00</citedRange></bibl></p>
 
             </div>
 

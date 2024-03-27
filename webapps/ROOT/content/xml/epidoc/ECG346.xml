@@ -163,7 +163,7 @@
                                 <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
                    </ab>
                </div>
-             <div type="apparatus" xml:space="preserve">
+           <!--  <div type="apparatus" xml:space="preserve"/>
 
              <listApp>
                  <app loc="1">
@@ -193,7 +193,7 @@
 
                 </listApp>
             </div>
-
+ --> 
          <div type="translation" xml:lang="ka">
              <p><lb n="1"/>„გამოვედით სოფლისაგან ცუდ-ქმნილნი და გამომკრთალნი
                 <lb n="2"/>გულსა ცეცხლი მომდებია, ამომდიან პირით ალნი

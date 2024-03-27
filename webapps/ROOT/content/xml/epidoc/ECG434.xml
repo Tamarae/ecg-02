@@ -171,15 +171,7 @@
                 <p>წმ. გიორგი</p>
             </div>
             
-            <div type="apparatus" xml:space="preserve">                                                               <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p>
-                  <app>
-                      <lem></lem>
-                        <rdg/>
-                </app>
-              </p>
-            </div>
+            <div type="apparatus" xml:space="preserve"/>  
            
             <div type="commentary">
                 <p>ბერძნული წარწერები ჩვეულებრივია X-XII სს-ისათვის, რაიმე საგანგებო პალეოგრაფიული ნიშნები მათ არ გააჩნიათ. მედალიონების დათარიღება ხდება ძირითადად მათი მხატვრული 

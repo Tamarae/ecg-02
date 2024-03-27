@@ -131,12 +131,7 @@
                 <p>მთავარანგელოზი გაბრიელი</p>
             </div>
             
-            <div type="apparatus" xml:space="preserve">                                                               <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p><app><lem></lem>
-              <rdg></rdg>
-              </app></p>
-            </div>
+            <div type="apparatus" xml:space="preserve"/>                   
            
             <div type="commentary">
                 <p>გელათის ღვთისმშობლის ტაძარი აგებულია დავით აღმაშენებლის მიერ (XII ს.) მოხატულია სხვადასხვა დროს (XIII-XIV სს.) ფრესკებით, რომლებზედაც უხვად არის 

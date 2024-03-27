@@ -117,15 +117,15 @@
             <p>ბედნიერი იყავი</p>
         </div>
 
-        <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
+       <!--<div type="apparatus" xml:space="preserve"/>    
+              
               <p>
                   <app>
                       <lem/>
                         <rdg/>
               </app>
               </p>
-            </div>
+            </div>  --> 
 
         <div type="commentary">
            <p>წარწერაში გამოთქმულია სურვილი მის მიმართ, ვისაც ეს ნივთი აჩუქეს.

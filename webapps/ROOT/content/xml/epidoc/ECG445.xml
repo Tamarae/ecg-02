@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> -->
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
     <teiHeader>
@@ -41,7 +41,7 @@
                                   </support>
                             </supportDesc>
                                 <layoutDesc>
-                                    <layout wtittenLines="3">
+                                    <layout>
                                         <dimensions unit="cm">
                                             <width/>
                                             <height/>
@@ -50,8 +50,8 @@
                                 </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote script="asomtvaruli" style="incsribed">სამსტრიქონიანი ამოკვეთილი ასომთავრული წარწერა. განკვეთილობის ნიშანი: ორწერტილი ყოველი სიტყვის შემდეგ ("ნ" - ის მარცხნივ და მარჯვნივ სამი წერტილია დასმული მარჯვნივ წაწვეტებით); ქარაგმის ნიშანი: კლაკნილი, განივი ხაზი.</handNote>
-                            <height unit="cm">3-6, 5-7, 5.</height>
+                            <handNote script="asomtvaruli" style="incsribed">სამსტრიქონიანი ამოკვეთილი ასომთავრული წარწერა. განკვეთილობის ნიშანი: ორწერტილი ყოველი სიტყვის შემდეგ ("ნ" - ის მარცხნივ და მარჯვნივ სამი წერტილია დასმული მარჯვნივ წაწვეტებით); ქარაგმის ნიშანი: კლაკნილი, განივი ხაზი. ასოთა სიმაღლე 3-6, 5-7, 5.</handNote>
+                          
                        </handDesc>
                         </physDesc>
                     <history>
@@ -105,12 +105,12 @@
                         დავითისი, ა(მე)ნ-->
                     <lb n="1"/> <w lemma="ადიდებს">ადიდენ</w> <w lemma="ღმერთი"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> <roleName><w lemma="მეფე">მეფეთა</w>
                     <lb n="2"/> <w lemma="მეფე">მეფე</w></roleName> <persName><w><expan><abbr>კონსტანტ</abbr><ex>ი</ex><abbr>ნე</abbr></expan></w></persName> <w lemma="ძე">ძე</w>
-                    <lb n="3"/> <roleName>დავითისი</roleName> <w><expan lemma="ამენ"><abbr>ა</abbr><ex>მე</ex><abbr>ნ</abbr></expan></w>
+                    <lb n="3"/> <roleName>დავითისი</roleName> <w lemma="ამენ"><expan><abbr>ა</abbr><ex>მე</ex><abbr>ნ</abbr></expan></w>
                 </ab>
             </div>
-            <div type="translation" xml:lang="ka">ადიდე, ღმერთო, მეფეთა მეფე კონსტანტინე, დავითის ძე, ამინ.</div>
-            <div type="apparatus" xml:space="preserve"> </div>
-            <div type="commentary">დაზიანება: ნაწერი ოდნავ გადარეცხილია</div>
+            <div type="translation" xml:lang="ka"><p>ადიდე, ღმერთო, მეფეთა მეფე კონსტანტინე, დავითის ძე, ამინ.</p></div>
+
+            <div type="commentary"><p>დაზიანება: ნაწერი ოდნავ გადარეცხილია</p></div>
 
 
          </body>

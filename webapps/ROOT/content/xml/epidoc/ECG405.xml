@@ -127,12 +127,12 @@
                 იესუ ქრისტე, ძლევაჲ </p>
             </div>
 
-           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
+        <!--  <div type="apparatus" xml:space="preserve"/>      
+              
               <p><app><lem>σωτήρ</lem>
               <rdg resp="თ. ყაუხჩიშვილი">Σῶσον</rdg>
-              </app></p>
-            </div>
+              
+            </div>-->   
 
             <div type="commentary">
                 <p>თარგმანის მეორე ვარიანტი - დედაო ნათლისაო, იხსენ გიორგი ყოვლადპატიოსანი (წინამძღვარი) ჯიქეთისა(?).</p>

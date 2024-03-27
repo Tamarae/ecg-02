@@ -116,12 +116,12 @@
                 <p>გემინოსისა</p>
             </div>
 
-           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
+         <!--  <div type="apparatus" xml:space="preserve"/>    
+              
               <p><app loc="1"><lem>Γεμίνος</lem>
               <rdg resp="თ. ყაუხჩიშვილი">Γεμνίος</rdg>
-              </app></p>
-            </div>
+              
+            </div> --> 
 
             <div type="commentary">
                 <p>სპეციალისტებს გემაზე მოთავსებული წარწერა ქვისმჭრელის სახელად მიაჩნიათ, ხოლო თვით ნივთი რომაული გლიპტიკის ხელოვნების ნიმუშად.</p>

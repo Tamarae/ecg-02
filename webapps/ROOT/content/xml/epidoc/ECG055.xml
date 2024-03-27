@@ -149,16 +149,16 @@
                 <p xml:lang="en">This Cross of Vardan Nakhpet</p>
             </div>
 
-            <div type="apparatus" xml:space="preserve">
+          <!-- <div type="apparatus" xml:space="preserve"/>
 
                 <p><app loc="1"> <lem>ვარდან</lem>
                     <rdg resp="გიორგი ჩუბინაშვილი, ივანე ჯავახიშვილი">ვარსქენ</rdg>
-                                </app></p>
+                                
 
                 <p><app loc="1"> <lem>ნახპეტ</lem>
                 <rdg resp="გიორგი ჩუბინაშვილი, ივანე ჯავახიშვილი">ნაჰაპეტისაჲ</rdg>
-                   </app></p>
-            </div>
+                   
+            </div> -->  
 
             <div type="commentary">
                 <p xml:lang="ka"> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #7. წარწერას განკვეთილობის ნიშნები არ ახლავს. სიტყვები ერთმანეთისაგან არ არის დაცილებული.

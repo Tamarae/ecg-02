@@ -128,10 +128,8 @@
                   </ab>
                </div>
 
-            <div type="apparatus" xml:space="preserve">
-             <listApp><app></app></listApp>
-            </div>
-
+            <div type="apparatus" xml:space="preserve"/>
+           
          <div type="translation" xml:lang="ka">
              <p>ღვთის სახელით, ეს ჩუენ, გორაკელმა ფიჩოსნებმა, დავწერეთ: ვინც უწინ მოკვდება, მათ ათი დღე ჟამი უწირონ.</p>
          </div>

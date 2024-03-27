@@ -131,12 +131,7 @@
                 <p>აჰა კრავი ღმრთისაჲ, რომელმან აღიხუნეს ცოდვანი სოფლისანი (ინე, 1, 29)</p>
             </div>
             
-            <div type="apparatus" xml:space="preserve">                                                               <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p><app><lem></lem>
-              <rdg></rdg>
-              </app></p>
-            </div>
+            <div type="apparatus" xml:space="preserve"/>         
            
             <div type="commentary">
                 <p> კაბენის, იგივე ყანჩავეთის ღვთისმშობლის ეკლესია (აგებული VIII-IX ს-ში და საფუძვლიანად გადაკეთებული XII-XIII სს-ში: Г. Чубинашвили, Архитектурные 

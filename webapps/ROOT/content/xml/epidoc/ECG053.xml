@@ -193,15 +193,15 @@
                 <p xml:lang="en">Christ, have mercy on Bishop David with his congregation and on all the faithful who worship you in this church, aid the laborers of this church (According to Korneli Kekelidze, the “laborers” refer to those who look after the sick or bury the dead), Amen, Amen </p>
             </div>
 
-            <div type="apparatus" xml:space="preserve">
+          <!-- <div type="apparatus" xml:space="preserve"/>
                 <p><app loc="8"> <lem>ყოფა</lem>
                  <rdg resp="სარგის კაკაბაძე">ინდიქტიონი</rdg>
-                 </app></p>
+                 
 
                  <p><app loc="8"> <lem>ყოფა</lem>
                  <rdg resp="სარგის კაკაბაძე"><num value="10">ი</num></rdg>
-                 </app></p>
-             </div>
+                 
+             </div>  --> 
 
             <div type="commentary">
                 <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #3. წარწერა პირველად გამოსცა მარი ბროსემ 1856 წელს (იხ. Melanges Asiatiques, II,  322-323).

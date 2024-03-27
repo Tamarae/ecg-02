@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> -->
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
     <teiHeader>
@@ -41,7 +41,7 @@
                                   </support>
                             </supportDesc>
                                 <layoutDesc>
-                                    <layout wtittenLines="3">
+                                    <layout>
                                         <dimensions unit="cm">
                                             <width>79</width> 
                                             <height>33</height>
@@ -51,8 +51,8 @@
                                 </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote script="asomtvaruli" style="engraved">წარწერა ასომთავრული ანბანით არის შესრულებული ღრმა კვეთით, შეწიაღებული დამწერლობით. წარწერიანი ფილა ბედიის მონასტრის აღმოსავლეთის (მარჯვენა) შესასვლელის ტიმპანია. განკვეთილობის ნიშანი: სამწერტილი მარჯვნივ წაწვეტებით ყოველი სიტყვის შემდეგ. ქარაგმის ნიშნები არ ახლავს.</handNote> <!-- engraved პირობითად მივუთითე, ამაზე არ გვითქვამს, როგორია შეთანხმება -->
-                            <height unit="cm">4-7-10</height>
+                            <handNote script="asomtvaruli" style="engraved">წარწერა ასომთავრული ანბანით არის შესრულებული ღრმა კვეთით, შეწიაღებული დამწერლობით. წარწერიანი ფილა ბედიის მონასტრის აღმოსავლეთის (მარჯვენა) შესასვლელის ტიმპანია. განკვეთილობის ნიშანი: სამწერტილი მარჯვნივ წაწვეტებით ყოველი სიტყვის შემდეგ. ქარაგმის ნიშნები არ ახლავს. ასოთა სიმაღლე 4-7-10</handNote> <!-- engraved პირობითად მივუთითე, ამაზე არ გვითქვამს, როგორია შეთანხმება -->
+                            
                        </handDesc>
                         <decoDesc>
                             <decoNote>წარწერა შესრულებულია მოწითალო ფერის ქვაზე. ყოველი სტრიქონი ჩასმულია პარალელური ჰორიზონტალური ხაზებით შექმნილ სწორკუთხედებში, რომელთა წამახვილებული ბოლოები მთავრდება სტილიზებული ორნამენტით.</decoNote> <!-- წამახვილებული ბოლოები წიდურწაისრულობას თუ ნიშნავს, დავამატებ, მაგრამ არ უნდა ნიშნავდეს, ორნამენტით მთავდრებაო. დასაზუსტებელია -->
@@ -88,14 +88,14 @@
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">
                 <ab>
                     <!-- აღმაშე(ნე)ბელი პალატისა ამის ე(პისკოპოსი), ბედიელ მიტრაპოლიტი ანტონი [ჟუანისძე, შ(ეუნდო)ს ღ(მერთმა)ნ, ა(მე)ნ]-->
-                    <lb n="1"/><w lemma="აღმაშენებელი"><expan><abbr>აღმაშე</abbr><ex>ნე</ex><abbr>ბელი</abbr></expan></w> <w lemma="პალატი">პალატისა</w> <e lemma="ამ">ამის</e> <roleName><expan><abbr>ე</abbr><ex>პისკოპოსი</ex></expan></roleName>
+                    <lb n="1"/><w lemma="აღმაშენებელი"><expan><abbr>აღმაშე</abbr><ex>ნე</ex><abbr>ბელი</abbr></expan></w> <w lemma="პალატი">პალატისა</w> <w lemma="ამ">ამის</w> <roleName><expan><abbr>ე</abbr><ex>პისკოპოსი</ex></expan></roleName>
                     <lb n="2"/><placeName type="ethnic" ref="ბედიელი">ბედიელ</placeName> <roleName nymRef="მიტროპოლიტი">მიტრაპოლიტი</roleName> <persName type="local" key="ანტონ ჟუანისძე [ბედიის მიტროპოლიტი]">ანტონი</persName>
                     <lb n="3"/><supplied reason="lost"><persName>ჟუანისძე</persName> <w lemma="უნდობს"><expan><abbr>შ</abbr><ex>ეუნდო</ex><abbr>ს</abbr></expan></w> <w lemma="ღმერთი"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> <w lemma="ამინ"><expan><abbr>ა</abbr><ex>მე</ex><ex>ნ</ex></expan></w></supplied>
                 </ab>
             </div>
-            <div type="translation" xml:lang="ka">ამ პალატის აღმშენებელ, ბედიელ მიტროპოლიტ ანტონ ჟუანისძეს შეუნდოს ღმერთმა, ამინ</div>
-            <div type="apparatus" xml:space="preserve"> </div>
-            <div type="commentary">წარწერა ქვის ატკეცვის შედეგად ადგილ-ადგილ (მე-2 სტრ. შუა ნაწილი, მე-3 სტრ. თითქმის მთიანად) დაზიანებულია</div>          
+            <div type="translation" xml:lang="ka"><p>ამ პალატის აღმშენებელ, ბედიელ მიტროპოლიტ ანტონ ჟუანისძეს შეუნდოს ღმერთმა, ამინ</p></div>
+
+            <div type="commentary"><p>წარწერა ქვის ატკეცვის შედეგად ადგილ-ადგილ (მე-2 სტრ. შუა ნაწილი, მე-3 სტრ. თითქმის მთიანად) დაზიანებულია</p></div>          
      
          </body>
     </text>

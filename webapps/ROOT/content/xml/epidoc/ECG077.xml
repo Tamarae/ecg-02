@@ -225,26 +225,26 @@
                     <p xml:lang="en">Imperator Caesar Vespasianus Augustus, pontifex maximus, holding the tribunician power for the seventh time, imperator for the fourteenth time, consul for the sixth time, and designated for the seventh, father of the fatherland, censor and imperator Titus Caesar, son of Augustus, holding the tribunician power for the fifth time, consul for the fourth time and designated for the fifth, censor, and Domitianus Caesar, son of Augustus, consul for the third time and designated for the fourth, for the king of the Iberians, Mithridates, son of King Pharasmanes, and Amazaspus, friend of Caesar and of the Romans, and for his people [Iberians] they [Romans] fortified the walls.</p>
                 </div>
         <!--   
-            <div type="apparatus" xml:space="preserve"> 
-              <head>კრიტიკული აპარატი</head>
+            <div type="apparatus" xml:space="preserve"/> 
+              
                 <p><app loc="4"><lem>αὐτοκράτωρ</lem>
                 <rdg resp="თინათინ ყაუხჩიშვილი">αὐτοκράτορ</rdg>
-                </app></p>
+                
                 <p><app loc="6"><lem>τιμητής</lem>
                     <rdg resp="თინათინ ყაუხჩიშვილი">τειμητής</rdg>
-                    </app></p>
+                    
                 <p><app loc="15"><lem>Ἰαμασασποΐ</lem>
                     <rdg resp="ი. ბარტოლომეი">Ιαμασδει</rdg>
-                    </app></p>
+                    
                 <p><app loc="15"><lem>Ἰαμασασποΐ</lem>
                     <rdg resp="ი. პომიალოვსკი">Ιαμασδαιτων</rdg>
-                </app></p>
+                
                 <p><app loc="15"><lem>Ἰαμασασποΐ</lem>
                     <rdg resp="ა. ამირანაშვილი">Ιαμασπω</rdg>
-                </app></p>
+                
                     <p><app loc="17"><lem>ἔθνος</lem>
                     <rdg resp="თინათინ ყაუხჩიშვილი">εθνι</rdg>
-                    </app></p>
+                    
             </div>
              -->  
 

@@ -167,7 +167,7 @@
                 <p xml:lang="en">By the aid of Christ, I, Pharnavaz and Azarukht set this door for the prayers for our souls and our children.</p>
             </div>
 
-            <div type="apparatus" xml:space="preserve">
+          <!--   <div type="apparatus" xml:space="preserve"/>
                 <p><app loc="1"> <lem>ფარნავაზ</lem>
                     <rdg resp="მარი ბროსე">ფარნეენ</rdg>
                     <rdg resp="აკაკი შანიძე, ივანე იმნაიშვილი">ფარნ(...)</rdg>
@@ -187,7 +187,9 @@
                       <rdg resp="აკაკი შანიძე, ივანე იმნაიშვილი">ჩუენთათჳს</rdg>
                       </app>
                     </p>
-                  </div>
+                  </div>--> 
+            
+            
             <div type="commentary">
                 <p xml:lang="ka"> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #4. იგი პირველად გამოსცა მარი ბროსემ 1838 წელს.
                     წარწერას განკვეთილობის ნიშნები არ ახლავს. სიტყვები ერთმანეთისაგან არ არის დაცილებული.

@@ -124,15 +124,15 @@
                 <p>პეტრე ეპარქოსის</p>
                 </div>
 
-           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
+        <!--     <div type="apparatus" xml:space="preserve"/>                                                                                
+              
               <p><app loc="fragment" n="2"><lem>ΠΕΤΡΟΣ</lem>
               <rdg resp="ა. ხრუშკოვა">ΠΕΤΡΥ</rdg>
-              </app></p>
+              
                <p><app loc="fragment" n="2"><lem>ΕΠΑΡΧΟΣ</lem>
               <rdg resp="ა. ხრუშკოვა">ΕΠΑΡΧV</rdg>
-              </app></p>
-            </div>
+              
+            </div>-->
 
             <div type="commentary">
                 <p>ტყვიის ბეჭედი ეკუთვნის პეტრე ეპარქოსს.</p>

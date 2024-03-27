@@ -109,7 +109,7 @@
     <facsimile>
         <surface>
             <graphic url="ecg024.jpg">
-                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/24/">ზემო ნიქოზის მთავარანგელოზის ტაძრის საამშენებლო წარწერა მიქაელ ეპისკოპოსისა</desc>
+                <desc xml:lang="ka">ზემო ნიქოზის მთავარანგელოზის ტაძრის საამშენებლო წარწერა მიქაელ ეპისკოპოსისა</desc>
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
@@ -175,62 +175,62 @@
 
             </div>
 
-            <div type="apparatus" xml:space="preserve">
+       <!--    <div type="apparatus" xml:space="preserve"/>
 
                 <p><app loc="1"> <lem>ღმერთ</lem>
                  <rdg resp="მარი ბროსე">ღვთისათა</rdg>
-                 </app></p>
+                 
 
                 <p><app loc="1"> <lem> მე მიქაელ ნიქოზელ ებ...</lem>
                  <rdg resp="მარი ბროსე">მამის</rdg>
                     <rdg resp="ი. მეგრელიძე">მიმის</rdg>
-                 </app></p>
+                 
 
                   <p><app loc="2"> <lem> ..ისკოპოს</lem>
                  <rdg resp="მარი ბროსე"> ს კათალიკოზმან</rdg>
                     <rdg resp="ი. მეგრელიძე">სკოპოზმან</rdg>
-                      </app></p>
+                      
 
                 <p><app loc="2"> <lem>ეკლესია</lem>
                  <rdg resp="მარი ბროსე">ეკლესია</rdg>
-                    </app></p>
+                    
 
                 <p><app loc="2"> <lem>რომელ</lem>
                  <rdg resp="მარი ბროსე">რომელი</rdg>
-                    </app></p>
+                    
 
                 <p><app loc="3"> <lem>ყოფა</lem>
                  <rdg resp="მარი ბროსე">არის</rdg>
-                    </app></p>
+                    
 
                 <p><app loc="3"> <lem>ღმერთ</lem>
                  <rdg resp="მარი ბროსე">ღვთისა</rdg>
-                    </app></p>
+                    
 
                 <p><app loc="3"> <lem>ბჭე</lem>
                  <rdg resp="მარი ბროსე">ბჭე</rdg>
-                    </app></p>
+                    
 
                 <p><app loc="3"> <lem>ცა</lem>
                  <rdg resp="მარი ბროსე">ცათა</rdg>
-                    </app></p>
+                    
 
                 <p><app loc="4"> <lem>ღვთისმშობელ</lem>
                  <rdg resp="მარი ბროსე">ღვთისმშობელისა</rdg>
-                    </app></p>
+                    
 
                 <p><app loc="5"> <lem>მთავარანგელოზ</lem>
                  <rdg resp="მარი ბროსე">მთავარანგელოზთა</rdg>
-                    </app></p>
+                    
 
                  <p><app loc="5"> <lem>სალოცველ</lem>
                  <rdg resp="მარი ბროსე">სალოცავად</rdg>
-                    </app></p>
+                    
 
                 <p><app loc="5"> <lem>მე</lem>
                  <rdg resp="ი. მეგრელიძე">ჩემისათჳის</rdg>
-                    </app></p>
-                               </div>
+                    
+                               </div>-->   
 
             <div type="commentary">
                 <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #93. წარწერას განკვეთილობის ნიშნები არ ახლავს. სიტყვები ერთმანეთისგან არ არის დაცილებული.

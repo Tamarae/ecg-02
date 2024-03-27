@@ -232,12 +232,12 @@
 
                      </div>
 
-            <div type="apparatus" xml:space="preserve">
+           <!-- <div type="apparatus" xml:space="preserve"/>
                 <p><app loc="3"> <lem> ბოლნელ </lem>
                  <rdg resp="ლევან მუსხელიშვილი">ბოლნელმაჲ</rdg>
                     <rdg resp="მარი ბროსე">ვინაჲ</rdg>
-                 </app></p>
-                    </div>
+                 
+                    </div> --> 
 
             <div type="commentary">
                 <p  xml:lang="ka"> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #137. წარწერას განკვეთილობის ნიშნები არ ახლავს,

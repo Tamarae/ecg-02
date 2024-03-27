@@ -177,12 +177,7 @@
                 <p>დედა ღმრთისა</p>
             </div>
             
-            <div type="apparatus" xml:space="preserve">                                                               <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p><app><lem></lem>
-              <rdg></rdg>
-              </app></p>
-            </div>
+            <div type="apparatus" xml:space="preserve"/>            
            
             <div type="commentary">
                 <p>ყურადღებას იპყრობს „ქრისტეს“ დაწერილობა, ტრადიციული XC-ს მაგიერ არის IX, თუ PX- ე.ი. შემოკლება ხდება სხვაგვარად, თანაც გადაადგილებულია ასოთა თანრიგი. ღვთისმშობლის 

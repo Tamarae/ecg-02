@@ -124,12 +124,9 @@
                 <p>მიქაელი</p>
             </div>
             
-            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p><app><lem></lem>
-              <rdg></rdg>
-              </app></p>
-            </div>
+            <div type="apparatus" xml:space="preserve"/>                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              
+            
            
             <div type="commentary">
                 <p>შესაძლოა წარწერაში დადასტურებულ მონოგრამაში სახელის ყველა ასო იგულისხმებოდეს.</p>

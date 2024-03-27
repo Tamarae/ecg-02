@@ -122,8 +122,8 @@
  <facsimile>
         <surface>
             <graphic url="ecg028.jpg">
-                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/29/">მცხეთის ჯვრის მოსახსენებელი ადარნარსე ჳპატოსისა და ქობულისა</desc>
-                <desc xml:lang="en" ref="http://paleography.iliauni.edu.ge/digipal/page/29/">Jvari Monastery, Memorial of Demetrius Hypatos</desc>
+                <desc xml:lang="ka">მცხეთის ჯვრის მოსახსენებელი ადარნარსე ჳპატოსისა და ქობულისა</desc>
+                <desc xml:lang="en">Jvari Monastery, Memorial of Demetrius Hypatos</desc>
             </graphic>
         </surface>
    </facsimile>

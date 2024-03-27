@@ -168,12 +168,7 @@
                 <p>იესუ ქრისტე</p>
             </div>
             
-            <div type="apparatus" xml:space="preserve">                                                               <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p><app><lem></lem>
-              <rdg></rdg>
-              </app></p>
-            </div>
+            <div type="apparatus" xml:space="preserve"/>          
            
             <div type="commentary">
                 <p>ტიმოთესუბნის ღვთისმშობლის ტაძრის მოხატულობა XIII ს-ით არის დათარიღებული (Е. П. Привалова, Роспись Тимотесубани, Тб. 1980).</p>

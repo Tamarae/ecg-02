@@ -115,15 +115,15 @@
                 <p>უფლის მონათვლა იორდანეში. ანდრია</p>
             </div>
 
-            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
+           <!--   <div type="apparatus" xml:space="preserve"/>                                                                                                   
+              
               <p><app><lem>κύριος</lem>
               <rdg resp="თ. ყაუხჩიშვილი">Κύριον</rdg>
-              </app></p>
+              
                 <p><app><lem>βάψις</lem>
               <rdg resp="თ. ყაუხჩიშვილი">ἔβαψε</rdg>
-              </app></p>
-            </div>
+              
+            </div>-->
 
             <div type="commentary">
                 <p>წარწერა პალეოგრაფიული მონაცემების მიხედვით თარიღდება.</p>

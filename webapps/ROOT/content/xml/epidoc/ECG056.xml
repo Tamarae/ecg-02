@@ -142,12 +142,12 @@
                 <p xml:lang="en">Dznela</p>
             </div>
 
-            <div type="apparatus" xml:space="preserve">
+           <!-- <div type="apparatus" xml:space="preserve"/>
                 <p><app loc="1"> <lem>ძნელა</lem>
                     <rdg resp="ლევან მუსხელიშვილი">ძნაჲ</rdg>
                </app>
                 </p>
-           </div>
+           </div> --> 
 
             <div type="commentary">
                 <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #8. წარწერაში ქარაგმის ნიშანი არ არის გამოყენებული.</p>

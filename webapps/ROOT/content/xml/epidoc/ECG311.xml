@@ -117,12 +117,8 @@
                 <p>ზევახესი</p>
             </div>
 
-           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p><app><lem></lem>
-              <rdg></rdg>
-              </app></p>
-            </div>
+           <div type="apparatus" xml:space="preserve"/>                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+
 
             <div type="commentary">
                 <p>დათარიღება ხდება ასოთა მოხაზულობისა (Ε, Υ C) და ისტორიული რეალიების გათვალისწინებით.</p>

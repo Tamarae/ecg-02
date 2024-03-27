@@ -99,8 +99,8 @@
         <facsimile>
         <surface>
             <graphic url="ecg016.jpg">
-                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/25/">ატენის სიონი</desc>
-                <desc xml:lang="en" ref="http://paleography.iliauni.edu.ge/digipal/page/25/">Ateni Sioni</desc>
+                <desc xml:lang="ka">ატენის სიონი</desc>
+                <desc xml:lang="en">Ateni Sioni</desc>
             </graphic>
         </surface>
     </facsimile>
@@ -133,8 +133,8 @@
                 <p>Christ, have mercy on the chef herdsman of Ateni, who built this wall in 165 according to Choronikon.</p>                                                                           
             </div>
             
-            
-            <div type="apparatus" xml:space="preserve">
+        <!-- 
+            <div type="apparatus" xml:space="preserve"/>
                  
                <listApp>
                     <app loc="lb">
@@ -161,7 +161,7 @@
                          <rdg resp="მარი ბროსე">ႰჂႤ</rdg>
                     </app>
                </listApp>
-            </div>          
+            </div>        -->       
                
             <div type="commentary" xml:lang="ka">
                 <p>„ატენის სარქალი“ - ამ ორი სიტყვის წაკითხვა ეკუთვნის გ. აბრამიშვილს.

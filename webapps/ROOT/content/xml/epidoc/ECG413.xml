@@ -116,13 +116,10 @@
             <div type="translation" subtype="section" n="2" xml:lang="ka">
                 <p>პავლე</p>
             </div>
-            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p><app><lem></lem>
-              <rdg></rdg>
-              </app></p>
-            </div>
-           
+            <div type="apparatus" xml:space="preserve"/>                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              
+              
+         
             <div type="commentary">
                 <p> ჭედური ხატი (4x5) ბერძნული ხელობისაა.</p>
                 <p>წარწერა პალეოგრაფიული ნიშნების მიხედვით (Α მონოგრამა) და ასოთა მოხაზულობის საფუძველზე შუაბიზანტიური ხანით უნდა დათარიღდეს. საგანგებო დამათარიღებელი 

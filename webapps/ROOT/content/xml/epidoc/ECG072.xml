@@ -134,12 +134,12 @@
                  <p xml:lang="en">I erected the statue of Pharnarn the benefactor (?), to commemorate (or to glorify), year … (day) third.</p>
             </div>
 
-           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+       <!--   <div type="apparatus" xml:space="preserve"/>                                                                                                                        
 
               <p><app loc="3"><lem><supplied reason="lost">μνή</supplied>μης</lem>
               <rdg resp="თ. ყაუხჩიშვილი"><supplied reason="lost">τει</supplied>μῆς</rdg>
-              </app></p>
-             </div>
+              
+             </div> -->  
 
             <div type="commentary">
                 <p xml:lang="ka">როგორც ჩანს, წარწერა იყო ქანდაკების ბაზაზე შესრულებული. საკუთარი სახელი Φαρναρν - სხვა ძეგლების მიხედვით ცნობილი არ არის.

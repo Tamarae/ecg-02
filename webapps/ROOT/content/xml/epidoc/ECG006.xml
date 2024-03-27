@@ -174,7 +174,7 @@
                  </p>
              </div>
 
-            <div type="apparatus" xml:space="preserve">
+          <!--   <div type="apparatus" xml:space="preserve"/>
                 <listApp>
                     <app loc="1">
                         <lem resp="თინათინ ყაუხჩიშვილი">Οὐλογαίσου</lem>
@@ -186,7 +186,7 @@
                     </app>
                 </listApp>
             </div>
-
+--> 
 
             <div type="commentary" xml:lang="ka">
                 <p>წარწერა არის შეწირვითი ხასიათის. შესრულებულია სალიტერატურო ენის - კოინეს ნორმების მიხედვით.

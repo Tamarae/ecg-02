@@ -169,26 +169,26 @@
                 </div>
 
 		</div>
-            <div type="translation">
+         <!--    <div type="translation">
                 <p  xml:lang="ka">ეს საფლავი არის იოანე ბოლნელი ეპისკოპოსისა და მასზე სხვა რომ დაეფლას, ნუ მოხდება.
                 შუშანიკის ეს ჯვარი.</p>
                 <p xml:lang="en">This grave belongs to Ioane the bishop of Bolnisi and may nobody else be buried in it. This Cross of Shushanik</p>
             </div>
 
-            <div type="apparatus" xml:space="preserve">
+            <div type="apparatus" xml:space="preserve"/>
               <head>Apparatus</head>
                    <p><app loc="1"> <lem>საფლავ</lem>
                  <rdg resp="ლევან მუსხელიშვილი">საყოფელნი</rdg>
-                 </app></p>
+                 
 
                  <p><app loc="1"> <lem>იოვანე</lem>
                  <rdg resp="ლევან მუსხელიშვილი">იოანე</rdg>
-                 </app></p>
+                 
 
                 <p><app loc="2"> <lem>ეპისკოპოს</lem>
                  <rdg resp="ლევან მუსხელიშვილი">ეპისკოპოსისანი</rdg>
-                 </app></p>
-           </div>
+                 
+           </div> -->
 
 
             <div type="commentary">

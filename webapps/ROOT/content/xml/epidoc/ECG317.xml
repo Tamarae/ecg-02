@@ -117,13 +117,9 @@
                 <p>წმ. სოფია. თეოდორე ეპისკოპოსის (ბულა)</p>
             </div>
             
-           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p><app>
-              <rdg></rdg>
-              </app></p>
-             </div>
-           
+           <div type="apparatus" xml:space="preserve"/>                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              
+          
             <div type="commentary">
                 <p>ბიჭვინტის ბულა თარიღდება პალეოგრაფიული მონაცემებისა და ბულის ზოგადი ტიპის მიხედვით.</p>
                 </div>

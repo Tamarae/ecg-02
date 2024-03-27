@@ -154,7 +154,7 @@
                </div>
 
 
-           <div type="apparatus" xml:space="preserve">
+      <!--     <div type="apparatus" xml:space="preserve"/>
 
              <listApp>
                  <app loc="2">
@@ -198,7 +198,7 @@
                  </app>
 
                  </listApp>
-                 </div>
+                 </div> --> 
 
             <div type="translation" xml:lang="ka">
              <p>წმიდაო დედოფალო, მეოხ-ეყავ შენი ძისა და ჩვენი ღმრთის წინაშე ლაკლაკთა საგვარეულოს: მირეან ერისთავთ-ერისთავს და ხაკუს და მათ ძეებს.

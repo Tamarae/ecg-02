@@ -206,134 +206,134 @@
                     And the god gave me the honor to build and repair all of these. I accomplished everything with the power of Sioni and the mercy of God.</p>
 
             </div>
-
-         <div type="apparatus" xml:space="preserve">
+<!--
+         <div type="apparatus" xml:space="preserve"/>
 
                 <p><app loc="1"> <lem>თევდორე</lem>
                  <rdg resp="მ. ბროსე, ე. თაყაიშვილი, ნ. შოშიაშვილი 1, პ. ზაქარაია">თეოდორე</rdg>
-                 </app></p>
+                 
 
                  <p><app loc="1"> <lem>ებისკოპოს</lem>
                  <rdg resp="მ. ბროსე, ნ. შოშიაშვილი 1">ეპისკოპოსი</rdg>
-                 </app></p>
+                 
 
                  <p><app loc="1"> <lem>ლუკა</lem>
                  <rdg resp="მ. ბროსე, ე. თაყაიშვილი, პ. ზაქარაია">ლაკასი</rdg>
-                 </app></p>
+                 
 
                  <p><app loc="1"> <lem>მაშჱნებელ</lem>
                  <rdg resp="მ. ბროსე, ე. თაყაიშვილი, ნ. შოშიაშვილი 1, პ. ზაქარაია">მაშენებელი</rdg>
-                 </app></p>
+                 
 
                   <p><app loc="2"> <lem>ესე სიონ 1</lem>
                  <rdg resp="მ. ბროსე">საჲ</rdg>
                  <rdg resp="ე. თაყაიშვილი">ამისსაჲ</rdg>
-                 </app></p>
+                 
 
                   <p><app loc="2"> <lem>ესე სიონ 2</lem>
                  <rdg resp="მ. ბროსე">ასსა</rdg>
                  <rdg resp="ე. თაყაიშვილი">ამისსა</rdg>
-                 </app></p>
+                 
 
                  <p><app loc="2"> <lem>ებისკოპოს</lem>
                  <rdg resp="მ. ბროსე">ეპისკოპოსად</rdg>
-                      </app></p>
+                      
 
                  <p><app loc="3"> <lem>დაძუელებულ</lem>
                  <rdg resp="მ. ბროსე, ე. თაყაიშვილი">დაძველებულ</rdg>
-                 </app></p>
+                 
 
                   <p><app loc="3"> <lem>უფროჲს</lem>
                  <rdg resp="მ. ბროსე, ე. თაყაიშვილი">უფროს</rdg>
                       <rdg resp="პ. ზაქარაია">უფროის</rdg>
-                 </app></p>
+                 
 
                    <p><app loc="4"> <lem>კონქი</lem>
                  <rdg resp="მ. ბროსე">კათოლიკე</rdg>
                   <rdg resp="ე. თაყაიშვილი">კანქელი?</rdg>
-                 </app></p>
+                 
 
                    <p><app loc="4"> <lem>განპებულ</lem>
                  <rdg resp="მ. ბროსე, ე. თაყაიშვილი">გაპობილ</rdg>
-                  </app></p>
+                  
 
                    <p><app loc="4"> <lem>ყოფა</lem>
                  <rdg resp="მ. ბროსე, ე. თაყაიშვილი">იყვნეს</rdg>
-                  </app></p>
+                  
 
                     <p><app loc="4"> <lem>სუეტ</lem>
                  <rdg resp="მ. ბროსე, ე. თაყაიშვილი">სვეტნი</rdg>
-                  </app></p>
+                  
 
                     <p><app loc="4"> <lem>ქარტოც</lem>
                  <rdg resp="მ. ბროსე">ქტცი</rdg>
                  <rdg resp="ე. თაყაიშვილი">ქატაცი?</rdg>
                  <rdg resp="ნ. შოშიაშვილი 1, პ. ზაქარაია, ვ. სილოგავა">ქტცი?</rdg>
-                  </app></p>
+                  
 
                 <p><app loc="4"> <lem>დამპალ</lem>
                  <rdg resp="მ. ბროსე">დაპობილ</rdg>
-                 </app></p>
+                 
 
                 <p><app loc="5"> <lem>ყოფა</lem>
                  <rdg resp="მ. ბროსე, ე. თაყაიშვილი">იყვნეს</rdg>
-                  </app></p>
+                  
 
                 <p><app loc="5"> <lem>მიმადლება</lem>
                  <rdg resp="მ. ბროსე">მმადლა</rdg>
                  <rdg resp="ნ. შოშიაშვილი 1, ვ. სილოგავა">მოჰმადლა</rdg>
-                     </app></p>
+                     
 
                 <p><app loc="5"> <lem>ესე</lem>
                  <rdg resp="მ. ბროსე">ას</rdg>
-                  </app></p>
+                  
 
                 <p><app loc="5"> <lem>აღშენება</lem>
                  <rdg resp="მ. ბროსე">აღშენებითა</rdg>
                  <rdg resp="ე. თაყაიშვილი, ნ. შოშიაშვილი 1, პ. ზაქარაია, ვ. სილოგავა">აღშენებაჲ</rdg>
-                  </app></p>
+                  
 
              <p><app loc="5"> <lem>ყოველ</lem>
                  <rdg resp="მ. ბროსე">-</rdg>
                  <rdg resp="ე. თაყაიშვილი">ყოვლითა</rdg>
-                 </app></p>
+                 
 
              <p><app loc="5"> <lem>ყოველ</lem>
                  <rdg resp="მ. ბროსე">-</rdg>
                  <rdg resp="ე. თაყაიშვილი">ყოვლითა</rdg>
-                 </app></p>
+                 
 
              <p><app loc="5-6"> <lem>კეთება ძალ სიონ</lem>
                  <rdg resp="მ. ბროსე">გაკრძალვასა და ...</rdg>
-                 </app></p>
+                 
 
              <p><app loc="6"> <lem>ძალ სიონ</lem>
                  <rdg resp="ე. თაყაიშვილი, პ. ზაქარაია">ძალიასაჲ</rdg>
                  <rdg resp="ნ. შოშიაშვილი 1, ვ. სილოგავა">ძალითა ღმრთისაჲთა</rdg>
-                 </app></p>
+                 
 
              <p><app loc="6"> <lem>მეოხება</lem>
                  <rdg resp="მ. ბროსე">-</rdg>
                  <rdg resp="ე. თაყაიშვილი, პ. ზაქარაია">მეოხებითა</rdg>
                  <rdg resp="ნ. შოშიაშვილი 1">მეოჴებითა</rdg>
                  <rdg resp="ნ. შოშიაშვილი 1, ვ. სილოგავა">მეოხებითა (ს)</rdg>
-                 </app></p>
+                 
 
               <p><app loc="6"> <lem>ღმერთ</lem>
                  <rdg resp="მ. ბროსე">ღმერთსა</rdg>
                  <rdg resp="ე. თაყაიშვილი">ღვთისათა</rdg>
                  <rdg resp="ნ. შოშიაშვილი 1, პ. ზაქარაია, ვ. სილოგავა">ღმრთისაჲთა</rdg>
-                 </app></p>
+                 
 
              <p><app loc="6"> <lem>გათავება</lem>
                  <rdg resp="მ. ბროსე">გათავეთ</rdg>
-                 </app></p>
+                 
 
              <p><app loc="6"> <lem>ქმნა</lem>
                  <rdg resp="მ. ბროსე">ამ ქკსა</rdg>
-                 </app></p>
+                 
                </div>
-
+  -->
 
             <div type="commentary">
                <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #104. პარმენ ზაქარაია წარწერას IX-X საუკუნეებით ათარიღებს.

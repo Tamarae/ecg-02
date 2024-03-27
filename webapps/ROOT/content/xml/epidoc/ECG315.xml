@@ -268,7 +268,7 @@
                  </ab>
                </div>
 
-            <div type="apparatus" xml:space="preserve">
+       <!--    <div type="apparatus" xml:space="preserve"/>
 
              <listApp>
                  <app loc="1">
@@ -381,7 +381,7 @@
                    </app>
 
                 </listApp>
-            </div>
+            </div> -->  
 
          <div type="translation" xml:lang="ka">
              <p> † მე, უღირსი და სულითა საწყალობელი წინამძღვარი პეტრე, ღირსი გავხდი ამ ეგვტერის აშენებისა წმიდათა მოციქულთა სახელზე,

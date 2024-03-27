@@ -119,12 +119,12 @@
             <div type="translation" xml:lang="ka">
                 <p>უფალო აცხოვნე ბასილი (და...)</p></div>
             
-           <div type="apparatus" xml:space="preserve">
-              <head>კრიტიკული აპარატი</head>
+         <!--  <div type="apparatus" xml:space="preserve"/>
+              
                <p><app><lem>Βασιλίς</lem>
                <rdg resp="თინათინ ყაუხჩიშვილი">Βασηλης</rdg>
-               </app></p>
-            </div>
+               
+            </div>-->  
            
             <div type="commentary">        
                 <p>არტიკლი τοὺς მრ. რიცხვშია, მას მხოლოდ ერთი სახელი მოსდევს, ქვემოთ კი II სტრიქონის კვალია. ამდენად უნდა ვიფიქროთ, რომ იქნებოდა კიდევ ერთი სახელი მაინც იმისა, 

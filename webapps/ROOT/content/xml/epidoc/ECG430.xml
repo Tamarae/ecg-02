@@ -152,15 +152,7 @@
                 <p>იოანე წინამორბედი</p>
             </div>
             
-            <div type="apparatus" xml:space="preserve">                      <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p>
-                  <app>
-                      <lem/>
-                      <rdg/>
-                  </app>
-              </p>
-            </div>
+            <div type="apparatus" xml:space="preserve"/>   
            
             <div type="commentary">
                 <p>მედალიონები მიჩნეულია ქართულ ნამუშევრად.</p>

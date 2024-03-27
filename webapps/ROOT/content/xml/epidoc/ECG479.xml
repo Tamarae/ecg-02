@@ -114,25 +114,11 @@
                 </ab>
             </div>
             <div type="translation" xml:lang="ka"><p>წმინდა გრიგოლ ნოსელი</p></div><!-- წარწერის ტექსტის თარგმანი -->
-            <div type="apparatus" xml:space="preserve"></div><!-- წარწერის კრიტიკული აპარატი -->
+
             <div type="commentary"/><!-- კომენტარი -->
-            <div type="bibliography" subtype="principalEdition"><!-- ბიბლიოგრაფია -->
-                
-                    <p><bibl type="publication" subtype="principal" xml:lang="ka">
-                      <author>
-                          <persName>
-                            <forename></forename>
-                            <surname></surname>
-                          </persName>
-                      </author>
-                      <title/>
-                        <edition/>
-                        <pubPlace/>
-                        <publisher/>
-                        <date></date>
-                     </bibl></p>
-                
-            </div>
+            <div type="bibliography"/><!-- ბიბლიოგრაფია -->
+             
+
          </body>
     </text>
 </TEI>

@@ -115,15 +115,9 @@
                 <p>იესუ ქრისტე</p>
             </div>
             
-            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p>
-                  <app>
-                      <lem/>
-                        <rdg/>
-                  </app>
-              </p>
-            </div>
+            <div type="apparatus" xml:space="preserve"/>                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              
+         
            
             <div type="commentary">
                 <p>ხატი (მინანქრებით და წარწერით) მიჩნეულია IX ს-ის დასასრულის ქართულ ნახელავად.</p>

@@ -114,12 +114,9 @@
             <div type="translation" xml:lang="ka">
                 <p></p></div>
             
-           <div type="apparatus" xml:space="preserve">
-              <head>კრიტიკული აპარატი</head>
-               <p><app>
-               <rdg></rdg>
-               </app></p>
-             </div>
+           <div type="apparatus" xml:space="preserve"/>
+              
+           
            
             <div type="commentary">
                 <p>ცალკეული ასოების მიხედვით ვერ ხერხდება წარწერის აღდგენა. ასოთა მოხაზულობის მიხედვით თუ ვანის ნაქალაქარის კარიბჭესთან აღმოჩენილი წარწერების თანადროული არ არის, 

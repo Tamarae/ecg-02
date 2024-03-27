@@ -105,8 +105,8 @@
     <facsimile>
         <surface>
             <graphic url="ecg037.jpg">
-                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/36/">ურბნისის სიონის მოსახსენებელი აბიათარ დეკანოზისა</desc>
-                <desc xml:lang="en" ref="http://paleography.iliauni.edu.ge/digipal/page/36/">Urbnisi Sioni church memorial of the protoiereus Abaithar</desc>
+                <desc xml:lang="ka">ურბნისის სიონის მოსახსენებელი აბიათარ დეკანოზისა</desc>
+                <desc xml:lang="en">Urbnisi Sioni church memorial of the protoiereus Abaithar</desc>
             </graphic>
         </surface>
     </facsimile>

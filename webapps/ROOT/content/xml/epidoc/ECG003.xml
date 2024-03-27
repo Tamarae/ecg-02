@@ -129,9 +129,9 @@
         <body>
 
             <div type="bibliography">
-                
+
                     <p><ptr target="#b82"/> თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange>122</citedRange></p>
-                
+
             </div>
 
             <div type="edition" xml:lang="grc" xml:space="preserve">
@@ -155,12 +155,7 @@
             <div type="translation" xml:lang="en">
                 <p>For the blessing of the servant of the God Klimentos and for his close people.</p>
             </div>
-           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <p><app loc="1"><lem>δοῦλος</lem>
-              <rdg>წარწერის ტექსტში ვხვდებით სიტყვას - γούλου</rdg>
-              </app></p>
-            </div>
-
+        
             <div type="commentary" xml:lang="ka">
                 <p>ყურადღებას იპყრობს დაწერილობა γουλου, სიტყვისთვის δούλου, რაც ბერძნული ენის განვითარების მთელ მანძილზე გუტურალთა და დენტალთა მონაცვლეობით უნდა აიხსნას.</p>
                 <p>საკუთარი სახელი კლიმენტი - Κλήμεντος პირობითად არის აღდგენილი.</p>

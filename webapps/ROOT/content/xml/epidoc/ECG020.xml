@@ -108,8 +108,8 @@
     <facsimile>
         <surface>
             <graphic url="ecg020.jpg">
-                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/45/">ვანის ბეჭედი, 1986</desc>
-                <desc xml:lang="en" ref="http://paleography.iliauni.edu.ge/digipal/page/45/">Ring from Vani, 1986</desc>
+                <desc xml:lang="ka">ვანის ბეჭედი, 1986</desc>
+                <desc xml:lang="en">Ring from Vani, 1986</desc>
             </graphic>
         </surface>
     </facsimile>

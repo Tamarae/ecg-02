@@ -118,12 +118,8 @@
                 <p></p>
             </div>
             
-           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p><app>
-              <rdg></rdg>
-              </app></p>
-             </div>
+           <div type="apparatus" xml:space="preserve"/>                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+         
            
             <div type="commentary">
                 <p>ცალკეული ასოების მიხედვით წარწერის აღდგენა ვერ ხერხდება.</p>

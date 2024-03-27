@@ -132,8 +132,8 @@
         <body>
              <div type="bibliography">
 
-                  <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები, <citedRange> 82</citedRange></bibl></p>
-                  <p><bibl n="2"><ptr target="#b136"/> ჯ. ამირანაშვილი, ადრეფეოდალური ხანის ქართული არქიტექტურისა და რელიეფური ქანდაკების ძეგლები, <citedRange> 35</citedRange></bibl></p>
+                  <p><bibl n="1"><ptr target="#b101"/> ნოდარ შოშიაშვილი, ქართული წარწერების კორპუსი, ლაპიდარული წარწერები, <citedRange>82</citedRange></bibl></p>
+                  <p><bibl n="2"><ptr target="#b136"/> ჯ. ამირანაშვილი, ადრეფეოდალური ხანის ქართული არქიტექტურისა და რელიეფური ქანდაკების ძეგლები, <citedRange>35</citedRange></bibl></p>
 
             </div>
               <div type="edition" xml:lang="ka" ana="mtavruli" xml:space="preserve">

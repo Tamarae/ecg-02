@@ -139,7 +139,7 @@
                                 <w lemma="იგი"><supplied reason="lost">მას</supplied></w>
                    </ab>
                </div>
-           <div type="apparatus" xml:space="preserve">
+        <!--   <div type="apparatus" xml:space="preserve"/>
 
              <listApp>
                  <app loc="1">
@@ -147,7 +147,7 @@
                     <rdg resp="ივანე ჯავახიშვილი">რაბის</rdg>
                  </app>
                  </listApp>
-                 </div>
+                 </div>-->  
 
             <div type="translation" xml:lang="ka">
              <p>ღვთის სახელით, მე ზვიად ერისთავი, ძე სულკურთხეულისა არაბა ერისათავისა, ამ პატიოსანი ხატის შემკობის ღირსი გავხდი.

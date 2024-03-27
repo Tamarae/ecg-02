@@ -117,13 +117,9 @@
                 <p>სოსიბიოსი</p>
             </div>
 
-           <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p><app><lem>Σωσίβιος</lem>
-              <rdg resp="თ. ყაუხჩიშვილი">Σωσιβίου</rdg>
-              </app>
-              </p>
-            </div>
+           <div type="apparatus" xml:space="preserve"/>                                                                                                                                                          <!-- კრიტიკული აპარატი -->
+              
+          
 
             <div type="commentary">
                 <p>ცუდად დაცული წარწერა არ იძლევა დათარიღების საშუალებას. ნივთი არქ. მონაპოვარის საფუძველზე თარიღდება.</p>

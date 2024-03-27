@@ -82,7 +82,7 @@
         <facsimile>
         <surface>
             <graphic url="ecg1063.jpg">
-                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/40/">ხცისი</desc>
+                <desc xml:lang="ka" >ხცისი</desc>
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
@@ -150,8 +150,7 @@
                 <p></p>
             </div>
 
-            <div type="apparatus" xml:space="preserve">
-            </div>
+            <div type="apparatus" xml:space="preserve"/>
 
             <div type="commentary">
                 <p>გ. ჩუბინაშვილი: „ტექსტის ბოლოს ამ წარწერის ავტორს, როგორც ჩანს, შეცდომა დაუშვია და «ძმათას» ნაცვლად ამოუკვეთავს სიტყვა «მამათა».

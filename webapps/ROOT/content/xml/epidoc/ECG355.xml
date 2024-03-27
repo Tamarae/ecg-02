@@ -158,7 +158,7 @@
                  </ab>
                </div>
 
-            <div type="apparatus" xml:space="preserve">
+         <!--    <div type="apparatus" xml:space="preserve"/>
 
              <listApp>
                  <app loc="2">
@@ -197,7 +197,7 @@
                      </app>
 
                 </listApp>
-            </div>
+            </div> -->
 
          <div type="translation" xml:lang="ka">
              <p> † ღმრთის, მამის, ძის და სული წმიდის სახელით, წმიდა ღმრთისმშობლის, წმიდა იოვანე ნათლისმცემლის,

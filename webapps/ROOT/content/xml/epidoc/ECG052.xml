@@ -205,36 +205,36 @@
                     ვინც აქ თაყვანისცეს, იგი შეიწყალოს ღმერთმა და ვინც ამ ეკლესიის მაშენებლის, დავით ეპისკოპოსისთვის, ილოცოს, ისიც შეიწყალოს ღმერთმა, ამინ, ამინ.
                 </p>
             </div>
-            <div type="apparatus" xml:space="preserve">
+           <!-- x<div type="apparatus" xml:space="preserve"/>
 
                 <p><app loc="1"> <lem> <supplied reason="lost">შეწევნა</supplied> </lem>
                  <rdg resp="ლევან მუსხელიშვილი">სახელითა</rdg>
-                 </app></p>
+                 
 
                 <p><app loc="2"> <lem> <supplied reason="lost">დაწყება</supplied> </lem>
                 <rdg resp="აკაკი შანიძე">ხიქმნა</rdg>
                 <rdg resp="აკაკი შანიძე 1">დახიდვა</rdg>
                 <rdg resp="შალვა ამირანაშვილი">სრულ ხიქმნა</rdg>
-                 </app></p>
+                 
 
                 <p><app loc="2"> <lem> <supplied reason="lost">შენება</supplied> </lem>
                 <rdg resp="აკაკი შანიძე">დაწყებაჲ</rdg>
                 <rdg resp="აკაკი შანიძე 1">საფუძველი</rdg>
-                 </app></p>
+                 
 
                   <p><app loc="3"> <lem> <supplied reason="lost"><expan>შ<ex>ემდგომა</ex>დ</expan></supplied> </lem>
                 <rdg resp="აკაკი შანიძე 1">კავატ მეფისა ზე</rdg>
-                 </app></p>
+                 
 
                  <p><app loc="3"> <lem> <supplied reason="lost">განსრულება</supplied> </lem>
                 <rdg resp="აკაკი შანიძე">განხეშორა</rdg>
-                 </app></p>
+                 
 
                 <p><app loc="3"> <lem> <supplied reason="lost">მაშენებელ</supplied></lem>
                 <rdg resp="აკაკი შანიძე">ეკლესიაჲსა</rdg>
                 <rdg resp="მიხეილ თარხნიშვილი">აღმშენებელსა</rdg>
-                 </app></p>
-            </div>
+                 
+            </div>--> 
             <div type="commentary">
                 <p> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #2. წარწერას განკვეთილობის ნიშნები არ ახლავს. სიტყვები ერთმანეთისაგან არ არის დაცილებული.
                     ქარაგმის ნიშნად გამოყენებულია საშუალო ზომის სწორი, განივი ხაზი (გვხვდება ორჯერ: მე-3 და მე-4 სტრიქონებში სიტყვაზე ღ~ნ - ღ(მერთმა)ნ.

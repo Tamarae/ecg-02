@@ -179,7 +179,7 @@
 
             </div>
 
-            <div type="apparatus" xml:space="preserve">
+          <!--  <div type="apparatus" xml:space="preserve"/>
 
              <listApp>
                  <app loc="1">
@@ -192,7 +192,7 @@
                     <rdg resp="ვალერი სილოგავა">[ერისთ(ა)ვთა ე(რის)თა]ვისა</rdg>
                  </app>
             </listApp>
-                </div>
+                </div> --> 
 
          <div type="translation" xml:lang="ka">
              <p>✱ ჰოი, ღმრთის დედაო, მიითვალე მცირედი მსახურება შენი მონის, რატი ერისთავთა ერისთავისა და
