@@ -32,9 +32,9 @@
                 საქართველოში აღმოჩენილი ეპიგრაფიკული ძეგლების ელექტრონული გამოცემა.
               </p>
               
-              <span class="read-more">
+             <!-- <span class="read-more">
                 <i18n:text i18n:key="read-more">...გაგრძელება</i18n:text>
-              </span>
+              </span>  -->
             </div>
           </div>
           
