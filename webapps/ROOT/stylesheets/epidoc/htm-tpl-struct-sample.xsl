@@ -468,8 +468,8 @@
   </xsl:template>
   
   <!-- uncomment the following template to activate external links in @ref -->
-    <!--<xsl:template priority="10" match="t:*[starts-with(@ref, 'http')]">
+   <xsl:template priority="10" match="t:*[starts-with(@ref, 'http')]">
       <a href="{@ref}" target="_blank"><xsl:apply-templates/></a>
-    </xsl:template>-->
+    </xsl:template>
   
 </xsl:stylesheet>
