@@ -89,8 +89,8 @@
     <facsimile>
         <surface>
             <graphic url="ecg1006.jpg">
-                <desc xml:lang="ka" ref="paleography.iliauni.edu.ge/digipal/page/17/">უმ ლეისუნის წარწერა</desc>
-                <desc xml:lang="en"></desc>
+                <desc xml:lang="ka">უმ ლეისუნის წარწერა</desc>
+                <desc xml:lang="en">Umm Leisun inscription</desc>
             </graphic>
         </surface>
     </facsimile>
