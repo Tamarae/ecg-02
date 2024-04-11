@@ -39,7 +39,7 @@
                                     <objectType  xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფილა</objectType>
                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">Plaque</objectType>
                                     <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
-                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Stone</material>
                                       <dimensions unit="cm">
                                         <width/>
                                         <height/>

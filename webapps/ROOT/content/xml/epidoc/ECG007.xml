@@ -113,8 +113,8 @@
         <facsimile>
         <surface>
             <graphic url="ecg007.jpg">
-                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/44/">ნოსირის სამშენებლო ფილა</desc>
-                <desc xml:lang="en" ref="http://paleography.iliauni.edu.ge/digipal/page/44/">Building plaque from Nosiri</desc>
+                <desc xml:lang="ka">ნოსირის სამშენებლო ფილა</desc>
+                <desc xml:lang="en">Building plaque from Nosiri</desc>
             </graphic>
         </surface>
     </facsimile>
